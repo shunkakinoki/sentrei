@@ -22,5 +22,9 @@
     "@semantic-release/exec": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "semantic-release": "^17.3.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
