@@ -1,9 +1,8 @@
 ## @sentrei/prettier [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.4...@sentrei/prettier@1.0.5) (2021-02-19)
 
-
 ### Bug Fixes
 
-* ini src index ([86aa8d9](https://github.com/sentrei/sentrei/commit/86aa8d9d84b609146df65af753ca2f24870fda6e))
+- ini src index ([86aa8d9](https://github.com/sentrei/sentrei/commit/86aa8d9d84b609146df65af753ca2f24870fda6e))
 
 ## @sentrei/prettier [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.3...@sentrei/prettier@1.0.4) (2021-02-19)
 
