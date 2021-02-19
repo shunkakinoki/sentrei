@@ -22,7 +22,7 @@ module.exports = {
     "prettier",
     "prettier/react",
   ],
-  ignorePatterns: ["**/node_modules/**/*", "**/.next/**/*"],
+  ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
     {
       files: ["*.js", "*.jsx"],
