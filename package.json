@@ -2,12 +2,13 @@
   "name": "@sentrei/sentrei",
   "version": "1.0.0",
   "private": true,
-  "description": "Edge backend as a service",
+  "description": "The Edge Serverless Backend",
   "repository": "https://github.com/sentrei/sentrei",
   "license": "MIT",
   "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
   "workspaces": {
     "packages": [
+      "configurations/*",
       "packages/*"
     ]
   },
@@ -21,8 +22,8 @@
     "multi-semantic-release:check": "multi-semantic-release -d",
     "ncu:check": "ncu --deep -p yarn",
     "ncu:upgrade": "ncu --deep -u -p yarn",
-    "prettier:check": "prettier --check **/* --ignore-unknown",
-    "prettier:fix": "prettier --write **/* --ignore-unknown",
+    "prettier:check": "prettier --check . --ignore-unknown",
+    "prettier:fix": "prettier --write . --ignore-unknown",
     "release": "yarn run semantic-release && yarn run multi-semantic-release",
     "release:check": "yarn run semantic-release:check && yarn run multi-semantic-release:check",
     "semantic-release": "semantic-release",

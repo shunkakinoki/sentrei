@@ -5,9 +5,7 @@
     }
   },
   "npmClient": "yarn",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["configurations/*", "packages/*"],
   "useWorkspaces": true,
   "version": "independent"
 }
