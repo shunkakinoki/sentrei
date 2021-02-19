@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
-	"main": "src/tsconfig.json",
+  "main": "src/tsconfig.json",
   "files": [
     "src/tsconfig.json"
   ],
