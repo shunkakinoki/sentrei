@@ -15,12 +15,6 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    [
-      "@semantic-release/exec",
-      {
-        "prepareCmd": "yarn run fix"
-      }
-    ],
     "@semantic-release/github",
     [
       "@semantic-release/git",
