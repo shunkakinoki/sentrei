@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
-  "main": "src/tsconfig.json",
+  "main": "tsconfig.json",
   "files": [
-    "src/tsconfig.json"
+    "tsconfig.json"
   ],
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
