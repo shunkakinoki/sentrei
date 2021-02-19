@@ -34,6 +34,7 @@
     "depcheck": "^1.4.0",
     "json-sort-cli": "^1.18.5",
     "lerna": "^3.22.1",
+    "multi-semantic-release": "^2.6.0",
     "npm-check-updates": "^11.1.4",
     "prettier": "^2.2.1",
     "sort-package-json": "^1.49.0"
