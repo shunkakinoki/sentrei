@@ -12,6 +12,9 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
+  "files": [
+    "src/tsconfig.json"
+  ],
   "dependencies": {},
   "devDependencies": {},
   "publishConfig": {
