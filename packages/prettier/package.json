@@ -11,7 +11,7 @@
   "author": "Shun Kakinoki",
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
-  },  
+  },
   "dependencies": {},
   "devDependencies": {}
 }
