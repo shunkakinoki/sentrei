@@ -13,7 +13,9 @@
   "files": [
     "src/.releaserc.json"
   ],
-  "scripts": {},
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
   "dependencies": {},
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
