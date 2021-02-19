@@ -1,7 +1,7 @@
 {
   "name": "@sentrei/eslint",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "homepage": "https://github.com/sentrei/sentrei",
   "repository": {
     "type": "git",
