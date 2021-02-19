@@ -1,3 +1,10 @@
+## @sentrei/depcheck [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.1...@sentrei/depcheck@1.1.2) (2021-02-19)
+
+
+### Performance Improvements
+
+* update ([d87a190](https://github.com/sentrei/sentrei/commit/d87a19007098910ecd31f800de17ce2698b03ebd))
+
 ## @sentrei/depcheck [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.0...@sentrei/depcheck@1.1.1) (2021-02-19)
 
 ### Performance Improvements
