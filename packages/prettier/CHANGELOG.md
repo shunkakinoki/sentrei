@@ -1,3 +1,9 @@
+## @sentrei/prettier [1.0.7](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.6...@sentrei/prettier@1.0.7) (2021-02-19)
+
+### Bug Fixes
+
+- refactor src files ([dba6b6c](https://github.com/sentrei/sentrei/commit/dba6b6c112ed1beff8b21ad775746b4ee0566f8a))
+
 ## @sentrei/prettier [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.5...@sentrei/prettier@1.0.6) (2021-02-19)
 
 ### Performance Improvements
