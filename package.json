@@ -2,7 +2,7 @@
   "name": "@sentrei/sentrei",
   "version": "1.0.0",
   "private": true,
-  "description": "Edge backend as a service",
+  "description": "The Edge Serverless Backend",
   "repository": "https://github.com/sentrei/sentrei",
   "license": "MIT",
   "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
