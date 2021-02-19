@@ -1,3 +1,9 @@
+# @sentrei/semantic-release [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.6...@sentrei/semantic-release@1.1.0) (2021-02-19)
+
+### Features
+
+- semantic release monorepo ([8139e04](https://github.com/sentrei/sentrei/commit/8139e04cb6a4f890a75752f25500244134b3bc4d))
+
 # @sentrei/semantic-release [1.1.0-beta.1](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.6...@sentrei/semantic-release@1.1.0-beta.1) (2021-02-19)
 
 ### Features
