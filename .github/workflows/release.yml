@@ -35,8 +35,8 @@ jobs:
           yarn run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           GIT_AUTHOR_NAME: "sentrei-bot"
           GIT_COMMITTER_NAME: "sentrei-bot"
           GIT_AUTHOR_EMAIL: "70007101+sentrei-bot@users.noreply.github.com"
           GIT_COMMITTER_EMAIL: "70007101+sentrei-bot@users.noreply.github.com"
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
