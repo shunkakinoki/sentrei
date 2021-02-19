@@ -1,15 +1,15 @@
 {
-  "author": "Shun Kakinoki",
-  "dependencies": {},
-  "devDependencies": {},
-  "homepage": "https://github.com/shunkakinoki/configurations",
-  "license": "MIT",
   "name": "@sentrei/prettier",
+  "version": "1.0.0",
   "private": false,
+  "homepage": "https://github.com/shunkakinoki/configurations",
   "repository": {
     "type": "git",
     "url": "https://github.com/shunkakinoki/configurations.git"
   },
+  "license": "MIT",
+  "author": "Shun Kakinoki",
   "scripts": {},
-  "version": "1.0.0"
+  "dependencies": {},
+  "devDependencies": {}
 }

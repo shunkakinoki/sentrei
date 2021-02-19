@@ -1,11 +1,11 @@
 {
   "name": "@sentrei/sentrei",
   "version": "1.0.0",
+  "private": true,
   "description": "Edge backend as a service",
   "repository": "https://github.com/sentrei/sentrei",
-  "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
   "workspaces": {
     "packages": [
       "packages/*"
@@ -27,9 +27,7 @@
     "sort-package-json:fix": "sort-package-json 'package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
-    "commitizen": "^4.2.3",
     "depcheck": "^1.4.0",
-    "git-cz": "^4.7.6",
     "json-sort-cli": "^1.18.5",
     "lerna": "^3.22.1",
     "npm-check-updates": "^11.1.4",
