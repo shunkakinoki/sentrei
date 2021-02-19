@@ -1,9 +1,8 @@
 ## @sentrei/depcheck [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.2...@sentrei/depcheck@1.1.3) (2021-02-19)
 
-
 ### Performance Improvements
 
-* refactor main files ([4e8f43d](https://github.com/sentrei/sentrei/commit/4e8f43dbef81b79ce52b0813a4f247023982aa85))
+- refactor main files ([4e8f43d](https://github.com/sentrei/sentrei/commit/4e8f43dbef81b79ce52b0813a4f247023982aa85))
 
 ## @sentrei/depcheck [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.1...@sentrei/depcheck@1.1.2) (2021-02-19)
 
