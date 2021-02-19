@@ -1,0 +1,39 @@
+{
+  "name": "@sentrei/sentrei",
+  "version": "1.0.0",
+  "description": "Edge backend as a service",
+  "repository": "https://github.com/sentrei/sentrei",
+  "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "check": "yarn run depcheck && yarn run lint && yarn run release:check",
+    "fix": "yarn run jsonsort:fix && yarn run sort-package-json:fix && yarn run prettier:fix",
+    "jsonsort:check": "jsonsort .devcontainer .vscode locales -a -c",
+    "jsonsort:fix": "jsonsort .devcontainer .vscode locales -a",
+    "lint": "yarn run jsonsort:check && yarn run sort-package-json:check && yarn run prettier:check",
+    "ncu:check": "ncu --deep -p yarn",
+    "ncu:upgrade": "ncu --deep -u -p yarn",
+    "prettier:check": "prettier --check **/* --ignore-unknown",
+    "prettier:fix": "prettier --write **/* --ignore-unknown",
+    "release": "semantic-release",
+    "release:check": "semantic-release -d",
+    "sort-package-json:check": "sort-package-json 'package.json' 'packages/*/package.json' --check",
+    "sort-package-json:fix": "sort-package-json 'package.json' 'packages/*/package.json'"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "depcheck": "^1.4.0",
+    "git-cz": "^4.7.6",
+    "json-sort-cli": "^1.18.5",
+    "lerna": "^3.22.1",
+    "npm-check-updates": "^11.1.4",
+    "prettier": "^2.2.1",
+    "sort-package-json": "^1.49.0"
+  }
+}

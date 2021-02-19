@@ -1,0 +1,19 @@
+{
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--ignore-engines"]
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "message": "chore: Release %s"
+    },
+    "version": {
+      "push": false
+    }
+  },
+  "npmClient": "yarn",
+  "packages": ["packages/*"],
+  "useWorkspaces": true,
+  "version": "fixed"
+}

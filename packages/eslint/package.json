@@ -1,0 +1,27 @@
+{
+  "author": "Shun Kakinoki",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-editorconfig": "^3.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-tailwind": "^0.2.0"
+  },
+  "homepage": "https://github.com/shunkakinoki/configurations",
+  "license": "MIT",
+  "name": "@sentrei/eslint",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shunkakinoki/configurations.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
