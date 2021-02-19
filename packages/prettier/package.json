@@ -1,7 +1,7 @@
 {
   "name": "@sentrei/prettier",
   "version": "1.0.3",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "repository": {
     "type": "git",
