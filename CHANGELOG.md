@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/sentrei/sentrei/compare/v1.1.0...v1.1.1) (2021-02-19)
+
+### Performance Improvements
+
+- refactor package tsconfig ([4a5a4db](https://github.com/sentrei/sentrei/commit/4a5a4db213e392439059252e7384856525a2405f))
+
 # [1.1.0](https://github.com/sentrei/sentrei/compare/v1.0.0...v1.1.0) (2021-02-19)
 
 ### Features
