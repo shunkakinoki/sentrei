@@ -1,3 +1,9 @@
+## @sentrei/semantic-release [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.5...@sentrei/semantic-release@1.0.6) (2021-02-19)
+
+### Bug Fixes
+
+- ini fix release ([a5ab745](https://github.com/sentrei/sentrei/commit/a5ab7450730e305768fa66e5a838b60db2180276))
+
 ## @sentrei/semantic-release [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.4...@sentrei/semantic-release@1.0.5) (2021-02-19)
 
 ### Bug Fixes
