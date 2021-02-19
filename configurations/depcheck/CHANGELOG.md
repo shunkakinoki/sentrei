@@ -1,3 +1,9 @@
+# @sentrei/depcheck [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.4...@sentrei/depcheck@1.2.0) (2021-02-19)
+
+### Features
+
+- migrate to configurations ([ecb7f82](https://github.com/sentrei/sentrei/commit/ecb7f82fa072f4e8309ec3658af7b519f57221f6))
+
 ## @sentrei/depcheck [1.1.4](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.3...@sentrei/depcheck@1.1.4) (2021-02-19)
 
 ### Bug Fixes
