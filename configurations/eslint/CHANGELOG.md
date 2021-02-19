@@ -1,3 +1,9 @@
+# @sentrei/eslint [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.0.6...@sentrei/eslint@1.1.0) (2021-02-19)
+
+### Features
+
+- migrate to configurations ([ecb7f82](https://github.com/sentrei/sentrei/commit/ecb7f82fa072f4e8309ec3658af7b519f57221f6))
+
 ## @sentrei/eslint [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.0.5...@sentrei/eslint@1.0.6) (2021-02-19)
 
 ### Bug Fixes
