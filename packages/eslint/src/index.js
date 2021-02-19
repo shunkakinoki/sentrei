@@ -75,9 +75,9 @@ module.exports = {
     "sort-keys": [
       "error",
       "asc",
-      { caseSensitive: true, natural: true, minKeys: 2 },
+      {caseSensitive: true, natural: true, minKeys: 2},
     ],
-    "sort-vars": ["error", { ignoreCase: true }],
+    "sort-vars": ["error", {ignoreCase: true}],
   },
   settings: {
     "import/parsers": {
