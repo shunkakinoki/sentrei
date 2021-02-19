@@ -1,3 +1,10 @@
+## @sentrei/eslint [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.0.3...@sentrei/eslint@1.0.4) (2021-02-19)
+
+
+### Bug Fixes
+
+* ini public packages ([913e3dd](https://github.com/sentrei/sentrei/commit/913e3dd2432e8d3ed6b4cd019300c313620505b3))
+
 ## @sentrei/eslint [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.0.2...@sentrei/eslint@1.0.3) (2021-02-19)
 
 ### Performance Improvements
