@@ -1,9 +1,8 @@
 ## @sentrei/semantic-release [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.4...@sentrei/semantic-release@1.0.5) (2021-02-19)
 
-
 ### Bug Fixes
 
-* refactor index.js semantic release ([9176c2d](https://github.com/sentrei/sentrei/commit/9176c2dc76c1d23b552ddfa6cfb47efe2fecea35))
+- refactor index.js semantic release ([9176c2d](https://github.com/sentrei/sentrei/commit/9176c2dc76c1d23b552ddfa6cfb47efe2fecea35))
 
 ## @sentrei/semantic-release [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.3...@sentrei/semantic-release@1.0.4) (2021-02-19)
 
