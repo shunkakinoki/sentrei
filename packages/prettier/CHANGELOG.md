@@ -1,9 +1,8 @@
 ## @sentrei/prettier [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.5...@sentrei/prettier@1.0.6) (2021-02-19)
 
-
 ### Performance Improvements
 
-* refactor custom config ([497238e](https://github.com/sentrei/sentrei/commit/497238e425fb0fb042f078c0fcf57c5d219bf1cf))
+- refactor custom config ([497238e](https://github.com/sentrei/sentrei/commit/497238e425fb0fb042f078c0fcf57c5d219bf1cf))
 
 ## @sentrei/prettier [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.4...@sentrei/prettier@1.0.5) (2021-02-19)
 
