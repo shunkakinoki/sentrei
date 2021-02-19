@@ -13,5 +13,9 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }

@@ -1,9 +1,8 @@
 ## @sentrei/prettier [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.0.0...@sentrei/prettier@1.0.1) (2021-02-19)
 
-
 ### Performance Improvements
 
-* ini script yarn run fix ([f3928d6](https://github.com/sentrei/sentrei/commit/f3928d6d1ee482697bd06e1d9ab17a47358274f5))
+- ini script yarn run fix ([f3928d6](https://github.com/sentrei/sentrei/commit/f3928d6d1ee482697bd06e1d9ab17a47358274f5))
 
 # @sentrei/prettier 1.0.0 (2021-02-19)
 
