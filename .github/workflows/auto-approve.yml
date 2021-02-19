@@ -7,7 +7,7 @@ jobs:
       - if: github.actor == 'shunkakinoki'
         uses: actions/github-script@v3
         with:
-          github-token: ${{ secrets.BOT_TOKEN}}
+          github-token: ${{ secrets.BOT_TOKEN }}
           script: |
             github.pulls.createReview({
               pull_number: ${{ github.event.pull_request.number }},
