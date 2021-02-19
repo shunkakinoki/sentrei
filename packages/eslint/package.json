@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
+  "main": "index.js",
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
