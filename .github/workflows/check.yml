@@ -20,3 +20,10 @@ jobs:
           yarn install --frozen-lockfile
       - run: |
           yarn run check
+      - if: failure()
+        run: |
+          yarn run fix
+          git config --local user.name 'github-actions[bot]'
+          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "chore: [sentrei-auto-fix]"
+          git push
