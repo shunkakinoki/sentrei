@@ -8,6 +8,7 @@
   "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
   "workspaces": {
     "packages": [
+      "configurations/*",
       "packages/*"
     ]
   },
