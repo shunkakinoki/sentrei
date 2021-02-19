@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
-  "scripts": {
-    "fix": "cd ../.. && yarn run fix"
-  },
   "files": [
     "src/tsconfig.json"
   ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
   "dependencies": {},
   "devDependencies": {},
   "publishConfig": {
