@@ -1,9 +1,8 @@
 ## @sentrei/semantic-release [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.2...@sentrei/semantic-release@1.0.3) (2021-02-19)
 
-
 ### Performance Improvements
 
-* refactor main files ([4e8f43d](https://github.com/sentrei/sentrei/commit/4e8f43dbef81b79ce52b0813a4f247023982aa85))
+- refactor main files ([4e8f43d](https://github.com/sentrei/sentrei/commit/4e8f43dbef81b79ce52b0813a4f247023982aa85))
 
 ## @sentrei/semantic-release [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.0.1...@sentrei/semantic-release@1.0.2) (2021-02-19)
 
