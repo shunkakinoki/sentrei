@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.0...@sentrei/eslint@1.1.1) (2021-02-20)
+
+### Performance Improvements
+
+- refactor eslint ignore ([8d3ec77](https://github.com/sentrei/sentrei/commit/8d3ec771becd780ebd1b81db136ae50bb9efdd1f))
+
 # @sentrei/eslint [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.0.6...@sentrei/eslint@1.1.0) (2021-02-19)
 
 ### Features
