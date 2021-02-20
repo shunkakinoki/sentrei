@@ -1,3 +1,4 @@
 {
-  "extends": "@sentrei/tsconfig"
+  "extends": "@sentrei/tsconfig",
+  "ignorePatterns": ["**/configurations/eslint/**"]
 }
