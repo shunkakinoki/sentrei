@@ -16,11 +16,11 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.6"
   },
+  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
