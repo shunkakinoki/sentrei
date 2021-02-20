@@ -1,3 +1,43 @@
+# [1.3.0](https://github.com/sentrei/sentrei/compare/v1.2.0...v1.3.0) (2021-02-20)
+
+### Bug Fixes
+
+- yarn run fix ([600a0fa](https://github.com/sentrei/sentrei/commit/600a0fa97d665ff1812f5a759aef30a4ce8a4df2))
+
+### Features
+
+- ini apps web ([670131d](https://github.com/sentrei/sentrei/commit/670131d0ff55ee6f97289a175c35a2b5d1532efa))
+- ini dashboard apps ([7080e4e](https://github.com/sentrei/sentrei/commit/7080e4ebebddd65a0bff08868ed96332453e092b))
+- ini demo apps ([ef73c95](https://github.com/sentrei/sentrei/commit/ef73c9539c10031aeed3c52569bfe12cab4a39ac))
+- ini landing apps ([e0ea825](https://github.com/sentrei/sentrei/commit/e0ea825860ed33a7a3f74409424906926209a420))
+- ini lint commit packages ([2512842](https://github.com/sentrei/sentrei/commit/2512842eed6bcfa7de4154bf943fc74191cc7d42))
+- ini ncu package ([d350c50](https://github.com/sentrei/sentrei/commit/d350c50e77b0bd2007dc7dd546b7de7efe5d7f5b))
+- ini postcss package ([e5922e0](https://github.com/sentrei/sentrei/commit/e5922e073e2ee667d2ce20ed250d4878e64bcc34))
+- ini tailwind package ([9993f05](https://github.com/sentrei/sentrei/commit/9993f05aeb8d7517f90efa84b986fb59c4c3af3b))
+
+### Performance Improvements
+
+- add [@typescript-eslint](https://github.com/typescript-eslint) package ([e606943](https://github.com/sentrei/sentrei/commit/e606943440898f38462a99c97fa6d4338a45acbd))
+- add json lint-staged ([1d664a1](https://github.com/sentrei/sentrei/commit/1d664a1201cfb1c71ac9e4a0dbad0b85edf17d4d))
+- complete refactor package ([a1620f9](https://github.com/sentrei/sentrei/commit/a1620f9ff65dff84631cfcfccab670864f5ab891))
+- complete refactor root ([81f97b3](https://github.com/sentrei/sentrei/commit/81f97b382a15be02079b930e39d49ddf28351c17))
+- ini lintstaged config ([0b64258](https://github.com/sentrei/sentrei/commit/0b64258c3b8d14db8fbf37711aa64aba61618718))
+- ini npm rc ([0f05d72](https://github.com/sentrei/sentrei/commit/0f05d72b70ff66603d22f588b1ec1fe49c5c479c))
+- ini nvmrc version ([efbe2de](https://github.com/sentrei/sentrei/commit/efbe2de2f49669ca965168b7e8e5a1d76b0c3469))
+- ini prettier plugin ([a9cc457](https://github.com/sentrei/sentrei/commit/a9cc4579d612f9c0670d725eedda41d29335bf07))
+- ini script sh ([ce1cf2c](https://github.com/sentrei/sentrei/commit/ce1cf2c0d28daa2f5d639acd76bb8f8dfea3e2e5))
+- ini sort-package-json for lint-staged ([4629357](https://github.com/sentrei/sentrei/commit/462935737ee438f975cfd88ce193ff34497f9877))
+- refactor configurations depackages ([1e205de](https://github.com/sentrei/sentrei/commit/1e205de0b262e3dd1b4a6a40bbd4a9e57ec2a972))
+- refactor eslint config ([0d75d49](https://github.com/sentrei/sentrei/commit/0d75d49913abbd3e9feff97286f21c9416a3853c))
+- refactor eslint postcss for next ([2df24c6](https://github.com/sentrei/sentrei/commit/2df24c60b38a9339ebcbda00a5c91650faf5e036))
+- refactor gha ([b996105](https://github.com/sentrei/sentrei/commit/b996105507bd5b9a50fcd16f4011e34da072be13))
+- refactor ncu package ([91f1ba0](https://github.com/sentrei/sentrei/commit/91f1ba026807a509e722328b5138207c1320bd99))
+- refactor prettier bracket spacing ([808cc31](https://github.com/sentrei/sentrei/commit/808cc318c2c88270ca2119da4a8bb898161a6a4b))
+- refactor public for ncu ([0798850](https://github.com/sentrei/sentrei/commit/0798850bfbd9594222a970b93965c5d5c8b0403a))
+- refactor release auth ([a37cccf](https://github.com/sentrei/sentrei/commit/a37cccf9b22d962e223a51e73089238882123f2a))
+- refactor scripts sh ([4707396](https://github.com/sentrei/sentrei/commit/4707396b4bff47931a637dde097dfbe35c327455))
+- upgrade tsconfig settings ([826e1b3](https://github.com/sentrei/sentrei/commit/826e1b3ed11bd6bfd52d6065a79b4ad774a9b7cd))
+
 # [1.2.0](https://github.com/sentrei/sentrei/compare/v1.1.4...v1.2.0) (2021-02-20)
 
 ### Features
