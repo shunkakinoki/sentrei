@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/sentrei/sentrei/compare/v1.1.4...v1.2.0) (2021-02-20)
+
+### Features
+
+- refactor configuration packages ([3c3dd9d](https://github.com/sentrei/sentrei/commit/3c3dd9d809869706bfc91615d1b26edbe442a4ac))
+
 ## [1.1.4](https://github.com/sentrei/sentrei/compare/v1.1.3...v1.1.4) (2021-02-20)
 
 ### Performance Improvements
