@@ -13,7 +13,9 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "npm-check-updates": "^11.1.4"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
