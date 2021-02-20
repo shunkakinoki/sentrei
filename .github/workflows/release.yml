@@ -18,7 +18,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
-          registry-url: https://registry.npmjs.org/
       - uses: actions/cache@v2
         with:
           path: |
