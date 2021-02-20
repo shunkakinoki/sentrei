@@ -1,3 +1,9 @@
+## @sentrei/tsconfig [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.2.0...@sentrei/tsconfig@1.2.1) (2021-02-20)
+
+### Performance Improvements
+
+- upgrade tsconfig settings ([826e1b3](https://github.com/sentrei/sentrei/commit/826e1b3ed11bd6bfd52d6065a79b4ad774a9b7cd))
+
 # @sentrei/tsconfig [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.1.1...@sentrei/tsconfig@1.2.0) (2021-02-20)
 
 ### Features
