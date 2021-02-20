@@ -1,3 +1,9 @@
+# @sentrei/depcheck [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.2.0...@sentrei/depcheck@1.3.0) (2021-02-20)
+
+### Features
+
+- refactor configuration packages ([3c3dd9d](https://github.com/sentrei/sentrei/commit/3c3dd9d809869706bfc91615d1b26edbe442a4ac))
+
 # @sentrei/depcheck [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.1.4...@sentrei/depcheck@1.2.0) (2021-02-19)
 
 ### Features
