@@ -1,8 +1,8 @@
 blockingBaseBranches:
-- main
+  - main
 deleteBranchAfterMerge: true
 mergeMethod: merge
 requiredLabels:
-- ready-to-merge
+  - ready-to-merge
 reportStatus: true
 updateBranch: true
