@@ -14,6 +14,11 @@
   },
   "scripts": {
     "check": "yarn run depcheck && yarn run lint && yarn run release:check",
+    "depcheck": "yarn run depcheck:root && yarn run depcheck:packages",
+    "depcheck:packages": "lerna exec --stream --no-bail 'yarn run depcheck .' || true",
+    "depcheck:root": "depcheck .",
+    "eslint:check": "eslint . -c .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
+    "eslint:fix": "eslint --fix . -c .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
     "fix": "yarn run jsonsort:fix && yarn run sort-package-json:fix && yarn run prettier:fix",
     "jsonsort:check": "jsonsort .devcontainer .vscode locales -a -c",
     "jsonsort:fix": "jsonsort .devcontainer .vscode locales -a",
