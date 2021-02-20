@@ -1,3 +1,9 @@
+## @sentrei/stylelint [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/stylelint@1.0.0...@sentrei/stylelint@1.0.1) (2021-02-20)
+
+### Performance Improvements
+
+- refactor configurations depackages ([1e205de](https://github.com/sentrei/sentrei/commit/1e205de0b262e3dd1b4a6a40bbd4a9e57ec2a972))
+
 # @sentrei/stylelint 1.0.0 (2021-02-20)
 
 ### Features
