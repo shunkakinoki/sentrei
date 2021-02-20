@@ -26,6 +26,9 @@ module.exports = {
   overrides: [
     {
       files: ["*.js", "*.jsx"],
+      rules: {
+        "@typescript-eslint/no-unsafe-assignment": 0,
+      },
     },
   ],
   parser: "@typescript-eslint/parser",
