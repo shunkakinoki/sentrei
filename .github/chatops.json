@@ -1,0 +1,18 @@
+[
+  {
+    "allow_edits": true,
+    "command": "lgtm",
+    "dispatch_type": "repository",
+    "event_type_suffix": "-cmd",
+    "issue_type": "pull-request",
+    "permission": "maintain"
+  },
+  {
+    "allow_edits": true,
+    "command": "sync",
+    "dispatch_type": "repository",
+    "event_type_suffix": "-cmd",
+    "issue_type": "both",
+    "permission": "maintain"
+  }
+]

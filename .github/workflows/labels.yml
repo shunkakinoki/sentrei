@@ -1,0 +1,16 @@
+name: Labels
+on:
+  push:
+    branches:
+      - alpha
+      - beta
+      - main
+jobs:
+  labels:
+    if: github.actor != 'sentrei-bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: crazy-max/ghaction-github-labeler@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
