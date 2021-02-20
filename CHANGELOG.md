@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/sentrei/sentrei/compare/v1.1.2...v1.1.3) (2021-02-20)
+
+### Performance Improvements
+
+- ini refactor root tsconfig excludes ([51b8725](https://github.com/sentrei/sentrei/commit/51b872523be8166c6853257424b5a35e14302ebf))
+
 ## [1.1.2](https://github.com/sentrei/sentrei/compare/v1.1.1...v1.1.2) (2021-02-20)
 
 ### Performance Improvements
