@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "rootDir": "."
+  },
   "extends": "@sentrei/tsconfig",
-  "ignorePatterns": ["**/configurations/eslint/**"]
+  "include": ["tsconfig.json"]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/prettier",
-  "version": "1.2.0",
+  "name": "@sentrei/postcss",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "repository": {
@@ -18,9 +18,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "prettier-plugin-packagejson": "^2.2.10",
-    "prettier-plugin-sort-json": "^0.0.2"
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6"
   },
   "publishConfig": {
     "access": "public",

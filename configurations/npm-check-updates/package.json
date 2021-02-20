@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/prettier",
-  "version": "1.2.0",
+  "name": "@sentrei/npm-check-updates",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "repository": {
@@ -9,19 +9,11 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
-  "main": "src/index.js",
-  "files": [
-    "src/index.js"
-  ],
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {},
-  "devDependencies": {
-    "prettier": "^2.2.1",
-    "prettier-plugin-packagejson": "^2.2.10",
-    "prettier-plugin-sort-json": "^0.0.2"
-  },
+  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

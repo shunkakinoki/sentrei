@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/prettier",
-  "version": "1.2.0",
+  "name": "@sentrei/tailwind",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "repository": {
@@ -18,9 +18,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "prettier-plugin-packagejson": "^2.2.10",
-    "prettier-plugin-sort-json": "^0.0.2"
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.0.3"
   },
   "publishConfig": {
     "access": "public",
