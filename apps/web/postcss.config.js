@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ["@sentrei/postcss"],
-};
+module.exports = require("@sentrei/postcss");
