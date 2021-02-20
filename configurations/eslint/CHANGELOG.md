@@ -1,3 +1,15 @@
+## @sentrei/eslint [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.1...@sentrei/eslint@1.1.2) (2021-02-20)
+
+### Bug Fixes
+
+- yarn run fix ([600a0fa](https://github.com/sentrei/sentrei/commit/600a0fa97d665ff1812f5a759aef30a4ce8a4df2))
+
+### Performance Improvements
+
+- add [@typescript-eslint](https://github.com/typescript-eslint) package ([e606943](https://github.com/sentrei/sentrei/commit/e606943440898f38462a99c97fa6d4338a45acbd))
+- refactor eslint config ([0d75d49](https://github.com/sentrei/sentrei/commit/0d75d49913abbd3e9feff97286f21c9416a3853c))
+- refactor eslint postcss for next ([2df24c6](https://github.com/sentrei/sentrei/commit/2df24c60b38a9339ebcbda00a5c91650faf5e036))
+
 ## @sentrei/eslint [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.0...@sentrei/eslint@1.1.1) (2021-02-20)
 
 ### Performance Improvements
