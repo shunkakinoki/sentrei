@@ -8,6 +8,7 @@
   "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
   "workspaces": {
     "packages": [
+      "apps/*",
       "configurations/*",
       "packages/*"
     ]
@@ -20,8 +21,6 @@
     "eslint:check": "eslint . -c .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
     "eslint:fix": "eslint --fix . -c .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
     "fix": "yarn run jsonsort:fix && yarn run sort-package-json:fix && yarn run prettier:fix",
-    "jsonsort:check": "jsonsort .devcontainer .vscode locales -a -c",
-    "jsonsort:fix": "jsonsort .devcontainer .vscode locales -a",
     "lint": "yarn run jsonsort:check && yarn run sort-package-json:check && yarn run prettier:check",
     "multi-semantic-release": "multi-semantic-release",
     "multi-semantic-release:check": "multi-semantic-release -d",
@@ -37,10 +36,8 @@
     "sort-package-json:fix": "sort-package-json 'package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
-    "json-sort-cli": "^1.18.5",
     "lerna": "^3.22.1",
     "multi-semantic-release": "^2.6.0",
-    "npm-check-updates": "^11.1.4",
     "sort-package-json": "^1.49.0"
   }
 }
