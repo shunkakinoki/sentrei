@@ -70,14 +70,15 @@ module.exports = {
         shorthandLast: true,
       },
     ],
+    "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,
     "react/self-closing-comp": 1,
     "sort-keys": [
       "error",
       "asc",
-      {caseSensitive: true, minKeys: 2, natural: true},
+      { caseSensitive: true, minKeys: 2, natural: true },
     ],
-    "sort-vars": ["error", {ignoreCase: true}],
+    "sort-vars": ["error", { ignoreCase: true }],
   },
   settings: {
     "import/parsers": {
@@ -85,7 +86,7 @@ module.exports = {
     },
     "import/resolver": {
       typescript: {
-        project: "packages/*/tsconfig.json",
+        project: "tsconfig.json",
       },
     },
     react: {
