@@ -1,3 +1,9 @@
+## [1.1.4](https://github.com/sentrei/sentrei/compare/v1.1.3...v1.1.4) (2021-02-20)
+
+### Performance Improvements
+
+- refactor release permutation ([40cba9f](https://github.com/sentrei/sentrei/commit/40cba9fc3f427d931571227d708fbf83ea42b71e))
+
 ## [1.1.3](https://github.com/sentrei/sentrei/compare/v1.1.2...v1.1.3) (2021-02-20)
 
 ### Performance Improvements
