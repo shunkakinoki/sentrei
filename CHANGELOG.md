@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/sentrei/sentrei/compare/v1.1.1...v1.1.2) (2021-02-20)
+
+### Performance Improvements
+
+- ini auto merge ([42ec41c](https://github.com/sentrei/sentrei/commit/42ec41cc4038517ee48681cf8e1ff78e83bbf5e5))
+- refactor eslint ignore ([8d3ec77](https://github.com/sentrei/sentrei/commit/8d3ec771becd780ebd1b81db136ae50bb9efdd1f))
+
 ## [1.1.1](https://github.com/sentrei/sentrei/compare/v1.1.0...v1.1.1) (2021-02-19)
 
 ### Performance Improvements
