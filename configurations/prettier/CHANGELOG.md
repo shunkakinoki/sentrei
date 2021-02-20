@@ -1,3 +1,10 @@
+## @sentrei/prettier [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.2.0...@sentrei/prettier@1.2.1) (2021-02-20)
+
+### Performance Improvements
+
+- ini prettier plugin ([a9cc457](https://github.com/sentrei/sentrei/commit/a9cc4579d612f9c0670d725eedda41d29335bf07))
+- refactor prettier bracket spacing ([808cc31](https://github.com/sentrei/sentrei/commit/808cc318c2c88270ca2119da4a8bb898161a6a4b))
+
 # @sentrei/prettier [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.1.0...@sentrei/prettier@1.2.0) (2021-02-20)
 
 ### Features
