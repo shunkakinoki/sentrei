@@ -1,3 +1,9 @@
+## [1.5.3](https://github.com/sentrei/sentrei/compare/v1.5.2...v1.5.3) (2021-02-21)
+
+### Performance Improvements
+
+- upgrade next react as canary experimental ([31a22b2](https://github.com/sentrei/sentrei/commit/31a22b284111bdee5887f86b2186325657491bc6))
+
 ## [1.5.2](https://github.com/sentrei/sentrei/compare/v1.5.1...v1.5.2) (2021-02-21)
 
 ### Performance Improvements
