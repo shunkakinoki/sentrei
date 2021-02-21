@@ -18,9 +18,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier/@typescript-eslint",
     "prettier",
-    "prettier/react",
   ],
   ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
