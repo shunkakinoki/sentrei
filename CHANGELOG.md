@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/sentrei/sentrei/compare/v1.5.0...v1.5.1) (2021-02-21)
+
+### Performance Improvements
+
+- ini git-cz with husky config ([737c776](https://github.com/sentrei/sentrei/commit/737c77671ee7f79aa0b726b9b15691a93dba8e7c))
+- refactor tailwind future config ([cec33e6](https://github.com/sentrei/sentrei/commit/cec33e65a94da36a176b0f0eca0fb659e0750061))
+
 # [1.5.0](https://github.com/sentrei/sentrei/compare/v1.4.2...v1.5.0) (2021-02-21)
 
 ### Features
