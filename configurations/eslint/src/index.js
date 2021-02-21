@@ -28,6 +28,8 @@ module.exports = {
       files: ["*.js", "*.jsx"],
       rules: {
         "@typescript-eslint/no-unsafe-assignment": 0,
+        "@typescript-eslint/no-unsafe-call": 0,
+        "@typescript-eslint/no-var-requires": 0,
       },
     },
   ],
