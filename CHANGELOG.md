@@ -1,3 +1,16 @@
+# [1.4.0](https://github.com/sentrei/sentrei/compare/v1.3.0...v1.4.0) (2021-02-21)
+
+### Features
+
+- ini next apps ([c458621](https://github.com/sentrei/sentrei/commit/c45862133d1d8758b0a6d8b2f604f4600e7bc080))
+
+### Performance Improvements
+
+- refactor eslint prettier config extends ([079048d](https://github.com/sentrei/sentrei/commit/079048deefc009c9672d99d1de404363c7271a8b))
+- refactor gha workflows ([568646b](https://github.com/sentrei/sentrei/commit/568646beb05c297634cc60cb385f46c949e00157))
+- refactor multi semantic release ([fdff9d1](https://github.com/sentrei/sentrei/commit/fdff9d1433fbcb0d2c2805671f85965a46c6fee1))
+- upgrade eslint prettier ([ebfe710](https://github.com/sentrei/sentrei/commit/ebfe71043f6f437cd91805459e1072acba4c2645))
+
 # [1.3.0](https://github.com/sentrei/sentrei/compare/v1.2.0...v1.3.0) (2021-02-20)
 
 ### Bug Fixes
