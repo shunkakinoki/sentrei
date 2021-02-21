@@ -17,6 +17,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
+    "critters": "^0.0.7",
     "next": "^10.0.7",
     "next-compose-plugins": "^2.2.1",
     "next-translate": "^1.0.2"
