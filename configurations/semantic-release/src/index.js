@@ -21,12 +21,17 @@ module.exports = {
       },
     ],
     "@semantic-release/npm",
-    "@semantic-release/github",
     [
-      "@semantic-release/git",
+      "@semantic-release/github",
       {
+        addReleases: false,
+        failComment: false,
+        failTitle: false,
+        labels: false,
+        releasedLabels: false,
         successComment: false,
       },
     ],
+    "@semantic-release/git",
   ],
 };
