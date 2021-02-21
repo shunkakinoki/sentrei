@@ -1,4 +1,3 @@
 {
-  "ignores": ["lerna"],
-  "skip-missing": true
+  "ignores": ["lerna"]
 }
