@@ -1,3 +1,4 @@
+import "@sentrei/dashboard/styles/index.css";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 import type { FC } from "react";

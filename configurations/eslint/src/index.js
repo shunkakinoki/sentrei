@@ -89,7 +89,11 @@ module.exports = {
     },
     "import/resolver": {
       typescript: {
-        project: "tsconfig.json",
+        project: [
+          "apps/*/tsconfig.json",
+          "configurations/*/tsconfig.json",
+          "packages/*/tsconfig.json",
+        ],
       },
     },
     react: {
