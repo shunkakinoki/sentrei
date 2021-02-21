@@ -1,3 +1,9 @@
+# @sentrei/eslint [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.2.0...@sentrei/eslint@1.3.0) (2021-02-21)
+
+### Features
+
+- ini tailwind config ([a51281d](https://github.com/sentrei/sentrei/commit/a51281d7fc72c314f0307953cc0d9dbbbda12c49))
+
 # @sentrei/eslint [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.2...@sentrei/eslint@1.2.0) (2021-02-21)
 
 ### Features
