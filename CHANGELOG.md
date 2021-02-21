@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/sentrei/sentrei/compare/v1.4.0...v1.4.1) (2021-02-21)
+
+### Performance Improvements
+
+- refactor semantic git ([ecd4459](https://github.com/sentrei/sentrei/commit/ecd44594338af40923954a0694ef97723c3d8b66))
+
 # [1.4.0](https://github.com/sentrei/sentrei/compare/v1.3.0...v1.4.0) (2021-02-21)
 
 ### Features
