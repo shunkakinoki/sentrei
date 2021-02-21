@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "critters": "^0.0.7",
-    "next": "^v10.0.8-canary.5",
+    "next": "canary",
     "next-compose-plugins": "^2.2.1",
     "next-translate": "^1.0.2"
   },
