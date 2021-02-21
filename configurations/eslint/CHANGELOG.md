@@ -1,3 +1,14 @@
+# @sentrei/eslint [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.2...@sentrei/eslint@1.2.0) (2021-02-21)
+
+### Features
+
+- ini next apps ([c458621](https://github.com/sentrei/sentrei/commit/c45862133d1d8758b0a6d8b2f604f4600e7bc080))
+
+### Performance Improvements
+
+- refactor eslint prettier config extends ([079048d](https://github.com/sentrei/sentrei/commit/079048deefc009c9672d99d1de404363c7271a8b))
+- upgrade eslint prettier ([ebfe710](https://github.com/sentrei/sentrei/commit/ebfe71043f6f437cd91805459e1072acba4c2645))
+
 ## @sentrei/eslint [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.1.1...@sentrei/eslint@1.1.2) (2021-02-20)
 
 ### Bug Fixes
