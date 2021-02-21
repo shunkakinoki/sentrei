@@ -1,3 +1,9 @@
+## @sentrei/next [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.1...@sentrei/next@1.0.2) (2021-02-21)
+
+### Performance Improvements
+
+- upgrade next react as canary experimental ([31a22b2](https://github.com/sentrei/sentrei/commit/31a22b284111bdee5887f86b2186325657491bc6))
+
 ## @sentrei/next [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.0...@sentrei/next@1.0.1) (2021-02-21)
 
 ### Performance Improvements
