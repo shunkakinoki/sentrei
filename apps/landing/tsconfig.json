@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@sentrei/landing/*": ["src/*"]
-    }
+    },
+    "noEmit": true
   },
   "exclude": ["node_modules"],
   "extends": "../../tsconfig.json",
