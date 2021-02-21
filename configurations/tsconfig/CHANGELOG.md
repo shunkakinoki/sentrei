@@ -1,3 +1,9 @@
+## @sentrei/tsconfig [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.2.1...@sentrei/tsconfig@1.2.2) (2021-02-21)
+
+### Performance Improvements
+
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+
 ## @sentrei/tsconfig [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.2.0...@sentrei/tsconfig@1.2.1) (2021-02-20)
 
 ### Performance Improvements
