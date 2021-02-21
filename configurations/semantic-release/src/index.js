@@ -22,6 +22,11 @@ module.exports = {
     ],
     "@semantic-release/npm",
     "@semantic-release/github",
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        successComment: false,
+      },
+    ],
   ],
 };
