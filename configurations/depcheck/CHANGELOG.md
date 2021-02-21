@@ -1,3 +1,9 @@
+## @sentrei/depcheck [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.3.0...@sentrei/depcheck@1.3.1) (2021-02-21)
+
+### Performance Improvements
+
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+
 # @sentrei/depcheck [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.2.0...@sentrei/depcheck@1.3.0) (2021-02-20)
 
 ### Features
