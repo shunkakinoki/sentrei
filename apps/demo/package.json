@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",
-    "next": "^v10.0.8-canary.5",
+    "next": "canary",
     "next-themes": "^0.0.10",
     "postcss": "^8.2.6",
     "react": "^0.0.0-experimental-8af27aeed",

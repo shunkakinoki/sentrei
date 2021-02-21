@@ -7937,7 +7937,7 @@ next-translate@^1.0.2:
   resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.2.tgz#af93208221d08a09b96545b2e3d853b69a6ddeb5"
   integrity sha512-dRJdRkcBeO2cxxvyM+G9rNZ7gSng8fAGQk03C1PsIMRFpZK9WnVfKjK5buaFYG78XfBrBIEEz2d/wnJQIBy8Ow==
 
-next@^v10.0.8-canary.5:
+next@canary:
   version "10.0.8-canary.5"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.8-canary.5.tgz#bde2351d28bb33df35d5c05ef6e957568a7217d0"
   integrity sha512-fE+mQj/0m8aoQMwlHNCA0Pa2/4nMr2dykTIwH1SXP7rWBUZckYIVkPHOkyqZzVTP3cDuj91cQP8+UYipBaiyKg==
@@ -9752,7 +9752,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^0.0.0-experimental-8af27aeed:
+react-dom@^0.0.0-experimental-8af27aeed, react-dom@experimental:
   version "0.0.0-experimental-8af27aeed"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-8af27aeed.tgz#42707f6165ad2e8aa628f4fc79982ea4c008ce49"
   integrity sha512-SEi1V174bXDppRl/F1ZxQpP7rgw94FA2F3z0mEMVmn/Gb9e4QUN6znySMTM8rNpYh7/ogr8JTVxmkkwy9ItjSg==
@@ -9771,7 +9771,7 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react@^0.0.0-experimental-8af27aeed:
+react@^0.0.0-experimental-8af27aeed, react@experimental:
   version "0.0.0-experimental-8af27aeed"
   resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-8af27aeed.tgz#d8814fffd1949d936d1160add24247da2f5a5fe0"
   integrity sha512-B0zMH8FEmPnMTMra/2kYoe8La4lr8IFGo7bSvNFSJ7ahCuxlirD1gQ/yabXaQ3cR0NgKIQ7Xjwx32rk9S33tdw==
