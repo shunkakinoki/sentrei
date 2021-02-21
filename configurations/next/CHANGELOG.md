@@ -1,3 +1,9 @@
+## @sentrei/next [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.2...@sentrei/next@1.0.3) (2021-02-21)
+
+### Performance Improvements
+
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+
 ## @sentrei/next [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.1...@sentrei/next@1.0.2) (2021-02-21)
 
 ### Performance Improvements
