@@ -1,1 +1,1 @@
-module.exports = require("@sentrei/postcss");
+../../configurations/postcss/src/index.js
