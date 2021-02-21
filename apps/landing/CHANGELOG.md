@@ -1,3 +1,9 @@
+## @sentrei/landing [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.2.0...@sentrei/landing@1.2.1) (2021-02-21)
+
+### Performance Improvements
+
+- upgrade next react as canary experimental ([31a22b2](https://github.com/sentrei/sentrei/commit/31a22b284111bdee5887f86b2186325657491bc6))
+
 # @sentrei/landing [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.1.0...@sentrei/landing@1.2.0) (2021-02-21)
 
 ### Features
