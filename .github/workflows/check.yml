@@ -17,7 +17,9 @@ jobs:
       - uses: actions/cache@v2
         with:
           path: |
-            **/node_modules
+            ~/.npm
+            node_modules
+            */*/node_module
           key: |
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
