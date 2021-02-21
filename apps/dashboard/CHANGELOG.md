@@ -1,3 +1,10 @@
+## @sentrei/dashboard [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.2.1...@sentrei/dashboard@1.2.2) (2021-02-21)
+
+### Performance Improvements
+
+- refactor unused packages for depcheck ([360be12](https://github.com/sentrei/sentrei/commit/360be12303fc6d7b67052d452b76b05e4e232984))
+- upgrade apps with depcheck config ([0996ed7](https://github.com/sentrei/sentrei/commit/0996ed7e89c7397072c581a4671677402e4de970))
+
 ## @sentrei/dashboard [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.2.0...@sentrei/dashboard@1.2.1) (2021-02-21)
 
 ### Performance Improvements
