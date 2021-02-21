@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ["@sentrei/tailwind"],
-};
+../../configurations/tailwind/src/index.js
