@@ -1,3 +1,13 @@
+# [1.6.0](https://github.com/sentrei/sentrei/compare/v1.5.3...v1.6.0) (2021-02-21)
+
+### Features
+
+- ini atom design ui packages ([56ced55](https://github.com/sentrei/sentrei/commit/56ced5550e3a88d03d48feb024e00b9d4fd6bf12))
+
+### Performance Improvements
+
+- ini package json lint configuration ([233ebf9](https://github.com/sentrei/sentrei/commit/233ebf9c9dbd2d96485f93d6f58b55aa0b0006b8))
+
 ## [1.5.3](https://github.com/sentrei/sentrei/compare/v1.5.2...v1.5.3) (2021-02-21)
 
 ### Performance Improvements
