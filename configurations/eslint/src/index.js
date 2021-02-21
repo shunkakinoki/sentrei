@@ -18,9 +18,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier/@typescript-eslint",
     "prettier",
-    "prettier/react",
   ],
   ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
@@ -28,6 +26,8 @@ module.exports = {
       files: ["*.js", "*.jsx"],
       rules: {
         "@typescript-eslint/no-unsafe-assignment": 0,
+        "@typescript-eslint/no-unsafe-call": 0,
+        "@typescript-eslint/no-var-requires": 0,
       },
     },
   ],

@@ -1,5 +1,5 @@
 {
-  "name": "@sentrei/demo",
+  "name": "@sentrei/next",
   "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
@@ -9,22 +9,20 @@
   },
   "license": "MIT",
   "author": "Shun Kakinoki",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "fix": "cd ../.. && yarn run fix",
-    "start": "next start"
+    "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
     "next": "^10.0.7",
-    "next-themes": "^0.0.10",
-    "react": "^0.0.0-experimental-8af27aeed",
-    "react-dom": "^0.0.0-experimental-8af27aeed",
-    "recoil": "^0.1.2"
+    "next-compose-plugins": "^2.2.1",
+    "next-translate": "^1.0.2"
   },
   "devDependencies": {
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1"
+    "@next/bundle-analyzer": "^10.0.7"
   },
   "publishConfig": {
     "access": "public",
