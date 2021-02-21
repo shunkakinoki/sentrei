@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/sentrei/sentrei/compare/v1.6.0...v1.6.1) (2021-02-21)
+
+### Performance Improvements
+
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+- refactor github config for semantic release ([0dda27a](https://github.com/sentrei/sentrei/commit/0dda27aab8e5cfcbc0f56a3be606ed609f41ff15))
+- refactor unused packages for depcheck ([360be12](https://github.com/sentrei/sentrei/commit/360be12303fc6d7b67052d452b76b05e4e232984))
+- upgrade apps with depcheck config ([0996ed7](https://github.com/sentrei/sentrei/commit/0996ed7e89c7397072c581a4671677402e4de970))
+
 # [1.6.0](https://github.com/sentrei/sentrei/compare/v1.5.3...v1.6.0) (2021-02-21)
 
 ### Features
