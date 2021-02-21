@@ -1,3 +1,14 @@
+# @sentrei/demo [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.1.0...@sentrei/demo@1.2.0) (2021-02-21)
+
+### Features
+
+- ini tailwind config ([a51281d](https://github.com/sentrei/sentrei/commit/a51281d7fc72c314f0307953cc0d9dbbbda12c49))
+
+### Performance Improvements
+
+- refactor tailwind config ([8325122](https://github.com/sentrei/sentrei/commit/83251221672a9783695268736208c99360df56e2))
+- refactor tailwind config to symlink ([5f2a9f1](https://github.com/sentrei/sentrei/commit/5f2a9f17a3ac6b2e43081087b7ed2f102e694713))
+
 # @sentrei/demo [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.0.0...@sentrei/demo@1.1.0) (2021-02-21)
 
 ### Features
