@@ -1,3 +1,9 @@
+## [1.4.2](https://github.com/sentrei/sentrei/compare/v1.4.1...v1.4.2) (2021-02-21)
+
+### Performance Improvements
+
+- ini concurrently ([b467fcf](https://github.com/sentrei/sentrei/commit/b467fcfdb28d3cd3b7df99b06e47f4c21f4af5b0))
+
 ## [1.4.1](https://github.com/sentrei/sentrei/compare/v1.4.0...v1.4.1) (2021-02-21)
 
 ### Performance Improvements
