@@ -4,9 +4,24 @@ const withTranslate = require("next-translate");
 
 const config = {
   experimental: {
+    optimizeCss: true,
+    optimizeFonts: true,
+    optimizeImages: true,
+    pageEnv: true,
+    plugins: true,
+    profiling: true,
     reactMode: "concurrent",
+    scriptLoader: true,
+    scrollRestoration: true,
+    sprFlushToDisk: true,
+    stats: true,
+    workerThreads: true,
   },
-  future: { webpack5: true },
+  future: {
+    excludeDefaultMomentLocales: true,
+    strictPostcssConfiguration: true,
+    webpack5: true,
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "ja", "zh"],
