@@ -26,6 +26,7 @@
     "multi-semantic-release:check": "multi-semantic-release --dry-run --sequential-init",
     "ncu:check": "ncu --deep -p yarn",
     "ncu:upgrade": "ncu --deep -u -p yarn",
+    "npm-package-json:lint": "npmPkgJsonLint .",
     "prettier:lint": "prettier --check . --ignore-unknown",
     "prettier:fix": "prettier --write . --ignore-unknown",
     "release": "yarn run multi-semantic-release && yarn run semantic-release",
