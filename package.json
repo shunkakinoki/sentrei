@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/sentrei",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "private": true,
   "description": "The Edge Serverless Backend",
   "repository": "https://github.com/sentrei/sentrei",

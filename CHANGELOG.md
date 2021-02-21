@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/sentrei/sentrei/compare/v1.5.1...v1.5.2) (2021-02-21)
+
+### Performance Improvements
+
+- add critters package ([ec9c43e](https://github.com/sentrei/sentrei/commit/ec9c43e7402c291e7e6809c4bdf1c8450c13e730))
+- upgrade next config ([d7e0cfa](https://github.com/sentrei/sentrei/commit/d7e0cfaf434cec295be48883fe978471d555b156))
+
 ## [1.5.1](https://github.com/sentrei/sentrei/compare/v1.5.0...v1.5.1) (2021-02-21)
 
 ### Performance Improvements
