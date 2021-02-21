@@ -1,3 +1,9 @@
+## @sentrei/semantic-release [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.0...@sentrei/semantic-release@1.2.1) (2021-02-21)
+
+### Performance Improvements
+
+- refactor semantic git ([ecd4459](https://github.com/sentrei/sentrei/commit/ecd44594338af40923954a0694ef97723c3d8b66))
+
 # @sentrei/semantic-release [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.1.0...@sentrei/semantic-release@1.2.0) (2021-02-19)
 
 ### Features
