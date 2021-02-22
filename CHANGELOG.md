@@ -1,3 +1,13 @@
+# [1.9.0](https://github.com/sentrei/sentrei/compare/v1.8.1...v1.9.0) (2021-02-22)
+
+### Features
+
+- migrate to sass ([f6f1f00](https://github.com/sentrei/sentrei/commit/f6f1f00cfe15ba846929b4106ab39a64c726be21))
+
+### Performance Improvements
+
+- refactor editor config noconflict ([91f59cb](https://github.com/sentrei/sentrei/commit/91f59cb8aaaf2c3a863405e7163a10c58fe2a88b))
+
 ## [1.8.1](https://github.com/sentrei/sentrei/compare/v1.8.0...v1.8.1) (2021-02-22)
 
 ### Performance Improvements
