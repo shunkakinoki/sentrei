@@ -44,9 +44,10 @@ module.exports = {
   plugins: ["editorconfig", "prettier", "@typescript-eslint"],
   root: true,
   rules: {
-    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/consistent-type-imports": 1,
+    "import/newline-after-import": 1,
     "import/order": [
-      "error",
+      1,
       {
         alphabetize: {
           caseInsensitive: true,
@@ -56,14 +57,14 @@ module.exports = {
         pathGroups: [
           {
             group: "internal",
-            pattern: "@/**",
+            pattern: "@sentrei/**",
             position: "after",
           },
         ],
       },
     ],
     "react/jsx-sort-props": [
-      "error",
+      1,
       {
         callbacksLast: true,
         ignoreCase: true,
@@ -76,12 +77,8 @@ module.exports = {
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,
     "react/self-closing-comp": 1,
-    "sort-keys": [
-      "error",
-      "asc",
-      { caseSensitive: true, minKeys: 2, natural: true },
-    ],
-    "sort-vars": ["error", { ignoreCase: true }],
+    "sort-keys": [1, "asc", { caseSensitive: true, minKeys: 2, natural: true }],
+    "sort-vars": [1, { ignoreCase: true }],
   },
   settings: {
     "import/parsers": {
