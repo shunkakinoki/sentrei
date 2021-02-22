@@ -1,3 +1,9 @@
+# @sentrei/dashboard [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.4.0...@sentrei/dashboard@1.5.0) (2021-02-22)
+
+### Features
+
+- ini postcss plugins ([5915086](https://github.com/sentrei/sentrei/commit/59150860c2f6f94504ad647576a4a4273b9cc4b9))
+
 # @sentrei/dashboard [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.3.0...@sentrei/dashboard@1.4.0) (2021-02-22)
 
 ### Features
