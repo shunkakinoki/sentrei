@@ -1,3 +1,9 @@
+# [1.7.0](https://github.com/sentrei/sentrei/compare/v1.6.4...v1.7.0) (2021-02-22)
+
+### Features
+
+- ini iconst hooks styles packages ([52a9c30](https://github.com/sentrei/sentrei/commit/52a9c30f8209f8dcb04076a98e82ed55b30b540f))
+
 ## [1.6.4](https://github.com/sentrei/sentrei/compare/v1.6.3...v1.6.4) (2021-02-22)
 
 ### Performance Improvements
