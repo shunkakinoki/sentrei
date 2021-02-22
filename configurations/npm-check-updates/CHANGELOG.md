@@ -1,3 +1,9 @@
+# @sentrei/npm-check-updates [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.1.1...@sentrei/npm-check-updates@1.2.0) (2021-02-22)
+
+### Features
+
+- migrate to sass ([f6f1f00](https://github.com/sentrei/sentrei/commit/f6f1f00cfe15ba846929b4106ab39a64c726be21))
+
 ## @sentrei/npm-check-updates [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.1.0...@sentrei/npm-check-updates@1.1.1) (2021-02-21)
 
 ### Performance Improvements
