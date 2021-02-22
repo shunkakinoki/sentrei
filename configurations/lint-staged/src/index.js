@@ -1,9 +1,10 @@
 module.exports = {
-  "*.{js,ts,tsx}": ["yarn run eslint:lint", "yarn run prettier:lint"],
-  "*.{md,json,yml}": ["yarn run prettier:lint"],
+  "*.{js,ts,tsx}": ["yarn run eslint:fix", "yarn run prettier:fix", "git add"],
+  "*.{md,json,yml}": ["yarn run prettier:fix", "git add"],
   "package.json": [
-    "yarn run npm-package-json:check",
-    "yarn run sort-package-json:check",
-    "yarn run prettier:lint",
+    "yarn run npm-package-json:lint",
+    "yarn run sort-package-json:fix",
+    "yarn run prettier:fix",
+    "git add",
   ],
 };

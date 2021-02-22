@@ -27,6 +27,7 @@ module.exports = {
       rules: {
         "@typescript-eslint/no-unsafe-assignment": 0,
         "@typescript-eslint/no-unsafe-call": 0,
+        "@typescript-eslint/no-unsafe-member-access": 0,
         "@typescript-eslint/no-var-requires": 0,
       },
     },

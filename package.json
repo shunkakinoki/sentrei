@@ -15,6 +15,7 @@
   },
   "scripts": {
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
+    "clean": "lerna clean -y",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
     "depcheck:exec": "lerna exec --stream --no-bail 'yarn run depcheck . --skip-missing=true'",
     "depcheck:root": "depcheck . --skip-missing=true",
