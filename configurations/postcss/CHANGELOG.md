@@ -1,3 +1,9 @@
+# @sentrei/postcss [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.0.1...@sentrei/postcss@1.1.0) (2021-02-22)
+
+### Features
+
+- ini postcss plugins ([5915086](https://github.com/sentrei/sentrei/commit/59150860c2f6f94504ad647576a4a4273b9cc4b9))
+
 ## @sentrei/postcss [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.0.0...@sentrei/postcss@1.0.1) (2021-02-21)
 
 ### Performance Improvements
