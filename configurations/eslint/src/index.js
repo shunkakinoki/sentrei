@@ -25,10 +25,10 @@ module.exports = {
     {
       files: ["*.js", "*.jsx"],
       rules: {
-        "@typescript-eslint/no-unsafe-assignment": 0,
-        "@typescript-eslint/no-unsafe-call": 0,
-        "@typescript-eslint/no-unsafe-member-access": 0,
-        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "@typescript-eslint/no-unsafe-call": "off",
+        "@typescript-eslint/no-unsafe-member-access": "off",
+        "@typescript-eslint/no-var-requires": "off",
       },
     },
   ],
@@ -45,13 +45,13 @@ module.exports = {
   plugins: ["editorconfig", "prettier", "@typescript-eslint"],
   root: true,
   rules: {
-    "@typescript-eslint/consistent-type-imports": 1,
-    "import/newline-after-import": 1,
+    "@typescript-eslint/consistent-type-imports": "error",
+    "import/newline-after-import": "error",
     "import/order": [
-      1,
+      "error",
       {
         alphabetize: {
-          caseInsensitive: true,
+          caseInsensitive: false,
           order: "asc",
         },
         "newlines-between": "always-and-inside-groups",
@@ -64,8 +64,14 @@ module.exports = {
         ],
       },
     ],
+    "no-restricted-imports": [
+      "error",
+      {
+        patterns: ["../"],
+      },
+    ],
     "react/jsx-sort-props": [
-      1,
+      2,
       {
         callbacksLast: true,
         ignoreCase: true,
@@ -75,11 +81,15 @@ module.exports = {
         shorthandLast: true,
       },
     ],
-    "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0,
-    "react/self-closing-comp": 1,
-    "sort-keys": [1, "asc", { caseSensitive: true, minKeys: 2, natural: true }],
-    "sort-vars": [1, { ignoreCase: true }],
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/self-closing-comp": "error",
+    "sort-keys": [
+      "error",
+      "asc",
+      { caseSensitive: true, minKeys: 2, natural: true },
+    ],
+    "sort-vars": ["error", { ignoreCase: true }],
   },
   settings: {
     "import/parsers": {

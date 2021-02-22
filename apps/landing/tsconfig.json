@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@sentrei/styles/*": ["../../packages/styles/src/*"],
       "@sentrei/landing/*": ["src/*"]
     },
     "noEmit": true
