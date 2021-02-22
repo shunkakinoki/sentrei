@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.4.0...@sentrei/eslint@1.4.1) (2021-02-22)
+
+### Performance Improvements
+
+- refactor editor config noconflict ([91f59cb](https://github.com/sentrei/sentrei/commit/91f59cb8aaaf2c3a863405e7163a10c58fe2a88b))
+
 # @sentrei/eslint [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.3...@sentrei/eslint@1.4.0) (2021-02-22)
 
 ### Features
