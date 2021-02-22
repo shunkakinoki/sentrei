@@ -15,6 +15,7 @@
   },
   "scripts": {
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
+    "clean": "lerna clean -y",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
     "depcheck:exec": "lerna exec --stream --no-bail 'yarn run depcheck . --skip-missing=true'",
     "depcheck:root": "depcheck . --skip-missing=true",
@@ -40,6 +41,7 @@
     "concurrently": "^6.0.0",
     "lerna": "^3.22.1",
     "multi-semantic-release": "^2.6.0",
+    "prettier-plugin-packagejson": "^2.2.10",
     "sort-package-json": "^1.49.0"
   }
 }
