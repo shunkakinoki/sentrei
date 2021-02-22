@@ -71,7 +71,7 @@ module.exports = {
       },
     ],
     "react/jsx-sort-props": [
-      2,
+      "error",
       {
         callbacksLast: true,
         ignoreCase: true,
