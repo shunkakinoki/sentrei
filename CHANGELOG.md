@@ -1,3 +1,9 @@
+## [1.8.1](https://github.com/sentrei/sentrei/compare/v1.8.0...v1.8.1) (2021-02-22)
+
+### Performance Improvements
+
+- refactor package json lint ([4cf6553](https://github.com/sentrei/sentrei/commit/4cf6553ee250542f84226038ce05b9de37d987d9))
+
 # [1.8.0](https://github.com/sentrei/sentrei/compare/v1.7.0...v1.8.0) (2021-02-22)
 
 ### Features
