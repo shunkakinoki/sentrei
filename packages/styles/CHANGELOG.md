@@ -1,3 +1,9 @@
+# @sentrei/styles [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.1.0...@sentrei/styles@1.2.0) (2021-02-22)
+
+### Features
+
+- migrate to sass ([f6f1f00](https://github.com/sentrei/sentrei/commit/f6f1f00cfe15ba846929b4106ab39a64c726be21))
+
 # @sentrei/styles [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.0.0...@sentrei/styles@1.1.0) (2021-02-22)
 
 ### Features
