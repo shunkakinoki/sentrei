@@ -1,3 +1,5 @@
+## @sentrei/semantic-release [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.2...@sentrei/semantic-release@1.2.3) (2021-02-22)
+
 ## @sentrei/semantic-release [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.1...@sentrei/semantic-release@1.2.2) (2021-02-21)
 
 ### Performance Improvements
