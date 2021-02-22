@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.1...@sentrei/eslint@1.3.2) (2021-02-22)
+
+### Performance Improvements
+
+- refactor config imports ([dd3549b](https://github.com/sentrei/sentrei/commit/dd3549b15a8561ef0d2e3a4c36cd014b84e138f5))
+
 ## @sentrei/eslint [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.0...@sentrei/eslint@1.3.1) (2021-02-21)
 
 ### Performance Improvements
