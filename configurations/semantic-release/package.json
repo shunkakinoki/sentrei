@@ -3,12 +3,15 @@
   "version": "1.2.3",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sentrei/sentrei.git"
   },
   "license": "MIT",
-  "author": "Shun Kakinoki",
+  "author": "Sentrei, Inc.",
   "main": "src/index.js",
   "files": [
     "src/index.js"
