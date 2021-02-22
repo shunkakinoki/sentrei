@@ -1,3 +1,9 @@
+## @sentrei/lint-staged [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.0.3...@sentrei/lint-staged@1.0.4) (2021-02-22)
+
+### Performance Improvements
+
+- refactor lint staged remove deprecated git add ([fcee750](https://github.com/sentrei/sentrei/commit/fcee75016da9bfd84445cb95951bfff83dfee714))
+
 ## @sentrei/lint-staged [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.0.2...@sentrei/lint-staged@1.0.3) (2021-02-22)
 
 ### Performance Improvements
