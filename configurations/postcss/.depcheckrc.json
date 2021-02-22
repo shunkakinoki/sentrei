@@ -1,3 +1,3 @@
 {
-  "ignores": ["autoprefixer", "postcss"]
+  "ignores": ["autoprefixer", "postcss", "postcss-*"]
 }
