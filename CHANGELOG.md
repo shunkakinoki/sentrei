@@ -1,3 +1,12 @@
+## [1.6.4](https://github.com/sentrei/sentrei/compare/v1.6.3...v1.6.4) (2021-02-22)
+
+### Performance Improvements
+
+- ini yarn clean ([5b2cbf8](https://github.com/sentrei/sentrei/commit/5b2cbf8fb1132d50864eae1561946549b3ea1001))
+- refactor eslint js ([2d3d2b5](https://github.com/sentrei/sentrei/commit/2d3d2b559d1154cc6d631e1d90d1ab74bdfcad43))
+- refactor lint staged ([44aa61d](https://github.com/sentrei/sentrei/commit/44aa61d9e94664623549118efd89a4c82f99f7eb))
+- upgrade tailwind config ([a7b8ccf](https://github.com/sentrei/sentrei/commit/a7b8ccf2b9cddec7b26fde29fd9405efedb41415))
+
 ## [1.6.3](https://github.com/sentrei/sentrei/compare/v1.6.2...v1.6.3) (2021-02-22)
 
 ## [1.6.2](https://github.com/sentrei/sentrei/compare/v1.6.1...v1.6.2) (2021-02-22)
