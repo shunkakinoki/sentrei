@@ -1,3 +1,9 @@
+# @sentrei/demo [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.2.2...@sentrei/demo@1.3.0) (2021-02-22)
+
+### Features
+
+- ini styles tailwind package index ([98fb808](https://github.com/sentrei/sentrei/commit/98fb808c4baee092990e2fd4fa0eb31965cde604))
+
 ## @sentrei/demo [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.2.1...@sentrei/demo@1.2.2) (2021-02-21)
 
 ### Performance Improvements
