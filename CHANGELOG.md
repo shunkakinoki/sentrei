@@ -1,3 +1,5 @@
+## [1.6.3](https://github.com/sentrei/sentrei/compare/v1.6.2...v1.6.3) (2021-02-22)
+
 ## [1.6.2](https://github.com/sentrei/sentrei/compare/v1.6.1...v1.6.2) (2021-02-22)
 
 ### Performance Improvements
