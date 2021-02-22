@@ -27,7 +27,7 @@ module.exports = {
         lime: colors.lime,
         orange: colors.orange,
         pink: colors.pink,
-        primary: colors.primary.indigo,
+        primary: colors.indigo,
         purple: colors.purple,
         red: colors.red,
         rose: colors.rose,
