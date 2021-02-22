@@ -19,7 +19,7 @@ jobs:
           path: |
             ~/.npm
             node_modules
-            */*/node_module
+            */*/node_modules
           key: |
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
