@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.2...@sentrei/eslint@1.3.3) (2021-02-22)
+
+### Performance Improvements
+
+- refactor eslint js ([2d3d2b5](https://github.com/sentrei/sentrei/commit/2d3d2b559d1154cc6d631e1d90d1ab74bdfcad43))
+
 ## @sentrei/eslint [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.1...@sentrei/eslint@1.3.2) (2021-02-22)
 
 ### Performance Improvements
