@@ -1,3 +1,9 @@
+# [1.10.0](https://github.com/sentrei/sentrei/compare/v1.9.0...v1.10.0) (2021-02-22)
+
+### Features
+
+- ini postcss plugins ([5915086](https://github.com/sentrei/sentrei/commit/59150860c2f6f94504ad647576a4a4273b9cc4b9))
+
 # [1.9.0](https://github.com/sentrei/sentrei/compare/v1.8.1...v1.9.0) (2021-02-22)
 
 ### Features
