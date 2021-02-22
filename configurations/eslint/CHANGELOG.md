@@ -1,3 +1,9 @@
+# @sentrei/eslint [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.3...@sentrei/eslint@1.4.0) (2021-02-22)
+
+### Features
+
+- ini styles tailwind package index ([98fb808](https://github.com/sentrei/sentrei/commit/98fb808c4baee092990e2fd4fa0eb31965cde604))
+
 ## @sentrei/eslint [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.3.2...@sentrei/eslint@1.3.3) (2021-02-22)
 
 ### Performance Improvements
