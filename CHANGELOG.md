@@ -1,3 +1,14 @@
+# [1.8.0](https://github.com/sentrei/sentrei/compare/v1.7.0...v1.8.0) (2021-02-22)
+
+### Features
+
+- ini styles tailwind package index ([98fb808](https://github.com/sentrei/sentrei/commit/98fb808c4baee092990e2fd4fa0eb31965cde604))
+
+### Performance Improvements
+
+- refactor colors indigo ([6b579e9](https://github.com/sentrei/sentrei/commit/6b579e9b11e1b237e8e075cd9a692cc739c970a0))
+- refactor lint staged remove deprecated git add ([fcee750](https://github.com/sentrei/sentrei/commit/fcee75016da9bfd84445cb95951bfff83dfee714))
+
 # [1.7.0](https://github.com/sentrei/sentrei/compare/v1.6.4...v1.7.0) (2021-02-22)
 
 ### Features
