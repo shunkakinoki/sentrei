@@ -1,3 +1,9 @@
+## @sentrei/tailwind [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.0.2...@sentrei/tailwind@1.0.3) (2021-02-22)
+
+### Performance Improvements
+
+- refactor colors indigo ([6b579e9](https://github.com/sentrei/sentrei/commit/6b579e9b11e1b237e8e075cd9a692cc739c970a0))
+
 ## @sentrei/tailwind [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.0.1...@sentrei/tailwind@1.0.2) (2021-02-22)
 
 ### Performance Improvements
