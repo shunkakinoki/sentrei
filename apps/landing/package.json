@@ -26,6 +26,7 @@
     "react": "experimental",
     "react-dom": "experimental",
     "recoil": "^0.1.2",
+    "sass": "^1.32.8",
     "tailwindcss": "^2.0.3"
   },
   "devDependencies": {

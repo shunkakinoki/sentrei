@@ -8201,10 +8201,10 @@ npm-cache-filename@~1.0.2:
   resolved "https://registry.yarnpkg.com/npm-cache-filename/-/npm-cache-filename-1.0.2.tgz#ded306c5b0bfc870a9e9faf823bc5f283e05ae11"
   integrity sha1-3tMGxbC/yHCp6fr4I7xfKD4FrhE=
 
-npm-check-updates@^11.1.4:
-  version "11.1.4"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-11.1.4.tgz#e391899490b2ac895172b44ded78b2816109d3fe"
-  integrity sha512-jq1KAfYcbeFWBLyRj7YT5rwQ3paInsqukeawlwfUdnvmgxKb5uFpd7km/ghPjxAQWVvIecvsYJX0FCHWk4j/iA==
+npm-check-updates@^11.1.5:
+  version "11.1.5"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-11.1.5.tgz#c6508be9dc7490c4f3aaeb98ce047505cfd1a4bc"
+  integrity sha512-JUrpOnAeCMIQe0DP5a2LNZ+CFyJ1KNVGGEgiu8cH0/vmRoGFOSp7fLjNtROktoYxPd/By8vea1vC1WBHjESUuQ==
   dependencies:
     chalk "^4.1.0"
     cint "^8.2.1"
@@ -8289,11 +8289,6 @@ npm-package-arg@^8.0.0, npm-package-arg@^8.0.1:
     hosted-git-info "^3.0.6"
     semver "^7.0.0"
     validate-npm-package-name "^3.0.0"
-
-npm-package-json-lint-config-default@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/npm-package-json-lint-config-default/-/npm-package-json-lint-config-default-3.0.0.tgz#9076e309a48cc215f4c60a3aab149a7b700b5422"
-  integrity sha512-1eOHUSg4Pg1lDp75NJ/pTnYU3/vn7WIL+3MG5KWtrUEFtIuBX/yLGABTFZ4+sP73bQYu/Nla07icJjezQP6SnA==
 
 npm-package-json-lint@^5.1.0:
   version "5.1.0"
@@ -10392,7 +10387,7 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass@^1.29.0:
+sass@^1.29.0, sass@^1.32.8:
   version "1.32.8"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.32.8.tgz#f16a9abd8dc530add8834e506878a2808c037bdc"
   integrity sha512-Sl6mIeGpzjIUZqvKnKETfMf0iDAswD9TNlv13A7aAF3XZlRPMq4VvJWBC2N2DXbp94MQVdNSFG6LfF/iOXrPHQ==

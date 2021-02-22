@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:editorconfig/all",
+    "plugin:editorconfig/noconflict",
     "plugin:import/errors",
     "plugin:import/typescript",
     "plugin:import/warnings",
