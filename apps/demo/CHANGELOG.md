@@ -1,3 +1,9 @@
+# @sentrei/demo [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.3.0...@sentrei/demo@1.4.0) (2021-02-22)
+
+### Features
+
+- migrate to sass ([f6f1f00](https://github.com/sentrei/sentrei/commit/f6f1f00cfe15ba846929b4106ab39a64c726be21))
+
 # @sentrei/demo [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.2.2...@sentrei/demo@1.3.0) (2021-02-22)
 
 ### Features
