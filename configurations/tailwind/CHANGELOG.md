@@ -1,3 +1,9 @@
+## @sentrei/tailwind [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.0.1...@sentrei/tailwind@1.0.2) (2021-02-22)
+
+### Performance Improvements
+
+- upgrade tailwind config ([a7b8ccf](https://github.com/sentrei/sentrei/commit/a7b8ccf2b9cddec7b26fde29fd9405efedb41415))
+
 ## @sentrei/tailwind [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.0.0...@sentrei/tailwind@1.0.1) (2021-02-21)
 
 ### Performance Improvements
