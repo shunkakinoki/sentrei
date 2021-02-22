@@ -3,9 +3,13 @@
   "version": "1.8.0",
   "private": true,
   "description": "The Edge Serverless Backend",
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
   "repository": "https://github.com/sentrei/sentrei",
   "license": "MIT",
-  "author": "Shun Kakinoki <shunkakinoki@gmail.com>",
+  "author": "Sentrei, Inc.",
   "workspaces": {
     "packages": [
       "apps/*",
