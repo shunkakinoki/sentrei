@@ -1,3 +1,9 @@
+# [1.11.0](https://github.com/sentrei/sentrei/compare/v1.10.1...v1.11.0) (2021-02-23)
+
+### Features
+
+- complete refactor monorepo ([4214bc8](https://github.com/sentrei/sentrei/commit/4214bc8500527615423801f0a36c16aab0811079))
+
 ## [1.10.1](https://github.com/sentrei/sentrei/compare/v1.10.0...v1.10.1) (2021-02-23)
 
 ### Performance Improvements
