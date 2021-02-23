@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@sentrei/atoms/*": ["src/*"]
+      "@sentrei/cli/*": ["src/*"]
     },
     "noEmit": true
   },
