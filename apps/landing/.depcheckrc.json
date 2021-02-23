@@ -1,3 +1,10 @@
 {
-  "ignores": ["autoprefixer", "postcss", "postcss-*"]
+  "ignores": [
+    "@sentrei/*",
+    "@tailwindcss/*",
+    "next-translate",
+    "autoprefixer",
+    "postcss",
+    "postcss-*"
+  ]
 }

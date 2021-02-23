@@ -19,9 +19,8 @@
   },
   "scripts": {
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
-    "clean": "lerna clean -y",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
-    "depcheck:exec": "lerna exec --stream --no-bail 'yarn run depcheck . --skip-missing=true'",
+    "depcheck:exec": "yarn workspaces run depcheck .",
     "depcheck:root": "depcheck . --skip-missing=true",
     "eslint:lint": "eslint . --config .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
     "eslint:fix": "eslint --fix . --config .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
@@ -38,12 +37,11 @@
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
-    "sort-package-json:lint": "sort-package-json 'package.json' 'packages/*/package.json' --check",
-    "sort-package-json:fix": "sort-package-json 'package.json' 'packages/*/package.json'"
+    "sort-package-json:lint": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json' --check",
+    "sort-package-json:fix": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
-    "lerna": "^3.22.1",
     "multi-semantic-release": "^2.6.0",
     "sort-package-json": "^1.49.0"
   }
