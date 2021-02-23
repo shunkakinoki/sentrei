@@ -20,7 +20,7 @@
   "scripts": {
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
-    "depcheck:exec": "yarn workspaces foreach --parallel --topological 'yarn run depcheck . --skip-missing=true'",
+    "depcheck:exec": "yarn workspaces run depcheck .",
     "depcheck:root": "depcheck . --skip-missing=true",
     "eslint:lint": "eslint . --config .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
     "eslint:fix": "eslint --fix . --config .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location node_modules/.cache/eslint",
