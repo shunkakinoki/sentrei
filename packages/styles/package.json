@@ -12,6 +12,7 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
+  "main": "src/index",
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
