@@ -1,3 +1,9 @@
+# @sentrei/styles [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.2.0...@sentrei/styles@1.3.0) (2021-02-23)
+
+### Features
+
+- complete refactor monorepo ([4214bc8](https://github.com/sentrei/sentrei/commit/4214bc8500527615423801f0a36c16aab0811079))
+
 # @sentrei/styles [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.1.0...@sentrei/styles@1.2.0) (2021-02-22)
 
 ### Features
