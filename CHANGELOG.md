@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/sentrei/sentrei/compare/v1.10.0...v1.10.1) (2021-02-23)
+
+### Performance Improvements
+
+- completely remove lerna ([818dba3](https://github.com/sentrei/sentrei/commit/818dba3551599a9c962c27e05921788ba0e16170))
+- refactor eslint js ([247a880](https://github.com/sentrei/sentrei/commit/247a88077713d95e8c88db513f8b01c68d28b460))
+
 # [1.10.0](https://github.com/sentrei/sentrei/compare/v1.9.0...v1.10.0) (2021-02-22)
 
 ### Features
