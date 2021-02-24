@@ -1,3 +1,9 @@
+## [1.15.1](https://github.com/sentrei/sentrei/compare/v1.15.0...v1.15.1) (2021-02-24)
+
+### Performance Improvements
+
+- refactor postinstall cp ([1b40267](https://github.com/sentrei/sentrei/commit/1b40267f2a6d2901914ac407d95f62630d8a505f))
+
 # [1.15.0](https://github.com/sentrei/sentrei/compare/v1.14.0...v1.15.0) (2021-02-24)
 
 ### Features
