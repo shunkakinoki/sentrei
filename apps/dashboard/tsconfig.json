@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@sentrei/dashboard/*": ["src/*"],
+      "@sentrei/components/*": ["components/*"],
       "@sentrei/styles/*": ["../../packages/styles/src/*"]
     },
     "noEmit": true
