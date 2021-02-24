@@ -8,11 +8,7 @@ postinstall-app:
 	make postinstall-vercel
 
 postinstall-vercel:
-ifndef $(VERCEL)
-	make postinstall-cp
-else
-	make postinstall-ln
-endif
+	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; else make postinstall-ln; fi
 
 postinstall-cp:
 	cp -r ../../packages/components/src components
