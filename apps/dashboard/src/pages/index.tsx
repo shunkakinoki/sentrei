@@ -1,6 +1,6 @@
 import type { VFC } from "react";
 
-import { Button } from "@sentrei/components/atoms/Button/Button";
+import { Button } from "@sentrei/components/atoms/Button";
 
 const Index: VFC = () => (
   <>
