@@ -1,3 +1,9 @@
+# [1.14.0](https://github.com/sentrei/sentrei/compare/v1.13.0...v1.14.0) (2021-02-24)
+
+### Features
+
+- refactor makefile confiig ([3b647f5](https://github.com/sentrei/sentrei/commit/3b647f5feb40781e1076b54ec1d22983155349d8))
+
 # [1.13.0](https://github.com/sentrei/sentrei/compare/v1.12.1...v1.13.0) (2021-02-24)
 
 ### Features
