@@ -32,7 +32,7 @@ const config = {
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
   webpack: config => {
-    config.resolve.symlinks = isVercel ? false : true;
+    config.resolve.symlinks = isVercel ? true : false;
     return config;
   },
 };
