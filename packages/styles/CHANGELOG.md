@@ -1,3 +1,9 @@
+# @sentrei/styles [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.3.0...@sentrei/styles@1.4.0) (2021-02-24)
+
+### Features
+
+- ini comopnents storybook ([0748dcd](https://github.com/sentrei/sentrei/commit/0748dcd5b27552af5a7349b7b538e5e34946daa6))
+
 # @sentrei/styles [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.2.0...@sentrei/styles@1.3.0) (2021-02-23)
 
 ### Features
