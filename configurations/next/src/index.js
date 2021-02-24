@@ -29,6 +29,10 @@ const config = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  webpack: config => {
+    config.resolve.symlinks = false;
+    return config;
+  },
 };
 
 const plugins = [
