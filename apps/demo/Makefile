@@ -1,2 +1,2 @@
 postinstall:
-	ln -s ../../packages/components/src components
+	ln -sf ../../packages/components/src components

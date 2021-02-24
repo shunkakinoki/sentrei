@@ -1,1 +1,1 @@
-../../configurations/tailwind/src/index.js
+module.exports = require("@sentrei/tailwind");
