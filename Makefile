@@ -5,7 +5,7 @@ postinstall-root:
 
 postinstall-app:
 	rm -rf components
-	@if [ "$VERCEL" == "1" ]; then\
+	@if [ -z "$(VERCEL)" ]; then\
 		make postinstall-cp;\
 	else\
 		make postinstall-ln;\
