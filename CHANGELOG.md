@@ -1,3 +1,9 @@
+## [1.12.1](https://github.com/sentrei/sentrei/compare/v1.12.0...v1.12.1) (2021-02-24)
+
+### Performance Improvements
+
+- refactor root tailwind ([6eaf1a7](https://github.com/sentrei/sentrei/commit/6eaf1a7072fd0e6ee2f514a02b8b67045bb1a85a))
+
 # [1.12.0](https://github.com/sentrei/sentrei/compare/v1.11.1...v1.12.0) (2021-02-24)
 
 ### Features
