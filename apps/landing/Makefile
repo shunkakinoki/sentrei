@@ -1,3 +1,3 @@
 postinstall:
-	rm -rf components next.config.js postcss.config.js tailwind.config.js
+	rm -rf components
 	cp -r ../../packages/components/src components
