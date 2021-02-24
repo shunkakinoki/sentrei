@@ -1060,17 +1060,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
+  version "7.13.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.7.tgz#d494e39d198ee9ca04f4dcb76d25d9d7a1dc961a"
+  integrity sha512-h+ilqoX998mRVM5FtB5ijRuHUDVt5l3yfoOi2uh18Z/O3hvyaHQ39NpxVkCIG5yFs+mLq/ewFp8Bss6zmWv6ZA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2":
   version "7.12.18"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.18.tgz#af137bd7e7d9705a412b3caaf991fe6aaa97831b"
   integrity sha512-BogPQ7ciE6SYAUPtlm9tWbgI9+2AgqSam6QivMgXgAT+fKbgppaj4ZX15MHeLC1PVF5sNk70huBu20XxWOs8Cg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
-  version "7.13.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.7.tgz#d494e39d198ee9ca04f4dcb76d25d9d7a1dc961a"
-  integrity sha512-h+ilqoX998mRVM5FtB5ijRuHUDVt5l3yfoOi2uh18Z/O3hvyaHQ39NpxVkCIG5yFs+mLq/ewFp8Bss6zmWv6ZA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -2081,7 +2081,62 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@storybook/addon-docs@^v6.2.0-beta.2":
+"@storybook/addon-actions@6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.2.0-beta.2.tgz#b24ae2873a21bd816d1e25be51cd3dd4daa49a66"
+  integrity sha512-Sj31qKNi6KjeHbqOwk0Tw03GZaKfkhgCWmYED0+P7nlggErwSR72eQ4SkXOiu0D/LaAALIPPYhmt4UojmjGv9Q==
+  dependencies:
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/client-api" "6.2.0-beta.2"
+    "@storybook/components" "6.2.0-beta.2"
+    "@storybook/core-events" "6.2.0-beta.2"
+    "@storybook/theming" "6.2.0-beta.2"
+    core-js "^3.8.2"
+    fast-deep-equal "^3.1.3"
+    global "^4.4.0"
+    lodash "^4.17.20"
+    polished "^4.0.5"
+    prop-types "^15.7.2"
+    react-inspector "^5.1.0"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+    uuid-browser "^3.1.0"
+
+"@storybook/addon-backgrounds@6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-6.2.0-beta.2.tgz#7ca41bda0ab002f180afc21d434c43bb19490f0a"
+  integrity sha512-Zfbg7DgnrF93kKrXjBMbQLwEjmsLB8uNn+SnVd8FO6JEWKFMAfIi0qJogVNrdSkbumRfjBLZefnBsV+yTZL5Og==
+  dependencies:
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/client-logger" "6.2.0-beta.2"
+    "@storybook/components" "6.2.0-beta.2"
+    "@storybook/core-events" "6.2.0-beta.2"
+    "@storybook/theming" "6.2.0-beta.2"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/addon-controls@6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-6.2.0-beta.2.tgz#cdbcbef9178b6a6548735b6e978516002f5f19e3"
+  integrity sha512-SYusKF0RjzwT451Nig6xLUWSrVjanpP31RoKHx+OummkLV5CSq98qWkhDn4z8o4msB9OPXCAVIlPTAyVxOy9BA==
+  dependencies:
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/client-api" "6.2.0-beta.2"
+    "@storybook/components" "6.2.0-beta.2"
+    "@storybook/node-logger" "6.2.0-beta.2"
+    "@storybook/theming" "6.2.0-beta.2"
+    core-js "^3.8.2"
+    ts-dedent "^2.0.0"
+
+"@storybook/addon-docs@6.2.0-beta.2":
   version "6.2.0-beta.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-6.2.0-beta.2.tgz#85c16c4515dad0c92e1f342f4d0266403a70ea56"
   integrity sha512-VPyzr3lxFoTQWtFBhAjsTFfQH/RWbq+f6U6AfN64cmxxVtiDuH2X1QOlGXfBKD/FSYYiuVQxKTzLSClrTemI+Q==
@@ -2129,6 +2184,24 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
+"@storybook/addon-essentials@^v6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-6.2.0-beta.2.tgz#e7a1902c60f23143234144df2ce5036663727bd7"
+  integrity sha512-y+ju29YbuA4ucksyeBJWo/8kb7+qDLFV5D4fjoyXjy/2NfM3uToE4aa05769t6EgpxASMdGF8ahtRd0pRO7bCg==
+  dependencies:
+    "@storybook/addon-actions" "6.2.0-beta.2"
+    "@storybook/addon-backgrounds" "6.2.0-beta.2"
+    "@storybook/addon-controls" "6.2.0-beta.2"
+    "@storybook/addon-docs" "6.2.0-beta.2"
+    "@storybook/addon-toolbars" "6.2.0-beta.2"
+    "@storybook/addon-viewport" "6.2.0-beta.2"
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/node-logger" "6.2.0-beta.2"
+    core-js "^3.8.2"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-postcss@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/addon-postcss/-/addon-postcss-2.0.0.tgz#ec61cb9bb2662f408072b35c466c7df801c28498"
@@ -2139,6 +2212,34 @@
     postcss "^7.0.35"
     postcss-loader "^4.2.0"
     style-loader "^1.3.0"
+
+"@storybook/addon-toolbars@6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-6.2.0-beta.2.tgz#f98308b3a66c30ea52eaf1f8b315a426b72c6673"
+  integrity sha512-umKhO/w+GjpPKq12ShCd2T/CLCpZFcwBqYlRpfjobF9eJWU83mQvToXPn2HvawQgsQXte0hpXnBKxAMu+XfoEw==
+  dependencies:
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/client-api" "6.2.0-beta.2"
+    "@storybook/components" "6.2.0-beta.2"
+    core-js "^3.8.2"
+
+"@storybook/addon-viewport@6.2.0-beta.2":
+  version "6.2.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-6.2.0-beta.2.tgz#422e8b74ccd628fded72406d6f4b52f4e210492e"
+  integrity sha512-mI4jSizLkYIiGMh5ljSJpo4FqxnBovIYr5e0ZIUTlYdgkwWyZFe9djnyUD0wvz9/8hCSOKmdqPhj2cegh0zdmQ==
+  dependencies:
+    "@storybook/addons" "6.2.0-beta.2"
+    "@storybook/api" "6.2.0-beta.2"
+    "@storybook/client-logger" "6.2.0-beta.2"
+    "@storybook/components" "6.2.0-beta.2"
+    "@storybook/core-events" "6.2.0-beta.2"
+    "@storybook/theming" "6.2.0-beta.2"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+    regenerator-runtime "^0.13.7"
 
 "@storybook/addons@6.2.0-beta.2", "@storybook/addons@^v6.2.0-beta.2":
   version "6.2.0-beta.2"
@@ -8673,6 +8774,14 @@ is-docker@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.1.1.tgz#4125a88e44e450d384e09047ede71adc2d144156"
   integrity sha512-ZOoqiXfEwtGknTiuDEy8pN2CfE3TxMHprvNer1mXiqwkOT77Rw3YVrUQ52EqAOU3QAWDQ+bQdx7HJzrv7LS2Hw==
 
+is-dom@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-dom/-/is-dom-1.1.0.tgz#af1fced292742443bb59ca3f76ab5e80907b4e8a"
+  integrity sha512-u82f6mvhYxRPKpw8V1N0W8ce1xXwOrQtgGcxl6UCL5zBmZu3is/18K0rR7uFCnMDuAsS/3W54mGL4vsaFUQlEQ==
+  dependencies:
+    is-object "^1.0.1"
+    is-window "^1.0.2"
+
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
@@ -8806,6 +8915,11 @@ is-obj@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-2.0.0.tgz#473fb05d973705e3fd9620545018ca8e22ef4982"
   integrity sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==
 
+is-object@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-object/-/is-object-1.0.2.tgz#a56552e1c665c9e950b4a025461da87e72f86fcf"
+  integrity sha512-2rRIahhZr2UWb45fIOuvZGpFtz0TyOZLf32KxBbSoUCeZR495zCKlWUKKUByk3geS2eAs7ZAABt0Y/Rx0GiQGA==
+
 is-path-cwd@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/is-path-cwd/-/is-path-cwd-2.2.0.tgz#67d43b82664a7b5191fd9119127eb300048a9fdb"
@@ -8936,6 +9050,11 @@ is-whitespace-character@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/is-whitespace-character/-/is-whitespace-character-1.0.4.tgz#0858edd94a95594c7c9dd0b5c174ec6e45ee4aa7"
   integrity sha512-SDweEzfIZM0SJV0EUga669UTKlmL0Pq8Lno0QDQsPnvECB3IM2aP0gdx5TrU0A01MAPfViaZiI2V1QMZLaKK5w==
+
+is-window@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-window/-/is-window-1.0.2.tgz#2c896ca53db97de45d3c33133a65d8c9f563480d"
+  integrity sha1-LIlspT25feRdPDMTOmXYyfVjSA0=
 
 is-windows@^1.0.1, is-windows@^1.0.2:
   version "1.0.2"
@@ -12722,7 +12841,7 @@ promzard@^0.3.0:
   dependencies:
     read "1"
 
-prop-types@15.7.2, prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@15.7.2, prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -13111,6 +13230,15 @@ react-helmet-async@^1.0.7:
     prop-types "^15.7.2"
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
+
+react-inspector@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/react-inspector/-/react-inspector-5.1.0.tgz#45a325e15f33e595be5356ca2d3ceffb7d6b8c3a"
+  integrity sha512-JAwswiengIcxi4X/Ssb8nf6suOuQsyit8Fxo04+iPKTnPNY3XIOuagjMZSzpJDDKkYcc/ARlySOYZZv626WUvA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    is-dom "^1.0.0"
+    prop-types "^15.0.0"
 
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
@@ -15866,6 +15994,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid-browser@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/uuid-browser/-/uuid-browser-3.1.0.tgz#0f05a40aef74f9e5951e20efbf44b11871e56410"
+  integrity sha1-DwWkCu90+eWVHiDvv0SxGHHlZBA=
 
 uuid@^3.3.2, uuid@^3.3.3:
   version "3.4.0"

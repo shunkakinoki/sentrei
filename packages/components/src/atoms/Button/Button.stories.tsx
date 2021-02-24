@@ -1,6 +1,10 @@
 import { Button } from "./Button";
 
-export default { title: "Button" };
+export default {
+  argTypes: { onClick: { action: "clicked" } },
+  component: Button,
+  title: "Button",
+};
 
 export const Default = (): JSX.Element => (
   <Button onClick={() => console.log("Clicked button !!!")}>Default</Button>
