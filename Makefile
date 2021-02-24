@@ -1,5 +1,3 @@
-VERCEL = $()
-
 postinstall-root:
 	( cd apps/dashboard && make postinstall-app )
 	( cd apps/demo && make postinstall-app )
@@ -10,7 +8,7 @@ postinstall-app:
 	make postinstall-vercel
 
 postinstall-vercel:
-ifndef VERCEL
+ifndef $(VERCEL)
 	make postinstall-cp
 else
 	make postinstall-ln
