@@ -1,0 +1,3 @@
+{
+  "ignores": ["@storybook/*", "@types/react", "@types/react-dom"]
+}
