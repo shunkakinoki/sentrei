@@ -14,10 +14,26 @@
   "author": "Sentrei, Inc.",
   "main": "src/index",
   "scripts": {
+    "dev": "start-storybook",
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^0.0.0-experimental-8af27aeed",
+    "react-dom": "^0.0.0-experimental-8af27aeed",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^v6.2.0-beta.2",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addons": "^v6.2.0-beta.2",
+    "@storybook/react": "^v6.2.0-beta.2",
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
