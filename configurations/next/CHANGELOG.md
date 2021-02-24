@@ -1,3 +1,9 @@
+## @sentrei/next [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.3...@sentrei/next@1.0.4) (2021-02-24)
+
+### Performance Improvements
+
+- upgrade with ncu ([0aa52d5](https://github.com/sentrei/sentrei/commit/0aa52d5a148a3400788406d0b750288c14c5d752))
+
 ## @sentrei/next [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.2...@sentrei/next@1.0.3) (2021-02-21)
 
 ### Performance Improvements
