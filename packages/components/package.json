@@ -24,7 +24,7 @@
     "tailwindcss": "^2.0.3"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^v6.2.0-beta.2",
+    "@storybook/addon-essentials": "^v6.2.0-beta.2",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^v6.2.0-beta.2",
     "@storybook/react": "^v6.2.0-beta.2",
