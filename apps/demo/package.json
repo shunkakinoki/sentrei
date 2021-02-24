@@ -19,7 +19,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.11",
     "autoprefixer": "^10.2.4",
+    "classnames": "^2.2.6",
     "next": "canary",
     "next-themes": "^0.0.12",
     "postcss": "^8.2.6",
