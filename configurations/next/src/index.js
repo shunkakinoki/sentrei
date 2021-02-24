@@ -2,6 +2,8 @@ const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 
+const isProduction = process.env.VERCEL_ENV === "production";
+
 const config = {
   experimental: {
     optimizeCss: true,
@@ -30,7 +32,7 @@ const config = {
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
   webpack: config => {
-    config.resolve.symlinks = false;
+    config.resolve.symlinks = isProduction ? true : false;
     return config;
   },
 };
