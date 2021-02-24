@@ -16,7 +16,7 @@
     "build": "next build",
     "dev": "next dev",
     "fix": "cd ../.. && yarn run fix",
-    "postinstall": "make postinstall",
+    "postinstall": "make postinstall-app",
     "start": "next start"
   },
   "dependencies": {
