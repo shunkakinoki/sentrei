@@ -2,7 +2,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 
-const isProduction = process.env.VERCEL_ENV === "production";
+const isVercel = process.env.VERCEL_ENV === "1";
 
 const config = {
   experimental: {
@@ -32,7 +32,7 @@ const config = {
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
   webpack: config => {
-    config.resolve.symlinks = isProduction ? true : false;
+    config.resolve.symlinks = isVercel ? false : true;
     return config;
   },
 };

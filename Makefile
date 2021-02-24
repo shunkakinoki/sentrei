@@ -1,7 +1,7 @@
 postinstall-root:
-	( cd apps/dashboard && make postinstall )
-	( cd apps/demo && make postinstall )
-	( cd apps/landing && make postinstall )
+	( cd apps/dashboard && make postinstall-app )
+	( cd apps/demo && make postinstall-app )
+	( cd apps/landing && make postinstall-app )
 
 postinstall-app:
 	rm -rf components
