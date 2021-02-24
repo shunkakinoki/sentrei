@@ -1,3 +1,25 @@
+# [1.13.0](https://github.com/sentrei/sentrei/compare/v1.12.1...v1.13.0) (2021-02-24)
+
+### Features
+
+- disable symlink next ([12f11da](https://github.com/sentrei/sentrei/commit/12f11da2da8cae4f68affb1f901db9cc92b44cba))
+- ini components symlink ([6305eca](https://github.com/sentrei/sentrei/commit/6305eca49b7257db2d21af9b0bc62dec0f426168))
+- ini makefile postcss with proper tailwind config ([d426958](https://github.com/sentrei/sentrei/commit/d426958e55bc10496442f521d8ac8a056ad0a329))
+
+### Performance Improvements
+
+- complete refactor makefile ([d6c6708](https://github.com/sentrei/sentrei/commit/d6c670805e2ed940a528e5455c9e66a46efb0b02))
+- complete refactor postcss config js ([b5587a5](https://github.com/sentrei/sentrei/commit/b5587a5d244565c347bdaf28292b738b42d4ca09))
+- complete refactor postcss tailwind imports ([17b4ef6](https://github.com/sentrei/sentrei/commit/17b4ef6aac97bc7f89c6a5d6a625c86f1d5ed89e))
+- ini exports button ([663f243](https://github.com/sentrei/sentrei/commit/663f243ffe5b3e19aa1968e8073a0c47317a29d3))
+- ini makefile config ([ff0a2c7](https://github.com/sentrei/sentrei/commit/ff0a2c77b281e99f023805c28ef05e4d321c5da3))
+- ini postinstall apps ([2b7eea0](https://github.com/sentrei/sentrei/commit/2b7eea003593ab535abeafd2fde2009f137bc2d2))
+- refactor config files ([a20ded7](https://github.com/sentrei/sentrei/commit/a20ded790dadf0d3df5160af5b048a9b790635ce))
+- refactor makefile config ([8b070fa](https://github.com/sentrei/sentrei/commit/8b070fa09ea67ea7aae485cdc706e7cbd11a6a1c))
+- refactor postinstall makefile ([5e895e8](https://github.com/sentrei/sentrei/commit/5e895e86104499c55523cf6c0231154af624c2ef))
+- update ([edd5e96](https://github.com/sentrei/sentrei/commit/edd5e96016c1a845db92a895b27a1fdf9e1613f0))
+- update webpack vercel ([5ae53b9](https://github.com/sentrei/sentrei/commit/5ae53b9241d7cacb095a2d572a96df2302b7d535))
+
 ## [1.12.1](https://github.com/sentrei/sentrei/compare/v1.12.0...v1.12.1) (2021-02-24)
 
 ### Performance Improvements
