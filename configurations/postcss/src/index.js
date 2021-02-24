@@ -1,10 +1,8 @@
+/* eslint-disable sort-keys */
+
 module.exports = {
-  plugins: [
-    "postcss-import",
-    "tailwindcss",
-    "postcss-preset-env",
-    "postcss-nested",
-    "postcss-custom-properties",
-    "autoprefixer",
-  ],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 };
