@@ -1,3 +1,5 @@
+VERCEL = $()
+
 postinstall-root:
 	( cd apps/dashboard && make postinstall-app )
 	( cd apps/demo && make postinstall-app )
@@ -5,11 +7,14 @@ postinstall-root:
 
 postinstall-app:
 	rm -rf components
-	@if [ -z "$(VERCEL)" ]; then\
-		make postinstall-cp;\
-	else\
-		make postinstall-ln;\
-	fi
+	make postinstall-vercel
+
+postinstall-vercel:
+ifndef VERCEL
+	make postinstall-cp
+else
+	make postinstall-ln
+endif
 
 postinstall-cp:
 	cp -r ../../packages/components/src components
