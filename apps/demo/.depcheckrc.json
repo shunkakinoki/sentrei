@@ -5,6 +5,7 @@
     "next-translate",
     "autoprefixer",
     "postcss",
-    "postcss-*"
+    "postcss-*",
+    "tailwindcss"
   ]
 }
