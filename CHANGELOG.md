@@ -1,3 +1,13 @@
+# [1.12.0](https://github.com/sentrei/sentrei/compare/v1.11.1...v1.12.0) (2021-02-24)
+
+### Features
+
+- ini comopnents storybook ([0748dcd](https://github.com/sentrei/sentrei/commit/0748dcd5b27552af5a7349b7b538e5e34946daa6))
+
+### Performance Improvements
+
+- update depcheckrc json ([1aa6441](https://github.com/sentrei/sentrei/commit/1aa64417c4b53a3d86288fcebafeea85bc6bee12))
+
 ## [1.11.1](https://github.com/sentrei/sentrei/compare/v1.11.0...v1.11.1) (2021-02-24)
 
 ### Performance Improvements
