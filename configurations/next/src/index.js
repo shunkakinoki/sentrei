@@ -2,6 +2,8 @@ const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 
+const isVercel = process.env.VERCEL === "1";
+
 const config = {
   experimental: {
     optimizeCss: true,
@@ -29,6 +31,10 @@ const config = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  webpack: config => {
+    config.resolve.symlinks = isVercel ? true : false;
+    return config;
+  },
 };
 
 const plugins = [
