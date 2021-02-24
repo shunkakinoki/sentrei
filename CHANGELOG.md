@@ -1,3 +1,9 @@
+# [1.15.0](https://github.com/sentrei/sentrei/compare/v1.14.0...v1.15.0) (2021-02-24)
+
+### Features
+
+- upgrade components storybook ([beb6a1c](https://github.com/sentrei/sentrei/commit/beb6a1cb179465342f159b82275c2f4f6223abde))
+
 # [1.14.0](https://github.com/sentrei/sentrei/compare/v1.13.0...v1.14.0) (2021-02-24)
 
 ### Features
