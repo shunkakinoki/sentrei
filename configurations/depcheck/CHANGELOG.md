@@ -1,3 +1,9 @@
+## @sentrei/depcheck [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.3.1...@sentrei/depcheck@1.3.2) (2021-02-24)
+
+### Performance Improvements
+
+- update depcheckrc json ([1aa6441](https://github.com/sentrei/sentrei/commit/1aa64417c4b53a3d86288fcebafeea85bc6bee12))
+
 ## @sentrei/depcheck [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/depcheck@1.3.0...@sentrei/depcheck@1.3.1) (2021-02-21)
 
 ### Performance Improvements
