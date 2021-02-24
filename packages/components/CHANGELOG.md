@@ -1,3 +1,13 @@
+# @sentrei/components [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.1.0...@sentrei/components@1.2.0) (2021-02-24)
+
+### Features
+
+- ini makefile postcss with proper tailwind config ([d426958](https://github.com/sentrei/sentrei/commit/d426958e55bc10496442f521d8ac8a056ad0a329))
+
+### Performance Improvements
+
+- ini exports button ([663f243](https://github.com/sentrei/sentrei/commit/663f243ffe5b3e19aa1968e8073a0c47317a29d3))
+
 # @sentrei/components [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.0.0...@sentrei/components@1.1.0) (2021-02-24)
 
 ### Features
