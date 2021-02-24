@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/sentrei/sentrei/compare/v1.11.0...v1.11.1) (2021-02-24)
+
+### Performance Improvements
+
+- ini utils package ([4db5f01](https://github.com/sentrei/sentrei/commit/4db5f012af59ade2988c01a17552929e9aca372b))
+- upgrade with ncu ([0aa52d5](https://github.com/sentrei/sentrei/commit/0aa52d5a148a3400788406d0b750288c14c5d752))
+
 # [1.11.0](https://github.com/sentrei/sentrei/compare/v1.10.1...v1.11.0) (2021-02-23)
 
 ### Features
