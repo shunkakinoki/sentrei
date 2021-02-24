@@ -1,3 +1,14 @@
+# @sentrei/next [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.4...@sentrei/next@1.1.0) (2021-02-24)
+
+### Features
+
+- disable symlink next ([12f11da](https://github.com/sentrei/sentrei/commit/12f11da2da8cae4f68affb1f901db9cc92b44cba))
+
+### Performance Improvements
+
+- update ([edd5e96](https://github.com/sentrei/sentrei/commit/edd5e96016c1a845db92a895b27a1fdf9e1613f0))
+- update webpack vercel ([5ae53b9](https://github.com/sentrei/sentrei/commit/5ae53b9241d7cacb095a2d572a96df2302b7d535))
+
 ## @sentrei/next [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.0.3...@sentrei/next@1.0.4) (2021-02-24)
 
 ### Performance Improvements
