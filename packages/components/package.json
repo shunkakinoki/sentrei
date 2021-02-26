@@ -17,7 +17,8 @@
     "build": "build-storybook -o public",
     "build:theme": "chakra-cli tokens src/theme/theme.ts",
     "dev": "start-storybook",
-    "fix": "cd ../.. && yarn run fix"
+    "fix": "cd ../.. && yarn run fix",
+    "postinstall": "make postinstall-app"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.3.3",

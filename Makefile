@@ -11,7 +11,7 @@ postinstall-vercel:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; else make postinstall-ln; fi
 
 postinstall-cp:
-	cp -r ../../packages/components/src components
+	for i in *; do link=$(readlink $i) && rm $i && mv $link $i; done
 
 postinstall-ln:
 	ln -s ../../packages/components/src components
