@@ -1,3 +1,9 @@
+## [1.18.1](https://github.com/sentrei/sentrei/compare/v1.18.0...v1.18.1) (2021-02-26)
+
+### Performance Improvements
+
+- ini storybook emotion ([5b7ef4a](https://github.com/sentrei/sentrei/commit/5b7ef4a91d2f240f13eee500122a15bf82497040))
+
 # [1.18.0](https://github.com/sentrei/sentrei/compare/v1.17.0...v1.18.0) (2021-02-26)
 
 ### Features
