@@ -1,3 +1,16 @@
+# @sentrei/components [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.5.0...@sentrei/components@1.6.0) (2021-02-26)
+
+### Features
+
+- ini compoments theme ([5fee5e6](https://github.com/sentrei/sentrei/commit/5fee5e66a50a0684f3ed0c13123be32970980428))
+
+### Performance Improvements
+
+- refactor story addons ([b1b5c50](https://github.com/sentrei/sentrei/commit/b1b5c50fb325783c02dc5b8419bf1906423d12a1))
+- refactor storybook config ([d812c4f](https://github.com/sentrei/sentrei/commit/d812c4fd5d7849dd5f40ce157253dd86899df204))
+- refactor storybook public ([dfeb268](https://github.com/sentrei/sentrei/commit/dfeb2685bf6db5a35a8504c77c6f595f65f26d1f))
+- refactor theme config ([24a3ab9](https://github.com/sentrei/sentrei/commit/24a3ab9a5b223d6780ab235a376f6ce22ea14bca))
+
 # @sentrei/components [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.4.0...@sentrei/components@1.5.0) (2021-02-26)
 
 ### Features
