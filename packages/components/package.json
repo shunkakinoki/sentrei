@@ -18,21 +18,15 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
     "react": "^0.0.0-experimental-8af27aeed",
-    "react-dom": "^0.0.0-experimental-8af27aeed",
-    "tailwindcss": "^2.0.3"
+    "react-dom": "^0.0.0-experimental-8af27aeed"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^v6.2.0-beta.2",
-    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^v6.2.0-beta.2",
     "@storybook/react": "^v6.2.0-beta.2",
-    "@types/classnames": "^2.2.11",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1",
-    "autoprefixer": "^10.2.4",
-    "postcss": "^8.2.6"
+    "@types/react-dom": "^17.0.1"
   },
   "publishConfig": {
     "access": "public",

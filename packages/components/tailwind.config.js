@@ -1,1 +1,0 @@
-../../configurations/tailwind/src/index.js

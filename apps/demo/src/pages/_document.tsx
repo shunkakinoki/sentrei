@@ -5,10 +5,8 @@ export default class Document extends Doc {
     return (
       <Html lang="en">
         <Head />
-        <body className="text-white bg-white dark:bg-black dark:text-black">
-          <Main />
-          <NextScript />
-        </body>
+        <Main />
+        <NextScript />
       </Html>
     );
   }
