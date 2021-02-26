@@ -1,3 +1,9 @@
+## @sentrei/components [1.6.1](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.6.0...@sentrei/components@1.6.1) (2021-02-26)
+
+### Performance Improvements
+
+- ini storybook emotion ([5b7ef4a](https://github.com/sentrei/sentrei/commit/5b7ef4a91d2f240f13eee500122a15bf82497040))
+
 # @sentrei/components [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.5.0...@sentrei/components@1.6.0) (2021-02-26)
 
 ### Features
