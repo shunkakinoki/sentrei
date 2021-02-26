@@ -1,3 +1,9 @@
+# @sentrei/eslint [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.4.3...@sentrei/eslint@1.5.0) (2021-02-26)
+
+### Features
+
+- ini compoments theme ([5fee5e6](https://github.com/sentrei/sentrei/commit/5fee5e66a50a0684f3ed0c13123be32970980428))
+
 ## @sentrei/eslint [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.4.2...@sentrei/eslint@1.4.3) (2021-02-24)
 
 ### Performance Improvements
