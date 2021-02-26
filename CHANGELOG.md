@@ -1,3 +1,15 @@
+# [1.17.0](https://github.com/sentrei/sentrei/compare/v1.16.1...v1.17.0) (2021-02-26)
+
+### Features
+
+- ini chakra-ui components ([cc6eb68](https://github.com/sentrei/sentrei/commit/cc6eb68776e236ec2dbbd64a687496b2b3375b67))
+
+### Performance Improvements
+
+- deprecate next themes ([3fc957c](https://github.com/sentrei/sentrei/commit/3fc957c13ecb11c692bff3cba94b29986ce00f67))
+- ini theme provider app root ([d5a3baa](https://github.com/sentrei/sentrei/commit/d5a3baa46863f28801ea114dae44a68c8d9048b2))
+- yarn add @chakra-ui/react ([2cd4b59](https://github.com/sentrei/sentrei/commit/2cd4b592f5c4356143b01926af7d2ee0bb434791))
+
 ## [1.16.1](https://github.com/sentrei/sentrei/compare/v1.16.0...v1.16.1) (2021-02-26)
 
 ### Performance Improvements
