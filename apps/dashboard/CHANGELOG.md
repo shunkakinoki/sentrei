@@ -1,3 +1,16 @@
+# @sentrei/dashboard [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.6.0...@sentrei/dashboard@1.7.0) (2021-02-26)
+
+### Features
+
+- complete remove tailwind ([ee4d1fb](https://github.com/sentrei/sentrei/commit/ee4d1fba888215684b6223d9b29817fa75b96967))
+
+### Performance Improvements
+
+- deprecate classnames styling ([8916e49](https://github.com/sentrei/sentrei/commit/8916e49423d5a1287806c3883dd82b55ee220af4))
+- refactor component packages ([7c550a2](https://github.com/sentrei/sentrei/commit/7c550a27ef0f079977884d00e0eadef30c9b8414))
+- root app css deprecation update ([09791c8](https://github.com/sentrei/sentrei/commit/09791c8ccdc7f3b366bb5d71529cf7834b08e606))
+- update pages index ([f5a8540](https://github.com/sentrei/sentrei/commit/f5a85405dd1907898e9b460bbc58be170fcaa1de))
+
 # @sentrei/dashboard [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.5.1...@sentrei/dashboard@1.6.0) (2021-02-24)
 
 ### Features
