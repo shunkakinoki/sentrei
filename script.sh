@@ -30,4 +30,11 @@ else
       exit 1
     fi
   fi
+  if [[ "$PWD" =~ "packages/components" ]]; then
+    if git diff --quiet HEAD~ -- .; then
+      exit 0
+    else
+      exit 1
+    fi
+  fi
 fi
