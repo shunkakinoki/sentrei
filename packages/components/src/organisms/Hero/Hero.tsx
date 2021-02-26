@@ -38,7 +38,7 @@ export const Hero = () => {
             mt="4"
             fontWeight="extrabold"
             size="3xl"
-            maxW="lg"
+            maxW="xl"
             mx="auto"
             letterSpacing="tight"
           >

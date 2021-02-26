@@ -2,18 +2,18 @@
   "hero": {
     "announce": {
       "prefix": "New",
-      "title": "Demo Video Announced"
+      "title": "See Demo Dashboard"
     },
     "cta": {
       "demo": "Watch demo",
-      "start": "Get started free"
+      "start": "Deploy now"
     },
     "description": {
       "1": "Sentrei provides the edge serverless backend on top of the global database infrastructure.",
       "2": "We abstract away the boilerplate to provide the best developer experience.",
       "3": "We aim to do much better, how developers deserve in 2020."
     },
-    "main": "Build apps fast",
-    "sub": "at scale"
+    "main": "Build apps 3x faster.",
+    "sub": "Instant serverless backend."
   }
 }
