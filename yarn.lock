@@ -11484,11 +11484,6 @@ next-compose-plugins@^2.2.1:
   resolved "https://registry.yarnpkg.com/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz#020fc53f275a7e719d62521bef4300fbb6fde5ab"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
-next-themes@^0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/next-themes/-/next-themes-0.0.12.tgz#8021999f314dc08614f4bcd1f8b7b91f1cd5bf00"
-  integrity sha512-127ZeerlF/GC17TMVkZkarj3f01weI03b+Ne1xHmmaRs9ouYXVkgyAd60GHRzUnCFVo1NKLcZe0Pr8OnTzrxwQ==
-
 next-translate@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.4.tgz#e44b6df4cefc89c24d4b97160d70c4ff9cc37bb5"
