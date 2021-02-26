@@ -14,7 +14,7 @@
   "author": "Sentrei, Inc.",
   "main": "src/index",
   "scripts": {
-    "build": "build-storybook -o out",
+    "build": "build-storybook -o public",
     "build:theme": "chakra-cli tokens src/theme/theme.ts",
     "dev": "start-storybook",
     "fix": "cd ../.. && yarn run fix"
