@@ -1,3 +1,9 @@
+## @sentrei/styles [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.4.0...@sentrei/styles@1.4.1) (2021-02-26)
+
+### Performance Improvements
+
+- deprecate css scss ([48423c3](https://github.com/sentrei/sentrei/commit/48423c3891b32280e5da91e0bf1e044d9f9c7ae8))
+
 # @sentrei/styles [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.3.0...@sentrei/styles@1.4.0) (2021-02-24)
 
 ### Features
