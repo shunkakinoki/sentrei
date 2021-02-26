@@ -1,6 +1,6 @@
 {
   "ignores": [
-    "@chakra-ui",
+    "@chakra-ui/*",
     "@emotion/*",
     "@sentrei/*",
     "framer-motion",
