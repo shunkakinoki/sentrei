@@ -1,4 +1,4 @@
 {
-  "reject": ["framer-motion", "husky", "react", "react-dom"],
+  "reject": ["husky", "react", "react-dom"],
   "upgrade": true
 }
