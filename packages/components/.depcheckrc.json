@@ -1,9 +1,13 @@
 {
   "ignores": [
     "@storybook/*",
+    "@emotion/react",
+    "@emotion/styled",
     "@types/react",
     "@types/react-dom",
+    "framer-motion",
     "react",
-    "react-dom"
+    "react-dom",
+    "react-icons"
   ]
 }

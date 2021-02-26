@@ -26,8 +26,7 @@
     "framer-motion": "^3.7.0",
     "react": "^0.0.0-experimental-8af27aeed",
     "react-dom": "^0.0.0-experimental-8af27aeed",
-    "react-icons": "^4.2.0",
-    "storybook-addon-performance": "^0.14.0"
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "@chakra-ui/cli": "^1.2.1",
@@ -35,7 +34,8 @@
     "@storybook/addons": "^v6.2.0-beta.2",
     "@storybook/react": "^v6.2.0-beta.2",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1"
+    "@types/react-dom": "^17.0.1",
+    "next": "v10.0.8-canary.9"
   },
   "publishConfig": {
     "access": "public",
