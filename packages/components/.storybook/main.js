@@ -1,19 +1,8 @@
 module.exports = {
-  addons: [
-    "@storybook/addon-essentials",
-    {
-      name: "@storybook/addon-postcss",
-      options: {
-        postcssLoaderOptions: {
-          implementation: require("postcss"),
-        },
-      },
-    },
-  ],
+  addons: ["@storybook/addon-essentials"],
   stories: ["../src/**/*.stories.tsx"],
   webpackFinal: async config => {
     config.resolve.modules.push("src");
-
     return config;
   },
 };
