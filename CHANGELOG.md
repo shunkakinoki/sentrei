@@ -1,3 +1,9 @@
+## [1.16.1](https://github.com/sentrei/sentrei/compare/v1.16.0...v1.16.1) (2021-02-26)
+
+### Performance Improvements
+
+- refactor next canary ([9123158](https://github.com/sentrei/sentrei/commit/9123158d28b13b8ff0d508525c941b18ec449625))
+
 # [1.16.0](https://github.com/sentrei/sentrei/compare/v1.15.1...v1.16.0) (2021-02-26)
 
 ### Features
