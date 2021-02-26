@@ -15,5 +15,5 @@ postinstall-cp:
 	cp -r ../../locales locales
 
 postinstall-ln:
-	ln -s ../../packages/components/src components
-	ln -s ../../locales locales
+	ln -sfn ../../packages/components/src components
+	ln -sfn ../../locales locales
