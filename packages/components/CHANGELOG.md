@@ -1,3 +1,13 @@
+# @sentrei/components [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.3.0...@sentrei/components@1.4.0) (2021-02-26)
+
+### Features
+
+- complete remove tailwind ([ee4d1fb](https://github.com/sentrei/sentrei/commit/ee4d1fba888215684b6223d9b29817fa75b96967))
+
+### Performance Improvements
+
+- refactor component packages ([7c550a2](https://github.com/sentrei/sentrei/commit/7c550a27ef0f079977884d00e0eadef30c9b8414))
+
 # @sentrei/components [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.2.0...@sentrei/components@1.3.0) (2021-02-24)
 
 ### Features
