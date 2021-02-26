@@ -27,6 +27,7 @@
     "next": "v10.0.8-canary.9",
     "react": "^0.0.0-experimental-8af27aeed",
     "react-dom": "^0.0.0-experimental-8af27aeed",
+    "react-icons": "^4.2.0",
     "recoil": "^0.1.2"
   },
   "devDependencies": {
