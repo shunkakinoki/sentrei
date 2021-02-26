@@ -1,3 +1,10 @@
+## @sentrei/dashboard [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.8.0...@sentrei/dashboard@1.8.1) (2021-02-26)
+
+### Performance Improvements
+
+- ini chakra packages ([9758d23](https://github.com/sentrei/sentrei/commit/9758d2357fdf8a6adfeeb9f5a7585826ec4f3f3c))
+- ini color mode script ([ca7516c](https://github.com/sentrei/sentrei/commit/ca7516c3742ac9c57a22947b6197396a9b4b31df))
+
 # @sentrei/dashboard [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.7.1...@sentrei/dashboard@1.8.0) (2021-02-26)
 
 ### Features
