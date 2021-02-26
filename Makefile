@@ -12,8 +12,6 @@ postinstall-vercel:
 
 postinstall-cp:
 	cp -r ../../packages/components/src components
-	cp -f ../../configurations/postcss/src/index.js postcss.config.js
-	cp -f ../../configurations/tailwind/src/index.js tailwind.config.js
 
 postinstall-ln:
 	ln -s ../../packages/components/src components
