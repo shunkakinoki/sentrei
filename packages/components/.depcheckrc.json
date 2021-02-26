@@ -1,7 +1,6 @@
 {
   "ignores": [
     "@storybook/*",
-    "@tailwindcss/*",
     "@types/react",
     "@types/react-dom",
     "react",
