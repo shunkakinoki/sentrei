@@ -8,11 +8,7 @@ export type ButtonProps = ChakraButtonProps & {
 };
 
 export const Button: FC<ButtonProps> = ({ href, ...rest }) => {
-  const buttonProps: ChakraButtonProps = {
-    colorScheme: "cyan",
-    height: 12,
-    width: "full",
-  };
+  const buttonProps: ChakraButtonProps = {};
 
   if (href) {
     <NextLink passHref href={href}>

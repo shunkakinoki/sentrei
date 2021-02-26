@@ -26,6 +26,7 @@
     "babel-plugin-react-generate-property": "^1.0.5",
     "framer-motion": "^3.7.0",
     "next": "v10.0.8-canary.9",
+    "next-translate": "^1.0.4",
     "react": "^0.0.0-experimental-8af27aeed",
     "react-dom": "^0.0.0-experimental-8af27aeed",
     "react-icons": "^4.2.0"

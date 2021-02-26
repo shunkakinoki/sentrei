@@ -4,9 +4,9 @@ import { Button } from "./Button";
 
 export default {
   component: Button,
-  title: "Button",
+  title: "Atoms/Button",
 };
 
-export const PrimaryButton = (): JSX.Element => (
+export const _Button = (): JSX.Element => (
   <Button onClick={action("clicked")}>Primary</Button>
 );
