@@ -1,3 +1,9 @@
+## @sentrei/landing [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.8.1...@sentrei/landing@1.8.2) (2021-02-26)
+
+### Performance Improvements
+
+- refactor apps landing ([d548e8f](https://github.com/sentrei/sentrei/commit/d548e8f90fe2e2bf94e2b8bec5c16f498800ed73))
+
 ## @sentrei/landing [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.8.0...@sentrei/landing@1.8.1) (2021-02-26)
 
 ### Performance Improvements
