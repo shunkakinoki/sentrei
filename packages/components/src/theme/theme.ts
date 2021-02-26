@@ -1,9 +1,18 @@
-import { extendTheme } from "@chakra-ui/react";
+import components from "./components";
+import foundations from "./foundations";
+import styles from "./styles";
+import type { ThemeConfig } from "./theme.types";
 
-const config = {
+const config: ThemeConfig = {
   initialColorMode: "dark",
   useSystemColorMode: true,
 };
 
-//@ts-expect-error Need `@chakra/cli` to work before removing comment
-export const theme = extendTheme({ config });
+export const theme = {
+  ...foundations,
+  components,
+  config,
+  styles,
+};
+
+export type Theme = typeof theme;
