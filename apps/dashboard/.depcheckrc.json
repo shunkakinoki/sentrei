@@ -1,3 +1,10 @@
 {
-  "ignores": ["@sentrei/*", "next-translate"]
+  "ignores": [
+    "@chakra-ui/*",
+    "@emotion/*",
+    "@sentrei/*",
+    "@storybook/*",
+    "framer-motion",
+    "next-translate"
+  ]
 }

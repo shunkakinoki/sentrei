@@ -1,4 +1,18 @@
-import type { ChakraTheme } from "@chakra-ui/react";
-import { extendTheme } from "@chakra-ui/react";
+import components from "./components";
+import foundations from "./foundations";
+import styles from "./styles";
+import type { ThemeConfig } from "./theme.types";
 
-export const theme: ChakraTheme = extendTheme({});
+const config: ThemeConfig = {
+  initialColorMode: "dark",
+  useSystemColorMode: true,
+};
+
+export const theme = {
+  ...foundations,
+  components,
+  config,
+  styles,
+};
+
+export type Theme = typeof theme;
