@@ -1,11 +1,12 @@
-import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
 import type { FC } from "react";
 import { RecoilRoot } from "recoil";
 
+import { ThemeProvider } from "@sentrei/components/theme";
+
 const App: FC<AppProps> = ({ Component, pageProps }) => (
   <RecoilRoot>
-    <ThemeProvider attribute="class" defaultTheme="system">
+    <ThemeProvider>
       <Component {...pageProps} />
     </ThemeProvider>
   </RecoilRoot>

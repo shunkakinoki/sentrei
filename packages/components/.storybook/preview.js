@@ -1,7 +1,10 @@
-import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
+import * as React from "react";
+import { ThemeProvider } from "../src/theme";
 
-export const parameters = {
-  viewport: {
-    viewports: INITIAL_VIEWPORTS,
-  },
-};
+export const decorators = [
+  Story => (
+    <ThemeProvider>
+      <Story />
+    </ThemeProvider>
+  ),
+];

@@ -14,19 +14,28 @@
   "author": "Sentrei, Inc.",
   "main": "src/index",
   "scripts": {
+    "build": "build-storybook -o out",
+    "build:theme": "chakra-cli tokens src/theme/theme.ts",
     "dev": "start-storybook",
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.3.3",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "framer-motion": "^3.7.0",
     "react": "^0.0.0-experimental-8af27aeed",
-    "react-dom": "^0.0.0-experimental-8af27aeed"
+    "react-dom": "^0.0.0-experimental-8af27aeed",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@chakra-ui/cli": "^1.2.1",
     "@storybook/addon-essentials": "^v6.2.0-beta.2",
     "@storybook/addons": "^v6.2.0-beta.2",
     "@storybook/react": "^v6.2.0-beta.2",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1"
+    "@types/react-dom": "^17.0.1",
+    "next": "v10.0.8-canary.9"
   },
   "publishConfig": {
     "access": "public",
