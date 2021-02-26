@@ -1,18 +1,15 @@
-import components from "./components";
-import foundations from "./foundations";
-import styles from "./styles";
-import type { ThemeConfig } from "./theme.types";
+import { extendTheme } from "@chakra-ui/react";
+import type { ColorModeOptions } from "@chakra-ui/system";
 
-const config: ThemeConfig = {
+const config: ColorModeOptions = {
   initialColorMode: "dark",
   useSystemColorMode: true,
 };
 
-export const theme = {
-  ...foundations,
-  components,
+export const overrides = {
   config,
-  styles,
 };
+
+export const theme = extendTheme(overrides);
 
 export type Theme = typeof theme;
