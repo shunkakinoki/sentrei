@@ -4,6 +4,7 @@
     "@emotion/*",
     "@sentrei/*",
     "@storybook/*",
+    "babel-*",
     "framer-motion",
     "next-translate"
   ]
