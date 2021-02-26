@@ -1,6 +1,6 @@
 {
   "ignores": [
-    "@chakra-ui/cli",
+    "@chakra-ui/*",
     "@sentrei/*",
     "@storybook/*",
     "@emotion/react",
