@@ -1,3 +1,9 @@
+# @sentrei/components [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.4.0...@sentrei/components@1.5.0) (2021-02-26)
+
+### Features
+
+- ini chakra-ui components ([cc6eb68](https://github.com/sentrei/sentrei/commit/cc6eb68776e236ec2dbbd64a687496b2b3375b67))
+
 # @sentrei/components [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/components@1.3.0...@sentrei/components@1.4.0) (2021-02-26)
 
 ### Features
