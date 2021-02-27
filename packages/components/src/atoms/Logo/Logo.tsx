@@ -14,6 +14,9 @@ export const Logo: FC<LogoProps> = ({ ...rest }) => {
         <IconButton
           aria-label="Logo"
           colorScheme="purple"
+          fontSize="48px"
+          variant="ghost"
+          size="lg"
           icon={<RiBlazeFill />}
           {...rest}
         />
