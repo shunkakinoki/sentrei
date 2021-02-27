@@ -61,7 +61,10 @@ export const Header = () => {
             w="100%"
             maxW="824px"
             align="center"
-            color="gray.400"
+            color={useColorModeValue(
+              y > height ? "gray.600" : "gray.700",
+              y > height ? "gray.300" : "gray.200",
+            )}
           >
             <HStack spacing="5" display={{ base: "none", md: "flex" }}>
               <Link
