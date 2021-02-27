@@ -1,6 +1,7 @@
 import {
   Box,
   Container,
+  Flex,
   Stack,
   Text,
   useColorModeValue,
@@ -13,21 +14,26 @@ import { Logo } from "@sentrei/components/atoms/Logo";
 export function Footer() {
   return (
     <Box color={useColorModeValue("gray.700", "gray.200")}>
-      <Container
-        as={Stack}
-        maxW="6xl"
-        py={4}
-        spacing={4}
-        justify="center"
-        align="center"
+      <Flex
+        align={"center"}
+        _before={{
+          content: '""',
+          borderBottom: "1px solid",
+          borderColor: useColorModeValue("gray.300", "gray.700"),
+          flexGrow: 1,
+          mr: 8,
+        }}
+        _after={{
+          content: '""',
+          borderBottom: "1px solid",
+          borderColor: useColorModeValue("gray.300", "gray.700"),
+          flexGrow: 1,
+          ml: 8,
+        }}
       >
         <Logo />
-      </Container>
-      <Box
-        borderTopWidth={1}
-        borderStyle="solid"
-        borderColor={useColorModeValue("gray.200", "gray.700")}
-      >
+      </Flex>
+      <Box borderColor={useColorModeValue("gray.200", "gray.700")}>
         <Container
           as={Stack}
           maxW="6xl"
