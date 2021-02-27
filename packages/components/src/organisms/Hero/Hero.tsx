@@ -24,6 +24,7 @@ export const Hero = () => {
       <Box
         position={"relative"}
         maxW={{ base: "xl", sm: "3xl", md: "8xl" }}
+        mt="16"
         mx="auto"
         px={{ base: "6", md: "8" }}
       >
@@ -139,6 +140,13 @@ export const Hero = () => {
         </Stack>
       </Box>
       <Blur position={"absolute"} top={-10} left={-10} />
+      <Blur
+        display={{ base: "none", md: "block" }}
+        position={"absolute"}
+        transform="scale(-1,-1)"
+        top={-10}
+        right={-10}
+      />
     </SectionContainer>
   );
 };
