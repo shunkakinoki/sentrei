@@ -1,10 +1,4 @@
-import {
-  Box,
-  Center,
-  Heading,
-  Text,
-  useColorModeValue,
-} from "@chakra-ui/react";
+import { Box, Center, Text, useColorModeValue } from "@chakra-ui/react";
 import type { ComponentProps, FC } from "react";
 
 import { Gradient } from "@sentrei/components/atoms/Gradient";
