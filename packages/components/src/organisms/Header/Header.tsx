@@ -9,7 +9,9 @@ import {
   useColorMode,
   useColorModeValue as mode,
 } from "@chakra-ui/react";
+import { useViewportScroll } from "framer-motion";
 import NextLink from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { FaDiscord, FaGithub, FaMoon, FaSun } from "react-icons/fa";
 
 import { Logo } from "@sentrei/components/atoms/Logo";
@@ -17,10 +19,19 @@ import { Logo } from "@sentrei/components/atoms/Logo";
 export const Header = () => {
   const SwitchIcon = mode(FaMoon, FaSun);
   const { toggleColorMode } = useColorMode();
+  const ref = useRef<HTMLHeadingElement>(null);
+  const [y, setY] = useState(0);
+  const { height = 0 } = ref.current?.getBoundingClientRect() ?? {};
+
+  const { scrollY } = useViewportScroll();
+  useEffect(() => {
+    return scrollY.onChange(() => setY(scrollY.get()));
+  }, [scrollY]);
 
   return (
     <chakra.header
-      shadow="sm"
+      ref={ref}
+      shadow={y > height ? "xl" : undefined}
       transition="box-shadow 0.3s"
       pos="fixed"
       top="0"
@@ -30,7 +41,7 @@ export const Header = () => {
       right="0"
       width="full"
       css={{
-        backdropFilter: "saturate(180%) blur(6px)",
+        backdropFilter: y > height ? "saturate(180%) blur(6px)" : undefined,
       }}
     >
       <chakra.div height="4.5rem" mx="auto" maxW="1200px">
