@@ -23,7 +23,8 @@
     "critters": "^0.0.7",
     "next": "v10.0.8-canary.9",
     "next-compose-plugins": "^2.2.1",
-    "next-translate": "^1.0.4"
+    "next-translate": "^1.0.4",
+    "next-transpile-modules": "^6.3.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.0.7"
