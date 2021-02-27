@@ -1,9 +1,4 @@
-import {
-  Box,
-  Heading,
-  Stack,
-  useColorModeValue as mode,
-} from "@chakra-ui/react";
+import { Box, Heading, Stack, useColorModeValue } from "@chakra-ui/react";
 
 import useTranslation from "next-translate/useTranslation";
 
@@ -45,7 +40,7 @@ export const Hero = () => {
           >
             <Box
               as="span"
-              bgGradient={mode(
+              bgGradient={useColorModeValue(
                 {
                   base: "linear(to-r, purple.400, blue.600, green.500)",
                   md: "linear(to-r, purple.600, blue.500, green.300)",
@@ -64,7 +59,7 @@ export const Hero = () => {
           </Heading>
           <Box mt="4" maxW="4xl" mx="auto">
             <Gradient
-              bgGradient={mode(
+              bgGradient={useColorModeValue(
                 {
                   base: "linear(to-r, pink.500, purple.700, red.600)",
                   md: "linear(to-r, pink.400, purple.400, red.400)",
@@ -74,7 +69,7 @@ export const Hero = () => {
                   md: "linear(to-r, pink.400, purple.500, red.600)",
                 },
               )}
-              color={mode(
+              color={useColorModeValue(
                 { base: "gray.800", md: "gray.700" },
                 { base: "gray.50", md: "gray.100" },
               )}
@@ -85,7 +80,7 @@ export const Hero = () => {
               {t("index:hero.description.1")}
             </Gradient>
             <Gradient
-              bgGradient={mode(
+              bgGradient={useColorModeValue(
                 {
                   base: "linear(to-r, pink.500, red.500, yellow.500)",
                   md: "linear(to-r, pink.500, red.500, yellow.500)",
@@ -95,7 +90,7 @@ export const Hero = () => {
                   md: "linear(to-r, pink.600, red.600, yellow.500)",
                 },
               )}
-              color={mode(
+              color={useColorModeValue(
                 { base: "gray.800", md: "gray.700" },
                 { base: "gray.10", md: "gray.200" },
               )}
@@ -119,7 +114,7 @@ export const Hero = () => {
             size="lg"
             colorScheme="blue"
             px="8"
-            _hover={mode({ bg: "blue.600" }, { bg: "blue.100" })}
+            _hover={useColorModeValue({ bg: "blue.600" }, { bg: "blue.100" })}
             fontWeight="bold"
             fontSize="md"
             leftIcon={<Box as={ImMagicWand} fontSize="2xl" mr={1} />}
@@ -130,7 +125,7 @@ export const Hero = () => {
             size="lg"
             colorScheme="teal"
             px="8"
-            _hover={mode({ bg: "teal.600" }, { bg: "teal.100" })}
+            _hover={useColorModeValue({ bg: "teal.600" }, { bg: "teal.100" })}
             fontWeight="bold"
             fontSize="md"
             leftIcon={<Box as={HiPlay} fontSize="2xl" mr={1} />}

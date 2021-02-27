@@ -7,7 +7,7 @@ import {
   IconButton,
   Link,
   useColorMode,
-  useColorModeValue as mode,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { useViewportScroll } from "framer-motion";
 import NextLink from "next/link";
@@ -17,7 +17,7 @@ import { FaDiscord, FaGithub, FaMoon, FaSun } from "react-icons/fa";
 import { Logo } from "@sentrei/components/atoms/Logo";
 
 export const Header = () => {
-  const SwitchIcon = mode(FaMoon, FaSun);
+  const SwitchIcon = useColorModeValue(FaMoon, FaSun);
   const { toggleColorMode } = useColorMode();
   const ref = useRef<HTMLHeadingElement>(null);
   const [y, setY] = useState(0);

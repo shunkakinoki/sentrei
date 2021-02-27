@@ -2,7 +2,7 @@ import {
   Badge,
   Box,
   HStack,
-  useColorModeValue as mode,
+  useColorModeValue,
   LinkOverlay,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
@@ -22,7 +22,7 @@ export const Announce: FC<AnnounceProps> = ({ href, prefix, title }) => (
         className="group"
         px="2"
         py="1"
-        bg={mode("gray.200", "gray.700")}
+        bg={useColorModeValue("gray.200", "gray.700")}
         rounded="full"
         fontSize="sm"
         mb="8"
