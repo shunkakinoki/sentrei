@@ -129,7 +129,7 @@ export const Hero = () => {
             size="lg"
             colorScheme="teal"
             px="8"
-            _hover={mode({ bg: "teal.600" }, { bg: "teal.50" })}
+            _hover={mode({ bg: "teal.600" }, { bg: "teal.100" })}
             fontWeight="bold"
             fontSize="md"
             leftIcon={<Box as={HiPlay} fontSize="2xl" mr={1} />}
