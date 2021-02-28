@@ -1,3 +1,4 @@
+import { useColorModeValue } from "@chakra-ui/react";
 import useTranslation from "next-translate/useTranslation";
 
 import { FaqAccordion } from "@sentrei/components/molecules/FaqAccordion";
@@ -8,7 +9,7 @@ export const Faq = () => {
   const { t } = useTranslation();
 
   return (
-    <SectionContainer>
+    <SectionContainer bg={useColorModeValue("gray.50", undefined)}>
       <SectionText
         flag={t("index:faq.section.flag")}
         title={t("index:faq.section.title")}
