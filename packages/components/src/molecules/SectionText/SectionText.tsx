@@ -39,7 +39,8 @@ export const SectionText: FC<SectionTextProps> = ({
     <Gradient
       bgGradient={bgGradient}
       range={range}
-      fontSize={{ base: "2xl", md: "5xl" }}
+      lineHeight="shorter"
+      fontSize={{ base: "4xl", md: "5xl" }}
       fontWeight="extrabold"
       letterSpacing="tight"
     >
