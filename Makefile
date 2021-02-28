@@ -8,8 +8,5 @@ postinstall-app:
 
 postinstall-cp:
 	for link in $$(find . -maxdepth 1 -type l); do \
-	loc="$$(dirname $$link)"; \
-	dir="$$(readlink $$link)"; \
-	mv "$$dir" "$$loc"; \
-	rm "$$dir"; \
+	cp --remove-destination $$(readlink -e $$f) $$f; \
 	done
