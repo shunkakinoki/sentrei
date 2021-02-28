@@ -7,4 +7,5 @@ postinstall-app:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
-	for f in $$(find . -maxdepth 1 -type l); do cp --remove-destination $$(readlink -e $$f) $$f; done;
+	cp -r ../../packages/components/src components
+	cp -r ../../locales locales
