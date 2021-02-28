@@ -69,5 +69,26 @@
     },
     "main": "Build apps 3x faster.",
     "sub": "Instant serverless backend."
+  },
+  "stats": {
+    "section": {
+      "flag": "Strength in numbers",
+      "subtitle": "We hope to empower developers all around the world through providing a one-stop solution for an infinitely scalable backend infrastructure - without the hassle.",
+      "title": "Setting the standard"
+    },
+    "stack": {
+      "database": {
+        "title": "Database regions",
+        "value": "6"
+      },
+      "edge": {
+        "title": "Edge data centers",
+        "value": "200"
+      },
+      "function": {
+        "title": "Function cold starts",
+        "value": "0 sec."
+      }
+    }
   }
 }
