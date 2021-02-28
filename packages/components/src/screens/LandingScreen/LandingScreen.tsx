@@ -2,6 +2,7 @@ import type { FC } from "react";
 
 import { Faq } from "@sentrei/components/organisms/Faq";
 import { Feature } from "@sentrei/components/organisms/Feature";
+import { Founder } from "@sentrei/components/organisms/Founder";
 import { Globe } from "@sentrei/components/organisms/Globe";
 import { Hero } from "@sentrei/components/organisms/Hero";
 import { Journey } from "@sentrei/components/organisms/Journey";
@@ -16,6 +17,7 @@ export const LandingScreen: FC = () => (
     <Hero />
     <Journey />
     <Feature />
+    <Founder />
     <Testimonial />
     <Mission />
     <Globe />

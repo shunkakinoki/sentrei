@@ -22,7 +22,7 @@ export const SectionText: FC<SectionTextProps> = ({
     maxW="3xl"
     mx="auto"
     px={{ base: "6", lg: "8" }}
-    pb={{ base: "8", sm: "12" }}
+    pb={{ base: "4", sm: "8" }}
     textAlign="center"
   >
     <Center>
@@ -41,6 +41,7 @@ export const SectionText: FC<SectionTextProps> = ({
       range={range}
       fontSize={{ base: "2xl", md: "5xl" }}
       fontWeight="extrabold"
+      letterSpacing="tight"
     >
       {title}
     </Gradient>

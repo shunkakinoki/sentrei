@@ -53,6 +53,18 @@
       "title": "Blazing fast at scale"
     }
   },
+  "founder": {
+    "section": {
+      "flag": "Word from the founder",
+      "subtitle": "Preparing for the next-generation paradigmn shift in the edge serverless era",
+      "title": "An all-in-one backend solution"
+    },
+    "testimonial": {
+      "position": "Founder, Sentrei",
+      "name": "Shun Kakinoki",
+      "text": "I'm personally a big fan of next.js and Vercel, and what they've pioneered with the frontend space. However, as the frontend and backend space gets closer together, I thought that developers deserved a more scalable solution, tailored for edge computing in the serverless era in 2020."
+    }
+  },
   "hero": {
     "announce": {
       "prefix": "New",

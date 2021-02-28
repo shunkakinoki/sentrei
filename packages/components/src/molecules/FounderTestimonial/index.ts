@@ -1,0 +1,1 @@
+export { FounderTestimonial } from "./FounderTestimonial";
