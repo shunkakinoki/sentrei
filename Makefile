@@ -7,7 +7,7 @@ postinstall-app:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
-	for link in $(shell find . -type l); do \
+	for link in $(shell find . -maxdepth 1 -type l); do \
 	loc="$$(dirname $$link)"; \
 	dir="$$(readlink $$link)"; \
 	mv "$$dir" "$$loc"; \
