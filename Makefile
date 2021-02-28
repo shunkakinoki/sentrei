@@ -8,12 +8,7 @@ postinstall-app:
 	make postinstall-vercel
 
 postinstall-vercel:
-	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; else make postinstall-ln; fi
+	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
-	cp -r ../../packages/components/src components
-	cp -r ../../locales locales
-
-postinstall-ln:
-	ln -sfn ../../packages/components/src components
-	ln -sfn ../../locales locales
+	rsync . . -a --copy-links -v
