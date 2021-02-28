@@ -1,4 +1,10 @@
-import { Box, Heading, Stack, useColorModeValue } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Heading,
+  Stack,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
 import useTranslation from "next-translate/useTranslation";
 
@@ -7,7 +13,6 @@ import { ImMagicWand } from "react-icons/im";
 
 import { Announce } from "@sentrei/components/atoms/Announce";
 import { Blur } from "@sentrei/components/atoms/Blur";
-import { Button } from "@sentrei/components/atoms/Button";
 import { Gradient } from "@sentrei/components/atoms/Gradient";
 import { SectionContainer } from "@sentrei/components/molecules/SectionContainer";
 
@@ -25,7 +30,7 @@ export const Hero = () => {
       >
         <Box textAlign="center">
           <Announce
-            href="/"
+            href="/demo"
             prefix={t("index:hero.announce.prefix")}
             title={t("index:hero.announce.title")}
           />
@@ -110,7 +115,6 @@ export const Hero = () => {
           spacing="4"
         >
           <Button
-            href="/"
             size="lg"
             colorScheme="blue"
             px="8"

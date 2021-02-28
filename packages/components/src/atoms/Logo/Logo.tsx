@@ -1,5 +1,5 @@
 import type { IconButtonProps } from "@chakra-ui/react";
-import { IconButton, LinkOverlay, VisuallyHidden } from "@chakra-ui/react";
+import { IconButton, LinkBox, VisuallyHidden } from "@chakra-ui/react";
 
 import NextLink from "next/link";
 import type { FC } from "react";
@@ -9,10 +9,11 @@ export type LogoProps = Omit<IconButtonProps, "aria-label">;
 
 export const Logo: FC<LogoProps> = ({ ...rest }) => {
   return (
-    <NextLink passHref href="/">
-      <LinkOverlay>
-        <VisuallyHidden>Sentrei Logo</VisuallyHidden>
+    <LinkBox as="button">
+      <VisuallyHidden>Sentrei Logo</VisuallyHidden>
+      <NextLink passHref href="/">
         <IconButton
+          as="a"
           aria-label="Logo"
           colorScheme="purple"
           fontSize="48px"
@@ -21,7 +22,7 @@ export const Logo: FC<LogoProps> = ({ ...rest }) => {
           icon={<RiBlazeFill />}
           {...rest}
         />
-      </LinkOverlay>
-    </NextLink>
+      </NextLink>
+    </LinkBox>
   );
 };

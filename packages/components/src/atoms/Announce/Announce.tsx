@@ -3,29 +3,37 @@ import {
   Box,
   HStack,
   useColorModeValue,
-  LinkOverlay,
+  LinkBox,
 } from "@chakra-ui/react";
-import NextLink from "next/link";
+
 import type { FC } from "react";
 import { HiArrowRight } from "react-icons/hi";
 
-export type AnnounceProps = {
-  href: string;
+import { Link } from "@sentrei/components/atoms/Link";
+import type { LinkProps } from "@sentrei/components/atoms/Link";
+
+export type AnnounceProps = LinkProps & {
   prefix: string;
   title: string;
 };
 
-export const Announce: FC<AnnounceProps> = ({ href, prefix, title }) => (
-  <NextLink passHref href={href}>
-    <LinkOverlay>
+export const Announce: FC<AnnounceProps> = ({
+  href,
+  isExternal,
+  prefix,
+  title,
+  ...rest
+}) => (
+  <LinkBox as="button">
+    <Link href={href} isExternal={isExternal} {...rest}>
       <HStack
+        as="a"
         className="group"
         px="2"
         py="1"
         bg={useColorModeValue("gray.200", "gray.700")}
         rounded="full"
         fontSize="sm"
-        mb="8"
         display="inline-flex"
       >
         <Badge
@@ -46,6 +54,6 @@ export const Announce: FC<AnnounceProps> = ({ href, prefix, title }) => (
           display="inline-block"
         />
       </HStack>
-    </LinkOverlay>
-  </NextLink>
+    </Link>
+  </LinkBox>
 );

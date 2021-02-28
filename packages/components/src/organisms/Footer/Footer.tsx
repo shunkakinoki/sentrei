@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Container,
   Flex,
   Stack,
@@ -8,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
 
-import { Button } from "@sentrei/components/atoms/Button";
 import { Logo } from "@sentrei/components/atoms/Logo";
 
 export function Footer() {
@@ -45,14 +45,29 @@ export function Footer() {
         >
           <Text>© 2020 Sentrei, Inc. All rights reserved.</Text>
           <Stack direction="row" spacing={6}>
-            <Button label="Twitter" href="https://twitter.com/SentreiHQ">
-              <FaTwitter />
+            <Button
+              as="a"
+              href="https://github.com/sentrei/sentrei"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub />
             </Button>
-            <Button label="YouTube" href="#">
+            <Button
+              as="a"
+              href="https://discord.gg/hTn8YU8B"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
               <FaDiscord />
             </Button>
-            <Button label="Github" href="https://github.com/sentrei/sentrei">
-              <FaGithub />
+            <Button
+              as="a"
+              href="https://twitter.com/SentreiHQ"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
             </Button>
           </Stack>
         </Container>
