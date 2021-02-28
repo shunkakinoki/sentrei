@@ -4,10 +4,6 @@ postinstall-root:
 	( cd apps/landing && make postinstall-app )
 
 postinstall-app:
-	rm -rf components
-	make postinstall-vercel
-
-postinstall-vercel:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
