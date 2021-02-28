@@ -22,7 +22,7 @@ export const SectionText: FC<SectionTextProps> = ({
     maxW="3xl"
     mx="auto"
     px={{ base: "6", lg: "8" }}
-    py={{ base: "16", sm: "20" }}
+    py={{ base: "8", sm: "12" }}
     textAlign="center"
   >
     <Center>

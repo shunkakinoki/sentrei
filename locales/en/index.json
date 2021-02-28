@@ -1,4 +1,25 @@
 {
+  "faq": {
+    "accordion": {
+      "beta": {
+        "answer": "We are currently targeting for March 2021! Subscribe to the newsletter for further information!",
+        "question": "When will you begin beta testing?"
+      },
+      "open": {
+        "answer": "Yes, we are planning our core offering to be fully open source. We heavily support and believe in open source for the future of the world.",
+        "question": "Will Sentrei be open source?"
+      },
+      "usage": {
+        "answer": "Absolutely! We are currently planning to be completely free forever for all personal use-cases.",
+        "question": "Will there be a plan for personal use?"
+      }
+    },
+    "section": {
+      "flag": "Faq",
+      "subtitle": "Feel free to ask us about anything!",
+      "title": "Frequently Asked Questions"
+    }
+  },
   "feature": {
     "grid": {
       "analytics": {
