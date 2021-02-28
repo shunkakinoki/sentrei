@@ -7,4 +7,4 @@ postinstall-app:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
-	rsync . . -a --copy-links -v
+	for f in $(find . -maxdepth 1 -type l); do cp --remove-destination $(readlink -e $$f) $$f; done;
