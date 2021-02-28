@@ -1,4 +1,37 @@
 {
+  "feature": {
+    "grid": {
+      "analytics": {
+        "description": "Get insight on what you use. Built-in analytics features on the backend.",
+        "title": "Dedicated analytics"
+      },
+      "authentication": {
+        "description": "Make use of built-in authentication system that integrates seamlessly with the underlying backend infrastructure.",
+        "title": "Built-in authentication"
+      },
+      "database": {
+        "description": "We are powered by a cross region sub-second scalable database with automatic failure recovery.",
+        "title": "Distributed database"
+      },
+      "fast": {
+        "description": "We are obsessed with performance, for both the customer and developer.",
+        "title": "Blazing fast"
+      },
+      "fee": {
+        "description": "You only pay for what you use. We also provide a generous free tier for all developers to try out.",
+        "title": "No hidden fees"
+      },
+      "scale": {
+        "description": "Think globally from the start. Never worry about the underlying infrastructure. We take care of the rest.",
+        "title": "Scale infinitely"
+      }
+    },
+    "section": {
+      "flag": "Why Sentrei",
+      "subtitle": "Don't compromise on either developer experience or real-world performance. We are powered by the blazing edge technology.",
+      "title": "Blazing fast at scale"
+    }
+  },
   "hero": {
     "announce": {
       "prefix": "New",

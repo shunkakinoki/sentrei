@@ -8,7 +8,7 @@ export default {
 };
 
 export const _Feature = (): JSX.Element => (
-  <Feature title="Incredible feature" icon={<FcDoughnutChart />}>
+  <Feature title="Incredible feature" icon={FcDoughnutChart}>
     This feature is just too awesome !!!
   </Feature>
 );

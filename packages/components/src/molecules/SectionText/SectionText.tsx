@@ -27,10 +27,10 @@ export const SectionText: FC<SectionTextProps> = ({
   >
     <Center>
       <Text
-        fontWeight="semibold"
+        fontWeight="bold"
         textTransform="uppercase"
-        fontSize="md"
-        color={useColorModeValue("purple.800", "purple.300")}
+        fontSize="lg"
+        color={useColorModeValue("purple.600", "purple.400")}
         letterSpacing="wide"
       >
         {flag}
@@ -39,13 +39,18 @@ export const SectionText: FC<SectionTextProps> = ({
     <Gradient
       bgGradient={bgGradient}
       range={range}
-      mt={2}
-      fontSize={{ base: "4xl", md: "6xl" }}
+      fontSize={{ base: "2xl", md: "5xl" }}
       fontWeight="extrabold"
     >
       {title}
     </Gradient>
-    <Text fontSize={{ base: "md", md: "lg" }} mt={1} colorScheme="gray">
+    <Text
+      fontSize={{ base: "md", md: "lg" }}
+      mt={1}
+      colorScheme="gray"
+      color={useColorModeValue("gray.600", "gray.400")}
+      fontWeight="medium"
+    >
       {subtitle}
     </Text>
   </Box>

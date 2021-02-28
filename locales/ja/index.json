@@ -1,6 +1,21 @@
 {
+  "feature": {
+    "section": {
+      "flag": "",
+      "subtitle": "",
+      "title": ""
+    }
+  },
   "hero": {
-    "description": "",
+    "announce": {
+      "prefix": "",
+      "title": ""
+    },
+    "cta": {
+      "demo": "",
+      "start": ""
+    },
+    "description": [null, "", "", ""],
     "main": "",
     "sub": ""
   }
