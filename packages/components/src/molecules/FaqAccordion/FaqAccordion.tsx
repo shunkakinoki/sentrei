@@ -18,7 +18,7 @@ type FacAccordionItemProps = {
 
 const FaqAccordionItem: FC<FacAccordionItemProps> = ({ children, title }) => {
   return (
-    <AccordionItem>
+    <AccordionItem py={2}>
       <h2>
         <AccordionButton>
           <Box flex="1" textAlign="left">
