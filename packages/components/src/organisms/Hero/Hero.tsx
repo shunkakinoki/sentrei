@@ -75,7 +75,7 @@ export const Hero = () => {
                 },
               )}
               color={useColorModeValue(
-                { base: "gray.800", md: "gray.700" },
+                { base: "gray.600", md: "gray.700" },
                 { base: "gray.50", md: "gray.100" },
               )}
               range={[20, 44]}
@@ -96,7 +96,7 @@ export const Hero = () => {
                 },
               )}
               color={useColorModeValue(
-                { base: "gray.800", md: "gray.700" },
+                { base: "gray.600", md: "gray.700" },
                 { base: "gray.10", md: "gray.200" },
               )}
               range={[53, 73]}
