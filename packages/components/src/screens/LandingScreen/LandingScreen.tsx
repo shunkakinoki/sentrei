@@ -7,7 +7,7 @@ import { Founder } from "@sentrei/components/organisms/Founder";
 // import { Globe } from "@sentrei/components/organisms/Globe";
 import { Hero } from "@sentrei/components/organisms/Hero";
 // import { Journey } from "@sentrei/components/organisms/Journey";
-import { Mission } from "@sentrei/components/organisms/Mission";
+// import { Mission } from "@sentrei/components/organisms/Mission";
 import { Newsletter } from "@sentrei/components/organisms/Newsletter";
 import { Stats } from "@sentrei/components/organisms/Stats";
 // import { Testimonial } from "@sentrei/components/organisms/Testimonial";
@@ -20,7 +20,7 @@ export const LandingScreen: FC = () => (
     <Feature />
     <Founder />
     {/* <Testimonial /> */}
-    <Mission />
+    {/* <Mission /> */}
     {/* <Globe /> */}
     <Stats />
     <Faq />
