@@ -1,3 +1,9 @@
+# @sentrei/next [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.1.1...@sentrei/next@1.2.0) (2021-03-01)
+
+### Features
+
+- complete refactor custom next confiig ([70d140c](https://github.com/sentrei/sentrei/commit/70d140cc9ef97d407903f44f7e4d5048c326a35e))
+
 ## @sentrei/next [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.1.0...@sentrei/next@1.1.1) (2021-02-26)
 
 ### Performance Improvements
