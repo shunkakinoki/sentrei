@@ -1,3 +1,9 @@
+## @sentrei/commitlint [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.0.2...@sentrei/commitlint@1.0.3) (2021-03-01)
+
+### Performance Improvements
+
+- upgrade configuration packages ([9997dbc](https://github.com/sentrei/sentrei/commit/9997dbcce0ac2512d616e0e81eee4e9ac301507c))
+
 ## @sentrei/commitlint [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.0.1...@sentrei/commitlint@1.0.2) (2021-02-24)
 
 ### Performance Improvements
