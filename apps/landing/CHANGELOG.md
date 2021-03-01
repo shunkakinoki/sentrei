@@ -1,3 +1,10 @@
+## @sentrei/landing [1.8.3](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.8.2...@sentrei/landing@1.8.3) (2021-03-01)
+
+### Performance Improvements
+
+- ini landing page for i18n json ([57f05e2](https://github.com/sentrei/sentrei/commit/57f05e2a048d38509f50df7c6b1b8c1878dca651))
+- upgrade with ncu ([e6ebed6](https://github.com/sentrei/sentrei/commit/e6ebed693084fbffe0e2b632bc27f5d4fde0d69a))
+
 ## @sentrei/landing [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.8.1...@sentrei/landing@1.8.2) (2021-02-26)
 
 ### Performance Improvements
