@@ -1,0 +1,130 @@
+{
+  "cta": {
+    "heading": {
+      "button": "Deploy now",
+      "title": "Experience the next-generation of backend infrastructure"
+    },
+    "stack": {
+      "cold": {
+        "description": "Cold starts for serverless functions will be a thing of the past.",
+        "title": "Function cold starts"
+      },
+      "database": {
+        "description": "The database are distributed accross data centers all accross the globe. To put it simply, it works like magic.s",
+        "title": "Distributed database"
+      },
+      "edge": {
+        "description": "Deploy to the edge in over 200 data centers around the world.",
+        "title": "Edge computing"
+      },
+      "integration": {
+        "description": "Deploy your entire backend infrastructure through code.",
+        "title": "Seamless integration with CI/CD"
+      }
+    }
+  },
+  "faq": {
+    "accordion": {
+      "beta": {
+        "answer": "We are currently targeting for March 2021! Subscribe to the newsletter for further information!",
+        "question": "When will you begin beta testing?"
+      },
+      "open": {
+        "answer": "Yes, we are planning our core offering to be fully open source. We heavily support and believe in open source for the future of the world.",
+        "question": "Will Sentrei be open source?"
+      },
+      "usage": {
+        "answer": "Absolutely! We are currently planning to be completely free forever for all personal use-cases.",
+        "question": "Will there be a plan for personal use?"
+      }
+    },
+    "section": {
+      "flag": "Faq",
+      "subtitle": "Feel free to ask us about anything!",
+      "title": "Frequently Asked Questions"
+    }
+  },
+  "feature": {
+    "grid": {
+      "analytics": {
+        "description": "Get insight on what you use. Built-in analytics features on the backend.",
+        "title": "Dedicated analytics"
+      },
+      "authentication": {
+        "description": "Make use of built-in authentication system that integrates seamlessly with the underlying backend infrastructure.",
+        "title": "Built-in authentication"
+      },
+      "database": {
+        "description": "We are powered by a cross region sub-second scalable database with automatic failure recovery.",
+        "title": "Distributed database"
+      },
+      "fast": {
+        "description": "We are obsessed with performance, for both the customer and developer.",
+        "title": "Blazing fast"
+      },
+      "fee": {
+        "description": "You only pay for what you use. We also provide a generous free tier for all developers to try out.",
+        "title": "No hidden fees"
+      },
+      "scale": {
+        "description": "Think globally from the start. Never worry about the underlying infrastructure. We take care of the rest.",
+        "title": "Scale infinitely"
+      }
+    },
+    "section": {
+      "flag": "Why Sentrei",
+      "subtitle": "Don't compromise on either developer experience or real-world performance. We are powered by the blazing edge technology.",
+      "title": "Blazing fast at scale"
+    }
+  },
+  "founder": {
+    "section": {
+      "flag": "Word from the founder",
+      "subtitle": "Preparing for the next-generation paradigmn shift in the edge serverless era",
+      "title": "An all-in-one backend solution"
+    },
+    "testimonial": {
+      "position": "Founder, Sentrei",
+      "name": "Shun Kakinoki",
+      "text": "I'm personally a big fan of next.js and Vercel, and what they've pioneered with the frontend space. However, as the frontend and backend space gets closer together, I thought that developers deserved a more scalable solution, tailored for edge computing in the serverless era in 2020."
+    }
+  },
+  "hero": {
+    "announce": {
+      "prefix": "New",
+      "title": "See Demo Dashboard"
+    },
+    "cta": {
+      "demo": "Watch demo",
+      "start": "Deploy now"
+    },
+    "description": {
+      "1": "Sentrei provides the edge serverless backend on top of the global database infrastructure.",
+      "2": "We abstract away the boilerplate to provide the best developer experience.",
+      "3": "We aim to do much better, how developers deserve in 2020."
+    },
+    "main": "Build apps 3x faster.",
+    "sub": "Instant serverless backend."
+  },
+  "stats": {
+    "section": {
+      "flag": "Strength in numbers",
+      "subtitle": "We hope to empower developers all around the world through providing a one-stop solution for an infinitely scalable backend infrastructure - without the hassle.",
+      "title": "Setting the standard"
+    },
+    "stack": {
+      "database": {
+        "title": "Database regions",
+        "value": "6"
+      },
+      "edge": {
+        "title": "Edge data centers",
+        "value": "200"
+      },
+      "function": {
+        "title": "Function cold starts",
+        "value": "0 sec."
+      }
+    }
+  }
+}

@@ -1,8 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
-
-const isVercel = process.env.VERCEL === "1";
+const withTM = require("next-transpile-modules")(["@sentrei/components"]);
 
 const config = {
   experimental: {
@@ -22,7 +21,7 @@ const config = {
   future: {
     excludeDefaultMomentLocales: true,
     strictPostcssConfiguration: true,
-    webpack5: true,
+    webpack5: false,
   },
   i18n: {
     defaultLocale: "en",
@@ -31,19 +30,14 @@ const config = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
-  webpack: config => {
-    config.resolve.symlinks = isVercel ? true : false;
-    return config;
-  },
 };
 
 const plugins = [
-  [
-    withBundleAnalyzer({
-      enabled: process.env.ANALYZE === "true",
-    }),
-    withTranslate,
-  ],
+  withBundleAnalyzer({
+    enabled: process.env.ANALYZE === "true",
+  }),
+  withTranslate,
+  withTM,
 ];
 
 module.exports = withPlugins(plugins, config);

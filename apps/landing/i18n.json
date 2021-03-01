@@ -2,6 +2,7 @@
   "defaultLocale": "en",
   "locales": ["en", "ja", "zh"],
   "pages": {
-    "*": ["common", "dialog", "error"]
+    "*": ["common", "dialog", "error"],
+    "/": ["index"]
   }
 }

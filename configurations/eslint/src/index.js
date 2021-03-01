@@ -89,12 +89,6 @@ module.exports = {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
-    "sort-keys": [
-      "error",
-      "asc",
-      { caseSensitive: true, minKeys: 2, natural: true },
-    ],
-    "sort-vars": ["error", { ignoreCase: true }],
   },
   settings: {
     "import/parsers": {

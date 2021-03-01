@@ -1,0 +1,64 @@
+{
+  "faq": {
+    "accordion": {
+      "beta": {
+        "answer": "",
+        "question": ""
+      },
+      "open": {
+        "answer": "",
+        "question": ""
+      },
+      "usage": {
+        "answer": "",
+        "question": ""
+      }
+    }
+  },
+  "feature": {
+    "grid": {
+      "analytics": {
+        "description": "",
+        "title": ""
+      },
+      "authentication": {
+        "description": "",
+        "title": ""
+      },
+      "database": {
+        "description": "",
+        "title": ""
+      },
+      "fast": {
+        "description": "",
+        "title": ""
+      },
+      "fee": {
+        "description": "",
+        "title": ""
+      },
+      "scale": {
+        "description": "",
+        "title": ""
+      }
+    },
+    "section": {
+      "flag": "",
+      "subtitle": "",
+      "title": ""
+    }
+  },
+  "hero": {
+    "announce": {
+      "prefix": "",
+      "title": ""
+    },
+    "cta": {
+      "demo": "",
+      "start": ""
+    },
+    "description": [null, "", "", ""],
+    "main": "",
+    "sub": ""
+  }
+}

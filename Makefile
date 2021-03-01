@@ -4,14 +4,8 @@ postinstall-root:
 	( cd apps/landing && make postinstall-app )
 
 postinstall-app:
-	rm -rf components
-	make postinstall-vercel
-
-postinstall-vercel:
-	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; else make postinstall-ln; fi
+	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
 	cp -r ../../packages/components/src components
-
-postinstall-ln:
-	ln -s ../../packages/components/src components
+	cp -r ../../locales locales

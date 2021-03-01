@@ -21,9 +21,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^12.0.0",
-    "@commitlint/config-conventional": "^12.0.0",
-    "commitlint": "^11.0.0"
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "commitlint": "^12.0.1"
   },
   "publishConfig": {
     "access": "public",
