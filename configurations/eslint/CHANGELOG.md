@@ -1,3 +1,13 @@
+# @sentrei/eslint [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.5.0...@sentrei/eslint@1.6.0) (2021-03-01)
+
+### Features
+
+- ini first batch sentrei components ([d396751](https://github.com/sentrei/sentrei/commit/d396751f90c6bada883e48a0817409d21d32aaf5))
+
+### Performance Improvements
+
+- upgrade configuration packages ([9997dbc](https://github.com/sentrei/sentrei/commit/9997dbcce0ac2512d616e0e81eee4e9ac301507c))
+
 # @sentrei/eslint [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.4.3...@sentrei/eslint@1.5.0) (2021-02-26)
 
 ### Features
