@@ -46,14 +46,8 @@ export const Hero = () => {
             <Box
               as="span"
               bgGradient={useColorModeValue(
-                {
-                  base: "linear(to-r, purple.400, blue.600, green.500)",
-                  md: "linear(to-r, purple.600, blue.500, green.300)",
-                },
-                {
-                  base: "linear(to-r, purple.200, blue.300, green.400)",
-                  md: "linear(to-r, purple.500, blue.400, green.400)",
-                },
+                "linear(to-r, purple.600, blue.500, green.300)",
+                "linear(to-r, purple.500, blue.400, green.400)",
               )}
               bgClip="text"
             >
@@ -65,14 +59,8 @@ export const Hero = () => {
           <Box mt="4" maxW="4xl" mx="auto">
             <Gradient
               bgGradient={useColorModeValue(
-                {
-                  base: "linear(to-r, pink.500, purple.700, red.600)",
-                  md: "linear(to-r, pink.400, purple.400, red.400)",
-                },
-                {
-                  base: "linear(to-r, pink.300, purple.300, red.300)",
-                  md: "linear(to-r, pink.400, purple.500, red.600)",
-                },
+                "linear(to-r, pink.400, purple.400, red.400)",
+                "linear(to-r, pink.400, purple.500, red.600)",
               )}
               color={useColorModeValue(
                 { base: "gray.600", md: "gray.700" },
