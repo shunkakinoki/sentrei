@@ -1,3 +1,9 @@
+## @sentrei/npm-check-updates [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.1...@sentrei/npm-check-updates@1.2.2) (2021-03-01)
+
+### Performance Improvements
+
+- upgrade with ncu ([e6ebed6](https://github.com/sentrei/sentrei/commit/e6ebed693084fbffe0e2b632bc27f5d4fde0d69a))
+
 ## @sentrei/npm-check-updates [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.0...@sentrei/npm-check-updates@1.2.1) (2021-02-24)
 
 ### Performance Improvements
