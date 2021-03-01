@@ -4,11 +4,6 @@
       "button": "Deploy now",
       "title": "Experience the next-generation of backend infrastructure"
     },
-    "section": {
-      "flag": "Strength in numbers",
-      "subtitle": "We hope to empower developers all around the world through providing a one-stop solution for an infinitely scalable backend infrastructure - without the hassle.",
-      "title": "Setting the standard"
-    },
     "stack": {
       "cold": {
         "description": "Cold starts for serverless functions will be a thing of the past.",

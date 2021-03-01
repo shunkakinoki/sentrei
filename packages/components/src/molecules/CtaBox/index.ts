@@ -1,1 +1,1 @@
-export { FaqAccordion } from "./CtaBox";
+export { CtaBox } from "./CtaBox";

@@ -1,10 +1,11 @@
 import {
   Box,
-  Center,
+  Button,
   Heading,
   SimpleGrid,
   Stack,
   Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import useTranslation from "next-translate/useTranslation";
 import type { FC, VFC } from "react";
@@ -31,7 +32,11 @@ export const CtaFeature: FC<CtaFeatureProps> = ({ icon, title, children }) => (
       <Text as="h3" fontSize="lg" fontWeight="bold">
         {title}
       </Text>
-      <Text pr="6" lineHeight="tall" color="gray.400">
+      <Text
+        pr="6"
+        lineHeight="tall"
+        color={useColorModeValue("gray.600", "gray.400")}
+      >
         {children}
       </Text>
     </Stack>
@@ -42,9 +47,9 @@ export const CtaBox: VFC = () => {
   const { t } = useTranslation();
 
   return (
-    <Box bg="gray.800" color="white" pt="24" pb="12rem">
+    <Box>
       <Box
-        maxW={{ base: "xl", md: "7xl" }}
+        maxW={{ base: "xl", md: "6xl" }}
         mx="auto"
         px={{ base: "6", md: "8" }}
       >
@@ -62,17 +67,17 @@ export const CtaBox: VFC = () => {
           >
             {t("index:cta.heading.title")}
           </Heading>
-          <Center
+          <Button
             minW="240px"
             as="button"
             px="6"
-            py="4"
+            py="8"
             textTransform="uppercase"
             fontWeight="bold"
             transition="all 0.2s"
             rounded="lg"
             outline={0}
-            bg="blue.600"
+            colorScheme="twitter"
             _focus={{ shadow: "outline" }}
             _active={{ transform: "translateY(2px)" }}
             _hover={{ bg: "blue.700" }}
@@ -80,7 +85,7 @@ export const CtaBox: VFC = () => {
           >
             {t("index:cta.heading.button")}
             <Box as={BiRightArrowAlt} ml="2" fontSize="lg" />
-          </Center>
+          </Button>
         </Stack>
         <SimpleGrid
           columns={{ base: 1, md: 2, lg: 4 }}
