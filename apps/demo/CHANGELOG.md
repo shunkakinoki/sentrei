@@ -1,3 +1,9 @@
+## @sentrei/demo [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.8.1...@sentrei/demo@1.8.2) (2021-03-01)
+
+### Performance Improvements
+
+- upgrade with ncu ([e6ebed6](https://github.com/sentrei/sentrei/commit/e6ebed693084fbffe0e2b632bc27f5d4fde0d69a))
+
 ## @sentrei/demo [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.8.0...@sentrei/demo@1.8.1) (2021-02-26)
 
 ### Performance Improvements
