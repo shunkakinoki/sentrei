@@ -18,7 +18,11 @@ export const FeatureGrid: VFC = () => {
   return (
     <Container maxW="7xl">
       <Grid
-        templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }}
+        templateColumns={{
+          base: "repeat(1, 1fr)",
+          sm: "repeat(2, 1fr)",
+          lg: "repeat(3, 1fr)",
+        }}
         gap={10}
         px={{ md: 12 }}
       >
