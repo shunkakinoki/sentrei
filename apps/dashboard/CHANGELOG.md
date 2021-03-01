@@ -1,3 +1,13 @@
+# @sentrei/dashboard [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.8.2...@sentrei/dashboard@1.9.0) (2021-03-01)
+
+### Features
+
+- ini babel config ([2b04b1e](https://github.com/sentrei/sentrei/commit/2b04b1e59e1a6e6921928bc732575d8894daa482))
+
+### Performance Improvements
+
+- ini default seo ([eaad274](https://github.com/sentrei/sentrei/commit/eaad27454c1f7b6357e0f9406cafd4d6cc2ab62d))
+
 ## @sentrei/dashboard [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.8.1...@sentrei/dashboard@1.8.2) (2021-03-01)
 
 ### Performance Improvements
