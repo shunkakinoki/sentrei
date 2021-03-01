@@ -30,7 +30,7 @@ export const Hero = () => {
       >
         <Box textAlign="center">
           <Announce
-            href="/demo"
+            href="/"
             prefix={t("index:hero.announce.prefix")}
             title={t("index:hero.announce.title")}
           />
