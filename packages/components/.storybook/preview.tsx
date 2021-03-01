@@ -1,6 +1,7 @@
 import * as React from "react";
 import { ThemeProvider } from "@sentrei/components/theme";
 
+import { ColorBar } from "./ColorBar";
 import { LangProvider } from "./LangProvider";
 
 export const parameters = {
@@ -11,6 +12,7 @@ export const decorators = [
   (Story: JSX.IntrinsicAttributes): JSX.Element => (
     <LangProvider>
       <ThemeProvider>
+        <ColorBar></ColorBar>
         {/*@ts-expect-error */}
         <Story />
       </ThemeProvider>
