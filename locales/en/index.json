@@ -1,4 +1,33 @@
 {
+  "cta": {
+    "heading": {
+      "button": "Deploy now",
+      "title": "Experience the next-generation of backend infrastructure"
+    },
+    "section": {
+      "flag": "Strength in numbers",
+      "subtitle": "We hope to empower developers all around the world through providing a one-stop solution for an infinitely scalable backend infrastructure - without the hassle.",
+      "title": "Setting the standard"
+    },
+    "stack": {
+      "cold": {
+        "description": "Cold starts for serverless functions will be a thing of the past.",
+        "title": "Function cold starts"
+      },
+      "database": {
+        "description": "The database are distributed accross data centers all accross the globe. To put it simply, it works like magic.s",
+        "title": "Distributed database"
+      },
+      "edge": {
+        "description": "Deploy to the edge in over 200 data centers around the world.",
+        "title": "Edge computing"
+      },
+      "integration": {
+        "description": "Deploy your entire backend infrastructure through code.",
+        "title": "Seamless integration with CI/CD"
+      }
+    }
+  },
   "faq": {
     "accordion": {
       "beta": {

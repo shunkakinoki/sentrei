@@ -1,0 +1,1 @@
+export { FaqAccordion } from "./CtaBox";
