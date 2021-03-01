@@ -1,0 +1,11 @@
+module.exports = {
+  plugins: [
+    [
+      "babel-plugin-react-generate-property",
+      {
+        customProperty: "data-cy",
+      },
+    ],
+  ],
+  presets: ["next/babel"],
+};
