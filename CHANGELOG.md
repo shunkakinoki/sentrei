@@ -1,3 +1,9 @@
+## [1.21.1](https://github.com/sentrei/sentrei/compare/v1.21.0...v1.21.1) (2021-03-03)
+
+### Performance Improvements
+
+- ini storybook figma ([ce49cb0](https://github.com/sentrei/sentrei/commit/ce49cb062c249f1867c9da00a946715c819b4c61))
+
 # [1.21.0](https://github.com/sentrei/sentrei/compare/v1.20.0...v1.21.0) (2021-03-03)
 
 ### Features
