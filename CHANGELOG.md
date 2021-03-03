@@ -1,3 +1,16 @@
+# [1.21.0](https://github.com/sentrei/sentrei/compare/v1.20.0...v1.21.0) (2021-03-03)
+
+### Features
+
+- ini app bar ([179f633](https://github.com/sentrei/sentrei/commit/179f6336c67d9e9b31583c9097500b717e5f73bf))
+- ini dashboard container ([d2e01cb](https://github.com/sentrei/sentrei/commit/d2e01cbb72ac8607459d606a4055076b2e69d651))
+- ini dashboard screen ([80f8c74](https://github.com/sentrei/sentrei/commit/80f8c74f65170c008d70b088127411c4030f235b))
+- refactor document theme ([37fbbe4](https://github.com/sentrei/sentrei/commit/37fbbe477120f7c2b29fca03bf06f9fc61642c62))
+
+### Performance Improvements
+
+- upgrade with ncu ([4949375](https://github.com/sentrei/sentrei/commit/49493754f3646c482cba35c11de37b2b2414b675))
+
 # [1.20.0](https://github.com/sentrei/sentrei/compare/v1.19.0...v1.20.0) (2021-03-01)
 
 ### Features
