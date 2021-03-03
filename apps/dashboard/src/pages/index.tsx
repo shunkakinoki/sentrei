@@ -1,5 +1,7 @@
 import type { VFC } from "react";
 
-const Index: VFC = () => <></>;
+import { DashboardScreen } from "@sentrei/components/screens/DashboardScreen";
+
+const Index: VFC = () => <DashboardScreen />;
 
 export default Index;

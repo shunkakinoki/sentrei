@@ -3,7 +3,7 @@ import type { ColorModeOptions } from "@chakra-ui/system";
 
 const config: ColorModeOptions = {
   initialColorMode: "dark",
-  useSystemColorMode: true,
+  useSystemColorMode: false,
 };
 
 export const overrides = {
