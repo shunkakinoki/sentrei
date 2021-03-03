@@ -1,1 +1,16 @@
-{}
+{
+  "appBar": {
+    "profileMenu": {
+      "dashboard": "Dashboard",
+      "profile": "Your Profile",
+      "signOut": "Sign Out",
+      "settings": "Settings",
+      "support": "Support"
+    },
+    "tab": {
+      "analytics": "Analytics",
+      "authentication": "Authentication",
+      "overview": "Overview"
+    }
+  }
+}
