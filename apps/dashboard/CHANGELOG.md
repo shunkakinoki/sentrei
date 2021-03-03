@@ -1,3 +1,14 @@
+# @sentrei/dashboard [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.9.0...@sentrei/dashboard@1.10.0) (2021-03-03)
+
+### Features
+
+- ini dashboard screen ([80f8c74](https://github.com/sentrei/sentrei/commit/80f8c74f65170c008d70b088127411c4030f235b))
+- refactor document theme ([37fbbe4](https://github.com/sentrei/sentrei/commit/37fbbe477120f7c2b29fca03bf06f9fc61642c62))
+
+### Performance Improvements
+
+- upgrade with ncu ([4949375](https://github.com/sentrei/sentrei/commit/49493754f3646c482cba35c11de37b2b2414b675))
+
 # @sentrei/dashboard [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.8.2...@sentrei/dashboard@1.9.0) (2021-03-01)
 
 ### Features
