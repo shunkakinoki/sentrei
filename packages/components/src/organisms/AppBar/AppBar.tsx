@@ -40,7 +40,7 @@ export const AppBar = () => {
       transition="box-shadow 0.3s"
       pos="fixed"
       top="0"
-      bg="transparent"
+      bg={useColorModeValue("white", "gray.800")}
       zIndex="3"
       left="0"
       right="0"
@@ -82,9 +82,9 @@ export const AppBar = () => {
           </Flex>
         </Flex>
       </chakra.div>
-      <chakra.div height="4.5rem" mx="auto" maxW="1200px">
+      <chakra.div mx="auto">
         <Box shadow="sm">
-          <Container maxW="7xl">
+          <Container maxW="1200px">
             <Stack direction="row" spacing="4">
               <TabLink aria-current="page">
                 {t("common:appBar.tab.overview")}
