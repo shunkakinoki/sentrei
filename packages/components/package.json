@@ -38,7 +38,8 @@
     "@storybook/addons": "^v6.2.0-beta.2",
     "@storybook/react": "^v6.2.0-beta.2",
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.1"
+    "@types/react-dom": "^17.0.1",
+    "storybook-addon-designs": "^5.4.5"
   },
   "publishConfig": {
     "access": "public",

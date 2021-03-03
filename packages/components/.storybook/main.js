@@ -17,7 +17,7 @@ const aliases = {
 };
 
 module.exports = {
-  addons: ["@storybook/addon-essentials"],
+  addons: ["@storybook/addon-essentials", "storybook-addon-designs"],
   stories: ["../src/**/*.stories.tsx"],
   refs: { "@chakra-ui/react": { disable: true } },
   webpackFinal: async config => {

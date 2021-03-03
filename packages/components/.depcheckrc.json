@@ -11,6 +11,7 @@
     "framer-motion",
     "react",
     "react-dom",
-    "react-icons"
+    "react-icons",
+    "storybook-addon-designs"
   ]
 }
