@@ -14,7 +14,7 @@ import { Stats } from "@sentrei/components/organisms/Stats";
 import { PageRoot } from "@sentrei/components/roots/PageRoot";
 
 export const LandingScreen: FC = () => (
-  <PageRoot>
+  <PageRoot type="landing">
     <Hero />
     {/* <Journey /> */}
     <Feature />
