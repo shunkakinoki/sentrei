@@ -1,3 +1,9 @@
+## @sentrei/demo [1.10.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.10.0...@sentrei/demo@1.10.1) (2021-03-18)
+
+### Performance Improvements
+
+- upgrade with ncu ([de701bf](https://github.com/sentrei/sentrei/commit/de701bf535ea98f982b2467d45fceab726c847a2))
+
 # @sentrei/demo [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.9.0...@sentrei/demo@1.10.0) (2021-03-03)
 
 ### Features
