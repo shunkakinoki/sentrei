@@ -2,8 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@sentrei/themes/*": ["../../packages/themes/src/*"]
+      "@/*": ["src/*"]
     },
     "noEmit": true
   },
