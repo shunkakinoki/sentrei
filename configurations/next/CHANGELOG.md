@@ -1,3 +1,9 @@
+# @sentrei/next [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.3.0...@sentrei/next@1.4.0) (2021-03-18)
+
+### Features
+
+- ini hero waitlist ([41bf44f](https://github.com/sentrei/sentrei/commit/41bf44fe90f75364b324915185b6c7ae95fb414b))
+
 # @sentrei/next [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.2.1...@sentrei/next@1.3.0) (2021-03-18)
 
 ### Features
