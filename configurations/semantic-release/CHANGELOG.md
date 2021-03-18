@@ -1,3 +1,9 @@
+## @sentrei/semantic-release [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.3...@sentrei/semantic-release@1.2.4) (2021-03-18)
+
+### Performance Improvements
+
+- upgrade with ncu ([de701bf](https://github.com/sentrei/sentrei/commit/de701bf535ea98f982b2467d45fceab726c847a2))
+
 ## @sentrei/semantic-release [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.2...@sentrei/semantic-release@1.2.3) (2021-02-22)
 
 ## @sentrei/semantic-release [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.1...@sentrei/semantic-release@1.2.2) (2021-02-21)
