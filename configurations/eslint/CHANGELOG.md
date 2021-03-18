@@ -1,3 +1,9 @@
+# @sentrei/eslint [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.6.2...@sentrei/eslint@1.7.0) (2021-03-18)
+
+### Features
+
+- refactor components config ([c3b4309](https://github.com/sentrei/sentrei/commit/c3b4309211452baccbd66f22d00068f0ec6dd747))
+
 ## @sentrei/eslint [1.6.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.6.1...@sentrei/eslint@1.6.2) (2021-03-18)
 
 ### Performance Improvements
