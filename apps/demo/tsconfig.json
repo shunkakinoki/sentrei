@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@sentrei/demo/*": ["src/*"],
-      "@sentrei/components/*": ["components/*"],
+      "@/components/*": ["components/*"],
       "@sentrei/styles/*": ["../../packages/styles/src/*"]
     },
     "noEmit": true

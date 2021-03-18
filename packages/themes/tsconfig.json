@@ -2,11 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@sentrei/themes/*": ["src/*"]
     },
     "noEmit": true
   },
-  "exclude": ["node_modules"],
   "extends": "../../tsconfig.json",
-  "include": ["src/**/*", "next-env.d.ts"]
+  "include": ["src/**/*"]
 }

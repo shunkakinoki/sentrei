@@ -6,7 +6,6 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:editorconfig/noconflict",
     "plugin:import/errors",
     "plugin:import/typescript",
     "plugin:import/warnings",
@@ -42,7 +41,7 @@ module.exports = {
     project: "tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["editorconfig", "prettier", "@typescript-eslint"],
+  plugins: ["@typescript-eslint"],
   root: true,
   rules: {
     "@typescript-eslint/consistent-type-imports": "error",
@@ -64,6 +63,11 @@ module.exports = {
           {
             group: "internal",
             pattern: "@sentrei/**",
+            position: "after",
+          },
+          {
+            group: "internal",
+            pattern: "@/**",
             position: "after",
           },
         ],
