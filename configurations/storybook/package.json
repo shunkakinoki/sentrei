@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "tsconfig.json",
+  "main": "src/index.js",
   "files": [
-    "tsconfig.json"
+    "src/index.js"
   ],
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
