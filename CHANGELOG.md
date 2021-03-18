@@ -1,3 +1,13 @@
+# [1.23.0](https://github.com/sentrei/sentrei/compare/v1.22.0...v1.23.0) (2021-03-18)
+
+### Features
+
+- ini hero waitlist ([41bf44f](https://github.com/sentrei/sentrei/commit/41bf44fe90f75364b324915185b6c7ae95fb414b))
+
+### Performance Improvements
+
+- complete refactor utils ([8aec5ca](https://github.com/sentrei/sentrei/commit/8aec5ca5e74edb2457286ea8dcab54c5c06596b8))
+
 # [1.22.0](https://github.com/sentrei/sentrei/compare/v1.21.2...v1.22.0) (2021-03-18)
 
 ### Features
