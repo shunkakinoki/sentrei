@@ -39,8 +39,7 @@
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
     "sort-package-json:lint": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json' --check",
-    "sort-package-json:fix": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json'",
-    "storybook": "start-storybook"
+    "sort-package-json:fix": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
