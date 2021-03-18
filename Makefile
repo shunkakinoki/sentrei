@@ -7,5 +7,4 @@ postinstall-app:
 	if [ $(VERCEL) == 1 ]; then make postinstall-cp ; fi
 
 postinstall-cp:
-	cp -r ../../packages/components/src components
 	cp -r ../../locales locales
