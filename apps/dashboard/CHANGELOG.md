@@ -1,3 +1,9 @@
+## @sentrei/dashboard [1.11.1](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.11.0...@sentrei/dashboard@1.11.1) (2021-03-18)
+
+### Performance Improvements
+
+- refactor chakra root ([9d966a7](https://github.com/sentrei/sentrei/commit/9d966a7004229d9c3f4c50c6873d0112baf13fca))
+
 # @sentrei/dashboard [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.10.1...@sentrei/dashboard@1.11.0) (2021-03-18)
 
 ### Features
