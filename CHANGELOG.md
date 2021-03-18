@@ -1,3 +1,9 @@
+## [1.23.1](https://github.com/sentrei/sentrei/compare/v1.23.0...v1.23.1) (2021-03-18)
+
+### Performance Improvements
+
+- refactor chakra root ([9d966a7](https://github.com/sentrei/sentrei/commit/9d966a7004229d9c3f4c50c6873d0112baf13fca))
+
 # [1.23.0](https://github.com/sentrei/sentrei/compare/v1.22.0...v1.23.0) (2021-03-18)
 
 ### Features
