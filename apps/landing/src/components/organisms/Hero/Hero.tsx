@@ -8,6 +8,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 
+import { postWaitlist } from "@sentrei/utils";
 import useTranslation from "next-translate/useTranslation";
 
 import type { ChangeEvent, FormEvent } from "react";
@@ -18,7 +19,6 @@ import { Blur } from "@/components/atoms/Blur";
 import { Check } from "@/components/atoms/Check";
 import { Gradient } from "@/components/atoms/Gradient";
 import { SectionContainer } from "@/components/molecules/SectionContainer";
-import { postWaitlist } from "@/utils";
 
 export const Hero = () => {
   const { t } = useTranslation();
