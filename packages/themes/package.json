@@ -16,7 +16,11 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chakra-ui/react": "^1.3.4",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5"
+  },
   "devDependencies": {},
   "publishConfig": {
     "access": "public",

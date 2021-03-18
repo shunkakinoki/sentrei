@@ -1,2 +1,2 @@
-export { theme } from "./theme";
+export { theme } from "@sentrei/themes";
 export { ThemeProvider } from "./ThemeProvider";
