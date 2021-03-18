@@ -1,3 +1,13 @@
+# @sentrei/utils [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/utils@1.0.0...@sentrei/utils@1.1.0) (2021-03-18)
+
+### Features
+
+- ini hero waitlist ([41bf44f](https://github.com/sentrei/sentrei/commit/41bf44fe90f75364b324915185b6c7ae95fb414b))
+
+### Performance Improvements
+
+- complete refactor utils ([8aec5ca](https://github.com/sentrei/sentrei/commit/8aec5ca5e74edb2457286ea8dcab54c5c06596b8))
+
 # @sentrei/utils 1.0.0 (2021-02-24)
 
 ### Performance Improvements
