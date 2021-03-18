@@ -1,3 +1,14 @@
+# @sentrei/landing [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.10.1...@sentrei/landing@1.11.0) (2021-03-18)
+
+### Features
+
+- refactor components config ([c3b4309](https://github.com/sentrei/sentrei/commit/c3b4309211452baccbd66f22d00068f0ec6dd747))
+
+### Performance Improvements
+
+- ini chakra root ([4715284](https://github.com/sentrei/sentrei/commit/47152844d57722fe269c2f5ae639a586126a1081))
+- refactor next translate ([33501a9](https://github.com/sentrei/sentrei/commit/33501a9bf46e54b79a8070c90f30128e2189c6a3))
+
 ## @sentrei/landing [1.10.1](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.10.0...@sentrei/landing@1.10.1) (2021-03-18)
 
 ### Performance Improvements
