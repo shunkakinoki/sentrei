@@ -31,6 +31,7 @@
     "ncu:check": "ncu --deep -p yarn",
     "ncu:upgrade": "ncu --deep -u -p yarn",
     "npm-package-json:lint": "npmPkgJsonLint .",
+    "postinstall": "make postinstall-root",
     "prettier:lint": "prettier --check . --ignore-unknown",
     "prettier:fix": "prettier --write . --ignore-unknown",
     "release": "yarn run multi-semantic-release && yarn run semantic-release",
