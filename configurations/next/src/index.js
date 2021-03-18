@@ -1,7 +1,10 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
-const withTM = require("next-transpile-modules")(["@sentrei/themes"]);
+const withTM = require("next-transpile-modules")([
+  "@sentrei/themes",
+  "@sentrei/utils",
+]);
 
 const config = {
   experimental: {

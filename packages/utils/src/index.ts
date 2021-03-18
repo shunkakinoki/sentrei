@@ -1,1 +1,1 @@
-export {};
+export { postWaitlist } from "./postWaitlist";

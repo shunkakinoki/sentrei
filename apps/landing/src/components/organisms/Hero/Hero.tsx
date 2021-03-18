@@ -3,21 +3,38 @@ import {
   Button,
   Heading,
   Stack,
+  FormLabel,
+  Input,
   useColorModeValue,
 } from "@chakra-ui/react";
 
+import { postWaitlist } from "@sentrei/utils";
 import useTranslation from "next-translate/useTranslation";
 
-import { HiPlay } from "react-icons/hi";
-import { ImMagicWand } from "react-icons/im";
+import type { ChangeEvent, FormEvent } from "react";
+import { useState } from "react";
 
 import { Announce } from "@/components/atoms/Announce";
 import { Blur } from "@/components/atoms/Blur";
+import { Check } from "@/components/atoms/Check";
 import { Gradient } from "@/components/atoms/Gradient";
 import { SectionContainer } from "@/components/molecules/SectionContainer";
 
 export const Hero = () => {
   const { t } = useTranslation();
+  const [email, setEmail] = useState<string>("");
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    if (email) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+      postWaitlist(email);
+    }
+  };
 
   return (
     <SectionContainer>
@@ -70,7 +87,7 @@ export const Hero = () => {
               fontSize="lg"
               fontWeight="medium"
             >
-              {t("index:hero.description.1")}
+              {t("index:hero.description.edge")}
             </Gradient>
             <Gradient
               bgGradient={useColorModeValue(
@@ -91,39 +108,53 @@ export const Hero = () => {
               fontSize="lg"
               fontWeight="medium"
             >
-              {t("index:hero.description.2")}
+              {t("index:hero.description.dx")}
             </Gradient>
           </Box>
         </Box>
+        <Box mt="6" maxW="2xl" mx="auto">
+          <form onSubmit={handleSubmit}>
+            <Stack direction={{ base: "column", md: "row" }}>
+              <Box flex="1">
+                <FormLabel srOnly htmlFor="email">
+                  {t("index:hero.form.email")}
+                </FormLabel>
+                <Input
+                  id="email"
+                  name="email"
+                  size="lg"
+                  fontSize="md"
+                  bg="white"
+                  value={email}
+                  _placeholder={{ color: "gray.400" }}
+                  color="gray.900"
+                  placeholder={t("index:hero.form.email")}
+                  focusBorderColor="blue.200"
+                  onChange={handleChange}
+                />
+              </Box>
+              <Button
+                type="submit"
+                size="lg"
+                colorScheme="purple"
+                px="10"
+                fontSize="md"
+              >
+                {t("index:hero.form.invite")}
+              </Button>
+            </Stack>
+          </form>
+        </Box>
         <Stack
-          justify="center"
+          spacing={{ base: "3", md: "6" }}
           direction={{ base: "column", md: "row" }}
-          mt="10"
-          mb="20"
-          spacing="4"
+          mt="6"
+          justify="center"
+          align="center"
         >
-          <Button
-            size="lg"
-            colorScheme="blue"
-            px="8"
-            _hover={useColorModeValue({ bg: "blue.600" }, { bg: "blue.100" })}
-            fontWeight="bold"
-            fontSize="md"
-            leftIcon={<Box as={ImMagicWand} fontSize="2xl" mr={1} />}
-          >
-            {t("index:hero.cta.start")}
-          </Button>
-          <Button
-            size="lg"
-            colorScheme="teal"
-            px="8"
-            _hover={useColorModeValue({ bg: "teal.600" }, { bg: "teal.100" })}
-            fontWeight="bold"
-            fontSize="md"
-            leftIcon={<Box as={HiPlay} fontSize="2xl" mr={1} />}
-          >
-            {t("index:hero.cta.demo")}
-          </Button>
+          <Check>{t("index:hero.check.priority")}</Check>
+          <Check>{t("index:hero.check.notified")}</Check>
+          <Check>{t("index:hero.check.spam")}</Check>
         </Stack>
       </Box>
       <Blur position={"absolute"} top={-10} left={-10} />

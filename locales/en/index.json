@@ -94,14 +94,22 @@
       "prefix": "New",
       "title": "See Demo Dashboard"
     },
+    "check": {
+      "notified": "Get notified first.",
+      "priority": "Priority access guranteed.",
+      "spam": "No spam ever."
+    },
     "cta": {
       "demo": "Watch demo",
       "start": "Deploy now"
     },
     "description": {
-      "1": "Sentrei provides the edge serverless backend on top of the global database infrastructure.",
-      "2": "We abstract away the boilerplate to provide the best developer experience.",
-      "3": "We aim to do much better, how developers deserve in 2020."
+      "dx": "We abstract away the boilerplate to provide the best developer experience.",
+      "edge": "Sentrei provides the edge serverless backend on top of the global database infrastructure."
+    },
+    "form": {
+      "email": "Your email address",
+      "invite": "Get Invite"
     },
     "main": "Build apps 3x faster.",
     "sub": "Instant serverless backend."

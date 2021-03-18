@@ -9,7 +9,7 @@ export const SectionContainer: FC<SectionContainerProps> = ({
   ...rest
 }) => (
   <Box {...rest}>
-    <Box as="section" py="12">
+    <Box as="section" py="20">
       {children}
     </Box>
   </Box>
