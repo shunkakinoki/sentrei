@@ -2,9 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@sentrei/dashboard/*": ["src/*"],
-      "@sentrei/components/*": ["components/*"],
-      "@sentrei/styles/*": ["../../packages/styles/src/*"]
+      "@/*": ["src/*"]
     },
     "noEmit": true
   },

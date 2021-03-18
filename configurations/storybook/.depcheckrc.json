@@ -1,0 +1,3 @@
+{
+  "ignores": ["storybook-addon-designs", "@storybook/*"]
+}

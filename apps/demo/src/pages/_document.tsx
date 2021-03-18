@@ -1,7 +1,7 @@
 import { ColorModeScript } from "@chakra-ui/react";
 import Doc, { Head, Html, Main, NextScript } from "next/document";
 
-import { theme } from "@sentrei/components/theme";
+import { theme } from "@/components/theme";
 
 export default class Document extends Doc {
   render(): JSX.Element {

@@ -1,0 +1,33 @@
+{
+  "name": "@sentrei/storybook",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/addon-essentials": "^v6.2.0-beta.2",
+    "@storybook/addons": "^v6.2.0-beta.2",
+    "@storybook/react": "^v6.2.0-beta.2",
+    "storybook-addon-designs": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

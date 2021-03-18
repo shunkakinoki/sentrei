@@ -1,6 +1,6 @@
 import type { VFC } from "react";
 
-import { LandingScreen } from "@sentrei/components/screens/LandingScreen";
+import { LandingScreen } from "@/components/screens/LandingScreen";
 
 const Index: VFC = () => <LandingScreen />;
 
