@@ -1,3 +1,9 @@
+# @sentrei/next [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.2.1...@sentrei/next@1.3.0) (2021-03-18)
+
+### Features
+
+- refactor components config ([c3b4309](https://github.com/sentrei/sentrei/commit/c3b4309211452baccbd66f22d00068f0ec6dd747))
+
 ## @sentrei/next [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.2.0...@sentrei/next@1.2.1) (2021-03-18)
 
 ### Performance Improvements
