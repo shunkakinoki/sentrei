@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
-    "multi-semantic-release": "^2.6.0",
+    "multi-semantic-release": "^2.8.0",
     "sort-package-json": "^1.49.0"
   }
 }

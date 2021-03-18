@@ -17,7 +17,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "npm-check-updates": "^11.1.10"
+    "npm-check-updates": "^11.3.0"
   },
   "publishConfig": {
     "access": "public",
