@@ -19,7 +19,9 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^0.0.0-experimental-8af27aeed"
+  },
   "devDependencies": {},
   "publishConfig": {
     "access": "public",
