@@ -1,4 +1,4 @@
-import { Button } from "@sentrei/atoms/base/Button";
+import { Button } from "@sentrei/atoms/landing/base/Button";
 import type { VFC } from "react";
 
 export const ButtonGroup: VFC = () => (
