@@ -102,7 +102,9 @@ module.exports = {
       typescript: {
         project: [
           "apps/*/tsconfig.json",
+          "components/*/tsconfig.json",
           "configurations/*/tsconfig.json",
+          "libs/*/tsconfig.json",
           "packages/*/tsconfig.json",
         ],
       },
