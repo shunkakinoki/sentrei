@@ -2,6 +2,11 @@ const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 const withTM = require("next-transpile-modules")([
+  "@sentrei/atoms",
+  "@sentrei/molecules",
+  "@sentrei/organisms",
+  "@sentrei/roots",
+  "@sentrei/screens",
   "@sentrei/themes",
   "@sentrei/utils",
 ]);

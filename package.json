@@ -13,7 +13,9 @@
   "workspaces": {
     "packages": [
       "apps/*",
+      "components/*",
       "configurations/*",
+      "libs/*",
       "packages/*"
     ]
   },
