@@ -1,3 +1,13 @@
+# @sentrei/organisms [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.1.0...@sentrei/organisms@1.2.0) (2021-03-20)
+
+### Features
+
+- ini how section ([6855b85](https://github.com/sentrei/sentrei/commit/6855b85b1da35d6ff6ac232b71818d1672607a5b))
+
+### Performance Improvements
+
+- refactor landing how ([03c4fcf](https://github.com/sentrei/sentrei/commit/03c4fcff3365a2ae295c5180264cdde8e809a73d))
+
 # @sentrei/organisms [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.0.0...@sentrei/organisms@1.1.0) (2021-03-20)
 
 ### Features
