@@ -30,8 +30,8 @@ else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "packages/components" ]]; then
-    if git diff --quiet HEAD~ -- .; then
+  if [[ "$PWD" =~ "." ]]; then
+    if git diff --quiet HEAD~ -- components; then
       exit 0
     else
       exit 1
