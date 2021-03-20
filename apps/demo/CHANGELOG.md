@@ -1,3 +1,10 @@
+# @sentrei/demo [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.11.1...@sentrei/demo@1.12.0) (2021-03-20)
+
+### Features
+
+- complete refactor components ([6d13c44](https://github.com/sentrei/sentrei/commit/6d13c44e7b58c1eee353a7c3b9e71edfaa764096))
+- complete refactor dashboard ([2337501](https://github.com/sentrei/sentrei/commit/2337501423d8770572c232c858fac71c0599327c))
+
 ## @sentrei/demo [1.11.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.11.0...@sentrei/demo@1.11.1) (2021-03-18)
 
 ### Performance Improvements
