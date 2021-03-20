@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "src/index",
+  "main": "src/index.ts",
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },

@@ -4,7 +4,18 @@ const toPath = _path => path.join(process.cwd(), _path);
 
 module.exports = {
   addons: ["@storybook/addon-essentials", "storybook-addon-designs"],
-  stories: ["../apps/**/*.stories.tsx"],
+  stories: ["../components/**/*.stories.tsx"],
+  options: {
+    storySort: {
+      method: "alphabetical",
+      order: [],
+      locales: "",
+    },
+  },
+  reactOptions: {
+    fastRefresh: true,
+    strictMode: true,
+  },
   typescript: {
     reactDocgen: false,
   },

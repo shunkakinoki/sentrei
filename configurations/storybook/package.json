@@ -19,11 +19,13 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@storybook/theming": "^6.1.21"
+  },
   "devDependencies": {
-    "@storybook/addon-essentials": "^v6.2.0-beta.2",
-    "@storybook/addons": "^v6.2.0-beta.2",
-    "@storybook/react": "^v6.2.0-beta.2",
+    "@storybook/addon-essentials": "^v6.2.0-rc.4",
+    "@storybook/addons": "^v6.2.0-rc.4",
+    "@storybook/react": "^v6.2.0-rc.4",
     "storybook-addon-designs": "^5.4.5"
   },
   "publishConfig": {

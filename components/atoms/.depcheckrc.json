@@ -1,0 +1,9 @@
+{
+  "ignores": [
+    "@chakra-ui/*",
+    "@emotion/*",
+    "@sentrei/*",
+    "framer-motion",
+    "next-translate"
+  ]
+}

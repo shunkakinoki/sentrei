@@ -1,0 +1,35 @@
+{
+  "name": "@sentrei/molecules",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.ts",
+  "files": [
+    "./"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.3.4",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "next": "v10.0.9",
+    "react": "^0.0.0-experimental-8af27aeed",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

@@ -62,12 +62,12 @@ module.exports = {
         pathGroups: [
           {
             group: "internal",
-            pattern: "@sentrei/**",
+            pattern: "@sentrei/*",
             position: "after",
           },
           {
             group: "internal",
-            pattern: "@/**",
+            pattern: "@/*",
             position: "after",
           },
         ],
@@ -102,7 +102,9 @@ module.exports = {
       typescript: {
         project: [
           "apps/*/tsconfig.json",
+          "components/*/tsconfig.json",
           "configurations/*/tsconfig.json",
+          "libs/*/tsconfig.json",
           "packages/*/tsconfig.json",
         ],
       },

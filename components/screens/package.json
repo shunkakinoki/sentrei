@@ -1,0 +1,30 @@
+{
+  "name": "@sentrei/screens",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.ts",
+  "files": [
+    "./"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "react": "^0.0.0-experimental-8af27aeed"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

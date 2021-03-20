@@ -1,5 +1,3 @@
-import type { VFC } from "react";
+import { DashboardContainer } from "@sentrei/organisms/dashboard/DashboardContainer";
 
-const Index: VFC = () => <></>;
-
-export default Index;
+export default DashboardContainer;
