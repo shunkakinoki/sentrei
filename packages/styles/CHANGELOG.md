@@ -1,3 +1,9 @@
+# @sentrei/styles [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.4.1...@sentrei/styles@1.5.0) (2021-03-20)
+
+### Features
+
+- complete refactor dashboard ([2337501](https://github.com/sentrei/sentrei/commit/2337501423d8770572c232c858fac71c0599327c))
+
 ## @sentrei/styles [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.4.0...@sentrei/styles@1.4.1) (2021-02-26)
 
 ### Performance Improvements
