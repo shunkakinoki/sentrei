@@ -9,7 +9,7 @@ if [[ "$VERCEL_GIT_COMMIT_MESSAGE" =~ "[skip ci]" ]]; then
 elif [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$VERCEL_GIT_COMMIT_REF" == "beta" || "$VERCEL_GIT_COMMIT_REF" == "main" ]]; then
   exit 1
 else
-  if [[ "$PWD" =~ "apps/dashboard" ]]; then
+  if [[ "$PWD" =~ "apps/app" ]]; then
     if git diff --quiet HEAD~ -- .; then
       exit 0
     else
@@ -23,7 +23,7 @@ else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "apps/landing" ]]; then
+  if [[ "$PWD" =~ "apps/home" ]]; then
     if git diff --quiet HEAD~ -- .; then
       exit 0
     else
