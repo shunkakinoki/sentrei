@@ -1,1 +1,15 @@
-{}
+{
+  "appBar": {
+    "profileMenu": {
+      "dashboard": "",
+      "profile": "",
+      "signOut": "",
+      "settings": ""
+    },
+    "tab": {
+      "analytics": "",
+      "authentication": "",
+      "overview": ""
+    }
+  }
+}
