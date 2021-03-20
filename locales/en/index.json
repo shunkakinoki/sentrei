@@ -114,6 +114,27 @@
     "main": "Build apps fast.",
     "sub": "Jamstack backend on the edge."
   },
+  "how": {
+    "grid": {
+      "develop": {
+        "description": "Develop entire backend code directly runs on the edge, without build times or latency.",
+        "title": "Develop on the edge"
+      },
+      "preview": {
+        "description": "Database migrations and edge GraphQL endpoints are generated upon every commit.",
+        "title": "Preview backend environment"
+      },
+      "managed": {
+        "description": "Analytics, authentication, and other essential utilities are automatically included.",
+        "title": "Fully managed backend"
+      }
+    },
+    "section": {
+      "flag": "How Sentrei works",
+      "subtitle": "Never worry about managing infrastructure ever again.",
+      "title": "Deploy backend to the edge"
+    }
+  },
   "stats": {
     "section": {
       "flag": "Strength in numbers",
