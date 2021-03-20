@@ -1,3 +1,13 @@
+# [1.26.0](https://github.com/sentrei/sentrei/compare/v1.25.0...v1.26.0) (2021-03-20)
+
+### Features
+
+- ini how section ([6855b85](https://github.com/sentrei/sentrei/commit/6855b85b1da35d6ff6ac232b71818d1672607a5b))
+
+### Performance Improvements
+
+- refactor landing how ([03c4fcf](https://github.com/sentrei/sentrei/commit/03c4fcff3365a2ae295c5180264cdde8e809a73d))
+
 # [1.25.0](https://github.com/sentrei/sentrei/compare/v1.24.0...v1.25.0) (2021-03-20)
 
 ### Features
