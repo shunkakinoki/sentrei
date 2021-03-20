@@ -1,3 +1,9 @@
+# @sentrei/atoms [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.1.0...@sentrei/atoms@1.2.0) (2021-03-20)
+
+### Features
+
+- ini how section ([6855b85](https://github.com/sentrei/sentrei/commit/6855b85b1da35d6ff6ac232b71818d1672607a5b))
+
 # @sentrei/atoms [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.0.0...@sentrei/atoms@1.1.0) (2021-03-20)
 
 ### Features
