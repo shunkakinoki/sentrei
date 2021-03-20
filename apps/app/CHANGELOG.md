@@ -1,3 +1,9 @@
+# @sentrei/app 1.0.0 (2021-03-20)
+
+### Features
+
+- refactor app dirs ([5b0c090](https://github.com/sentrei/sentrei/commit/5b0c090aefb34ab655e00e9665d6b412ee8b7fad))
+
 # @sentrei/dashboard [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/dashboard@1.11.1...@sentrei/dashboard@1.12.0) (2021-03-20)
 
 ### Features
