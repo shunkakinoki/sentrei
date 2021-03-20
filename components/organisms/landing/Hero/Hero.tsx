@@ -111,7 +111,7 @@ export const Hero = () => {
             </Gradient>
           </Box>
         </Box>
-        <Box mt="6" maxW="2xl" mx="auto">
+        <Box mt="6" maxW="xl" mx="auto">
           <form onSubmit={handleSubmit}>
             <Stack direction={{ base: "column", md: "row" }}>
               <Box flex="1">
