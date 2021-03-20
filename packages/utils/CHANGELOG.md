@@ -1,3 +1,9 @@
+# @sentrei/utils [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/utils@1.1.0...@sentrei/utils@1.2.0) (2021-03-20)
+
+### Features
+
+- complete refactor dashboard ([2337501](https://github.com/sentrei/sentrei/commit/2337501423d8770572c232c858fac71c0599327c))
+
 # @sentrei/utils [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/utils@1.0.0...@sentrei/utils@1.1.0) (2021-03-18)
 
 ### Features

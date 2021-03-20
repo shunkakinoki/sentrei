@@ -1,3 +1,16 @@
+# [1.24.0](https://github.com/sentrei/sentrei/compare/v1.23.1...v1.24.0) (2021-03-20)
+
+### Features
+
+- complete refactor components ([6d13c44](https://github.com/sentrei/sentrei/commit/6d13c44e7b58c1eee353a7c3b9e71edfaa764096))
+- complete refactor dashboard ([2337501](https://github.com/sentrei/sentrei/commit/2337501423d8770572c232c858fac71c0599327c))
+- ini components dir ([c60084b](https://github.com/sentrei/sentrei/commit/c60084b60ab6692d851372080135e05a0490454a))
+
+### Performance Improvements
+
+- refactor dashboard screen ([27a0b25](https://github.com/sentrei/sentrei/commit/27a0b25ce359fde30e45e3a3483758f6e4ccf085))
+- upgrade with ncu ([3cf7ab3](https://github.com/sentrei/sentrei/commit/3cf7ab3782a6ba29c0ed1f3f8855b853b69648a2))
+
 ## [1.23.1](https://github.com/sentrei/sentrei/compare/v1.23.0...v1.23.1) (2021-03-18)
 
 ### Performance Improvements

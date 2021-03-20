@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.0...@sentrei/eslint@1.7.1) (2021-03-20)
+
+### Performance Improvements
+
+- refactor dashboard screen ([27a0b25](https://github.com/sentrei/sentrei/commit/27a0b25ce359fde30e45e3a3483758f6e4ccf085))
+
 # @sentrei/eslint [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.6.2...@sentrei/eslint@1.7.0) (2021-03-18)
 
 ### Features
