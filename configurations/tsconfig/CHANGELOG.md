@@ -1,3 +1,9 @@
+# @sentrei/tsconfig [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.2.4...@sentrei/tsconfig@1.3.0) (2021-03-20)
+
+### Features
+
+- complete refactor dashboard ([2337501](https://github.com/sentrei/sentrei/commit/2337501423d8770572c232c858fac71c0599327c))
+
 ## @sentrei/tsconfig [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/tsconfig@1.2.3...@sentrei/tsconfig@1.2.4) (2021-03-18)
 
 ### Performance Improvements
