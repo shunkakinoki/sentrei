@@ -16,6 +16,7 @@ import { SectionContainer } from "@sentrei/molecules/landing/SectionContainer";
 import { postWaitlist } from "@sentrei/utils";
 import useTranslation from "next-translate/useTranslation";
 import type { ChangeEvent, FormEvent } from "react";
+import * as React from "react";
 import { useState } from "react";
 
 export const Hero = () => {

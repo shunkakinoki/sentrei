@@ -2,6 +2,8 @@ import type { BoxProps } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import type { FC } from "react";
 
+import * as React from "react";
+
 export type SectionContainerProps = BoxProps;
 
 export const SectionContainer: FC<SectionContainerProps> = ({

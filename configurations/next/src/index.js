@@ -3,6 +3,7 @@ const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 const withTM = require("next-transpile-modules")([
   "@sentrei/atoms",
+  "@sentrei/const",
   "@sentrei/molecules",
   "@sentrei/organisms",
   "@sentrei/roots",

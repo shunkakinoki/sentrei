@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Faq } from "./Faq";
 
 export default {

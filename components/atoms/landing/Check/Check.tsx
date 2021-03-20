@@ -1,5 +1,6 @@
 import { Box, HStack, Text, useColorModeValue } from "@chakra-ui/react";
 import type { FC } from "react";
+import * as React from "react";
 import { HiCheckCircle } from "react-icons/hi";
 
 export type CheckProps = {

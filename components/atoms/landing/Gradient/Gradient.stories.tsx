@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Gradient } from "./Gradient";
 
 export default {

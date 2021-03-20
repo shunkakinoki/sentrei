@@ -2,6 +2,7 @@ import { Container, Grid } from "@chakra-ui/react";
 import { Feature } from "@sentrei/atoms/landing/Feature";
 import useTranslation from "next-translate/useTranslation";
 import type { VFC } from "react";
+import * as React from "react";
 import {
   FcUnlock,
   FcDataEncryption,

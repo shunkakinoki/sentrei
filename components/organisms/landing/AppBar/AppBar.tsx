@@ -17,6 +17,7 @@ import { useViewportScroll } from "framer-motion";
 import useTranslation from "next-translate/useTranslation";
 
 import NextLink from "next/link";
+import * as React from "react";
 import { useEffect, useRef, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 

@@ -1,5 +1,8 @@
 import { Box, Flex, Img, Text } from "@chakra-ui/react";
+import { SOCIAL_LINKS } from "@sentrei/const";
 import useTranslation from "next-translate/useTranslation";
+
+import * as React from "react";
 
 export const FounderTestimonial = () => {
   const { t } = useTranslation();
@@ -23,7 +26,7 @@ export const FounderTestimonial = () => {
             w="16"
             h="16"
             rounded="full"
-            src="https://avatars.githubusercontent.com/u/39187513"
+            src={SOCIAL_LINKS.AVATAR}
           />
           <Box mt="3">
             <Text as="cite" fontStyle="normal" fontWeight="bold">

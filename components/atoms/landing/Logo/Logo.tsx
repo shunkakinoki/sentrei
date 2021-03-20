@@ -3,6 +3,7 @@ import { IconButton, LinkBox, VisuallyHidden } from "@chakra-ui/react";
 
 import NextLink from "next/link";
 import type { FC } from "react";
+import * as React from "react";
 import { RiBlazeFill } from "react-icons/ri";
 
 export type LogoProps = Omit<IconButtonProps, "aria-label">;

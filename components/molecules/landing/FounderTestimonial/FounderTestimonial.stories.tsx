@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { FounderTestimonial } from "./FounderTestimonial";
 
 export default {

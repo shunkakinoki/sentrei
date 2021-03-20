@@ -5,6 +5,8 @@ import { SectionContainer } from "@sentrei/molecules/landing/SectionContainer";
 import { SectionText } from "@sentrei/molecules/landing/SectionText";
 import useTranslation from "next-translate/useTranslation";
 
+import * as React from "react";
+
 export const Founder = () => {
   const { t } = useTranslation();
 

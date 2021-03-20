@@ -2,6 +2,8 @@ import type { HTMLChakraProps } from "@chakra-ui/react";
 import { chakra, useColorModeValue } from "@chakra-ui/react";
 import type { FC } from "react";
 
+import * as React from "react";
+
 export type TabLinkProps = HTMLChakraProps<"a">;
 
 export const TabLink: FC<TabLinkProps> = ({ ...props }) => (

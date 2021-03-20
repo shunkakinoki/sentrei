@@ -9,11 +9,13 @@ import { Hero } from "@sentrei/organisms/landing/Hero";
 import { Newsletter } from "@sentrei/organisms/landing/Newsletter";
 import { Stats } from "@sentrei/organisms/landing/Stats";
 // import { Testimonial } from "@sentrei/organisms/landing/Testimonial";
-import { PageRoot } from "@sentrei/roots/base/PageRoot";
+import { PageRoot } from "@sentrei/roots/landing/PageRoot";
 import type { FC } from "react";
 
+import * as React from "react";
+
 export const LandingScreen: FC = () => (
-  <PageRoot type="landing">
+  <PageRoot>
     <Hero />
     {/* <Journey /> */}
     <Feature />

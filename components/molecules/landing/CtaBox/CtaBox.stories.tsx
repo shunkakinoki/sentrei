@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { CtaBox } from "./CtaBox";
 
 export default {

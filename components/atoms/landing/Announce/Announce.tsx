@@ -5,9 +5,9 @@ import {
   useColorModeValue,
   LinkBox,
 } from "@chakra-ui/react";
-
 import { Link } from "@sentrei/atoms/landing/Link";
 import type { LinkProps } from "@sentrei/atoms/landing/Link";
+import * as React from "react";
 import type { FC } from "react";
 import { HiArrowRight } from "react-icons/hi";
 

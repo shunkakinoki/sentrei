@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Announce } from "./Announce";
 
 export default {

@@ -1,3 +1,3 @@
-import { LandingScreen } from "@sentrei/screens/landing/LandingScreen";
+import { DashboardContainer } from "@sentrei/organisms/dashboard/DashboardContainer";
 
-export default LandingScreen;
+export default DashboardContainer;

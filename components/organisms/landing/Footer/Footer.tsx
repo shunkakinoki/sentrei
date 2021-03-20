@@ -8,6 +8,8 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Logo } from "@sentrei/atoms/landing/Logo";
+import { SOCIAL_LINKS } from "@sentrei/const";
+import * as React from "react";
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
 
 export function Footer() {
@@ -47,7 +49,7 @@ export function Footer() {
           <Stack direction="row" spacing={6}>
             <Button
               as="a"
-              href="https://github.com/sentrei/sentrei"
+              href={SOCIAL_LINKS.GITHUB}
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -55,7 +57,7 @@ export function Footer() {
             </Button>
             <Button
               as="a"
-              href="https://discord.gg/hTn8YU8B"
+              href={SOCIAL_LINKS.DISCORD}
               target="__blank"
               rel="noopener noreferrer"
             >
@@ -63,7 +65,7 @@ export function Footer() {
             </Button>
             <Button
               as="a"
-              href="https://twitter.com/SentreiHQ"
+              href={SOCIAL_LINKS.TWITTER}
               target="__blank"
               rel="noopener noreferrer"
             >

@@ -15,6 +15,8 @@ import {
 import useTranslation from "next-translate/useTranslation";
 import type { VFC } from "react";
 
+import * as React from "react";
+
 const UserAvatar: VFC = () => (
   <Avatar
     size="sm"

@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { Founder } from "./Founder";
 
 export default {

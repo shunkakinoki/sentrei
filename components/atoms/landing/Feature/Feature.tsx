@@ -7,6 +7,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import type { ComponentProps } from "react";
+import * as React from "react";
 
 export interface FeatureProps {
   title: string;

@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { FeatureGrid } from "./FeatureGrid";
 
 export default {

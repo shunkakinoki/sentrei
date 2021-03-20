@@ -9,6 +9,8 @@ import {
 import useTranslation from "next-translate/useTranslation";
 import type { FC, VFC } from "react";
 
+import * as React from "react";
+
 export type StatProps = BoxProps & {
   title: string;
   value: string;

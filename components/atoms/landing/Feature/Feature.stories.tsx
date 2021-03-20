@@ -1,3 +1,4 @@
+import * as React from "react";
 import { FcDoughnutChart } from "react-icons/fc";
 
 import { Feature } from "./Feature";

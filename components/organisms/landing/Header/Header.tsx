@@ -10,8 +10,10 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Logo } from "@sentrei/atoms/landing/Logo";
+import { SOCIAL_LINKS } from "@sentrei/const";
 import { useViewportScroll } from "framer-motion";
 import NextLink from "next/link";
+import * as React from "react";
 import { useEffect, useRef, useState } from "react";
 import { FaDiscord, FaGithub, FaMoon, FaSun } from "react-icons/fa";
 
@@ -69,7 +71,7 @@ export const Header = () => {
               <Link
                 isExternal
                 aria-label="Go to Sentrei GitHub page"
-                href="https://github.com/sentrei/sentrei"
+                href={SOCIAL_LINKS.GITHUB}
               >
                 <Icon
                   as={FaGithub}
@@ -83,7 +85,7 @@ export const Header = () => {
               <Link
                 isExternal
                 aria-label="Go to Sentrei Discord page"
-                href="https://discord.gg/hTn8YU8B"
+                href={SOCIAL_LINKS.DISCORD}
               >
                 <Icon
                   as={FaDiscord}

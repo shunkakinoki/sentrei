@@ -1,5 +1,6 @@
 import type { IconProps } from "@chakra-ui/react";
 import { useBreakpointValue, Icon } from "@chakra-ui/react";
+import * as React from "react";
 
 export const Blur = (props: IconProps) => {
   return (

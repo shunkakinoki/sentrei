@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import useTranslation from "next-translate/useTranslation";
 import type { FC, VFC } from "react";
+import * as React from "react";
 import { BiRightArrowAlt } from "react-icons/bi";
 import {
   BsLightning,

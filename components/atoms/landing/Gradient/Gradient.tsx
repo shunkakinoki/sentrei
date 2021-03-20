@@ -1,6 +1,7 @@
 import type { TextProps } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import type { FC } from "react";
+import * as React from "react";
 
 export type GradientProps = Omit<TextProps, "bgClip" | "children"> & {
   readonly bgGradient: Pick<TextProps, "bgGradient">;

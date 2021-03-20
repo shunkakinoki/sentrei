@@ -2,6 +2,8 @@ import { Box, Center, Text, useColorModeValue } from "@chakra-ui/react";
 import { Gradient } from "@sentrei/atoms/landing/Gradient";
 import type { ComponentProps, FC } from "react";
 
+import * as React from "react";
+
 export type SectionTextProps = {
   flag: string;
   title: string;

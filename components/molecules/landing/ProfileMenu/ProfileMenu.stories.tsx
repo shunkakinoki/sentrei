@@ -1,3 +1,5 @@
+import * as React from "react";
+
 import { ProfileMenu } from "./ProfileMenu";
 
 export default {
