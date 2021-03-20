@@ -4,6 +4,7 @@ import { Feature } from "@sentrei/organisms/landing/Feature";
 import { Founder } from "@sentrei/organisms/landing/Founder";
 // import { Globe } from "@sentrei/organisms/landing/Globe";
 import { Hero } from "@sentrei/organisms/landing/Hero";
+import { How } from "@sentrei/organisms/landing/How";
 // import { Journey } from "@sentrei/organisms/landing/Journey";
 // import { Mission } from "@sentrei/organisms/landing/Mission";
 import { Newsletter } from "@sentrei/organisms/landing/Newsletter";
@@ -17,6 +18,7 @@ import * as React from "react";
 export const LandingScreen: FC = () => (
   <PageRoot>
     <Hero />
+    <How />
     {/* <Journey /> */}
     <Feature />
     <Founder />
