@@ -1,3 +1,13 @@
+# @sentrei/landing [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.12.0...@sentrei/landing@1.13.0) (2021-03-20)
+
+### Features
+
+- complete refactor components ([6d13c44](https://github.com/sentrei/sentrei/commit/6d13c44e7b58c1eee353a7c3b9e71edfaa764096))
+
+### Performance Improvements
+
+- refactor dashboard screen ([27a0b25](https://github.com/sentrei/sentrei/commit/27a0b25ce359fde30e45e3a3483758f6e4ccf085))
+
 # @sentrei/landing [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/landing@1.11.0...@sentrei/landing@1.12.0) (2021-03-18)
 
 ### Features
