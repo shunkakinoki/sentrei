@@ -25,8 +25,8 @@
     "@emotion/styled": "^11.1.5",
     "framer-motion": "^4.0.0",
     "next": "v10.0.9",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^0.0.0-experimental-1fafac002",
+    "react-dom": "^0.0.0-experimental-1fafac002",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {},
