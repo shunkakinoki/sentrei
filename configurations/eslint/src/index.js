@@ -62,12 +62,12 @@ module.exports = {
         pathGroups: [
           {
             group: "internal",
-            pattern: "@sentrei/*",
+            pattern: "@sentrei/**",
             position: "after",
           },
           {
             group: "internal",
-            pattern: "@/*",
+            pattern: "@/**",
             position: "after",
           },
         ],
