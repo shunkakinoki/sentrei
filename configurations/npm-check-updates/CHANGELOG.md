@@ -1,3 +1,9 @@
+## @sentrei/npm-check-updates [1.2.5](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.4...@sentrei/npm-check-updates@1.2.5) (2021-03-22)
+
+### Performance Improvements
+
+- migrate react version to 17 ([e8f2bc7](https://github.com/sentrei/sentrei/commit/e8f2bc7089f1b52d9126af309b37dc48080a4421))
+
 ## @sentrei/npm-check-updates [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.3...@sentrei/npm-check-updates@1.2.4) (2021-03-22)
 
 ### Performance Improvements
