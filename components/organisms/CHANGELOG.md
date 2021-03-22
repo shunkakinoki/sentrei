@@ -1,3 +1,9 @@
+## @sentrei/organisms [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.2...@sentrei/organisms@1.2.3) (2021-03-22)
+
+### Performance Improvements
+
+- revert back to react experimental ([e434b5b](https://github.com/sentrei/sentrei/commit/e434b5bf19e7021e5b325140fdfa948f3cb750b9))
+
 ## @sentrei/organisms [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.1...@sentrei/organisms@1.2.2) (2021-03-22)
 
 ### Performance Improvements
