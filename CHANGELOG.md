@@ -1,3 +1,9 @@
+## [1.26.2](https://github.com/sentrei/sentrei/compare/v1.26.1...v1.26.2) (2021-03-22)
+
+### Performance Improvements
+
+- migrate react version to 17 ([e8f2bc7](https://github.com/sentrei/sentrei/commit/e8f2bc7089f1b52d9126af309b37dc48080a4421))
+
 ## [1.26.1](https://github.com/sentrei/sentrei/compare/v1.26.0...v1.26.1) (2021-03-22)
 
 ### Performance Improvements
