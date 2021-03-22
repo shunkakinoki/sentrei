@@ -1,3 +1,9 @@
+## @sentrei/next [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.5.0...@sentrei/next@1.5.1) (2021-03-22)
+
+### Performance Improvements
+
+- upgrade and pin react version to 16.14.0 ([f8d7940](https://github.com/sentrei/sentrei/commit/f8d794076af5c20033436b4eeae4729e2237f75c))
+
 # @sentrei/next [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.4.0...@sentrei/next@1.5.0) (2021-03-20)
 
 ### Features
