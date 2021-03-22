@@ -4,7 +4,7 @@ import { Gradient } from "./Gradient";
 
 export default {
   component: Gradient,
-  title: "Atoms/Gradient",
+  title: "Atoms/Landing/Gradient",
 };
 
 export const _Gradient = (): JSX.Element => (

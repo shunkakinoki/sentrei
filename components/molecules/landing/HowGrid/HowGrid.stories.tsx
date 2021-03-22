@@ -4,7 +4,7 @@ import { HowGrid } from "./HowGrid";
 
 export default {
   component: HowGrid,
-  title: "Molecules/HowGrid",
+  title: "Molecules/Landing/HowGrid",
 };
 
 export const _HowGrid = (): JSX.Element => <HowGrid />;

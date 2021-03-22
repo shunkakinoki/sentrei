@@ -4,7 +4,7 @@ import { SectionText } from "./SectionText";
 
 export default {
   component: SectionText,
-  title: "Molecules/SectionText",
+  title: "Molecules/Landing/SectionText",
 };
 
 export const _SectionText = (): JSX.Element => (

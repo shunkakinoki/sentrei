@@ -4,7 +4,7 @@ import { Mission } from "./Mission";
 
 export default {
   component: Mission,
-  title: "Organisms/Mission",
+  title: "Organisms/Landing/Mission",
 };
 
 export const _Mission = (): JSX.Element => <Mission />;

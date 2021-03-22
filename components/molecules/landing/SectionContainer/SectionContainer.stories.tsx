@@ -6,7 +6,7 @@ import { SectionContainer } from "./SectionContainer";
 
 export default {
   component: SectionContainer,
-  title: "Molecules/SectionContainer",
+  title: "Molecules/Landing/SectionContainer",
 };
 
 export const _SectionContainer = (): JSX.Element => (

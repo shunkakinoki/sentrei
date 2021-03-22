@@ -4,7 +4,7 @@ import { TabLink } from "./TabLink";
 
 export default {
   component: TabLink,
-  title: "Molecules/TabLink",
+  title: "Molecules/Landing/TabLink",
 };
 
 export const _TabLink = (): JSX.Element => <TabLink>TabLink</TabLink>;
