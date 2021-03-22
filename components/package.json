@@ -17,7 +17,7 @@
     "./"
   ],
   "scripts": {
-    "build": "cd ../.. && yarn run build-storybook --quiet",
+    "build": "cd ../.. && yarn run build-storybook --quiet -o public",
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
