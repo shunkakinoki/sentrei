@@ -17,21 +17,21 @@ else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "apps/demo" ]]; then
+  elif [[ "$PWD" =~ "apps/demo" ]]; then
     if git diff --quiet HEAD~ -- .; then
       exit 0
     else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "apps/home" ]]; then
+  elif [[ "$PWD" =~ "apps/home" ]]; then
     if git diff --quiet HEAD~ -- .; then
       exit 0
     else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "(\/)tmp(\/).*[^\/]$" ]]; then
+  elif [[ "$PWD" =~ "(\/)tmp(\/).*" ]]; then
     if git diff --quiet HEAD~ -- .; then
       exit 0
     else
