@@ -1,3 +1,9 @@
+## @sentrei/home [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.0.0...@sentrei/home@1.0.1) (2021-03-22)
+
+### Performance Improvements
+
+- migrate react version to 17 ([e8f2bc7](https://github.com/sentrei/sentrei/commit/e8f2bc7089f1b52d9126af309b37dc48080a4421))
+
 # @sentrei/home 1.0.0 (2021-03-20)
 
 ### Features
