@@ -20,8 +20,8 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^0.0.0-experimental-7d06b80af",
+    "react-dom": "^0.0.0-experimental-7d06b80af"
   },
   "devDependencies": {},
   "publishConfig": {
