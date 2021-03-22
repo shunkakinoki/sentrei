@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.1...@sentrei/molecules@1.2.2) (2021-03-22)
+
+### Performance Improvements
+
+- migrate react version to 17 ([e8f2bc7](https://github.com/sentrei/sentrei/commit/e8f2bc7089f1b52d9126af309b37dc48080a4421))
+
 ## @sentrei/molecules [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.0...@sentrei/molecules@1.2.1) (2021-03-22)
 
 ### Performance Improvements
