@@ -4,7 +4,7 @@ import { Announce } from "./Announce";
 
 export default {
   component: Announce,
-  title: "Atoms/Announce",
+  title: "Atoms/Landing/Announce",
 };
 
 export const _InternalLinkAnnounce = (): JSX.Element => (

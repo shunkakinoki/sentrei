@@ -31,11 +31,9 @@ else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "(\/)tmp(\/).*" ]]; then
-    if git diff --quiet HEAD~ -- .; then
-      exit 0
-    else
-      exit 1
-    fi
+  if git diff --quiet HEAD~ -- components; then
+    exit 0
+  else
+    exit 1
   fi
 fi

@@ -4,7 +4,7 @@ import { DashboardContainer } from "./DashboardContainer";
 
 export default {
   component: DashboardContainer,
-  title: "Organisms/DashboardContainer",
+  title: "Organisms/Dashboard/DashboardContainer",
 };
 
 export const _DashboardContainer = (): JSX.Element => <DashboardContainer />;

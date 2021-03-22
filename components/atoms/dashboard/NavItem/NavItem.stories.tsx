@@ -5,7 +5,7 @@ import { NavItem } from "./NavItem";
 
 export default {
   component: NavItem,
-  title: "Atoms/NavItem",
+  title: "Atoms/Dashboard/NavItem",
 };
 
 export const _NavItem = (): JSX.Element => (

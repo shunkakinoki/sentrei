@@ -4,7 +4,7 @@ import { NavGroup } from "./NavGroup";
 
 export default {
   component: NavGroup,
-  title: "Atoms/NavGroup",
+  title: "Atoms/Dashboard/NavGroup",
 };
 
 export const _NavGroup = (): JSX.Element => (

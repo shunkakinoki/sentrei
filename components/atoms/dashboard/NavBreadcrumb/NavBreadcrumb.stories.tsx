@@ -4,7 +4,7 @@ import { NavBreadcrumb } from "./NavBreadcrumb";
 
 export default {
   component: NavBreadcrumb,
-  title: "Atoms/NavBreadcrumb",
+  title: "Atoms/Dashboard/NavBreadcrumb",
 };
 
 export const _NavBreadcrumb = (): JSX.Element => (

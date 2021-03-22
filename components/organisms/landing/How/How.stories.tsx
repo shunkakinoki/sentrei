@@ -4,7 +4,7 @@ import { How } from "./How";
 
 export default {
   component: How,
-  title: "Organisms/How",
+  title: "Organisms/Landing/How",
 };
 
 export const _How = (): JSX.Element => <How />;

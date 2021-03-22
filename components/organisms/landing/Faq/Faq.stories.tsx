@@ -4,7 +4,7 @@ import { Faq } from "./Faq";
 
 export default {
   component: Faq,
-  title: "Organisms/Faq",
+  title: "Organisms/Landing/Faq",
 };
 
 export const _Faq = (): JSX.Element => <Faq />;

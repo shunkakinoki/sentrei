@@ -4,7 +4,7 @@ import { MobileMenuButton } from "./MobileMenuButton";
 
 export default {
   component: MobileMenuButton,
-  title: "Molecules/MobileMenuButton",
+  title: "Molecules/Dashboard/MobileMenuButton",
 };
 
 export const _MobileMenuButton = (): JSX.Element => (
