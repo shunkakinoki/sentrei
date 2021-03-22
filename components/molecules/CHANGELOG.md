@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.2...@sentrei/molecules@1.2.3) (2021-03-22)
+
+### Performance Improvements
+
+- refactor storybook stories custom path ([bcb069f](https://github.com/sentrei/sentrei/commit/bcb069f32f78e30bcfb51b16809204fe8c3a6306))
+
 ## @sentrei/molecules [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.1...@sentrei/molecules@1.2.2) (2021-03-22)
 
 ### Performance Improvements
