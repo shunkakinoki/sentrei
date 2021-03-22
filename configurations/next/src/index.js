@@ -20,7 +20,7 @@ const config = {
     pageEnv: true,
     plugins: true,
     profiling: true,
-    reactMode: "concurrent",
+    reactMode: "legacy",
     scriptLoader: true,
     scrollRestoration: true,
     sprFlushToDisk: true,
@@ -30,7 +30,7 @@ const config = {
   future: {
     excludeDefaultMomentLocales: true,
     strictPostcssConfiguration: true,
-    webpack5: false,
+    webpack5: true,
   },
   i18n: {
     defaultLocale: "en",
