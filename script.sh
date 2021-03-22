@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "PWD: $PWD"
 echo "VERCEL_ENV: $VERCEL_ENV"
 echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
 echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
@@ -30,8 +31,8 @@ else
       exit 1
     fi
   fi
-  if [[ "$PWD" =~ "." ]]; then
-    if git diff --quiet HEAD~ -- components; then
+  if [[ "$PWD" =~ "(\/)tmp(\/).*[^\/]$" ]]; then
+    if git diff --quiet HEAD~ -- .; then
       exit 0
     else
       exit 1

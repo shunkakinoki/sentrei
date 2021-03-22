@@ -1,3 +1,3 @@
 {
-  "ignores": ["@sentrei/*", "babel-*", "next-translate"]
+  "ignores": ["@sentrei/*", "babel-*", "next-translate", "react-dom"]
 }
