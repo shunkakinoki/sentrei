@@ -1,3 +1,9 @@
+## @sentrei/npm-check-updates [1.2.6](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.5...@sentrei/npm-check-updates@1.2.6) (2021-03-22)
+
+### Performance Improvements
+
+- revert ncurc json ([dca5b55](https://github.com/sentrei/sentrei/commit/dca5b55171d337dd1c99b074e7ade50e845aa884))
+
 ## @sentrei/npm-check-updates [1.2.5](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.4...@sentrei/npm-check-updates@1.2.5) (2021-03-22)
 
 ### Performance Improvements
