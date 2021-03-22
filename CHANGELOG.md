@@ -1,3 +1,12 @@
+## [1.26.3](https://github.com/sentrei/sentrei/compare/v1.26.2...v1.26.3) (2021-03-22)
+
+### Performance Improvements
+
+- refactor storybook manager ([467fe7d](https://github.com/sentrei/sentrei/commit/467fe7d72fa7badd2de74ea808ef5ac7be4a5a41))
+- refactor storybook version ([bd290fd](https://github.com/sentrei/sentrei/commit/bd290fd54e11df38f9b7d7e49c9664ce3f8c16c7))
+- revert back to react experimental ([e434b5b](https://github.com/sentrei/sentrei/commit/e434b5bf19e7021e5b325140fdfa948f3cb750b9))
+- revert ncurc json ([dca5b55](https://github.com/sentrei/sentrei/commit/dca5b55171d337dd1c99b074e7ade50e845aa884))
+
 ## [1.26.2](https://github.com/sentrei/sentrei/compare/v1.26.1...v1.26.2) (2021-03-22)
 
 ### Performance Improvements
