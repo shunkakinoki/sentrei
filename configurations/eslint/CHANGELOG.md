@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.7.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.2...@sentrei/eslint@1.7.3) (2021-03-22)
+
+### Performance Improvements
+
+- upgrade and pin react version to 16.14.0 ([f8d7940](https://github.com/sentrei/sentrei/commit/f8d794076af5c20033436b4eeae4729e2237f75c))
+
 ## @sentrei/eslint [1.7.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.1...@sentrei/eslint@1.7.2) (2021-03-22)
 
 ### Performance Improvements
