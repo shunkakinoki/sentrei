@@ -20,13 +20,12 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@storybook/theming": "^6.1.21"
+    "@storybook/theming": "^v6.1.21"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^v6.1.21",
     "@storybook/addons": "^v6.1.21",
-    "@storybook/react": "^v6.1.21",
-    "storybook-addon-designs": "^5.4.5"
+    "@storybook/react": "^v6.1.21"
   },
   "publishConfig": {
     "access": "public",
