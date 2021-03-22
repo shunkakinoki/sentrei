@@ -1,3 +1,9 @@
+## @sentrei/themes [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.1...@sentrei/themes@1.1.2) (2021-03-22)
+
+### Performance Improvements
+
+- refactor storybook version ([bd290fd](https://github.com/sentrei/sentrei/commit/bd290fd54e11df38f9b7d7e49c9664ce3f8c16c7))
+
 ## @sentrei/themes [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.0...@sentrei/themes@1.1.1) (2021-03-22)
 
 ### Performance Improvements
