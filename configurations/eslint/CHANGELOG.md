@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.7.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.1...@sentrei/eslint@1.7.2) (2021-03-22)
+
+### Performance Improvements
+
+- upgrade chakra ui ([43be66b](https://github.com/sentrei/sentrei/commit/43be66b0fcd99e5bf496156bbecb3f292a395365))
+
 ## @sentrei/eslint [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.0...@sentrei/eslint@1.7.1) (2021-03-20)
 
 ### Performance Improvements
