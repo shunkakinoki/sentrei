@@ -1,3 +1,10 @@
+## @sentrei/roots [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.2...@sentrei/roots@1.0.3) (2021-03-22)
+
+### Performance Improvements
+
+- revert react version to experimental ([a33270b](https://github.com/sentrei/sentrei/commit/a33270bc053426f7b53305eca7ebe6b4076668f5))
+- upgrade and pin react version to 16.14.0 ([f8d7940](https://github.com/sentrei/sentrei/commit/f8d794076af5c20033436b4eeae4729e2237f75c))
+
 ## @sentrei/roots [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.1...@sentrei/roots@1.0.2) (2021-03-22)
 
 ### Performance Improvements
