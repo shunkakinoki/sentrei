@@ -1,3 +1,9 @@
+## @sentrei/demo [1.12.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.12.0...@sentrei/demo@1.12.1) (2021-03-22)
+
+### Performance Improvements
+
+- migrate react version to 17 ([e8f2bc7](https://github.com/sentrei/sentrei/commit/e8f2bc7089f1b52d9126af309b37dc48080a4421))
+
 # @sentrei/demo [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.11.1...@sentrei/demo@1.12.0) (2021-03-20)
 
 ### Features
