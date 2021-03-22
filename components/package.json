@@ -17,8 +17,8 @@
     "./"
   ],
   "scripts": {
-    "build": "cd ../.. && yarn run build-storybook --quiet -o public",
-    "fix": "cd ../.. && yarn run fix"
+    "build": "cd .. && yarn run build-storybook --quiet -o public",
+    "fix": "cd .. && yarn run fix"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.4.1",
