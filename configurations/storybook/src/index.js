@@ -3,7 +3,7 @@ const path = require("path");
 const toPath = _path => path.join(process.cwd(), _path);
 
 module.exports = {
-  addons: ["@storybook/addon-essentials", "storybook-addon-designs"],
+  addons: ["@storybook/addon-essentials"],
   stories: ["../components/**/*.stories.tsx"],
   options: {
     storySort: {
