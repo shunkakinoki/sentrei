@@ -1,3 +1,10 @@
+## @sentrei/atoms [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.2...@sentrei/atoms@1.2.3) (2021-03-22)
+
+### Performance Improvements
+
+- refactor storybook version ([bd290fd](https://github.com/sentrei/sentrei/commit/bd290fd54e11df38f9b7d7e49c9664ce3f8c16c7))
+- revert back to react experimental ([e434b5b](https://github.com/sentrei/sentrei/commit/e434b5bf19e7021e5b325140fdfa948f3cb750b9))
+
 ## @sentrei/atoms [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.1...@sentrei/atoms@1.2.2) (2021-03-22)
 
 ### Performance Improvements
