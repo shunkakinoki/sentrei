@@ -1,3 +1,9 @@
+## @sentrei/roots [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.1...@sentrei/roots@1.0.2) (2021-03-22)
+
+### Performance Improvements
+
+- revert back to react experimental ([e434b5b](https://github.com/sentrei/sentrei/commit/e434b5bf19e7021e5b325140fdfa948f3cb750b9))
+
 ## @sentrei/roots [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.0...@sentrei/roots@1.0.1) (2021-03-22)
 
 ### Performance Improvements
