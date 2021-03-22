@@ -30,7 +30,12 @@
     "react-dom": "^0.0.0-experimental-7d06b80af",
     "react-icons": "^4.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@storybook/addon-essentials": "^v6.1.21",
+    "@storybook/addons": "^v6.1.21",
+    "@storybook/react": "^v6.1.21",
+    "@storybook/theming": "^v6.1.21"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
