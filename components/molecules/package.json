@@ -25,7 +25,7 @@
     "@emotion/styled": "^11.1.5",
     "framer-motion": "^4.0.0",
     "next": "v10.0.9",
-    "react": "^17.0.1",
+    "react": "^16.14.0",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {},
