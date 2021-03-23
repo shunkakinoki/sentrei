@@ -1,3 +1,9 @@
+# @sentrei/semantic-release [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.4...@sentrei/semantic-release@1.3.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## @sentrei/semantic-release [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.2.3...@sentrei/semantic-release@1.2.4) (2021-03-18)
 
 ### Performance Improvements
