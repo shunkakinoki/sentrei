@@ -1,3 +1,9 @@
+## @sentrei/eslint [1.7.5](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.4...@sentrei/eslint@1.7.5) (2021-03-23)
+
+### Performance Improvements
+
+- refactor index.js v3 ([445a9c7](https://github.com/sentrei/sentrei/commit/445a9c73e1aafb8eab21cacab024d0224e5ebdc9))
+
 ## @sentrei/eslint [1.7.4](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.3...@sentrei/eslint@1.7.4) (2021-03-23)
 
 ### Performance Improvements
