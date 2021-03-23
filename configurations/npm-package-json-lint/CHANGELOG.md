@@ -1,3 +1,9 @@
+## @sentrei/npm-package-json-lint [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/npm-package-json-lint@1.0.2...@sentrei/npm-package-json-lint@1.0.3) (2021-03-23)
+
+### Performance Improvements
+
+- refactor npm packagejson lint config ([086cfe5](https://github.com/sentrei/sentrei/commit/086cfe530652da0f5b61c4d5c442bf729658047d))
+
 ## @sentrei/npm-package-json-lint [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/npm-package-json-lint@1.0.1...@sentrei/npm-package-json-lint@1.0.2) (2021-02-22)
 
 ### Performance Improvements
