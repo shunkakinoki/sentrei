@@ -19,8 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "lint-staged": "^10.5.4"
   },
   "publishConfig": {

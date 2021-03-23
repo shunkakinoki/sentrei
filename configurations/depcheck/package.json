@@ -15,8 +15,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "depcheck": "^1.4.0"
   },
   "publishConfig": {

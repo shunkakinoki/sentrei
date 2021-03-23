@@ -19,8 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^4.2.3"
   },
   "publishConfig": {

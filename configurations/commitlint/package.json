@@ -19,8 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "commitlint": "^12.0.1"

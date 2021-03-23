@@ -19,8 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "npm-package-json-lint": "^5.1.0"
   },
   "publishConfig": {
