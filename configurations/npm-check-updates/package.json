@@ -15,8 +15,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "npm-check-updates": "^11.3.0"
   },
   "publishConfig": {

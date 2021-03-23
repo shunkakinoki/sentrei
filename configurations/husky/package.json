@@ -19,8 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "commitizen": "^4.2.3",
     "git-cz": "^4.7.6",
     "husky": "^4.3.8"
