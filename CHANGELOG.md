@@ -1,3 +1,9 @@
+# [1.27.0](https://github.com/sentrei/sentrei/compare/v1.26.9...v1.27.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## [1.26.9](https://github.com/sentrei/sentrei/compare/v1.26.8...v1.26.9) (2021-03-23)
 
 ### Performance Improvements
