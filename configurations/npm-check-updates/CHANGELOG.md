@@ -1,3 +1,9 @@
+# @sentrei/npm-check-updates [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.6...@sentrei/npm-check-updates@1.3.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## @sentrei/npm-check-updates [1.2.6](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.2.5...@sentrei/npm-check-updates@1.2.6) (2021-03-22)
 
 ### Performance Improvements
