@@ -1,3 +1,9 @@
+# @sentrei/storybook [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.1.1...@sentrei/storybook@1.2.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## @sentrei/storybook [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.1.0...@sentrei/storybook@1.1.1) (2021-03-22)
 
 ### Performance Improvements
