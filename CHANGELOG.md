@@ -1,3 +1,9 @@
+## [1.26.8](https://github.com/sentrei/sentrei/compare/v1.26.7...v1.26.8) (2021-03-23)
+
+### Performance Improvements
+
+- refactor eslint config ([e6e4ed0](https://github.com/sentrei/sentrei/commit/e6e4ed0efde5522bc62111afa271166ac3a4fce9))
+
 ## [1.26.7](https://github.com/sentrei/sentrei/compare/v1.26.6...v1.26.7) (2021-03-23)
 
 ### Performance Improvements
