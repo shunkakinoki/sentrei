@@ -1,3 +1,9 @@
+# @sentrei/prettier [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.2.2...@sentrei/prettier@1.3.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## @sentrei/prettier [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.2.1...@sentrei/prettier@1.2.2) (2021-02-21)
 
 ### Performance Improvements
