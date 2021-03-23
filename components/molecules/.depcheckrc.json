@@ -4,6 +4,7 @@
     "@emotion/*",
     "@sentrei/*",
     "framer-motion",
-    "next-translate"
+    "next-translate",
+    "react-dom"
   ]
 }
