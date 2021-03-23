@@ -1,3 +1,9 @@
+## [1.26.9](https://github.com/sentrei/sentrei/compare/v1.26.8...v1.26.9) (2021-03-23)
+
+### Performance Improvements
+
+- refactor npm packagejson lint config ([086cfe5](https://github.com/sentrei/sentrei/commit/086cfe530652da0f5b61c4d5c442bf729658047d))
+
 ## [1.26.8](https://github.com/sentrei/sentrei/compare/v1.26.7...v1.26.8) (2021-03-23)
 
 ### Performance Improvements
