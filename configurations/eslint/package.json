@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "src/index.js",
+  "main": "index.js",
   "files": [
-    "src/index.js"
+    "index.js"
   ],
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
