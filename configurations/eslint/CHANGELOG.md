@@ -1,3 +1,44 @@
+# @sentrei/eslint-config 1.0.0 (2021-03-23)
+
+### Bug Fixes
+
+- yarn run fix ([600a0fa](https://github.com/sentrei/sentrei/commit/600a0fa97d665ff1812f5a759aef30a4ce8a4df2))
+
+### Features
+
+- ini compoments theme ([5fee5e6](https://github.com/sentrei/sentrei/commit/5fee5e66a50a0684f3ed0c13123be32970980428))
+- ini first batch sentrei components ([d396751](https://github.com/sentrei/sentrei/commit/d396751f90c6bada883e48a0817409d21d32aaf5))
+- ini next apps ([c458621](https://github.com/sentrei/sentrei/commit/c45862133d1d8758b0a6d8b2f604f4600e7bc080))
+- ini styles tailwind package index ([98fb808](https://github.com/sentrei/sentrei/commit/98fb808c4baee092990e2fd4fa0eb31965cde604))
+- ini tailwind config ([a51281d](https://github.com/sentrei/sentrei/commit/a51281d7fc72c314f0307953cc0d9dbbbda12c49))
+- migrate to configurations ([ecb7f82](https://github.com/sentrei/sentrei/commit/ecb7f82fa072f4e8309ec3658af7b519f57221f6))
+- refactor components config ([c3b4309](https://github.com/sentrei/sentrei/commit/c3b4309211452baccbd66f22d00068f0ec6dd747))
+
+### Performance Improvements
+
+- add [@typescript-eslint](https://github.com/typescript-eslint) package ([e606943](https://github.com/sentrei/sentrei/commit/e606943440898f38462a99c97fa6d4338a45acbd))
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+- refactor config imports ([dd3549b](https://github.com/sentrei/sentrei/commit/dd3549b15a8561ef0d2e3a4c36cd014b84e138f5))
+- refactor dashboard screen ([27a0b25](https://github.com/sentrei/sentrei/commit/27a0b25ce359fde30e45e3a3483758f6e4ccf085))
+- refactor editor config noconflict ([91f59cb](https://github.com/sentrei/sentrei/commit/91f59cb8aaaf2c3a863405e7163a10c58fe2a88b))
+- refactor eslint config ([e6e4ed0](https://github.com/sentrei/sentrei/commit/e6e4ed0efde5522bc62111afa271166ac3a4fce9))
+- refactor eslint config ([0d75d49](https://github.com/sentrei/sentrei/commit/0d75d49913abbd3e9feff97286f21c9416a3853c))
+- refactor eslint ignore ([8d3ec77](https://github.com/sentrei/sentrei/commit/8d3ec771becd780ebd1b81db136ae50bb9efdd1f))
+- refactor eslint js ([247a880](https://github.com/sentrei/sentrei/commit/247a88077713d95e8c88db513f8b01c68d28b460))
+- refactor eslint js ([2d3d2b5](https://github.com/sentrei/sentrei/commit/2d3d2b559d1154cc6d631e1d90d1ab74bdfcad43))
+- refactor eslint postcss for next ([2df24c6](https://github.com/sentrei/sentrei/commit/2df24c60b38a9339ebcbda00a5c91650faf5e036))
+- refactor eslint prettier config extends ([079048d](https://github.com/sentrei/sentrei/commit/079048deefc009c9672d99d1de404363c7271a8b))
+- refactor index.js root ([83bd186](https://github.com/sentrei/sentrei/commit/83bd1864cf3f6f292064f8a591c86b41837fa7e3))
+- refactor index.js root ([74ffae0](https://github.com/sentrei/sentrei/commit/74ffae02348c499add712eb3f2e118a74df06eea))
+- refactor index.js v3 ([445a9c7](https://github.com/sentrei/sentrei/commit/445a9c73e1aafb8eab21cacab024d0224e5ebdc9))
+- upgrade and pin react version to 16.14.0 ([f8d7940](https://github.com/sentrei/sentrei/commit/f8d794076af5c20033436b4eeae4729e2237f75c))
+- upgrade chakra ui ([43be66b](https://github.com/sentrei/sentrei/commit/43be66b0fcd99e5bf496156bbecb3f292a395365))
+- upgrade configuration packages ([9997dbc](https://github.com/sentrei/sentrei/commit/9997dbcce0ac2512d616e0e81eee4e9ac301507c))
+- upgrade eslint prettier ([ebfe710](https://github.com/sentrei/sentrei/commit/ebfe71043f6f437cd91805459e1072acba4c2645))
+- upgrade with ncu ([de701bf](https://github.com/sentrei/sentrei/commit/de701bf535ea98f982b2467d45fceab726c847a2))
+- upgrade with ncu ([4949375](https://github.com/sentrei/sentrei/commit/49493754f3646c482cba35c11de37b2b2414b675))
+- upgrade with ncu ([0aa52d5](https://github.com/sentrei/sentrei/commit/0aa52d5a148a3400788406d0b750288c14c5d752))
+
 ## @sentrei/eslint [1.7.5](https://github.com/sentrei/sentrei/compare/@sentrei/eslint@1.7.4...@sentrei/eslint@1.7.5) (2021-03-23)
 
 ### Performance Improvements
