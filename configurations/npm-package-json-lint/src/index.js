@@ -1,5 +1,5 @@
-{
-  "rules": {
+module.exports = {
+  rules: {
     "require-author": "error",
     "require-description": "off",
     "require-engines": "off",
@@ -31,6 +31,6 @@
     "valid-values-author": ["error", ["Sentrei, Inc."]],
     "valid-values-private": ["error", [false, true]],
     "name-format": "error",
-    "version-format": "error"
-  }
-}
+    "version-format": "error",
+  },
+};
