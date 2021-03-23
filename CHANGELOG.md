@@ -1,3 +1,9 @@
+## [1.26.7](https://github.com/sentrei/sentrei/compare/v1.26.6...v1.26.7) (2021-03-23)
+
+### Performance Improvements
+
+- refactor index.js v3 ([445a9c7](https://github.com/sentrei/sentrei/commit/445a9c73e1aafb8eab21cacab024d0224e5ebdc9))
+
 ## [1.26.6](https://github.com/sentrei/sentrei/compare/v1.26.5...v1.26.6) (2021-03-23)
 
 ### Performance Improvements
