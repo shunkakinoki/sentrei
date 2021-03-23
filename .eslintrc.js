@@ -1,1 +1,1 @@
-configurations/eslint/src/index.js
+configurations/eslint/index.js
