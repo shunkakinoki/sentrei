@@ -1,3 +1,9 @@
+# @sentrei/husky [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.0.2...@sentrei/husky@1.1.0) (2021-03-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
 ## @sentrei/husky [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.0.1...@sentrei/husky@1.0.2) (2021-02-21)
 
 ### Performance Improvements
