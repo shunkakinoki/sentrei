@@ -1,0 +1,32 @@
+{
+  "name": "@sentrei/dev",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "multi-semantic-release": "^2.8.0",
+    "sort-package-json": "^1.49.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
