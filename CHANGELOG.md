@@ -1,3 +1,9 @@
+# [1.28.0](https://github.com/sentrei/sentrei/compare/v1.27.0...v1.28.0) (2021-03-24)
+
+### Features
+
+- ini dev package ([c24c593](https://github.com/sentrei/sentrei/commit/c24c59354da5580d6ecabc70d9def1ceba2d60ad))
+
 # [1.27.0](https://github.com/sentrei/sentrei/compare/v1.26.9...v1.27.0) (2021-03-23)
 
 ### Features
