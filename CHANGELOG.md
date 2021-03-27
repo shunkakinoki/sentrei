@@ -1,3 +1,9 @@
+## [1.28.3](https://github.com/sentrei/sentrei/compare/v1.28.2...v1.28.3) (2021-03-27)
+
+### Performance Improvements
+
+- upgrade next react ([1c87085](https://github.com/sentrei/sentrei/commit/1c87085e438d9efadf0ef64d7c0e0c3e52efb832))
+
 ## [1.28.2](https://github.com/sentrei/sentrei/compare/v1.28.1...v1.28.2) (2021-03-27)
 
 ### Performance Improvements
