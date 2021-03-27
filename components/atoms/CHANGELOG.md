@@ -1,3 +1,9 @@
+## @sentrei/atoms [1.2.6](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.5...@sentrei/atoms@1.2.6) (2021-03-27)
+
+### Performance Improvements
+
+- upgrade with ncu ([bf5f296](https://github.com/sentrei/sentrei/commit/bf5f2966fc9cb75294d2b3f2355081a86a06c14a))
+
 ## @sentrei/atoms [1.2.5](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.4...@sentrei/atoms@1.2.5) (2021-03-22)
 
 ### Performance Improvements
