@@ -1,3 +1,9 @@
+## [1.28.1](https://github.com/sentrei/sentrei/compare/v1.28.0...v1.28.1) (2021-03-27)
+
+### Performance Improvements
+
+- update semantic release ([d8da2e0](https://github.com/sentrei/sentrei/commit/d8da2e0a564b3e5f764a4c883dba28d77a4e4528))
+
 # [1.28.0](https://github.com/sentrei/sentrei/compare/v1.27.0...v1.28.0) (2021-03-24)
 
 ### Features
