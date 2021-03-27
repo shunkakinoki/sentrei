@@ -1,3 +1,9 @@
+## @sentrei/roots [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.3...@sentrei/roots@1.0.4) (2021-03-27)
+
+### Performance Improvements
+
+- upgrade with ncu ([bf5f296](https://github.com/sentrei/sentrei/commit/bf5f2966fc9cb75294d2b3f2355081a86a06c14a))
+
 ## @sentrei/roots [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.2...@sentrei/roots@1.0.3) (2021-03-22)
 
 ### Performance Improvements
