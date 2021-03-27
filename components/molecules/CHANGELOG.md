@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.2.5](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.4...@sentrei/molecules@1.2.5) (2021-03-27)
+
+### Performance Improvements
+
+- upgrade with ncu ([bf5f296](https://github.com/sentrei/sentrei/commit/bf5f2966fc9cb75294d2b3f2355081a86a06c14a))
+
 ## @sentrei/molecules [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.3...@sentrei/molecules@1.2.4) (2021-03-22)
 
 ### Performance Improvements
