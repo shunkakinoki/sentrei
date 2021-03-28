@@ -1,3 +1,9 @@
+## [1.28.6](https://github.com/sentrei/sentrei/compare/v1.28.5...v1.28.6) (2021-03-28)
+
+### Performance Improvements
+
+- upgrade storybook version ([10238e5](https://github.com/sentrei/sentrei/commit/10238e591f66a8deb13239df144df9bacfc7ccc4))
+
 ## [1.28.5](https://github.com/sentrei/sentrei/compare/v1.28.4...v1.28.5) (2021-03-28)
 
 ### Performance Improvements
