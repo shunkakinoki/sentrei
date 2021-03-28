@@ -1,3 +1,10 @@
 {
-  "ignores": ["@chakra-ui/*", "@sentrei/*", "next-translate"]
+  "ignores": [
+    "@chakra-ui/*",
+    "@sentrei/*",
+    "next",
+    "next-seo",
+    "react",
+    "recoil"
+  ]
 }
