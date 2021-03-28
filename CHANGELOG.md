@@ -1,3 +1,10 @@
+## [1.28.5](https://github.com/sentrei/sentrei/compare/v1.28.4...v1.28.5) (2021-03-28)
+
+### Performance Improvements
+
+- complete refactor deps ([b0d4af4](https://github.com/sentrei/sentrei/commit/b0d4af47a9c4156fd24187ab78a8aa9607bd4b07))
+- ini recoil deps ([49b425e](https://github.com/sentrei/sentrei/commit/49b425e79d3059be9c36a2141546543f96e94855))
+
 ## [1.28.4](https://github.com/sentrei/sentrei/compare/v1.28.3...v1.28.4) (2021-03-28)
 
 ### Performance Improvements
