@@ -1,3 +1,10 @@
 {
-  "ignores": ["critters"]
+  "ignores": [
+    "@sentry/webpack-plugin",
+    "critters",
+    "next-seo",
+    "react",
+    "react-dom",
+    "recoil"
+  ]
 }
