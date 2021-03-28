@@ -20,8 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "react": "^0.0.0-experimental-1fafac002",
-    "react-dom": "^0.0.0-experimental-1fafac002"
+    "@sentrei/next": "^1.6.3"
   },
   "devDependencies": {},
   "publishConfig": {
