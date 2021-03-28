@@ -1,3 +1,9 @@
+## @sentrei/storybook [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.0...@sentrei/storybook@1.2.1) (2021-03-28)
+
+### Performance Improvements
+
+- upgrade storybook version ([10238e5](https://github.com/sentrei/sentrei/commit/10238e591f66a8deb13239df144df9bacfc7ccc4))
+
 # @sentrei/storybook [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.1.1...@sentrei/storybook@1.2.0) (2021-03-23)
 
 ### Features
