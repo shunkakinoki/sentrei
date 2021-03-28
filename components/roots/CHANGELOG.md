@@ -1,3 +1,13 @@
+## @sentrei/roots [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.4...@sentrei/roots@1.0.5) (2021-03-28)
+
+### Performance Improvements
+
+- complete refactor deps ([b0d4af4](https://github.com/sentrei/sentrei/commit/b0d4af47a9c4156fd24187ab78a8aa9607bd4b07))
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.4
+
 ## @sentrei/roots [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.3...@sentrei/roots@1.0.4) (2021-03-27)
 
 ### Performance Improvements
