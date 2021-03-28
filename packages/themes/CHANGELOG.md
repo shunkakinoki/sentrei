@@ -1,3 +1,9 @@
+## @sentrei/themes [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.2...@sentrei/themes@1.1.3) (2021-03-28)
+
+### Performance Improvements
+
+- complete refactor deps ([b0d4af4](https://github.com/sentrei/sentrei/commit/b0d4af47a9c4156fd24187ab78a8aa9607bd4b07))
+
 ## @sentrei/themes [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.1...@sentrei/themes@1.1.2) (2021-03-22)
 
 ### Performance Improvements
