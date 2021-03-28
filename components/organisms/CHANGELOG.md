@@ -1,3 +1,14 @@
+## @sentrei/organisms [1.2.7](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.6...@sentrei/organisms@1.2.7) (2021-03-28)
+
+### Performance Improvements
+
+- complete refactor deps ([b0d4af4](https://github.com/sentrei/sentrei/commit/b0d4af47a9c4156fd24187ab78a8aa9607bd4b07))
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.4
+- **@sentrei/themes:** upgraded to 1.1.3
+
 ## @sentrei/organisms [1.2.6](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.5...@sentrei/organisms@1.2.6) (2021-03-27)
 
 ### Performance Improvements
