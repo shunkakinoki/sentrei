@@ -1,3 +1,9 @@
+## @sentrei/next [1.6.4](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.3...@sentrei/next@1.6.4) (2021-03-28)
+
+### Performance Improvements
+
+- ini recoil deps ([49b425e](https://github.com/sentrei/sentrei/commit/49b425e79d3059be9c36a2141546543f96e94855))
+
 ## @sentrei/next [1.6.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.2...@sentrei/next@1.6.3) (2021-03-28)
 
 ### Performance Improvements
