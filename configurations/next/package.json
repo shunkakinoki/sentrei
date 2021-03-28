@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^10.0.9",
+    "@sentry/webpack-plugin": "^1.14.2",
     "critters": "^0.0.10",
     "next": "v10.0.9",
     "next-compose-plugins": "^2.2.1",
