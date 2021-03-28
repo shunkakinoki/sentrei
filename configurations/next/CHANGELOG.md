@@ -1,3 +1,9 @@
+## @sentrei/next [1.6.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.2...@sentrei/next@1.6.3) (2021-03-28)
+
+### Performance Improvements
+
+- ini sentry webpack plugin ([4b267c6](https://github.com/sentrei/sentrei/commit/4b267c6a360d6a98f9b9ade57dcaf94467efce32))
+
 ## @sentrei/next [1.6.2](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.1...@sentrei/next@1.6.2) (2021-03-27)
 
 ### Performance Improvements
