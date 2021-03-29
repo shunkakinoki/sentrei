@@ -1,3 +1,9 @@
+## @sentrei/home [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.0.3...@sentrei/home@1.0.4) (2021-03-29)
+
+### Performance Improvements
+
+- upgrade with ncu ([f1d5384](https://github.com/sentrei/sentrei/commit/f1d538492d99e9c2413c018d31d9784dc3499431))
+
 ## @sentrei/home [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.0.2...@sentrei/home@1.0.3) (2021-03-22)
 
 ### Performance Improvements
