@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/screens",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@sentrei/next": "1.6.4"
+    "@sentrei/next": "1.6.5"
   },
   "devDependencies": {},
   "publishConfig": {
