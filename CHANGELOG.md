@@ -1,3 +1,9 @@
+## [1.28.8](https://github.com/sentrei/sentrei/compare/v1.28.7...v1.28.8) (2021-03-30)
+
+### Performance Improvements
+
+- upgrade with ncu ([9d3966c](https://github.com/sentrei/sentrei/commit/9d3966c0f05f2b2dd030f895e403faca0ab8ac51))
+
 ## [1.28.7](https://github.com/sentrei/sentrei/compare/v1.28.6...v1.28.7) (2021-03-29)
 
 ### Performance Improvements
