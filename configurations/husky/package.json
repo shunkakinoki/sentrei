@@ -22,7 +22,7 @@
   "dependencies": {
     "commitizen": "^4.2.3",
     "git-cz": "^4.7.6",
-    "husky": "^4.3.8"
+    "husky": "^6.0.0"
   },
   "publishConfig": {
     "access": "public",
