@@ -33,6 +33,8 @@
     "ncu:check": "ncu --deep -p yarn",
     "ncu:upgrade": "ncu --deep -u -p yarn",
     "npm-package-json:lint": "npmPkgJsonLint .",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
     "prettier:lint": "prettier --check . --ignore-unknown",
     "prettier:fix": "prettier --write . --ignore-unknown",
     "prepare": "husky install",
