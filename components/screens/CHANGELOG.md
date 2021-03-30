@@ -1,3 +1,9 @@
+## @sentrei/screens [1.1.7](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.6...@sentrei/screens@1.1.7) (2021-03-30)
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.6
+
 ## @sentrei/screens [1.1.6](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.5...@sentrei/screens@1.1.6) (2021-03-29)
 
 ### Dependencies
