@@ -35,13 +35,13 @@
     "npm-package-json:lint": "npmPkgJsonLint .",
     "prettier:lint": "prettier --check . --ignore-unknown",
     "prettier:fix": "prettier --write . --ignore-unknown",
+    "prepare": "husky install",
     "release": "yarn run multi-semantic-release && yarn run semantic-release",
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
     "sort-package-json:lint": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json' --check",
-    "sort-package-json:fix": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json'",
-    "prepare": "husky install"
+    "sort-package-json:fix": "sort-package-json 'package.json' 'apps/*/package.json' 'configurations/*/package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
     "husky": "^6.0.0"
