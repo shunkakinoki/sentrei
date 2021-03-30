@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/molecules",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@sentrei/next": "1.6.5",
+    "@sentrei/next": "1.6.6",
     "@sentrei/themes": "1.1.3",
     "react-icons": "^4.2.0"
   },
