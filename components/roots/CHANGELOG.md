@@ -1,3 +1,9 @@
+## @sentrei/roots [1.0.7](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.6...@sentrei/roots@1.0.7) (2021-03-30)
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.6
+
 ## @sentrei/roots [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.0.5...@sentrei/roots@1.0.6) (2021-03-29)
 
 ### Dependencies
