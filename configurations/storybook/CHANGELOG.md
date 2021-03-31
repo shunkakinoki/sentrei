@@ -1,3 +1,9 @@
+## @sentrei/storybook [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.1...@sentrei/storybook@1.2.2) (2021-03-31)
+
+### Performance Improvements
+
+- upgrade with ncu ([5c906a9](https://github.com/sentrei/sentrei/commit/5c906a9f0e652395db10d6ab26fc5666197ce2d1))
+
 ## @sentrei/storybook [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.0...@sentrei/storybook@1.2.1) (2021-03-28)
 
 ### Performance Improvements
