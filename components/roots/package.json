@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/roots",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@sentrei/next": "1.6.6"
+    "@sentrei/next": "1.6.7"
   },
   "devDependencies": {},
   "publishConfig": {
