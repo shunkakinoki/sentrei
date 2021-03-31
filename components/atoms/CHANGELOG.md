@@ -1,3 +1,10 @@
+## @sentrei/atoms [1.2.10](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.9...@sentrei/atoms@1.2.10) (2021-03-31)
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.7
+- **@sentrei/themes:** upgraded to 1.1.4
+
 ## @sentrei/atoms [1.2.9](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.8...@sentrei/atoms@1.2.9) (2021-03-30)
 
 ### Dependencies
