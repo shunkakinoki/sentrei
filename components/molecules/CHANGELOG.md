@@ -1,3 +1,10 @@
+## @sentrei/molecules [1.2.9](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.8...@sentrei/molecules@1.2.9) (2021-03-31)
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.6.7
+- **@sentrei/themes:** upgraded to 1.1.4
+
 ## @sentrei/molecules [1.2.8](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.7...@sentrei/molecules@1.2.8) (2021-03-30)
 
 ### Dependencies
