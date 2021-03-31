@@ -20,10 +20,10 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "^v6.2.0-rc.10",
-    "@storybook/addons": "^v6.2.0-rc.10",
-    "@storybook/react": "^v6.2.0-rc.10",
-    "@storybook/theming": "^v6.2.0-rc.10"
+    "@storybook/addon-essentials": "^v6.2.1",
+    "@storybook/addons": "^v6.2.1",
+    "@storybook/react": "^v6.2.1",
+    "@storybook/theming": "^v6.2.1"
   },
   "publishConfig": {
     "access": "public",
