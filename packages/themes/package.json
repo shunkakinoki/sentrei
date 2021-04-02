@@ -23,7 +23,7 @@
     "@chakra-ui/system": "^1.6.0",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
-    "framer-motion": "^4.1.0"
+    "framer-motion": "^4.1.2"
   },
   "devDependencies": {},
   "publishConfig": {
