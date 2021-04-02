@@ -1,3 +1,9 @@
+## @sentrei/commitlint [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.1.0...@sentrei/commitlint@1.1.1) (2021-04-02)
+
+### Performance Improvements
+
+- upgrade with ncu ([7ad1589](https://github.com/sentrei/sentrei/commit/7ad1589c1e818fef14d2f1edc450fc987e88d8ec))
+
 # @sentrei/commitlint [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.0.3...@sentrei/commitlint@1.1.0) (2021-03-23)
 
 ### Features
