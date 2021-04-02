@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.1.2...@sentrei/eslint-config@1.1.3) (2021-04-02)
+
+### Performance Improvements
+
+- upgrade with ncu ([5afe9ab](https://github.com/sentrei/sentrei/commit/5afe9aba67e775e9a06b3b76ede091c4560c72db))
+
 ## @sentrei/eslint-config [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.1.1...@sentrei/eslint-config@1.1.2) (2021-03-29)
 
 ### Performance Improvements
