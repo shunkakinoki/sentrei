@@ -1,3 +1,9 @@
+## @sentrei/themes [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.4...@sentrei/themes@1.1.5) (2021-04-02)
+
+### Performance Improvements
+
+- upgrade with ncu ([7ad1589](https://github.com/sentrei/sentrei/commit/7ad1589c1e818fef14d2f1edc450fc987e88d8ec))
+
 ## @sentrei/themes [1.1.4](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.3...@sentrei/themes@1.1.4) (2021-03-31)
 
 ### Performance Improvements
