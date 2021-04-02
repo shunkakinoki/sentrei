@@ -1,1 +1,3 @@
-configurations/eslint/index.js
+module.exports = {
+  extends: "@sentrei",
+};
