@@ -47,5 +47,8 @@
   },
   "devDependencies": {
     "husky": "^6.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.9"
   }
 }

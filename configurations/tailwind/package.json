@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/themes",
-  "version": "1.1.5",
+  "name": "@sentrei/tailwind",
+  "version": "1.0.3",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -12,18 +12,19 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "src/index.ts",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
   "scripts": {
-    "build": "chakra-cli tokens src/index.ts",
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@chakra-ui/cli": "^1.3.0",
-    "@chakra-ui/react": "^1.5.0",
-    "@chakra-ui/system": "^1.6.1",
-    "@emotion/react": "^11.1.5",
-    "@emotion/styled": "^11.1.5",
-    "framer-motion": "^4.1.3"
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "@tailwindcss/typography": "^0.4.0",
+    "tailwindcss": "^2.1.1"
   },
   "devDependencies": {},
   "publishConfig": {
