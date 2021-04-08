@@ -1,3 +1,9 @@
+# @sentrei/styles [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.5.0...@sentrei/styles@1.6.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 # @sentrei/styles [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.4.1...@sentrei/styles@1.5.0) (2021-03-20)
 
 ### Features
