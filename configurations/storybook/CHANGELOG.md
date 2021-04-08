@@ -1,3 +1,9 @@
+# @sentrei/storybook [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.3...@sentrei/storybook@1.3.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 ## @sentrei/storybook [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.2...@sentrei/storybook@1.2.3) (2021-04-02)
 
 ### Performance Improvements
