@@ -1,3 +1,9 @@
+# @sentrei/next [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.8...@sentrei/next@1.7.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 ## @sentrei/next [1.6.8](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.7...@sentrei/next@1.6.8) (2021-04-02)
 
 ### Performance Improvements
