@@ -1,3 +1,10 @@
+# @sentrei/postcss [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.1.1...@sentrei/postcss@1.2.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+- complete remove tailwind ([ee4d1fb](https://github.com/sentrei/sentrei/commit/ee4d1fba888215684b6223d9b29817fa75b96967))
+
 ## @sentrei/postcss [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.1.0...@sentrei/postcss@1.1.1) (2021-02-24)
 
 ### Performance Improvements
