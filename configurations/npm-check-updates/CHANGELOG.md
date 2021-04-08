@@ -1,3 +1,9 @@
+# @sentrei/npm-check-updates [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.3.1...@sentrei/npm-check-updates@1.4.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 ## @sentrei/npm-check-updates [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.3.0...@sentrei/npm-check-updates@1.3.1) (2021-03-30)
 
 ### Performance Improvements
