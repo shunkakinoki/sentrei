@@ -1,3 +1,10 @@
+## @sentrei/organisms [1.2.12](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.11...@sentrei/organisms@1.2.12) (2021-04-08)
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.7.0
+- **@sentrei/themes:** upgraded to 1.2.0
+
 ## @sentrei/organisms [1.2.11](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.2.10...@sentrei/organisms@1.2.11) (2021-04-02)
 
 ### Dependencies
