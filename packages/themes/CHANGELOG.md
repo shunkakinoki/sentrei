@@ -1,3 +1,9 @@
+# @sentrei/themes [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.5...@sentrei/themes@1.2.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 ## @sentrei/themes [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/themes@1.1.4...@sentrei/themes@1.1.5) (2021-04-02)
 
 ### Performance Improvements
