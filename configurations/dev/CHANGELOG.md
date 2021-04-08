@@ -1,3 +1,9 @@
+# @sentrei/dev [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.0.0...@sentrei/dev@1.1.0) (2021-04-08)
+
+### Features
+
+- complete migrate configurations ([f957aa0](https://github.com/sentrei/sentrei/commit/f957aa09bed45c5428d09b50bd3d7164d3ebbdaf))
+
 # @sentrei/dev 1.0.0 (2021-03-24)
 
 ### Features
