@@ -30,7 +30,6 @@ const config = {
   future: {
     excludeDefaultMomentLocales: true,
     strictPostcssConfiguration: true,
-    webpack5: true,
   },
   i18n: {
     defaultLocale: "en",
