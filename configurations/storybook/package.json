@@ -20,11 +20,11 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "^v6.2.5",
+    "@storybook/addon-essentials": "^v6.2.9",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addons": "^v6.2.5",
-    "@storybook/react": "^v6.2.5",
-    "@storybook/theming": "^v6.2.5"
+    "@storybook/addons": "^v6.2.9",
+    "@storybook/react": "^v6.2.9",
+    "@storybook/theming": "^v6.2.9"
   },
   "publishConfig": {
     "access": "public",

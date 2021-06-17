@@ -20,7 +20,8 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.5"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.4"
   },
   "devDependencies": {},
   "publishConfig": {

@@ -20,8 +20,8 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "concurrently": "^6.0.1",
-    "multi-semantic-release": "^2.8.0"
+    "concurrently": "^6.2.0",
+    "multi-semantic-release": "^2.8.1"
   },
   "devDependencies": {},
   "publishConfig": {
