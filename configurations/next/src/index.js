@@ -3,6 +3,7 @@ const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 const withTM = require("next-transpile-modules")([
   "@sentrei/atoms",
+  "@sentrei/components",
   "@sentrei/const",
   "@sentrei/molecules",
   "@sentrei/organisms",
@@ -20,7 +21,6 @@ const config = {
     pageEnv: true,
     plugins: true,
     profiling: true,
-    reactMode: "concurrent",
     scriptLoader: true,
     scrollRestoration: true,
     sprFlushToDisk: true,

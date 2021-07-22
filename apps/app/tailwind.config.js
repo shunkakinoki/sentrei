@@ -9,7 +9,11 @@ module.exports = {
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
   ],
-  purge: ["./**/**/components/**/*.{js.ts,tsx,jsx}"],
+  purge: [
+    "./pages/**/*.{js.ts,tsx,jsx}",
+    "./components/**/*.{js.ts,tsx,jsx}",
+    "./../../packages/components/**/*.{js.ts,tsx,jsx}",
+  ],
   theme: {
     extend: {
       colors: {

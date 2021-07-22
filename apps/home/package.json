@@ -19,9 +19,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^11.0.0",
-    "react": "^0.0.0-experimental-1fafac002",
-    "react-dom": "^0.0.0-experimental-1fafac002"
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {},
   "publishConfig": {

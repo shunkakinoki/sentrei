@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "rootDir": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@sentrei/components": ["../../packages/components/src/*"],
+      "@sentrei/styles": ["../../packages/styles/src/*"]
     }
   },
   "exclude": ["node_modules"],

@@ -20,9 +20,9 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.4",
-    "postcss-loader": "^6.1.0"
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1"
   },
   "devDependencies": {},
   "publishConfig": {
