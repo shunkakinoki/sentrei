@@ -1,1 +1,0 @@
-export { FaqAccordion } from "./FaqAccordion";

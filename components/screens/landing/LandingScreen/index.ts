@@ -1,1 +1,0 @@
-export { LandingScreen } from "./LandingScreen";

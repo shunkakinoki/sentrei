@@ -1,1 +1,0 @@
-export { Founder } from "./Founder";
