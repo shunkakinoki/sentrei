@@ -1,0 +1,38 @@
+{
+  "name": "@sentrei/nrwl",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "@nrwl/cli": "12.6.0",
+    "@nrwl/cypress": "12.6.0",
+    "@nrwl/eslint-plugin-nx": "12.6.0",
+    "@nrwl/jest": "12.6.0",
+    "@nrwl/linter": "12.6.0",
+    "@nrwl/react": "12.6.0",
+    "@nrwl/tao": "12.6.0",
+    "@nrwl/web": "12.6.0",
+    "@nrwl/workspace": "12.6.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

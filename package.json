@@ -44,8 +44,5 @@
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run"
-  },
-  "devDependencies": {
-    "husky": "^7.0.1"
   }
 }
