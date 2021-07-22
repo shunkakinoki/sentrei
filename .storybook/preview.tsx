@@ -1,5 +1,3 @@
-import { ChakraRoot } from "@sentrei/roots/base/ChakraRoot";
-import { ColorBar } from "./ColorBar";
 import { LangProvider } from "./LangProvider";
 import * as React from "react";
 
@@ -10,11 +8,8 @@ export const parameters = {
 export const decorators = [
   (Story: JSX.IntrinsicAttributes): JSX.Element => (
     <LangProvider>
-      <ChakraRoot>
-        <ColorBar></ColorBar>
-        {/*@ts-expect-error */}
-        <Story />
-      </ChakraRoot>
+      {/*@ts-expect-error */}
+      <Story />
     </LangProvider>
   ),
 ];

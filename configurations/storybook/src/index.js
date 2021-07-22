@@ -19,7 +19,6 @@ module.exports = {
   typescript: {
     reactDocgen: false,
   },
-  refs: { "@chakra-ui/react": { disable: true } },
   // eslint-disable-next-line @typescript-eslint/require-await
   webpackFinal: async config => {
     return {
