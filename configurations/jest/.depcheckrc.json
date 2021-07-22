@@ -1,0 +1,3 @@
+{
+  "ignores": ["@testing-library/react", "@types/jest", "jest"]
+}
