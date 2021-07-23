@@ -7,7 +7,8 @@
       "dependencies": "*",
       "devDependencies": "*"
     },
-    ".eslintrc.json": "*"
+    ".eslintrc.js": "*",
+    "tsconfig.base.json": "*"
   },
   "npmScope": "sentrei",
   "projects": {
