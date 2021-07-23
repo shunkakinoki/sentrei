@@ -4,6 +4,10 @@ on:
     branches:
       - main
   pull_request:
+env:
+  NX_CLOUD_DISTRIBUTED_EXECUTION: true
+  NX_BRANCH: ${{ github.event.number || github.ref }}
+  NX_RUN_GROUP: ${{ github.run_id }}
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -36,7 +40,17 @@ jobs:
       - run: |
           yarn run cloud:ci
       - run: |
-          yarn run affected
+          yarn run lint
+      - run: |
+          yarn run affected:apps
+      - run: |
+          yarn run affected:build
+      - run: |
+          yarn run affected:e2e
+      - run: |
+          yarn run affected:lint
+      - run: |
+          yarn run affected:test
       - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'

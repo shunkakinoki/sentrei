@@ -49,10 +49,6 @@
     "eslint:fix": "yarn run eslint:cmd . --fix",
     "fix": "concurrently 'yarn:*:fix'",
     "lint": "concurrently 'yarn:*:lint'",
-    "lint:home": "nx lint home",
-    "lint:atoms": "nx lint atoms",
-    "lint:molecules": "nx lint molecules",
-    "lint:organisms": "nx lint organisms",
     "multi-semantic-release": "multi-semantic-release --sequential-init",
     "multi-semantic-release:check": "multi-semantic-release --dry-run --sequential-init",
     "ncu:check": "ncu --deep -p yarn",
@@ -72,13 +68,7 @@
     "serve:demo": "nx serve demo",
     "serve:home": "nx serve home",
     "storybook": "start-storybook -p 6006",
-    "test": "nx test",
-    "test:app": "nx test app",
-    "test:demo": "nx test demo",
-    "test:home": "nx test home",
-    "test:atoms": "nx test atoms",
-    "test:molecules": "nx test molecules",
-    "test:organisms": "nx test organisms"
+    "test": "nx test"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
