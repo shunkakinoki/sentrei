@@ -128,6 +128,32 @@
         }
       }
     },
+    "app-e2e": {
+      "root": "e2e/app-e2e",
+      "sourceRoot": "e2e/app-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "e2e/app-e2e/cypress.json",
+            "tsConfig": "e2e/app-e2e/tsconfig.e2e.json",
+            "devServerTarget": "app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["e2e/app-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
     "demo": {
       "root": "apps/demo",
       "sourceRoot": "apps/demo",

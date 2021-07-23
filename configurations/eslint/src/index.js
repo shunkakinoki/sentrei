@@ -38,6 +38,12 @@ module.exports = {
         "import/no-anonymous-default-export": "off",
       },
     },
+    {
+      files: ["*.spec.js", "*.spec.ts"],
+      rules: {
+        "@typescript-eslint/no-unsafe-call": "off",
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -133,6 +139,7 @@ module.exports = {
           "apps/*/tsconfig.json",
           "components/*/tsconfig.json",
           "configurations/*/tsconfig.json",
+          "e2e/*/tsconfig.e2e.json",
           "libs/*/tsconfig.json",
           "packages/*/tsconfig.json",
         ],

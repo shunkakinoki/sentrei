@@ -26,6 +26,10 @@
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
     },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
+    },
     "demo": {
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
