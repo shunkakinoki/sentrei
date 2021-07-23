@@ -71,7 +71,7 @@ jobs:
           GIT_COMMITTER_EMAIL: "70007101+sentrei-bot@users.noreply.github.com"
   agents:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     strategy:
       matrix:
         agent: [1, 2, 3]
