@@ -1,3 +1,14 @@
+# @sentrei/demo [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.12.6...@sentrei/demo@1.13.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+- ini apps build ([d008016](https://github.com/sentrei/sentrei/commit/d008016565a090784a58e49aa509a92442e96aec))
+
+### Performance Improvements
+
+- ini e2e testing for apps ([f81960c](https://github.com/sentrei/sentrei/commit/f81960c517085dad86e355461e61387bca504f67))
+
 ## @sentrei/demo [1.12.6](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.12.5...@sentrei/demo@1.12.6) (2021-04-02)
 
 ### Performance Improvements
