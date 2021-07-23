@@ -1,3 +1,9 @@
+# @sentrei/atoms [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.3.0...@sentrei/atoms@1.4.0) (2021-07-23)
+
+### Features
+
+- ini components screens ([7ab12f1](https://github.com/sentrei/sentrei/commit/7ab12f106068c80b4354efc69f49423449a69b00))
+
 # @sentrei/atoms [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.2.12...@sentrei/atoms@1.3.0) (2021-07-23)
 
 ### Bug Fixes
