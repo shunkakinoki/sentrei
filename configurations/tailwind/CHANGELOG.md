@@ -1,3 +1,9 @@
+## @sentrei/tailwind [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.2.0...@sentrei/tailwind@1.2.1) (2021-07-23)
+
+### Performance Improvements
+
+- ini resolver postcss ([502f733](https://github.com/sentrei/sentrei/commit/502f73348b10d3c1550e5d4deaaadb3a73372290))
+
 # @sentrei/tailwind [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.1.0...@sentrei/tailwind@1.2.0) (2021-07-23)
 
 ### Features
