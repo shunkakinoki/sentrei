@@ -61,5 +61,8 @@
     "test:atoms": "nx test atoms",
     "test:molecules": "nx test molecules",
     "test:organisms": "nx test organisms"
+  },
+  "dependencies": {
+    "storybook-addon-next-router": "^3.0.5"
   }
 }
