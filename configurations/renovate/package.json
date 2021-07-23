@@ -1,0 +1,52 @@
+{
+  "name": "@sentrei/renovate-config",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "renovate": "^25.56.10"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "renovate-config": {
+    "default": {
+      "automerge": true,
+      "automergeType": "pr",
+      "rangeStrategy": "bump",
+      "prConcurrentLimit": 0,
+      "prHourlyLimit": 0,
+      "schedule": "every 3 days",
+      "extends": [
+        "config:base",
+        "group:monorepos"
+      ]
+    },
+    "shunkakinoki": {
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "^@shunkakinoki/"
+          ]
+        }
+      ]
+    }
+  }
+}
