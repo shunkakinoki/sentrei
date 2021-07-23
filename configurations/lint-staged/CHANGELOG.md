@@ -1,3 +1,9 @@
+# @sentrei/lint-staged [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.1.0...@sentrei/lint-staged@1.2.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+
 # @sentrei/lint-staged [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.0.4...@sentrei/lint-staged@1.1.0) (2021-03-23)
 
 ### Features
