@@ -5,6 +5,7 @@ on:
 jobs:
   lgtm:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/github-script@v3
         with:

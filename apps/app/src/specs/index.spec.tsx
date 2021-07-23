@@ -1,9 +1,10 @@
-import { Index } from "@sentrei/home/pages/index";
 import { render } from "@testing-library/react";
 
-describe("Index", () => {
+import { ButtonScreen } from "@sentrei/app/pages/index";
+
+describe("ButtonScreen", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<Index />);
+    const { baseElement } = render(<ButtonScreen />);
     expect(baseElement).toBeTruthy();
   });
 });

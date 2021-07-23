@@ -12,17 +12,13 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "files": [
     "./"
   ],
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {
-    "@sentrei/next": "1.8.0"
-  },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

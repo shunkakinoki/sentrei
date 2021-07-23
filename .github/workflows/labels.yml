@@ -9,6 +9,7 @@ jobs:
   labels:
     if: github.actor != 'sentrei-bot'
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v2
       - uses: crazy-max/ghaction-github-labeler@v3

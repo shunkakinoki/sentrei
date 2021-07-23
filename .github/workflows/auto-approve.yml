@@ -3,6 +3,7 @@ on: pull_request
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - if: github.actor == 'shunkakinoki'
         uses: actions/github-script@v3

@@ -19,6 +19,10 @@
       "@sentrei/atoms": ["components/atoms/src/index.ts"],
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],
+      "@sentrei/roots": ["components/roots/src/index.ts"],
+      "@sentrei/screens": ["components/screens/src/index.ts"],
+      "@sentrei/app/*": ["apps/app/src/*"],
+      "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/home/*": ["apps/home/src/*"]
     }
   },

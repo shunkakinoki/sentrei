@@ -7,11 +7,12 @@ on:
     - cron: "0 0,8,16 * * *"
 jobs:
   sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
     strategy:
       fail-fast: false
       matrix:
         branch: [alpha, beta]
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:

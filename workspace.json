@@ -77,6 +77,47 @@
         }
       }
     },
+    "roots": {
+      "root": "components/roots",
+      "sourceRoot": "components/roots/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["components/roots/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/components/roots"],
+          "options": {
+            "jestConfig": "components/roots/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "screens": {
+      "root": "components/screens",
+      "sourceRoot": "components/screens/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["components/screens/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/components/screens"],
+          "options": {
+            "jestConfig": "components/screens/jest.config.js"
+          }
+        }
+      }
+    },
     "app": {
       "root": "apps/app",
       "sourceRoot": "apps/app",

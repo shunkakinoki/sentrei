@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import { ButtonScreen } from "@sentrei/home/pages/index";
+import { ButtonScreen } from "./ButtonScreen";
 
 describe("ButtonScreen", () => {
   it("should render successfully", () => {

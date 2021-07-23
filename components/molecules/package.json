@@ -19,12 +19,6 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {
-    "@sentrei/next": "1.8.0",
-    "@sentrei/themes": "1.3.0",
-    "react-icons": "^4.2.0"
-  },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
