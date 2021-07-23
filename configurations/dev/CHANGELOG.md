@@ -1,3 +1,9 @@
+# @sentrei/dev [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.1.0...@sentrei/dev@1.2.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+
 # @sentrei/dev [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.0.0...@sentrei/dev@1.1.0) (2021-04-08)
 
 ### Features
