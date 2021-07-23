@@ -1,3 +1,9 @@
+## [1.31.1](https://github.com/sentrei/sentrei/compare/v1.31.0...v1.31.1) (2021-07-23)
+
+### Performance Improvements
+
+- ini root vercel ([a10fedc](https://github.com/sentrei/sentrei/commit/a10fedce594bb23e99af268c1a2b4eaedea049a2))
+
 # [1.31.0](https://github.com/sentrei/sentrei/compare/v1.30.2...v1.31.0) (2021-07-23)
 
 ### Features
