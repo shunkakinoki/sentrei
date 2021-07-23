@@ -1,3 +1,25 @@
+# [1.30.0](https://github.com/sentrei/sentrei/compare/v1.29.0...v1.30.0) (2021-07-23)
+
+### Bug Fixes
+
+- remove chakra ui ts files ([5a33aed](https://github.com/sentrei/sentrei/commit/5a33aedd8f2d13e9267a09bb4863615aa2571117))
+
+### Features
+
+- complete e2e packages ([a6fea5c](https://github.com/sentrei/sentrei/commit/a6fea5c42aad5f5e8c2c4df2b0fdfeedf7f7d914))
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+- complete upgrade tailwind nxrl components ([3f27c90](https://github.com/sentrei/sentrei/commit/3f27c90c9530015fd5d74574414604fa1e8fe271))
+- ini apps build ([d008016](https://github.com/sentrei/sentrei/commit/d008016565a090784a58e49aa509a92442e96aec))
+- ini storybook packages ([d6b975d](https://github.com/sentrei/sentrei/commit/d6b975d14173ecf47968d90bc9bd932be00c752b))
+
+### Performance Improvements
+
+- add tailwindcss eslint ([5af96ab](https://github.com/sentrei/sentrei/commit/5af96ab14174a5a5c7715ef700d3aa3d2c28c15a))
+- ini e2e testing for apps ([f81960c](https://github.com/sentrei/sentrei/commit/f81960c517085dad86e355461e61387bca504f67))
+- ini sentrei jest ([e027f40](https://github.com/sentrei/sentrei/commit/e027f40fdf3f5f89b244dba7d697b6e2c3b90cde))
+- ini tailwind config for app home ([46b4714](https://github.com/sentrei/sentrei/commit/46b471446c771bb8e39f2f9fc9491c70c5a6e38a))
+- ini vite storybook ([847ec65](https://github.com/sentrei/sentrei/commit/847ec65f8c943527ba26e83fc389e03590b3686c))
+
 # [1.29.0](https://github.com/sentrei/sentrei/compare/v1.28.11...v1.29.0) (2021-04-08)
 
 ### Features
