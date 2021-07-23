@@ -1,3 +1,14 @@
+# @sentrei/eslint-config [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.2.0...@sentrei/eslint-config@1.3.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+
+### Performance Improvements
+
+- add tailwindcss eslint ([5af96ab](https://github.com/sentrei/sentrei/commit/5af96ab14174a5a5c7715ef700d3aa3d2c28c15a))
+- ini e2e testing for apps ([f81960c](https://github.com/sentrei/sentrei/commit/f81960c517085dad86e355461e61387bca504f67))
+
 # @sentrei/eslint-config [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.1.3...@sentrei/eslint-config@1.2.0) (2021-04-08)
 
 ### Features
