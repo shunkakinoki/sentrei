@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/storybook",
-  "version": "1.3.0",
+  "name": "@sentrei/vite",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,16 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@storybook/addon-controls": "^6.3.5",
-    "@storybook/addon-essentials": "^v6.3.5",
-    "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addons": "^v6.3.5",
-    "@storybook/builder-webpack5": "^6.3.5",
-    "@storybook/react": "^v6.3.5",
-    "@storybook/theming": "^v6.3.5",
-    "storybook-addon-next-router": "^3.0.5",
-    "storybook-builder-vite": "^0.0.12",
-    "storybook-dark-mode": "^1.0.8"
+    "vite": "^2.4.3"
   },
   "publishConfig": {
     "access": "public",

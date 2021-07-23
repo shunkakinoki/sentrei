@@ -55,6 +55,7 @@
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
     "serve:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx serve home",
+    "storybook": "start-storybook -p 6006",
     "test": "nx test",
     "test:home": "nx test home",
     "test:atoms": "nx test atoms",
