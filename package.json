@@ -20,10 +20,20 @@
     ]
   },
   "scripts": {
+    "affected:apps": "nx affected:apps",
+    "affected:libs": "nx affected:libs",
+    "affected:build": "nx affected:build",
+    "affected:e2e": "nx affected:e2e",
+    "affected:test": "nx affected:test",
+    "affected:lint": "nx affected:lint",
+    "affected:dep-graph": "nx affected:dep-graph",
+    "affected": "nx affected",
+    "build:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx serve home",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
     "depcheck:exec": "yarn workspaces run depcheck .",
     "depcheck:root": "depcheck . --skip-missing=true",
+    "dep-graph": "nx dep-graph",
     "eslint:cmd": "eslint --config .eslintrc.js --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint",
     "eslint:lint": "yarn run eslint:cmd .",
     "eslint:fix": "yarn run eslint:cmd . --fix",
@@ -43,6 +53,12 @@
     "release": "yarn run multi-semantic-release && yarn run semantic-release",
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
-    "semantic-release:check": "semantic-release --dry-run"
+    "semantic-release:check": "semantic-release --dry-run",
+    "serve:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx serve home",
+    "test": "nx test",
+    "test:home": "nx test home",
+    "test:atoms": "nx test atoms",
+    "test:molecules": "nx test molecules",
+    "test:organisms": "nx test organisms"
   }
 }

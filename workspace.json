@@ -32,8 +32,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/components/atoms"],
           "options": {
-            "jestConfig": "components/atoms/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "components/atoms/jest.config.js"
           }
         }
       }
@@ -53,8 +52,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/components/molecules"],
           "options": {
-            "jestConfig": "components/molecules/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "components/molecules/jest.config.js"
           }
         }
       }
@@ -74,8 +72,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/components/organisms"],
           "options": {
-            "jestConfig": "components/organisms/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "components/organisms/jest.config.js"
           }
         }
       }

@@ -1,7 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withNx = require("@nrwl/next/plugins/with-nx");
 const withPlugins = require("next-compose-plugins");
-// const withTranslate = require("next-translate");
+const withTranslate = require("next-translate");
 
 const config = {
   experimental: {
@@ -35,7 +35,7 @@ const plugins = [
     enabled: process.env.ANALYZE === "true",
   }),
   withNx,
-  // withTranslate,
+  withTranslate,
 ];
 
 module.exports = withPlugins(plugins, config);
