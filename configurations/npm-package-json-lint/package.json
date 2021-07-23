@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-json-lint-config-sentrei",
+  "name": "@sentrei/npm-package-json-lint-config",
   "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "npm-package-json-lint": "^5.1.0"
+    "npm-package-json-lint": "^5.2.1"
   },
   "publishConfig": {
     "access": "public",

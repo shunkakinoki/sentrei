@@ -1,14 +1,21 @@
 name: Check
-on: pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+env:
+  NX_CLOUD_DISTRIBUTED_EXECUTION: true
+  NX_BRANCH: ${{ github.event.number || github.ref }}
+  NX_RUN_GROUP: ${{ github.run_id }}
 jobs:
   check:
     runs-on: ubuntu-latest
-    env:
-      NX_BRANCH: ${{ github.event.number }}
-      NX_RUN_GROUP: ${{ github.run_id }}
     steps:
+      - uses: nrwl/nx-set-shas@v1
       - uses: actions/checkout@v2
         with:
+          fetch-depth: 0
           ref: ${{ github.head_ref }}
           token: ${{ secrets.BOT_TOKEN }}
       - id: nvm
@@ -31,7 +38,23 @@ jobs:
       - run: |
           yarn install --frozen-lockfile
       - run: |
-          yarn run check
+          yarn run cloud:ci
+      - run: |
+          yarn run lint
+      - run: |
+          yarn run affected:apps
+      - run: |
+          yarn run affected:build
+      - run: |
+          yarn run affected:e2e
+      - run: |
+          yarn run affected:lint
+      - run: |
+          yarn run affected:test
+      - run: |
+          yarn run cloud:stop
+      - if: github.event_name != 'pull_request'
+        uses: nrwl/nx-tag-successful-ci-run@v1
       - if: failure()
         run: |
           yarn run fix

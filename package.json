@@ -21,18 +21,21 @@
     ]
   },
   "scripts": {
-    "affected:apps": "nx affected:apps",
-    "affected:libs": "nx affected:libs",
-    "affected:build": "nx affected:build",
-    "affected:e2e": "nx affected:e2e",
-    "affected:test": "nx affected:test",
-    "affected:lint": "nx affected:lint",
-    "affected:dep-graph": "nx affected:dep-graph",
     "affected": "nx affected",
+    "affected:apps": "nx affected --target=apps --parallel",
+    "affected:libs": "nx affected --target=libs --parallel",
+    "affected:build": "nx affected --target=build --parallel",
+    "affected:e2e": "nx affected --target=e2e --parallel",
+    "affected:test": "nx affected --target=test --parallel",
+    "affected:lint": "nx affected --target=lint--parallel",
+    "affected:dep-graph": "nx affected:dep-graph",
     "build:app": "nx build app",
     "build:demo": "nx build demo",
     "build:home": "nx build home",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
+    "cloud:ci": "nx-cloud start-ci-run",
+    "cloud:start": "nx-cloud start-agent",
+    "cloud:stop": "nx-cloud stop-all-agents",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
     "depcheck:exec": "yarn workspaces run depcheck .",
     "depcheck:root": "depcheck . --skip-missing=true",
@@ -46,10 +49,6 @@
     "eslint:fix": "yarn run eslint:cmd . --fix",
     "fix": "concurrently 'yarn:*:fix'",
     "lint": "concurrently 'yarn:*:lint'",
-    "lint:home": "nx lint home",
-    "lint:atoms": "nx lint atoms",
-    "lint:molecules": "nx lint molecules",
-    "lint:organisms": "nx lint organisms",
     "multi-semantic-release": "multi-semantic-release --sequential-init",
     "multi-semantic-release:check": "multi-semantic-release --dry-run --sequential-init",
     "ncu:check": "ncu --deep -p yarn",
@@ -69,12 +68,9 @@
     "serve:demo": "nx serve demo",
     "serve:home": "nx serve home",
     "storybook": "start-storybook -p 6006",
-    "test": "nx test",
-    "test:app": "nx test app",
-    "test:demo": "nx test demo",
-    "test:home": "nx test home",
-    "test:atoms": "nx test atoms",
-    "test:molecules": "nx test molecules",
-    "test:organisms": "nx test organisms"
+    "test": "nx test"
+  },
+  "npmpackagejsonlint": {
+    "extends": "@sentrei/npm-package-json-lint-config"
   }
 }
