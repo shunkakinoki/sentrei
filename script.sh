@@ -11,29 +11,30 @@ elif [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || 
   exit 1
 else
   if [[ "$PWD" =~ "apps/app" ]]; then
-    if git diff --quiet HEAD~ -- .; then
-      exit 0
-    else
-      exit 1
-    fi
+    APP=app
   fi
   if [[ "$PWD" =~ "apps/demo" ]]; then
-    if git diff --quiet HEAD~ -- .; then
-      exit 0
-    else
-      exit 1
-    fi
+    APP=demo
   fi
   if [[ "$PWD" =~ "apps/home" ]]; then
-    if git diff --quiet HEAD~ -- .; then
-      exit 0
-    else
-      exit 1
-    fi
+    APP=home
   fi
-  if git diff --quiet HEAD~ -- components; then
-    exit 0
-  else
-    exit 1
-  fi
+  # if git diff --quiet HEAD~ -- components; then
+  #   exit 0
+  # else
+  #   exit 1
+  # fi
+fi
+
+npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
+
+IS_AFFECTED=$?
+
+if [ $IS_AFFECTED -eq 1 ]; then
+  echo "🛑 - Build cancelled at $APP"
+  exit 0
+elif [ $IS_AFFECTED -eq 0 ]; then
+  date
+  echo "✅ - Build can proceed at $APP"
+  exit 1
 fi

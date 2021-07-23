@@ -13,10 +13,9 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "fix": "cd ../.. && yarn run fix",
-    "start": "next start"
+    "build": "cd ../.. && yarn run build:demo",
+    "dev": "cd ../.. && yarn run serve:demo",
+    "fix": "cd ../.. && yarn run fix"
   },
   "publishConfig": {
     "access": "public",
