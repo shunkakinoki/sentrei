@@ -3,6 +3,7 @@ on: issue_comment
 jobs:
   chatops:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v2
       - uses: peter-evans/slash-command-dispatch@v2
