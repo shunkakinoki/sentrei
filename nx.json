@@ -22,9 +22,22 @@
       "tags": [],
       "implicitDependencies": ["molecules"]
     },
-    "app": {
+    "roots": {
+      "tags": []
+    },
+    "screens": {
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "app": {
+      "tags": [],
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens"
+      ]
     },
     "app-e2e": {
       "tags": [],
@@ -32,7 +45,13 @@
     },
     "demo": {
       "tags": [],
-      "implicitDependencies": ["atoms", "molecules", "organisms"]
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens"
+      ]
     },
     "demo-e2e": {
       "tags": [],
@@ -40,7 +59,13 @@
     },
     "home": {
       "tags": [],
-      "implicitDependencies": ["atoms", "molecules", "organisms"]
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens"
+      ]
     },
     "home-e2e": {
       "tags": [],
