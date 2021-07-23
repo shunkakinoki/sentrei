@@ -28,7 +28,7 @@
     "affected:lint": "nx affected:lint",
     "affected:dep-graph": "nx affected:dep-graph",
     "affected": "nx affected",
-    "build:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx serve home",
+    "build:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx build home",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
     "depcheck:exec": "yarn workspaces run depcheck .",
