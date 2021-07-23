@@ -1,16 +1,16 @@
 #!/bin/bash
 
-if [ "$1" = "" ]
-then
-  echo "🛑 - Missing required projectName as first argument"
-  exit 1
-fi
+# if [ "$1" = "" ]
+# then
+#   echo "🛑 - Missing required projectName as first argument"
+#   exit 1
+# fi
 
-if [ "$2" = "" ]
-then
-  echo "🛑 - Missing required outputPath as second argument"
-  exit 1
-fi
+# if [ "$2" = "" ]
+# then
+#   echo "🛑 - Missing required outputPath as second argument"
+#   exit 1
+# fi
 
 rm -rf node_modules
 
