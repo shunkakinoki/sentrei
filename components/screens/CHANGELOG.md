@@ -1,3 +1,13 @@
+## @sentrei/screens [1.1.11](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.10...@sentrei/screens@1.1.11) (2021-07-23)
+
+### Bug Fixes
+
+- remove chakra ui ts files ([5a33aed](https://github.com/sentrei/sentrei/commit/5a33aedd8f2d13e9267a09bb4863615aa2571117))
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.8.0
+
 ## @sentrei/screens [1.1.10](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.9...@sentrei/screens@1.1.10) (2021-04-08)
 
 ### Dependencies
