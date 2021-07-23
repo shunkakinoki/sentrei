@@ -1,17 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
+const withNx = require("@nrwl/next/plugins/with-nx");
 const withPlugins = require("next-compose-plugins");
-const withTranslate = require("next-translate");
-const withTM = require("next-transpile-modules")([
-  "@sentrei/atoms",
-  "@sentrei/components",
-  "@sentrei/const",
-  "@sentrei/molecules",
-  "@sentrei/organisms",
-  "@sentrei/roots",
-  "@sentrei/screens",
-  "@sentrei/themes",
-  "@sentrei/utils",
-]);
+// const withTranslate = require("next-translate");
 
 const config = {
   experimental: {
@@ -44,8 +34,8 @@ const plugins = [
   withBundleAnalyzer({
     enabled: process.env.ANALYZE === "true",
   }),
-  withTranslate,
-  withTM,
+  withNx,
+  // withTranslate,
 ];
 
 module.exports = withPlugins(plugins, config);

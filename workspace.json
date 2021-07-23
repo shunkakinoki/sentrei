@@ -1,0 +1,136 @@
+{
+  "cli": {
+    "defaultCollection": "@nrwl/next"
+  },
+  "defaultProject": "home",
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "babel": true
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "css",
+        "linter": "eslint"
+      }
+    }
+  },
+  "projects": {
+    "atoms": {
+      "root": "components/atoms",
+      "sourceRoot": "components/atoms/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["components/atoms/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/components/atoms"],
+          "options": {
+            "jestConfig": "components/atoms/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "molecules": {
+      "root": "components/molecules",
+      "sourceRoot": "components/molecules/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["components/molecules/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/components/molecules"],
+          "options": {
+            "jestConfig": "components/molecules/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "organisms": {
+      "root": "components/organisms",
+      "sourceRoot": "components/organisms/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["components/organisms/**/*.ts"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/components/organisms"],
+          "options": {
+            "jestConfig": "components/organisms/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "home": {
+      "root": "apps/home",
+      "sourceRoot": "apps/home",
+      "projectType": "application",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/next:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "root": "apps/home",
+            "outputPath": "dist/apps/home"
+          },
+          "configurations": {
+            "production": {}
+          }
+        },
+        "serve": {
+          "executor": "@nrwl/next:server",
+          "options": {
+            "buildTarget": "home:build",
+            "dev": true
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "home:build:production",
+              "dev": false
+            }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": {
+            "buildTarget": "home:build:production"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/home"],
+          "options": {
+            "jestConfig": "apps/home/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      }
+    }
+  },
+  "version": 2
+}

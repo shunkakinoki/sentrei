@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "preserve",
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sentrei/atoms": ["components/atoms/src/index.ts"],
+      "@sentrei/molecules": ["components/molecules/src/index.ts"],
+      "@sentrei/organisms": ["components/organisms/src/index.ts"],
+      "@sentrei/home/*": ["apps/home/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

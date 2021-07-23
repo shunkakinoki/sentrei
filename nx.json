@@ -1,0 +1,46 @@
+{
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "npmScope": "sentrei",
+  "projects": {
+    "atoms": {
+      "tags": []
+    },
+    "molecules": {
+      "tags": [],
+      "implicitDependencies": ["atoms"]
+    },
+    "organisms": {
+      "tags": [],
+      "implicitDependencies": ["molecules"]
+    },
+    "home": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  }
+}
