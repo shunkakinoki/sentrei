@@ -1,3 +1,13 @@
+# @sentrei/postcss [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.2.0...@sentrei/postcss@1.3.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+
+### Performance Improvements
+
+- ini tailwind config for app home ([46b4714](https://github.com/sentrei/sentrei/commit/46b471446c771bb8e39f2f9fc9491c70c5a6e38a))
+
 # @sentrei/postcss [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.1.1...@sentrei/postcss@1.2.0) (2021-04-08)
 
 ### Features
