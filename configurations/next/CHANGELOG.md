@@ -1,3 +1,14 @@
+# @sentrei/next [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.7.0...@sentrei/next@1.8.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+- complete upgrade tailwind nxrl components ([3f27c90](https://github.com/sentrei/sentrei/commit/3f27c90c9530015fd5d74574414604fa1e8fe271))
+
+### Performance Improvements
+
+- ini tailwind config for app home ([46b4714](https://github.com/sentrei/sentrei/commit/46b471446c771bb8e39f2f9fc9491c70c5a6e38a))
+
 # @sentrei/next [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.6.8...@sentrei/next@1.7.0) (2021-04-08)
 
 ### Features
