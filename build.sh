@@ -26,5 +26,6 @@ do
 done
 
 yarn install
+cat package.json
 yarn run build:$1
 # NODE_ENV=production npx nx build $1 --prod --outputPath=$2

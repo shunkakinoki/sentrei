@@ -32,6 +32,7 @@
     "build:app": "cross-env NODE_ENV=production nx build app --prod --outputPath=apps/app",
     "build:demo": "cross-env NODE_ENV=production nx build demo --prod --outputPath=apps/demo",
     "build:home": "cross-env NODE_ENV=production nx build home --prod --outputPath=apps/home",
+    "build:storybook": "build-storybook -o public",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "cloud:ci": "nx-cloud start-ci-run",
     "cloud:start": "nx-cloud start-agent",
