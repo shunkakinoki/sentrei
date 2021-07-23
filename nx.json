@@ -13,25 +13,25 @@
   "npmScope": "sentrei",
   "projects": {
     "atoms": {
-      "tags": []
+      "tags": ["scope:component"]
     },
     "molecules": {
-      "tags": [],
+      "tags": ["scope:component"],
       "implicitDependencies": ["atoms"]
     },
     "organisms": {
-      "tags": [],
+      "tags": ["scope:component"],
       "implicitDependencies": ["molecules"]
     },
     "roots": {
-      "tags": []
+      "tags": ["scope:component"]
     },
     "screens": {
-      "tags": [],
+      "tags": ["scope:component"],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
     },
     "app": {
-      "tags": [],
+      "tags": ["scope:app"],
       "implicitDependencies": [
         "atoms",
         "molecules",
@@ -41,11 +41,11 @@
       ]
     },
     "app-e2e": {
-      "tags": [],
+      "tags": ["scope:e2e"],
       "implicitDependencies": ["app"]
     },
     "demo": {
-      "tags": [],
+      "tags": ["scope:app"],
       "implicitDependencies": [
         "atoms",
         "molecules",
@@ -55,11 +55,11 @@
       ]
     },
     "demo-e2e": {
-      "tags": [],
+      "tags": ["scope:e2e"],
       "implicitDependencies": ["demo"]
     },
     "home": {
-      "tags": [],
+      "tags": ["scope:app"],
       "implicitDependencies": [
         "atoms",
         "molecules",
@@ -69,7 +69,7 @@
       ]
     },
     "home-e2e": {
-      "tags": [],
+      "tags": ["scope:e2e"],
       "implicitDependencies": ["home"]
     }
   },
