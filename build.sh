@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# if [ "$1" = "" ]
-# then
-#   echo "🛑 - Missing required projectName as first argument"
-#   exit 1
-# fi
+if [ "$1" = "" ]
+then
+  echo "🛑 - Missing required projectName as first argument"
+  exit 1
+fi
 
 # if [ "$2" = "" ]
 # then
@@ -26,5 +26,5 @@ do
 done
 
 yarn install
-yarn run build:$APP
+yarn run build:$1
 # NODE_ENV=production npx nx build $1 --prod --outputPath=$2
