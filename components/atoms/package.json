@@ -20,9 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@sentrei/next": "1.7.0",
-    "@sentrei/themes": "1.2.0",
-    "react-icons": "^4.2.0"
+    "@sentrei/next": "1.7.0"
   },
   "devDependencies": {},
   "publishConfig": {

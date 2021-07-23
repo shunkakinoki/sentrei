@@ -1,16 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
+const withNx = require("@nrwl/next/plugins/with-nx");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
-const withTM = require("next-transpile-modules")([
-  "@sentrei/atoms",
-  "@sentrei/const",
-  "@sentrei/molecules",
-  "@sentrei/organisms",
-  "@sentrei/roots",
-  "@sentrei/screens",
-  "@sentrei/themes",
-  "@sentrei/utils",
-]);
 
 const config = {
   experimental: {
@@ -20,7 +11,6 @@ const config = {
     pageEnv: true,
     plugins: true,
     profiling: true,
-    reactMode: "concurrent",
     scriptLoader: true,
     scrollRestoration: true,
     sprFlushToDisk: true,
@@ -30,7 +20,6 @@ const config = {
   future: {
     excludeDefaultMomentLocales: true,
     strictPostcssConfiguration: true,
-    webpack5: true,
   },
   i18n: {
     defaultLocale: "en",
@@ -45,8 +34,8 @@ const plugins = [
   withBundleAnalyzer({
     enabled: process.env.ANALYZE === "true",
   }),
+  withNx,
   withTranslate,
-  withTM,
 ];
 
 module.exports = withPlugins(plugins, config);

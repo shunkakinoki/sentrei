@@ -20,11 +20,16 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "^v6.2.5",
+    "@storybook/addon-controls": "^6.3.5",
+    "@storybook/addon-essentials": "^v6.3.5",
     "@storybook/addon-postcss": "^2.0.0",
-    "@storybook/addons": "^v6.2.5",
-    "@storybook/react": "^v6.2.5",
-    "@storybook/theming": "^v6.2.5"
+    "@storybook/addons": "^v6.3.5",
+    "@storybook/builder-webpack5": "^6.3.5",
+    "@storybook/react": "^v6.3.5",
+    "@storybook/theming": "^v6.3.5",
+    "storybook-addon-next-router": "^3.0.5",
+    "storybook-builder-vite": "^0.0.12",
+    "storybook-dark-mode": "^1.0.8"
   },
   "publishConfig": {
     "access": "public",

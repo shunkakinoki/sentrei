@@ -1,0 +1,69 @@
+{
+  "affected": {
+    "defaultBase": "main"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "npmScope": "sentrei",
+  "projects": {
+    "atoms": {
+      "tags": []
+    },
+    "molecules": {
+      "tags": [],
+      "implicitDependencies": ["atoms"]
+    },
+    "organisms": {
+      "tags": [],
+      "implicitDependencies": ["molecules"]
+    },
+    "app": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
+    },
+    "demo": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "demo-e2e": {
+      "tags": [],
+      "implicitDependencies": ["demo"]
+    },
+    "home": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "home-e2e": {
+      "tags": [],
+      "implicitDependencies": ["home"]
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "NzA4MGQzMzUtYTI5Ny00MGU4LWJkM2UtMjJiMjkwM2ZkMzQ1fHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": true,
+        "showUsageWarnings": true
+      }
+    }
+  }
+}
