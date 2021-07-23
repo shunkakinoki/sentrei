@@ -1,3 +1,9 @@
+## [1.30.1](https://github.com/sentrei/sentrei/compare/v1.30.0...v1.30.1) (2021-07-23)
+
+### Performance Improvements
+
+- refactor gha workflow with configurations update ([38cb0de](https://github.com/sentrei/sentrei/commit/38cb0de584a2bf42336b02403efb74c1728ffc30))
+
 # [1.30.0](https://github.com/sentrei/sentrei/compare/v1.29.0...v1.30.0) (2021-07-23)
 
 ### Bug Fixes
