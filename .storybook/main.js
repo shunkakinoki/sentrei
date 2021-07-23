@@ -21,7 +21,7 @@ module.exports = {
       },
     },
     // "storybook-addon-next-router",
-    // "storybook-dark-mode",
+    "storybook-dark-mode",
   ],
   webpackFinal: async config => {
     config.resolve.plugins = [new TsconfigPathsPlugin()];
