@@ -1,3 +1,10 @@
+# @sentrei/tailwind [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.1.0...@sentrei/tailwind@1.2.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+- complete upgrade tailwind nxrl components ([3f27c90](https://github.com/sentrei/sentrei/commit/3f27c90c9530015fd5d74574414604fa1e8fe271))
+
 # @sentrei/tailwind [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.0.3...@sentrei/tailwind@1.1.0) (2021-04-08)
 
 ### Features
