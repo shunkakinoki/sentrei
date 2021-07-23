@@ -1,3 +1,10 @@
+# @sentrei/storybook [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.3.0...@sentrei/storybook@1.4.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+- ini storybook packages ([d6b975d](https://github.com/sentrei/sentrei/commit/d6b975d14173ecf47968d90bc9bd932be00c752b))
+
 # @sentrei/storybook [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.2.3...@sentrei/storybook@1.3.0) (2021-04-08)
 
 ### Features
