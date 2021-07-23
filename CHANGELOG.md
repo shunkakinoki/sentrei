@@ -1,3 +1,9 @@
+## [1.30.2](https://github.com/sentrei/sentrei/compare/v1.30.1...v1.30.2) (2021-07-23)
+
+### Performance Improvements
+
+- ini renovate config ([4472944](https://github.com/sentrei/sentrei/commit/4472944d8f51e1d5d3da7d32becf2f97110164e7))
+
 ## [1.30.1](https://github.com/sentrei/sentrei/compare/v1.30.0...v1.30.1) (2021-07-23)
 
 ### Performance Improvements
