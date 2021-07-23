@@ -13,10 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: nrwl/nx-set-shas@v1
-      - uses: actions/checkout@v2
+      - if: github.event_name == 'push'
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          ref: ${{ github.head_ref }}
+          token: ${{ secrets.BOT_TOKEN }}
+      - if: github.event_name == 'pull_request'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.BOT_TOKEN }}
       - id: nvm
         run: |
@@ -26,7 +32,6 @@ jobs:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
       - uses: actions/cache@v2
         with:
-          fetch-depth: 0
           path: |
             ~/.npm
             node_modules
