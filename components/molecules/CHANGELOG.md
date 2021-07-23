@@ -1,3 +1,18 @@
+# @sentrei/molecules [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.11...@sentrei/molecules@1.3.0) (2021-07-23)
+
+### Bug Fixes
+
+- remove chakra ui ts files ([5a33aed](https://github.com/sentrei/sentrei/commit/5a33aedd8f2d13e9267a09bb4863615aa2571117))
+
+### Features
+
+- complete upgrade tailwind nxrl components ([3f27c90](https://github.com/sentrei/sentrei/commit/3f27c90c9530015fd5d74574414604fa1e8fe271))
+
+### Dependencies
+
+- **@sentrei/next:** upgraded to 1.8.0
+- **@sentrei/themes:** upgraded to 1.3.0
+
 ## @sentrei/molecules [1.2.11](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.2.10...@sentrei/molecules@1.2.11) (2021-04-08)
 
 ### Dependencies
