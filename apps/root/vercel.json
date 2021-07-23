@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/app/:match*",
+      "destination": "https://app.sentrei.com/:match*"
+    },
+    {
+      "source": "/demo/:match*",
+      "destination": "https://demo.sentrei.com/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://home.sentrei.com/:match*"
+    }
+  ]
+}
