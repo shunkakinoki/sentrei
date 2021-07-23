@@ -128,7 +128,7 @@
           "outputs": ["{options.outputPath}"],
           "options": {
             "root": "apps/app",
-            "outputPath": "."
+            "outputPath": "dist/apps/app"
           },
           "configurations": {
             "production": {}
@@ -205,7 +205,7 @@
           "outputs": ["{options.outputPath}"],
           "options": {
             "root": "apps/demo",
-            "outputPath": "."
+            "outputPath": "dist/apps/demo"
           },
           "configurations": {
             "production": {}
@@ -282,7 +282,7 @@
           "outputs": ["{options.outputPath}"],
           "options": {
             "root": "apps/home",
-            "outputPath": "."
+            "outputPath": "dist/apps/home"
           },
           "configurations": {
             "production": {}
