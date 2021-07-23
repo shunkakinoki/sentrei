@@ -16,5 +16,7 @@ export const postWaitlist = (email: string) => {
     .catch(err => {
       console.error(err);
     })
-    .then(res => console.log(res));
+    .then(res => {
+      return console.log(res);
+    });
 };
