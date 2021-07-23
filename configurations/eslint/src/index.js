@@ -14,6 +14,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@next/next/recommended",
+    "plugin:tailwindcss/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -29,6 +30,12 @@ module.exports = {
         "@typescript-eslint/no-unsafe-member-access": "off",
         "@typescript-eslint/no-unsafe-return": "off",
         "@typescript-eslint/no-var-requires": "off",
+      },
+    },
+    {
+      files: ["*.stories.tsx"],
+      rules: {
+        "import/no-anonymous-default-export": "off",
       },
     },
   ],
@@ -51,7 +58,9 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-return": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
+    "arrow-body-style": ["error", "always"],
     "import/newline-after-import": "error",
+    "import/no-anonymous-default-export": "error",
     "import/order": [
       "error",
       {
@@ -74,6 +83,22 @@ module.exports = {
         ],
       },
     ],
+    "jsx-a11y/alt-text": [
+      "warn",
+      {
+        elements: ["img"],
+        img: ["Image"],
+      },
+    ],
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        components: ["Link"],
+        specialLink: ["hrefLeft", "hrefRight"],
+        aspects: ["invalidHref", "preferButton"],
+      },
+    ],
+    "jsx-a11y/href-no-hash": "off",
     "no-restricted-imports": [
       "error",
       {
@@ -94,6 +119,9 @@ module.exports = {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
+    "tailwindcss/classnames-order": "error",
+    "tailwindcss/no-custom-classname": "error",
+    "tailwindcss/no-contradicting-classname": "error",
   },
   settings: {
     "import/parsers": {
