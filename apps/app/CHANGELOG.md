@@ -5,6 +5,13 @@
 - ini components screens ([7ab12f1](https://github.com/sentrei/sentrei/commit/7ab12f106068c80b4354efc69f49423449a69b00))
 - ini root screens ([0832d11](https://github.com/sentrei/sentrei/commit/0832d1141f0ab8ba6721c14112ba95d48e7344b7))
 
+# @sentrei/app [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.1.0...@sentrei/app@1.2.0) (2021-07-23)
+
+### Features
+
+- ini components screens ([7ab12f1](https://github.com/sentrei/sentrei/commit/7ab12f106068c80b4354efc69f49423449a69b00))
+- ini root screens ([0832d11](https://github.com/sentrei/sentrei/commit/0832d1141f0ab8ba6721c14112ba95d48e7344b7))
+
 # @sentrei/app [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.0.6...@sentrei/app@1.1.0) (2021-07-23)
 
 ### Features
