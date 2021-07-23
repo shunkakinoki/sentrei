@@ -1,3 +1,9 @@
+# @sentrei/husky [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.1.1...@sentrei/husky@1.2.0) (2021-07-23)
+
+### Features
+
+- complete upgrade dep ([f843825](https://github.com/sentrei/sentrei/commit/f843825ba6ddf30744d72ae2c4abbd670dcb16b0))
+
 ## @sentrei/husky [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.1.0...@sentrei/husky@1.1.1) (2021-03-30)
 
 ### Performance Improvements
