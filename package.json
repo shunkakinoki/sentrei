@@ -28,6 +28,8 @@
     "affected:lint": "nx affected:lint",
     "affected:dep-graph": "nx affected:dep-graph",
     "affected": "nx affected",
+    "build:app": "cross-env NEXT_TRANSLATE_PATH=apps/app nx build app",
+    "build:demo": "cross-env NEXT_TRANSLATE_PATH=apps/demo nx build demo",
     "build:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx build home",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "depcheck:check": "yarn run depcheck:exec && yarn run depcheck:root",
@@ -58,15 +60,16 @@
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
+    "serve:app": "cross-env NEXT_TRANSLATE_PATH=apps/app nx serve app",
+    "serve:demo": "cross-env NEXT_TRANSLATE_PATH=apps/demo nx serve demo",
     "serve:home": "cross-env NEXT_TRANSLATE_PATH=apps/home nx serve home",
     "storybook": "start-storybook -p 6006",
     "test": "nx test",
+    "test:app": "nx test app",
+    "test:demo": "nx test demo",
     "test:home": "nx test home",
     "test:atoms": "nx test atoms",
     "test:molecules": "nx test molecules",
     "test:organisms": "nx test organisms"
-  },
-  "dependencies": {
-    "storybook-addon-next-router": "^3.0.5"
   }
 }

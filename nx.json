@@ -22,6 +22,14 @@
       "tags": [],
       "implicitDependencies": ["molecules"]
     },
+    "app": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "demo": {
+      "tags": [],
+      "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
     "home": {
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
