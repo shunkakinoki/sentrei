@@ -1,3 +1,18 @@
+# @sentrei/npm-package-json-lint-config 1.0.0 (2021-07-23)
+
+### Features
+
+- refactor config dependencies ([6ae31ad](https://github.com/sentrei/sentrei/commit/6ae31ad76459cf2a524046b7dd467d54b565a0b3))
+
+### Performance Improvements
+
+- ini depcheck configurations ([41d36ce](https://github.com/sentrei/sentrei/commit/41d36cef0459229e366d8d99bda9c0dfdac80ab0))
+- ini package json lint configuration ([233ebf9](https://github.com/sentrei/sentrei/commit/233ebf9c9dbd2d96485f93d6f58b55aa0b0006b8))
+- refactor gha workflow with configurations update ([38cb0de](https://github.com/sentrei/sentrei/commit/38cb0de584a2bf42336b02403efb74c1728ffc30))
+- refactor npm packagejson lint config ([086cfe5](https://github.com/sentrei/sentrei/commit/086cfe530652da0f5b61c4d5c442bf729658047d))
+- refactor package json lint ([4cf6553](https://github.com/sentrei/sentrei/commit/4cf6553ee250542f84226038ce05b9de37d987d9))
+- upgrade with ncu ([bf5f296](https://github.com/sentrei/sentrei/commit/bf5f2966fc9cb75294d2b3f2355081a86a06c14a))
+
 # npm-package-json-lint-config-sentrei 1.0.0 (2021-03-27)
 
 ### Features
