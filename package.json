@@ -15,6 +15,7 @@
       "apps/*",
       "components/*",
       "configurations/*",
+      "e2e/*",
       "libs/*",
       "packages/*"
     ]
@@ -36,6 +37,7 @@
     "depcheck:exec": "yarn workspaces run depcheck .",
     "depcheck:root": "depcheck . --skip-missing=true",
     "dep-graph": "nx dep-graph",
+    "e2e": "nx run-many --target=e2e --all",
     "e2e:app": "nx e2e app-e2e",
     "e2e:demo": "nx e2e demo-e2e",
     "e2e:home": "nx e2e home-e2e",

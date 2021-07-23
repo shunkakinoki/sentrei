@@ -34,9 +34,17 @@
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
     },
+    "demo-e2e": {
+      "tags": [],
+      "implicitDependencies": ["demo"]
+    },
     "home": {
       "tags": [],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
+    },
+    "home-e2e": {
+      "tags": [],
+      "implicitDependencies": ["home"]
     }
   },
   "targetDependencies": {

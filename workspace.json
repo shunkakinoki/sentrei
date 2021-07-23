@@ -129,15 +129,15 @@
       }
     },
     "app-e2e": {
-      "root": "e2e/app-e2e",
-      "sourceRoot": "e2e/app-e2e/src",
+      "root": "e2e/home-e2e",
+      "sourceRoot": "e2e/home-e2e/src",
       "projectType": "application",
       "targets": {
         "e2e": {
           "executor": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "e2e/app-e2e/cypress.json",
-            "tsConfig": "e2e/app-e2e/tsconfig.e2e.json",
+            "cypressConfig": "e2e/home-e2e/cypress.json",
+            "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
             "devServerTarget": "app:serve"
           },
           "configurations": {
@@ -149,7 +149,7 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["e2e/app-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": ["e2e/home-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -205,6 +205,32 @@
         }
       }
     },
+    "demo-e2e": {
+      "root": "e2e/home-e2e",
+      "sourceRoot": "e2e/home-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "e2e/home-e2e/cypress.json",
+            "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
+            "devServerTarget": "app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["e2e/home-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
     "home": {
       "root": "apps/home",
       "sourceRoot": "apps/home",
@@ -252,6 +278,32 @@
           "executor": "@nrwl/linter:eslint",
           "options": {
             "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
+          }
+        }
+      }
+    },
+    "home-e2e": {
+      "root": "e2e/home-e2e",
+      "sourceRoot": "e2e/home-e2e/src",
+      "projectType": "application",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "e2e/home-e2e/cypress.json",
+            "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
+            "devServerTarget": "app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["e2e/home-e2e/**/*.{js,ts}"]
           }
         }
       }
