@@ -1,3 +1,14 @@
+# [1.31.0](https://github.com/sentrei/sentrei/compare/v1.30.2...v1.31.0) (2021-07-23)
+
+### Features
+
+- ini components screens ([7ab12f1](https://github.com/sentrei/sentrei/commit/7ab12f106068c80b4354efc69f49423449a69b00))
+- ini root screens ([0832d11](https://github.com/sentrei/sentrei/commit/0832d1141f0ab8ba6721c14112ba95d48e7344b7))
+
+### Performance Improvements
+
+- ini resolver postcss ([502f733](https://github.com/sentrei/sentrei/commit/502f73348b10d3c1550e5d4deaaadb3a73372290))
+
 ## [1.30.2](https://github.com/sentrei/sentrei/compare/v1.30.1...v1.30.2) (2021-07-23)
 
 ### Performance Improvements
