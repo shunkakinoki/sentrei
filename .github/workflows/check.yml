@@ -16,6 +16,7 @@ jobs:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
       - uses: actions/cache@v2
         with:
+          fetch-depth: 0
           path: |
             ~/.npm
             node_modules
