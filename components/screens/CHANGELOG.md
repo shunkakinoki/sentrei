@@ -1,3 +1,9 @@
+# @sentrei/screens [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.11...@sentrei/screens@1.2.0) (2021-07-23)
+
+### Features
+
+- ini components screens ([7ab12f1](https://github.com/sentrei/sentrei/commit/7ab12f106068c80b4354efc69f49423449a69b00))
+
 ## @sentrei/screens [1.1.11](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.10...@sentrei/screens@1.1.11) (2021-07-23)
 
 ### Bug Fixes
