@@ -1,6 +1,4 @@
-import { LangProvider } from "./LangProvider";
 import * as React from "react";
-import { RouterContext } from "next/dist/next-server/lib/router-context";
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 import "tailwindcss/tailwind.css";
 import { RecoilRoot } from "recoil";
@@ -11,9 +9,6 @@ export const parameters = {
   controls: { expanded: true },
   storySort: {
     method: "alphabetical",
-  },
-  nextRouter: {
-    Provider: RouterContext.Provider,
   },
   darkMode: {
     classTarget: "html",
@@ -28,13 +23,11 @@ export const parameters = {
 
 export const decorators = [
   (Story: JSX.IntrinsicAttributes): JSX.Element => (
-    <LangProvider>
-      <RecoilRoot>
-        <ThemeProvider attribute="class" defaultTheme="system">
-          {/*@ts-expect-error */}
-          <Story />
-        </ThemeProvider>
-      </RecoilRoot>
-    </LangProvider>
+    <RecoilRoot>
+      <ThemeProvider attribute="class" defaultTheme="system">
+        {/*@ts-expect-error */}
+        <Story />
+      </ThemeProvider>
+    </RecoilRoot>
   ),
 ];
