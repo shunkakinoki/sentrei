@@ -20,7 +20,7 @@ module.exports = {
         },
       },
     },
-    // "storybook-addon-next-router",
+    "storybook-addon-next-router",
     "storybook-dark-mode",
   ],
   webpackFinal: async config => {
@@ -32,12 +32,9 @@ module.exports = {
     config.resolve.alias = aliases;
     return config;
   },
-  core: {
-    builder: "storybook-builder-vite",
-  },
-  typescript: {
-    check: true,
-  },
+  // core: {
+  //   builder: "storybook-builder-vite",
+  // },
   // core: {
   //   builder: "webpack5",
   // },
