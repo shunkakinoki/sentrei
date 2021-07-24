@@ -1,3 +1,9 @@
+## [1.31.5](https://github.com/sentrei/sentrei/compare/v1.31.4...v1.31.5) (2021-07-24)
+
+### Bug Fixes
+
+- ini base sha ([133d630](https://github.com/sentrei/sentrei/commit/133d630f168b256acb7ee56f8ce02a814446d0b7))
+
 ## [1.31.4](https://github.com/sentrei/sentrei/compare/v1.31.3...v1.31.4) (2021-07-24)
 
 ### Bug Fixes
