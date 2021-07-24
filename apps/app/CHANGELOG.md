@@ -1,3 +1,9 @@
+## @sentrei/app [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.2.0...@sentrei/app@1.2.1) (2021-07-24)
+
+### Performance Improvements
+
+- configure basepath requirements ([e8afb49](https://github.com/sentrei/sentrei/commit/e8afb4943a5189c10927cbd577d236882d6c1866))
+
 # @sentrei/app [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.1.0...@sentrei/app@1.2.0) (2021-07-23)
 
 ### Features
