@@ -25,6 +25,8 @@ jobs:
     needs: nvm
     steps:
       - uses: nrwl/nx-set-shas@v1
+        with:
+          main-branch-name: main
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
         with:
@@ -56,15 +58,15 @@ jobs:
       - run: |
           yarn run lint
       - run: |
-          yarn run affected:apps
+          yarn run affected:apps --base=${{ env.NX_BASE }}
       - run: |
-          yarn run affected:build
+          yarn run affected:build --base=${{ env.NX_BASE }}
       - run: |
-          yarn run affected:e2e
+          yarn run affected:e2e --base=${{ env.NX_BASE }}
       - run: |
-          yarn run affected:lint
+          yarn run affected:lint --base=${{ env.NX_BASE }}
       - run: |
-          yarn run affected:test
+          yarn run affected:test --base=${{ env.NX_BASE }}
       - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
