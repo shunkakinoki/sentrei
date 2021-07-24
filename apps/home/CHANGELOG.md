@@ -1,3 +1,13 @@
+## @sentrei/home [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.2...@sentrei/home@1.2.3) (2021-07-24)
+
+### Bug Fixes
+
+- nx test jest coverage file ([52374c8](https://github.com/sentrei/sentrei/commit/52374c8f590ca4650b7a2644f38e100e1e1609ce))
+
+### Performance Improvements
+
+- configure jest files ([bbd9b78](https://github.com/sentrei/sentrei/commit/bbd9b78525a3e0b69cd98644a67e2e94160fb1d1))
+
 ## @sentrei/home [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.1...@sentrei/home@1.2.2) (2021-07-24)
 
 ### Bug Fixes
