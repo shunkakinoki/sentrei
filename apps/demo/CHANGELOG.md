@@ -1,3 +1,9 @@
+## @sentrei/demo [1.14.3](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.14.2...@sentrei/demo@1.14.3) (2021-07-24)
+
+### Bug Fixes
+
+- refactor eslint config ([587591e](https://github.com/sentrei/sentrei/commit/587591e00658e6af416586c4f1689a348d5a8067))
+
 ## @sentrei/demo [1.14.2](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.14.1...@sentrei/demo@1.14.2) (2021-07-24)
 
 ### Bug Fixes
