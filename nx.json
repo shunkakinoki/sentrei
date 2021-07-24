@@ -30,6 +30,16 @@
       "tags": ["scope:component"],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
     },
+    "storybook": {
+      "tags": ["scope:app"],
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens"
+      ]
+    },
     "next": {
       "tags": ["scope:configuration"]
     },
