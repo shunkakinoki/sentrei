@@ -77,8 +77,7 @@
     "start:demo": "cross-env NODE_ENV=production nx serve demo --prod",
     "start:home": "cross-env NODE_ENV=production nx serve home --prod",
     "start:storybook": "nx serve storybook",
-    "test": "nx test",
-    "vercel-build": "mkdir -p public && echo '<a href=\"https://sentrei.com\">Hello</a>' > public/output.html"
+    "test": "nx test"
   },
   "resolutions": {
     "postcss": "^8.3.6"
