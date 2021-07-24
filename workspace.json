@@ -208,15 +208,15 @@
       }
     },
     "app-e2e": {
-      "root": "e2e/home-e2e",
-      "sourceRoot": "e2e/home-e2e/src",
+      "root": "e2e/app-e2e",
+      "sourceRoot": "e2e/app-e2e/src",
       "projectType": "application",
       "targets": {
         "e2e": {
           "executor": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "e2e/home-e2e/cypress.json",
-            "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
+            "cypressConfig": "e2e/app-e2e/cypress.json",
+            "tsConfig": "e2e/app-e2e/tsconfig.e2e.json",
             "devServerTarget": "app:serve"
           },
           "configurations": {
@@ -228,7 +228,7 @@
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["e2e/home-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": ["e2e/app-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -285,27 +285,27 @@
       }
     },
     "demo-e2e": {
-      "root": "e2e/home-e2e",
-      "sourceRoot": "e2e/home-e2e/src",
+      "root": "e2e/demo-e2e",
+      "sourceRoot": "e2e/demo-e2e/src",
       "projectType": "application",
       "targets": {
         "e2e": {
           "executor": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "e2e/home-e2e/cypress.json",
-            "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
-            "devServerTarget": "app:serve"
+            "cypressConfig": "e2e/demo-e2e/cypress.json",
+            "tsConfig": "e2e/demo-e2e/tsconfig.e2e.json",
+            "devServerTarget": "demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app:serve"
+              "devServerTarget": "demo:serve:production"
             }
           }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["e2e/home-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": ["e2e/demo-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -371,11 +371,11 @@
           "options": {
             "cypressConfig": "e2e/home-e2e/cypress.json",
             "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
-            "devServerTarget": "app:serve"
+            "devServerTarget": "home:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app:serve"
+              "devServerTarget": "home:serve:production"
             }
           }
         },
