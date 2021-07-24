@@ -1,3 +1,9 @@
+## [1.31.3](https://github.com/sentrei/sentrei/compare/v1.31.2...v1.31.3) (2021-07-24)
+
+### Bug Fixes
+
+- e2e to dev ([cf49c22](https://github.com/sentrei/sentrei/commit/cf49c22ae772b9e43e300cdb9814b1fbda82e521))
+
 ## [1.31.2](https://github.com/sentrei/sentrei/compare/v1.31.1...v1.31.2) (2021-07-24)
 
 ### Bug Fixes
