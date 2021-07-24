@@ -195,8 +195,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/apps/app"],
           "options": {
-            "jestConfig": "apps/app/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "apps/app/jest.config.js"
           }
         },
         "lint": {
@@ -272,8 +271,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/apps/demo"],
           "options": {
-            "jestConfig": "apps/demo/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "apps/demo/jest.config.js"
           }
         },
         "lint": {
@@ -349,8 +347,7 @@
           "executor": "@nrwl/jest:jest",
           "outputs": ["coverage/apps/home"],
           "options": {
-            "jestConfig": "apps/home/jest.config.js",
-            "passWithNoTests": true
+            "jestConfig": "apps/home/jest.config.js"
           }
         },
         "lint": {

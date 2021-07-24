@@ -16,5 +16,5 @@ module.exports = {
     "^@sentrei/organisms": "<rootDir>/../../components/organisms/src/index.ts",
     "^@sentrei/home/(.+)$": "<rootDir>/src/$1",
   },
-  coverageDirectory: "../../coverage/components/home",
+  coverageDirectory: "../../coverage/apps/home",
 };
