@@ -69,7 +69,8 @@
     "serve:demo": "nx serve demo",
     "serve:home": "nx serve home",
     "storybook": "start-storybook -p 6006",
-    "test": "nx test"
+    "test": "nx test",
+    "vercel-build": "mkdir -p public && echo '<a href=\"https://sentrei.com\">Hello</a>' > public/output.html"
   },
   "resolutions": {
     "postcss": "^8.3.6"
