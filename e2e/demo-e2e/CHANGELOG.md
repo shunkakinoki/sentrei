@@ -1,3 +1,9 @@
+## @sentrei/demo-e2e [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo-e2e@1.0.0...@sentrei/demo-e2e@1.0.1) (2021-07-24)
+
+### Bug Fixes
+
+- e2e bug basePath ([29db229](https://github.com/sentrei/sentrei/commit/29db22962a5a894ad580b0907cb20e9d447f7c4d))
+
 # @sentrei/demo-e2e 1.0.0 (2021-07-23)
 
 ### Features
