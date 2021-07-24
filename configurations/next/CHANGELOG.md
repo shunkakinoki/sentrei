@@ -1,3 +1,9 @@
+## @sentrei/next [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.8.0...@sentrei/next@1.8.1) (2021-07-24)
+
+### Performance Improvements
+
+- configure basepath requirements ([e8afb49](https://github.com/sentrei/sentrei/commit/e8afb4943a5189c10927cbd577d236882d6c1866))
+
 # @sentrei/next [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.7.0...@sentrei/next@1.8.0) (2021-07-23)
 
 ### Features
