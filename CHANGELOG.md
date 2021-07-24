@@ -1,3 +1,10 @@
+## [1.31.4](https://github.com/sentrei/sentrei/compare/v1.31.3...v1.31.4) (2021-07-24)
+
+### Bug Fixes
+
+- broken e2e build ([4b2a717](https://github.com/sentrei/sentrei/commit/4b2a71795d3702738f824bd5463942a741c8b9a2))
+- correct server target ([17384ea](https://github.com/sentrei/sentrei/commit/17384ea1452252edf2350862b474abd38de9dc6d))
+
 ## [1.31.3](https://github.com/sentrei/sentrei/compare/v1.31.2...v1.31.3) (2021-07-24)
 
 ### Bug Fixes
