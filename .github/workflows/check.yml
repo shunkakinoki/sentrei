@@ -67,8 +67,6 @@ jobs:
       - run: |
           yarn run affected:test
       - run: |
-          yarn run test
-      - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
         uses: nrwl/nx-tag-successful-ci-run@v1
