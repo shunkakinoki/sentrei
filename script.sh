@@ -25,11 +25,11 @@ else
 fi
 
 if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$VERCEL_GIT_COMMIT_REF" == "beta" || "$VERCEL_GIT_COMMIT_REF" == "main" ]]; then
-echo "🌼 - Running in specified branches"
-npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
+  echo "🌼 - Running in specified branches"
+  npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
 else
-echo "🌼 - Running in PR"
-npx nx affected:apps --plain --base origin/main --head HEAD | grep $APP -q
+  echo "🌼 - Running in PR"
+  npx nx affected:apps --plain --base origin/main --head HEAD | grep $APP -q
 fi
 IS_AFFECTED=$?
 
