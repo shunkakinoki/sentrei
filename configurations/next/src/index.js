@@ -7,6 +7,7 @@ const withTranslate = require("next-translate");
  * @type {import('next').NextConfig}
  */
 const defaultConfig = {
+  compress: true,
   experimental: {
     optimizeCss: true,
     optimizeFonts: true,
@@ -20,10 +21,15 @@ const defaultConfig = {
     stats: true,
     workerThreads: true,
   },
+  distDir: ".next",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   future: {
     excludeDefaultMomentLocales: true,
     strictPostcssConfiguration: true,
   },
+  generateEtags: true,
   i18n: {
     defaultLocale: "en",
     locales: ["en", "ja", "zh"],
@@ -32,6 +38,9 @@ const defaultConfig = {
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
   trailingSlash: false,
+  typescript: {
+    ignoreBuildErrors: false,
+  },
 };
 
 const plugins = [
