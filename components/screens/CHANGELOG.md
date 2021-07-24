@@ -1,3 +1,9 @@
+## @sentrei/screens [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.1...@sentrei/screens@1.2.2) (2021-07-24)
+
+### Bug Fixes
+
+- refactor eslint config ([587591e](https://github.com/sentrei/sentrei/commit/587591e00658e6af416586c4f1689a348d5a8067))
+
 ## @sentrei/screens [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.0...@sentrei/screens@1.2.1) (2021-07-24)
 
 ### Performance Improvements
