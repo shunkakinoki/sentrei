@@ -17,7 +17,7 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
 else
   echo "🌼 - Running in PR at $APP"
-  git fetch origin main
+  git remote set-url origin https://github.com/sentrei/sentrei.git && git fetch origin main
   npx nx affected:apps --plain --base origin/main --head HEAD | grep $APP -q
 fi
 IS_AFFECTED=$?
