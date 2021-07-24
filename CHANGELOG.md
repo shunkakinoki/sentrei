@@ -1,3 +1,17 @@
+# [1.32.0](https://github.com/sentrei/sentrei/compare/v1.31.5...v1.32.0) (2021-07-24)
+
+### Bug Fixes
+
+- nx test jest coverage file ([52374c8](https://github.com/sentrei/sentrei/commit/52374c8f590ca4650b7a2644f38e100e1e1609ce))
+
+### Features
+
+- ini test coverage ([f2549af](https://github.com/sentrei/sentrei/commit/f2549af095535085528def920a6b5a303f290db0))
+
+### Performance Improvements
+
+- configure jest files ([bbd9b78](https://github.com/sentrei/sentrei/commit/bbd9b78525a3e0b69cd98644a67e2e94160fb1d1))
+
 ## [1.31.5](https://github.com/sentrei/sentrei/compare/v1.31.4...v1.31.5) (2021-07-24)
 
 ### Bug Fixes
