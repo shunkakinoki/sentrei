@@ -8,27 +8,14 @@ echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
 if [[ "$VERCEL_GIT_COMMIT_MESSAGE" =~ "[skip ci]" ]]; then
   exit 0
 else
-  if [[ "$PWD" =~ "apps/app" ]]; then
-    APP=app
-  fi
-  if [[ "$PWD" =~ "apps/demo" ]]; then
-    APP=demo
-  fi
-  if [[ "$PWD" =~ "apps/home" ]]; then
-    APP=home
-  fi
-  # if git diff --quiet HEAD~ -- components; then
-  #   exit 0
-  # else
-  #   exit 1
-  # fi
+  APP = $1
 fi
 
 if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$VERCEL_GIT_COMMIT_REF" == "beta" || "$VERCEL_GIT_COMMIT_REF" == "main" ]]; then
-  echo "✨ - Running in specified branches"
+  echo "✨ - Running in specified branches at $APP"
   npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
 else
-  echo "🌼 - Running in PR"
+  echo "🌼 - Running in PR at $APP"
   npx nx affected:apps --plain --base origin/main --head HEAD | grep $APP -q
 fi
 IS_AFFECTED=$?
