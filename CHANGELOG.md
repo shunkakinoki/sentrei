@@ -1,3 +1,9 @@
+## [1.32.2](https://github.com/sentrei/sentrei/compare/v1.32.1...v1.32.2) (2021-07-24)
+
+### Bug Fixes
+
+- tmate bug codecov ([5b6a996](https://github.com/sentrei/sentrei/commit/5b6a99681b961119ae6eee8af1271245db3bb443))
+
 ## [1.32.1](https://github.com/sentrei/sentrei/compare/v1.32.0...v1.32.1) (2021-07-24)
 
 ### Bug Fixes
