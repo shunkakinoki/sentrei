@@ -9,7 +9,7 @@ if [[ "$VERCEL_GIT_COMMIT_MESSAGE" =~ "[skip ci]" ]]; then
   echo "🤖 - Bot build cancelled"
   exit 0
 else
-  APP = $1
+  APP=$1
 fi
 
 if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$VERCEL_GIT_COMMIT_REF" == "beta" || "$VERCEL_GIT_COMMIT_REF" == "main" ]]; then
