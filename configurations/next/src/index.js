@@ -3,7 +3,10 @@ const withNx = require("@nrwl/next/plugins/with-nx");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 
-const config = {
+/**
+ * @type {import('next').NextConfig}
+ */
+const defaultConfig = {
   experimental: {
     optimizeCss: true,
     optimizeFonts: true,
@@ -28,6 +31,7 @@ const config = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  trailingSlash: false,
 };
 
 const plugins = [
@@ -38,4 +42,4 @@ const plugins = [
   withTranslate,
 ];
 
-module.exports = withPlugins(plugins, config);
+module.exports = { defaultConfig, plugins, withPlugins };

@@ -30,7 +30,7 @@
       "tags": ["scope:component"],
       "implicitDependencies": ["atoms", "molecules", "organisms"]
     },
-    "app": {
+    "storybook": {
       "tags": ["scope:app"],
       "implicitDependencies": [
         "atoms",
@@ -38,6 +38,20 @@
         "organisms",
         "roots",
         "screens"
+      ]
+    },
+    "next": {
+      "tags": ["scope:configuration"]
+    },
+    "app": {
+      "tags": ["scope:app"],
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens",
+        "next"
       ]
     },
     "app-e2e": {
@@ -51,7 +65,8 @@
         "molecules",
         "organisms",
         "roots",
-        "screens"
+        "screens",
+        "next"
       ]
     },
     "demo-e2e": {
@@ -65,7 +80,8 @@
         "molecules",
         "organisms",
         "roots",
-        "screens"
+        "screens",
+        "next"
       ]
     },
     "home-e2e": {
