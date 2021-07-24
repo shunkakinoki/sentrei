@@ -118,6 +118,19 @@
         }
       }
     },
+    "next": {
+      "root": "configurations/next",
+      "sourceRoot": "configurations/next/src",
+      "projectType": "configuration",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["configurations/next/**/*.js"]
+          }
+        }
+      }
+    },
     "app": {
       "root": "apps/app",
       "sourceRoot": "apps/app",
