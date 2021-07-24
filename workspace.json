@@ -294,11 +294,11 @@
           "options": {
             "cypressConfig": "e2e/demo-e2e/cypress.json",
             "tsConfig": "e2e/demo-e2e/tsconfig.e2e.json",
-            "devServerTarget": "app:serve"
+            "devServerTarget": "demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app:serve"
+              "devServerTarget": "demo:serve:production"
             }
           }
         },
@@ -371,11 +371,11 @@
           "options": {
             "cypressConfig": "e2e/home-e2e/cypress.json",
             "tsConfig": "e2e/home-e2e/tsconfig.e2e.json",
-            "devServerTarget": "app:serve"
+            "devServerTarget": "home:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "app:serve"
+              "devServerTarget": "home:serve:production"
             }
           }
         },
