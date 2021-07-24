@@ -32,7 +32,7 @@
     "build:app": "cross-env NODE_ENV=production nx build app --prod",
     "build:demo": "cross-env NODE_ENV=production nx build demo --prod",
     "build:home": "cross-env NODE_ENV=production nx build home --prod",
-    "build:storybook": "ross-env NODE_ENV=production nx build storybook",
+    "build:storybook": "cross-env NODE_ENV=production nx build storybook",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "cloud:ci": "nx-cloud start-ci-run",
     "cloud:start": "nx-cloud start-agent",
