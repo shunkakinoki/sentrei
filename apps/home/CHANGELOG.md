@@ -1,3 +1,9 @@
+## @sentrei/home [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.1...@sentrei/home@1.2.2) (2021-07-24)
+
+### Bug Fixes
+
+- e2e to dev ([cf49c22](https://github.com/sentrei/sentrei/commit/cf49c22ae772b9e43e300cdb9814b1fbda82e521))
+
 ## @sentrei/home [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.0...@sentrei/home@1.2.1) (2021-07-24)
 
 ### Performance Improvements
