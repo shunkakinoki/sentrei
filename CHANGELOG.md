@@ -1,3 +1,15 @@
+## [1.31.2](https://github.com/sentrei/sentrei/compare/v1.31.1...v1.31.2) (2021-07-24)
+
+### Bug Fixes
+
+- e2e bug basePath ([29db229](https://github.com/sentrei/sentrei/commit/29db22962a5a894ad580b0907cb20e9d447f7c4d))
+
+### Performance Improvements
+
+- configure basepath requirements ([e8afb49](https://github.com/sentrei/sentrei/commit/e8afb4943a5189c10927cbd577d236882d6c1866))
+- ini next configuration to nx project ([4662cf8](https://github.com/sentrei/sentrei/commit/4662cf8fbed59685bf29e5cef938eace7a53ac59))
+- ini nx storybook ([e6bcbb4](https://github.com/sentrei/sentrei/commit/e6bcbb4cd4ae096fd74a2f02a5c005bcc3a45d60))
+
 ## [1.31.1](https://github.com/sentrei/sentrei/compare/v1.31.0...v1.31.1) (2021-07-23)
 
 ### Performance Improvements
