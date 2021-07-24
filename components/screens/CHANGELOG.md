@@ -1,3 +1,9 @@
+## @sentrei/screens [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.0...@sentrei/screens@1.2.1) (2021-07-24)
+
+### Performance Improvements
+
+- configure jest files ([bbd9b78](https://github.com/sentrei/sentrei/commit/bbd9b78525a3e0b69cd98644a67e2e94160fb1d1))
+
 # @sentrei/screens [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.1.11...@sentrei/screens@1.2.0) (2021-07-23)
 
 ### Features
