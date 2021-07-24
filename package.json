@@ -73,9 +73,9 @@
     "serve:demo": "nx serve demo",
     "serve:home": "nx serve home",
     "serve:storybook": "nx serve storybook",
-    "start:app": "nx serve app --prod",
-    "start:demo": "nx serve demo --prod",
-    "start:home": "nx serve home --prod",
+    "start:app": "cross-env NODE_ENV=production nx serve app --prod",
+    "start:demo": "cross-env NODE_ENV=production nx serve demo --prod",
+    "start:home": "cross-env NODE_ENV=production nx serve home --prod",
     "start:storybook": "nx serve storybook",
     "test": "nx test",
     "vercel-build": "mkdir -p public && echo '<a href=\"https://sentrei.com\">Hello</a>' > public/output.html"
