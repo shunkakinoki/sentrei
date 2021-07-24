@@ -24,9 +24,6 @@ jobs:
     timeout-minutes: 30
     needs: nvm
     steps:
-      - uses: nrwl/nx-set-shas@v2
-        with:
-          main-branch-name: main
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
         with:
@@ -53,20 +50,22 @@ jobs:
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
       - run: |
           yarn install --frozen-lockfile
+      - id: sha
+        uses: nrwl/nx-set-shas@v2
       - run: |
           yarn run cloud:ci
       - run: |
           yarn run lint
       - run: |
-          yarn run affected:apps --base=${{ env.NX_BASE }}
+          yarn run affected:apps --base=${{ steps.sha.outputs.base }}
       - run: |
-          yarn run affected:build --base=${{ env.NX_BASE }}
+          yarn run affected:build --base=${{ steps.sha.outputs.base }}
       - run: |
-          yarn run affected:e2e --base=${{ env.NX_BASE }}
+          yarn run affected:e2e --base=${{ steps.sha.outputs.base }}
       - run: |
-          yarn run affected:lint --base=${{ env.NX_BASE }}
+          yarn run affected:lint --base=${{ steps.sha.outputs.base }}
       - run: |
-          yarn run affected:test --base=${{ env.NX_BASE }}
+          yarn run affected:test --base=${{ steps.sha.outputs.base }}
       - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
