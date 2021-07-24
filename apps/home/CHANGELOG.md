@@ -1,3 +1,9 @@
+## @sentrei/home [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.3...@sentrei/home@1.2.4) (2021-07-24)
+
+### Bug Fixes
+
+- refactor eslint config ([587591e](https://github.com/sentrei/sentrei/commit/587591e00658e6af416586c4f1689a348d5a8067))
+
 ## @sentrei/home [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.2...@sentrei/home@1.2.3) (2021-07-24)
 
 ### Bug Fixes
