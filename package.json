@@ -77,7 +77,7 @@
     "start:demo": "cross-env NODE_ENV=production nx serve demo --prod",
     "start:home": "cross-env NODE_ENV=production nx serve home --prod",
     "start:storybook": "nx serve storybook",
-    "test": "nx test"
+    "test": "nx run-many --target=test --all --codeCoverage"
   },
   "resolutions": {
     "postcss": "^8.3.6"
