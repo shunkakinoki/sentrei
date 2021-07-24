@@ -2,6 +2,8 @@ name: Check
 on:
   push:
     branches:
+      - alpha
+      - beta
       - main
   pull_request:
 env:
@@ -68,6 +70,9 @@ jobs:
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
         uses: nrwl/nx-tag-successful-ci-run@v1
+      - uses: codecov/codecov-action@v2
+        with:
+          directory: coverage
       - if: failure()
         run: |
           yarn run fix
