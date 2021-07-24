@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 30
     needs: nvm
     steps:
-      - uses: nrwl/nx-set-shas@v1
+      - uses: nrwl/nx-set-shas@v2
         with:
           main-branch-name: main
       - if: github.event_name == 'push'
