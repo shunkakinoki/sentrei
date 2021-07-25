@@ -26,7 +26,7 @@
     "affected:apps": "nx affected --target=apps --parallel",
     "affected:libs": "nx affected --target=libs --parallel",
     "affected:build": "nx affected --target=build --parallel",
-    "affected:e2e": "nx affected --target=e2e --parallel",
+    "affected:e2e": "nx affected --target=e2e",
     "affected:test": "nx affected --target=test --parallel",
     "affected:lint": "nx affected --target=lint--parallel",
     "affected:dep-graph": "nx affected:dep-graph",
