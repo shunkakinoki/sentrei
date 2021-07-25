@@ -13,5 +13,5 @@
       "@sentrei/home/*": ["apps/home/src/*"]
     }
   },
-  "extends": "@shunkakinoki/typescript"
+  "extends": "@sentrei/typescript"
 }
