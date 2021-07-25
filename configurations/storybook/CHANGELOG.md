@@ -1,3 +1,10 @@
+## @sentrei/storybook [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.4.0...@sentrei/storybook@1.4.1) (2021-07-25)
+
+### Performance Improvements
+
+- ini storybook addon designs ([646d9b0](https://github.com/sentrei/sentrei/commit/646d9b020318efd278ef8d3c394aee59383dd8b7))
+- refactor sb fix ([2b34e94](https://github.com/sentrei/sentrei/commit/2b34e94f8b4613c744e779bc98df6045ecada2f0))
+
 # @sentrei/storybook [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.3.0...@sentrei/storybook@1.4.0) (2021-07-23)
 
 ### Features
