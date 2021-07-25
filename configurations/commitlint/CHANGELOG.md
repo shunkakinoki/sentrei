@@ -1,3 +1,9 @@
+## @sentrei/commitlint [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.2.0...@sentrei/commitlint@1.2.1) (2021-07-25)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo to v13 ([0201ea1](https://github.com/sentrei/sentrei/commit/0201ea13430a45d0660e343ce6170f298abee3a1))
+
 # @sentrei/commitlint [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/commitlint@1.1.1...@sentrei/commitlint@1.2.0) (2021-07-23)
 
 ### Features
