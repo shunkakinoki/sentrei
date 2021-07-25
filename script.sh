@@ -17,7 +17,8 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   exit 1
 else
   NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
-  npm install -D @nrwl/workspace@$NX_VERSION --prefer-offline
+  TS_VERSION=$(node -e "console.log(require('./configurations/tsconfig/package.json').dependencies['typescript'])")
+  npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo "🌼 - Running in PR at $APP with $CHANGED"
   echo $CHANGED | grep $APP -q
