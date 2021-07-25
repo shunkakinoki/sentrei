@@ -11,7 +11,6 @@ module.exports = {
         docs: false,
       },
     },
-    "@storybook/addon-controls",
     {
       name: "@storybook/addon-postcss",
       options: {
@@ -20,8 +19,16 @@ module.exports = {
         },
       },
     },
-    "storybook-addon-next-router",
+    {
+      name: "@storybook/addon-storysource",
+      options: {
+        loaderOptions: {
+          injectStoryParameters: false,
+        },
+      },
+    },
     "storybook-addon-designs",
+    "storybook-addon-next-router",
     "storybook-dark-mode",
   ],
   core: {

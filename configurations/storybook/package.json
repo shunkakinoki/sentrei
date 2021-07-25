@@ -23,6 +23,7 @@
     "@storybook/addon-controls": "^6.3.5",
     "@storybook/addon-essentials": "^v6.3.5",
     "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-storysource": "^6.3.5",
     "@storybook/addons": "^v6.3.5",
     "@storybook/builder-webpack5": "^6.3.5",
     "@storybook/manager-webpack5": "^6.3.5",
