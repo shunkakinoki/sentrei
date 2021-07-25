@@ -1,1 +1,1 @@
-module.exports = require("@sentrei/tailwind");
+module.exports = require("@sentrei/tailwindcss");
