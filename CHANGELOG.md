@@ -1,3 +1,10 @@
+## [1.32.4](https://github.com/sentrei/sentrei/compare/v1.32.3...v1.32.4) (2021-07-25)
+
+### Bug Fixes
+
+- **deps:** update dependency lint-staged to ^11.1.1 ([5bd6f35](https://github.com/sentrei/sentrei/commit/5bd6f35a8835108c69e6f6826c3fa4b9460c600a))
+- **deps:** update dependency npm-package-json-lint to ^5.2.2 ([197d133](https://github.com/sentrei/sentrei/commit/197d133f062575b0e4885893137cc49cae94be3f))
+
 ## [1.32.3](https://github.com/sentrei/sentrei/compare/v1.32.2...v1.32.3) (2021-07-25)
 
 ### Bug Fixes
