@@ -1,3 +1,10 @@
+## [1.32.5](https://github.com/sentrei/sentrei/compare/v1.32.4...v1.32.5) (2021-07-25)
+
+### Performance Improvements
+
+- ini storybook addon designs ([646d9b0](https://github.com/sentrei/sentrei/commit/646d9b020318efd278ef8d3c394aee59383dd8b7))
+- refactor sb fix ([2b34e94](https://github.com/sentrei/sentrei/commit/2b34e94f8b4613c744e779bc98df6045ecada2f0))
+
 ## [1.32.4](https://github.com/sentrei/sentrei/compare/v1.32.3...v1.32.4) (2021-07-25)
 
 ### Bug Fixes
