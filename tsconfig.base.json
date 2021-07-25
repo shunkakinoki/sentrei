@@ -13,5 +13,5 @@
       "@sentrei/home/*": ["apps/home/src/*"]
     }
   },
-  "extends": "@sentrei/typescript"
+  "extends": "configurations/typescript/tsconfig.json"
 }
