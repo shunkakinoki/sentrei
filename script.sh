@@ -16,8 +16,8 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   echo "✨ - Running in specified branches at $APP"
   exit 1
 else
-  npx -v
-  npx nx affected:apps --plain --base HEAD~1 --head HEAD
+  NX_VERSION=$(node -e "console.log(require('./package.json').devDependencies['@nrwl/workspace'])")
+  npm install -D @nrwl/workspace@$NX_VERSION --prefer-offline
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo "🌼 - Running in PR at $APP with $CHANGED"
   echo $CHANGED | grep $APP -q
