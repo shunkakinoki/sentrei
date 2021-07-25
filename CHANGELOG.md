@@ -1,3 +1,9 @@
+## [1.32.3](https://github.com/sentrei/sentrei/compare/v1.32.2...v1.32.3) (2021-07-25)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo to v13 ([0201ea1](https://github.com/sentrei/sentrei/commit/0201ea13430a45d0660e343ce6170f298abee3a1))
+
 ## [1.32.2](https://github.com/sentrei/sentrei/compare/v1.32.1...v1.32.2) (2021-07-24)
 
 ### Bug Fixes
