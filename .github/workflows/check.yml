@@ -107,4 +107,6 @@ jobs:
       - run: |
           yarn install --frozen-lockfile
       - run: |
+          yarn cypress install
+      - run: |
           yarn run cloud:start
