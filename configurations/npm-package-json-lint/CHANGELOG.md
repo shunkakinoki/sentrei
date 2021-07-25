@@ -1,3 +1,9 @@
+## @sentrei/npm-package-json-lint-config [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-package-json-lint-config@1.0.0...@sentrei/npm-package-json-lint-config@1.0.1) (2021-07-25)
+
+### Bug Fixes
+
+- **deps:** update dependency npm-package-json-lint to ^5.2.2 ([197d133](https://github.com/sentrei/sentrei/commit/197d133f062575b0e4885893137cc49cae94be3f))
+
 # @sentrei/npm-package-json-lint-config 1.0.0 (2021-07-23)
 
 ### Features
