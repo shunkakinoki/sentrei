@@ -25,6 +25,7 @@
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addons": "^v6.3.5",
     "@storybook/builder-webpack5": "^6.3.5",
+    "@storybook/manager-webpack5": "^6.3.5",
     "@storybook/react": "^v6.3.5",
     "@storybook/theming": "^v6.3.5",
     "storybook-addon-next-router": "^3.0.5",

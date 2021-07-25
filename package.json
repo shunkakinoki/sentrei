@@ -80,7 +80,8 @@
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {
-    "postcss": "^8.3.6"
+    "postcss": "^8.3.6",
+    "webpack": "^5.46.0"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
