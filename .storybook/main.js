@@ -11,7 +11,6 @@ module.exports = {
         docs: false,
       },
     },
-    "@storybook/addon-controls",
     {
       name: "@storybook/addon-postcss",
       options: {
@@ -20,9 +19,22 @@ module.exports = {
         },
       },
     },
+    {
+      name: "@storybook/addon-storysource",
+      options: {
+        loaderOptions: {
+          injectStoryParameters: false,
+        },
+      },
+    },
+    "storybook-addon-designs",
     "storybook-addon-next-router",
     "storybook-dark-mode",
   ],
+  core: {
+    builder: "webpack5",
+    //   builder: "storybook-builder-vite",
+  },
   webpackFinal: async config => {
     config.resolve.plugins = [new TsconfigPathsPlugin()];
     return config;
@@ -32,10 +44,4 @@ module.exports = {
     config.resolve.alias = aliases;
     return config;
   },
-  // core: {
-  //   builder: "storybook-builder-vite",
-  // },
-  // core: {
-  //   builder: "webpack5",
-  // },
 };

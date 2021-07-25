@@ -17,14 +17,18 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   exit 1
 else
   echo "🌼 - Running in PR at $APP"
-  npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
-  IS_AFFECTED=$?
 
-  if [ $IS_AFFECTED -eq 1 ]; then
-    echo "🛑 - Build cancelled at $APP"
+  NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
+  TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
+  npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
+  CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  echo $CHANGED | grep $APP -q
+
+  if [ $? -eq 1 ]; then
+    echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
-  elif [ $IS_AFFECTED -eq 0 ]; then
-    echo "✅ - Build can proceed at $APP"
+  else
+    echo "✅ - Build can proceed at $APP - $CHANGED"
     exit 1
   fi
 fi

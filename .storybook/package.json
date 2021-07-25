@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/tailwind",
-  "version": "1.2.1",
+  "name": "@sentrei/design",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -12,20 +12,11 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
-  "main": "src/index.js",
-  "files": [
-    "src/index.js"
-  ],
+  "main": "main.js",
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.1",
-    "@tailwindcss/forms": "^0.3.3",
-    "@tailwindcss/line-clamp": "^0.2.1",
-    "@tailwindcss/typography": "^0.4.1",
-    "tailwindcss": "^2.2.7"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "publishConfig": {
     "access": "public",
