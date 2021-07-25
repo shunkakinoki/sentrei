@@ -17,6 +17,7 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   exit 1
 else
   echo "🌼 - Running in PR at $APP"
+  npx nx affected:apps --plain --base HEAD~1 --head HEAD
   npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
   IS_AFFECTED=$?
 
