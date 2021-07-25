@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: Renovate
+    conditions:
+      - author=renovate[bot]
+      - check-success=auto-approve
+      - check-success=check
+    actions:
+      merge:
+        method: merge
