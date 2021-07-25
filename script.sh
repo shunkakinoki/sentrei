@@ -16,15 +16,14 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
   echo "✨ - Running in specified branches at $APP"
   exit 1
 else
-  echo "🌼 - Running in PR at $APP"
-  npx nx affected:apps --plain --base HEAD~1 --head HEAD
-  npx nx affected:apps --plain --base HEAD~1 --head HEAD | grep $APP -q
-  IS_AFFECTED=$?
+  CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  echo "🌼 - Running in PR at $APP with $CHANGED"
+  echo $CHANGED | grep $APP -q
 
-  if [ $IS_AFFECTED -eq 1 ]; then
+  if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP"
     exit 0
-  elif [ $IS_AFFECTED -eq 0 ]; then
+  else
     echo "✅ - Build can proceed at $APP"
     exit 1
   fi
