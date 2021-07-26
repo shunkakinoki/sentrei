@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo "PWD: $PWD"
-echo "VERCEL_ENV: $VERCEL_ENV"
-echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
-echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
+if [ $VERCEL -eq 1 ]; then
+  echo "PWD: $PWD"
+  echo "VERCEL_ENV: $VERCEL_ENV"
+  echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
+  echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
+fi
 
 if [[ "$VERCEL_GIT_COMMIT_MESSAGE" =~ "[skip ci]" ]]; then
   echo "🤖 - Bot build cancelled"
