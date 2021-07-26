@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.4.2...@sentrei/molecules@1.4.3) (2021-07-26)
+
+### Performance Improvements
+
+- ini button group props ([5e5cc47](https://github.com/sentrei/sentrei/commit/5e5cc4775677ccf030784dd30841622bf2e39a5c))
+
 ## @sentrei/molecules [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.4.1...@sentrei/molecules@1.4.2) (2021-07-24)
 
 ### Bug Fixes
