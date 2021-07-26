@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $VERCEL -eq 1 ]; then
+if [ $VERCEL ]; then
   echo "PWD: $PWD"
   echo "VERCEL_ENV: $VERCEL_ENV"
   echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
@@ -20,7 +20,7 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
 else
   echo "🌼 - Running in PR at $APP"
 
-  if [ $VERCEL -eq 1 ]; then
+  if [ $VERCEL ]; then
     NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
     TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
     npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
