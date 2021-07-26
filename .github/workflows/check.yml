@@ -66,8 +66,7 @@ jobs:
           yarn run affected:lint
       - run: |
           yarn run affected:test
-      - continue-on-error: true
-        run: |
+      - run: |
           bash script.sh storybook
       - if: failure()
         uses: chromaui/action@v1
@@ -82,7 +81,8 @@ jobs:
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
         uses: nrwl/nx-tag-successful-ci-run@v1
-      - uses: codecov/codecov-action@v2
+      - if: always()
+        uses: codecov/codecov-action@v2
         with:
           directory: coverage
       - if: failure()
