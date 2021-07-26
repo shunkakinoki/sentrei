@@ -68,9 +68,12 @@ jobs:
           yarn run affected:test
       - continue-on-error: true
         run: |
-          bash script.sh storybook || yarn run chromatic
-        env:
-          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          bash script.sh storybook
+      - uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          workingDir: dist/apps/storybook
       - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
