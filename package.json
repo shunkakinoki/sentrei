@@ -35,7 +35,7 @@
     "build:home": "cross-env NODE_ENV=production nx build home --prod",
     "build:storybook": "cross-env NODE_ENV=production nx build storybook",
     "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
-    "chromatic": "chromatic -b build:chromatic --exit-zero-on-changes",
+    "chromatic": "chromatic -b build:storybook --exit-zero-on-changes",
     "cloud:ci": "nx-cloud start-ci-run",
     "cloud:start": "nx-cloud start-agent",
     "cloud:stop": "nx-cloud stop-all-agents",

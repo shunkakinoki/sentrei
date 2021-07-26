@@ -68,10 +68,7 @@ jobs:
           yarn run affected:test
       - continue-on-error: true
         run: |
-          bash script.sh storybook
-      - if: failure()
-        run: |
-          yarn run chromatic
+          bash script.sh storybook || yarn run chromatic
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
       - run: |
