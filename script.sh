@@ -18,9 +18,12 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
 else
   echo "🌼 - Running in PR at $APP"
 
-  NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
-  TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
-  npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
+  if [ $VERCEL -eq 1 ]; then
+    NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
+    TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
+    npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
+  fi
+
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo $CHANGED | grep $APP -q
 
