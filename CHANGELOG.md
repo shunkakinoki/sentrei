@@ -1,3 +1,9 @@
+# [1.34.0](https://github.com/sentrei/sentrei/compare/v1.33.0...v1.34.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 # [1.33.0](https://github.com/sentrei/sentrei/compare/v1.32.6...v1.33.0) (2021-07-26)
 
 ### Features

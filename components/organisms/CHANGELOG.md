@@ -1,3 +1,9 @@
+# @sentrei/organisms [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.4.2...@sentrei/organisms@1.5.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 ## @sentrei/organisms [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.4.1...@sentrei/organisms@1.4.2) (2021-07-24)
 
 ### Bug Fixes

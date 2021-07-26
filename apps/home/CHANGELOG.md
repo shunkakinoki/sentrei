@@ -1,3 +1,9 @@
+# @sentrei/home [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.4...@sentrei/home@1.3.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 ## @sentrei/home [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.2.3...@sentrei/home@1.2.4) (2021-07-24)
 
 ### Bug Fixes

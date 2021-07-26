@@ -1,3 +1,9 @@
+# @sentrei/roots [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.1.2...@sentrei/roots@1.2.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 ## @sentrei/roots [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.1.1...@sentrei/roots@1.1.2) (2021-07-24)
 
 ### Bug Fixes
