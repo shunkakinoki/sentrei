@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo "PWD: $PWD"
-echo "VERCEL_ENV: $VERCEL_ENV"
-echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
-echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
+if [ $VERCEL ]; then
+  echo "PWD: $PWD"
+  echo "VERCEL_ENV: $VERCEL_ENV"
+  echo "VERCEL_GIT_COMMIT_MESSAGE: $VERCEL_GIT_COMMIT_MESSAGE"
+  echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
+fi
 
 if [[ "$VERCEL_GIT_COMMIT_MESSAGE" =~ "[skip ci]" ]]; then
   echo "🤖 - Bot build cancelled"
@@ -18,9 +20,12 @@ if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$
 else
   echo "🌼 - Running in PR at $APP"
 
-  NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
-  TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
-  npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
+  if [ $VERCEL ]; then
+    NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
+    TS_VERSION=$(node -e "console.log(require('./configurations/typescript/package.json').dependencies['typescript'])")
+    npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
+  fi
+
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo $CHANGED | grep $APP -q
 

@@ -137,15 +137,34 @@
       "projectType": "application",
       "targets": {
         "build": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/storybook:build",
+          "outputs": ["{options.outputPath}"],
           "options": {
-            "command": "yarn run build-storybook -o public --quiet"
+            "uiFramework": "@storybook/react",
+            "outputPath": "dist/apps/storybook",
+            "config": {
+              "configFolder": ".storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
           }
         },
         "serve": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/storybook:storybook",
           "options": {
-            "command": "yarn run start-storybook --quiet"
+            "uiFramework": "@storybook/react",
+            "port": 4400,
+            "config": {
+              "configFolder": ".storybook"
+            }
+          },
+          "configurations": {
+            "ci": {
+              "quiet": true
+            }
           }
         },
         "lint": {
