@@ -66,6 +66,11 @@ jobs:
           yarn run affected:lint
       - run: |
           yarn run affected:test
+      - continue-on-error: true
+        run: |
+          bash script.sh storybook
+      - if: failure()
+          yarn run chromatic
       - run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
