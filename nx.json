@@ -58,7 +58,8 @@
       "tags": ["scope:configuration"]
     },
     "next": {
-      "tags": ["scope:configuration"]
+      "tags": ["scope:configuration"],
+      "implicitDependencies": ["react"]
     },
     "npm-check-updates": {
       "tags": ["scope:configuration"]
