@@ -33,7 +33,6 @@
     "@nrwl/web": "^12.6.2",
     "@nrwl/workspace": "^12.6.2"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

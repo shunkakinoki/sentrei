@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/webpack",
+  "sourceRoot": "configurations/webpack",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/webpack/**/*.js"]
+      }
+    }
+  }
+}

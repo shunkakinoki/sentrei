@@ -22,7 +22,6 @@
   "dependencies": {
     "cypress": "^8.0.0"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/semantic-release",
+  "sourceRoot": "configurations/semantic-release",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/semantic-release/**/*.js"]
+      }
+    }
+  }
+}

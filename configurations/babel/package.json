@@ -22,7 +22,6 @@
   "dependencies": {
     "babel-plugin-react-generate-property": "^1.0.5"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

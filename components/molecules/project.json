@@ -1,0 +1,20 @@
+{
+  "projectType": "library",
+  "root": "components/molecules",
+  "sourceRoot": "components/molecules/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["components/molecules/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/components/molecules"],
+      "options": {
+        "jestConfig": "components/molecules/jest.config.js"
+      }
+    }
+  }
+}

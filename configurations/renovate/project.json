@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/renovate",
+  "sourceRoot": "configurations/renovate",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/renovate/**/*.js"]
+      }
+    }
+  }
+}

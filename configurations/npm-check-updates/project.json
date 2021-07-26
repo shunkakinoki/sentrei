@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/npm-check-updates",
+  "sourceRoot": "configurations/npm-check-updates",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/npm-check-updates/**/*.js"]
+      }
+    }
+  }
+}

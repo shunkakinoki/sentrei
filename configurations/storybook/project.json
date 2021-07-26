@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/storybook",
+  "sourceRoot": "configurations/storybook",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/storybook/**/*.js"]
+      }
+    }
+  }
+}

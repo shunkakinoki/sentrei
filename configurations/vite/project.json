@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/vite",
+  "sourceRoot": "configurations/vite",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/vite/**/*.js"]
+      }
+    }
+  }
+}

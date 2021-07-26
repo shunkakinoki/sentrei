@@ -1,0 +1,20 @@
+{
+  "projectType": "library",
+  "root": "components/organisms",
+  "sourceRoot": "components/organisms/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["components/organisms/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/components/organisms"],
+      "options": {
+        "jestConfig": "components/organisms/jest.config.js"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/husky",
+  "sourceRoot": "configurations/husky",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/husky/**/*.js"]
+      }
+    }
+  }
+}

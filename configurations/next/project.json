@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/next",
+  "sourceRoot": "configurations/next/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/next/**/*.js"]
+      }
+    }
+  }
+}
