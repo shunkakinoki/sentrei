@@ -1,3 +1,9 @@
+# @sentrei/demo [1.15.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.14.3...@sentrei/demo@1.15.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 ## @sentrei/demo [1.14.3](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.14.2...@sentrei/demo@1.14.3) (2021-07-24)
 
 ### Bug Fixes
