@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 export default {
   component: Button,
-  title: "Button",
+  title: "Atoms/Button",
 } as Meta;
 
 export const _Button: Story<ButtonProps> = args => {

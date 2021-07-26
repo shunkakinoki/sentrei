@@ -4,7 +4,7 @@ import { ButtonSection } from "./ButtonSection";
 
 export default {
   component: ButtonSection,
-  title: "ButtonSection",
+  title: "Organisms/ButtonSection",
 } as Meta;
 
 export const _ButtonSection: Story = args => {

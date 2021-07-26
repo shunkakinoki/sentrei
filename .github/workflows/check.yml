@@ -66,23 +66,19 @@ jobs:
           yarn run affected:lint
       - run: |
           yarn run affected:test
-      - continue-on-error: true
-        run: |
-          bash script.sh storybook
-      - if: failure()
-        uses: chromaui/action@v1
+      - uses: chromaui/action@v1
+        continue-on-error: true
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          exitZeroOnChanges: true
-          buildScriptName: build:storybook
-          workingDir: dist/apps/storybook
+          storybookBuildDir: dist/apps/storybook
       - if: always()
         run: |
           yarn run cloud:stop
       - if: github.event_name != 'pull_request'
         uses: nrwl/nx-tag-successful-ci-run@v1
-      - uses: codecov/codecov-action@v2
+      - if: always()
+        uses: codecov/codecov-action@v2
         with:
           directory: coverage
       - if: failure()

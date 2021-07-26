@@ -4,7 +4,7 @@ import { ButtonGroup } from "./ButtonGroup";
 
 export default {
   component: ButtonGroup,
-  title: "ButtonGroup",
+  title: "Molecules/ButtonGroup",
 } as Meta;
 
 export const _ButtonGroup: Story = args => {
