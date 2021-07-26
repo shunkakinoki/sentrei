@@ -135,7 +135,9 @@
         "organisms",
         "roots",
         "screens",
-        "next"
+        "next",
+        "tailwindcss",
+        "typescript"
       ]
     },
     "home-e2e": {
@@ -144,7 +146,7 @@
     },
     "design": {
       "tags": ["scope:app"],
-      "implicitDependencies": ["storybook"]
+      "implicitDependencies": ["storybook", "typescript", "webpack"]
     }
   },
   "targetDependencies": {
