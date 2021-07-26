@@ -1,3 +1,9 @@
+# @sentrei/screens [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.2...@sentrei/screens@1.3.0) (2021-07-26)
+
+### Features
+
+- nx workspace revamp ([15dda56](https://github.com/sentrei/sentrei/commit/15dda56c923c7def734ddc4fe9411188c0366c1a))
+
 ## @sentrei/screens [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.1...@sentrei/screens@1.2.2) (2021-07-24)
 
 ### Bug Fixes
