@@ -67,6 +67,7 @@ jobs:
       - run: |
           yarn run affected:test
       - uses: chromaui/action@v1
+        continue-on-error: true
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
