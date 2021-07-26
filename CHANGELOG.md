@@ -1,3 +1,13 @@
+# [1.33.0](https://github.com/sentrei/sentrei/compare/v1.32.6...v1.33.0) (2021-07-26)
+
+### Features
+
+- ini storybook chromatic ([cf49a3f](https://github.com/sentrei/sentrei/commit/cf49a3f849db76db68939484dd7cab6b131f3fba))
+
+### Performance Improvements
+
+- ini button group props ([5e5cc47](https://github.com/sentrei/sentrei/commit/5e5cc4775677ccf030784dd30841622bf2e39a5c))
+
 ## [1.32.6](https://github.com/sentrei/sentrei/compare/v1.32.5...v1.32.6) (2021-07-25)
 
 ### Bug Fixes
