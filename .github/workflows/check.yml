@@ -71,7 +71,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitZeroOnChanges: true
-          buildScriptName: build:storybook
+          buildScriptName: chromatic
           storybookBuildDir: dist/apps/storybook
       - if: always()
         run: |
