@@ -1,0 +1,20 @@
+{
+  "projectType": "library",
+  "root": "components/screens",
+  "sourceRoot": "components/screens/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["components/screens/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/components/screens"],
+      "options": {
+        "jestConfig": "components/screens/jest.config.js"
+      }
+    }
+  }
+}

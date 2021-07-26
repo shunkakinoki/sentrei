@@ -1,0 +1,50 @@
+{
+  "projectType": "application",
+  "root": "apps/home",
+  "sourceRoot": "apps/home",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "root": "apps/home",
+        "outputPath": "dist/apps/home"
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "home:build",
+        "dev": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "home:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "home:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/home"],
+      "options": {
+        "jestConfig": "apps/home/jest.config.js"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
