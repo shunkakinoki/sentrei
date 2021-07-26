@@ -1,3 +1,9 @@
+# @sentrei/storybook [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.4.1...@sentrei/storybook@1.5.0) (2021-07-26)
+
+### Features
+
+- ini storybook chromatic ([cf49a3f](https://github.com/sentrei/sentrei/commit/cf49a3f849db76db68939484dd7cab6b131f3fba))
+
 ## @sentrei/storybook [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.4.0...@sentrei/storybook@1.4.1) (2021-07-25)
 
 ### Performance Improvements
