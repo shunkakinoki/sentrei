@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/postcss",
+  "sourceRoot": "configurations/postcss",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/postcss/**/*.js"]
+      }
+    }
+  }
+}

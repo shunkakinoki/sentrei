@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/tailwindcss",
+  "sourceRoot": "configurations/tailwindcss",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/tailwindcss/**/*.js"]
+      }
+    }
+  }
+}

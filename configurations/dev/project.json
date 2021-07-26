@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/dev",
+  "sourceRoot": "configurations/dev",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/dev/**/*.js"]
+      }
+    }
+  }
+}

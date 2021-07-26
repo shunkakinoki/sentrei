@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/stylelint",
+  "sourceRoot": "configurations/stylelint",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/stylelint/**/*.js"]
+      }
+    }
+  }
+}

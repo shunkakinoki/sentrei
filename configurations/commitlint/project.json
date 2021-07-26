@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/commitlint",
+  "sourceRoot": "configurations/commitlint",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/commitlint/**/*.js"]
+      }
+    }
+  }
+}
