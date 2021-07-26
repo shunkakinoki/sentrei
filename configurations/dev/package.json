@@ -24,7 +24,6 @@
     "cross-env": "^7.0.3",
     "multi-semantic-release": "^2.8.2"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
