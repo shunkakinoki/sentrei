@@ -13,9 +13,9 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
-    "start": "remotion preview src/index.tsx",
     "build": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
-    "upgrade": "remotion upgrade"
+    "start": "remotion preview src/index.tsx",
+    "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
     "@remotion/bundler": "^2.1.5",
