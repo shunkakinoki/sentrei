@@ -1,3 +1,9 @@
+# [1.35.0](https://github.com/sentrei/sentrei/compare/v1.34.0...v1.35.0) (2021-07-27)
+
+### Features
+
+- ini demo video ([9c6433c](https://github.com/sentrei/sentrei/commit/9c6433c49e385de7a4f4cf76644631112a3eea0d))
+
 # [1.34.0](https://github.com/sentrei/sentrei/compare/v1.33.0...v1.34.0) (2021-07-26)
 
 ### Features
