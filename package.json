@@ -18,7 +18,8 @@
       "configurations/*",
       "e2e/*",
       "libs/*",
-      "packages/*"
+      "packages/*",
+      "videos/*"
     ]
   },
   "scripts": {
@@ -84,7 +85,6 @@
   "resolutions": {
     "cypress": "^8.0.0",
     "postcss": "^8.3.6",
-    "postcss-preset-env": "^6.7.0",
     "webpack": "^5.46.0"
   },
   "npmpackagejsonlint": {
