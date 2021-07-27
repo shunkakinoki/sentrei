@@ -1,7 +1,7 @@
 {
   "projectType": "application",
-  "root": "apps/home",
-  "sourceRoot": "apps/home",
+  "root": "videos/demo-video",
+  "sourceRoot": "videos/demo-video/src",
   "targets": {
     "build": {
       "builder": "@nrwl/workspace:run-commands",
@@ -11,15 +11,15 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/home"],
+      "outputs": ["coverage/videos/demo-video"],
       "options": {
-        "jestConfig": "apps/home/jest.config.js"
+        "jestConfig": "videos/demo-video/jest.config.js"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["videos/demo-video/**/*.{ts,tsx,js,jsx}"]
       }
     }
   }
