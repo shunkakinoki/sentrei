@@ -12,6 +12,10 @@
   },
   "license": "MIT",
   "author": "Sentrei, Inc.",
+  "main": "src/index.ts",
+  "files": [
+    "./"
+  ],
   "scripts": {
     "build": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
     "start": "remotion preview src/index.tsx",
