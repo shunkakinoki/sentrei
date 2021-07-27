@@ -53,7 +53,8 @@
     "home": "apps/home",
     "app-e2e": "e2e/app-e2e",
     "demo-e2e": "e2e/demo-e2e",
-    "home-e2e": "e2e/home-e2e"
+    "home-e2e": "e2e/home-e2e",
+    "demo-video": "videos/demo-video"
   },
   "version": 2,
   "workspaceLayout": {
