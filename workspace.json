@@ -38,6 +38,7 @@
     "postcss": "configurations/postcss",
     "prettier": "configurations/prettier",
     "react": "configurations/react",
+    "remotion": "configurations/remotion",
     "renovate": "configurations/renovate",
     "semantic-release": "configurations/semantic-release",
     "storybook": "configurations/storybook",

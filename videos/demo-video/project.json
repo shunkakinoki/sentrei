@@ -1,0 +1,26 @@
+{
+  "projectType": "application",
+  "root": "apps/home",
+  "sourceRoot": "apps/home",
+  "targets": {
+    "build": {
+      "builder": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "yarn run build"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/home"],
+      "options": {
+        "jestConfig": "apps/home/jest.config.js"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/home/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
