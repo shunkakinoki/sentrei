@@ -22,18 +22,7 @@ Config.Bundling.overrideWebpackConfig(currentConfiguration => {
         }),
         {
           test: /\.css$/i,
-          use: [
-            "style-loader",
-            "css-loader",
-            {
-              loader: "postcss-loader",
-              options: {
-                postcssOptions: {
-                  plugins: ["tailwindcss"],
-                },
-              },
-            },
-          ],
+          use: ["style-loader", "css-loader", "postcss-loader"],
         },
       ],
     },
