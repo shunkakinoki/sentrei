@@ -18,7 +18,8 @@
       "configurations/*",
       "e2e/*",
       "libs/*",
-      "packages/*"
+      "packages/*",
+      "videos/*"
     ]
   },
   "scripts": {

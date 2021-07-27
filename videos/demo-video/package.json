@@ -1,0 +1,26 @@
+{
+  "name": "@sentrei/demo-video",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "scripts": {
+    "start": "remotion preview src/index.tsx",
+    "build": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^2.1.5",
+    "@remotion/cli": "^2.1.5",
+    "@remotion/renderer": "^2.1.5",
+    "remotion": "^2.1.5"
+  }
+}
