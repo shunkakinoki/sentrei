@@ -3,7 +3,7 @@
   "root": "videos/demo-video",
   "sourceRoot": "videos/demo-video/src",
   "targets": {
-    "build": {
+    "generate": {
       "builder": "@nrwl/workspace:run-commands",
       "options": {
         "command": "yarn run build",
