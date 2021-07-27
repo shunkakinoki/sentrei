@@ -14,7 +14,8 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/videos/demo-video"],
       "options": {
-        "jestConfig": "videos/demo-video/jest.config.js"
+        "jestConfig": "videos/demo-video/jest.config.js",
+        "passWithNoTests": true
       }
     },
     "lint": {
