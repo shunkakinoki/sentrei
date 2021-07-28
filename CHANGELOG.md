@@ -1,3 +1,9 @@
+# [1.36.0](https://github.com/sentrei/sentrei/compare/v1.35.3...v1.36.0) (2021-07-28)
+
+### Features
+
+- ini editor repo ([e77985e](https://github.com/sentrei/sentrei/commit/e77985e856c67336083fcf05498a4617a6baa7c5))
+
 ## [1.35.3](https://github.com/sentrei/sentrei/compare/v1.35.2...v1.35.3) (2021-07-28)
 
 ### Bug Fixes
