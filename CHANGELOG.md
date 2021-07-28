@@ -1,3 +1,9 @@
+## [1.37.1](https://github.com/sentrei/sentrei/compare/v1.37.0...v1.37.1) (2021-07-28)
+
+### Performance Improvements
+
+- refactor typescript package ([7d208ef](https://github.com/sentrei/sentrei/commit/7d208ef4c6429f8104c203fe6100477680cc585e))
+
 # [1.37.0](https://github.com/sentrei/sentrei/compare/v1.36.0...v1.37.0) (2021-07-28)
 
 ### Features
