@@ -1,3 +1,13 @@
+## [1.35.2](https://github.com/sentrei/sentrei/compare/v1.35.1...v1.35.2) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/bundler to ^2.2.0 ([3764280](https://github.com/sentrei/sentrei/commit/37642806e8dcaf1f60430d17b4c332285e795ef8))
+- **deps:** update dependency @remotion/renderer to ^2.2.0 ([3e33b1f](https://github.com/sentrei/sentrei/commit/3e33b1f18f5fceeb1e70099fa2f3a0ea7c35692e))
+- **deps:** update dependency remotion to ^2.2.0 ([b01f5e5](https://github.com/sentrei/sentrei/commit/b01f5e577198868aa7d18938acb744b7203e5a2e))
+- **deps:** update dependency renovate to ^25.59.1 ([f09ff3b](https://github.com/sentrei/sentrei/commit/f09ff3b654984d6b745fc4e8f08c54b99765340f))
+- **deps:** update dependency vite to ^2.4.4 ([410e74d](https://github.com/sentrei/sentrei/commit/410e74dd520c524918cf37d9e76399483ffc7d06))
+
 ## [1.35.1](https://github.com/sentrei/sentrei/compare/v1.35.0...v1.35.1) (2021-07-28)
 
 ### Bug Fixes
