@@ -1,3 +1,9 @@
+## @sentrei/postcss [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.3.0...@sentrei/postcss@1.3.1) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency postcss-nested to ^5.0.6 ([446d138](https://github.com/sentrei/sentrei/commit/446d138ee424ad71fb640f6885560bccbc96c7a8))
+
 # @sentrei/postcss [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.2.0...@sentrei/postcss@1.3.0) (2021-07-23)
 
 ### Features
