@@ -3220,7 +3220,7 @@
     webpack "5.37.0"
     webpack-hot-middleware "^2.25.0"
 
-"@remotion/cli@^2.1.5":
+"@remotion/cli@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.2.0.tgz#569154803d1cbf1bc559c5850f122f6f75f36376"
   integrity sha512-kQ1XXOzehnorb/PqLUHaeyM+rUN4XaK6eOim7i8qOJ5g9z639MzwoBvmNEy596byxwcbGRZMEp9zdIcVBlgJeQ==
