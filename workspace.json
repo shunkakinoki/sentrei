@@ -25,7 +25,6 @@
     "babel": "configurations/babel",
     "commitlint": "configurations/commitlint",
     "cypress": "configurations/cypress",
-    "depcheck": "configurations/depcheck",
     "dev": "configurations/dev",
     "eslint": "configurations/eslint",
     "husky": "configurations/husky",

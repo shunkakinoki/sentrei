@@ -35,7 +35,6 @@
     "build:home": "cross-env NODE_ENV=production nx build home --prod",
     "build:og": "cross-env NODE_ENV=production nx build og --prod",
     "build:design": "cross-env NODE_ENV=production nx build design",
-    "check": "yarn run lint && yarn run depcheck:check && yarn run release:check",
     "chromatic": "bash script.sh design || yarn run build:design",
     "cloud:ci": "nx-cloud start-ci-run",
     "cloud:start": "nx-cloud start-agent",

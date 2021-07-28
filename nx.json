@@ -39,9 +39,6 @@
     "cypress": {
       "tags": ["scope:configuration"]
     },
-    "depcheck": {
-      "tags": ["scope:configuration"]
-    },
     "dev": {
       "tags": ["scope:configuration"]
     },
