@@ -1,3 +1,9 @@
+## @sentrei/demo-video [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo-video@1.0.0...@sentrei/demo-video@1.0.1) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/cli to ^2.2.0 ([3a213e6](https://github.com/sentrei/sentrei/commit/3a213e60f4381cb6faeb5167aef01b69ef625f42))
+
 # @sentrei/demo-video 1.0.0 (2021-07-27)
 
 ### Features
