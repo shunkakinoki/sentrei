@@ -3199,7 +3199,7 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@remotion/bundler@^2.1.5", "@remotion/bundler@^2.2.0":
+"@remotion/bundler@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.2.0.tgz#0f6e52784f6a1ac07bc12d90581c9c0a8aaedc16"
   integrity sha512-J8xigEhYTQshYDdz0tXYwzkMPuTS28mC9g3Nz6m1NlPWQ3M+iUpiJ6sEhX7MWKENMRdPYppaXZe0rc1xqVKgPw==
