@@ -17,8 +17,8 @@
     "src"
   ],
   "scripts": {
-    "build": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
-    "start": "remotion preview src/index.tsx",
-    "fix": "cd ../.. && yarn run fix"
+    "fix": "cd ../.. && yarn run fix",
+    "render": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
+    "start": "remotion preview src/index.tsx"
   }
 }

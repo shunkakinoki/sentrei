@@ -3,10 +3,10 @@
   "root": "videos/demo-video",
   "sourceRoot": "videos/demo-video/src",
   "targets": {
-    "video": {
+    "render": {
       "builder": "@nrwl/workspace:run-commands",
       "options": {
-        "command": "yarn run build",
+        "command": "yarn run render",
         "cwd": "videos/demo-video"
       }
     },

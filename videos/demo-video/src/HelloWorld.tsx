@@ -28,7 +28,7 @@ export const HelloWorld: React.FC<{
   const transitionStart = 25;
 
   return (
-    <div className="bg-red-300" style={{ flex: 1, backgroundColor: "white" }}>
+    <div className="bg-sky-300" style={{ flex: 1 }}>
       <div style={{ opacity }}>
         <Sequence from={0} durationInFrames={videoConfig.durationInFrames}>
           <Logo transitionStart={transitionStart} />
