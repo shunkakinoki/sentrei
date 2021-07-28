@@ -50,10 +50,12 @@
     "design": ".storybook",
     "app": "apps/app",
     "demo": "apps/demo",
+    "docs": "apps/docs",
     "home": "apps/home",
     "og": "apps/og",
     "app-e2e": "e2e/app-e2e",
     "demo-e2e": "e2e/demo-e2e",
+    "docs-e2e": "e2e/docs-e2e",
     "home-e2e": "e2e/home-e2e",
     "og-e2e": "e2e/og-e2e",
     "demo-video": "videos/demo-video"
