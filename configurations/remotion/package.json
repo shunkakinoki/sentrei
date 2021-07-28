@@ -22,7 +22,7 @@
   "dependencies": {
     "@remotion/bundler": "^2.1.5",
     "@remotion/cli": "^2.2.0",
-    "@remotion/renderer": "^2.1.5",
+    "@remotion/renderer": "^2.2.0",
     "remotion": "^2.1.5"
   },
   "publishConfig": {

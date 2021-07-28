@@ -3254,7 +3254,7 @@
   dependencies:
     remotion "^2.2.0"
 
-"@remotion/renderer@^2.1.5", "@remotion/renderer@^2.2.0":
+"@remotion/renderer@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.2.0.tgz#844a7ea4a7d3c0f983ec8cab48ffba54fdc0214e"
   integrity sha512-piTrSZcH5Y12vFQAF6VujeZ5MYPLx14DdhUK1RI+bYY/l2eU2IudVewBFQOR4PU9HiCKRh62GN0Fty+Ql6SzvA==
