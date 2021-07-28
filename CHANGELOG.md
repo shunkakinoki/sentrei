@@ -1,3 +1,9 @@
+# [1.37.0](https://github.com/sentrei/sentrei/compare/v1.36.0...v1.37.0) (2021-07-28)
+
+### Features
+
+- ini docs app ([317261d](https://github.com/sentrei/sentrei/commit/317261dc9a93696000c501363f5329f84b6e9d7a))
+
 # [1.36.0](https://github.com/sentrei/sentrei/compare/v1.35.3...v1.36.0) (2021-07-28)
 
 ### Features
