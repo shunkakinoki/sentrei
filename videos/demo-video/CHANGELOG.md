@@ -1,3 +1,9 @@
+## @sentrei/demo-video [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/demo-video@1.0.3...@sentrei/demo-video@1.0.4) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency remotion to ^2.2.0 ([b01f5e5](https://github.com/sentrei/sentrei/commit/b01f5e577198868aa7d18938acb744b7203e5a2e))
+
 ## @sentrei/demo-video [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/demo-video@1.0.2...@sentrei/demo-video@1.0.3) (2021-07-28)
 
 ### Bug Fixes
