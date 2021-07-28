@@ -1,3 +1,9 @@
+## [1.35.3](https://github.com/sentrei/sentrei/compare/v1.35.2...v1.35.3) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency postcss-nested to ^5.0.6 ([446d138](https://github.com/sentrei/sentrei/commit/446d138ee424ad71fb640f6885560bccbc96c7a8))
+
 ## [1.35.2](https://github.com/sentrei/sentrei/compare/v1.35.1...v1.35.2) (2021-07-28)
 
 ### Bug Fixes
