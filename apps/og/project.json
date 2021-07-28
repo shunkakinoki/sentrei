@@ -1,0 +1,50 @@
+{
+  "projectType": "application",
+  "root": "apps/og",
+  "sourceRoot": "apps/og",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "root": "apps/og",
+        "outputPath": "dist/apps/og"
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "app:build",
+        "dev": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "app:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "app:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/og"],
+      "options": {
+        "jestConfig": "apps/og/jest.config.js"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/og/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}

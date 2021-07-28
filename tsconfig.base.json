@@ -23,7 +23,8 @@
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/app/*": ["apps/app/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
-      "@sentrei/home/*": ["apps/home/src/*"]
+      "@sentrei/home/*": ["apps/home/src/*"],
+      "@sentrei/og/*": ["apps/og/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
