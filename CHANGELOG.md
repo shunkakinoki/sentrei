@@ -1,3 +1,10 @@
+## [1.35.1](https://github.com/sentrei/sentrei/compare/v1.35.0...v1.35.1) (2021-07-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @nrwl/nx-cloud to ^12.3.5 ([60d7135](https://github.com/sentrei/sentrei/commit/60d7135dc16ecbdf26257e211bf7fcd043721ce4))
+- **deps:** update dependency @remotion/cli to ^2.2.0 ([3a213e6](https://github.com/sentrei/sentrei/commit/3a213e60f4381cb6faeb5167aef01b69ef625f42))
+
 # [1.35.0](https://github.com/sentrei/sentrei/compare/v1.34.0...v1.35.0) (2021-07-27)
 
 ### Features
