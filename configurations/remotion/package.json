@@ -23,7 +23,7 @@
     "@remotion/bundler": "^2.2.0",
     "@remotion/cli": "^2.2.0",
     "@remotion/renderer": "^2.2.0",
-    "remotion": "^2.1.5"
+    "remotion": "^2.2.0"
   },
   "publishConfig": {
     "access": "public",

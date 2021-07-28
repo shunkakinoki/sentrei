@@ -17958,7 +17958,7 @@ remote-git-tags@^3.0.0:
   resolved "https://registry.yarnpkg.com/remote-git-tags/-/remote-git-tags-3.0.0.tgz#424f8ec2cdea00bb5af1784a49190f25e16983c3"
   integrity sha512-C9hAO4eoEsX+OXA4rla66pXZQ+TLQ8T9dttgQj18yuKlPMTVkIkdYXvlMC55IuUsIkV6DpmQYi10JKFLaU+l7w==
 
-remotion@^2.1.5, remotion@^2.2.0:
+remotion@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.2.0.tgz#6d52941e35c80ac2c434bb2993af27a3ce2cb4ec"
   integrity sha512-xymrNnCpDPQdwigxjLaX2UtpM6zd75oG5sXIIf018WSzwaR85eHvhiYEt+jCP+JZvNTZy0ssZ3UFep0l6Xv/Gw==
