@@ -82,7 +82,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -146,3 +146,11 @@ Temporary Items
 .apdisk
 
 .vercel
+
+!dist/.gitkeep
+dist/apps/*
+!dist/apps/.gitkeep
+dist/e2e/*
+!dist/e2e/.gitkeep
+dist/videos/*
+!dist/videos/.gitkeep
