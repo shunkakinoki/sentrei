@@ -20,11 +20,5 @@
     "build": "remotion render src/index.tsx HelloWorld ../../dist/videos/out.mp4",
     "start": "remotion preview src/index.tsx",
     "fix": "cd ../.. && yarn run fix"
-  },
-  "dependencies": {
-    "@remotion/bundler": "^2.2.0",
-    "@remotion/cli": "^2.2.0",
-    "@remotion/renderer": "^2.2.0",
-    "remotion": "^2.2.0"
   }
 }
