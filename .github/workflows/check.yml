@@ -57,13 +57,9 @@ jobs:
       - run: |
           yarn run lint
       - run: |
-          yarn run affected:apps
-      - run: |
           yarn run affected:build
       - run: |
           yarn run affected:e2e
-      - run: |
-          yarn run affected:lint
       - run: |
           yarn run affected:test
       - run: |

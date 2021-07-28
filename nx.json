@@ -127,6 +127,23 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["demo"]
     },
+    "docs": {
+      "tags": ["scope:app"],
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens",
+        "next",
+        "tailwindcss",
+        "typescript"
+      ]
+    },
+    "docs-e2e": {
+      "tags": ["scope:e2e"],
+      "implicitDependencies": ["docs"]
+    },
     "home": {
       "tags": ["scope:app"],
       "implicitDependencies": [
