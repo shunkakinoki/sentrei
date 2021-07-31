@@ -1,3 +1,9 @@
+## [1.37.3](https://github.com/sentrei/sentrei/compare/v1.37.2...v1.37.3) (2021-07-31)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint to ^7.32.0 ([12c0fab](https://github.com/sentrei/sentrei/commit/12c0fab11da86d78e7d5fadd6c0005edb513f1ee))
+
 ## [1.37.2](https://github.com/sentrei/sentrei/compare/v1.37.1...v1.37.2) (2021-07-31)
 
 ### Bug Fixes
