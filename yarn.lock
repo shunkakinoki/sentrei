@@ -3221,6 +3221,27 @@
     webpack "5.37.0"
     webpack-hot-middleware "^2.25.0"
 
+"@remotion/bundler@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.2.4.tgz#c93c889540a9e2f6f572d88d6e4fdb72359291a9"
+  integrity sha512-OdJCJUkRhXrw5hjNyWcgMu9ADa4SR2YIPnwkJn6S6oodw3zKvAukgt//KBPlwMn6qcLsZ6DqMwA8ZM+5Hsy/dw==
+  dependencies:
+    "@jonny/webpack-dev-middleware" "^4.1.3"
+    "@webhotelier/webpack-fast-refresh" "5.1.0"
+    css-loader "^5.0.1"
+    esbuild-loader "^2.10.0"
+    execa "^4.0.3"
+    express "^4.17.1"
+    file-loader "^6.0.0"
+    latest-version "^5.1.0"
+    react-refresh "^0.9.0-rc.2"
+    remotion "^2.2.4"
+    semver "7.3.4"
+    style-loader "^2.0.0"
+    styled-components "^5.2.1"
+    webpack "5.37.0"
+    webpack-hot-middleware "^2.25.0"
+
 "@remotion/cli@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.2.0.tgz#569154803d1cbf1bc559c5850f122f6f75f36376"
@@ -17834,6 +17855,11 @@ remotion@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.2.0.tgz#6d52941e35c80ac2c434bb2993af27a3ce2cb4ec"
   integrity sha512-xymrNnCpDPQdwigxjLaX2UtpM6zd75oG5sXIIf018WSzwaR85eHvhiYEt+jCP+JZvNTZy0ssZ3UFep0l6Xv/Gw==
+
+remotion@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.2.4.tgz#2cfd88b257c846d97c73fe5ca3d28754eff2e4c1"
+  integrity sha512-88UAc+vNw3fuvpZeqfEcPL/rw4WLL3J+qjQTIk6FvLRpEuEDaMtkEsiUIWeuJJ0XQH9cByq7nAnmfGT6EIojmQ==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
