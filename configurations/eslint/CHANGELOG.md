@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.3.0...@sentrei/eslint-config@1.3.1) (2021-07-31)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint to ^7.32.0 ([12c0fab](https://github.com/sentrei/sentrei/commit/12c0fab11da86d78e7d5fadd6c0005edb513f1ee))
+
 # @sentrei/eslint-config [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.2.0...@sentrei/eslint-config@1.3.0) (2021-07-23)
 
 ### Features
