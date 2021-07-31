@@ -1,3 +1,9 @@
+## [1.37.5](https://github.com/sentrei/sentrei/compare/v1.37.4...v1.37.5) (2021-07-31)
+
+### Performance Improvements
+
+- refactor renovate sentrei monorepo config ([f6c33f5](https://github.com/sentrei/sentrei/commit/f6c33f5b5ad822dcaf0f042f5e9cf09b378afbe2))
+
 ## [1.37.4](https://github.com/sentrei/sentrei/compare/v1.37.3...v1.37.4) (2021-07-31)
 
 ### Bug Fixes
