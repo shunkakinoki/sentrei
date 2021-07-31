@@ -1,3 +1,9 @@
+## [1.37.6](https://github.com/sentrei/sentrei/compare/v1.37.5...v1.37.6) (2021-07-31)
+
+### Performance Improvements
+
+- ini remotion renovate ([6e29b03](https://github.com/sentrei/sentrei/commit/6e29b0398e141ef906adf2acbfb67b6a3339502c))
+
 ## [1.37.5](https://github.com/sentrei/sentrei/compare/v1.37.4...v1.37.5) (2021-07-31)
 
 ### Performance Improvements
