@@ -83,7 +83,7 @@
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {
-    "cypress": "^8.0.0",
+    "cypress": "^8.1.0",
     "postcss": "^8.3.6",
     "webpack": "^5.47.1"
   },
