@@ -1,3 +1,9 @@
+## @sentrei/renovate-config [1.0.6](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.0.5...@sentrei/renovate-config@1.0.6) (2021-07-31)
+
+### Performance Improvements
+
+- ini remotion renovate ([6e29b03](https://github.com/sentrei/sentrei/commit/6e29b0398e141ef906adf2acbfb67b6a3339502c))
+
 ## @sentrei/renovate-config [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.0.4...@sentrei/renovate-config@1.0.5) (2021-07-31)
 
 ### Performance Improvements
