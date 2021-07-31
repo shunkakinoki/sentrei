@@ -13,8 +13,6 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
-    "build": "bash build.sh home",
-    "dev": "cd ../.. && yarn run serve:home",
     "fix": "cd ../.. && yarn run fix"
   },
   "publishConfig": {
