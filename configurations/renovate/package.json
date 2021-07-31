@@ -39,13 +39,9 @@
         "group:monorepos"
       ]
     },
-    "shunkakinoki": {
-      "packageRules": [
-        {
-          "packagePatterns": [
-            "^@shunkakinoki/"
-          ]
-        }
+    "sentrei": {
+      "packagePatterns": [
+        "^@sentrei/"
       ]
     }
   }
