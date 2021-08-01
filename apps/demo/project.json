@@ -14,6 +14,12 @@
         "production": {}
       }
     },
+    "dev": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "dev": true
+      }
+    },
     "serve": {
       "executor": "@nrwl/next:server",
       "options": {

@@ -19,6 +19,21 @@
         }
       }
     },
+    "dev": {
+      "executor": "@nrwl/storybook:storybook",
+      "options": {
+        "uiFramework": "@storybook/react",
+        "port": 4400,
+        "config": {
+          "configFolder": ".storybook"
+        }
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
     "serve": {
       "executor": "@nrwl/storybook:storybook",
       "options": {

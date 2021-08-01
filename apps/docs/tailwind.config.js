@@ -3,6 +3,9 @@ const { join } = require("path");
 
 const { createGlobPatternsForDependencies } = require("@nrwl/next/tailwind");
 
+/**
+ * @type {import("@types/tailwindcss/tailwind-config").TailwindConfig }
+ */
 module.exports = {
   presets: [require("@sentrei/tailwindcss")],
   purge: [
