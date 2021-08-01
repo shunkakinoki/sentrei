@@ -1,3 +1,9 @@
+# @sentrei/demo [1.16.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.15.0...@sentrei/demo@1.16.0) (2021-08-01)
+
+### Features
+
+- ini og image ([f886d3d](https://github.com/sentrei/sentrei/commit/f886d3d5d020966d49476638f17e7198aa18b114))
+
 # @sentrei/demo [1.15.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.14.3...@sentrei/demo@1.15.0) (2021-07-26)
 
 ### Features
