@@ -7,7 +7,7 @@ const entityMap: { [key: string]: string } = {
   "/": "&#x2F;",
 };
 
-export function sanitizeHtml(html: string) {
+export const sanitizeHtml = (html: string) => {
   return (
     String(html)
       // eslint-disable-next-line no-useless-escape
@@ -16,4 +16,4 @@ export function sanitizeHtml(html: string) {
       })
       .replace("\\n", "<br />")
   );
-}
+};
