@@ -1,8 +1,8 @@
-import { simple } from "./simple";
+import { Simple } from "./Simple";
 
 import type { ILayout, ILayoutConfig } from "@sentrei/og/types";
 
-export const layouts: ILayout[] = [simple];
+export const layouts: ILayout[] = [Simple];
 
 export const getDefaultLayout = (layout: ILayout): ILayoutConfig => {
   const config: ILayoutConfig = {};

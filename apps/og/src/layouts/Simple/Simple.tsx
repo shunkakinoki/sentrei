@@ -5,7 +5,7 @@ const Component: LayoutComponent = ({ config }) => {
   return <Markdown>{config.Text}</Markdown>;
 };
 
-export const simple: ILayout = {
+export const Simple: ILayout = {
   name: "Simple",
   properties: [{ name: "Text", type: "text", default: "**Hello** _World_" }],
   Component,
