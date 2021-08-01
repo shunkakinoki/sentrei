@@ -1,3 +1,9 @@
+# @sentrei/tailwindcss 1.0.0 (2021-08-01)
+
+### Features
+
+- ini og image ([f886d3d](https://github.com/sentrei/sentrei/commit/f886d3d5d020966d49476638f17e7198aa18b114))
+
 ## @sentrei/tailwind [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwind@1.2.0...@sentrei/tailwind@1.2.1) (2021-07-23)
 
 ### Performance Improvements
