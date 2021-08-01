@@ -19,7 +19,7 @@ interface Options {
   headless: boolean;
 }
 
-export function getOptions(isDev: boolean) {
+export const getOptions = (isDev: boolean) => {
   let options: Options;
   if (isDev) {
     options = {
@@ -36,9 +36,9 @@ export function getOptions(isDev: boolean) {
   }
 
   return options;
-}
+};
 
-async function getPage(isDev: boolean) {
+const getPage = async (isDev: boolean) => {
   if (_page) {
     return _page;
   }
@@ -46,16 +46,16 @@ async function getPage(isDev: boolean) {
   const browser = await core.launch(options);
   _page = await browser.newPage();
   return _page;
-}
+};
 
-export async function getScreenshot(
+export const getScreenshot = async (
   html: string,
   type: FileType,
   isDev: boolean,
-) {
+) => {
   const page = await getPage(isDev);
   await page.setViewport({ width: OG_WIDTH, height: OG_HEIGHT });
   await page.setContent(html);
   const file = await page.screenshot({ type });
   return file;
-}
+};
