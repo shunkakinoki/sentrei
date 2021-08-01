@@ -1,3 +1,9 @@
+# @sentrei/app [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.3.0...@sentrei/app@1.4.0) (2021-08-01)
+
+### Features
+
+- ini og image ([f886d3d](https://github.com/sentrei/sentrei/commit/f886d3d5d020966d49476638f17e7198aa18b114))
+
 # @sentrei/app [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.2.3...@sentrei/app@1.3.0) (2021-07-26)
 
 ### Features
