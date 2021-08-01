@@ -19,6 +19,10 @@ export type LayoutComponent = ComponentType<{
   config: IConfig & ILayoutConfig;
 }>;
 
+export type Style = {
+  readonly [key: string]: string;
+};
+
 export type ILayoutProperty = BaseLayoutProperty &
   (
     | {
@@ -38,8 +42,11 @@ export type ILayoutProperty = BaseLayoutProperty &
       }
   );
 
+export type GetCSSFn = (config: ILayoutConfig & IConfig) => string;
+
 export interface ILayout {
   name: string;
   properties: ILayoutProperty[];
   Component?: LayoutComponent;
+  getCSS?: GetCSSFn;
 }

@@ -1,7 +1,7 @@
 import marked from "marked";
 import type { CSSProperties, FC } from "react";
 
-import { sanitizeHtml } from "@sentrei/og/lib/sanitize";
+import { sanitizeHtml } from "@sentrei/og/lib";
 
 export const mdToHTML = (text: string): string => {
   // TODO: FIX THIS

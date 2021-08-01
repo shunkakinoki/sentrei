@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ],
     "jsx": "preserve",
     "allowJs": true,
     "esModuleInterop": true,

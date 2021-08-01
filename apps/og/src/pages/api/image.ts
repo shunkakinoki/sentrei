@@ -1,20 +1,23 @@
 import type { NextApiHandler } from "next";
 
-import { getHtml } from "@sentrei/og/lib/html";
+import { getHtml, parseRequest, getScreenshot } from "@sentrei/og/lib";
 
-import { parseRequest } from "@sentrei/og/lib/parser";
+const isDev = process && process.env.NODE_ENV === "development";
 
-// eslint-disable-next-line @typescript-eslint/require-await
 const handler: NextApiHandler = async (req, res) => {
-  console.log(req);
   try {
     const config = parseRequest(req);
-    console.log("\n\n\n--- /api/html ---\n\n\n");
-    console.log("CONFIG", config);
-
+    console.log(`\n\n\n--- /api/image---\nCONFIG: ${config}\n\n\n`);
     const html = getHtml(config);
-    res.setHeader("Content-Type", "text/html");
-    res.end(html);
+    const { fileType } = config;
+    const file = await getScreenshot(html, fileType, isDev);
+    res.statusCode = 200;
+    res.setHeader("Content-Type", `image/${fileType}`);
+    res.setHeader(
+      "Cache-Control",
+      `public, immutable, no-transform, s-maxage=31536000, max-age=31536000`,
+    );
+    res.end(file);
   } catch (e) {
     res.statusCode = 500;
     res.setHeader("Content-Type", "text/html");
