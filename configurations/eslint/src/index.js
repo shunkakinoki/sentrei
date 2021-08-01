@@ -56,7 +56,7 @@ module.exports = {
     project: "tsconfig.json",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "prefer-arrow"],
+  plugins: ["@typescript-eslint"],
   root: true,
   rules: {
     "@typescript-eslint/consistent-type-imports": "error",
@@ -110,14 +110,6 @@ module.exports = {
       "error",
       {
         patterns: ["../"],
-      },
-    ],
-    "prefer-arrow/prefer-arrow-functions": [
-      "error",
-      {
-        disallowPrototype: true,
-        singleReturnOnly: true,
-        classPropertiesAllowed: false,
       },
     ],
     "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
