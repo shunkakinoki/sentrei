@@ -1,3 +1,9 @@
+# @sentrei/next [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.9.0...@sentrei/next@1.10.0) (2021-08-01)
+
+### Features
+
+- ini og image ([f886d3d](https://github.com/sentrei/sentrei/commit/f886d3d5d020966d49476638f17e7198aa18b114))
+
 # @sentrei/next [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.8.1...@sentrei/next@1.9.0) (2021-07-26)
 
 ### Features
