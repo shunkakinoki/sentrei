@@ -1,6 +1,6 @@
 import { Button } from "@sentrei/atoms";
 
-export function ButtonGroup() {
+export const ButtonGroup = () => {
   return (
     <div className="p-3 text-blue-800 bg-blue-300 rounded-lg">
       <Button
@@ -23,4 +23,4 @@ export function ButtonGroup() {
       />
     </div>
   );
-}
+};

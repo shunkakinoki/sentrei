@@ -112,6 +112,8 @@ module.exports = {
         patterns: ["../"],
       },
     ],
+    "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
+    "func-style": ["error", "expression", { allowArrowFunctions: false }],
     "react/jsx-sort-props": [
       "error",
       {

@@ -69,7 +69,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: dist/apps/storybook
+          storybookBuildDir: dist/apps/design
       - if: always()
         run: |
           yarn run cloud:stop

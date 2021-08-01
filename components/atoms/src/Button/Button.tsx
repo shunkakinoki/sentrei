@@ -5,7 +5,7 @@ export type ButtonProps = {
   label: string;
 };
 
-export function Button(props: ButtonProps) {
+export const Button = (props: ButtonProps) => {
   return (
     <button
       className="p-3 text-green-800 bg-green-300 rounded-lg"
@@ -14,4 +14,4 @@ export function Button(props: ButtonProps) {
       {props.label}
     </button>
   );
-}
+};
