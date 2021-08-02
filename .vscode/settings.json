@@ -1,4 +1,5 @@
 {
+  "css.validate": false,
   "dotfiles.installCommand": "~/dotfiles/install.sh",
   "dotfiles.repository": "shunkakinoki/dotfiles",
   "dotfiles.targetPath": "~/dotfiles",
@@ -8,6 +9,9 @@
   "i18n-ally.localesPaths": ["locales"],
   "i18n-ally.namespace": true,
   "i18n-ally.sourceLanguage": "en",
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": false,
   "terminal.integrated.env.linux": {
     "ZSH_INIT_COMMAND": "mux start sentrei"
   },
