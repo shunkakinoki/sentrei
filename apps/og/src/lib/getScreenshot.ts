@@ -20,7 +20,7 @@ interface Options {
   headless: boolean;
 }
 
-export const getOptions = (isDev: boolean) => {
+export const getOptions = async (isDev: boolean) => {
   let options: Options;
   if (isDev) {
     options = {
@@ -30,8 +30,8 @@ export const getOptions = (isDev: boolean) => {
     };
   } else {
     options = {
-      args: ["--no-sandbox", "--font-render-hinting=none"],
-      executablePath: "/usr/bin/chromium-browser",
+      args: chrome.args,
+      executablePath: await chrome.executablePath,
       headless: chrome.headless,
     };
   }
@@ -43,7 +43,7 @@ const getPage = async (isDev: boolean) => {
   if (_page) {
     return _page;
   }
-  const options = getOptions(isDev);
+  const options = await getOptions(isDev);
   const browser = await core.launch(options);
   _page = await browser.newPage();
   return _page;
