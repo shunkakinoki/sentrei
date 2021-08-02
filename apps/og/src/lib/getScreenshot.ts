@@ -1,3 +1,4 @@
+import chrome from "chrome-aws-lambda";
 import type { Page } from "puppeteer-core";
 import * as core from "puppeteer-core";
 
@@ -31,7 +32,7 @@ export const getOptions = (isDev: boolean) => {
     options = {
       args: ["--no-sandbox", "--font-render-hinting=none"],
       executablePath: "/usr/bin/chromium-browser",
-      headless: true,
+      headless: chrome.headless,
     };
   }
 
