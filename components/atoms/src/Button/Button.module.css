@@ -1,3 +1,3 @@
 .root {
-  @apply py-4 prose-sm;
+  @apply py-4 prose-sm bg-teal-300;
 }
