@@ -2,7 +2,7 @@ import type { NextApiHandler } from "next";
 
 import { getHtml, parseRequest, getScreenshot } from "@sentrei/og/lib";
 
-const isDev = process && process.env.NODE_ENV === "development";
+const isDev = !process.env.AWS_REGION;
 
 const handler: NextApiHandler = async (req, res) => {
   try {
