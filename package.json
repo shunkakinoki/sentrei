@@ -83,7 +83,9 @@
   "resolutions": {
     "cypress": "^8.1.0",
     "postcss": "^8.3.6",
+    "postcss-safe-parser": "^6.0.0",
     "puppeteer-core": "^10.1.0",
+    "stylelint": "^13.13.1",
     "webpack": "^5.47.1"
   },
   "npmpackagejsonlint": {
