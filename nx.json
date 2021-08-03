@@ -209,5 +209,8 @@
         "showUsageWarnings": true
       }
     }
+  },
+  "workspaceLayout": {
+    "libsDir": "components"
   }
 }

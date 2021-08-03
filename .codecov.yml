@@ -1,9 +1,11 @@
 coverage:
   status:
     project: on
+    patch: on
+    changes: on
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
   require_changes: false
   require_base: no
-  require_head: no
+  require_head: yes

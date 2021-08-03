@@ -76,6 +76,8 @@
     "start:home": "cross-env NODE_ENV=production nx serve home --prod",
     "start:og": "cross-env NODE_ENV=production nx serve og --prod",
     "start:design": "nx serve design",
+    "stylelint:lint": "stylelint './**/*.css'",
+    "stylelint:fix": "stylelint './**/*.css' --fix",
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {
