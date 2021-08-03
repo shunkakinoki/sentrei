@@ -1,3 +1,9 @@
+# @sentrei/styles [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.6.0...@sentrei/styles@1.7.0) (2021-08-03)
+
+### Features
+
+- ini stylelint config ([c833f44](https://github.com/sentrei/sentrei/commit/c833f44225bb2b5438a29ea68bd47180da4cdd56))
+
 # @sentrei/styles [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.5.0...@sentrei/styles@1.6.0) (2021-04-08)
 
 ### Features
