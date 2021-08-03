@@ -1,3 +1,15 @@
+# [1.39.0](https://github.com/sentrei/sentrei/compare/v1.38.0...v1.39.0) (2021-08-03)
+
+### Features
+
+- ini stylelint config ([c833f44](https://github.com/sentrei/sentrei/commit/c833f44225bb2b5438a29ea68bd47180da4cdd56))
+
+### Performance Improvements
+
+- ini chrome aws lambda package ([d639b3d](https://github.com/sentrei/sentrei/commit/d639b3df3ce09375ad38c2c3550f77f8b6c73db2))
+- refactor postcss parser ([c24ef52](https://github.com/sentrei/sentrei/commit/c24ef5294cab20d575eb83a1c1ae841dc0ca2d8d))
+- update library layout ([1ac0f85](https://github.com/sentrei/sentrei/commit/1ac0f854b9526e480fb0b7b336db66d1952de503))
+
 # [1.38.0](https://github.com/sentrei/sentrei/compare/v1.37.6...v1.38.0) (2021-08-01)
 
 ### Features
