@@ -59,4 +59,12 @@ const plugins = [
   withTranslate,
 ];
 
-module.exports = { defaultConfig, plugins, withPlugins };
+const miniPlugins = [
+  withBundleAnalyzer({
+    enabled: process.env.ANALYZE === "true",
+  }),
+  withNx,
+  withTranslate,
+];
+
+module.exports = { defaultConfig, plugins, miniPlugins, withPlugins };
