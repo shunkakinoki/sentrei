@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/renovate-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "renovate": "^25.63.1"
+    "renovate": "^25.65.2"
   },
   "publishConfig": {
     "access": "public",
