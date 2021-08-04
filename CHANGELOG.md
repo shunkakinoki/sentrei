@@ -1,3 +1,9 @@
+# [1.41.0](https://github.com/sentrei/sentrei/compare/v1.40.5...v1.41.0) (2021-08-04)
+
+### Features
+
+- ini sentry plugin ([61ff0a0](https://github.com/sentrei/sentrei/commit/61ff0a09b11ffb4d84949d0137382cf747f631b8))
+
 ## [1.40.5](https://github.com/sentrei/sentrei/compare/v1.40.4...v1.40.5) (2021-08-04)
 
 ### Bug Fixes
