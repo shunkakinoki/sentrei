@@ -1,1 +1,1 @@
-export * from "./SeoRoot";
+export { SeoRoot } from "./SeoRoot";

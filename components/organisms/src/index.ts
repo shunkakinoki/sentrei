@@ -1,1 +1,1 @@
-export * from "./ButtonSection";
+export { ButtonSection } from "./ButtonSection";
