@@ -1,5 +1,6 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
 const withNx = require("@nrwl/next/plugins/with-nx");
+const { withSentryConfig } = require("@sentry/nextjs");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
 
@@ -47,6 +48,7 @@ const plugins = [
   withBundleAnalyzer({
     enabled: process.env.ANALYZE === "true",
   }),
+  withSentryConfig(),
   withNx,
   withTranslate,
 ];

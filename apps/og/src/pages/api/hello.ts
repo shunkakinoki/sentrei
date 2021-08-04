@@ -1,3 +1,4 @@
+import { withSentry } from "@sentry/nextjs";
 import type { NextApiHandler } from "next";
 
 const hello: NextApiHandler = (req, res) => {
@@ -5,4 +6,4 @@ const hello: NextApiHandler = (req, res) => {
   res.json({ hello: "World" });
 };
 
-export default hello;
+export default withSentry(hello);

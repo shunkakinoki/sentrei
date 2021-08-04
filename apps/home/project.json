@@ -17,6 +17,7 @@
     "dev": {
       "executor": "@nrwl/next:server",
       "options": {
+        "buildTarget": "home:build",
         "dev": true
       }
     },

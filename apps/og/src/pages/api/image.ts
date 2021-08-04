@@ -1,3 +1,4 @@
+import { withSentry } from "@sentry/nextjs";
 import type { NextApiHandler } from "next";
 
 import { getHtml } from "@sentrei/og/lib/getHtml";
@@ -28,4 +29,4 @@ const handler: NextApiHandler = async (req, res) => {
   }
 };
 
-export default handler;
+export default withSentry(handler);
