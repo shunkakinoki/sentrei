@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
     "module": "commonjs",
-    "types": ["jest", "node"],
+    "types": ["node", "jest", "segment-analytics"],
     "jsx": "react-jsx"
   },
   "extends": "./tsconfig.json",
