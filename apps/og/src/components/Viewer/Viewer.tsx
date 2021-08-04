@@ -1,12 +1,15 @@
+import { Button } from "@sentrei/atoms";
 import clsx from "clsx";
 import { useEffect, useMemo, useState } from "react";
 
 import { useConfig } from "@sentrei/og/hooks/useConfig";
+import { useCopy } from "@sentrei/og/hooks/useCopy";
 import { useDebouncedValue } from "@sentrei/og/hooks/useDebouncedValue";
 import { useLayoutConfig } from "@sentrei/og/hooks/useLayoutConfig";
 
 export const Viewer = () => {
   const [config] = useConfig();
+  const [isCopied, copy] = useCopy();
   const [layoutConfig] = useLayoutConfig();
   const [isLoaded, setIsLoaded] = useState(true);
 
@@ -24,6 +27,9 @@ export const Viewer = () => {
   const imageURL = useMemo(() => {
     return `/api/image?${query}`;
   }, [query]);
+  const htmlURL = useMemo(() => {
+    return `/api/html?${query}`;
+  }, [query]);
 
   const debouncedImageURL = useDebouncedValue(imageURL, 200);
 
@@ -33,15 +39,34 @@ export const Viewer = () => {
 
   return (
     <div className="col-span-2 space-y-4 w-full">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        className={clsx(!isLoaded && "blur-sm")}
-        src={debouncedImageURL}
-        alt={`OG for the ${config.layoutName} layout`}
-        onLoad={() => {
-          return setIsLoaded(true);
-        }}
-      />
+      <div className="relative w-full">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          className={clsx(!isLoaded && "blur-sm")}
+          src={debouncedImageURL}
+          alt={`OG for the ${config.layoutName} layout`}
+          onLoad={() => {
+            return setIsLoaded(true);
+          }}
+        />
+      </div>
+      <div className="flex justify-end space-x-2">
+        <Button
+          onClick={() => {
+            return copy(`${window.location.origin}${imageURL}`);
+          }}
+        >
+          {isCopied ? "Copied!" : "Copy Image URL"}
+        </Button>
+        <Button
+          href={htmlURL}
+          Component="a"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open HTML Page
+        </Button>
+      </div>
     </div>
   );
 };
