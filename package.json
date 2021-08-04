@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/sentrei",
-  "version": "1.39.0",
+  "version": "1.39.1",
   "private": true,
   "description": "The Edge Serverless Backend",
   "homepage": "https://github.com/sentrei/sentrei",
@@ -86,7 +86,7 @@
     "postcss-safe-parser": "^6.0.0",
     "puppeteer-core": "^10.1.0",
     "stylelint": "^13.13.1",
-    "webpack": "^5.47.1"
+    "webpack": "^5.48.0"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
