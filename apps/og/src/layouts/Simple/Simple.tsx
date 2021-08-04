@@ -6,7 +6,7 @@ const getCSS: GetCSSFn = () => {
   return css`
     body {
       font-size: 200px;
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       background: linear-gradient(to bottom right, skyblue, deeppink);
     }
   `;

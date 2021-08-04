@@ -17,13 +17,20 @@ const getCSS: GetCSSFn = config => {
     }
 
     h1 {
-      font-size: 100px;
+      font-size: 120px;
       margin: 75px 0;
     }
 
     h2 {
-      font-size: 50px;
+      font-size: 60px;
       margin-top: 25px;
+    }
+
+    h3 {
+      margin-top: 40px;
+      text-align: right;
+      font-size: 30px;
+      color: ${colours.gray};
     }
   `;
 };
@@ -31,6 +38,7 @@ const getCSS: GetCSSFn = config => {
 const Component: LayoutComponent = ({ config }) => {
   const title = config.Title;
   const author = config.Author;
+  const url = config.Url;
 
   return (
     <div
@@ -47,6 +55,7 @@ const Component: LayoutComponent = ({ config }) => {
       <h2 style={{ display: "flex" }}>
         <Markdown style={{ fontWeight: 400 }}>Written by&nbsp;</Markdown>
         <Markdown>{author}</Markdown>
+        {url && <h3>{url}</h3>}
       </h2>
     </div>
   );
@@ -64,7 +73,7 @@ export const Blog: ILayout = {
     {
       name: "Title",
       type: "text",
-      default: "Self-hosted website analytics",
+      default: "The Jamstack Backend",
       placeholder: "Big text",
     },
     {
@@ -72,6 +81,11 @@ export const Blog: ILayout = {
       type: "text",
       default: "Shun",
       placeholder: "Big Author",
+    },
+    {
+      name: "Url",
+      type: "text",
+      placeholder: "https://og.sentrei.com",
     },
   ],
   Component,
