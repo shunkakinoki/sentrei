@@ -1,3 +1,9 @@
+## [1.41.1](https://github.com/sentrei/sentrei/compare/v1.41.0...v1.41.1) (2021-08-04)
+
+### Bug Fixes
+
+- refactor source maps for sentry ([8ca1885](https://github.com/sentrei/sentrei/commit/8ca188538d6cf32348606bd839961bf16c01e898))
+
 # [1.41.0](https://github.com/sentrei/sentrei/compare/v1.40.5...v1.41.0) (2021-08-04)
 
 ### Features
