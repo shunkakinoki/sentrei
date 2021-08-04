@@ -2,7 +2,7 @@ import chrome from "chrome-aws-lambda";
 import type { Page } from "puppeteer-core";
 import * as core from "puppeteer-core";
 
-import { OG_HEIGHT, OG_WIDTH } from "@sentrei/og/const";
+import { OG_HEIGHT, OG_WIDTH } from "@sentrei/og/const/og";
 import type { FileType } from "@sentrei/og/types";
 
 let _page: Page | null;
