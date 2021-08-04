@@ -1,12 +1,13 @@
 import type { NextApiHandler } from "next";
 
-import { getHtml, parseRequest } from "@sentrei/og/lib";
+import { getHtml } from "@sentrei/og/lib/getHtml";
+import { parseRequest } from "@sentrei/og/lib/parseRequest";
 
 // eslint-disable-next-line @typescript-eslint/require-await
 const html: NextApiHandler = async (req, res) => {
   try {
     const config = parseRequest(req);
-    console.log(`\n\n\n--- /api/html ---\nCONFIG: ${config}\n\n\n`);
+    console.log(`\n--- /api/html ---\nCONFIG: ${JSON.stringify(config)}\n`);
     const html = getHtml(config);
     res.setHeader("Content-Type", "text/html");
     res.end(html);

@@ -1,6 +1,6 @@
 import type { NextApiRequest } from "next";
 
-import { DEFAULT_CONFIG } from "@sentrei/og/const";
+import { DEFAULT_CONFIG } from "@sentrei/og/const/config";
 import { getLayoutConfigFromQuery } from "@sentrei/og/layouts";
 import type { IConfig, ILayoutConfig } from "@sentrei/og/types";
 

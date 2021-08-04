@@ -1,13 +1,15 @@
 import type { NextApiHandler } from "next";
 
-import { getHtml, parseRequest, getScreenshot } from "@sentrei/og/lib";
+import { getHtml } from "@sentrei/og/lib/getHtml";
+import { getScreenshot } from "@sentrei/og/lib/getScreenshot";
+import { parseRequest } from "@sentrei/og/lib/parseRequest";
 
 const isDev = !process.env.AWS_REGION;
 
 const handler: NextApiHandler = async (req, res) => {
   try {
     const config = parseRequest(req);
-    console.log(`\n\n\n--- /api/image---\nCONFIG: ${config}\n\n\n`);
+    console.log(`\n--- /api/image---\nCONFIG: ${JSON.stringify(config)}\n`);
     const html = getHtml(config);
     const { fileType } = config;
     const file = await getScreenshot(html, fileType, isDev);

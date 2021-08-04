@@ -1,5 +1,7 @@
-export const css = string => {
-  return string;
+export const css = (strings, ...values) => {
+  return values.reduce((finalString, value, index) => {
+    return `${finalString}${value}${strings[index + 1]}`;
+  }, strings[0]);
 };
 
 export const getCommonCSS = () => {

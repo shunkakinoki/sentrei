@@ -1,12 +1,12 @@
 import { Markdown } from "@sentrei/og/components/Markdown";
-import { css } from "@sentrei/og/lib";
-import type { ILayout, LayoutComponent } from "@sentrei/og/types";
+import { css } from "@sentrei/og/lib/css";
+import type { ILayout, LayoutComponent, GetCSSFn } from "@sentrei/og/types";
 
-const getCSS = (): string => {
+const getCSS: GetCSSFn = () => {
   return css`
     body {
       font-size: 200px;
-      color: white;
+      color: #ffffff;
       background: linear-gradient(to bottom right, skyblue, deeppink);
     }
   `;
