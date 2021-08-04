@@ -16,5 +16,5 @@ _Button.args = {
   onClick: () => {
     console.log("clicked");
   },
-  label: "Button",
+  children: "Button",
 };

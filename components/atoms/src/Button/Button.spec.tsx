@@ -6,11 +6,12 @@ describe("Button", () => {
   it("should render successfully", () => {
     const { baseElement } = render(
       <Button
-        label="Button"
         onClick={() => {
           console.warn("Button");
         }}
-      />,
+      >
+        Button
+      </Button>,
     );
     expect(baseElement).toBeTruthy();
   });
