@@ -1,3 +1,9 @@
+## [1.40.4](https://github.com/sentrei/sentrei/compare/v1.40.3...v1.40.4) (2021-08-04)
+
+### Bug Fixes
+
+- **deps:** update nrwl monorepo to ^12.6.4 ([0d30c97](https://github.com/sentrei/sentrei/commit/0d30c975266601bc82c2976048a6a8d7d634b862))
+
 ## [1.40.3](https://github.com/sentrei/sentrei/compare/v1.40.2...v1.40.3) (2021-08-04)
 
 ### Bug Fixes
