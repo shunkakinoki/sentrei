@@ -1,3 +1,13 @@
+# @sentrei/atoms [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.6.0...@sentrei/atoms@1.7.0) (2021-08-04)
+
+### Features
+
+- ini og image ([3fccd9b](https://github.com/sentrei/sentrei/commit/3fccd9ba70ba35537f80529e1fd0b825f1d7e636))
+
+### Performance Improvements
+
+- refactor atoms input and select ([4358c36](https://github.com/sentrei/sentrei/commit/4358c36127fba5902f2cdc353b962df9f5caf707))
+
 # @sentrei/atoms [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.5.0...@sentrei/atoms@1.6.0) (2021-08-03)
 
 ### Features
