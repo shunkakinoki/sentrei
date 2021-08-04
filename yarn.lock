@@ -17760,10 +17760,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^25.63.1:
-  version "25.64.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.64.1.tgz#c68088af51f21050c206fdf15f093a7a0a412684"
-  integrity sha512-0LXK6FjZJHw2wifznE6DSv1rGbRLI6It9fhHeCIDJWZr+beu0o/hn/370YpNHTKUuqWQJEZ7CFrWg4PMtSWMuA==
+renovate@^25.65.2:
+  version "25.65.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.65.2.tgz#d1d9894b49b99ffbe5f44670a6ed0471d35383be"
+  integrity sha512-4lMGGE/RmxrdGVCAycniywgBZgvrlwKv3AFHB12D1np0yy2BSiGkuuDMne9YMrQTFMtbQVkFOP0Mc7+BfeBeEA==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
