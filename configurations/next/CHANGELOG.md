@@ -1,3 +1,9 @@
+# @sentrei/next [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.10.1...@sentrei/next@1.11.0) (2021-08-04)
+
+### Features
+
+- ini sentry plugin ([61ff0a0](https://github.com/sentrei/sentrei/commit/61ff0a09b11ffb4d84949d0137382cf747f631b8))
+
 ## @sentrei/next [1.10.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.10.0...@sentrei/next@1.10.1) (2021-08-04)
 
 ### Bug Fixes
