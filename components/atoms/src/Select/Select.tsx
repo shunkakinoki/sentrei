@@ -8,7 +8,7 @@ export interface Option {
   disabled?: boolean;
 }
 
-export interface Props {
+export interface SelectProps {
   options: Option[];
   className?: string;
   value?: string;
@@ -19,7 +19,7 @@ export interface Props {
   onChange: (value: string) => void | undefined;
 }
 
-export const Select = forwardRef<HTMLSelectElement, Props>(
+export const Select = forwardRef<HTMLSelectElement, SelectProps>(
   ({ className, value, options, name, error, disabled, onChange, ...rest }) => {
     return (
       <Listbox
@@ -36,7 +36,7 @@ export const Select = forwardRef<HTMLSelectElement, Props>(
                 ? "border-red-300 hover:border-red-700"
                 : "focus:border-blue-300",
               !disabled && "relative hover:border-gray-400 cursor-pointer",
-              "py-1 pr-8 pl-3 w-full h-9 dark:text-white bg-transparent rounded border focus:border-transparent focus-visible:ring-2 focus:ring-blue-300 appearance-none focus:outline-none",
+              "py-1 pr-8 pl-3 w-full h-9 dark:text-white bg-transparent rounded border focus:border focus:border-transparent focus:ring-4 focus-visible:ring-2 focus:ring-sky-800 focus:ring-offset-2 focus:ring-offset-sky-300 appearance-none",
               className,
             )}
           >
@@ -50,7 +50,7 @@ export const Select = forwardRef<HTMLSelectElement, Props>(
                   className={({ active }) => {
                     return clsx(
                       active ? "text-white bg-indigo-600" : "text-gray-900",
-                      "relative py-2 pr-9 pl-3 cursor-default select-none",
+                      "relative py-2 pr-9 pl-3 hover:ring-offset-2 hover:ring-offset-sky-300 shadow-lg appearance-none cursor-default hover:outline-none select-none",
                     );
                   }}
                   value={option.value}
