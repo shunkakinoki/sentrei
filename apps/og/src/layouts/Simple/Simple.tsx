@@ -1,5 +1,5 @@
 import { Markdown } from "@sentrei/og/components/Markdown";
-import { css } from "@sentrei/og/lib";
+import { css } from "@sentrei/og/lib/css";
 import type { ILayout, LayoutComponent } from "@sentrei/og/types";
 
 const getCSS = (): string => {
