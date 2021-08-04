@@ -1,3 +1,9 @@
+# @sentrei/demo [1.17.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.16.0...@sentrei/demo@1.17.0) (2021-08-04)
+
+### Features
+
+- ini sentry plugin ([61ff0a0](https://github.com/sentrei/sentrei/commit/61ff0a09b11ffb4d84949d0137382cf747f631b8))
+
 # @sentrei/demo [1.16.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.15.0...@sentrei/demo@1.16.0) (2021-08-01)
 
 ### Features
