@@ -1,3 +1,10 @@
+## [1.39.1](https://github.com/sentrei/sentrei/compare/v1.39.0...v1.39.1) (2021-08-04)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^25.65.2 ([7377885](https://github.com/sentrei/sentrei/commit/737788585e4175a9c0b86292208aea35c570c682))
+- **deps:** update typescript-eslint monorepo to ^4.29.0 ([5196611](https://github.com/sentrei/sentrei/commit/519661115cee9e2c8e208da9239e4096c3d7e6c0))
+
 # [1.39.0](https://github.com/sentrei/sentrei/compare/v1.38.0...v1.39.0) (2021-08-03)
 
 ### Features
