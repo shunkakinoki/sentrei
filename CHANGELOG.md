@@ -1,3 +1,9 @@
+# [1.42.0](https://github.com/sentrei/sentrei/compare/v1.41.1...v1.42.0) (2021-08-04)
+
+### Features
+
+- ini segment package ([9294ea2](https://github.com/sentrei/sentrei/commit/9294ea2ca8f49aa6ce9462c0dbcafb8719543209))
+
 ## [1.41.1](https://github.com/sentrei/sentrei/compare/v1.41.0...v1.41.1) (2021-08-04)
 
 ### Bug Fixes
