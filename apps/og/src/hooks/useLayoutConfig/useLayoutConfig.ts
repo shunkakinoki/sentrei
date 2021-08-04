@@ -16,8 +16,10 @@ export const useLayoutConfig = (): [
   ILayoutConfig,
   (layoutConfig: ILayoutConfig) => void,
 ] => {
-  const [allLayoutConfig, setAllLayoutConfig] =
-    useRecoilState(allLayoutConfigState);
+  // prettier-ignore
+  const [allLayoutConfig, setAllLayoutConfig] = useRecoilState(
+    allLayoutConfigState,
+  );
 
   const [config] = useConfig();
   const { layoutName } = config;
