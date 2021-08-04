@@ -1,3 +1,9 @@
+## @sentrei/og [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.0...@sentrei/og@1.3.1) (2021-08-04)
+
+### Bug Fixes
+
+- refactor source maps for sentry ([8ca1885](https://github.com/sentrei/sentrei/commit/8ca188538d6cf32348606bd839961bf16c01e898))
+
 # @sentrei/og [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.2.1...@sentrei/og@1.3.0) (2021-08-04)
 
 ### Features
