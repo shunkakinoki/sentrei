@@ -44,11 +44,17 @@ const defaultConfig = {
   },
 };
 
+const SentryWebpackPluginOptions = {
+  include: [process.env.NEXT_OUTPUT_DIR + "/" + ".next"],
+};
+
 const plugins = [
   withBundleAnalyzer({
     enabled: process.env.ANALYZE === "true",
   }),
-  withSentryConfig(),
+  nextConfig => {
+    return withSentryConfig(nextConfig, SentryWebpackPluginOptions);
+  },
   withNx,
   withTranslate,
 ];
