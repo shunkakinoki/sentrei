@@ -47,7 +47,7 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(
               return (
                 <Listbox.Option
                   key={option.value}
-                  className={({ active }) => {
+                  className={({ active }): string => {
                     return clsx(
                       active ? "text-white bg-indigo-600" : "text-gray-900",
                       "relative py-2 pr-9 pl-3 hover:ring-offset-2 hover:ring-offset-sky-300 shadow-lg appearance-none cursor-default hover:outline-none select-none",

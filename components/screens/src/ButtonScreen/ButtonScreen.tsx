@@ -1,7 +1,8 @@
 import { ButtonSection } from "@sentrei/organisms";
 import { AnalyticsRoot } from "@sentrei/roots";
+import type { VFC } from "react";
 
-export const ButtonScreen = () => {
+export const ButtonScreen: VFC = () => {
   return (
     <>
       <AnalyticsRoot />

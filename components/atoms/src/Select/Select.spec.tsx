@@ -8,7 +8,7 @@ describe("Select", () => {
       <Select
         value="png"
         options={[{ value: "png" }, { value: "jpeg" }]}
-        onChange={e => {
+        onChange={(e): void => {
           console.log(e);
         }}
       />,

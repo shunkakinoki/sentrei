@@ -2,12 +2,14 @@ import { Button } from "@sentrei/atoms";
 import clsx from "clsx";
 import { useEffect, useMemo, useState } from "react";
 
+import type { VFC } from "react";
+
 import { useConfig } from "@sentrei/og/hooks/useConfig";
 import { useCopy } from "@sentrei/og/hooks/useCopy";
 import { useDebouncedValue } from "@sentrei/og/hooks/useDebouncedValue";
 import { useLayoutConfig } from "@sentrei/og/hooks/useLayoutConfig";
 
-export const Viewer = () => {
+export const Viewer: VFC = () => {
   const [config] = useConfig();
   const [isCopied, copy] = useCopy();
   const [layoutConfig] = useLayoutConfig();
@@ -45,14 +47,14 @@ export const Viewer = () => {
           className={clsx(!isLoaded && "blur-sm")}
           src={debouncedImageURL}
           alt={`OG for the ${config.layoutName} layout`}
-          onLoad={() => {
+          onLoad={(): void => {
             return setIsLoaded(true);
           }}
         />
       </div>
       <div className="flex justify-end space-x-2">
         <Button
-          onClick={() => {
+          onClick={(): void => {
             return copy(`${window.location.origin}${imageURL}`);
           }}
         >

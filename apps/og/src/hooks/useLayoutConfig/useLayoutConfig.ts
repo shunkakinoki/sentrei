@@ -36,7 +36,7 @@ export const useLayoutConfig = (): [
 
   const layoutConfig = allLayoutConfig[layoutName] ?? {};
 
-  const setLayoutConfig = (config: ILayoutConfig) => {
+  const setLayoutConfig = (config: ILayoutConfig): void => {
     setAllLayoutConfig(all => {
       return {
         ...all,

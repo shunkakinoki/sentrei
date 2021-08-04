@@ -6,7 +6,7 @@ describe("Button", () => {
   it("should render successfully", () => {
     const { baseElement } = render(
       <Button
-        onClick={() => {
+        onClick={(): void => {
           console.warn("Button");
         }}
       >
