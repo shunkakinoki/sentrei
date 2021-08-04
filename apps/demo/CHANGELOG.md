@@ -1,3 +1,9 @@
+## @sentrei/demo [1.17.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.17.0...@sentrei/demo@1.17.1) (2021-08-04)
+
+### Bug Fixes
+
+- refactor source maps for sentry ([8ca1885](https://github.com/sentrei/sentrei/commit/8ca188538d6cf32348606bd839961bf16c01e898))
+
 # @sentrei/demo [1.17.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.16.0...@sentrei/demo@1.17.0) (2021-08-04)
 
 ### Features
