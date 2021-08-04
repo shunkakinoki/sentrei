@@ -1,3 +1,9 @@
+## @sentrei/atoms [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.7.0...@sentrei/atoms@1.7.1) (2021-08-04)
+
+### Performance Improvements
+
+- ini button components ([198b1eb](https://github.com/sentrei/sentrei/commit/198b1ebe0aa246ca6674e1e125754bb879f5403d))
+
 # @sentrei/atoms [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.6.0...@sentrei/atoms@1.7.0) (2021-08-04)
 
 ### Features
