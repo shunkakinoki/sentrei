@@ -1,3 +1,9 @@
+## @sentrei/next [1.10.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.10.0...@sentrei/next@1.10.1) (2021-08-04)
+
+### Bug Fixes
+
+- **deps:** update dependency @sentry/webpack-plugin to ^1.17.0 ([80175ba](https://github.com/sentrei/sentrei/commit/80175bada44275066ef0c9f395b301eb51f01a8c))
+
 # @sentrei/next [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.9.0...@sentrei/next@1.10.0) (2021-08-01)
 
 ### Features
