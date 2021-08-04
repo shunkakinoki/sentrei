@@ -1,4 +1,4 @@
-export const postWaitlist = (email: string) => {
+export const postWaitlist = (email: string): void => {
   void fetch(
     "https://docs.google.com/forms/u/1/d/e/1FAIpQLSdOH0zzhLXaOICJgJZ0DjXBXplWMG3h6iwnq95_3kJBEZ8AGw/formResponse",
     {

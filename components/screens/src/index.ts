@@ -1,1 +1,1 @@
-export * from "./ButtonScreen";
+export { ButtonScreen } from "./ButtonScreen";

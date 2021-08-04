@@ -13,7 +13,7 @@ export const _Button: Story<ButtonProps> = args => {
 };
 
 _Button.args = {
-  onClick: () => {
+  onClick: (): void => {
     console.log("clicked");
   },
   children: "Button",

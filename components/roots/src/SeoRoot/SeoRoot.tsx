@@ -1,7 +1,8 @@
 import type { DefaultSeoProps } from "next-seo";
 import { DefaultSeo } from "next-seo";
+import type { FC } from "react";
 
-export const SeoRoot = ({ ...props }: DefaultSeoProps): JSX.Element => {
+export const SeoRoot: FC<DefaultSeoProps> = ({ ...props }) => {
   return (
     <DefaultSeo
       title="Sentrei"

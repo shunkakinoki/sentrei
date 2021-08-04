@@ -13,7 +13,7 @@ const NotImplemented: LayoutComponent = ({ config }) => {
   return <h1 style={{ fontSize: 100 }}>{config.layoutName} not implemented</h1>;
 };
 
-export const getHtml = (config: IConfig & ILayoutConfig) => {
+export const getHtml = (config: IConfig & ILayoutConfig): string => {
   const layout = layouts.find(l => {
     return l.name === config.layoutName;
   });

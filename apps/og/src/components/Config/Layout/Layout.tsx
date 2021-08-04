@@ -32,7 +32,7 @@ export const LayoutProperty: FC<{
           <Input
             placeholder={p.placeholder ?? `Value for ${p.name}`}
             value={layoutConfig[p.name] ?? ""}
-            onChange={e => {
+            onChange={(e): void => {
               return setLayoutConfig({ [p.name]: e.target.value });
             }}
           />
@@ -41,7 +41,7 @@ export const LayoutProperty: FC<{
             placeholder={p.placeholder ?? `Value for ${p.name}`}
             value={layoutConfig[p.name] ?? ""}
             type="number"
-            onChange={e => {
+            onChange={(e): void => {
               return setLayoutConfig({ [p.name]: e.target.value });
             }}
           />
@@ -51,7 +51,7 @@ export const LayoutProperty: FC<{
               return { value };
             })}
             value={layoutConfig[p.name] ?? ""}
-            onChange={value => {
+            onChange={(value): void => {
               return setLayoutConfig({ [p.name]: value });
             }}
           />

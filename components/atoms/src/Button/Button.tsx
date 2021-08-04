@@ -27,7 +27,7 @@ export interface ButtonProps
 export const mergeRefs = <T extends unknown>(
   refs: Array<React.MutableRefObject<T> | React.LegacyRef<T>>,
 ): React.RefCallback<T> => {
-  return value => {
+  return (value): void => {
     refs.forEach(ref => {
       if (typeof ref === "function") {
         ref(value);

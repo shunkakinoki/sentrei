@@ -1,1 +1,1 @@
-export * from "./DocumentRoot";
+export { DocumentRoot } from "./DocumentRoot";

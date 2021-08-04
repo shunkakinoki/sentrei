@@ -1,10 +1,10 @@
-export const css = (strings, ...values) => {
+export const css = (strings, ...values): string => {
   return values.reduce((finalString, value, index) => {
     return `${finalString}${value}${strings[index + 1]}`;
   }, strings[0]);
 };
 
-export const getCommonCSS = () => {
+export const getCommonCSS = (): string => {
   return css`
     @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 

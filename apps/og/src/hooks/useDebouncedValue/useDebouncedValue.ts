@@ -8,7 +8,7 @@ export const useDebouncedValue = <T>(value: T, delay: number): T => {
       setDebouncedValue(value);
     }, delay);
 
-    return () => {
+    return (): void => {
       return clearTimeout(timeout);
     };
   }, [value, delay]);

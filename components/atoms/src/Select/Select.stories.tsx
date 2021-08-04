@@ -13,7 +13,7 @@ export type Values = "png" | "jpeg";
 
 export const _Select: Story<SelectProps> = args => {
   const [value, setValue] = useState<string>("png");
-  const onChange = (inputValue: string) => {
+  const onChange = (inputValue: string): void => {
     setValue(inputValue);
   };
 

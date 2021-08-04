@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@sentrei/segment/*": ["src/*"]
+    },
+    "noEmit": true
+  },
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*"]
+}

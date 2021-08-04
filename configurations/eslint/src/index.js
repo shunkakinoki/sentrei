@@ -25,6 +25,7 @@ module.exports = {
     {
       files: ["*.js", "*.jsx"],
       rules: {
+        "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-unsafe-assignment": "off",
         "@typescript-eslint/no-unsafe-call": "off",
         "@typescript-eslint/no-unsafe-member-access": "off",
@@ -61,6 +62,7 @@ module.exports = {
   rules: {
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-return": "off",
@@ -112,6 +114,7 @@ module.exports = {
         patterns: ["../"],
       },
     ],
+    "no-restricted-exports": ["error", { restrictedNamedExports: ["default"] }],
     "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
     "func-style": ["error", "expression", { allowArrowFunctions: false }],
     "react/jsx-sort-props": [

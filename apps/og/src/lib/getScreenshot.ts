@@ -20,7 +20,7 @@ interface Options {
   headless: boolean;
 }
 
-export const getOptions = async (isDev: boolean) => {
+export const getOptions = async (isDev: boolean): Promise<Options> => {
   let options: Options;
   if (isDev) {
     options = {
@@ -39,7 +39,7 @@ export const getOptions = async (isDev: boolean) => {
   return options;
 };
 
-const getPage = async (isDev: boolean) => {
+const getPage = async (isDev: boolean): Promise<Page> => {
   if (_page) {
     return _page;
   }
@@ -53,7 +53,7 @@ export const getScreenshot = async (
   html: string,
   type: FileType,
   isDev: boolean,
-) => {
+): Promise<string | void | Buffer> => {
   const page = await getPage(isDev);
   await page.setViewport({ width: OG_WIDTH, height: OG_HEIGHT });
   await page.setContent(html);

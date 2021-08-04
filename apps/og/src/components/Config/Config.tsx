@@ -1,4 +1,5 @@
 import { Select } from "@sentrei/atoms";
+import type { VFC } from "react";
 import { useMemo } from "react";
 
 import { Layout } from "@sentrei/og/components/Config/Layout";
@@ -7,7 +8,7 @@ import { useConfig } from "@sentrei/og/hooks/useConfig";
 import { layouts } from "@sentrei/og/layouts";
 import type { FileType } from "@sentrei/og/types";
 
-export const Config = () => {
+export const Config: VFC = () => {
   const [{ fileType, layoutName }, setConfig] = useConfig();
 
   const layout = useMemo(() => {
@@ -23,7 +24,7 @@ export const Config = () => {
         <Select
           value={fileType}
           options={[{ value: "png" }, { value: "jpeg" }]}
-          onChange={fileType => {
+          onChange={(fileType): void => {
             return setConfig(c => {
               return { ...c, fileType: fileType as FileType };
             });
@@ -37,7 +38,7 @@ export const Config = () => {
           options={layouts.map(l => {
             return { value: l.name };
           })}
-          onChange={layoutName => {
+          onChange={(layoutName): void => {
             return setConfig(c => {
               return { ...c, layoutName };
             });

@@ -5,7 +5,7 @@ export const useCopy = (): [boolean, (text: string) => void] => {
   const [showCopied, setShowCopied] = useState(false);
   const timeoutRef = useRef(null);
 
-  const copyText = (text: string) => {
+  const copyText = (text: string): void => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     copy(text);
     setShowCopied(true);
