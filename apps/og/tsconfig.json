@@ -9,7 +9,7 @@
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["node", "jest"],
+    "types": ["node", "jest", "segment-analytics"],
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
