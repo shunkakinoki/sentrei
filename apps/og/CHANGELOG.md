@@ -1,3 +1,9 @@
+# @sentrei/og [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.2.1...@sentrei/og@1.3.0) (2021-08-04)
+
+### Features
+
+- ini sentry plugin ([61ff0a0](https://github.com/sentrei/sentrei/commit/61ff0a09b11ffb4d84949d0137382cf747f631b8))
+
 ## @sentrei/og [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.2.0...@sentrei/og@1.2.1) (2021-08-04)
 
 ### Performance Improvements
