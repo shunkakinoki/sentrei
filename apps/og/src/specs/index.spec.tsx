@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react";
 
-import { ButtonScreen } from "@sentrei/og/pages/index";
+import { Index } from "@sentrei/og/pages/index";
 
 describe("ButtonScreen", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<ButtonScreen />);
+    const { baseElement } = render(<Index />);
     expect(baseElement).toBeTruthy();
   });
 });

@@ -2,7 +2,7 @@ import { Config } from "@sentrei/og/components/Config";
 import { Viewer } from "@sentrei/og/components/Viewer";
 import { useIsMounted } from "@sentrei/og/hooks/useIsMounted";
 
-const Index = () => {
+export const Index = () => {
   const isMounted = useIsMounted();
 
   return (
