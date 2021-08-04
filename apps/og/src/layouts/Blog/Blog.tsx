@@ -8,8 +8,6 @@ const getCSS: GetCSSFn = config => {
   const theme = getTheme(config);
   const colours = colourThemes[theme];
 
-  console.log(colours);
-
   return css`
     body {
       color: ${colours.fg};
@@ -27,7 +25,7 @@ const getCSS: GetCSSFn = config => {
     }
 
     h3 {
-      margin-top: 40px;
+      margin-top: 45px;
       text-align: right;
       font-size: 30px;
       color: ${colours.gray};
@@ -39,6 +37,8 @@ const Component: LayoutComponent = ({ config }) => {
   const title = config.Title;
   const author = config.Author;
   const url = config.Url;
+  const date = config.Date;
+  const username = config.Username;
 
   return (
     <div
@@ -55,7 +55,13 @@ const Component: LayoutComponent = ({ config }) => {
       <h2 style={{ display: "flex" }}>
         <Markdown style={{ fontWeight: 400 }}>Written by&nbsp;</Markdown>
         <Markdown>{author}</Markdown>
-        {url && <h3>{url}</h3>}
+        <h3>
+          {date}
+          {url && "・"}
+          {url}
+          {username && "・@"}
+          {username}
+        </h3>
       </h2>
     </div>
   );
@@ -81,6 +87,18 @@ export const Blog: ILayout = {
       type: "text",
       default: "Shun",
       placeholder: "Big Author",
+    },
+    {
+      name: "Username",
+      type: "text",
+      default: "Your username",
+      placeholder: "shunkakinoki",
+    },
+    {
+      name: "Date",
+      type: "text",
+      default: "1",
+      placeholder: "2021/0",
     },
     {
       name: "Url",

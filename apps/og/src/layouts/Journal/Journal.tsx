@@ -11,10 +11,8 @@ const getCSS: GetCSSFn = config => {
 
   return css`
     body {
-      background: linear-gradient(red, transparent),
-        linear-gradient(to top left, lime, transparent),
-        linear-gradient(to top right, blue, transparent);
-      background-blend-mode: screen;
+      color: ${colours.fg};
+      background: ${colours.bg};
     }
 
     .top {
@@ -23,8 +21,7 @@ const getCSS: GetCSSFn = config => {
       display: flex;
       align-items: flex-end;
       justify-content: flex-end;
-      color: ${colours.fg};
-      padding: 80px;
+      padding: 75px;
     }
 
     h1 {
