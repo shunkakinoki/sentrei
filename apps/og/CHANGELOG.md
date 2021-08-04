@@ -1,3 +1,10 @@
+## @sentrei/og [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.2.0...@sentrei/og@1.2.1) (2021-08-04)
+
+### Performance Improvements
+
+- ini button components ([198b1eb](https://github.com/sentrei/sentrei/commit/198b1ebe0aa246ca6674e1e125754bb879f5403d))
+- ini sentrei layout ([7487834](https://github.com/sentrei/sentrei/commit/7487834112b3ab919285f0035da4a930713214e3))
+
 # @sentrei/og [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.1.1...@sentrei/og@1.2.0) (2021-08-04)
 
 ### Features
