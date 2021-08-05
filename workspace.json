@@ -40,6 +40,7 @@
     "remotion": "configurations/remotion",
     "renovate": "configurations/renovate",
     "semantic-release": "configurations/semantic-release",
+    "sentry": "configurations/sentry",
     "storybook": "configurations/storybook",
     "stylelint": "configurations/stylelint",
     "tailwindcss": "configurations/tailwindcss",

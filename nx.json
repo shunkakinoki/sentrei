@@ -73,13 +73,25 @@
     "prettier": {
       "tags": ["scope:configuration"]
     },
+    "react": {
+      "tags": ["scope:configuration"]
+    },
+    "remotion": {
+      "tags": ["scope:configuration"]
+    },
     "renovate": {
       "tags": ["scope:configuration"]
     },
     "semantic-release": {
       "tags": ["scope:configuration"]
     },
+    "sentry": {
+      "tags": ["scope:configuration"]
+    },
     "storybook": {
+      "tags": ["scope:configuration"]
+    },
+    "stylelint": {
       "tags": ["scope:configuration"]
     },
     "tailwindcss": {
@@ -187,7 +199,8 @@
         "organisms",
         "roots",
         "screens",
-        "react"
+        "react",
+        "remotion"
       ]
     }
   },
