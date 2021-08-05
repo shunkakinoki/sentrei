@@ -1,3 +1,9 @@
+## [1.42.1](https://github.com/sentrei/sentrei/compare/v1.42.0...v1.42.1) (2021-08-05)
+
+### Performance Improvements
+
+- ini og image ([79fe428](https://github.com/sentrei/sentrei/commit/79fe428b5f16a85f424fa3bc3152745c96981540))
+
 # [1.42.0](https://github.com/sentrei/sentrei/compare/v1.41.1...v1.42.0) (2021-08-04)
 
 ### Features
