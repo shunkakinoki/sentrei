@@ -1,3 +1,9 @@
+## @sentrei/og [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.1...@sentrei/og@1.3.2) (2021-08-05)
+
+### Performance Improvements
+
+- ini app root ([ccca066](https://github.com/sentrei/sentrei/commit/ccca066697d18b59fc6798e4cef73f9a74733053))
+
 ## @sentrei/og [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.0...@sentrei/og@1.3.1) (2021-08-04)
 
 ### Bug Fixes
