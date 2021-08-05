@@ -44,6 +44,7 @@ export const SeoRoot: FC<SeoRootProps> = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
     </>
   );
