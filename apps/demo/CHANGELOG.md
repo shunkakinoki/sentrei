@@ -1,3 +1,9 @@
+## @sentrei/demo [1.17.2](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.17.1...@sentrei/demo@1.17.2) (2021-08-05)
+
+### Performance Improvements
+
+- ini app root ([ccca066](https://github.com/sentrei/sentrei/commit/ccca066697d18b59fc6798e4cef73f9a74733053))
+
 ## @sentrei/demo [1.17.1](https://github.com/sentrei/sentrei/compare/@sentrei/demo@1.17.0...@sentrei/demo@1.17.1) (2021-08-04)
 
 ### Bug Fixes
