@@ -1,3 +1,9 @@
+## @sentrei/roots [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.3.0...@sentrei/roots@1.3.1) (2021-08-05)
+
+### Performance Improvements
+
+- ini og image ([79fe428](https://github.com/sentrei/sentrei/commit/79fe428b5f16a85f424fa3bc3152745c96981540))
+
 # @sentrei/roots [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.2.0...@sentrei/roots@1.3.0) (2021-08-01)
 
 ### Features
