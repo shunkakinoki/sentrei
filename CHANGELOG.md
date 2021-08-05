@@ -1,3 +1,9 @@
+## [1.42.2](https://github.com/sentrei/sentrei/compare/v1.42.1...v1.42.2) (2021-08-05)
+
+### Performance Improvements
+
+- ini app root ([ccca066](https://github.com/sentrei/sentrei/commit/ccca066697d18b59fc6798e4cef73f9a74733053))
+
 ## [1.42.1](https://github.com/sentrei/sentrei/compare/v1.42.0...v1.42.1) (2021-08-05)
 
 ### Performance Improvements
