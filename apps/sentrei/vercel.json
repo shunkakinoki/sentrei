@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://home.sentrei.com"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://home.sentrei.com/:match*"
+    },
+    {
       "source": "/app",
       "destination": "https://app.sentrei.com"
     },
@@ -25,11 +33,11 @@
       "destination": "https://design.sentrei.com/:match*"
     },
     {
-      "source": "/",
+      "source": "/home",
       "destination": "https://home.sentrei.com"
     },
     {
-      "source": "/:match*",
+      "source": "/home/:match*",
       "destination": "https://home.sentrei.com/:match*"
     },
     {
