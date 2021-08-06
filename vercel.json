@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/blog/:match*",
+      "destination": "https://blog.sentrei.com/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://home.sentrei.com/:match*"
+    }
+  ]
+}
