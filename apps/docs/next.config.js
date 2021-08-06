@@ -6,15 +6,6 @@ const { defaultConfig, plugins, withPlugins } = require("@sentrei/next");
 const config = {
   ...defaultConfig,
   basePath: "/docs",
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/docs",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = withPlugins(plugins, config);
