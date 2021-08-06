@@ -53,6 +53,7 @@
     "docs": "apps/docs",
     "home": "apps/home",
     "og": "apps/og",
+    "sentrei": "apps/sentrei",
     "app-e2e": "e2e/app-e2e",
     "demo-e2e": "e2e/demo-e2e",
     "docs-e2e": "e2e/docs-e2e",

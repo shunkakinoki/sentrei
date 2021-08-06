@@ -187,6 +187,9 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["og"]
     },
+    "sentrei": {
+      "tags": ["scope:app"]
+    },
     "design": {
       "tags": ["scope:app"],
       "implicitDependencies": ["storybook", "typescript", "webpack"]
