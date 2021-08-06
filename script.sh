@@ -29,6 +29,8 @@ else
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo $CHANGED | grep $APP -q
 
+  rm vercel.json
+
   if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
