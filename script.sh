@@ -26,11 +26,6 @@ else
     npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
   fi
 
-  if [ "$APP" == "sentrei" ]; then
-    cp apps/sentrei/public/favicon.svg ./public/favicon.svg
-    cp apps/sentrei/vercel.json vercel.json
-  fi
-
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo $CHANGED | grep $APP -q
 
