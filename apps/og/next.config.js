@@ -5,7 +5,6 @@ const { defaultConfig, miniPlugins, withPlugins } = require("@sentrei/next");
  */
 const config = {
   ...defaultConfig,
-  basePath: "/og",
 };
 
 module.exports = withPlugins(miniPlugins, config);

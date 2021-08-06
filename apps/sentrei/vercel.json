@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/app",
-      "destination": "https://app.sentrei.com/app"
+      "destination": "https://app.sentrei.com"
     },
     {
       "source": "/app/:match*",
-      "destination": "https://app.sentrei.com/app/:match*"
+      "destination": "https://app.sentrei.com/:match*"
     },
     {
       "source": "/demo",
-      "destination": "https://demo.sentrei.com/demo"
+      "destination": "https://demo.sentrei.com"
     },
     {
       "source": "/demo/:match*",
-      "destination": "https://demo.sentrei.com/demo/:match*"
+      "destination": "https://demo.sentrei.com/:match*"
     },
     {
       "source": "/design",
@@ -38,7 +38,7 @@
     },
     {
       "source": "/og/:match*",
-      "destination": "https://og.sentrei.com/og/:match*"
+      "destination": "https://og.sentrei.com/:match*"
     }
   ]
 }
