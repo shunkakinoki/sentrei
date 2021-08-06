@@ -6,7 +6,7 @@ const isProduction = process.env.NODE_ENV === "production";
  * @type {import('next').NextConfig}
  */
 const config = {
-  ...defaultConfig,
+  ...delete defaultConfig.experimental,
   basePath: isProduction ? "/app" : "/",
 };
 
