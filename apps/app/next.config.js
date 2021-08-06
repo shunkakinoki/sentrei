@@ -1,11 +1,11 @@
-const withNx = require("@nrwl/next/plugins/with-nx");
-const { defaultConfig } = require("@sentrei/next");
+const { defaultConfig, plugins, withPlugins } = require("@sentrei/next");
+
 /**
  * @type {import('next').NextConfig}
  */
 const config = {
-  ...defaultConfig,
+  ...delete defaultConfig.experimental,
   basePath: "/app",
 };
 
-module.exports = withNx(config);
+module.exports = withPlugins(plugins, config);
