@@ -29,9 +29,6 @@ else
   CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
   echo $CHANGED | grep $APP -q
 
-  echo "✨ - Removing public/favicon.svg"
-  rm public/favicon.svg
-
   if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
