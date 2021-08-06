@@ -1,16 +1,44 @@
 {
   "rewrites": [
     {
+      "source": "/app",
+      "destination": "https://app.sentrei.com/app"
+    },
+    {
       "source": "/app/:match*",
-      "destination": "https://app.sentrei.com/:match*"
+      "destination": "https://app.sentrei.com/app/:match*"
+    },
+    {
+      "source": "/demo",
+      "destination": "https://demo.sentrei.com/demo"
     },
     {
       "source": "/demo/:match*",
-      "destination": "https://demo.sentrei.com/:match*"
+      "destination": "https://demo.sentrei.com/demo/:match*"
+    },
+    {
+      "source": "/design",
+      "destination": "https://design.sentrei.com"
+    },
+    {
+      "source": "/design/:match*",
+      "destination": "https://design.sentrei.com/:match*"
+    },
+    {
+      "source": "/",
+      "destination": "https://home.sentrei.com"
     },
     {
       "source": "/:match*",
       "destination": "https://home.sentrei.com/:match*"
+    },
+    {
+      "source": "/og",
+      "destination": "https://og.sentrei.com"
+    },
+    {
+      "source": "/og/:match*",
+      "destination": "https://og.sentrei.com/og/:match*"
     }
   ]
 }
