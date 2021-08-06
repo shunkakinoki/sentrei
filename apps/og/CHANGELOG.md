@@ -1,3 +1,9 @@
+## @sentrei/og [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.2...@sentrei/og@1.3.3) (2021-08-06)
+
+### Performance Improvements
+
+- ini same domain ([0645089](https://github.com/sentrei/sentrei/commit/06450895da760584427f5f4787ad187d16501e22))
+
 ## @sentrei/og [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.1...@sentrei/og@1.3.2) (2021-08-05)
 
 ### Performance Improvements

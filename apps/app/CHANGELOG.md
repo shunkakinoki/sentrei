@@ -1,3 +1,9 @@
+## @sentrei/app [1.5.3](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.5.2...@sentrei/app@1.5.3) (2021-08-06)
+
+### Performance Improvements
+
+- ini same domain ([0645089](https://github.com/sentrei/sentrei/commit/06450895da760584427f5f4787ad187d16501e22))
+
 ## @sentrei/app [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.5.1...@sentrei/app@1.5.2) (2021-08-05)
 
 ### Performance Improvements
