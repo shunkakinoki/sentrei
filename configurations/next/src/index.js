@@ -22,7 +22,6 @@ const defaultConfig = {
     stats: true,
     workerThreads: true,
   },
-  distDir: ".next",
   eslint: {
     ignoreDuringBuilds: true,
   },
