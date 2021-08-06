@@ -7,7 +7,7 @@ const isProduction = process.env.NODE_ENV === "production";
  */
 const config = {
   ...delete defaultConfig.experimental,
-  basePath: isProduction ? "/app" : "/",
+  basePath: isProduction ? "/app" : "",
 };
 
 module.exports = withPlugins(plugins, config);
