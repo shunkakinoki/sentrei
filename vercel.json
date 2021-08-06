@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/blog/:match*",
-      "destination": "https://blog.sentrei.com/:match*"
+      "source": "/app/:match*",
+      "destination": "https://app.sentrei.com/:match*"
+    },
+    {
+      "source": "/demo/:match*",
+      "destination": "https://demo.sentrei.com/:match*"
     },
     {
       "source": "/:match*",
