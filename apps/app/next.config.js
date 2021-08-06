@@ -1,9 +1,10 @@
-const { plugins, withPlugins } = require("@sentrei/next");
+const { defaultConfig, plugins, withPlugins } = require("@sentrei/next");
 
 /**
  * @type {import('next').NextConfig}
  */
 const config = {
+  ...delete defaultConfig.experimental,
   basePath: "/app",
 };
 
