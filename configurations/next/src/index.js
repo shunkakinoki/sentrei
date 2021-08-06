@@ -8,7 +8,6 @@ const withTranslate = require("next-translate");
  * @type {import('next').NextConfig}
  */
 const defaultConfig = {
-  compress: true,
   experimental: {
     optimizeCss: true,
     optimizeFonts: true,
