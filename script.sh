@@ -14,7 +14,7 @@ else
   APP=$1
 fi
 
-if [[ "$VERCEL_ENV" == "production" || "$VERCEL_GIT_COMMIT_REF" == "alpha" || "$VERCEL_GIT_COMMIT_REF" == "beta" || "$VERCEL_GIT_COMMIT_REF" == "main" ]]; then
+if [[ "$VERCEL_ENV" == "production" && "$VERCEL_GIT_COMMIT_REF" == "main" && "$APP" == "sentrei" ]]; then
   echo "✨ - Running in specified branches at $APP"
   exit 1
 else
