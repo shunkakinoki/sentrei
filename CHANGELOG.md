@@ -1,3 +1,9 @@
+## [1.42.8](https://github.com/sentrei/sentrei/compare/v1.42.7...v1.42.8) (2021-08-07)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript-styled-plugin to ^0.18.1 ([5c8ea6e](https://github.com/sentrei/sentrei/commit/5c8ea6efb3585bd97ec5337a79baa9c07549d316))
+
 ## [1.42.7](https://github.com/sentrei/sentrei/compare/v1.42.6...v1.42.7) (2021-08-07)
 
 ### Bug Fixes
