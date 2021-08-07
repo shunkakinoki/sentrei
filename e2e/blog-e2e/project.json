@@ -1,0 +1,26 @@
+{
+  "projectType": "application",
+  "root": "e2e/blog-e2e",
+  "sourceRoot": "e2e/blog-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "e2e/blog-e2e/cypress.json",
+        "tsConfig": "e2e/blog-e2e/tsconfig.e2e.json",
+        "devServerTarget": "blog:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "blog:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["e2e/blog-e2e/**/*.{js,ts}"]
+      }
+    }
+  }
+}
