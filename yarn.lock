@@ -14238,7 +14238,7 @@ mdast-util-definitions@^4.0.0:
   dependencies:
     unist-util-visit "^2.0.0"
 
-mdast-util-find-and-replace@^1.0.0:
+mdast-util-find-and-replace@1.1.1, mdast-util-find-and-replace@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-1.1.1.tgz#b7db1e873f96f66588c321f1363069abf607d1b5"
   integrity sha512-9cKl33Y21lyckGzpSmEQnIDjEfeeWelN5s1kUW1LwdB0Fkuq2u+4GdqcGEygYxJE8GVqCl0741bYXHgamfWAZA==
@@ -14284,15 +14284,15 @@ mdast-util-to-markdown@^0.6.0:
     repeat-string "^1.0.0"
     zwitch "^1.0.0"
 
+mdast-util-to-string@2.0.0, mdast-util-to-string@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-2.0.0.tgz#b8cfe6a713e1091cb5b728fc48885a4767f8b97b"
+  integrity sha512-AW4DRS3QbBayY/jJmD8437V1Gombjf8RSOUCMFBuo5iHi58AGEgVCKQ+ezHkZZDpAQS75hcBMpLqjpJTjtUL7w==
+
 mdast-util-to-string@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.1.0.tgz#27055500103f51637bd07d01da01eb1967a43527"
   integrity sha512-jVU0Nr2B9X3MU4tSK7JP1CMkSvOj7X5l/GboG1tKRw52lLF1x2Ju92Ms9tNetCcbfX3hzlM73zYo2NKkWSfF/A==
-
-mdast-util-to-string@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-2.0.0.tgz#b8cfe6a713e1091cb5b728fc48885a4767f8b97b"
-  integrity sha512-AW4DRS3QbBayY/jJmD8437V1Gombjf8RSOUCMFBuo5iHi58AGEgVCKQ+ezHkZZDpAQS75hcBMpLqjpJTjtUL7w==
 
 mdn-data@2.0.14:
   version "2.0.14"
@@ -17961,10 +17961,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^25.69.1:
-  version "25.69.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.69.1.tgz#259d834e36a7934bb4ba8338456d20b00cd28606"
-  integrity sha512-+naPJID1hnThslHj43vXS/yFykSxFp6ZesnyJ5FVhRLEo3IRnVLMWBKi8VMOkpOlH0/34OVKB2gljYX6M4Fzgg==
+renovate@^25.69.2:
+  version "25.69.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.69.2.tgz#35bf2189597b61f8eeefa27fb1fe7dc8a7e8909c"
+  integrity sha512-JoZUry+fcQdYFlfTx//0oUz1ayzLjHGPkAJJn7UXh99Tc6YEYw06Sdmtn4l5KmEp77E6qLZEjAor7rhVBRn7sw==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
@@ -18011,6 +18011,8 @@ renovate@^25.69.1:
     luxon "2.0.1"
     markdown-it "12.1.0"
     markdown-table "2.0.0"
+    mdast-util-find-and-replace "1.1.1"
+    mdast-util-to-string "2.0.0"
     minimatch "3.0.4"
     moo "0.5.1"
     node-html-parser "3.3.6"
@@ -18031,6 +18033,7 @@ renovate@^25.69.1:
     simple-git "2.41.2"
     slugify "1.6.0"
     traverse "0.6.6"
+    unist-util-visit "2.0.3"
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "3.0.0"
