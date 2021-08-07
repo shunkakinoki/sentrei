@@ -174,7 +174,16 @@
     },
     "design": {
       "tags": ["scope:app"],
-      "implicitDependencies": ["storybook", "typescript", "webpack"]
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens",
+        "storybook",
+        "typescript",
+        "webpack"
+      ]
     },
     "demo-video": {
       "tags": ["scope:video"],
