@@ -2,48 +2,24 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://home.sentrei.com"
-    },
-    {
       "source": "/:match*",
       "destination": "https://home.sentrei.com/:match*"
-    },
-    {
-      "source": "/app",
-      "destination": "https://app.sentrei.com"
     },
     {
       "source": "/app/:match*",
       "destination": "https://app.sentrei.com/:match*"
     },
     {
-      "source": "/demo",
-      "destination": "https://demo.sentrei.com"
-    },
-    {
       "source": "/demo/:match*",
       "destination": "https://demo.sentrei.com/:match*"
-    },
-    {
-      "source": "/design",
-      "destination": "https://design.sentrei.com"
     },
     {
       "source": "/design/:match*",
       "destination": "https://design.sentrei.com/:match*"
     },
     {
-      "source": "/home",
-      "destination": "https://home.sentrei.com"
-    },
-    {
       "source": "/home/:match*",
       "destination": "https://home.sentrei.com/:match*"
-    },
-    {
-      "source": "/og",
-      "destination": "https://og.sentrei.com"
     },
     {
       "source": "/og/:match*",
