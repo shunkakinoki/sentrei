@@ -1,3 +1,10 @@
+## [1.42.4](https://github.com/sentrei/sentrei/compare/v1.42.3...v1.42.4) (2021-08-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @nrwl/nx-cloud to ^12.3.6 ([64dbe37](https://github.com/sentrei/sentrei/commit/64dbe37749243b0a980c37ca21406cab2294e82c))
+- **deps:** update dependency lint-staged to ^11.1.2 ([edc2df0](https://github.com/sentrei/sentrei/commit/edc2df0a9f98799c3f8901103a354bc9a6fc0daa))
+
 ## [1.42.3](https://github.com/sentrei/sentrei/compare/v1.42.2...v1.42.3) (2021-08-06)
 
 ### Performance Improvements
