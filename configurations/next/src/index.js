@@ -55,7 +55,7 @@ const plugins = [
     return withSentryConfig(nextConfig, SentryWebpackPluginOptions);
   },
   withNx,
-  withTranslate,
+  // withTranslate,
 ];
 
 const miniPlugins = [
