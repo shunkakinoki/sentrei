@@ -49,6 +49,7 @@
     "webpack": "configurations/webpack",
     "design": ".storybook",
     "app": "apps/app",
+    "blog": "apps/blog",
     "demo": "apps/demo",
     "docs": "apps/docs",
     "home": "apps/home",

@@ -1,14 +1,14 @@
 {
   "projectType": "application",
-  "root": "apps/sentrei",
-  "sourceRoot": "apps/sentrei",
+  "root": "apps/blog",
+  "sourceRoot": "apps/blog",
   "targets": {
     "build": {
       "executor": "@nrwl/next:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "root": "apps/sentrei",
-        "outputPath": "dist/apps/sentrei"
+        "root": "apps/blog",
+        "outputPath": "dist/apps/blog"
       },
       "configurations": {
         "production": {}
@@ -17,19 +17,19 @@
     "dev": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "sentrei:build",
+        "buildTarget": "blog:build",
         "dev": true
       }
     },
     "serve": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "sentrei:build",
+        "buildTarget": "blog:build",
         "dev": true
       },
       "configurations": {
         "production": {
-          "buildTarget": "sentrei:build:production",
+          "buildTarget": "blog:build:production",
           "dev": false
         }
       }
@@ -37,20 +37,20 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "sentrei:build:production"
+        "buildTarget": "blog:build:production"
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/sentrei"],
+      "outputs": ["coverage/apps/blog"],
       "options": {
-        "jestConfig": "apps/sentrei/jest.config.js"
+        "jestConfig": "apps/blog/jest.config.js"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/sentrei/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/blog/**/*.{ts,tsx,js,jsx}"]
       }
     }
   }

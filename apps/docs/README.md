@@ -1,1 +1,1 @@
-# `@sentrei/og`
+# `@sentrei/docs`

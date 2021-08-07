@@ -23,10 +23,12 @@
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],
       "@sentrei/app/*": ["apps/app/src/*"],
+      "@sentrei/blog/*": ["apps/blog/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/docs/*": ["apps/docs/src/*"],
       "@sentrei/home/*": ["apps/home/src/*"],
-      "@sentrei/og/*": ["apps/og/src/*"]
+      "@sentrei/og/*": ["apps/og/src/*"],
+      "@sentrei/sentrei/*": ["apps/docs/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
