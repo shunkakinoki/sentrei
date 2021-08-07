@@ -77,7 +77,8 @@
       "tags": ["scope:configuration"]
     },
     "remotion": {
-      "tags": ["scope:configuration"]
+      "tags": ["scope:configuration"],
+      "implicitDependencies": ["react"]
     },
     "renovate": {
       "tags": ["scope:configuration"]
@@ -108,14 +109,7 @@
     },
     "app": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "app-e2e": {
       "tags": ["scope:e2e"],
@@ -123,14 +117,7 @@
     },
     "blog": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "blog-e2e": {
       "tags": ["scope:e2e"],
@@ -138,14 +125,7 @@
     },
     "demo": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "demo-e2e": {
       "tags": ["scope:e2e"],
@@ -153,16 +133,7 @@
     },
     "docs": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next",
-        "tailwindcss",
-        "typescript"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "docs-e2e": {
       "tags": ["scope:e2e"],
@@ -170,16 +141,7 @@
     },
     "home": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next",
-        "tailwindcss",
-        "typescript"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "home-e2e": {
       "tags": ["scope:e2e"],
@@ -187,16 +149,7 @@
     },
     "og": {
       "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "next",
-        "tailwindcss",
-        "typescript"
-      ]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
     "og-e2e": {
       "tags": ["scope:e2e"],
@@ -225,15 +178,7 @@
     },
     "demo-video": {
       "tags": ["scope:video"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "react",
-        "remotion"
-      ]
+      "implicitDependencies": ["remotion"]
     }
   },
   "targetDependencies": {
