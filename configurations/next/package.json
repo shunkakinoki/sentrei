@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^11.0.1",
-    "@sentry/nextjs": "^6.10.0",
+    "@sentry/nextjs": "^6.11.0",
     "clsx": "^1.1.1",
     "critters": "^0.0.10",
     "next": "^11.0.1",
