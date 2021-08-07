@@ -20,18 +20,18 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@nrwl/cli": "^12.6.4",
-    "@nrwl/cypress": "^12.6.4",
-    "@nrwl/eslint-plugin-nx": "^12.6.4",
-    "@nrwl/jest": "^12.6.4",
-    "@nrwl/linter": "^12.6.4",
-    "@nrwl/next": "^12.6.4",
+    "@nrwl/cli": "^12.6.5",
+    "@nrwl/cypress": "^12.6.5",
+    "@nrwl/eslint-plugin-nx": "^12.6.5",
+    "@nrwl/jest": "^12.6.5",
+    "@nrwl/linter": "^12.6.5",
+    "@nrwl/next": "^12.6.5",
     "@nrwl/nx-cloud": "^12.3.6",
-    "@nrwl/react": "^12.6.4",
-    "@nrwl/storybook": "^12.6.4",
-    "@nrwl/tao": "^12.6.4",
-    "@nrwl/web": "^12.6.4",
-    "@nrwl/workspace": "^12.6.4"
+    "@nrwl/react": "^12.6.5",
+    "@nrwl/storybook": "^12.6.5",
+    "@nrwl/tao": "^12.6.5",
+    "@nrwl/web": "^12.6.5",
+    "@nrwl/workspace": "^12.6.5"
   },
   "publishConfig": {
     "access": "public",
