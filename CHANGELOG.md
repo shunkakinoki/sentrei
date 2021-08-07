@@ -1,3 +1,9 @@
+## [1.42.9](https://github.com/sentrei/sentrei/compare/v1.42.8...v1.42.9) (2021-08-07)
+
+### Bug Fixes
+
+- **deps:** update sentry monorepo to ^6.11.0 ([7d6aa8c](https://github.com/sentrei/sentrei/commit/7d6aa8c10925aaa840c75ee254fa8d97bcc7e9cd))
+
 ## [1.42.8](https://github.com/sentrei/sentrei/compare/v1.42.7...v1.42.8) (2021-08-07)
 
 ### Bug Fixes
