@@ -5,6 +5,7 @@ const { defaultConfig, plugins, withPlugins } = require("@sentrei/next");
  */
 const config = {
   ...defaultConfig,
+  basePath: "/docs",
 };
 
 module.exports = withPlugins(plugins, config);
