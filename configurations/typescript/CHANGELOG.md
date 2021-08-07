@@ -1,3 +1,9 @@
+## @sentrei/typescript [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.0.0...@sentrei/typescript@1.0.1) (2021-08-07)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript-styled-plugin to ^0.18.1 ([5c8ea6e](https://github.com/sentrei/sentrei/commit/5c8ea6efb3585bd97ec5337a79baa9c07549d316))
+
 # @sentrei/typescript 1.0.0 (2021-07-28)
 
 ### Performance Improvements
