@@ -1,3 +1,9 @@
+## [1.42.10](https://github.com/sentrei/sentrei/compare/v1.42.9...v1.42.10) (2021-08-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/react to ^17.0.16 ([8005110](https://github.com/sentrei/sentrei/commit/800511020747c7e5bdab73551aad3ada61d37361))
+
 ## [1.42.9](https://github.com/sentrei/sentrei/compare/v1.42.8...v1.42.9) (2021-08-07)
 
 ### Bug Fixes
