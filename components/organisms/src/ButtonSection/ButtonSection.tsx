@@ -1,7 +1,7 @@
 import { ButtonGroup } from "@sentrei/molecules";
-import type { VFC } from "react";
+import type { FC } from "react";
 
-export const ButtonSection: VFC = () => {
+export const ButtonSection: FC = () => {
   return (
     <div className="p-3 text-violet-300 bg-violet-300 rounded-xl">
       <ButtonGroup />

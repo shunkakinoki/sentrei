@@ -1,5 +1,5 @@
 import { Select } from "@sentrei/atoms";
-import type { VFC } from "react";
+import type { FC } from "react";
 import { useMemo } from "react";
 
 import { Layout } from "@sentrei/og/components/Config/Layout";
@@ -8,7 +8,7 @@ import { useConfig } from "@sentrei/og/hooks/useConfig";
 import { layouts } from "@sentrei/og/layouts";
 import type { FileType } from "@sentrei/og/types";
 
-export const Config: VFC = () => {
+export const Config: FC = () => {
   const [{ fileType, layoutName }, setConfig] = useConfig();
 
   const layout = useMemo(() => {
