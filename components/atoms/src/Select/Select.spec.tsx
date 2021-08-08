@@ -7,7 +7,7 @@ describe("Select", () => {
     const { baseElement } = render(
       <Select
         value="png"
-        options={[{ value: "png" }, { value: "jpeg" }]}
+        options={[{ value: "png" }, { value: "jpeg" }, { value: "svg" }]}
         onChange={(e): void => {
           console.log(e);
         }}
