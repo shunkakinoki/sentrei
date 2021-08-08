@@ -16,8 +16,6 @@ fi
 
 if [[ $APP ]]; then
   echo "✨ - Running in specified branches at $APP"
-else
-  echo "🛣 - Running in PR at $APP"
 
   if [ $VERCEL ]; then
     NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
