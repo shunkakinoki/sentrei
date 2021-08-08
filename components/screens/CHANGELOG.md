@@ -1,3 +1,9 @@
+## @sentrei/screens [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.3.0...@sentrei/screens@1.3.1) (2021-08-08)
+
+### Bug Fixes
+
+- refactor vfc fc ([9c66538](https://github.com/sentrei/sentrei/commit/9c6653835f6c52c84baa9511abc2cb243844f8f3))
+
 # @sentrei/screens [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.2.2...@sentrei/screens@1.3.0) (2021-07-26)
 
 ### Features
