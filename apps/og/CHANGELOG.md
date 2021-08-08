@@ -1,3 +1,9 @@
+## @sentrei/og [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.3...@sentrei/og@1.3.4) (2021-08-08)
+
+### Bug Fixes
+
+- refactor vfc fc ([9c66538](https://github.com/sentrei/sentrei/commit/9c6653835f6c52c84baa9511abc2cb243844f8f3))
+
 ## @sentrei/og [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.2...@sentrei/og@1.3.3) (2021-08-06)
 
 ### Performance Improvements
