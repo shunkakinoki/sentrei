@@ -14,9 +14,8 @@ else
   APP=$1
 fi
 
-if [[ "$VERCEL_ENV" == "production" && "$VERCEL_GIT_COMMIT_REF" == "main" && "$APP" == "sentrei" ]]; then
+if [[ $APP ]]; then
   echo "✨ - Running in specified branches at $APP"
-  exit 1
 else
   echo "🌼 - Running in PR at $APP"
 
@@ -32,8 +31,12 @@ else
   if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
+  else if [[ "$VERCEL_ENV" == "production" ]]; then
+      echo "✅ - Build can proceed in production at $APP - $CHANGED"
+  else if [[ "$APP" == "design" || "$APP" == "sentrei" ]]; then
+      echo "✅ - Build can proceed in production at $APP - $CHANGED"
   else
-    echo "✅ - Build can proceed at $APP - $CHANGED"
+    echo "🌼 - Build not proceeding at $APP - $CHANGED"
     exit 1
   fi
 fi
