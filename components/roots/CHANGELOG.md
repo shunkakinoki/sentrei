@@ -1,3 +1,9 @@
+## @sentrei/roots [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.3.2...@sentrei/roots@1.3.3) (2021-08-08)
+
+### Bug Fixes
+
+- refactor vfc fc ([9c66538](https://github.com/sentrei/sentrei/commit/9c6653835f6c52c84baa9511abc2cb243844f8f3))
+
 ## @sentrei/roots [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.3.1...@sentrei/roots@1.3.2) (2021-08-05)
 
 ### Performance Improvements
