@@ -1,7 +1,7 @@
 import { Button } from "@sentrei/atoms";
-import type { VFC } from "react";
+import type { FC } from "react";
 
-export const ButtonGroup: VFC = () => {
+export const ButtonGroup: FC = () => {
   return (
     <div className="p-3 text-blue-800 bg-blue-300 rounded-lg">
       <Button

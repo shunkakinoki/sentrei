@@ -1,12 +1,12 @@
 import { AnalyticsRoot } from "@sentrei/roots";
 
-import type { VFC } from "react";
+import type { FC } from "react";
 
 import { Config } from "@sentrei/og/components/Config";
 import { Viewer } from "@sentrei/og/components/Viewer";
 import { useIsMounted } from "@sentrei/og/hooks/useIsMounted";
 
-export const Index: VFC = () => {
+export const Index: FC = () => {
   const isMounted = useIsMounted();
 
   return (

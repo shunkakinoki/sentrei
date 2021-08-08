@@ -2,14 +2,14 @@ import { Button } from "@sentrei/atoms";
 import clsx from "clsx";
 import { useEffect, useMemo, useState } from "react";
 
-import type { VFC } from "react";
+import type { FC } from "react";
 
 import { useConfig } from "@sentrei/og/hooks/useConfig";
 import { useCopy } from "@sentrei/og/hooks/useCopy";
 import { useDebouncedValue } from "@sentrei/og/hooks/useDebouncedValue";
 import { useLayoutConfig } from "@sentrei/og/hooks/useLayoutConfig";
 
-export const Viewer: VFC = () => {
+export const Viewer: FC = () => {
   const [config] = useConfig();
   const [isCopied, copy] = useCopy();
   const [layoutConfig] = useLayoutConfig();

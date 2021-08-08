@@ -1,8 +1,8 @@
 import { renderSnippet } from "@sentrei/segment";
 import Script from "next/script";
-import type { VFC } from "react";
+import type { FC } from "react";
 
-export const AnalyticsRoot: VFC = () => {
+export const AnalyticsRoot: FC = () => {
   return (
     <Script
       dangerouslySetInnerHTML={{ __html: renderSnippet() }}
