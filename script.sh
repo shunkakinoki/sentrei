@@ -17,7 +17,7 @@ fi
 if [[ $APP ]]; then
   echo "✨ - Running in specified branches at $APP"
 else
-  echo "🌼 - Running in PR at $APP"
+  echo "🛣 - Running in PR at $APP"
 
   if [ $VERCEL ]; then
     NX_VERSION=$(node -e "console.log(require('./configurations/nrwl/package.json').dependencies['@nrwl/workspace'])")
@@ -31,10 +31,10 @@ else
   if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
-  else if [[ "$VERCEL_ENV" == "production" ]]; then
+  elif [[ "$VERCEL_ENV" == "production" ]]; then
       echo "✅ - Build can proceed in production at $APP - $CHANGED"
-  else if [[ "$APP" == "design" || "$APP" == "sentrei" ]]; then
-      echo "✅ - Build can proceed in production at $APP - $CHANGED"
+  elif [[ "$VERCEL_ENV" == "production" && [[ "$APP" == "design" || "$APP" == "sentrei" ]] ]]; then
+      echo "💚 - Build can proceed in preview at $APP - $CHANGED"
   else
     echo "🌼 - Build not proceeding at $APP - $CHANGED"
     exit 1
