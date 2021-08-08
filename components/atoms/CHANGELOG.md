@@ -1,3 +1,9 @@
+## @sentrei/atoms [1.7.2](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.7.1...@sentrei/atoms@1.7.2) (2021-08-08)
+
+### Performance Improvements
+
+- refactor select component ([73311b7](https://github.com/sentrei/sentrei/commit/73311b7affef1d7a87b2520de786ac18843ec577))
+
 ## @sentrei/atoms [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.7.0...@sentrei/atoms@1.7.1) (2021-08-04)
 
 ### Performance Improvements
