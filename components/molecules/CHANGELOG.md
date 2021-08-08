@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.5.0...@sentrei/molecules@1.5.1) (2021-08-08)
+
+### Bug Fixes
+
+- refactor vfc fc ([9c66538](https://github.com/sentrei/sentrei/commit/9c6653835f6c52c84baa9511abc2cb243844f8f3))
+
 # @sentrei/molecules [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.4.3...@sentrei/molecules@1.5.0) (2021-07-26)
 
 ### Features
