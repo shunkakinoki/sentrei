@@ -33,7 +33,7 @@ if [[ $APP ]]; then
       echo "✅ - Build can proceed in production at $APP - $CHANGED"
       exit 1
   elif [[ "$VERCEL_ENV" == "preview" && ( "$APP" == "design" || "$APP" == "sentrei" ) ]]; then
-      echo "💚 - Build can proceed in preview at $APP - $CHANGED"
+      echo "❎ - Build can proceed in preview at $APP - $CHANGED"
       exit 1
   else
     echo "🌼 - Build not proceeding at $APP - $CHANGED"
