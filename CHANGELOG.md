@@ -1,3 +1,13 @@
+## [1.42.12](https://github.com/sentrei/sentrei/compare/v1.42.11...v1.42.12) (2021-08-08)
+
+### Bug Fixes
+
+- refactor vfc fc ([9c66538](https://github.com/sentrei/sentrei/commit/9c6653835f6c52c84baa9511abc2cb243844f8f3))
+
+### Performance Improvements
+
+- refactor select component ([73311b7](https://github.com/sentrei/sentrei/commit/73311b7affef1d7a87b2520de786ac18843ec577))
+
 ## [1.42.11](https://github.com/sentrei/sentrei/compare/v1.42.10...v1.42.11) (2021-08-07)
 
 ### Bug Fixes
