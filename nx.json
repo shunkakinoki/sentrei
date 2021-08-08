@@ -108,48 +108,42 @@
       "tags": ["scope:configuration"]
     },
     "app": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "app-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["app"]
     },
     "blog": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "blog-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["blog"]
     },
     "demo": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "demo-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["demo"]
     },
     "docs": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "docs-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["docs"]
     },
     "home": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "home-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["home"]
     },
     "og": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "tags": ["scope:app"]
     },
     "og-e2e": {
       "tags": ["scope:e2e"],
