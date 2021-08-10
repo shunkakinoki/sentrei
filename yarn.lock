@@ -14421,10 +14421,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.4.tgz#c95415ef451499d7602b91095f3c8e8975f78535"
   integrity sha512-8z4efJYk43E0upd0NbVXwgSTQs6cT3T06etieCMEg7dRbzCbxUCK/GHlX8mhHRDcp+OLlHkPKsvqQTCvsRl2cg==
 
-markdown-it@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.1.0.tgz#7ad572caddd336bd27a68d20e86bac1fafe8fb20"
-  integrity sha512-7temG6IFOOxfU0SgzhqR+vr2diuMhyO5uUIEZ3C5NbXhqC9uFUHoU41USYuDFoZRsaY7BEIEei874Z20VMLF6A==
+markdown-it@12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.2.0.tgz#091f720fd5db206f80de7a8d1f1a7035fd0d38db"
+  integrity sha512-Wjws+uCrVQRqOoJvze4HCqkKl1AsSh95iFAeQDwnyfxM09divCBSXlDR1uTvyUP3Grzpn4Ru8GeCxYPM8vkCQg==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -18227,10 +18227,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^25.69.2:
-  version "25.69.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.69.2.tgz#35bf2189597b61f8eeefa27fb1fe7dc8a7e8909c"
-  integrity sha512-JoZUry+fcQdYFlfTx//0oUz1ayzLjHGPkAJJn7UXh99Tc6YEYw06Sdmtn4l5KmEp77E6qLZEjAor7rhVBRn7sw==
+renovate@^25.70.1:
+  version "25.70.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-25.70.1.tgz#e918b5d0127e80289019c72cc9d3828150ff38a8"
+  integrity sha512-giukUD9eGd+EPRSZZRd/yMNweBvk1EttR5tHsVSC+bcBaE7f8ljnCB8f/4UgrcFd7Gf23qntpZ8S+tx3263x6Q==
   dependencies:
     "@aws-sdk/client-ecr" "3.18.0"
     "@breejs/later" "4.0.2"
@@ -18275,7 +18275,7 @@ renovate@^25.69.2:
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.0"
     luxon "2.0.1"
-    markdown-it "12.1.0"
+    markdown-it "12.2.0"
     markdown-table "2.0.0"
     mdast-util-find-and-replace "1.1.1"
     mdast-util-to-string "2.0.0"
@@ -18296,7 +18296,7 @@ renovate@^25.69.2:
     semver-utils "1.1.4"
     shlex "2.1.0"
     shortid "2.2.16"
-    simple-git "2.41.2"
+    simple-git "2.42.0"
     slugify "1.6.0"
     traverse "0.6.6"
     unist-util-visit "2.0.3"
@@ -19134,10 +19134,10 @@ signale@^1.2.1, signale@^1.4.0:
     figures "^2.0.0"
     pkg-conf "^2.1.0"
 
-simple-git@2.41.2:
-  version "2.41.2"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.41.2.tgz#e95560519ff0ba49ec167098694b80617d7f1cd9"
-  integrity sha512-rrsqu3w6TNCwe7McW7Uany7pmz5TMteOTCu5Wfc0vVUdKJP94m+587pbEB6Kj4IsBM/vl85nGXZJ3XRSQ9ucLg==
+simple-git@2.42.0:
+  version "2.42.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-2.42.0.tgz#1c1ab2f06d28792d9d2d47f8ab75bd1ca5b6a4c3"
+  integrity sha512-illpUX0bcrdB3AyvBGLz0ToRVP7lXNJOGVybGVuVk7PpivPNK5YKJx2aagKdKbveaMtt0DCLK4/jfjDb6b2M2g==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
