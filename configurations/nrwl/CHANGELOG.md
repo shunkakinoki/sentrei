@@ -1,3 +1,9 @@
+## @sentrei/nrwl [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/nrwl@1.1.4...@sentrei/nrwl@1.1.5) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency @nrwl/nx-cloud to ^12.3.8 ([9bb7e22](https://github.com/sentrei/sentrei/commit/9bb7e22f17bf67072b8c3bc6419957a95365ac70))
+
 ## @sentrei/nrwl [1.1.4](https://github.com/sentrei/sentrei/compare/@sentrei/nrwl@1.1.3...@sentrei/nrwl@1.1.4) (2021-08-07)
 
 ### Bug Fixes
