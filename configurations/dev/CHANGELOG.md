@@ -1,3 +1,9 @@
+## @sentrei/dev [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.2.0...@sentrei/dev@1.2.1) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency concurrently to ^6.2.1 ([716e7b6](https://github.com/sentrei/sentrei/commit/716e7b644b611cc0c76a3e15930abb44e7ed62f3))
+
 # @sentrei/dev [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.1.0...@sentrei/dev@1.2.0) (2021-07-23)
 
 ### Features
