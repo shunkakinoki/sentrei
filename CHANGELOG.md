@@ -1,3 +1,9 @@
+## [1.42.17](https://github.com/sentrei/sentrei/compare/v1.42.16...v1.42.17) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/jest to v27 ([235c7df](https://github.com/sentrei/sentrei/commit/235c7dfacdc861a3a70fcbe586cd521f4d3defbf))
+
 ## [1.42.16](https://github.com/sentrei/sentrei/compare/v1.42.15...v1.42.16) (2021-08-10)
 
 ### Bug Fixes
