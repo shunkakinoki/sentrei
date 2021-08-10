@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.3.3...@sentrei/eslint-config@1.3.4) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-import to ^2.24.0 ([8e90fc7](https://github.com/sentrei/sentrei/commit/8e90fc7b02541b71674d842ec1ed914cf84d3d76))
+
 ## @sentrei/eslint-config [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.3.2...@sentrei/eslint-config@1.3.3) (2021-08-10)
 
 ### Bug Fixes
