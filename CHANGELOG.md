@@ -1,3 +1,10 @@
+## [1.42.15](https://github.com/sentrei/sentrei/compare/v1.42.14...v1.42.15) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-import to ^2.24.0 ([8e90fc7](https://github.com/sentrei/sentrei/commit/8e90fc7b02541b71674d842ec1ed914cf84d3d76))
+- **deps:** update dependency renovate to ^25.70.1 ([b9c1bbe](https://github.com/sentrei/sentrei/commit/b9c1bbe9e3b28ace6018557c30d850161cde9029))
+
 ## [1.42.14](https://github.com/sentrei/sentrei/compare/v1.42.13...v1.42.14) (2021-08-10)
 
 ### Bug Fixes
