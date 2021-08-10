@@ -1,3 +1,10 @@
+## [1.42.14](https://github.com/sentrei/sentrei/compare/v1.42.13...v1.42.14) (2021-08-10)
+
+### Bug Fixes
+
+- **deps:** update storybook monorepo to ^6.3.7 ([2c663a4](https://github.com/sentrei/sentrei/commit/2c663a4c5547d02bebf8eb00596e15cbfc613c8d))
+- **deps:** update typescript-eslint monorepo to ^4.29.1 ([021e27e](https://github.com/sentrei/sentrei/commit/021e27e2328cec45ea9b5e131cb5e33c6732474c))
+
 ## [1.42.13](https://github.com/sentrei/sentrei/compare/v1.42.12...v1.42.13) (2021-08-10)
 
 ### Bug Fixes
