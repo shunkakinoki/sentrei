@@ -1,3 +1,13 @@
+## [1.42.20](https://github.com/sentrei/sentrei/compare/v1.42.19...v1.42.20) (2021-08-11)
+
+### Bug Fixes
+
+- remove chrome aws lambda ([fdce528](https://github.com/sentrei/sentrei/commit/fdce5288168b7a33df570a768cf861c7374bf70a))
+
+### Performance Improvements
+
+- remove get screenshot ([cc4461f](https://github.com/sentrei/sentrei/commit/cc4461f5c48098e841dc5ecfe60b0031442f6398))
+
 ## [1.42.19](https://github.com/sentrei/sentrei/compare/v1.42.18...v1.42.19) (2021-08-11)
 
 ### Bug Fixes
