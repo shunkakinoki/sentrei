@@ -1,3 +1,9 @@
+## @sentrei/og [1.3.5](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.4...@sentrei/og@1.3.5) (2021-08-11)
+
+### Bug Fixes
+
+- remove chrome-aws-lambda package ([ca6de36](https://github.com/sentrei/sentrei/commit/ca6de36f1a9e024214d9fca60cbab94fd12ebf90))
+
 ## @sentrei/og [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.3...@sentrei/og@1.3.4) (2021-08-08)
 
 ### Bug Fixes
