@@ -1,3 +1,9 @@
+## [1.42.19](https://github.com/sentrei/sentrei/compare/v1.42.18...v1.42.19) (2021-08-11)
+
+### Bug Fixes
+
+- remove chrome-aws-lambda package ([ca6de36](https://github.com/sentrei/sentrei/commit/ca6de36f1a9e024214d9fca60cbab94fd12ebf90))
+
 ## [1.42.18](https://github.com/sentrei/sentrei/compare/v1.42.17...v1.42.18) (2021-08-10)
 
 ### Bug Fixes
