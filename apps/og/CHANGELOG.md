@@ -1,3 +1,13 @@
+## @sentrei/og [1.3.6](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.5...@sentrei/og@1.3.6) (2021-08-11)
+
+### Bug Fixes
+
+- remove chrome aws lambda ([fdce528](https://github.com/sentrei/sentrei/commit/fdce5288168b7a33df570a768cf861c7374bf70a))
+
+### Performance Improvements
+
+- remove get screenshot ([cc4461f](https://github.com/sentrei/sentrei/commit/cc4461f5c48098e841dc5ecfe60b0031442f6398))
+
 ## @sentrei/og [1.3.5](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.4...@sentrei/og@1.3.5) (2021-08-11)
 
 ### Bug Fixes
