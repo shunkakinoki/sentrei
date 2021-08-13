@@ -26,7 +26,7 @@
     "@nrwl/jest": "^12.7.0",
     "@nrwl/linter": "^12.7.0",
     "@nrwl/next": "^12.7.0",
-    "@nrwl/nx-cloud": "^12.3.8",
+    "@nrwl/nx-cloud": "^12.3.10",
     "@nrwl/react": "^12.7.0",
     "@nrwl/storybook": "^12.7.0",
     "@nrwl/tao": "^12.7.0",
