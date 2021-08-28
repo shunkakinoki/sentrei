@@ -15,24 +15,13 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "plugin:@next/next/recommended",
     "plugin:tailwindcss/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
   ],
   ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
     {
       files: ["*.js", "*.jsx"],
-      rules: {
-        "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-unsafe-assignment": "off",
-        "@typescript-eslint/no-unsafe-call": "off",
-        "@typescript-eslint/no-unsafe-member-access": "off",
-        "@typescript-eslint/no-unsafe-return": "off",
-        "@typescript-eslint/no-var-requires": "off",
-        "@typescript-eslint/require-await": "off",
-      },
+      rules: {},
     },
     {
       files: ["*.stories.tsx"],
@@ -42,9 +31,7 @@ module.exports = {
     },
     {
       files: ["*.spec.js", "*.spec.ts"],
-      rules: {
-        "@typescript-eslint/no-unsafe-call": "off",
-      },
+      rules: {},
     },
   ],
   parser: "@typescript-eslint/parser",
@@ -60,13 +47,6 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   root: true,
   rules: {
-    "@typescript-eslint/consistent-type-imports": "error",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/explicit-function-return-type": "error",
-    "@typescript-eslint/no-unsafe-assignment": "off",
-    "@typescript-eslint/no-unsafe-member-access": "off",
-    "@typescript-eslint/no-unsafe-return": "off",
-    "@typescript-eslint/restrict-template-expressions": "off",
     "arrow-body-style": ["error", "always"],
     "import/newline-after-import": "error",
     "import/no-anonymous-default-export": "error",
