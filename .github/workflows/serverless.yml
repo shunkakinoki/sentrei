@@ -1,0 +1,50 @@
+name: Serverless
+on:
+  push:
+    branches:
+      - alpha
+      - beta
+      - main
+  pull_request:
+jobs:
+  serverless:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [app]
+    steps:
+      - id: nvm
+        run: |
+          echo ::set-output name=NVMRC::$(cat .nvmrc)
+      - if: github.event_name == 'push'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
+      - if: github.event_name == 'pull_request'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.BOT_TOKEN }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ needs.nvm.outputs.NVMRC }}
+      - id: yarn-cache-dir
+        run: |
+          echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v2
+        with:
+          path: |
+            ${{ steps.yarn-cache-dir.outputs.dir }}
+          key: |
+            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
+      - uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
