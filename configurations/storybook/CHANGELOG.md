@@ -1,3 +1,9 @@
+# @sentrei/storybook [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.6.2...@sentrei/storybook@1.7.0) (2021-08-28)
+
+### Features
+
+- complete upgrade deps v2 ([b16b0b5](https://github.com/sentrei/sentrei/commit/b16b0b5f5a858a518669c1e9d44615a00c686431))
+
 ## @sentrei/storybook [1.6.2](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.6.1...@sentrei/storybook@1.6.2) (2021-08-10)
 
 ### Bug Fixes
