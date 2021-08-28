@@ -3,7 +3,7 @@ import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 import "tailwindcss/tailwind.css";
 import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "next-themes";
-import { RouterContext } from "next/dist/next-server/lib/router-context";
+import { RouterContext } from "next/dist/shared/lib/router-context";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
