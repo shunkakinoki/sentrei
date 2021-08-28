@@ -1,3 +1,9 @@
+# @sentrei/semantic-release [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.4.0...@sentrei/semantic-release@1.5.0) (2021-08-28)
+
+### Features
+
+- complete upgrade deps v2 ([b16b0b5](https://github.com/sentrei/sentrei/commit/b16b0b5f5a858a518669c1e9d44615a00c686431))
+
 # @sentrei/semantic-release [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.3.1...@sentrei/semantic-release@1.4.0) (2021-07-23)
 
 ### Features
