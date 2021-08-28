@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@remotion/bundler": "^2.3.0",
-    "@remotion/cli": "^2.3.0",
-    "@remotion/renderer": "^2.3.0",
+    "@remotion/cli": "^2.3.1",
+    "@remotion/renderer": "^2.3.1",
     "remotion": "^2.3.0"
   },
   "publishConfig": {
