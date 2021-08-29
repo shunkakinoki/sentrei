@@ -1,21 +1,12 @@
-"@sentrei/app":
+"@sentrei/og":
   component: "./node_modules/@sls-next/serverless-component"
   inputs:
     build:
       cmd: "cp"
-      args: ["-r", "./dist/apps/app/.", "."]
+      args: ["-r", "./dist/apps/og/.", "."]
       cwd: ./
       env: {}
-    cloudfront:
-      api/*:
-        forward:
-          headers:
-            - Host
-    domain:
-      - sentrei.com
     domainType: "both"
-    domainRedirects:
-      www.sentrei.com: https://sentrei.com
     memory: "2048"
     runtime: "nodejs14.x"
     timeout:

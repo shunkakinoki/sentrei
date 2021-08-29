@@ -16,17 +16,16 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
     "copy-to-clipboard": "^3.3.1",
     "marked": "^3.0.2",
-    "puppeteer-core": "^10.2.0",
+    "playwright-aws-lambda": "^0.7.0",
+    "playwright-core": "^1.14.1",
     "twemoji": "^13.1.0"
   },
   "devDependencies": {
     "@types/marked": "^3.0.0",
-    "@types/puppeteer": "^5.4.4",
-    "@types/puppeteer-core": "^5.4.0",
-    "@types/twemoji": "^12.1.2"
+    "@types/twemoji": "^12.1.2",
+    "electron": "^13.2.3"
   },
   "publishConfig": {
     "access": "public",
