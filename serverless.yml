@@ -21,3 +21,4 @@
     domainRedirects:
       www.sentrei.com: https://sentrei.com
     useServerlessTraceTarget: true
+    nextConfigDir: "./apps/app"
