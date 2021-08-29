@@ -1,0 +1,23 @@
+"@sentrei/app":
+  component: "./node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "./dist/apps/app/.", "."]
+      cwd: ./
+      env: {}
+    cloudfront:
+      api/*:
+        forward:
+          headers:
+            - Host
+    timeout:
+      defaultLambda: 30
+      apiLambda: 30
+      imageLambda: 30
+    domain:
+      - sentrei.com
+    domainType: "both"
+    domainRedirects:
+      www.sentrei.com: https://sentrei.com
+    useServerlessTraceTarget: true
