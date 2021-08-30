@@ -1,3 +1,15 @@
+## @sentrei/remotion [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.1...@sentrei/remotion@1.1.2) (2021-08-30)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/cli to ^2.3.2 ([b4d329c](https://github.com/sentrei/sentrei/commit/b4d329cdba143c3439f265c7aadc45038e4e01f8))
+
+## @sentrei/remotion [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.0...@sentrei/remotion@1.1.1) (2021-08-30)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/renderer to ^2.3.2 ([9ddda44](https://github.com/sentrei/sentrei/commit/9ddda441efc612ec1202bc33dab9fe21e2da3095))
+
 # @sentrei/remotion [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.0.5...@sentrei/remotion@1.1.0) (2021-08-28)
 
 ### Features
