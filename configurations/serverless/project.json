@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/serverless",
+  "sourceRoot": "configurations/serverless",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/serverless/**/*.js"]
+      }
+    }
+  }
+}
