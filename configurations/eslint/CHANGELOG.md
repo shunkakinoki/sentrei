@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.0...@sentrei/eslint-config@1.4.1) (2021-08-30)
+
+### Bug Fixes
+
+- **deps:** update dependency @typescript-eslint/parser to ^4.30.0 ([ce9d7c7](https://github.com/sentrei/sentrei/commit/ce9d7c79dab6e5de8bb0c6783e4c84ffde77c030))
+
 # @sentrei/eslint-config [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.3.4...@sentrei/eslint-config@1.4.0) (2021-08-28)
 
 ### Features

@@ -1,3 +1,9 @@
+## [1.43.4](https://github.com/sentrei/sentrei/compare/v1.43.3...v1.43.4) (2021-08-30)
+
+### Bug Fixes
+
+- **deps:** update dependency @typescript-eslint/parser to ^4.30.0 ([ce9d7c7](https://github.com/sentrei/sentrei/commit/ce9d7c79dab6e5de8bb0c6783e4c84ffde77c030))
+
 ## [1.43.3](https://github.com/sentrei/sentrei/compare/v1.43.2...v1.43.3) (2021-08-30)
 
 ### Bug Fixes
