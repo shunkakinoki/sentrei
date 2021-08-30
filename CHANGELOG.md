@@ -1,3 +1,9 @@
+## [1.43.3](https://github.com/sentrei/sentrei/compare/v1.43.2...v1.43.3) (2021-08-30)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/cli to ^2.3.2 ([b4d329c](https://github.com/sentrei/sentrei/commit/b4d329cdba143c3439f265c7aadc45038e4e01f8))
+
 ## [1.43.2](https://github.com/sentrei/sentrei/compare/v1.43.1...v1.43.2) (2021-08-30)
 
 ### Bug Fixes
