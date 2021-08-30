@@ -51,7 +51,6 @@ jobs:
           aws-region: us-east-1
       - run: |
           yarn run build:${{ matrix.app }}
-      - run: |
+      - working-directory: apps/${{ matrix.app }}
+        run: |
           npx serverless
-        env:
-          APP: ${{ matrix.app }}
