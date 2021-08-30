@@ -5,8 +5,8 @@
   "integrationFolder": "./src/integration",
   "modifyObstructiveCode": false,
   "pluginsFile": "./src/plugins/index",
-  "screenshotsFolder": "../../dist/e2e/app/screenshots",
+  "screenshotsFolder": "../../dist/e2e/docs-e2e/screenshots",
   "supportFile": "./src/support/index.ts",
   "video": true,
-  "videosFolder": "../../dist/e2e/app/videos"
+  "videosFolder": "../../dist/e2e/docs-e2e/videos"
 }
