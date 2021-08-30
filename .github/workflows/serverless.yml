@@ -15,9 +15,6 @@ jobs:
       matrix:
         branch: [app]
     steps:
-      - id: nvm
-        run: |
-          echo ::set-output name=NVMRC::$(cat .nvmrc)
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
         with:
@@ -29,6 +26,9 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.BOT_TOKEN }}
+      - id: nvm
+        run: |
+          echo ::set-output name=NVMRC::$(cat .nvmrc)
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ needs.nvm.outputs.NVMRC }}
