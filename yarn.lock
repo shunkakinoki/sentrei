@@ -3205,54 +3205,39 @@
     webpack "5.37.0"
     webpack-hot-middleware "^2.25.0"
 
-"@remotion/cli@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.3.1.tgz#190cd6a5b906835fe6b08d814c634aafae0ca41c"
-  integrity sha512-Em7nkA0J1MatQAoHxKju8NALSd1buuxcUCgm4JMi0ob12BJTCZWLh+DDDWcMP/wTrChBB2hb99rzHDuGRB0+2Q==
+"@remotion/cli@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.3.2.tgz#9d9f7d25987abc47854839813021192d60da1f48"
+  integrity sha512-iWfE8ClJCPDqPFcypYqvkdB0m/sl4iDe8Vu5FuNChtceoRDGuVpIgfh45USeGWFw/vtEAkjoLM8v+PCim+V+XA==
   dependencies:
-    "@remotion/bundler" "^2.3.0"
-    "@remotion/media-utils" "^2.3.0"
-    "@remotion/player" "^2.3.0"
-    "@remotion/renderer" "^2.3.1"
+    "@remotion/bundler" "^2.3.2"
+    "@remotion/media-utils" "^2.3.2"
+    "@remotion/player" "^2.3.2"
+    "@remotion/renderer" "^2.3.2"
     ansi-diff "^1.1.1"
     better-opn "^2.1.1"
     chalk "^4.1.0"
     dotenv "^9.0.0"
     execa "^4.0.2"
     minimist "^1.2.5"
-    remotion "^2.3.0"
+    remotion "^2.3.2"
     semver "^7.3.4"
     webpack "5.37.0"
     xns "^2.0.7"
 
-"@remotion/media-utils@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.3.0.tgz#af263ecd81465d47c7b2977227fbf28da9560774"
-  integrity sha512-hyW0My8VngHsRxiXaUStnyN/H5tJL3g3oKbHdPUEqhth+OrvRK5OuzuncdDEy2eBVssvQ4Spz0yraMOFYNzDAQ==
+"@remotion/media-utils@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@remotion/media-utils/-/media-utils-2.3.2.tgz#6325ec4c3905f1755de10dca19f7431367d28303"
+  integrity sha512-7BP19EYElkWwHH7HG6L1GUBuIMk64W6lmK7azu8mneNiQfTN7rNA1ItkgM0XPjxphANX1jpqICo+ouSwTOxW2w==
   dependencies:
-    remotion "^2.3.0"
+    remotion "^2.3.2"
 
-"@remotion/player@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.3.0.tgz#014d1c8875f482da94307c2e2653f3c75fc724f7"
-  integrity sha512-VvvL0myY1Rt5xMX6OKAlDFInGVqxj+5sZIyjYK2J7ZQkAkZJJ7fwYPLXf/WRU0RKWEI2/HKCbcnWTupxNee5CQ==
+"@remotion/player@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@remotion/player/-/player-2.3.2.tgz#eb3d137171cf4490f8cc238ac911cac651825136"
+  integrity sha512-sA+jozK0/Ohg7vGtYu6FuuZ4GiwpTTOZU2gsAzYWmjMC7/kG7J1omKSR+ath3kyfIs5ODb1ZVWc31nmKpnsnLA==
   dependencies:
-    remotion "^2.3.0"
-
-"@remotion/renderer@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.3.1.tgz#d0437c987a26ec4aac0fbe5f476a728f6807c231"
-  integrity sha512-eMId9ktgce/j4fE7gR9DM/3YY5n92FJ4E3Ae9zaKa+U5kQD8CFbT7YY3PK/B4NXV6k7UMgcPp44wYBxD1SkHbg==
-  dependencies:
-    "@remotion/bundler" "^2.3.0"
-    execa "^4.0.2"
-    got "11.8.2"
-    p-limit "^3.1.0"
-    puppeteer-core "^10.2.0"
-    remotion "^2.3.0"
-    sanitize-filename "^1.6.3"
-    serve-handler "^6.1.3"
-    xns "^2.0.7"
+    remotion "^2.3.2"
 
 "@remotion/renderer@^2.3.2":
   version "2.3.2"
