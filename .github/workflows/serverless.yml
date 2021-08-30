@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [og]
+        app: [app, home, og]
     steps:
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
@@ -53,3 +53,5 @@ jobs:
           yarn run build:${{ matrix.app }}
       - run: |
           npx serverless
+        env:
+          APP: ${{ matrix.app }}

@@ -1,9 +1,10 @@
-"@sentrei/og":
+app: ${env.APP}
+sentrei:
   component: "./node_modules/@sls-next/serverless-component"
   inputs:
     build:
       cmd: "cp"
-      args: ["-r", "./dist/apps/og/.", "."]
+      args: ["-r", "./dist/apps/${app}/.", "."]
       cwd: ./
       env: {}
     domainType: "both"
