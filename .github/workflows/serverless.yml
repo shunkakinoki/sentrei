@@ -53,4 +53,4 @@ jobs:
           yarn run build:${{ matrix.app }}
       - working-directory: apps/${{ matrix.app }}
         run: |
-          npx serverless
+          yarn run serverless
