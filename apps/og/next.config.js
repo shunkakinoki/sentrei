@@ -5,6 +5,7 @@ const { defaultConfig, miniPlugins, withPlugins } = require("@sentrei/next");
  */
 const config = {
   ...defaultConfig,
+  target: "experimental-serverless-trace",
 };
 
 module.exports = withPlugins(miniPlugins, config);

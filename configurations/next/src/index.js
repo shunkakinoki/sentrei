@@ -37,6 +37,7 @@ const defaultConfig = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  target: "serverless",
   trailingSlash: false,
   typescript: {
     ignoreBuildErrors: false,

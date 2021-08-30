@@ -96,6 +96,7 @@ out
 
 # Serverless directories
 .serverless/
+.serverless_nextjs
 
 # FuseBox cache
 .fusebox/
