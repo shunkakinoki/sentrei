@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "serverless": "^2.56.0"
+    "serverless": "^2.57.0"
   },
   "publishConfig": {
     "access": "public",
