@@ -1,3 +1,9 @@
+## [1.43.5](https://github.com/sentrei/sentrei/compare/v1.43.4...v1.43.5) (2021-08-31)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.13.8 ([342ef00](https://github.com/sentrei/sentrei/commit/342ef004a93ae86c2744f8da7ecce395d6702486))
+
 ## [1.43.4](https://github.com/sentrei/sentrei/compare/v1.43.3...v1.43.4) (2021-08-30)
 
 ### Bug Fixes
