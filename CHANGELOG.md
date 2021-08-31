@@ -1,3 +1,9 @@
+## [1.43.6](https://github.com/sentrei/sentrei/compare/v1.43.5...v1.43.6) (2021-08-31)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.2 ([08b8b2a](https://github.com/sentrei/sentrei/commit/08b8b2a25a0a819308fc7ae601e0549693391bc6))
+
 ## [1.43.5](https://github.com/sentrei/sentrei/compare/v1.43.4...v1.43.5) (2021-08-31)
 
 ### Bug Fixes
