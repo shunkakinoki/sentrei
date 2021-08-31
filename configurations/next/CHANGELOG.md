@@ -1,3 +1,9 @@
+## @sentrei/next [1.12.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.0...@sentrei/next@1.12.1) (2021-08-31)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.2 ([08b8b2a](https://github.com/sentrei/sentrei/commit/08b8b2a25a0a819308fc7ae601e0549693391bc6))
+
 # @sentrei/next [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.11.2...@sentrei/next@1.12.0) (2021-08-28)
 
 ### Features
