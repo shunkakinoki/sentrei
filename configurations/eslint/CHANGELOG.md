@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.1...@sentrei/eslint-config@1.4.2) (2021-08-31)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.2 ([08b8b2a](https://github.com/sentrei/sentrei/commit/08b8b2a25a0a819308fc7ae601e0549693391bc6))
+
 ## @sentrei/eslint-config [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.0...@sentrei/eslint-config@1.4.1) (2021-08-30)
 
 ### Bug Fixes
