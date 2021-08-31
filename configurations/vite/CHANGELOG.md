@@ -1,3 +1,9 @@
+## @sentrei/vite [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/vite@1.1.0...@sentrei/vite@1.1.1) (2021-08-31)
+
+### Bug Fixes
+
+- **deps:** update dependency vite to ^2.5.2 ([665f18f](https://github.com/sentrei/sentrei/commit/665f18f960063f719d60f7b788088b1796c03f41))
+
 # @sentrei/vite [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/vite@1.0.1...@sentrei/vite@1.1.0) (2021-08-28)
 
 ### Features
