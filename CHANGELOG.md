@@ -1,3 +1,9 @@
+## [1.43.17](https://github.com/sentrei/sentrei/compare/v1.43.16...v1.43.17) (2021-09-01)
+
+### Performance Improvements
+
+- upgrade nx workspace ([164a99a](https://github.com/sentrei/sentrei/commit/164a99a9342dd0c498cf690571445391e855dc8d))
+
 ## [1.43.16](https://github.com/sentrei/sentrei/compare/v1.43.15...v1.43.16) (2021-09-01)
 
 ### Bug Fixes
