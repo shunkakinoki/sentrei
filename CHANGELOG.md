@@ -1,3 +1,9 @@
+## [1.43.11](https://github.com/sentrei/sentrei/compare/v1.43.10...v1.43.11) (2021-09-01)
+
+### Bug Fixes
+
+- **deps:** update dependency @sls-next/serverless-component to ^3.3.0 ([d0643a3](https://github.com/sentrei/sentrei/commit/d0643a3530a0ee47948986c2270e18fce5b4228b))
+
 ## [1.43.10](https://github.com/sentrei/sentrei/compare/v1.43.9...v1.43.10) (2021-09-01)
 
 ### Bug Fixes
