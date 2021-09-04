@@ -1,3 +1,9 @@
+## [1.43.21](https://github.com/sentrei/sentrei/compare/v1.43.20...v1.43.21) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-addon-next-router to ^3.0.8 ([9e60e41](https://github.com/sentrei/sentrei/commit/9e60e41428db25e93ee1df8d099d318f87a83b44))
+
 ## [1.43.20](https://github.com/sentrei/sentrei/compare/v1.43.19...v1.43.20) (2021-09-04)
 
 ### Bug Fixes
