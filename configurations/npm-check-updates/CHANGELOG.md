@@ -1,3 +1,9 @@
+## @sentrei/npm-check-updates [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.5.0...@sentrei/npm-check-updates@1.5.1) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency npm-check-updates to ^11.8.5 ([b87f20a](https://github.com/sentrei/sentrei/commit/b87f20a9a98cccfe7a0aa1ff229513617af54343))
+
 # @sentrei/npm-check-updates [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.4.0...@sentrei/npm-check-updates@1.5.0) (2021-07-23)
 
 ### Features
