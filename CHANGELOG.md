@@ -1,3 +1,9 @@
+## [1.43.19](https://github.com/sentrei/sentrei/compare/v1.43.18...v1.43.19) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency npm-check-updates to ^11.8.5 ([b87f20a](https://github.com/sentrei/sentrei/commit/b87f20a9a98cccfe7a0aa1ff229513617af54343))
+
 ## [1.43.18](https://github.com/sentrei/sentrei/compare/v1.43.17...v1.43.18) (2021-09-02)
 
 ### Bug Fixes
