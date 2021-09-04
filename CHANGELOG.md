@@ -1,3 +1,9 @@
+## [1.43.20](https://github.com/sentrei/sentrei/compare/v1.43.19...v1.43.20) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.19.0 ([64fe34f](https://github.com/sentrei/sentrei/commit/64fe34f0791546486f216e0e3f01195f89d0f814))
+
 ## [1.43.19](https://github.com/sentrei/sentrei/compare/v1.43.18...v1.43.19) (2021-09-04)
 
 ### Bug Fixes
