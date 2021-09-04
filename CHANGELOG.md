@@ -1,3 +1,27 @@
+## [1.43.20](https://github.com/sentrei/sentrei/compare/v1.43.19...v1.43.20) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.19.0 ([64fe34f](https://github.com/sentrei/sentrei/commit/64fe34f0791546486f216e0e3f01195f89d0f814))
+
+## [1.43.19](https://github.com/sentrei/sentrei/compare/v1.43.18...v1.43.19) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency npm-check-updates to ^11.8.5 ([b87f20a](https://github.com/sentrei/sentrei/commit/b87f20a9a98cccfe7a0aa1ff229513617af54343))
+
+## [1.43.18](https://github.com/sentrei/sentrei/compare/v1.43.17...v1.43.18) (2021-09-02)
+
+### Bug Fixes
+
+- **deps:** update dependency autoprefixer to ^10.3.4 ([961e10b](https://github.com/sentrei/sentrei/commit/961e10bb4ca96ec8f43506f9d7b032d5252db9dc))
+
+## [1.43.17](https://github.com/sentrei/sentrei/compare/v1.43.16...v1.43.17) (2021-09-01)
+
+### Performance Improvements
+
+- upgrade nx workspace ([164a99a](https://github.com/sentrei/sentrei/commit/164a99a9342dd0c498cf690571445391e855dc8d))
+
 ## [1.43.16](https://github.com/sentrei/sentrei/compare/v1.43.15...v1.43.16) (2021-09-01)
 
 ### Bug Fixes
