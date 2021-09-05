@@ -13,7 +13,7 @@ import {
 
 export default {
   component: Text,
-  title: "Atom/Text",
+  title: "Atoms/Text",
 } as Meta;
 
 export const _Text: Story<TextProps> = args => {
