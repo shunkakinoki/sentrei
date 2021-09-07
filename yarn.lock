@@ -20325,6 +20325,11 @@ remotion@^2.3.2:
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.2.tgz#c5cedbe6f0ef29220d65e21f1075d357a7594a75"
   integrity sha512-3E2eBkOI2bLDnbb+s6SWPHTxlj4oFrnf/aI/OkjEcUVplNT/9L+yAxgLsJUAi5vl28w07dGhttOYiJOmssEq5w==
 
+remotion@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.3.tgz#a46ae91acea64f3523a820ec87db13a134d8a2b8"
+  integrity sha512-Gc3YOJhtMLxMkveppt99ZgKlNT8+tol2BNnhUJysxdSJF7PfED9QNAVfbfCoxA8foHBA+SgZr9FyVV+uSydnDA==
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
