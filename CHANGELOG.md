@@ -1,3 +1,9 @@
+## [1.43.24](https://github.com/sentrei/sentrei/compare/v1.43.23...v1.43.24) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency tailwindcss to ^2.2.11 ([a7f5ee7](https://github.com/sentrei/sentrei/commit/a7f5ee7924ab9246d15c36ec8a8324c368405d86))
+
 ## [1.43.23](https://github.com/sentrei/sentrei/compare/v1.43.22...v1.43.23) (2021-09-07)
 
 ### Bug Fixes
