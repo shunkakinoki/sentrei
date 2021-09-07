@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "renovate": "^26.21.3"
+    "renovate": "^26.21.4"
   },
   "publishConfig": {
     "access": "public",
