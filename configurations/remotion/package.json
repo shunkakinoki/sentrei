@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@remotion/bundler": "^2.3.2",
+    "@remotion/bundler": "^2.3.3",
     "@remotion/cli": "^2.3.2",
     "@remotion/renderer": "^2.3.2",
     "remotion": "^2.3.2"
