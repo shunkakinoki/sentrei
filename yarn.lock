@@ -3795,6 +3795,27 @@
     webpack "5.37.0"
     webpack-hot-middleware "^2.25.0"
 
+"@remotion/bundler@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@remotion/bundler/-/bundler-2.3.3.tgz#464edc18f0e8d8ffea6ad10141a169910d1b6a27"
+  integrity sha512-gJ392Xb4V66pT/a8IC72RoHpj3C1aHMVdoR/wRK4BkRIfsKpsnKZu6TOQpNSfjc+UmcNJPGhzfLx+BFuJn89lg==
+  dependencies:
+    "@jonny/webpack-dev-middleware" "^4.1.3"
+    "@webhotelier/webpack-fast-refresh" "5.1.0"
+    css-loader "^5.0.1"
+    esbuild-loader "^2.10.0"
+    execa "^4.0.3"
+    express "^4.17.1"
+    file-loader "^6.0.0"
+    latest-version "^5.1.0"
+    react-refresh "^0.9.0-rc.2"
+    remotion "^2.3.3"
+    semver "7.3.4"
+    style-loader "^2.0.0"
+    styled-components "^5.2.1"
+    webpack "5.37.0"
+    webpack-hot-middleware "^2.25.0"
+
 "@remotion/cli@^2.3.2":
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/@remotion/cli/-/cli-2.3.2.tgz#9d9f7d25987abc47854839813021192d60da1f48"
@@ -3840,6 +3861,21 @@
     p-limit "^3.1.0"
     puppeteer-core "^10.2.0"
     remotion "^2.3.2"
+    sanitize-filename "^1.6.3"
+    serve-handler "^6.1.3"
+    xns "^2.0.7"
+
+"@remotion/renderer@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@remotion/renderer/-/renderer-2.3.3.tgz#9fe4e8125588607cb4e408eb14341ddd7ad1d209"
+  integrity sha512-g5q6E67tP383jaXg7X4ogwBgBhXd7sRomuPqfuy36gKz0N39yUULRArUxZc2aCT6t98NfE0h/4l7Ywm6ohgO6w==
+  dependencies:
+    "@remotion/bundler" "^2.3.3"
+    execa "^4.0.2"
+    got "11.8.2"
+    p-limit "^3.1.0"
+    puppeteer-core "^10.2.0"
+    remotion "^2.3.3"
     sanitize-filename "^1.6.3"
     serve-handler "^6.1.3"
     xns "^2.0.7"
@@ -20324,6 +20360,11 @@ remotion@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.2.tgz#c5cedbe6f0ef29220d65e21f1075d357a7594a75"
   integrity sha512-3E2eBkOI2bLDnbb+s6SWPHTxlj4oFrnf/aI/OkjEcUVplNT/9L+yAxgLsJUAi5vl28w07dGhttOYiJOmssEq5w==
+
+remotion@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.3.tgz#a46ae91acea64f3523a820ec87db13a134d8a2b8"
+  integrity sha512-Gc3YOJhtMLxMkveppt99ZgKlNT8+tol2BNnhUJysxdSJF7PfED9QNAVfbfCoxA8foHBA+SgZr9FyVV+uSydnDA==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
