@@ -1,3 +1,9 @@
+## [1.43.22](https://github.com/sentrei/sentrei/compare/v1.43.21...v1.43.22) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @semantic-release/git to ^9.0.1 ([d347175](https://github.com/sentrei/sentrei/commit/d347175771363d7d038521af135a4ea164f1ab18))
+
 ## [1.43.21](https://github.com/sentrei/sentrei/compare/v1.43.20...v1.43.21) (2021-09-04)
 
 ### Bug Fixes
