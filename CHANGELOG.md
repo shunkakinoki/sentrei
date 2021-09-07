@@ -1,3 +1,9 @@
+## [1.43.26](https://github.com/sentrei/sentrei/compare/v1.43.25...v1.43.26) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency vite to ^2.5.4 ([fc6cceb](https://github.com/sentrei/sentrei/commit/fc6ccebd3a1266f3ebe7b960dd4584d427323fbb))
+
 ## [1.43.25](https://github.com/sentrei/sentrei/compare/v1.43.24...v1.43.25) (2021-09-07)
 
 ### Bug Fixes
