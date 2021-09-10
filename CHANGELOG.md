@@ -1,3 +1,9 @@
+## [1.43.32](https://github.com/sentrei/sentrei/compare/v1.43.31...v1.43.32) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to ^3.0.3 ([8321dd1](https://github.com/sentrei/sentrei/commit/8321dd10d0a5bd71e2e47fbb791e30ce31c8defe))
+
 ## [1.43.31](https://github.com/sentrei/sentrei/compare/v1.43.30...v1.43.31) (2021-09-10)
 
 ### Bug Fixes
