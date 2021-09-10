@@ -1,3 +1,9 @@
+## @sentrei/og [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.0...@sentrei/og@1.4.1) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to ^3.0.3 ([8321dd1](https://github.com/sentrei/sentrei/commit/8321dd10d0a5bd71e2e47fbb791e30ce31c8defe))
+
 # @sentrei/og [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.3.6...@sentrei/og@1.4.0) (2021-08-28)
 
 ### Features
