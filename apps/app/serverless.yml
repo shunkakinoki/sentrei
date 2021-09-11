@@ -7,9 +7,7 @@
       cwd: ./
       env: {}
     bucketRegion: "us-east-1"
-    bucketName: "app-sentrei"
-    cloudfront:
-      distributionId: E2DTPXHHHDPQ2F
+    bucketName: "app.sentrei.com"
     name:
       defaultLambda: "app-sentrei-lambda"
       apiLambda: "app-sentrei-api-lambda"
