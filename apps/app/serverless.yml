@@ -6,10 +6,16 @@
       args: ["-r", "../../dist/apps/app/.", "."]
       cwd: ./
       env: {}
-    domainType: "both"
-    memory: "2048"
+    certificateArn: ${acl}
+    domain: ["app", "sentrei.com"]
+    bucketRegion: "us-east-1"
+    bucketName: "app-sentrei"
+    cloudfront:
+      distributionId: E2DTPXHHHDPQ2F
+    name:
+      defaultLambda: "app-sentrei-lambda"
+      apiLambda: "app-sentrei-api-lambda"
+      imageLambda: "app-sentrei-image-lambda"
     runtime: "nodejs14.x"
-    timeout:
-      defaultLambda: 30
-      apiLambda: 30
-      imageLambda: 30
+    timeout: 30
+    useServerlessTraceTarget: true
