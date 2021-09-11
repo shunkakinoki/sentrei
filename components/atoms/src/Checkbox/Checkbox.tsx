@@ -14,7 +14,7 @@ export interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   required?: HTMLInputElement["required"];
   readOnly?: HTMLInputElement["readOnly"];
   defaultChecked?: boolean;
-  checked?: boolean;
+  checked?: boolean; //The attribute indicates if the checkbox is checked by default, when loading. See://https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#attr-checked
   id?: string;
   name?: string;
   value?: string | number;
