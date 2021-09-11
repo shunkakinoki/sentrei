@@ -1,5 +1,10 @@
 import clsx from "clsx";
-import type { FC, ReactNode, InputHTMLAttributes } from "react";
+import type {
+  FC,
+  ReactNode,
+  InputHTMLAttributes,
+  ChangeEventHandler,
+} from "react";
 
 export const CheckboxSize = {
   SMALL: "form-checkbox h-4 w-4",
@@ -14,12 +19,13 @@ export interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   required?: HTMLInputElement["required"];
   readOnly?: HTMLInputElement["readOnly"];
   defaultChecked?: boolean;
-  checked?: boolean; //The attribute indicates if the checkbox is checked by default, when loading. See://https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#attr-checked
+  checked?: boolean;
   id?: string;
   name?: string;
   value?: string | number;
   boxSize?: string;
   children?: ReactNode;
+  onChange: ChangeEventHandler<HTMLInputElement>;
 }
 
 export const Checkbox: FC<CheckboxProps> = props => {
