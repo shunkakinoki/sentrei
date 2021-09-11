@@ -6,8 +6,6 @@
       args: ["-r", "../../dist/apps/app/.", "."]
       cwd: ./
       env: {}
-    certificateArn: ${acl}
-    domain: ["app", "sentrei.com"]
     bucketRegion: "us-east-1"
     bucketName: "app-sentrei"
     cloudfront:
