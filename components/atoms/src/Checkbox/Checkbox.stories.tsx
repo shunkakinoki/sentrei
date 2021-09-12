@@ -16,7 +16,7 @@ export const _Checkbox: Story<CheckboxProps> = args => {
   };
   console.log(checked);
 
-  return <Checkbox {...args} onChange={onChange} />;
+  return <Checkbox {...args} checked={checked} onChange={onChange} />;
 };
 
 _Checkbox.args = {

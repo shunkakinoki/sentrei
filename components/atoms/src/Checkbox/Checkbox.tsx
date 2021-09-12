@@ -18,8 +18,7 @@ export interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   invalid?: boolean;
   required?: HTMLInputElement["required"];
   readOnly?: HTMLInputElement["readOnly"];
-  defaultChecked?: boolean;
-  checked?: boolean;
+  checked: boolean;
   id?: string;
   name?: string;
   value?: string | number;
@@ -34,7 +33,6 @@ export const Checkbox: FC<CheckboxProps> = props => {
     disabled = false,
     required = false,
     readOnly = false,
-    defaultChecked = false,
     checked,
     id,
     name,
@@ -56,16 +54,13 @@ export const Checkbox: FC<CheckboxProps> = props => {
         id={id}
         name={name}
         value={value}
-        defaultChecked={readOnly ? undefined : defaultChecked}
-        checked={
-          readOnly ? Boolean(checked) : defaultChecked ? undefined : checked
-        }
+        checked={readOnly ? Boolean(checked) : checked}
         disabled={disabled}
         readOnly={readOnly}
         required={required}
         className={clsx(
           readOnly || disabled ? "opacity-80" : "opacity-100",
-          "mr-2",
+          "mr-2 cursor-pointer",
           boxSize,
           className,
         )}
@@ -75,3 +70,7 @@ export const Checkbox: FC<CheckboxProps> = props => {
     </label>
   );
 };
+
+Checkbox.displayName = "Checkbox";
+
+export default Checkbox;

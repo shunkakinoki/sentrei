@@ -8,6 +8,7 @@ describe("Checkbox", () => {
   it("should render successfully", () => {
     const { baseElement } = render(
       <Checkbox
+        checked={false}
         onChange={e => {
           console.log(e);
         }}
