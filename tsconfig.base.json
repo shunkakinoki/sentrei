@@ -23,7 +23,7 @@
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],
       "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
-      "@sentrei/blog/*": ["apps/blog/src/*"],
+      "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/docs/*": ["apps/docs/src/*"],
       "@sentrei/home/*": ["apps/home/src/*"],

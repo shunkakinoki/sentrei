@@ -112,13 +112,13 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["app-sentrei-com"]
     },
-    "blog": {
+    "blog-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "blog-e2e": {
+    "blog-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["blog"]
+      "implicitDependencies": ["blog-sentrei-com"]
     },
     "demo": {
       "tags": ["scope:app"],
