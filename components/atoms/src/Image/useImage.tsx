@@ -9,7 +9,6 @@ import {
 
 export interface UseImageProps {
   src?: string;
-  srcSet?: string;
   sizes?: string;
   // eslint-disable-next-line no-unused-vars
   onLoad?(event: SyntheticEvent<HTMLImageElement, Event>): void;
@@ -28,8 +27,7 @@ type ImageEvent = SyntheticEvent<HTMLImageElement, Event>;
  * @returns the status of the image loading progress
  */
 export const UseImage = (props: UseImageProps) => {
-  const { src, srcSet, onLoad, onError, crossOrigin, sizes, ignoreFallback } =
-    props;
+  const { src, onLoad, onError, crossOrigin, sizes, ignoreFallback } = props;
 
   const [status, setStatus] = useState<Status>("pending");
 
@@ -50,10 +48,6 @@ export const UseImage = (props: UseImageProps) => {
       img.crossOrigin = crossOrigin;
     }
 
-    if (srcSet) {
-      img.srcset = srcSet;
-    }
-
     if (sizes) {
       img.sizes = sizes;
     }
@@ -70,7 +64,7 @@ export const UseImage = (props: UseImageProps) => {
     };
 
     imageRef.current = img;
-  }, [src, crossOrigin, srcSet, sizes, onLoad, onError]);
+  }, [src, crossOrigin, sizes, onLoad, onError]);
 
   const flush = () => {
     if (imageRef.current) {
