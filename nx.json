@@ -120,14 +120,6 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["blog-sentrei-com"]
     },
-    "demo": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
-    },
-    "demo-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["demo"]
-    },
     "og-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
@@ -159,6 +151,14 @@
     "www-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
       "implicitDependencies": ["www-sentrei-com"]
+    },
+    "www-thisweekindaos-com": {
+      "tags": ["scope:app"],
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+    },
+    "www-thisweekindaos-com-e2e": {
+      "tags": ["scope:e2e"],
+      "implicitDependencies": ["www-thisweekindaos-com"]
     },
     "design": {
       "tags": ["scope:app"],

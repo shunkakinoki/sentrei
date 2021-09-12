@@ -1,0 +1,18 @@
+"@sentrei/www-thisweekindaos-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/www-thisweekindaos-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "www-thisweekindaos-com"
+    domain: ["thisweekindaos.com"]
+    name:
+      defaultLambda: "www-thisweekindaos-com-lambda"
+      apiLambda: "www-thisweekindaos-com-api-lambda"
+      imageLambda: "www-thisweekindaos-com-image-lambda"
+    runtime: "nodejs14.x"
+    timeout: 30
+    useServerlessTraceTarget: true
