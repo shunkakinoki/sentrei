@@ -26,9 +26,9 @@
       "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/docs/*": ["apps/docs/src/*"],
-      "@sentrei/home/*": ["apps/home/src/*"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
-      "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"]
+      "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
+      "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

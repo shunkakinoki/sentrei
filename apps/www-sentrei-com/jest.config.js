@@ -1,10 +1,10 @@
 module.exports = {
-  displayName: "home",
+  displayName: "www-sentrei-com",
   preset: "../../jest.preset.js",
   globals: {
     "ts-jest": {
       tsconfig: "<rootDir>/tsconfig.spec.json",
     },
   },
-  coverageDirectory: "../../coverage/apps/home",
+  coverageDirectory: "../../coverage/apps/www-sentrei-com",
 };
