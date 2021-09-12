@@ -6,8 +6,6 @@ import { omit } from "../../../utils/object";
 
 import { UseImage, UseImageProps } from "./useImage";
 
-//TODO: use Next/Image?
-
 export interface NativeImageProps extends ImgHTMLAttributes<HTMLImageElement> {
   width?: string | number;
   height?: string | number;
