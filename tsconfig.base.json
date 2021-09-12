@@ -27,7 +27,7 @@
       "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/docs/*": ["apps/docs/src/*"],
       "@sentrei/home/*": ["apps/home/src/*"],
-      "@sentrei/og/*": ["apps/og/src/*"],
+      "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"]
     }
   },

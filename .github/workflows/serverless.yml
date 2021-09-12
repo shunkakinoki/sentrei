@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [app, og]
+        app: [app-sentrei-com, og-sentrei-com, www-mosh-lol]
     steps:
       - if: github.event_name == 'push'
         uses: actions/checkout@v2

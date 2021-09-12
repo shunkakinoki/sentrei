@@ -144,13 +144,13 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["home"]
     },
-    "og": {
+    "og-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "og-e2e": {
+    "og-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["og"]
+      "implicitDependencies": ["og-sentrei-com"]
     },
     "www-mosh-lol": {
       "tags": ["scope:app"],
