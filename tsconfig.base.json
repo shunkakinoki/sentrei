@@ -25,8 +25,8 @@
       "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
       "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
-      "@sentrei/docs/*": ["apps/docs/src/*"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
+      "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"]
     }
