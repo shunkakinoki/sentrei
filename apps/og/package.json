@@ -13,19 +13,18 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
-    "fix": "cd ../.. && yarn run fix"
+    "fix": "cd ../.. && yarn run fix",
+    "start": "next start"
   },
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
     "copy-to-clipboard": "^3.3.1",
     "marked": "^3.0.3",
-    "puppeteer": "^10.2.0",
     "puppeteer-core": "^10.2.0",
     "twemoji": "^13.1.0"
   },
   "devDependencies": {
     "@types/marked": "^3.0.0",
-    "@types/puppeteer": "^5.4.4",
     "@types/puppeteer-core": "^5.4.0",
     "@types/twemoji": "^12.1.2"
   },

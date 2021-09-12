@@ -13,8 +13,11 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
-    "fix": "cd ../.. && yarn run fix"
+    "fix": "cd ../.. && yarn run fix",
+    "start": "next start"
   },
+  "dependencies": {},
+  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
