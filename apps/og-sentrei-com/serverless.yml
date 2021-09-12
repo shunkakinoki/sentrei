@@ -9,6 +9,8 @@
     bucketRegion: "us-east-1"
     bucketName: "og-sentrei-com"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
+    cloudfront:
+      distributionId: E1M4WUQWDH4LKU
     domain: ["og", "sentrei.com"]
     name:
       defaultLambda: "og-sentrei-lambda"
