@@ -8,6 +8,8 @@
       env: {}
     bucketRegion: "us-east-1"
     bucketName: "app-sentrei-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
+    domain: ["sentrei.com"]
     name:
       defaultLambda: "app-sentrei-lambda"
       apiLambda: "app-sentrei-api-lambda"
