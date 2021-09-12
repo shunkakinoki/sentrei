@@ -1,13 +1,13 @@
 {
   "projectType": "application",
-  "root": "e2e/sentrei-e2e",
-  "sourceRoot": "e2e/sentrei-e2e/src",
+  "root": "e2e/www-mosh-lol-e2e",
+  "sourceRoot": "e2e/www-mosh-lol-e2e/src",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "e2e/sentrei-e2e/cypress.json",
-        "tsConfig": "e2e/sentrei-e2e/tsconfig.e2e.json",
+        "cypressConfig": "e2e/www-mosh-lol-e2e/cypress.json",
+        "tsConfig": "e2e/www-mosh-lol-e2e/tsconfig.e2e.json",
         "devServerTarget": "sentrei:serve"
       },
       "configurations": {
@@ -19,7 +19,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["e2e/sentrei-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["e2e/www-mosh-lol-e2e/**/*.{js,ts}"]
       }
     }
   }

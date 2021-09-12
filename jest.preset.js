@@ -18,7 +18,7 @@ module.exports = {
     "^@sentrei/screen": "<rootDir>/../../components/screens/src/index.ts",
     "^@sentrei/app/(.+)$": "<rootDir>/../../apps/app/src/$1",
     "^@sentrei/demo/(.+)$": "<rootDir>/../../apps/demo/src/$1",
-    "^@sentrei/home/(.+)$": "<rootDir>/../../apps/home/src/$1",
+    "^@sentrei/www-mosh-lol/(.+)$": "<rootDir>/../../apps/www-mosh-lol/src/$1",
   },
   transform: {
     "^.+\\.[tj]sx?$": "ts-jest",

@@ -1,5 +1,6 @@
-import { ButtonScreen } from "@sentrei/sentrei/pages/index";
 import { render } from "@testing-library/react";
+
+import { ButtonScreen } from "@sentrei/www-mosh-lol/pages/index";
 
 describe("ButtonScreen", () => {
   it("should render successfully", () => {
