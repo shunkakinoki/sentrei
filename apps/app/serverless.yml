@@ -9,7 +9,9 @@
     bucketRegion: "us-east-1"
     bucketName: "app-sentrei-com"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
-    domain: ["app.sentrei.com"]
+    cloudfront:
+      distributionId: E1Y9EGVQG4Y6H4
+    domain: ["app", "sentrei.com"]
     name:
       defaultLambda: "app-sentrei-lambda"
       apiLambda: "app-sentrei-api-lambda"
