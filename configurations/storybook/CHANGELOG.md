@@ -1,3 +1,9 @@
+## @sentrei/storybook [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.7.0...@sentrei/storybook@1.7.1) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-addon-next-router to ^3.0.8 ([9e60e41](https://github.com/sentrei/sentrei/commit/9e60e41428db25e93ee1df8d099d318f87a83b44))
+
 # @sentrei/storybook [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.6.2...@sentrei/storybook@1.7.0) (2021-08-28)
 
 ### Features

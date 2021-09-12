@@ -1,3 +1,99 @@
+## [1.43.36](https://github.com/sentrei/sentrei/compare/v1.43.35...v1.43.36) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency tailwindcss to ^2.2.14 ([7d7e4a2](https://github.com/sentrei/sentrei/commit/7d7e4a220033930e9da6e1071036d3f039d1525d))
+
+## [1.43.35](https://github.com/sentrei/sentrei/compare/v1.43.34...v1.43.35) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to v27 ([94d3b2c](https://github.com/sentrei/sentrei/commit/94d3b2c0da3242115a474a7646c4a112b6fbf8f3))
+
+## [1.43.34](https://github.com/sentrei/sentrei/compare/v1.43.33...v1.43.34) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier to ^2.4.0 ([4e5930d](https://github.com/sentrei/sentrei/commit/4e5930df38f8291110dcecd70ffe56e6a8c951c6))
+
+## [1.43.33](https://github.com/sentrei/sentrei/compare/v1.43.32...v1.43.33) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency vite to ^2.5.6 ([571ced7](https://github.com/sentrei/sentrei/commit/571ced75074c0ea43aab7cd27a94585115ba0511))
+
+## [1.43.32](https://github.com/sentrei/sentrei/compare/v1.43.31...v1.43.32) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to ^3.0.3 ([8321dd1](https://github.com/sentrei/sentrei/commit/8321dd10d0a5bd71e2e47fbb791e30ce31c8defe))
+
+## [1.43.31](https://github.com/sentrei/sentrei/compare/v1.43.30...v1.43.31) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency jest to ^27.1.1 ([158847c](https://github.com/sentrei/sentrei/commit/158847c4bbee770b2b78e1924c969c6c009b516c))
+
+## [1.43.30](https://github.com/sentrei/sentrei/compare/v1.43.29...v1.43.30) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.7 ([4376579](https://github.com/sentrei/sentrei/commit/4376579ee989e67a53eb7878b38f2534bcff8e4b))
+
+## [1.43.29](https://github.com/sentrei/sentrei/compare/v1.43.28...v1.43.29) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.5 ([0c2e6ad](https://github.com/sentrei/sentrei/commit/0c2e6ad67e3b9b6eb774b1b44098b0b613b770f7))
+
+## [1.43.28](https://github.com/sentrei/sentrei/compare/v1.43.27...v1.43.28) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update nrwl monorepo to ^12.9.0 ([ace1e31](https://github.com/sentrei/sentrei/commit/ace1e3159e160ff9e0e5e08a723dddaedf097c47))
+
+## [1.43.27](https://github.com/sentrei/sentrei/compare/v1.43.26...v1.43.27) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.4 ([213a537](https://github.com/sentrei/sentrei/commit/213a53728fa626910e09295d17b6efc974c97995))
+
+## [1.43.26](https://github.com/sentrei/sentrei/compare/v1.43.25...v1.43.26) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency vite to ^2.5.4 ([fc6cceb](https://github.com/sentrei/sentrei/commit/fc6ccebd3a1266f3ebe7b960dd4584d427323fbb))
+
+## [1.43.25](https://github.com/sentrei/sentrei/compare/v1.43.24...v1.43.25) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.3 ([0a8e83a](https://github.com/sentrei/sentrei/commit/0a8e83a8a67b790668ae520434f5fec8ad71d75d))
+
+## [1.43.24](https://github.com/sentrei/sentrei/compare/v1.43.23...v1.43.24) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency tailwindcss to ^2.2.11 ([a7f5ee7](https://github.com/sentrei/sentrei/commit/a7f5ee7924ab9246d15c36ec8a8324c368405d86))
+
+## [1.43.23](https://github.com/sentrei/sentrei/compare/v1.43.22...v1.43.23) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.2 ([243844c](https://github.com/sentrei/sentrei/commit/243844c8ed101e1d456d947d284d73dfd459332c))
+
+## [1.43.22](https://github.com/sentrei/sentrei/compare/v1.43.21...v1.43.22) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @semantic-release/git to ^9.0.1 ([d347175](https://github.com/sentrei/sentrei/commit/d347175771363d7d038521af135a4ea164f1ab18))
+
+## [1.43.21](https://github.com/sentrei/sentrei/compare/v1.43.20...v1.43.21) (2021-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-addon-next-router to ^3.0.8 ([9e60e41](https://github.com/sentrei/sentrei/commit/9e60e41428db25e93ee1df8d099d318f87a83b44))
+
 ## [1.43.20](https://github.com/sentrei/sentrei/compare/v1.43.19...v1.43.20) (2021-09-04)
 
 ### Bug Fixes
