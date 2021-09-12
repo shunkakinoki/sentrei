@@ -104,13 +104,13 @@
     "webpack": {
       "tags": ["scope:configuration"]
     },
-    "app": {
+    "app-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "app-e2e": {
+    "app-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["app"]
+      "implicitDependencies": ["app-sentrei-com"]
     },
     "blog": {
       "tags": ["scope:app"],

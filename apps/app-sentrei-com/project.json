@@ -1,14 +1,14 @@
 {
   "projectType": "application",
-  "root": "apps/app",
-  "sourceRoot": "apps/app",
+  "root": "apps/app-sentrei-com",
+  "sourceRoot": "apps/app-sentrei-com",
   "targets": {
     "build": {
       "executor": "@nrwl/next:build",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "root": "apps/app",
-        "outputPath": "dist/apps/app"
+        "root": "apps/app-sentrei-com",
+        "outputPath": "dist/apps/app-sentrei-com"
       },
       "configurations": {
         "production": {}
@@ -42,7 +42,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/app"],
+      "outputs": ["coverage/apps/app-sentrei-com"],
       "options": {
         "jestConfig": "apps/app/jest.config.js"
       }

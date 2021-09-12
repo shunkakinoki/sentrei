@@ -22,7 +22,7 @@
       "@sentrei/roots": ["components/roots/src/index.ts"],
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],
-      "@sentrei/app/*": ["apps/app/src/*"],
+      "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
       "@sentrei/blog/*": ["apps/blog/src/*"],
       "@sentrei/demo/*": ["apps/demo/src/*"],
       "@sentrei/docs/*": ["apps/docs/src/*"],

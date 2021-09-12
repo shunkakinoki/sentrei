@@ -1,13 +1,13 @@
 {
   "projectType": "application",
-  "root": "e2e/app-e2e",
-  "sourceRoot": "e2e/app-e2e/src",
+  "root": "e2e/app-sentrei-com-e2e",
+  "sourceRoot": "e2e/app-sentrei-com-e2e/src",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "e2e/app-e2e/cypress.json",
-        "tsConfig": "e2e/app-e2e/tsconfig.e2e.json",
+        "cypressConfig": "e2e/app-sentrei-com-e2e/cypress.json",
+        "tsConfig": "e2e/app-sentrei-com-e2e/tsconfig.e2e.json",
         "devServerTarget": "app:serve"
       },
       "configurations": {
@@ -19,7 +19,7 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["e2e/app-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["e2e/app-sentrei-com-e2e/**/*.{js,ts}"]
       }
     }
   }

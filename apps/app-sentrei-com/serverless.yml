@@ -1,9 +1,9 @@
-"@sentrei/app":
+"@sentrei/app-sentrei-com":
   component: "../../node_modules/@sls-next/serverless-component"
   inputs:
     build:
       cmd: "cp"
-      args: ["-r", "../../dist/apps/app/.", "."]
+      args: ["-r", "../../dist/apps/app-sentrei-com/.", "."]
       cwd: ./
       env: {}
     bucketRegion: "us-east-1"
