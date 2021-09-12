@@ -8,11 +8,11 @@
       "options": {
         "cypressConfig": "e2e/www-mosh-lol-e2e/cypress.json",
         "tsConfig": "e2e/www-mosh-lol-e2e/tsconfig.e2e.json",
-        "devServerTarget": "sentrei:serve"
+        "devServerTarget": "www-mosh-lol:serve"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "sentrei:serve:production"
+          "devServerTarget": "www-mosh-lol:serve:production"
         }
       }
     },

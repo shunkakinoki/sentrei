@@ -17,19 +17,19 @@
     "dev": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "og:build",
+        "buildTarget": "og-sentrei-com:build",
         "dev": true
       }
     },
     "serve": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "og:build",
+        "buildTarget": "og-sentrei-com:build",
         "dev": true
       },
       "configurations": {
         "production": {
-          "buildTarget": "og:build:production",
+          "buildTarget": "og-sentrei-com:build:production",
           "dev": false
         }
       }
@@ -37,7 +37,7 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "og:build:production"
+        "buildTarget": "og-sentrei-com:build:production"
       }
     },
     "test": {

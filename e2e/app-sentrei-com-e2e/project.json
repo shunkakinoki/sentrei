@@ -8,11 +8,11 @@
       "options": {
         "cypressConfig": "e2e/app-sentrei-com-e2e/cypress.json",
         "tsConfig": "e2e/app-sentrei-com-e2e/tsconfig.e2e.json",
-        "devServerTarget": "app:serve"
+        "devServerTarget": "app-sentrei-com:serve"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "app:serve"
+          "devServerTarget": "app-sentrei-com:serve:production"
         }
       }
     },

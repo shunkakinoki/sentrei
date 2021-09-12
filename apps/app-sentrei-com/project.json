@@ -17,19 +17,19 @@
     "dev": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "app:build",
+        "buildTarget": "app-sentrei-com:build",
         "dev": true
       }
     },
     "serve": {
       "executor": "@nrwl/next:server",
       "options": {
-        "buildTarget": "app:build",
+        "buildTarget": "app-sentrei-com:build",
         "dev": true
       },
       "configurations": {
         "production": {
-          "buildTarget": "app:build:production",
+          "buildTarget": "app-sentrei-com:build:production",
           "dev": false
         }
       }
@@ -37,7 +37,7 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "app:build:production"
+        "buildTarget": "app-sentrei-com:build:production"
       }
     },
     "test": {
