@@ -56,7 +56,7 @@
     "e2e:demo": "nx e2e demo-e2e",
     "e2e:docs": "nx e2e docs-e2e",
     "e2e:home": "nx e2e home-e2e",
-    "e2e:og-sentrei-com": "nx e2e og-e2e",
+    "e2e:og-sentrei-com": "nx e2e og-sentrei-com-e2e",
     "e2e:www-mosh-lol": "nx e2e www-mosh-lol",
     "eslint:cmd": "eslint --config .eslintrc.js --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint",
     "eslint:lint": "yarn run eslint:cmd .",
