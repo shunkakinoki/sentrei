@@ -19,7 +19,7 @@ export interface SwitchProps {
   switchSize?: string[];
   children?: ReactNode;
   // eslint-disable-next-line no-unused-vars
-  onChange: (value: Boolean) => void;
+  onChange: (value: boolean) => void;
 }
 
 export const Switch: FC<SwitchProps> = props => {
