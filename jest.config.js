@@ -5,6 +5,7 @@ module.exports = {
     "<rootDir>/apps/wiki-sentrei-com",
     "<rootDir>/apps/www-mosh-lol",
     "<rootDir>/apps/www-sentrei-com",
+    "<rootDir>/apps/www-thisweekindaos-com",
     "<rootDir>/components/atoms",
     "<rootDir>/components/molecules",
     "<rootDir>/components/organisms",
