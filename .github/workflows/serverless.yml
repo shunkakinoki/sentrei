@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [app, home, og]
+        app: [app]
     steps:
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
