@@ -12988,10 +12988,10 @@ git-up@^4.0.0:
     is-ssh "^1.3.0"
     parse-url "^6.0.0"
 
-git-url-parse@11.5.0:
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.5.0.tgz#acaaf65239cb1536185b19165a24bbc754b3f764"
-  integrity sha512-TZYSMDeM37r71Lqg1mbnMlOqlHd7BSij9qN7XwTkRqSAYFMihGLGhfHwgqQob3GUhEneKnV4nskN9rbQw2KGxA==
+git-url-parse@11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.6.0.tgz#c634b8de7faa66498a2b88932df31702c67df605"
+  integrity sha512-WWUxvJs5HsyHL6L08wOusa/IXYtMuCAhrMmnTjQPpBU0TTHyDhnOATNH3xNQz7YOQUsqIIPTGr4xiVti1Hsk5g==
   dependencies:
     git-up "^4.0.0"
 
@@ -21122,10 +21122,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^27.6.1:
-  version "27.6.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.6.1.tgz#4b4f108f642f672ff0bcba5b449438e903d75b8c"
-  integrity sha512-vuIZjlrL1jPEZ4IVR+T4/YvMy/Hh22wzP/aFuoG9STYzl5mS7JTCzQhGLcfW0ZrhUAZ0HiZ2nI7oFPWDft6bGg==
+renovate@^27.6.2:
+  version "27.6.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.6.2.tgz#884357b54fee8554ba39007a118720a0dcf7a46d"
+  integrity sha512-cpHL/Vbjv1iVShgqQg6xFZltYMps7UvQr6RFvDp5Z2yxLm2KHW0ITeKDBeQtN3IdB0gXdsoAzbAXws9SzQjgpw==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -21156,7 +21156,7 @@ renovate@^27.6.1:
     fast-safe-stringify "2.0.8"
     find-up "5.0.0"
     fs-extra "10.0.0"
-    git-url-parse "11.5.0"
+    git-url-parse "11.6.0"
     github-url-from-git "1.5.0"
     global-agent "2.2.0"
     got "11.8.2"
