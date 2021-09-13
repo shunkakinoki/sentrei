@@ -40,6 +40,7 @@ export const Checkbox: FC<CheckboxProps> = props => {
     boxSize = CheckboxSize.MEDIUM,
     children,
     onChange,
+    ...rest
   } = props;
 
   return (
@@ -58,6 +59,7 @@ export const Checkbox: FC<CheckboxProps> = props => {
         disabled={disabled}
         readOnly={readOnly}
         required={required}
+        {...rest}
         className={clsx(
           readOnly || disabled ? "opacity-80" : "opacity-100",
           "mr-2 cursor-pointer",
