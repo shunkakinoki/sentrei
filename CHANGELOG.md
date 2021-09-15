@@ -1,3 +1,36 @@
+# [1.44.0](https://github.com/sentrei/sentrei/compare/v1.43.36...v1.44.0) (2021-09-15)
+
+### Bug Fixes
+
+- **deps:** update dependency @testing-library/react to ^12.1.0 ([068bf3b](https://github.com/sentrei/sentrei/commit/068bf3b028b84c5fd0b85282e418bd381c3e24dd))
+- **deps:** update dependency @typescript-eslint/parser to ^4.31.1 ([9410342](https://github.com/sentrei/sentrei/commit/9410342e94b5220314ad6426c20a4be63499474f))
+- **deps:** update dependency eslint-import-resolver-typescript to ^2.5.0 ([0c1782b](https://github.com/sentrei/sentrei/commit/0c1782b8d73d5401153f99e5bb00ba22f865dabe))
+- **deps:** update dependency jest to ^27.2.0 ([7ca8864](https://github.com/sentrei/sentrei/commit/7ca886451e026f52ceec01cb86b5fb37ea0f5b4e))
+- **deps:** update dependency prettier-plugin-packagejson to ^2.2.12 ([835f552](https://github.com/sentrei/sentrei/commit/835f552a2eebb97bb88cf7dc37b8237da31bc603))
+- **deps:** update dependency renovate to ^27.4.0 ([0a40016](https://github.com/sentrei/sentrei/commit/0a40016e366ffa11b3c5df3c2d02606616ae57c0))
+- **deps:** update dependency renovate to ^27.5.0 ([d1d57a0](https://github.com/sentrei/sentrei/commit/d1d57a0456150f6e9b5a039c9632a7605e57ff9b))
+- **deps:** update dependency renovate to ^27.6.0 ([3f9983a](https://github.com/sentrei/sentrei/commit/3f9983a06966fcb035deb6f03a022b76b753daba))
+- **deps:** update dependency renovate to ^27.6.1 ([a9d91ba](https://github.com/sentrei/sentrei/commit/a9d91bab5414297ab2ac6dc002e597350892a810))
+- **deps:** update dependency renovate to ^27.6.2 ([d48adb1](https://github.com/sentrei/sentrei/commit/d48adb185eb14eea6a044e3f3a6ea1a6ead6c1f0))
+- **deps:** update dependency serverless to ^2.58.0 ([6e47587](https://github.com/sentrei/sentrei/commit/6e475874a6cd20f6e0cdbae548d1b244492c46d4))
+- **deps:** update dependency tailwindcss to ^2.2.15 ([f6cea8b](https://github.com/sentrei/sentrei/commit/f6cea8b2cc57ebcc8fe2b3c405724241a0363b2e))
+- **deps:** update dependency typescript to ^4.4.3 ([3841073](https://github.com/sentrei/sentrei/commit/384107334758074f4856ec30b88c4ae6d3a258e0))
+- **deps:** update dependency vite to ^2.5.7 ([05ac61f](https://github.com/sentrei/sentrei/commit/05ac61f175280aa33e20c50c6546caa54537df31))
+
+### Features
+
+- ini mosh lol ([3fe82ed](https://github.com/sentrei/sentrei/commit/3fe82edce9d55582cf1ca449e880f857b55f7ac9))
+- ini next serverless ([0b81177](https://github.com/sentrei/sentrei/commit/0b81177672b8860c276021160018de4fc1896714))
+- ini twidaos com ([f4bdd0a](https://github.com/sentrei/sentrei/commit/f4bdd0a67870cda1a6db9460da68ddb734d6fd41))
+- ini wiki sentrei com ([519828c](https://github.com/sentrei/sentrei/commit/519828c2fa11a501df329b8f4d90ee8e27f7fb45))
+- ini www sentrei com ([4d3d569](https://github.com/sentrei/sentrei/commit/4d3d5693a4fc23b122846ee5b6fd9395b59b5e2d))
+
+### Performance Improvements
+
+- ini app sentrei com ([13829af](https://github.com/sentrei/sentrei/commit/13829af431926ee2e59cb7860110ea2f80ef3148))
+- ini blog sentrei com ([0e00afa](https://github.com/sentrei/sentrei/commit/0e00afa1d8617bfc73ff85c5ec82bd6a9fca47a2))
+- ini og sentrei com ([fe4ae7f](https://github.com/sentrei/sentrei/commit/fe4ae7f7cb4607645b7bea13f04b9fcbf88ddcd6))
+
 ## [1.43.36](https://github.com/sentrei/sentrei/compare/v1.43.35...v1.43.36) (2021-09-10)
 
 ### Bug Fixes
