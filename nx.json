@@ -104,61 +104,61 @@
     "webpack": {
       "tags": ["scope:configuration"]
     },
-    "app": {
+    "app-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "app-e2e": {
+    "app-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["app"]
+      "implicitDependencies": ["app-sentrei-com"]
     },
-    "blog": {
+    "blog-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "blog-e2e": {
+    "blog-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["blog"]
+      "implicitDependencies": ["blog-sentrei-com"]
     },
-    "demo": {
+    "og-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "demo-e2e": {
+    "og-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["demo"]
+      "implicitDependencies": ["og-sentrei-com"]
     },
-    "docs": {
+    "wiki-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "docs-e2e": {
+    "wiki-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["docs"]
+      "implicitDependencies": ["wiki-sentrei-com"]
     },
-    "home": {
+    "www-mosh-lol": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "home-e2e": {
+    "www-mosh-lol-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["home"]
+      "implicitDependencies": ["www-mosh-lol"]
     },
-    "og": {
+    "www-sentrei-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "og-e2e": {
+    "www-sentrei-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["og"]
+      "implicitDependencies": ["www-sentrei-com"]
     },
-    "sentrei": {
+    "www-thisweekindaos-com": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]
     },
-    "sentrei-e2e": {
+    "www-thisweekindaos-com-e2e": {
       "tags": ["scope:e2e"],
-      "implicitDependencies": ["sentrei"]
+      "implicitDependencies": ["www-thisweekindaos-com"]
     },
     "design": {
       "tags": ["scope:app"],

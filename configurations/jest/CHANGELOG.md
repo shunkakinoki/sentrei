@@ -1,3 +1,9 @@
+## @sentrei/jest [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.1.0...@sentrei/jest@1.1.1) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency jest to ^27.1.1 ([158847c](https://github.com/sentrei/sentrei/commit/158847c4bbee770b2b78e1924c969c6c009b516c))
+
 # @sentrei/jest [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.0.1...@sentrei/jest@1.1.0) (2021-08-28)
 
 ### Features

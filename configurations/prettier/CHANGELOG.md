@@ -1,3 +1,9 @@
+## @sentrei/prettier [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.0...@sentrei/prettier@1.4.1) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier to ^2.4.0 ([4e5930d](https://github.com/sentrei/sentrei/commit/4e5930df38f8291110dcecd70ffe56e6a8c951c6))
+
 # @sentrei/prettier [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.3.0...@sentrei/prettier@1.4.0) (2021-07-23)
 
 ### Features
