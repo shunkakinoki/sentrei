@@ -1,3 +1,9 @@
+## @sentrei/tailwindcss [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.1.2...@sentrei/tailwindcss@1.1.3) (2021-09-15)
+
+### Bug Fixes
+
+- **deps:** update dependency tailwindcss to ^2.2.15 ([f6cea8b](https://github.com/sentrei/sentrei/commit/f6cea8b2cc57ebcc8fe2b3c405724241a0363b2e))
+
 ## @sentrei/tailwindcss [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.1.1...@sentrei/tailwindcss@1.1.2) (2021-09-10)
 
 ### Bug Fixes
