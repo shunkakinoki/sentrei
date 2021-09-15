@@ -13,7 +13,14 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        app: [app, home, og]
+        app:
+          [
+            app-sentrei-com,
+            og-sentrei-com,
+            wiki-sentrei-com,
+            www-mosh-lol,
+            www-thisweekindaos-com,
+          ]
     steps:
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
