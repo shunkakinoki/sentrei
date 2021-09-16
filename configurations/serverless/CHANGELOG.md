@@ -1,3 +1,9 @@
+## @sentrei/serverless [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/serverless@1.0.1...@sentrei/serverless@1.0.2) (2021-09-16)
+
+### Performance Improvements
+
+- ini mosh components ([8ee78c0](https://github.com/sentrei/sentrei/commit/8ee78c00d4c6aa2e16c53d2010179e060f797d09))
+
 ## @sentrei/serverless [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/serverless@1.0.0...@sentrei/serverless@1.0.1) (2021-09-15)
 
 ### Bug Fixes
