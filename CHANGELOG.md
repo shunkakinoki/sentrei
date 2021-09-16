@@ -1,3 +1,9 @@
+## [1.44.9](https://github.com/sentrei/sentrei/compare/v1.44.8...v1.44.9) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency @segment/snippet to ^4.15.0 ([c1268d0](https://github.com/sentrei/sentrei/commit/c1268d0fee54c0b5c40ce870a9bd4753304d1197))
+
 ## [1.44.8](https://github.com/sentrei/sentrei/compare/v1.44.7...v1.44.8) (2021-09-16)
 
 ### Bug Fixes
