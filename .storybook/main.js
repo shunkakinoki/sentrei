@@ -27,6 +27,14 @@ module.exports = {
         },
       },
     },
+    {
+      name: "@storybook/preset-scss",
+      options: {
+        cssLoaderOptions: {
+          modules: true,
+        },
+      },
+    },
     "storybook-addon-designs",
     "storybook-addon-next-router",
     "storybook-dark-mode",
