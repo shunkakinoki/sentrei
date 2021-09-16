@@ -22,7 +22,7 @@
   "dependencies": {
     "concurrently": "^6.2.1",
     "cross-env": "^7.0.3",
-    "multi-semantic-release": "^2.8.5"
+    "multi-semantic-release": "^2.9.0"
   },
   "publishConfig": {
     "access": "public",
