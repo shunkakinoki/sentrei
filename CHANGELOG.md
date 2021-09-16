@@ -1,3 +1,9 @@
+## [1.44.6](https://github.com/sentrei/sentrei/compare/v1.44.5...v1.44.6) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier to ^2.4.1 ([748b8fb](https://github.com/sentrei/sentrei/commit/748b8fb1fe0551bcb94bd9e04da7a1dca5e252d3))
+
 ## [1.44.5](https://github.com/sentrei/sentrei/compare/v1.44.4...v1.44.5) (2021-09-16)
 
 ### Bug Fixes
