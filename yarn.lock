@@ -7539,7 +7539,7 @@ asap@^2.0.0, asap@~2.0.3:
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
   integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
 
-asn1.js@^5.2.0:
+asn1.js@^5.0.0, asn1.js@^5.2.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/asn1.js/-/asn1.js-5.4.1.tgz#11a980b84ebb91781ce35b0fdc2ee294e3783f07"
   integrity sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==
@@ -18723,6 +18723,13 @@ opener@^1.5.1, opener@^1.5.2:
   resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.2.tgz#5d37e1f35077b9dcac4301372271afdeb2a13598"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
 
+openpgp@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-5.0.0.tgz#2da0ee406c8834223ae928a9a214f4811f83f923"
+  integrity sha512-H4Jsj9Bp1KFQ/w520M1d2x45iz9V39Lf+IwIXmUaBmJAMagAt0zanqmWeFzIMJUYmrHTcm6fO/rpc6aftFUHbA==
+  dependencies:
+    asn1.js "^5.0.0"
+
 opn@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"
@@ -21212,10 +21219,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^27.9.0:
-  version "27.9.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.9.0.tgz#991779a60dc03bb16e6bfdf0d5fc2fdea97cf5d3"
-  integrity sha512-5WQ7LuHdltszXLTGp6QmCzg1HC3mgl+4ya5B8pyXjZiG3jrmtEeZ/iIDaHQ6FIDL80mDMqTrsNwszr2NIvmwKA==
+renovate@^27.11.0:
+  version "27.11.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.11.0.tgz#98a1f1d7e32b09d2725d9e90d649591acd224ce8"
+  integrity sha512-FsaRgMytERI4vskOuT2X/fB3zgnTrlIV8ruSmUZ1AGwt3qIuVfwG8Hc+PiOSllfn6zHZytkSGe16sfs3aZoFwA==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -21266,6 +21273,7 @@ renovate@^27.9.0:
     minimatch "3.0.4"
     moo "0.5.1"
     node-html-parser "3.3.6"
+    openpgp "5.0.0"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
