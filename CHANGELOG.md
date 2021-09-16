@@ -1,3 +1,9 @@
+## [1.44.4](https://github.com/sentrei/sentrei/compare/v1.44.3...v1.44.4) (2021-09-16)
+
+### Performance Improvements
+
+- ini grid animation ([559be50](https://github.com/sentrei/sentrei/commit/559be5038756f1365ade22f7c3308f28141ceb5f))
+
 ## [1.44.3](https://github.com/sentrei/sentrei/compare/v1.44.2...v1.44.3) (2021-09-16)
 
 ### Performance Improvements
