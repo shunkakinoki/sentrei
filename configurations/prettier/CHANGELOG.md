@@ -1,3 +1,9 @@
+## @sentrei/prettier [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.1...@sentrei/prettier@1.4.2) (2021-09-15)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier-plugin-packagejson to ^2.2.12 ([835f552](https://github.com/sentrei/sentrei/commit/835f552a2eebb97bb88cf7dc37b8237da31bc603))
+
 ## @sentrei/prettier [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.0...@sentrei/prettier@1.4.1) (2021-09-10)
 
 ### Bug Fixes

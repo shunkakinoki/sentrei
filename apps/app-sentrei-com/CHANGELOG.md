@@ -1,3 +1,13 @@
+# @sentrei/app-sentrei-com 1.0.0 (2021-09-15)
+
+### Features
+
+- ini wiki sentrei com ([519828c](https://github.com/sentrei/sentrei/commit/519828c2fa11a501df329b8f4d90ee8e27f7fb45))
+
+### Performance Improvements
+
+- ini app sentrei com ([13829af](https://github.com/sentrei/sentrei/commit/13829af431926ee2e59cb7860110ea2f80ef3148))
+
 ## @sentrei/app [1.5.3](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.5.2...@sentrei/app@1.5.3) (2021-08-06)
 
 ### Performance Improvements

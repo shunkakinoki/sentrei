@@ -1,3 +1,9 @@
+## @sentrei/typescript [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.1.0...@sentrei/typescript@1.1.1) (2021-09-15)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript to ^4.4.3 ([3841073](https://github.com/sentrei/sentrei/commit/384107334758074f4856ec30b88c4ae6d3a258e0))
+
 # @sentrei/typescript [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.0.1...@sentrei/typescript@1.1.0) (2021-08-28)
 
 ### Features

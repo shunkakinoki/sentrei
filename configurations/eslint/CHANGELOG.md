@@ -1,3 +1,20 @@
+## @sentrei/eslint-config [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.0...@sentrei/eslint-config@1.5.1) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-cypress to ^2.12.1 ([a045dd4](https://github.com/sentrei/sentrei/commit/a045dd45ff1e7f27caa96cd94e74b344fa6fe3e1))
+
+# @sentrei/eslint-config [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.2...@sentrei/eslint-config@1.5.0) (2021-09-15)
+
+### Bug Fixes
+
+- **deps:** update dependency @typescript-eslint/parser to ^4.31.1 ([9410342](https://github.com/sentrei/sentrei/commit/9410342e94b5220314ad6426c20a4be63499474f))
+- **deps:** update dependency eslint-import-resolver-typescript to ^2.5.0 ([0c1782b](https://github.com/sentrei/sentrei/commit/0c1782b8d73d5401153f99e5bb00ba22f865dabe))
+
+### Features
+
+- ini mosh lol ([3fe82ed](https://github.com/sentrei/sentrei/commit/3fe82edce9d55582cf1ca449e880f857b55f7ac9))
+
 ## @sentrei/eslint-config [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.1...@sentrei/eslint-config@1.4.2) (2021-08-31)
 
 ### Bug Fixes

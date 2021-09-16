@@ -1,3 +1,9 @@
+# @sentrei/wiki-sentrei-com 1.0.0 (2021-09-15)
+
+### Features
+
+- ini wiki sentrei com ([519828c](https://github.com/sentrei/sentrei/commit/519828c2fa11a501df329b8f4d90ee8e27f7fb45))
+
 ## @sentrei/docs [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/docs@1.2.2...@sentrei/docs@1.2.3) (2021-08-06)
 
 ### Performance Improvements

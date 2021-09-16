@@ -1,3 +1,9 @@
+# @sentrei/www-thisweekindaos-com-e2e 1.0.0 (2021-09-15)
+
+### Features
+
+- ini twidaos com ([f4bdd0a](https://github.com/sentrei/sentrei/commit/f4bdd0a67870cda1a6db9460da68ddb734d6fd41))
+
 # @sentrei/demo-e2e [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/demo-e2e@1.0.1...@sentrei/demo-e2e@1.1.0) (2021-07-26)
 
 ### Features

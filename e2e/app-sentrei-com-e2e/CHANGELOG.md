@@ -1,3 +1,10 @@
+# @sentrei/app-sentrei-com-e2e 1.0.0 (2021-09-15)
+
+### Performance Improvements
+
+- ini app sentrei com ([13829af](https://github.com/sentrei/sentrei/commit/13829af431926ee2e59cb7860110ea2f80ef3148))
+- ini og sentrei com ([fe4ae7f](https://github.com/sentrei/sentrei/commit/fe4ae7f7cb4607645b7bea13f04b9fcbf88ddcd6))
+
 # @sentrei/app-e2e [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/app-e2e@1.0.1...@sentrei/app-e2e@1.1.0) (2021-07-26)
 
 ### Features
