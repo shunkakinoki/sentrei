@@ -1,3 +1,11 @@
+## [1.44.2](https://github.com/sentrei/sentrei/compare/v1.44.1...v1.44.2) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-cypress to ^2.12.1 ([a045dd4](https://github.com/sentrei/sentrei/commit/a045dd45ff1e7f27caa96cd94e74b344fa6fe3e1))
+- **deps:** update dependency marked to ^3.0.4 ([35aff2b](https://github.com/sentrei/sentrei/commit/35aff2bc001b2193be51f0f402c912d758e502a6))
+- **deps:** update dependency multi-semantic-release to ^2.9.0 ([ac3b56a](https://github.com/sentrei/sentrei/commit/ac3b56a78f244dffc44e38f66ec6321979521b26))
+
 ## [1.44.1](https://github.com/sentrei/sentrei/compare/v1.44.0...v1.44.1) (2021-09-16)
 
 ### Bug Fixes
