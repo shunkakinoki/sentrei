@@ -1,3 +1,9 @@
+## @sentrei/dev [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.0...@sentrei/dev@1.3.1) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency multi-semantic-release to ^2.9.0 ([ac3b56a](https://github.com/sentrei/sentrei/commit/ac3b56a78f244dffc44e38f66ec6321979521b26))
+
 # @sentrei/dev [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.2.1...@sentrei/dev@1.3.0) (2021-08-28)
 
 ### Features
