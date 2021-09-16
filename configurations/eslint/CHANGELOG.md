@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.0...@sentrei/eslint-config@1.5.1) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-cypress to ^2.12.1 ([a045dd4](https://github.com/sentrei/sentrei/commit/a045dd45ff1e7f27caa96cd94e74b344fa6fe3e1))
+
 # @sentrei/eslint-config [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.4.2...@sentrei/eslint-config@1.5.0) (2021-09-15)
 
 ### Bug Fixes
