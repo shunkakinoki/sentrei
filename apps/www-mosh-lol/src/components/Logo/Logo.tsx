@@ -7,12 +7,13 @@ import styles from "./Logo.module.css";
 
 export const Logo = () => {
   return (
-    <div className="overflow-visible aspect-w-16 aspect-h-9">
+    <div className="relative w-full">
       <Image
         priority
         alt="logo"
-        layout="fill"
-        objectFit="cover"
+        layout="responsive"
+        placeholder="blur"
+        objectFit="fill"
         src={LogoImage}
         className={styles.glow}
       />

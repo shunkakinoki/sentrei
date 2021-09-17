@@ -9,7 +9,7 @@
   }
 
   to {
-    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 8px #e60073)
-      drop-shadow(0 0 10px #e60073);
+    filter: drop-shadow(0 0 20px #fff) drop-shadow(0 0 16px #e60073)
+      drop-shadow(0 0 16px #e60073);
   }
 }
