@@ -1,3 +1,9 @@
+# [1.47.0](https://github.com/sentrei/sentrei/compare/v1.46.1...v1.47.0) (2021-09-17)
+
+### Features
+
+- ini logo blur ([9d72ceb](https://github.com/sentrei/sentrei/commit/9d72ceb8418b193b86abc4efb47d7b5980d29df3))
+
 ## [1.46.1](https://github.com/sentrei/sentrei/compare/v1.46.0...v1.46.1) (2021-09-17)
 
 ### Performance Improvements
