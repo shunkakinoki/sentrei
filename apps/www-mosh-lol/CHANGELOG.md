@@ -1,3 +1,9 @@
+# @sentrei/www-mosh-lol [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.2.1...@sentrei/www-mosh-lol@1.3.0) (2021-09-17)
+
+### Features
+
+- ini logo blur ([9d72ceb](https://github.com/sentrei/sentrei/commit/9d72ceb8418b193b86abc4efb47d7b5980d29df3))
+
 ## @sentrei/www-mosh-lol [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.2.0...@sentrei/www-mosh-lol@1.2.1) (2021-09-17)
 
 ### Performance Improvements
