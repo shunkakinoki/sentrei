@@ -10,7 +10,7 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
   return (
     <a
       href={href}
-      className="text-blueGray-300 hover:text-blueGray-100"
+      className="text-fuchsia-500 hover:text-fuchsia-400"
       target="_blank"
       rel="noopener noreferrer"
     >

@@ -26,7 +26,8 @@ export const CountdownBlock: FC<CountdownBlockProps> = ({
       >
         <div
           className={
-            (clsx("text-xl md:text-2xl font-bold text-center"), styles.glow)
+            (clsx("text-xl md:text-2xl font-bold text-center text-fuchsia-600"),
+            styles.glow)
           }
           data-text={count}
         >
@@ -34,7 +35,8 @@ export const CountdownBlock: FC<CountdownBlockProps> = ({
         </div>
         <div
           className={
-            (clsx("py-2 mt-2 sm:mt-4 w-full text-center"), styles.glow)
+            (clsx("py-2 mt-2 sm:mt-4 w-full text-center text-fuchsia-600"),
+            styles.glow)
           }
           data-text={label}
         >

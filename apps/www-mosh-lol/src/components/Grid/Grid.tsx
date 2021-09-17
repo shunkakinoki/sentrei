@@ -5,7 +5,7 @@ import { useFrame } from "react-three-fiber";
 import * as THREE from "three";
 
 export const Grid = () => {
-  const SIZE = 80;
+  const SIZE = 100;
   const SEGMENTS = 60;
   const gridRef = useRef<THREE.GridHelper>();
 
@@ -16,12 +16,12 @@ export const Grid = () => {
   return (
     <gridHelper
       ref={gridRef}
-      position={[0, -10, 0]}
+      position={[0, -3, 0]}
       args={[
         SIZE,
         SEGMENTS,
-        new THREE.Color(0x39f5e6),
-        new THREE.Color(0x39f5e6),
+        new THREE.Color("rgb(217, 70, 239)"),
+        new THREE.Color("rgb(217, 70, 239)"),
       ]}
     />
   );

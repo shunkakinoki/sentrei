@@ -1,7 +1,6 @@
 // Brought from codepen https://codepen.io/elisabethdiang/pen/WNbBxXq
 
 .glitch {
-  color: rgb(223, 191, 191);
   position: relative;
   animation: glitch 3s 3s infinite;
 }
@@ -84,7 +83,7 @@
 
 .glow {
   @extend .glitch;
-  @apply text-xl md:text-3xl;
+  @apply text-xl md:text-3xl text-fuchsia-500;
 }
 
 @keyframes glitch-2 {

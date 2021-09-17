@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 
 import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
+import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
 const Canvas = dynamic(async () => {
   const m = await import("react-three-fiber");
@@ -17,18 +18,25 @@ const Grid = dynamic(async () => {
 
 const Page = () => {
   return (
-    <body className="flex flex-col justify-center items-center w-full min-h-screen bg-gradient-to-tl from-cyan-600 via-rose-700 to-indigo-800">
-      <div className="mt-36">
-        <CountdownClock
-          date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
-          onComplete={() => {}}
-        />
-        <Footer />
-      </div>
-      <Canvas camera={{ position: [0, 0, 30] }} className="w-full">
-        <Grid />
-      </Canvas>
-    </body>
+    <div className="min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
+      <body className="w-full">
+        <div className="flex flex-col justify-center items-center">
+          <div className="mt-48 md:mt-64">
+            <Logo />
+            <CountdownClock
+              date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
+              onComplete={() => {}}
+            />
+            <Footer />
+          </div>
+        </div>
+        <div className="flex absolute inset-x-0 bottom-0 h-1/2">
+          <Canvas className="w-full">
+            <Grid />
+          </Canvas>
+        </div>
+      </body>
+    </div>
   );
 };
 
