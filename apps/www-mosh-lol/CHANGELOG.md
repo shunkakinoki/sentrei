@@ -1,3 +1,10 @@
+# @sentrei/www-mosh-lol [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.0.2...@sentrei/www-mosh-lol@1.1.0) (2021-09-17)
+
+### Features
+
+- ini grid animation ([f590346](https://github.com/sentrei/sentrei/commit/f59034687594fa459d440f495b10c2ff8beae600))
+- ini logo grid ([dd11642](https://github.com/sentrei/sentrei/commit/dd116422fef4d9e9119a0ea2f2a7ec83845b0120))
+
 ## @sentrei/www-mosh-lol [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.0.1...@sentrei/www-mosh-lol@1.0.2) (2021-09-16)
 
 ### Performance Improvements
