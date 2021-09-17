@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/sentrei/sentrei/compare/v1.44.9...v1.45.0) (2021-09-17)
+
+### Features
+
+- ini grid animation ([f590346](https://github.com/sentrei/sentrei/commit/f59034687594fa459d440f495b10c2ff8beae600))
+- ini logo grid ([dd11642](https://github.com/sentrei/sentrei/commit/dd116422fef4d9e9119a0ea2f2a7ec83845b0120))
+
 ## [1.44.9](https://github.com/sentrei/sentrei/compare/v1.44.8...v1.44.9) (2021-09-16)
 
 ### Bug Fixes
