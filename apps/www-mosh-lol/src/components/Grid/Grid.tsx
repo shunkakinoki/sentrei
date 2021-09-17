@@ -16,6 +16,7 @@ export const Grid = () => {
   return (
     <gridHelper
       ref={gridRef}
+      className="z-50"
       position={[0, -3, 0]}
       args={[
         SIZE,

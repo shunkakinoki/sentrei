@@ -10,7 +10,7 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
   return (
     <a
       href={href}
-      className="text-fuchsia-500 hover:text-fuchsia-400"
+      className="text-fuchsia-500 hover:text-fuchsia-400 cursor-pointer"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -21,8 +21,8 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
 
 export const Footer: FC = () => {
   return (
-    <footer className="overflow-hidden px-4 sm:px-6 lg:px-8 pt-12 mx-auto max-w-7xl">
-      <div className="flex justify-center mt-8 space-x-6">
+    <footer className="px-4 sm:px-6 lg:px-8 pt-12 mx-auto max-w-7xl">
+      <div className="flex justify-center space-x-6">
         <FooterIconLink href="https://discord.gg/SsF2QejwvZ">
           <span className="sr-only">Discord</span>
           <FaDiscord className="w-6 h-6" />

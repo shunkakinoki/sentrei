@@ -20,8 +20,8 @@ const Page = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
       <body className="w-full">
-        <div className="flex flex-col justify-center items-center">
-          <div className="mt-48 md:mt-64">
+        <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-3/4 sm:h-3/5">
+          <div className="flex-col mt-12 sm:mt-24 md:mt-36 lg:mt-48">
             <Logo />
             <CountdownClock
               date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
@@ -30,8 +30,8 @@ const Page = () => {
             <Footer />
           </div>
         </div>
-        <div className="flex absolute inset-x-0 bottom-0 h-1/2">
-          <Canvas className="w-full">
+        <div className="absolute inset-x-0 bottom-0 h-1/4 sm:h-2/5">
+          <Canvas className="w-full h-full ">
             <Grid />
           </Canvas>
         </div>
