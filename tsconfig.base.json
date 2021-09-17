@@ -28,7 +28,18 @@
       "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"],
-      "@sentrei/www-thisweekindaos-com/*": ["apps/www-thisweekindaos-com/src/*"]
+      "@sentrei/www-thisweekindaos-com/*": [
+        "apps/www-thisweekindaos-com/src/*"
+      ],
+      "@sentrei/app-sentrei-com/public/*": ["apps/app-sentrei-com/public/*"],
+      "@sentrei/blog-sentrei-com/public/*": ["apps/blog-sentrei-com/public/*"],
+      "@sentrei/og-sentrei-com/public/*": ["apps/og-sentrei-com/public/*"],
+      "@sentrei/wiki-sentrei-com/public/*": ["apps/wiki-sentrei-com/public/*"],
+      "@sentrei/www-mosh-lol/public/*": ["apps/www-mosh-lol/public/*"],
+      "@sentrei/www-sentrei-com/public/*": ["apps/www-sentrei-com/public/*"],
+      "@sentrei/www-thisweekindaos-com/public/*": [
+        "apps/www-thisweekindaos-com/public/*"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
