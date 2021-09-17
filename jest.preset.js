@@ -22,7 +22,27 @@ module.exports = {
       "<rootDir>/../../apps/blog-sentrei-com/src/$1",
     "^@sentrei/og-sentrei-com/(.+)$":
       "<rootDir>/../../apps/og-sentrei-com/src/$1",
+    "^@sentrei/wiki-sentrei-com/(.+)$":
+      "<rootDir>/../../apps/wiki-sentrei-com/src/$1",
     "^@sentrei/www-mosh-lol/(.+)$": "<rootDir>/../../apps/www-mosh-lol/src/$1",
+    "^@sentrei/www-sentrei-com/(.+)$":
+      "<rootDir>/../../apps/www-sentrei-com/src/$1",
+    "^@sentrei/www-thisweekindaos-com/(.+)$":
+      "<rootDir>/../../apps/www-thisweekindaos-com/src/$1",
+    "^@sentrei/app-sentrei-com/public/(.+)$":
+      "<rootDir>/../../apps/app-sentrei-com/public/$1",
+    "^@sentrei/blog-sentrei-com/public/(.+)$":
+      "<rootDir>/../../apps/blog-sentrei-com/public/$1",
+    "^@sentrei/og-sentrei-com/public/(.+)$":
+      "<rootDir>/../../apps/og-sentrei-com/public/$1",
+    "^@sentrei/wiki-sentrei-com/public/(.+)$":
+      "<rootDir>/../../apps/wiki-sentrei-com/public/$1",
+    "^@sentrei/www-mosh-lol/public/(.+)$":
+      "<rootDir>/../../apps/www-mosh-lol/public/$1",
+    "^@sentrei/www-sentrei-com/public/(.+)$":
+      "<rootDir>/../../apps/www-sentrei-com/public/$1",
+    "^@sentrei/www-thisweekindaos-com/public/(.+)$":
+      "<rootDir>/../../apps/www-thisweekindaos-com/public/$1",
   },
   transform: {
     "^.+\\.[tj]sx?$": "ts-jest",

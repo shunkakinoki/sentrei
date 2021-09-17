@@ -62,6 +62,7 @@
     "eslint:lint": "yarn run eslint:cmd .",
     "eslint:fix": "yarn run eslint:cmd . --fix",
     "fix": "concurrently 'yarn:*:fix'",
+    "generate:components": "nx workspace-generator components",
     "lint": "concurrently 'yarn:*:lint'",
     "multi-semantic-release": "multi-semantic-release --sequential-init",
     "multi-semantic-release:check": "multi-semantic-release --dry-run --sequential-init",

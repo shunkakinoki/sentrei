@@ -154,5 +154,7 @@ dist/apps/*
 !dist/apps/.gitkeep
 dist/e2e/*
 !dist/e2e/.gitkeep
+dist/tools/*
+!dist/tools/.gitkeep
 dist/videos/*
 !dist/videos/.gitkeep
