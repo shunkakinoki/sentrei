@@ -76,7 +76,6 @@ const Page = () => {
         className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
         alt="Logo"
         src={LogoImage}
-        placeholder="blur"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
