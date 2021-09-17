@@ -22,7 +22,7 @@ const Grid = dynamic(async () => {
   return m.Grid;
 });
 
-const Page = () => {
+export const Page = () => {
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
       <div className="absolute inset-x-0 top-0 w-32 md:w-64 h-32 md:h-64">

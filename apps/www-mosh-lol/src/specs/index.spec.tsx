@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react";
 
-import { ButtonScreen } from "@sentrei/www-mosh-lol/pages/index";
+import { Page } from "@sentrei/www-mosh-lol/pages/index";
 
-describe("ButtonScreen", () => {
+describe("Page", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<ButtonScreen />);
+    const { baseElement } = render(<Page />);
     expect(baseElement).toBeTruthy();
   });
 });
