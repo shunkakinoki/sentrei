@@ -1,8 +1,15 @@
+/* eslint-disable no-restricted-imports */
 import moment from "moment";
 
 import dynamic from "next/dynamic";
 
 import Image from "next/image";
+
+import BlueHandImage from "../../public/BlueHand.png";
+import LogoImage from "../../public/Logo.png";
+import PurpleHandImage from "../../public/PurpleHand.png";
+import RedWaveImage from "../../public/RedWave.png";
+import SunshineImage from "../../public/Sunshine.png";
 
 import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
@@ -26,8 +33,9 @@ const Page = () => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
+          placeholder="blur"
+          src={SunshineImage}
           alt="Sunshine"
-          src="/Sunshine.png"
           layout="responsive"
         />
       </div>
@@ -36,8 +44,9 @@ const Page = () => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
+          placeholder="blur"
           alt="PurpleHand"
-          src="/PurpleHand.png"
+          src={PurpleHandImage}
           layout="responsive"
         />
       </div>
@@ -45,10 +54,11 @@ const Page = () => {
         <Image
           className="opacity-10 transition-opacity animate-pulse rotate-180 aspect-w-2 aspect-h-1"
           layout="fill"
+          placeholder="blur"
           objectFit="cover"
           objectPosition="right"
           alt="BlueHand"
-          src="/BlueHand.png"
+          src={BlueHandImage}
         />
       </div>
       <div className="absolute right-0 bottom-0 w-32 md:w-64 h-32 md:h-64">
@@ -56,15 +66,17 @@ const Page = () => {
           className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
           height={30}
           width={30}
+          placeholder="blur"
           alt="RedWave"
-          src="/RedWave.png"
+          src={RedWaveImage}
           layout="responsive"
         />
       </div>
       <Image
         className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
         alt="Logo"
-        src="/Logo.png"
+        src={LogoImage}
+        placeholder="blur"
         layout="fill"
         objectFit="cover"
         objectPosition="center"
