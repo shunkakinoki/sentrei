@@ -20,7 +20,47 @@ const Grid = dynamic(async () => {
 
 const Page = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
+    <div className="w-full min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
+      <div className="absolute inset-x-0 top-0 w-32 md:w-64 h-32 md:h-64">
+        <Image
+          className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
+          height={30}
+          width={30}
+          alt="Sunshine"
+          src="/Sunshine.png"
+          layout="responsive"
+        />
+      </div>
+      <div className="absolute inset-y-1/2 w-32 md:w-64 h-32 md:h-64">
+        <Image
+          className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
+          height={30}
+          width={30}
+          alt="PurpleHand"
+          src="/PurpleHand.png"
+          layout="responsive"
+        />
+      </div>
+      <div className="overflow-hidden absolute inset-x-1/2 sm:inset-x-2/3 lg:inset-x-3/5 xl:inset-x-3/4 top-0 right-0 w-32 md:w-64 h-16 md:h-32">
+        <Image
+          className="opacity-10 transition-opacity animate-pulse rotate-180 aspect-w-2 aspect-h-1"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="right"
+          alt="BlueHand"
+          src="/BlueHand.png"
+        />
+      </div>
+      <div className="absolute right-0 bottom-0 w-32 md:w-64 h-32 md:h-64">
+        <Image
+          className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
+          height={30}
+          width={30}
+          alt="RedWave"
+          src="/RedWave.png"
+          layout="responsive"
+        />
+      </div>
       <Image
         className="opacity-10 transition-opacity animate-pulse aspect-w-12 aspect-h-6"
         alt="Logo"
@@ -29,7 +69,7 @@ const Page = () => {
         objectFit="cover"
         objectPosition="center"
       />
-      <body className="w-full">
+      <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
             <Logo />
