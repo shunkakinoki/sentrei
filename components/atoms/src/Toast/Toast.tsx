@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import type { FC } from "react";
 
-import closeIcon from "./close.svg";
+import { IoClose } from "react-icons/io5";
 
 export const TextColor = {
   WHITE: "text-white",
@@ -30,11 +30,18 @@ export const Toast: FC<ToastProps> = props => {
     onClick,
   } = props;
 
+  let iconColor;
+  if (textColor === TextColor.WHITE) {
+    iconColor = "white";
+  } else {
+    iconColor = "black";
+  }
+
   return (
     <>
       <div
         className={clsx(
-          "flex items-center w-1/4 min-w-full h-16 min-h-full rounded shadow",
+          "flex items-center w-1/4 min-h-[4rem] rounded shadow",
           className,
           bgColor,
         )}
@@ -52,11 +59,8 @@ export const Toast: FC<ToastProps> = props => {
           <p className="text-lg font-bold">{title}</p>
           <p className="text-base">{description}</p>
         </div>
-        <button
-          className={clsx("mr-2 mb-5 ml-auto w-3 h-3", textColor)}
-          onClick={onClick}
-        >
-          <img src={closeIcon} alt="Close icon" />
+        <button className={clsx("mr-2 mb-5 ml-auto w-3 h-3")} onClick={onClick}>
+          <IoClose fill={iconColor} />
         </button>
       </div>
     </>

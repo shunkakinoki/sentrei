@@ -22,7 +22,7 @@ export const _Toast: Story<ToastProps> = args => {
 
 _Toast.args = {
   title: "Test",
-  description: "Description",
+  description: "Description Description",
   iconImgSrc:
     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/1200px-Infobox_info_icon.svg.png",
 };
