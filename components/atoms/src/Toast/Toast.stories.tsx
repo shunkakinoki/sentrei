@@ -2,7 +2,7 @@ import type { Story, Meta } from "@storybook/react";
 import { useState } from "react";
 
 import type { ToastProps } from "./Toast";
-import { Toast } from "./Toast";
+import { Toast, ReactIconsType } from "./Toast";
 
 //TODO: test design and fix it
 //TODO: add notification organisms with position and animation.
@@ -23,6 +23,5 @@ export const _Toast: Story<ToastProps> = args => {
 _Toast.args = {
   title: "Test",
   description: "Description Description",
-  iconImgSrc:
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Infobox_info_icon.svg/1200px-Infobox_info_icon.svg.png",
+  reactIcon: ReactIconsType.INFO,
 };
