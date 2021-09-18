@@ -6,7 +6,6 @@ import { useState } from "react";
 
 import styles from "./Notification.module.css";
 
-//TODO: info icon [now! in toast.tsx]
 //TODO: animation
 //TODO: auto deletion
 //TODO: props -> position, deletion time

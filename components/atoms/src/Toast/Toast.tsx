@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import type { FC } from "react";
 
-import { CgDanger } from "react-icons/cg";
+import { BsExclamationTriangle } from "react-icons/bs";
 import { FaRegCheckCircle } from "react-icons/fa";
 
 import { ImInfo, ImWarning } from "react-icons/im";
@@ -30,8 +30,6 @@ export interface ToastProps {
   onClick: (value: any) => void;
 }
 
-//TODO: set color for icons.
-
 export const Toast: FC<ToastProps> = props => {
   const {
     className,
@@ -44,14 +42,13 @@ export const Toast: FC<ToastProps> = props => {
     onClick,
   } = props;
 
-  let iconColor;
+  let iconColor: string;
   if (textColor === TextColor.WHITE) {
     iconColor = "white";
   } else {
     iconColor = "black";
   }
 
-  //TODO: render icons.
   const renderIcon = () => {
     if (iconImgSrc) {
       return (
@@ -62,14 +59,26 @@ export const Toast: FC<ToastProps> = props => {
       if (reactIcon) {
         switch (reactIcon) {
           case ReactIconsType.INFO:
-            return <ImInfo />;
+            return <ImInfo fill={iconColor} size={26} className="m-auto" />;
           case ReactIconsType.DANGER:
-            return <CgDanger />;
+            return (
+              <BsExclamationTriangle
+                fill={iconColor}
+                size={26}
+                className="m-auto"
+              />
+            );
           case ReactIconsType.SUCCESS:
-            return <FaRegCheckCircle />;
+            return (
+              <FaRegCheckCircle fill={iconColor} size={26} className="m-auto" />
+            );
           case ReactIconsType.WARNING:
-            return <ImWarning />;
+            return <ImWarning fill={iconColor} size={26} className="m-auto" />;
+          default:
+            return;
         }
+      } else {
+        return;
       }
     }
   };
@@ -83,13 +92,16 @@ export const Toast: FC<ToastProps> = props => {
           bgColor,
         )}
       >
-        {iconImgSrc && <div className="m-2 w-8 h-8">{renderIcon}</div>}
+        <div className="m-2 w-8 h-8">{renderIcon()}</div>
         <div className={clsx("flex flex-col items-start ml-2", textColor)}>
           <p className="text-lg font-bold">{title}</p>
           <p className="text-base">{description}</p>
         </div>
-        <button className={clsx("mr-2 mb-5 ml-auto w-3 h-3")} onClick={onClick}>
-          <IoClose fill={iconColor} />
+        <button
+          className={clsx("mt-1 mr-3 mb-auto ml-auto w-3 h-3")}
+          onClick={onClick}
+        >
+          <IoClose fill={iconColor} size={20} />
         </button>
       </div>
     </>

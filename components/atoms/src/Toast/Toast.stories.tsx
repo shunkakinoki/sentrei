@@ -23,5 +23,5 @@ export const _Toast: Story<ToastProps> = args => {
 _Toast.args = {
   title: "Test",
   description: "Description Description",
-  reactIcon: ReactIconsType.INFO,
+  reactIcon: ReactIconsType.DANGER,
 };
