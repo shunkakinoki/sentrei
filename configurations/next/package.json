@@ -29,7 +29,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-seo": "^4.26.0",
     "next-themes": "^0.0.15",
-    "next-translate": "^1.0.7",
+    "next-translate": "^1.1.0",
     "recoil": "^0.4.1"
   },
   "publishConfig": {
