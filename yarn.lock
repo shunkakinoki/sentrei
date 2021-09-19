@@ -21203,6 +21203,11 @@ remotion@^2.3.3:
   resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.3.tgz#a46ae91acea64f3523a820ec87db13a134d8a2b8"
   integrity sha512-Gc3YOJhtMLxMkveppt99ZgKlNT8+tol2BNnhUJysxdSJF7PfED9QNAVfbfCoxA8foHBA+SgZr9FyVV+uSydnDA==
 
+remotion@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/remotion/-/remotion-2.3.4.tgz#d7e8099754902cc2f89a1c2cc04f5d54fa4d2311"
+  integrity sha512-ub57uT7fx+CUXTbfxZcNM9bt4vMjR2pXG4G+FyO3RxAUEH9kWG+lrYqs997BRsUm7K4cLuVpOhszs3X7Kyvkxw==
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
