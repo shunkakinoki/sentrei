@@ -2,13 +2,11 @@ import { Toast, Button } from "@sentrei/atoms";
 import clsx from "clsx";
 
 import type { FC } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import styles from "./Notification.module.css";
 
 //TODO: animation
-//TODO: auto deletion
-//TODO: props -> position, deletion time
 
 export const ToastPosition = {
   TOP_RIGHT: "top-right",
@@ -20,11 +18,28 @@ export const ToastPosition = {
 
 export interface NotificationProps {
   position?: string;
+  autoDeleteTime?: number; //seconds
+  isAutoDelete?: boolean;
 }
 
 export const Notification: FC<NotificationProps> = props => {
-  const { position = ToastPosition.TOP_CENTER } = props;
+  const {
+    position = ToastPosition.TOP_CENTER,
+    autoDeleteTime = 5,
+    isAutoDelete = true,
+  } = props;
   const [isToastShowing, setIsToastShowing] = useState<boolean>(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (isAutoDelete) {
+        setIsToastShowing(false);
+      }
+    }, autoDeleteTime * 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <>
@@ -42,7 +57,7 @@ export const Notification: FC<NotificationProps> = props => {
             <Toast
               title="Notification"
               description="Info Info Info"
-              className=""
+              reactIcon="info"
               onClick={(): void => {
                 setIsToastShowing(false);
               }}
