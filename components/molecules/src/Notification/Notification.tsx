@@ -20,6 +20,8 @@ export interface NotificationProps {
   position?: string;
   autoDeleteTime?: number; //seconds
   isAutoDelete?: boolean;
+  toastBgColor?: string;
+  toastTextColor?: string;
 }
 
 export const Notification: FC<NotificationProps> = props => {
@@ -27,6 +29,8 @@ export const Notification: FC<NotificationProps> = props => {
     position = ToastPosition.TOP_CENTER,
     autoDeleteTime = 5,
     isAutoDelete = true,
+    toastBgColor,
+    toastTextColor,
   } = props;
   const [isToastShowing, setIsToastShowing] = useState<boolean>(false);
 
@@ -40,10 +44,11 @@ export const Notification: FC<NotificationProps> = props => {
       clearInterval(interval);
     };
   }, []);
+  console.log(styles); //not loaded.
 
   return (
     <>
-      <div className="relative w-screen h-screen">
+      <div className={clsx("relative w-screen h-screen", styles.bottomRight)}>
         <Button
           onClick={(): void => {
             setIsToastShowing(true);
@@ -52,12 +57,14 @@ export const Notification: FC<NotificationProps> = props => {
           Info
         </Button>
         {isToastShowing && (
-          // Position not working
-          <div className={clsx("absolute w-full", styles[position])}>
+          //TODO: Position not working
+          <div className={clsx(styles[position], "absolute w-full")}>
             <Toast
               title="Notification"
               description="Info Info Info"
               reactIcon="info"
+              bgColor={toastBgColor}
+              textColor={toastTextColor}
               onClick={(): void => {
                 setIsToastShowing(false);
               }}
