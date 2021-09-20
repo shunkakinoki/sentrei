@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { ImgHTMLAttributes, FC, ElementType, ReactElement } from "react";
 
 //TODO:
@@ -29,6 +30,7 @@ export interface ImageProps
   src?: string;
   crossOrigin?: ImgHTMLAttributes<any>["crossOrigin"];
   as?: ElementType;
+  className?: string;
 }
 
 export const Image: FC<ImageProps> = props => {
@@ -40,6 +42,7 @@ export const Image: FC<ImageProps> = props => {
     ignoreFallback,
     crossOrigin,
     as: Comp = NativeImage,
+    className,
     ...rest
   } = props;
 
@@ -57,10 +60,16 @@ export const Image: FC<ImageProps> = props => {
   if (status !== "loaded") {
     if (fallback) return fallback;
 
-    return <Comp src={fallbackSrc} {...shared} />;
+    return <Comp src={fallbackSrc} className={clsx(className)} {...shared} />;
   }
 
   return (
-    <Comp src={src} crossOrigin={crossOrigin} loading={loading} {...shared} />
+    <Comp
+      src={src}
+      crossOrigin={crossOrigin}
+      loading={loading}
+      className={clsx(className)}
+      {...shared}
+    />
   );
 };

@@ -1,0 +1,19 @@
+"@sentrei/blog-sentrei-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/blog-sentrei-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "blog-sentrei-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
+    domain: ["blog", "sentrei.com"]
+    name:
+      defaultLambda: "blog-sentrei-lambda"
+      apiLambda: "blog-sentrei-api-lambda"
+      imageLambda: "blog-sentrei-image-lambda"
+    runtime: "nodejs14.x"
+    timeout: 30
+    useServerlessTraceTarget: true

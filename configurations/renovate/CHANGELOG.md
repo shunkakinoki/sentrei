@@ -1,3 +1,39 @@
+## @sentrei/renovate-config [1.1.15](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.14...@sentrei/renovate-config@1.1.15) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to v27 ([94d3b2c](https://github.com/sentrei/sentrei/commit/94d3b2c0da3242115a474a7646c4a112b6fbf8f3))
+
+## @sentrei/renovate-config [1.1.14](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.13...@sentrei/renovate-config@1.1.14) (2021-09-10)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.7 ([4376579](https://github.com/sentrei/sentrei/commit/4376579ee989e67a53eb7878b38f2534bcff8e4b))
+
+## @sentrei/renovate-config [1.1.13](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.12...@sentrei/renovate-config@1.1.13) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.5 ([0c2e6ad](https://github.com/sentrei/sentrei/commit/0c2e6ad67e3b9b6eb774b1b44098b0b613b770f7))
+
+## @sentrei/renovate-config [1.1.12](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.11...@sentrei/renovate-config@1.1.12) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.4 ([213a537](https://github.com/sentrei/sentrei/commit/213a53728fa626910e09295d17b6efc974c97995))
+
+## @sentrei/renovate-config [1.1.11](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.10...@sentrei/renovate-config@1.1.11) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.3 ([0a8e83a](https://github.com/sentrei/sentrei/commit/0a8e83a8a67b790668ae520434f5fec8ad71d75d))
+
+## @sentrei/renovate-config [1.1.10](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.9...@sentrei/renovate-config@1.1.10) (2021-09-07)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^26.21.2 ([243844c](https://github.com/sentrei/sentrei/commit/243844c8ed101e1d456d947d284d73dfd459332c))
+
 ## @sentrei/renovate-config [1.1.9](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.8...@sentrei/renovate-config@1.1.9) (2021-09-04)
 
 ### Bug Fixes
