@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
-    "@heroicons/react": "^1.0.4"
+    "@heroicons/react": "^1.0.4",
+    "react-icons": "^4.2.0"
   },
   "publishConfig": {
     "access": "public",
