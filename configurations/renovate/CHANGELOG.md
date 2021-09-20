@@ -1,3 +1,9 @@
+## @sentrei/renovate-config [1.1.21](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.20...@sentrei/renovate-config@1.1.21) (2021-09-20)
+
+### Performance Improvements
+
+- ini ogp sentrei com serverless ([5d66689](https://github.com/sentrei/sentrei/commit/5d66689123d73cb9d604c73c7c9f72af35d813b0))
+
 ## @sentrei/renovate-config [1.1.20](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.19...@sentrei/renovate-config@1.1.20) (2021-09-16)
 
 ### Bug Fixes
