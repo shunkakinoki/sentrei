@@ -30,6 +30,8 @@
       "@sentrei/segment": ["packages/segment/src/index.ts"],
       "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
       "@public/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/public/*"],
+      "@sentrei/www-daoboard-com/*": ["apps/www-daoboard-com/src/*"],
+      "@public/www-daoboard-com/*": ["apps/www-daoboard-com/public/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
       "@public/www-mosh-lol/*": ["apps/www-mosh-lol/public/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"],
