@@ -1,6 +1,7 @@
 export { Button } from "./Button";
 export { Input } from "./Input";
 export { Select } from "./Select";
+export { Switch } from "./Switch";
 export { Checkbox } from "./Checkbox";
 export { Spinner } from "./Spinner";
 export { Link } from "./Link";
