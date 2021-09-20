@@ -1,3 +1,15 @@
+## @sentrei/og-sentrei-com [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/og-sentrei-com@1.0.0...@sentrei/og-sentrei-com@1.0.1) (2021-09-16)
+
+### Bug Fixes
+
+- **deps:** update dependency marked to ^3.0.4 ([35aff2b](https://github.com/sentrei/sentrei/commit/35aff2bc001b2193be51f0f402c912d758e502a6))
+
+# @sentrei/og-sentrei-com 1.0.0 (2021-09-15)
+
+### Performance Improvements
+
+- ini og sentrei com ([fe4ae7f](https://github.com/sentrei/sentrei/commit/fe4ae7f7cb4607645b7bea13f04b9fcbf88ddcd6))
+
 ## @sentrei/og [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.0...@sentrei/og@1.4.1) (2021-09-10)
 
 ### Bug Fixes

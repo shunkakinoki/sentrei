@@ -3,7 +3,7 @@ const aliases = require("./aliases");
 const reactJsxPlugin = require("vite-react-jsx").default;
 
 module.exports = {
-  stories: ["../components/**/*.stories.tsx"],
+  stories: ["../apps/**/*.stories.tsx", "../components/**/*.stories.tsx"],
   addons: [
     {
       name: "@storybook/addon-essentials",
@@ -24,6 +24,14 @@ module.exports = {
       options: {
         loaderOptions: {
           injectStoryParameters: false,
+        },
+      },
+    },
+    {
+      name: "@storybook/preset-scss",
+      options: {
+        cssLoaderOptions: {
+          modules: true,
         },
       },
     },

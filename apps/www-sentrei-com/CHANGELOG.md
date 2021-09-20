@@ -1,3 +1,9 @@
+# @sentrei/www-sentrei-com 1.0.0 (2021-09-15)
+
+### Features
+
+- ini www sentrei com ([4d3d569](https://github.com/sentrei/sentrei/commit/4d3d5693a4fc23b122846ee5b6fd9395b59b5e2d))
+
 ## @sentrei/home [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.5.1...@sentrei/home@1.5.2) (2021-08-05)
 
 ### Performance Improvements

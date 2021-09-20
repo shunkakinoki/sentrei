@@ -1,3 +1,9 @@
+## @sentrei/roots [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.3.3...@sentrei/roots@1.3.4) (2021-09-16)
+
+### Performance Improvements
+
+- ini mosh components ([8ee78c0](https://github.com/sentrei/sentrei/commit/8ee78c00d4c6aa2e16c53d2010179e060f797d09))
+
 ## @sentrei/roots [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.3.2...@sentrei/roots@1.3.3) (2021-08-08)
 
 ### Bug Fixes

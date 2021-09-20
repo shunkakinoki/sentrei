@@ -1,3 +1,9 @@
+## @sentrei/storybook [1.7.2](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.7.1...@sentrei/storybook@1.7.2) (2021-09-16)
+
+### Performance Improvements
+
+- ini strybook scss ([33b3584](https://github.com/sentrei/sentrei/commit/33b35848c0199d6a3f0ce36da2191943e2fa95ba))
+
 ## @sentrei/storybook [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.7.0...@sentrei/storybook@1.7.1) (2021-09-04)
 
 ### Bug Fixes

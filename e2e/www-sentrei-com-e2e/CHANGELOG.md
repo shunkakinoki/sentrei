@@ -1,3 +1,9 @@
+# @sentrei/www-sentrei-com-e2e 1.0.0 (2021-09-15)
+
+### Features
+
+- ini wiki sentrei com ([519828c](https://github.com/sentrei/sentrei/commit/519828c2fa11a501df329b8f4d90ee8e27f7fb45))
+
 # @sentrei/home-e2e [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/home-e2e@1.0.0...@sentrei/home-e2e@1.1.0) (2021-07-26)
 
 ### Features

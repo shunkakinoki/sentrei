@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/serverless",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "serverless": "^2.58.0"
+    "serverless": "^2.59.0"
   },
   "publishConfig": {
     "access": "public",
