@@ -1,0 +1,22 @@
+"@sentrei/www-daoboard-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/www-daoboard-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "www-daoboard-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/1764b5c6-18dc-4f61-96cd-97f3bfe6472b"
+    cloudfront:
+      distributionId: E2EYQ79LG7EB94
+    domain: ["daoboard.com"]
+    name:
+      defaultLambda: "www-daoboard-com-lambda"
+      apiLambda: "www-daoboard-com-api-lambda"
+      imageLambda: "www-daoboard-com-image-lambda"
+    runtime: "nodejs14.x"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
+    timeout: 30
+    useServerlessTraceTarget: true

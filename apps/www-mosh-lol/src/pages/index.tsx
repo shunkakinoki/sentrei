@@ -1,16 +1,12 @@
-/* eslint-disable no-restricted-imports */
-
 import moment from "moment";
-
 import dynamic from "next/dynamic";
-
 import Image from "next/image";
 
-import BlueHandImage from "../../public/BlueHand.png";
-import LogoImage from "../../public/Logo.png";
-import PurpleHandImage from "../../public/PurpleHand.png";
-import RedWaveImage from "../../public/RedWave.png";
-import SunshineImage from "../../public/Sunshine.png";
+import BlueHandImage from "@public/www-mosh-lol/BlueHand.png";
+import LogoImage from "@public/www-mosh-lol/Logo.png";
+import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
+import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
+import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 
 import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
@@ -26,7 +22,7 @@ const Grid = dynamic(async () => {
   return m.Grid;
 });
 
-const Page = () => {
+export const Page = () => {
   return (
     <div className="w-full min-h-screen bg-gradient-to-b from-pink-400 via-blue-200 to-sky-400">
       <div className="absolute inset-x-0 top-0 w-32 md:w-64 h-32 md:h-64">

@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.1...@sentrei/eslint-config@1.5.2) (2021-09-20)
+
+### Performance Improvements
+
+- refactor config ([95a383d](https://github.com/sentrei/sentrei/commit/95a383d509da197c9b984b94d18f4d3ebc22836e))
+
 ## @sentrei/eslint-config [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.0...@sentrei/eslint-config@1.5.1) (2021-09-16)
 
 ### Bug Fixes
