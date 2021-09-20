@@ -99,6 +99,7 @@ export const Avatar: FC<AvatarProps> = props => {
   const renderChildren = () => {
     if (src && hasLoaded) {
       return (
+        // eslint-disable-next-line @next/next/no-img-element
         <img
           className="object-cover w-full h-full rounded-full"
           src={src}
