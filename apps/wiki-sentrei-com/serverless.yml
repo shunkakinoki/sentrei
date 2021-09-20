@@ -1,0 +1,21 @@
+"@sentrei/wiki-sentrei-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/wiki-sentrei-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "wiki-sentrei-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
+    cloudfront:
+      distributionId: E1T8EYYLLJ2PSX
+    domain: ["wiki", "sentrei.com"]
+    name:
+      defaultLambda: "wiki-sentrei-lambda"
+      apiLambda: "wiki-sentrei-api-lambda"
+      imageLambda: "wiki-sentrei-image-lambda"
+    runtime: "nodejs14.x"
+    timeout: 30
+    useServerlessTraceTarget: true
