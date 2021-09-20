@@ -1,3 +1,9 @@
+## @sentrei/next [1.12.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.2...@sentrei/next@1.12.3) (2021-09-20)
+
+### Performance Improvements
+
+- ini ogp sentrei com serverless ([5d66689](https://github.com/sentrei/sentrei/commit/5d66689123d73cb9d604c73c7c9f72af35d813b0))
+
 ## @sentrei/next [1.12.2](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.1...@sentrei/next@1.12.2) (2021-09-01)
 
 ### Bug Fixes
