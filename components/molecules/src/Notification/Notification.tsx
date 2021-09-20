@@ -20,6 +20,8 @@ export interface NotificationProps {
   isAutoDelete?: boolean;
   toastBgColor?: string;
   toastTextColor?: string;
+  title?: string;
+  description?: string;
 }
 
 export const Notification: FC<NotificationProps> = props => {
@@ -29,6 +31,8 @@ export const Notification: FC<NotificationProps> = props => {
     isAutoDelete = true,
     toastBgColor,
     toastTextColor,
+    title = "Notification",
+    description = "Notify your status...",
   } = props;
   const [isToastShowing, setIsToastShowing] = useState<boolean>(false);
 
@@ -57,8 +61,8 @@ export const Notification: FC<NotificationProps> = props => {
         {isToastShowing && (
           <div className={clsx("w-full h-full")}>
             <Toast
-              title="Notification"
-              description="Info Info Info"
+              title={title}
+              description={description}
               reactIcon="info"
               bgColor={toastBgColor}
               textColor={toastTextColor}

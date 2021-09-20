@@ -14,4 +14,7 @@ export const _Notification: Story = args => {
 _Notification.args = {
   position: ToastPosition.TOP_CENTER,
   isAutoDelete: false,
+  toastBgColor: "red",
+  toastTextColor: "black",
+  description: "This is test",
 };
