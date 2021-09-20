@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "./Logo.module.css";
 
-import LogoImage from "@sentrei/www-mosh-lol/public/Logo.png";
+import LogoImage from "@public/www-mosh-lol/Logo.png";
 
 export const Logo = () => {
   return (

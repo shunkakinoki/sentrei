@@ -2,15 +2,15 @@ import moment from "moment";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 
+import BlueHandImage from "@public/www-mosh-lol/BlueHand.png";
+import LogoImage from "@public/www-mosh-lol/Logo.png";
+import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
+import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
+import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
+
 import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
 import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
-
-import BlueHandImage from "@sentrei/www-mosh-lol/public/BlueHand.png";
-import LogoImage from "@sentrei/www-mosh-lol/public/Logo.png";
-import PurpleHandImage from "@sentrei/www-mosh-lol/public/PurpleHand.png";
-import RedWaveImage from "@sentrei/www-mosh-lol/public/RedWave.png";
-import SunshineImage from "@sentrei/www-mosh-lol/public/Sunshine.png";
 
 const Canvas = dynamic(async () => {
   const m = await import("react-three-fiber");
