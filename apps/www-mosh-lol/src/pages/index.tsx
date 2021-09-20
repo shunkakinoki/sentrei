@@ -1,4 +1,4 @@
-import { CountdownClock } from "@sentrei/molecules";
+import { CountdownClock, LogoGlow } from "@sentrei/molecules";
 import { FooterLogo } from "@sentrei/organisms";
 import moment from "moment";
 import dynamic from "next/dynamic";
@@ -9,8 +9,6 @@ import LogoImage from "@public/www-mosh-lol/Logo.png";
 import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
 import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
-
-import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
 const Canvas = dynamic(async () => {
   const m = await import("react-three-fiber");
@@ -80,7 +78,7 @@ export const Page = () => {
       <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
-            <Logo />
+            <LogoGlow src={LogoImage} />
             <CountdownClock
               date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
               onComplete={() => {}}
