@@ -12,6 +12,6 @@ export const _Notification: Story = args => {
 };
 
 _Notification.args = {
-  position: ToastPosition.BOTTOM_RIGHT,
+  position: ToastPosition.TOP_CENTER,
   isAutoDelete: false,
 };

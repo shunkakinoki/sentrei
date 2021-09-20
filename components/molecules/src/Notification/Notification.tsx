@@ -4,9 +4,7 @@ import clsx from "clsx";
 import type { FC } from "react";
 import { useState, useEffect } from "react";
 
-import styles from "./Notification.module.css";
-
-//TODO: animation
+import styles from "./Notification.module.scss";
 
 export const ToastPosition = {
   TOP_RIGHT: "top-right",
@@ -44,11 +42,11 @@ export const Notification: FC<NotificationProps> = props => {
       clearInterval(interval);
     };
   }, []);
-  console.log(styles); //not loaded.
+  console.log(styles[position]); //not loaded.
 
   return (
     <>
-      <div className={clsx("relative w-screen h-screen", styles.bottomRight)}>
+      <div className={clsx("relative w-screen h-screen")}>
         <Button
           onClick={(): void => {
             setIsToastShowing(true);
@@ -57,14 +55,14 @@ export const Notification: FC<NotificationProps> = props => {
           Info
         </Button>
         {isToastShowing && (
-          //TODO: Position not working
-          <div className={clsx(styles[position], "absolute w-full")}>
+          <div className={clsx("w-full h-full")}>
             <Toast
               title="Notification"
               description="Info Info Info"
               reactIcon="info"
               bgColor={toastBgColor}
               textColor={toastTextColor}
+              className={clsx("absolute", styles[position])}
               onClick={(): void => {
                 setIsToastShowing(false);
               }}
