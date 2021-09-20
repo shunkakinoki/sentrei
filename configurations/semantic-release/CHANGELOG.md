@@ -1,3 +1,9 @@
+## @sentrei/semantic-release [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.5.1...@sentrei/semantic-release@1.5.2) (2021-09-20)
+
+### Bug Fixes
+
+- **deps:** update dependency @semantic-release/git to v10 ([95ac352](https://github.com/sentrei/sentrei/commit/95ac352bd56d2bd84c4740d1e44d67c549ae29d1))
+
 ## @sentrei/semantic-release [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.5.0...@sentrei/semantic-release@1.5.1) (2021-09-07)
 
 ### Bug Fixes
