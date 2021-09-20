@@ -1,3 +1,9 @@
+## @sentrei/www-mosh-lol [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.0...@sentrei/www-mosh-lol@1.3.1) (2021-09-20)
+
+### Performance Improvements
+
+- refactor config ([95a383d](https://github.com/sentrei/sentrei/commit/95a383d509da197c9b984b94d18f4d3ebc22836e))
+
 # @sentrei/www-mosh-lol [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.2.1...@sentrei/www-mosh-lol@1.3.0) (2021-09-17)
 
 ### Features
