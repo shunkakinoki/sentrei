@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "./Logo.module.css";
+import styles from "./Logo.module.scss";
 
 import LogoImage from "@public/www-mosh-lol/Logo.png";
 

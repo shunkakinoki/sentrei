@@ -1,3 +1,4 @@
+import { CountdownClock } from "@sentrei/molecules";
 import moment from "moment";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -8,7 +9,6 @@ import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
 import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 
-import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
 import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
