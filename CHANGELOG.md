@@ -1,3 +1,9 @@
+## [1.47.1](https://github.com/sentrei/sentrei/compare/v1.47.0...v1.47.1) (2021-09-20)
+
+### Performance Improvements
+
+- refactor config ([95a383d](https://github.com/sentrei/sentrei/commit/95a383d509da197c9b984b94d18f4d3ebc22836e))
+
 # [1.47.0](https://github.com/sentrei/sentrei/compare/v1.46.1...v1.47.0) (2021-09-17)
 
 ### Features
