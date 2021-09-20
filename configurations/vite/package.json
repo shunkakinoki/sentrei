@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/vite",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "vite": "^2.5.3",
+    "vite": "^2.5.7",
     "vite-react-jsx": "^1.1.2"
   },
   "publishConfig": {
