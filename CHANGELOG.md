@@ -1,3 +1,9 @@
+## [1.49.1](https://github.com/sentrei/sentrei/compare/v1.49.0...v1.49.1) (2021-09-20)
+
+### Bug Fixes
+
+- **deps:** update dependency @semantic-release/git to v10 ([95ac352](https://github.com/sentrei/sentrei/commit/95ac352bd56d2bd84c4740d1e44d67c549ae29d1))
+
 # [1.49.0](https://github.com/sentrei/sentrei/compare/v1.48.0...v1.49.0) (2021-09-20)
 
 ### Bug Fixes
