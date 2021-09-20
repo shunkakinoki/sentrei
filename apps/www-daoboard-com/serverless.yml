@@ -8,7 +8,7 @@
       env: {}
     bucketRegion: "us-east-1"
     bucketName: "www-daoboard-com"
-    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/1764b5c6-18dc-4f61-96cd-97f3bfe6472b"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/37a561d2-a5d1-4cec-b22b-fdc01288fb17"
     cloudfront:
       distributionId: E2EYQ79LG7EB94
     domain: ["daoboard.com"]
