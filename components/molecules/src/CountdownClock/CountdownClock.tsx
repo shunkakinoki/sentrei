@@ -3,7 +3,7 @@ import moment from "moment";
 import type { FC } from "react";
 import Countdown from "react-countdown";
 
-import styles from "./CountdownClock.module.scss";
+import styles from "./CountdownClock.module.css";
 
 interface CountdownBlockProps {
   count: string;

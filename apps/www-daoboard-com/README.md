@@ -1,1 +1,1 @@
-# `@sentrei/demo`
+# `@sentrei/www-daoboard-com`

@@ -6,5 +6,5 @@ module.exports = {
       tsconfig: "<rootDir>/tsconfig.spec.json",
     },
   },
-  coverageDirectory: "../../coverage/apps/demo",
+  coverageDirectory: "../../coverage/apps/www-daoboard-com",
 };

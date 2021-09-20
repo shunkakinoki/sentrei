@@ -4,7 +4,7 @@ import clsx from "clsx";
 import type { FC } from "react";
 import { useState, useEffect } from "react";
 
-import styles from "./Notification.module.scss";
+import styles from "./Notification.module.css";
 
 export const ToastPosition = {
   TOP_RIGHT: "top-right",

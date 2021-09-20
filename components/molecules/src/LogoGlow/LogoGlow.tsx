@@ -1,7 +1,7 @@
 import Image, { ImageProps } from "next/image";
 import { FC } from "react";
 
-import styles from "./LogoGlow.module.scss";
+import styles from "./LogoGlow.module.css";
 
 type LogoGlowProps = Pick<ImageProps, "src">;
 
