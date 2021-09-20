@@ -16,6 +16,7 @@
       defaultLambda: "og-sentrei-lambda"
       apiLambda: "og-sentrei-api-lambda"
       imageLambda: "og-sentrei-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:user/github-prd"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true
