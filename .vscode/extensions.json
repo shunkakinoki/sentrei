@@ -1,9 +1,7 @@
 {
   "recommendations": [
-    "jpoissonnier.vscode-styled-components",
     "esbenp.prettier-vscode",
-    "ms-vscode.vscode-typescript-next",
-    "lokalise.i18n-ally",
+    "ms-vscod.i18n-ally",
     "dbaeumer.vscode-eslint"
   ]
 }

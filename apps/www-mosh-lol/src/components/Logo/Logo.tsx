@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-// eslint-disable-next-line no-restricted-imports
-import LogoImage from "../../../public/Logo.png";
-
 import styles from "./Logo.module.css";
+
+import LogoImage from "@public/www-mosh-lol/Logo.png";
 
 export const Logo = () => {
   return (

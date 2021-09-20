@@ -16,19 +16,30 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
+      "@public/app-sentrei-com/*": ["apps/app-sentrei-com/public/*"],
       "@sentrei/atoms": ["components/atoms/src/index.ts"],
+      "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
+      "@public/blog-sentrei-com/*": ["apps/blog-sentrei-com/public/*"],
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
+      "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
+      "@public/og-sentrei-com/*": ["apps/og-sentrei-com/public/*"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],
       "@sentrei/roots": ["components/roots/src/index.ts"],
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],
-      "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
-      "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
-      "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
       "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
+      "@public/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/public/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
+      "@public/www-mosh-lol/*": ["apps/www-mosh-lol/public/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"],
-      "@sentrei/www-thisweekindaos-com/*": ["apps/www-thisweekindaos-com/src/*"]
+      "@public/www-sentrei-com/*": ["apps/www-sentrei-com/public/*"],
+      "@sentrei/www-thisweekindaos-com/*": [
+        "apps/www-thisweekindaos-com/src/*"
+      ],
+      "@public/www-thisweekindaos-com/*": [
+        "apps/www-thisweekindaos-com/public/*"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
