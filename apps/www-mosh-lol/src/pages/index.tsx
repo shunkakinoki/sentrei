@@ -18,7 +18,7 @@ const Canvas = dynamic(async () => {
 });
 
 const Grid = dynamic(async () => {
-  const m = await import("@sentrei/www-mosh-lol/components/Grid");
+  const m = await import("@sentrei/molecules");
   return m.Grid;
 });
 

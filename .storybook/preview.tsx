@@ -4,6 +4,7 @@ import "tailwindcss/tailwind.css";
 import { RecoilRoot } from "recoil";
 import { ThemeProvider } from "next-themes";
 import { RouterContext } from "next/dist/shared/lib/router-context";
+import * as NextImage from "next/image";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -24,6 +25,25 @@ export const parameters = {
     viewports: INITIAL_VIEWPORTS,
   },
 };
+
+Object.defineProperty(NextImage, "default", {
+  configurable: true,
+  value: props => <img {...props} />,
+});
+
+// const OriginalNextImage = NextImage.default;
+
+// Object.defineProperty(NextImage, "default", {
+//   configurable: true,
+//   value: props => (
+//     <OriginalNextImage
+//       loader={({ src }) => src}
+//       {...props}
+//       unoptimized
+//       placeholder="empty"
+//     />
+//   ),
+// });
 
 export const decorators = [
   (Story: JSX.IntrinsicAttributes): JSX.Element => (

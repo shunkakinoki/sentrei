@@ -1,5 +1,7 @@
 import type { Story, Meta } from "@storybook/react";
 
+import { Canvas } from "react-three-fiber";
+
 import { Grid } from "./Grid";
 
 export default {
@@ -8,5 +10,9 @@ export default {
 } as Meta;
 
 export const _Grid: Story = () => {
-  return <Grid />;
+  return (
+    <Canvas>
+      <Grid />
+    </Canvas>
+  );
 };
