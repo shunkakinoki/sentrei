@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "fileServerFolder": ".",
+  "fixturesFolder": "./src/fixtures",
+  "integrationFolder": "./src/integration",
+  "modifyObstructiveCode": false,
+  "pluginsFile": "./src/plugins/index",
+  "screenshotsFolder": "../../dist/e2e/blog-sentrei-com-e2e/screenshots",
+  "supportFile": "./src/support/index.ts",
+  "video": true,
+  "videosFolder": "../../dist/e2e/blog-sentrei-com-e2e/videos"
+}
