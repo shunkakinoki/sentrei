@@ -1,3 +1,39 @@
+# [1.49.0](https://github.com/sentrei/sentrei/compare/v1.48.0...v1.49.0) (2021-09-20)
+
+### Bug Fixes
+
+- fallbacksrc in story ([b63313a](https://github.com/sentrei/sentrei/commit/b63313aa989c739f2928088f2aa6d8a58fc37a80))
+- insert rest props ([32a9e63](https://github.com/sentrei/sentrei/commit/32a9e63274b4765e72a4107d9d396386d53732d1))
+- jest eslint error ([9544e52](https://github.com/sentrei/sentrei/commit/9544e529f360b9d5bb9ae094e0855313990c8eab))
+- make title and description variables ([a4edf55](https://github.com/sentrei/sentrei/commit/a4edf556e49af4b4ce0e889b7a69775148e743c6))
+- manage state value from parent side ([c8133b5](https://github.com/sentrei/sentrei/commit/c8133b5234a9aa9eaae069991ed54a322c0bf2b6))
+- render icons by situations ([2dd16a4](https://github.com/sentrei/sentrei/commit/2dd16a4c82eeff6828dc5e28cdb6736ce248fe64))
+- story book name for text atoms ([359ac8a](https://github.com/sentrei/sentrei/commit/359ac8a3e51f80553368768b2de3ca28d426fc11))
+- typo ([d4c1cf8](https://github.com/sentrei/sentrei/commit/d4c1cf862fb5023fd871363c15e54ae957768800))
+- update badge export ([05cd8f6](https://github.com/sentrei/sentrei/commit/05cd8f609be48b83983649da9dd31701843c2761))
+- update className for Image comp ([f8b403e](https://github.com/sentrei/sentrei/commit/f8b403e43fd9db6b8a4ef30cbc29ec202aba8c31))
+- use state for managing checked value ([0135290](https://github.com/sentrei/sentrei/commit/0135290c0b96dac7e461907704319ff790d1d195))
+
+### Features
+
+- [wip] image atom ([6d219bf](https://github.com/sentrei/sentrei/commit/6d219bfa45b958a9733047aed2e0a48c289289a7))
+- add avatar atom ([d97f44f](https://github.com/sentrei/sentrei/commit/d97f44f1e34e41d3ee7bf5eaeb915eb23b0c65af))
+- add badge atoms ([77ee098](https://github.com/sentrei/sentrei/commit/77ee098c00169f7f16118f145ea03e9849aed6ee))
+- add spec for image atom ([869cdad](https://github.com/sentrei/sentrei/commit/869cdadb8adb1ad8868c11ea4ffb5efee126986d))
+- add toast atom ([210bcaa](https://github.com/sentrei/sentrei/commit/210bcaac2ecd137d17657f691ea1232e40c06144))
+- checkbox atom ([d58159c](https://github.com/sentrei/sentrei/commit/d58159c95388835ed680a8e735288da463243b83))
+- link atom ([1bdaac1](https://github.com/sentrei/sentrei/commit/1bdaac184519cefe2981db2442475b3c9b8ce993))
+- spinner atom ([5e7deab](https://github.com/sentrei/sentrei/commit/5e7deab6e83c1a34766fcfe36b96c7074c0fd775))
+- switch atom ([6d99faa](https://github.com/sentrei/sentrei/commit/6d99faad5879a1d3c01b1d7be05994d0d423af51))
+- text atoms ([f6f79b3](https://github.com/sentrei/sentrei/commit/f6f79b376ed4a6836d1fc684b9e9e58cb7b867a6))
+- update animation for notification toast ([f673986](https://github.com/sentrei/sentrei/commit/f6739866b95e1eb9f39566b2df3f373d6187df2d))
+- update auto deletion notification ([0d8fcde](https://github.com/sentrei/sentrei/commit/0d8fcdeec2193f02f68ec7e0db422db2732f78bb))
+- update types for text atoms ([1f6adfa](https://github.com/sentrei/sentrei/commit/1f6adfa41658698fa57571b8a050719cdf1bcb73))
+- wip avatar atom ([e288bc1](https://github.com/sentrei/sentrei/commit/e288bc1fbf45b9fa060047c79e88df35f85a6541))
+- wip notification molecules ([ba4bea9](https://github.com/sentrei/sentrei/commit/ba4bea9e415951159cc11278b483fcd4a8e6bb91))
+- wip style not loaded ([b8be96e](https://github.com/sentrei/sentrei/commit/b8be96ecf2fcde601f49abb0774b77e12b27fef6))
+- wip toast atom ([5595d31](https://github.com/sentrei/sentrei/commit/5595d31f2356b8e6ef2de024f56f9c5f8f8695a3))
+
 # [1.48.0](https://github.com/sentrei/sentrei/compare/v1.47.1...v1.48.0) (2021-09-20)
 
 ### Features
