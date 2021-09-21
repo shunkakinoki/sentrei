@@ -1,3 +1,9 @@
+## [1.49.3](https://github.com/sentrei/sentrei/compare/v1.49.2...v1.49.3) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh organisms ([7986812](https://github.com/sentrei/sentrei/commit/79868121926c5667e7d8e735f9f163f94c4336fc))
+
 ## [1.49.2](https://github.com/sentrei/sentrei/compare/v1.49.1...v1.49.2) (2021-09-20)
 
 ### Performance Improvements
