@@ -22,10 +22,7 @@ export const LandingDaoboardScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
-            <FooterLogo
-              github="https://github.com/sentrei/sentrei"
-              twitter="https://twitter.com/daoboard"
-            />
+            <FooterLogo twitter="https://twitter.com/daoboard" />
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 h-1/3 sm:h-2/5">
