@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.2...@sentrei/eslint-config@1.5.3) (2021-09-21)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react to ^7.26.0 ([2f1771f](https://github.com/sentrei/sentrei/commit/2f1771ff5c7d67c6e56561e99d576b340e714787))
+
 ## @sentrei/eslint-config [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.1...@sentrei/eslint-config@1.5.2) (2021-09-20)
 
 ### Performance Improvements
