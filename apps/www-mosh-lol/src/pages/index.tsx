@@ -1,3 +1,4 @@
+import { FooterLogo } from "@sentrei/organisms";
 import moment from "moment";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -9,7 +10,6 @@ import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 
 import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
-import { Footer } from "@sentrei/www-mosh-lol/components/Footer";
 import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
 const Canvas = dynamic(async () => {
@@ -85,7 +85,7 @@ export const Page = () => {
               date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
               onComplete={() => {}}
             />
-            <Footer />
+            <FooterLogo />
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 h-1/3 sm:h-2/5">

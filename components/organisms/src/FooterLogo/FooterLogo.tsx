@@ -19,7 +19,7 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
   );
 };
 
-export const Footer: FC = () => {
+export const FooterLogo: FC = () => {
   return (
     <footer className="px-4 sm:px-6 lg:px-8 pt-12 mx-auto max-w-7xl">
       <div className="flex justify-center space-x-6">
