@@ -13,6 +13,8 @@ const AppRoot: FC<AppProps> = ({ Component, pageProps }) => {
         title="Daoboard"
         subTitle="DAO Leaderboard Platform"
         description="Like degenscore for DAOs"
+        url="https://daoboard.com"
+        twitter="@daoboard"
       />
       <RecoilRoot>
         <ThemeProvider attribute="class" defaultTheme="system">

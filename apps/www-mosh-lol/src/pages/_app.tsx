@@ -13,6 +13,8 @@ const AppRoot: FC<AppProps> = ({ Component, pageProps }) => {
         title="Mosh DAO"
         subTitle="Where creators get rewarded"
         description="Mosh DAO"
+        url="https://mosh.lol"
+        twitter="@MoshDAO"
       />
       <RecoilRoot>
         <ThemeProvider attribute="class" defaultTheme="system">
