@@ -3751,10 +3751,10 @@
     tsconfig-paths "^3.9.0"
     url-loader "^3.0.0"
 
-"@nrwl/nx-cloud@^12.3.10":
-  version "12.3.10"
-  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-12.3.10.tgz#ced00d87b584eb40c1732089c1bc2df544b8a2cc"
-  integrity sha512-5ZychlcrcDrPEdpPOsH1/UcakunK9PzhgCQmrFA+fHXRxzRbLE4K/Mz8dyIs+1aloXhMoYPncHsnRRwxyLhjXQ==
+"@nrwl/nx-cloud@^12.3.11":
+  version "12.3.11"
+  resolved "https://registry.yarnpkg.com/@nrwl/nx-cloud/-/nx-cloud-12.3.11.tgz#e0b216250299b3b8402c26000174543c075d1cf1"
+  integrity sha512-5OZqe384VFBuCJLBrZG50KlpPeDEj+BS6V38vStQr8pqTBw5q4+krXhGY1radNYxckxqFyKS8+XOJ643mghdcg==
   dependencies:
     axios "^0.21.1"
     chalk "4.1.0"
@@ -6329,10 +6329,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^27.0.1":
-  version "27.0.1"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.1.tgz#fafcc997da0135865311bb1215ba16dba6bdf4ca"
-  integrity sha512-HTLpVXHrY69556ozYkcq47TtQJXpcWAWfkoqz+ZGz2JnmZhzlRjprCIyFnetSy8gpDWwTTGBcRVv1J1I1vBrHw==
+"@types/jest@^27.0.2":
+  version "27.0.2"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.2.tgz#ac383c4d4aaddd29bbf2b916d8d105c304a5fcd7"
+  integrity sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==
   dependencies:
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
