@@ -77,9 +77,9 @@ export const LandingMoshScreen = () => {
       <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
-            <GlowLogo />
+            <GlowLogo src={LogoImage} />
             <CountdownClock
-              date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
+              date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
             <FooterLogo
