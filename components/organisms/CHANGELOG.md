@@ -1,3 +1,9 @@
+## @sentrei/organisms [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.1...@sentrei/organisms@1.5.2) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh organisms ([7986812](https://github.com/sentrei/sentrei/commit/79868121926c5667e7d8e735f9f163f94c4336fc))
+
 ## @sentrei/organisms [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.0...@sentrei/organisms@1.5.1) (2021-08-08)
 
 ### Bug Fixes
