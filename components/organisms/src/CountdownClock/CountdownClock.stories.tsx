@@ -6,10 +6,8 @@ import { CountdownClock } from "./CountdownClock";
 
 export default {
   component: CountdownClock,
-  title: "Atoms/CountdownClock",
+  title: "Organisms/CountdownClock",
 } as Meta;
-
-export type Values = "png" | "jpeg";
 
 export const _CountdownClock: Story = args => {
   return (

@@ -1,4 +1,4 @@
-import { FooterLogo } from "@sentrei/organisms";
+import { FooterLogo, CountdownClock } from "@sentrei/organisms";
 import moment from "moment";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -9,7 +9,6 @@ import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
 import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 
-import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock";
 import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
 const Canvas = dynamic(async () => {

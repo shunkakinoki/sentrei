@@ -16,14 +16,8 @@
     "fix": "cd ../.. && yarn run fix",
     "start": "next start"
   },
-  "dependencies": {
-    "moment": "^2.29.1",
-    "react-countdown": "^2.3.2",
-    "react-icons": "^4.2.0"
-  },
-  "devDependencies": {
-    "@types/moment": "^2.13.0"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
