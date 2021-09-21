@@ -1,10 +1,10 @@
 // Code from https://codesandbox.io/s/vaporwave-forked-b9873
 
+import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
-import { useFrame } from "react-three-fiber";
 import * as THREE from "three";
 
-export const Grid = () => {
+export const VaporGrid = () => {
   const SIZE = 100;
   const SEGMENTS = 60;
   const gridRef = useRef<THREE.GridHelper>();
@@ -16,7 +16,6 @@ export const Grid = () => {
   return (
     <gridHelper
       ref={gridRef}
-      className="z-50"
       position={[0, -3, 0]}
       args={[
         SIZE,

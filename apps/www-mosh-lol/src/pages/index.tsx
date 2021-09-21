@@ -13,13 +13,13 @@ import { CountdownClock } from "@sentrei/www-mosh-lol/components/CountdownClock"
 import { Logo } from "@sentrei/www-mosh-lol/components/Logo";
 
 const Canvas = dynamic(async () => {
-  const m = await import("react-three-fiber");
+  const m = await import("@react-three/fiber");
   return m.Canvas;
 });
 
 const Grid = dynamic(async () => {
-  const m = await import("@sentrei/www-mosh-lol/components/Grid");
-  return m.Grid;
+  const m = await import("@sentrei/organisms");
+  return m.VaporGrid;
 });
 
 export const Page = () => {
