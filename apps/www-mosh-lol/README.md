@@ -1,49 +1,51 @@
 # Mosh DAO
 
-This project is heavily inspired by the works of [nouns.wtf](https://nouns.wtf), but aims to position itself as an initiative to provide more ownership to the community, including non-owners of the Mosh NFTs. We will utilize the Moshes as a symbol for the means to drive community ownership forward - less margins for the middleman.
+This project is a fork of [nouns.wtf](https://nouns.wtf), but aims to position itself a cross-blockchain experiment. We will utilize the Moshes as a symbol for a parachain future.
 
 ## Summary
 
-### 1. Three type of "Moshes" generated each day
+### 1. 1 Mosh per day, 6 Different networks
 
-#### A. Auction Mosh
+#### A. Daily auctionns
 
-This will be trustly auctioned on the official [mosh.lol](https://mosh.lol) website. All proceedes go the Mosh DAO treasury.
+This will be trustly auctioned on the official [app.mosh.lol](https://app.mosh.lol) website. All proceedes go the Mosh DAO treasury.
 
-#### B. Community Mosh
+#### B. Each day, different network
 
-This will be airdropped each day towards a creator most deemed responsible for the distribution of the Moshes.
-Solely governed and operated by the founders of Mosh DAO (see Moshists). for the first 30 days, later driven by open governance.
+- Monday: $ETH
+- Tuesday $MATIC
+- Wednesday: $FTM
+- Thursday: $ARB
+- Friday: $AVA
+- Saturday: $ONE
 
-#### C. DAO Mosh
+#### C. DAO Mosh on Sunday
 
-Each day a Mosh will be randomly distributed to one of the holders of existing Mosh owners, or $MOSH holders. See code below.
+Every Sunday a Mosh will be randomly distributed to one of the holders of existing Mosh owners, or $MOSH holders. See code below.
 
-### 2. $MOSH Token Launch (10/1/2021)
+### 2. $MOSH Token Launch (2022/01/01)
 
-We will issue an official $MOSH token on the 39th day of the product launch.
+We will issue an official $MOSH token on the 90th day of the product launch.
 This will be used to provide liquidity to the Mosh DAO, but also used as a participating right to the Mosh ecosystem.
 In order to favor existing Mosh owners, we will airdrop $MOSH token at the time of ICO.
 
 ### 3. Incentivized community creation.
 
 Every Mosh is copyright-free to be utilized under public domain.
-We will giveaway a free Mosh each day towards a creator most deemed responsible for community creation.
-This can be
 
 ## Main points
 
 - The mosh artwork is public domain
-- 3 moshes trustlessly auctioned every 24 hours forever.
-- 100% of noun auction proceeds are trustlessly sent to Moshes DAO treasury
+- 1 mosh trustlessly auctioned every 24 hours forever, spanning 6 different networks.
+- 100% of noun auction proceeds are trustlessly sent to Mosh DAO treasury
 - Mosh treasury will be controlled by governance in the Mosh DAO
 - 'Moshists' receive rewards in the form of nouns (33% of supply for first 30 days)
 
 ## Daily Mosh Auctions
 
-We will generate three moshes per day, meaning one every 8 hours, forever.
+We will generate one mosh, every day, forever on multi-chain
 All proceedes will directly go the Mosh DAO Treasury.
-Every 30th Mosh will go directly to the Moshist founder's wallet. (for the first 3 years)
+Every 7th Mosh will go directly to the Moshist founder's wallet. (for the first 3 years)
 
 ## Mosh DAO
 
