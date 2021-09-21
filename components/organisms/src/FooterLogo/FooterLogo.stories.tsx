@@ -4,7 +4,7 @@ import { FooterLogo } from "./FooterLogo";
 
 export default {
   component: FooterLogo,
-  title: "Atoms/FooterLogo",
+  title: "Organisms/FooterLogo",
 } as Meta;
 
 export type Values = "png" | "jpeg";
