@@ -1,3 +1,9 @@
+## [1.50.1](https://github.com/sentrei/sentrei/compare/v1.50.0...v1.50.1) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh page ([96b3513](https://github.com/sentrei/sentrei/commit/96b3513604291852036320ce1397125a26ced122))
+
 # [1.50.0](https://github.com/sentrei/sentrei/compare/v1.49.3...v1.50.0) (2021-09-21)
 
 ### Features
