@@ -1,3 +1,9 @@
+## @sentrei/www-daoboard-com [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.0.0...@sentrei/www-daoboard-com@1.0.1) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh page ([96b3513](https://github.com/sentrei/sentrei/commit/96b3513604291852036320ce1397125a26ced122))
+
 # @sentrei/www-daoboard-com 1.0.0 (2021-09-20)
 
 ### Features
