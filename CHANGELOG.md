@@ -1,3 +1,9 @@
+## [1.50.2](https://github.com/sentrei/sentrei/compare/v1.50.1...v1.50.2) (2021-09-21)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react to ^7.26.0 ([2f1771f](https://github.com/sentrei/sentrei/commit/2f1771ff5c7d67c6e56561e99d576b340e714787))
+
 ## [1.50.1](https://github.com/sentrei/sentrei/compare/v1.50.0...v1.50.1) (2021-09-21)
 
 ### Performance Improvements
