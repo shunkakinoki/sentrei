@@ -6,6 +6,12 @@ interface FooterIconLinkProps {
   href: string;
 }
 
+interface FooterLogoProps {
+  discord?: string;
+  github?: string;
+  twitter?: string;
+}
+
 export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
   return (
     <a
@@ -19,22 +25,32 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
   );
 };
 
-export const FooterLogo: FC = () => {
+export const FooterLogo: FC<FooterLogoProps> = ({
+  discord,
+  github,
+  twitter,
+}) => {
   return (
     <footer className="px-4 sm:px-6 lg:px-8 pt-12 mx-auto max-w-7xl">
-      <div className="flex justify-center space-x-6">
-        <FooterIconLink href="https://discord.gg/SsF2QejwvZ">
-          <span className="sr-only">Discord</span>
-          <FaDiscord className="w-6 h-6" />
-        </FooterIconLink>
-        <FooterIconLink href="https://github.com/sentrei/sentrei">
-          <span className="sr-only">Discord</span>
-          <FaGithub className="w-6 h-6" />
-        </FooterIconLink>
-        <FooterIconLink href="https://twitter.com/MoshDAO">
-          <span className="sr-only">Twitter</span>
-          <FaTwitter className="w-6 h-6" />
-        </FooterIconLink>
+      <div className="flex justify-center space-x-6 text-fuchsia-300">
+        {discord && (
+          <FooterIconLink href={discord}>
+            <span className="sr-only">Discord</span>
+            <FaDiscord className="w-6 h-6" />
+          </FooterIconLink>
+        )}
+        {github && (
+          <FooterIconLink href={github}>
+            <span className="sr-only">Github</span>
+            <FaGithub className="w-6 h-6" />
+          </FooterIconLink>
+        )}
+        {twitter && (
+          <FooterIconLink href={twitter}>
+            <span className="sr-only">Twitter</span>
+            <FaTwitter className="w-6 h-6" />
+          </FooterIconLink>
+        )}
       </div>
     </footer>
   );

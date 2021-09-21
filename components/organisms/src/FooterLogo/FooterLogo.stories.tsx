@@ -10,5 +10,11 @@ export default {
 export type Values = "png" | "jpeg";
 
 export const _FooterLogo: Story = () => {
-  return <FooterLogo />;
+  return (
+    <FooterLogo
+      discord="https://discord.com"
+      twitter="https://twitter.com"
+      github="https://github.com"
+    />
+  );
 };

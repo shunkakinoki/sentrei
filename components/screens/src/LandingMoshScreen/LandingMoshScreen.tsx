@@ -82,7 +82,11 @@ export const LandingMoshScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_MOSH_START)}
               onComplete={() => {}}
             />
-            <FooterLogo />
+            <FooterLogo
+              discord="https://discord.gg/SsF2QejwvZ"
+              github="https://github.com/sentrei/sentrei"
+              twitter="https://twitter.com/MoshDAO"
+            />
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 h-1/3 sm:h-2/5">
