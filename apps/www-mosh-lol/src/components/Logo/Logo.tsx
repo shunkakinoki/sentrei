@@ -6,7 +6,7 @@ import LogoImage from "@public/www-mosh-lol/Logo.png";
 
 export const Logo = () => {
   return (
-    <div className="relative w-full">
+    <div className="w-full">
       <Image
         priority
         alt="logo"
