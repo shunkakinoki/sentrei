@@ -1,3 +1,13 @@
+# @sentrei/www-mosh-lol [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.2...@sentrei/www-mosh-lol@1.4.0) (2021-09-21)
+
+### Features
+
+- ini vapor grid ([31a28cf](https://github.com/sentrei/sentrei/commit/31a28cfa114d51896f7c8a13848f8f8f7c40e5db))
+
+### Performance Improvements
+
+- ini logo component ([c444064](https://github.com/sentrei/sentrei/commit/c444064723128aabce4eba5127ed95ff3f39a1cb))
+
 ## @sentrei/www-mosh-lol [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.1...@sentrei/www-mosh-lol@1.3.2) (2021-09-21)
 
 ### Performance Improvements
