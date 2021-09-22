@@ -1,3 +1,9 @@
+## [1.51.5](https://github.com/sentrei/sentrei/compare/v1.51.4...v1.51.5) (2021-09-22)
+
+### Performance Improvements
+
+- ini about me ([5a25d54](https://github.com/sentrei/sentrei/commit/5a25d545b379724bd3301ce3efc7dc22923695b2))
+
 ## [1.51.4](https://github.com/sentrei/sentrei/compare/v1.51.3...v1.51.4) (2021-09-22)
 
 ### Bug Fixes
