@@ -55,7 +55,14 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - run: |
+          bash script.sh ${{ matrix.app }}
+      - if: ${{ failure() }}
+        run: |
           yarn run build:${{ matrix.app }}
-      - working-directory: apps/${{ matrix.app }}
+      - if: ${{ failure() }}
+        working-directory: apps/${{ matrix.app }}
         run: |
           yarn run serverless
+      - if: ${{ failure() }}
+        run: |
+          exit 0
