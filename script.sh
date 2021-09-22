@@ -28,9 +28,9 @@ if [[ $APP ]]; then
   fi
 
   if [ $GITHUB_ACTIONS ]; then
-    if [ "$GITHUB_EVENT_NAME" =~ "pull_request" ]; then
+    if [ $GITHUB_BASE_REF ]; then
       CHANGED=$(yarn run nx affected:apps --plain --base $GITHUB_BASE_REF --head HEAD)
-    elif [ "$GITHUB_EVENT_NAME" =~ "push" ]; then
+    else
       CHANGED=$(yarn run nx affected:apps --plain --base HEAD~1 --head HEAD)
     fi
   fi
