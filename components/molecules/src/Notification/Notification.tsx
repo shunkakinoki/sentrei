@@ -2,7 +2,11 @@ import { Toast, Button } from "@sentrei/atoms";
 import clsx from "clsx";
 
 import type { FC } from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useRecoilState } from "recoil";
+
+// eslint-disable-next-line no-restricted-imports
+import { isToastShowingState } from "../../../models/recoilState"; //TODO: set Path.
 
 import styles from "./Notification.module.scss";
 
@@ -34,7 +38,8 @@ export const Notification: FC<NotificationProps> = props => {
     title = "Notification",
     description = "Notify your status...",
   } = props;
-  const [isToastShowing, setIsToastShowing] = useState<boolean>(false);
+  const [isToastShowing, setIsToastShowing] =
+    useRecoilState(isToastShowingState);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -46,7 +51,6 @@ export const Notification: FC<NotificationProps> = props => {
       clearInterval(interval);
     };
   }, [autoDeleteTime, isAutoDelete]);
-  console.log(styles[position]); //not loaded.
 
   return (
     <>
