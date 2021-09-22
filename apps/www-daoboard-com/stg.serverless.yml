@@ -1,0 +1,20 @@
+"@sentrei/stg-www-daoboard-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/www-daoboard-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "stg-www-daoboard-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/37a561d2-a5d1-4cec-b22b-fdc01288fb17"
+    domain: ["stg", "www", "daoboard.com"]
+    name:
+      defaultLambda: "stg-www-daoboard-com-lambda"
+      apiLambda: "stg-www-daoboard-com-api-lambda"
+      imageLambda: "stg-www-daoboard-com-image-lambda"
+    runtime: "nodejs14.x"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-stg"
+    timeout: 30
+    useServerlessTraceTarget: true

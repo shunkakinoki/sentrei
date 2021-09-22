@@ -1,4 +1,4 @@
-"@sentrei/wiki-sentrei-com":
+"@sentrei/stg-wiki-sentrei-com":
   component: "../../node_modules/@sls-next/serverless-component"
   inputs:
     build:
@@ -7,16 +7,14 @@
       cwd: ./
       env: {}
     bucketRegion: "us-east-1"
-    bucketName: "wiki-sentrei-com"
+    bucketName: "stg-wiki-sentrei-com"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
-    cloudfront:
-      distributionId: E1T8EYYLLJ2PSX
-    domain: ["wiki", "sentrei.com"]
+    domain: ["stg", "wiki", "sentrei.com"]
     name:
-      defaultLambda: "wiki-sentrei-lambda"
-      apiLambda: "wiki-sentrei-api-lambda"
-      imageLambda: "wiki-sentrei-image-lambda"
-    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
+      defaultLambda: "stg-wiki-sentrei-lambda"
+      apiLambda: "stg-wiki-sentrei-api-lambda"
+      imageLambda: "stg-wiki-sentrei-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-stg"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

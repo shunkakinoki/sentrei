@@ -1,0 +1,20 @@
+"@sentrei/stg-og-sentrei-com":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/og-sentrei-com/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "stg-og-sentrei-com"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
+    domain: ["stg", "ogp", "sentrei.com"]
+    name:
+      defaultLambda: "stg-og-sentrei-lambda"
+      apiLambda: "stg-og-sentrei-api-lambda"
+      imageLambda: "stg-og-sentrei-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-stg"
+    runtime: "nodejs14.x"
+    timeout: 30
+    useServerlessTraceTarget: true
