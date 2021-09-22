@@ -41,10 +41,13 @@ if [[ $APP ]]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
   elif [[ "$VERCEL_ENV" == "production" ]]; then
-      echo "✅ - Build can proceed in production at $APP - $CHANGED"
+      echo "✅ - Build can proceed in vercel production at $APP - $CHANGED"
       exit 1
   elif [[ "$VERCEL_ENV" == "preview" && ( "$APP" == "design" || "$APP" == "sentrei" ) ]]; then
-      echo "❎ - Build can proceed in preview at $APP - $CHANGED"
+      echo "❎ - Build can proceed in vercel preview at $APP - $CHANGED"
+      exit 1
+  elif [ $GITHUB_ACTIONS ]; then
+      echo "✅ - Build can proceed in github actions at $APP - $CHANGED"
       exit 1
   else
     echo "🌼 - Build not proceeding at $APP - $CHANGED"
