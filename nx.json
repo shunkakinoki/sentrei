@@ -93,7 +93,8 @@
       "tags": ["scope:configuration"]
     },
     "tailwindcss": {
-      "tags": ["scope:configuration"]
+      "tags": ["scope:configuration"],
+      "implicitDependencies": ["postcss"]
     },
     "typescript": {
       "tags": ["scope:configuration"]
