@@ -16,6 +16,7 @@
       defaultLambda: "wiki-sentrei-lambda"
       apiLambda: "wiki-sentrei-api-lambda"
       imageLambda: "wiki-sentrei-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

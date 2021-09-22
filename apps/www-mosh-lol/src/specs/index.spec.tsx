@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 
-import { Page } from "@sentrei/www-mosh-lol/pages/index";
+import { LandingMoshScreen } from "@sentrei/www-mosh-lol/pages/index";
 
 jest.mock("next/image", () => {
   // eslint-disable-next-line react/display-name
@@ -12,7 +12,7 @@ jest.mock("next/image", () => {
 
 describe("Page", () => {
   it("should render successfully", () => {
-    const { baseElement } = render(<Page />);
+    const { baseElement } = render(<LandingMoshScreen />);
     expect(baseElement).toBeTruthy();
   });
 });
