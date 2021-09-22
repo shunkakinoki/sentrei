@@ -18,6 +18,9 @@ module.exports = {
     "plugin:tailwindcss/recommended",
     "prettier",
   ],
+  globals: {
+    React: true,
+  },
   ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
     {
