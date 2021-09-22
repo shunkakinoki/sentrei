@@ -1,3 +1,9 @@
+## @sentrei/www-mosh-lol [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.5.0...@sentrei/www-mosh-lol@1.5.1) (2021-09-22)
+
+### Performance Improvements
+
+- ini about me ([5a25d54](https://github.com/sentrei/sentrei/commit/5a25d545b379724bd3301ce3efc7dc22923695b2))
+
 # @sentrei/www-mosh-lol [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.4.1...@sentrei/www-mosh-lol@1.5.0) (2021-09-21)
 
 ### Features
