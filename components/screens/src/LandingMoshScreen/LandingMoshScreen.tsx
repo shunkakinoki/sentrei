@@ -4,7 +4,7 @@ import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
 import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 import { GlowLogo } from "@sentrei/molecules";
-import { FooterLogo, CountdownClock } from "@sentrei/organisms";
+import { ButtonCTA, FooterLogo, CountdownClock } from "@sentrei/organisms";
 import moment from "moment";
 import dynamic from "next/dynamic";
 import Image from "next/image";
@@ -82,6 +82,7 @@ export const LandingMoshScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
+            <ButtonCTA />
             <FooterLogo
               discord="https://discord.gg/SsF2QejwvZ"
               github="https://github.com/sentrei/sentrei"

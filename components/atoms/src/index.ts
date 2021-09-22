@@ -1,4 +1,6 @@
 export { Button } from "./Button";
+export { ButtonProps } from "./Button";
+export { ButtonLink } from "./ButtonLink";
 export { Input } from "./Input";
 export { Select } from "./Select";
 export { Toast } from "./Toast";
