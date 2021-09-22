@@ -23,7 +23,18 @@ if [[ $APP ]]; then
     npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
   fi
 
-  CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  if [ $VERCEL ]; then
+    CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  fi
+
+  if [ $GITHUB_ACTIONS ]; then
+    if [ "$GITHUB_EVENT_NAME" =~ "pull_request" ]; then
+      CHANGED=$(yarn run nx affected:apps --plain --base $GITHUB_BASE_REF --head HEAD)
+    elif [ "$GITHUB_EVENT_NAME" =~ "push" ]; then
+      CHANGED=$(yarn run nx affected:apps --plain --base HEAD~1 --head HEAD)
+    fi
+  fi
+
   echo $CHANGED | grep $APP -q
 
   if [ $? -eq 1 ]; then
