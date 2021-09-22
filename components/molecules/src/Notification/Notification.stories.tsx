@@ -1,5 +1,4 @@
 import type { Story, Meta } from "@storybook/react";
-import { RecoilRoot } from "recoil";
 
 import { Notification, ToastPosition } from "./Notification";
 
@@ -9,11 +8,7 @@ export default {
 } as Meta;
 
 export const _Notification: Story = args => {
-  return (
-    <RecoilRoot>
-      <Notification {...args} />{" "}
-    </RecoilRoot>
-  );
+  return <Notification {...args} />;
 };
 
 _Notification.args = {
