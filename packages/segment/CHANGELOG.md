@@ -1,3 +1,9 @@
+## @sentrei/segment [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/segment@1.0.1...@sentrei/segment@1.0.2) (2021-09-20)
+
+### Performance Improvements
+
+- ini ogp sentrei com serverless ([5d66689](https://github.com/sentrei/sentrei/commit/5d66689123d73cb9d604c73c7c9f72af35d813b0))
+
 ## @sentrei/segment [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/segment@1.0.0...@sentrei/segment@1.0.1) (2021-09-16)
 
 ### Bug Fixes

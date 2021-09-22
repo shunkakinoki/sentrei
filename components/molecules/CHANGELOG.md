@@ -1,3 +1,27 @@
+# @sentrei/molecules [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.6.0...@sentrei/molecules@1.7.0) (2021-09-21)
+
+### Features
+
+- ini tailwind configuration ([bdf7580](https://github.com/sentrei/sentrei/commit/bdf758072d798b3336c2bbd9f49cdc9933dfc30b))
+
+### Performance Improvements
+
+- ini public launch ([abe9f17](https://github.com/sentrei/sentrei/commit/abe9f17939ccb584b20344b78da6c456ab5aaa26))
+
+# @sentrei/molecules [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.5.1...@sentrei/molecules@1.6.0) (2021-09-20)
+
+### Bug Fixes
+
+- make title and description variables ([a4edf55](https://github.com/sentrei/sentrei/commit/a4edf556e49af4b4ce0e889b7a69775148e743c6))
+- render icons by situations ([2dd16a4](https://github.com/sentrei/sentrei/commit/2dd16a4c82eeff6828dc5e28cdb6736ce248fe64))
+
+### Features
+
+- update animation for notification toast ([f673986](https://github.com/sentrei/sentrei/commit/f6739866b95e1eb9f39566b2df3f373d6187df2d))
+- update auto deletion notification ([0d8fcde](https://github.com/sentrei/sentrei/commit/0d8fcdeec2193f02f68ec7e0db422db2732f78bb))
+- wip notification molecules ([ba4bea9](https://github.com/sentrei/sentrei/commit/ba4bea9e415951159cc11278b483fcd4a8e6bb91))
+- wip style not loaded ([b8be96e](https://github.com/sentrei/sentrei/commit/b8be96ecf2fcde601f49abb0774b77e12b27fef6))
+
 ## @sentrei/molecules [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.5.0...@sentrei/molecules@1.5.1) (2021-08-08)
 
 ### Bug Fixes

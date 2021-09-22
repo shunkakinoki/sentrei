@@ -11,11 +11,12 @@
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/beefd5a0-ff50-4831-830f-b285df1ae337"
     cloudfront:
       distributionId: E1M4WUQWDH4LKU
-    domain: ["og", "sentrei.com"]
+    domain: ["ogp", "sentrei.com"]
     name:
       defaultLambda: "og-sentrei-lambda"
       apiLambda: "og-sentrei-api-lambda"
       imageLambda: "og-sentrei-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

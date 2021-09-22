@@ -96,6 +96,7 @@ module.exports = {
       },
     ],
     "no-restricted-exports": ["error", { restrictedNamedExports: ["default"] }],
+    "no-unused-vars": "warn",
     "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
     "func-style": ["error", "expression", { allowArrowFunctions: false }],
     "react/jsx-sort-props": [

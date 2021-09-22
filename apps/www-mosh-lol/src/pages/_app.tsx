@@ -9,7 +9,13 @@ const AppRoot: FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <AnalyticsRoot />
-      <SeoRoot title="Mosh DAO" />
+      <SeoRoot
+        title="Mosh DAO"
+        subTitle="Where creators get rewarded"
+        description="Mosh DAO"
+        url="https://mosh.lol"
+        twitter="@MoshDAO"
+      />
       <RecoilRoot>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Component {...pageProps} />

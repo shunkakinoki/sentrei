@@ -17,5 +17,6 @@
       apiLambda: "www-thisweekindaos-com-api-lambda"
       imageLambda: "www-thisweekindaos-com-image-lambda"
     runtime: "nodejs14.x"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     timeout: 30
     useServerlessTraceTarget: true
