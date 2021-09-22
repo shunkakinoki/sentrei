@@ -1,3 +1,19 @@
+# @sentrei/organisms [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.2...@sentrei/organisms@1.6.0) (2021-09-21)
+
+### Features
+
+- ini vapor grid ([31a28cf](https://github.com/sentrei/sentrei/commit/31a28cfa114d51896f7c8a13848f8f8f7c40e5db))
+
+### Performance Improvements
+
+- ini logo component ([c444064](https://github.com/sentrei/sentrei/commit/c444064723128aabce4eba5127ed95ff3f39a1cb))
+
+## @sentrei/organisms [1.5.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.1...@sentrei/organisms@1.5.2) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh organisms ([7986812](https://github.com/sentrei/sentrei/commit/79868121926c5667e7d8e735f9f163f94c4336fc))
+
 ## @sentrei/organisms [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.0...@sentrei/organisms@1.5.1) (2021-08-08)
 
 ### Bug Fixes

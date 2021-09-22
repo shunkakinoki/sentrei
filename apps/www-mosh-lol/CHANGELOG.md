@@ -1,3 +1,41 @@
+# @sentrei/www-mosh-lol [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.4.1...@sentrei/www-mosh-lol@1.5.0) (2021-09-21)
+
+### Features
+
+- ini tailwind configuration ([bdf7580](https://github.com/sentrei/sentrei/commit/bdf758072d798b3336c2bbd9f49cdc9933dfc30b))
+
+### Performance Improvements
+
+- ini public launch ([abe9f17](https://github.com/sentrei/sentrei/commit/abe9f17939ccb584b20344b78da6c456ab5aaa26))
+
+## @sentrei/www-mosh-lol [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.4.0...@sentrei/www-mosh-lol@1.4.1) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh page ([96b3513](https://github.com/sentrei/sentrei/commit/96b3513604291852036320ce1397125a26ced122))
+
+# @sentrei/www-mosh-lol [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.2...@sentrei/www-mosh-lol@1.4.0) (2021-09-21)
+
+### Features
+
+- ini vapor grid ([31a28cf](https://github.com/sentrei/sentrei/commit/31a28cfa114d51896f7c8a13848f8f8f7c40e5db))
+
+### Performance Improvements
+
+- ini logo component ([c444064](https://github.com/sentrei/sentrei/commit/c444064723128aabce4eba5127ed95ff3f39a1cb))
+
+## @sentrei/www-mosh-lol [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.1...@sentrei/www-mosh-lol@1.3.2) (2021-09-21)
+
+### Performance Improvements
+
+- ini mosh organisms ([7986812](https://github.com/sentrei/sentrei/commit/79868121926c5667e7d8e735f9f163f94c4336fc))
+
+## @sentrei/www-mosh-lol [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.3.0...@sentrei/www-mosh-lol@1.3.1) (2021-09-20)
+
+### Performance Improvements
+
+- refactor config ([95a383d](https://github.com/sentrei/sentrei/commit/95a383d509da197c9b984b94d18f4d3ebc22836e))
+
 # @sentrei/www-mosh-lol [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.2.1...@sentrei/www-mosh-lol@1.3.0) (2021-09-17)
 
 ### Features

@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "@testing-library/react": "^12.1.0",
-    "@types/jest": "^27.0.1",
-    "jest": "^27.2.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.1",
     "ts-jest": "^27.0.5"
   },
   "publishConfig": {

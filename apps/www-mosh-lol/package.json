@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/www-mosh-lol",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -16,16 +16,8 @@
     "fix": "cd ../.. && yarn run fix",
     "start": "next start"
   },
-  "dependencies": {
-    "moment": "^2.29.1",
-    "react-countdown": "^2.3.2",
-    "react-icons": "^4.2.0",
-    "react-three-fiber": "^6.0.13",
-    "three": "^0.132.2"
-  },
-  "devDependencies": {
-    "@types/moment": "^2.13.0"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

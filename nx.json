@@ -136,6 +136,14 @@
       "tags": ["scope:e2e"],
       "implicitDependencies": ["wiki-sentrei-com"]
     },
+    "www-daoboard-com": {
+      "tags": ["scope:app"],
+      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+    },
+    "www-daoboard-com-e2e": {
+      "tags": ["scope:e2e"],
+      "implicitDependencies": ["www-daoboard-com"]
+    },
     "www-mosh-lol": {
       "tags": ["scope:app"],
       "implicitDependencies": ["next", "tailwindcss", "typescript"]

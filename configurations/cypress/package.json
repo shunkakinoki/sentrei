@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "cypress": "^8.4.0"
+    "cypress": "^8.4.1"
   },
   "publishConfig": {
     "access": "public",

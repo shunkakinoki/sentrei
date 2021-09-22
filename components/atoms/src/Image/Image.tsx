@@ -14,6 +14,7 @@ export interface NativeImageProps extends ImgHTMLAttributes<HTMLImageElement> {
 
 export const NativeImage: FC<NativeImageProps> = props => {
   const { width, height, alt, ...rest } = props;
+  // eslint-disable-next-line @next/next/no-img-element
   return <img width={width} height={height} alt={alt} {...rest} />;
 };
 

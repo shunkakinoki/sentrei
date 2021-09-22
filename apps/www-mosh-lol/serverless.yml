@@ -16,6 +16,7 @@
       defaultLambda: "www-mosh-lol-lambda"
       apiLambda: "www-mosh-lol-api-lambda"
       imageLambda: "www-mosh-lol-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

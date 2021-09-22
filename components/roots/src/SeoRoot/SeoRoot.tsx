@@ -7,30 +7,37 @@ export type SeoRootProps = NextSeoProps & {
   title?: string;
   subTitle?: string;
   description?: string;
+  url?: string;
+  twitter?: string;
 };
 
 export const SeoRoot: FC<SeoRootProps> = ({
   title = "Sentrei",
   subTitle = "All+in+one+edge+serverless+backend",
   description = "Sentrei",
+  url,
+  twitter,
   ...props
 }) => {
-  const image = `https://og.sentrei.com/api/image?fileType=png&layoutName=Sentrei&Theme=Dark&Title=${title}&Sub+Title=${subTitle}`;
+  const image = `https://og.sentrei.com/api/image?fileType=png&layoutName=Sentrei&Theme=Dark&Title=${title}&Sub+Title=${subTitle.replace(
+    / /g,
+    "+",
+  )}`;
 
   return (
     <>
       <DefaultSeo
-        title="Sentrei"
-        description="Sentrei is a startup based in San Francisco."
-        titleTemplate="%s | Sentrei"
+        title={title}
+        description={description}
+        titleTemplate={`%s | ${title}`}
         openGraph={{
           type: "website",
-          url: "https://sentrei.com",
-          site_name: "Sentrei",
+          url: url,
+          site_name: title,
           images: [{ url: image }],
         }}
         twitter={{
-          handle: "@SentreiHQ",
+          handle: twitter,
           site: "@site",
           cardType: "summary_large_image",
         }}

@@ -1,3 +1,13 @@
+# @sentrei/screens [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.3.1...@sentrei/screens@1.4.0) (2021-09-21)
+
+### Features
+
+- ini tailwind configuration ([bdf7580](https://github.com/sentrei/sentrei/commit/bdf758072d798b3336c2bbd9f49cdc9933dfc30b))
+
+### Performance Improvements
+
+- ini public launch ([abe9f17](https://github.com/sentrei/sentrei/commit/abe9f17939ccb584b20344b78da6c456ab5aaa26))
+
 ## @sentrei/screens [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.3.0...@sentrei/screens@1.3.1) (2021-08-08)
 
 ### Bug Fixes
