@@ -1,3 +1,9 @@
+## [1.51.3](https://github.com/sentrei/sentrei/compare/v1.51.2...v1.51.3) (2021-09-22)
+
+### Bug Fixes
+
+- **deps:** update dependency autoprefixer to ^10.3.5 ([f557962](https://github.com/sentrei/sentrei/commit/f55796210956a37aa7685ec07809909062077ec2))
+
 ## [1.51.2](https://github.com/sentrei/sentrei/compare/v1.51.1...v1.51.2) (2021-09-22)
 
 ### Bug Fixes
