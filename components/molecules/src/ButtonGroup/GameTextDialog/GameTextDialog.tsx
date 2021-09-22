@@ -1,7 +1,6 @@
 import { Text, Image } from "@sentrei/atoms";
 import clsx from "clsx";
 import { FontSize } from "components/atoms/src/Text/Text";
-
 import type { FC } from "react";
 
 export interface GameTextDialogProps {
@@ -15,16 +14,17 @@ export const GametextDialog: FC<GameTextDialogProps> = props => {
 
   return (
     <div
+      // eslint-disable-next-line tailwindcss/no-custom-classname
       className={clsx(
-        "flex items-center h-[200px] rounded-3xl border",
+        "flex items-center h-[200px] rounded-3xl border bg-gray-900	bg-opacity-50",
         className,
       )}
     >
       <Image src={imageSrc} className="h-full rounded-3xl" />
       <Text
-        family="font-Atari" //TODO: set TailWind config and use Atari font.
-        size={FontSize.XXXLARGE}
-        className="p-10 w-full"
+        size={FontSize.XLARGE}
+        family="font-Atari"
+        className={clsx("py-5 px-10 w-full leading-8 text-white")}
       >
         {text}
       </Text>

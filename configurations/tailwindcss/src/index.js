@@ -41,5 +41,8 @@ module.exports = {
         warmGray: colors.warmGray,
       },
     },
+    fontFamily: {
+      Atari: ["AtariClassic"],
+    },
   },
 };
