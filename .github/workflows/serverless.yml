@@ -55,10 +55,6 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - if: github.event_name == 'pull_request'
-        working-directory: apps/${{ matrix.app }}
-        run: |
-          mv stg.serverless.yml serverless.yml
       - run: |
           bash script.sh ${{ matrix.app }}
       - if: ${{ failure() }}
