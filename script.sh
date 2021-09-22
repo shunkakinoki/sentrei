@@ -29,9 +29,9 @@ if [[ $APP ]]; then
 
   if [ $GITHUB_ACTIONS ]; then
     if [ $GITHUB_BASE_REF ]; then
-      CHANGED=$(yarn run nx affected:apps --plain --base origin/$GITHUB_BASE_REF --head HEAD)
+      CHANGED=$(npx nx affected:apps --plain --base origin/$GITHUB_BASE_REF --head HEAD)
     else
-      CHANGED=$(yarn run nx affected:apps --plain --base HEAD~1 --head HEAD)
+      CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
     fi
   fi
 
