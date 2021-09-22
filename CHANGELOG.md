@@ -1,3 +1,9 @@
+## [1.51.2](https://github.com/sentrei/sentrei/compare/v1.51.1...v1.51.2) (2021-09-22)
+
+### Bug Fixes
+
+- **deps:** update semantic-release monorepo ([c587faa](https://github.com/sentrei/sentrei/commit/c587faa77ec40ff9fe1342a0bd542d20ec6dfb49))
+
 ## [1.51.1](https://github.com/sentrei/sentrei/compare/v1.51.0...v1.51.1) (2021-09-22)
 
 ### Bug Fixes
