@@ -1,3 +1,9 @@
+# @sentrei/www-mosh-lol [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.5.1...@sentrei/www-mosh-lol@1.6.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 ## @sentrei/www-mosh-lol [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-mosh-lol@1.5.0...@sentrei/www-mosh-lol@1.5.1) (2021-09-22)
 
 ### Performance Improvements
