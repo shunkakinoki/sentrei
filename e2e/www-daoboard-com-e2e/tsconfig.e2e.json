@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "outDir": "../../dist/out-tsc",
+    "outDir": "../../dist/www-daoboard-com-e2e/out",
     "sourceMap": false,
     "types": ["cypress", "node"]
   },
