@@ -13,9 +13,9 @@
       distributionId: E1M4WUQWDH4LKU
     domain: ["ogp", "sentrei.com"]
     name:
-      defaultLambda: "og-sentrei-lambda"
-      apiLambda: "og-sentrei-api-lambda"
-      imageLambda: "og-sentrei-image-lambda"
+      defaultLambda: "og-sentrei-com-lambda"
+      apiLambda: "og-sentrei-com-api-lambda"
+      imageLambda: "og-sentrei-com-image-lambda"
     roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     runtime: "nodejs14.x"
     timeout: 30

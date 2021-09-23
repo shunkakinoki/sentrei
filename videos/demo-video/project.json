@@ -3,6 +3,12 @@
   "root": "videos/demo-video",
   "sourceRoot": "videos/demo-video/src",
   "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["videos/demo-video/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
     "render": {
       "builder": "@nrwl/workspace:run-commands",
       "options": {
@@ -12,17 +18,11 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/videos/demo-video"],
       "options": {
         "jestConfig": "videos/demo-video/jest.config.js",
         "passWithNoTests": true
-      }
-    },
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "options": {
-        "lintFilePatterns": ["videos/demo-video/**/*.{ts,tsx,js,jsx}"]
-      }
+      },
+      "outputs": ["coverage/videos/demo-video"]
     }
   }
 }

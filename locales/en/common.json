@@ -3,8 +3,8 @@
     "profileMenu": {
       "dashboard": "Dashboard",
       "profile": "Your Profile",
-      "signOut": "Sign Out",
       "settings": "Settings",
+      "signOut": "Sign Out",
       "support": "Support"
     },
     "tab": {
