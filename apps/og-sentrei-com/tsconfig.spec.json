@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "module": "commonjs",
-    "outDir": "../../dist/out-tsc",
+    "outDir": "../../dist/apps/og-sentrei-com/out",
     "types": ["node", "jest", "segment-analytics"]
   },
   "extends": "./tsconfig.json",
