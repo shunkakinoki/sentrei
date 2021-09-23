@@ -1,48 +1,48 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
-    "sourceMap": true,
+    "baseUrl": ".",
     "declaration": false,
-    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "jsx": "preserve",
-    "target": "es2015",
-    "module": "esnext",
     "lib": ["es2017", "dom"],
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
     "paths": {
-      "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
+      "@public/app-mosh-lol/*": ["apps/app-mosh-lol/public/*"],
       "@public/app-sentrei-com/*": ["apps/app-sentrei-com/public/*"],
+      "@public/blog-sentrei-com/*": ["apps/blog-sentrei-com/public/*"],
+      "@public/og-sentrei-com/*": ["apps/og-sentrei-com/public/*"],
+      "@public/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/public/*"],
+      "@public/www-daoboard-com/*": ["apps/www-daoboard-com/public/*"],
+      "@public/www-mosh-lol/*": ["apps/www-mosh-lol/public/*"],
+      "@public/www-sentrei-com/*": ["apps/www-sentrei-com/public/*"],
+      "@public/www-thisweekindaos-com/*": [
+        "apps/www-thisweekindaos-com/public/*"
+      ],
+      "@sentrei/app-mosh-lol/*": ["apps/app-mosh-lol/src/*"],
+      "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
       "@sentrei/atoms": ["components/atoms/src/index.ts"],
       "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
-      "@public/blog-sentrei-com/*": ["apps/blog-sentrei-com/public/*"],
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
-      "@public/og-sentrei-com/*": ["apps/og-sentrei-com/public/*"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],
       "@sentrei/roots": ["components/roots/src/index.ts"],
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],
       "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
-      "@public/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/public/*"],
       "@sentrei/www-daoboard-com/*": ["apps/www-daoboard-com/src/*"],
-      "@public/www-daoboard-com/*": ["apps/www-daoboard-com/public/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
-      "@public/www-mosh-lol/*": ["apps/www-mosh-lol/public/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"],
-      "@public/www-sentrei-com/*": ["apps/www-sentrei-com/public/*"],
-      "@sentrei/www-thisweekindaos-com/*": [
-        "apps/www-thisweekindaos-com/src/*"
-      ],
-      "@public/www-thisweekindaos-com/*": [
-        "apps/www-thisweekindaos-com/public/*"
-      ]
-    }
+      "@sentrei/www-thisweekindaos-com/*": ["apps/www-thisweekindaos-com/src/*"]
+    },
+    "rootDir": ".",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es2015"
   },
   "exclude": ["node_modules", "tmp"]
 }

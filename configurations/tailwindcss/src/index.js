@@ -14,11 +14,8 @@ module.exports = {
   ],
   purge: [
     join(__dirname, "src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/atoms/src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/molecules/src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/organisms/src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/roots/src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/screens/src/**/*.{js,ts,jsx,tsx}"),
+    join(__dirname, "../../../apps/**/src/**/*.{js,ts,jsx,tsx}"),
+    join(__dirname, "../../../components/**/src/**/*.{js,ts,jsx,tsx}"),
   ],
   theme: {
     extend: {

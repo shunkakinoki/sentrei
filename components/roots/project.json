@@ -11,11 +11,11 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/components/roots"],
       "options": {
         "jestConfig": "components/roots/jest.config.js",
         "passWithNoTests": true
-      }
+      },
+      "outputs": ["coverage/components/roots"]
     }
   }
 }

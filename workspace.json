@@ -4,41 +4,51 @@
   },
   "defaultProject": "home",
   "generators": {
+    "@nrwl/next": {
+      "application": {
+        "linter": "eslint",
+        "style": "css"
+      }
+    },
     "@nrwl/react": {
       "application": {
         "babel": true
       }
-    },
-    "@nrwl/next": {
-      "application": {
-        "style": "css",
-        "linter": "eslint"
-      }
     }
   },
   "projects": {
+    "app-mosh-lol": "apps/app-mosh-lol",
+    "app-mosh-lol-e2e": "e2e/app-mosh-lol-e2e",
+    "app-sentrei-com": "apps/app-sentrei-com",
+    "app-sentrei-com-e2e": "e2e/app-sentrei-com-e2e",
     "atoms": "components/atoms",
-    "molecules": "components/molecules",
-    "organisms": "components/organisms",
-    "roots": "components/roots",
-    "screens": "components/screens",
     "babel": "configurations/babel",
+    "blog-sentrei-com": "apps/blog-sentrei-com",
+    "blog-sentrei-com-e2e": "e2e/blog-sentrei-com-e2e",
     "commitlint": "configurations/commitlint",
     "cypress": "configurations/cypress",
+    "demo-video": "videos/demo-video",
+    "design": ".storybook",
     "dev": "configurations/dev",
     "eslint": "configurations/eslint",
     "husky": "configurations/husky",
     "jest": "configurations/jest",
     "lint-staged": "configurations/lint-staged",
+    "molecules": "components/molecules",
     "next": "configurations/next",
     "npm-check-updates": "configurations/npm-check-updates",
     "npm-package-json-lint": "configurations/npm-package-json-lint",
     "nrwl": "configurations/nrwl",
+    "og-sentrei-com": "apps/og-sentrei-com",
+    "og-sentrei-com-e2e": "e2e/og-sentrei-com-e2e",
+    "organisms": "components/organisms",
     "postcss": "configurations/postcss",
     "prettier": "configurations/prettier",
     "react": "configurations/react",
     "remotion": "configurations/remotion",
     "renovate": "configurations/renovate",
+    "roots": "components/roots",
+    "screens": "components/screens",
     "semantic-release": "configurations/semantic-release",
     "sentry": "configurations/sentry",
     "storybook": "configurations/storybook",
@@ -47,28 +57,20 @@
     "typescript": "configurations/typescript",
     "vite": "configurations/vite",
     "webpack": "configurations/webpack",
-    "design": ".storybook",
-    "app-sentrei-com": "apps/app-sentrei-com",
-    "blog-sentrei-com": "apps/blog-sentrei-com",
-    "og-sentrei-com": "apps/og-sentrei-com",
     "wiki-sentrei-com": "apps/wiki-sentrei-com",
-    "www-daoboard-com": "apps/www-daoboard-com",
-    "www-mosh-lol": "apps/www-mosh-lol",
-    "www-sentrei-com": "apps/www-sentrei-com",
-    "www-thisweekindaos-com": "apps/www-thisweekindaos-com",
-    "app-sentrei-com-e2e": "e2e/app-sentrei-com-e2e",
-    "blog-sentrei-com-e2e": "e2e/blog-sentrei-com-e2e",
-    "og-sentrei-com-e2e": "e2e/og-sentrei-com-e2e",
     "wiki-sentrei-com-e2e": "e2e/wiki-sentrei-com-e2e",
+    "www-daoboard-com": "apps/www-daoboard-com",
     "www-daoboard-com-e2e": "e2e/www-daoboard-com-e2e",
+    "www-mosh-lol": "apps/www-mosh-lol",
     "www-mosh-lol-e2e": "e2e/www-mosh-lol-e2e",
+    "www-sentrei-com": "apps/www-sentrei-com",
     "www-sentrei-com-e2e": "e2e/www-sentrei-com-e2e",
-    "www-thisweekindaos-com-e2e": "e2e/www-thisweekindaos-com-e2e",
-    "demo-video": "videos/demo-video"
+    "www-thisweekindaos-com": "apps/www-thisweekindaos-com",
+    "www-thisweekindaos-com-e2e": "e2e/www-thisweekindaos-com-e2e"
   },
   "version": 2,
   "workspaceLayout": {
-    "libsDir": "libs",
-    "appsDir": "apps"
+    "appsDir": "apps",
+    "libsDir": "libs"
   }
 }

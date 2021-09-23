@@ -11,10 +11,10 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/components/organisms"],
       "options": {
         "jestConfig": "components/organisms/jest.config.js"
-      }
+      },
+      "outputs": ["coverage/components/organisms"]
     }
   }
 }
