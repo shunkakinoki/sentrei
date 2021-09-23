@@ -1,3 +1,9 @@
+## @sentrei/organisms [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.0...@sentrei/organisms@1.7.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
 # @sentrei/organisms [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.6.0...@sentrei/organisms@1.7.0) (2021-09-23)
 
 ### Features
