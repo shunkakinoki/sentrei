@@ -1,3 +1,9 @@
+## @sentrei/www-daoboard-com [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.0...@sentrei/www-daoboard-com@1.2.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
 # @sentrei/www-daoboard-com [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.1.0...@sentrei/www-daoboard-com@1.2.0) (2021-09-23)
 
 ### Features
