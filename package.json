@@ -95,7 +95,7 @@
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.5",
     "cypress": "^8.4.1",
     "postcss": "^8.3.7",
     "postcss-safe-parser": "^6.0.0",
