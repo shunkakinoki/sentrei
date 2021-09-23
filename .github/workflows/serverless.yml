@@ -12,6 +12,7 @@ jobs:
       matrix:
         app:
           [
+            app-mosh-lol,
             app-sentrei-com,
             og-sentrei-com,
             wiki-sentrei-com,
