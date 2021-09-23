@@ -1,3 +1,9 @@
+## @sentrei/molecules [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.0...@sentrei/molecules@1.8.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
 # @sentrei/molecules [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.7.0...@sentrei/molecules@1.8.0) (2021-09-23)
 
 ### Features
