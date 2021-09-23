@@ -1,3 +1,9 @@
+# @sentrei/prettier [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.3...@sentrei/prettier@1.5.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 ## @sentrei/prettier [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.2...@sentrei/prettier@1.4.3) (2021-09-16)
 
 ### Bug Fixes
