@@ -1,3 +1,9 @@
+# @sentrei/www-metafam-wtf 1.0.0 (2021-09-24)
+
+### Features
+
+- ini metagame pages ([0f23cbb](https://github.com/sentrei/sentrei/commit/0f23cbbab436c030fa36008abd0e6af6a0373c3f))
+
 ## @sentrei/www-daoboard-com [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.0...@sentrei/www-daoboard-com@1.2.1) (2021-09-23)
 
 ### Performance Improvements
