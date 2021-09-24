@@ -1,4 +1,4 @@
-import { ButtonScreen } from "@sentrei/screens";
+import { LandingMoshScreen } from "@sentrei/screens";
 
-export { ButtonScreen };
-export default ButtonScreen;
+export { LandingMoshScreen };
+export default LandingMoshScreen;
