@@ -17,6 +17,9 @@
       "@public/og-sentrei-com/*": ["apps/og-sentrei-com/public/*"],
       "@public/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/public/*"],
       "@public/www-daoboard-com/*": ["apps/www-daoboard-com/public/*"],
+      "@public/www-metafam-wtf/*": ["apps/www-metafam-wtf/public/*"],
+      "@public/www-metascore-wtf/*": ["apps/www-metascore-wtf/public/*"],
+      "@public/www-metashop-wtf/*": ["apps/www-metashop-wtf/public/*"],
       "@public/www-mosh-lol/*": ["apps/www-mosh-lol/public/*"],
       "@public/www-sentrei-com/*": ["apps/www-sentrei-com/public/*"],
       "@public/www-thisweekindaos-com/*": [
@@ -34,6 +37,9 @@
       "@sentrei/segment": ["packages/segment/src/index.ts"],
       "@sentrei/wiki-sentrei-com/*": ["apps/wiki-sentrei-com/src/*"],
       "@sentrei/www-daoboard-com/*": ["apps/www-daoboard-com/src/*"],
+      "@sentrei/www-metafam-wtf/*": ["apps/www-metafam-wtf/src/*"],
+      "@sentrei/www-metascore-wtf/*": ["apps/www-metascore-wtf/src/*"],
+      "@sentrei/www-metashop-wtf/*": ["apps/www-metashop-wtf/src/*"],
       "@sentrei/www-mosh-lol/*": ["apps/www-mosh-lol/src/*"],
       "@sentrei/www-sentrei-com/*": ["apps/www-sentrei-com/src/*"],
       "@sentrei/www-thisweekindaos-com/*": ["apps/www-thisweekindaos-com/src/*"]

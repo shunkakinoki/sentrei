@@ -1,0 +1,57 @@
+{
+  "projectType": "application",
+  "root": "apps/www-metascore-wtf",
+  "sourceRoot": "apps/www-metascore-wtf",
+  "targets": {
+    "build": {
+      "configurations": {
+        "production": {}
+      },
+      "executor": "@nrwl/next:build",
+      "options": {
+        "outputPath": "dist/apps/www-metascore-wtf",
+        "root": "apps/www-metascore-wtf"
+      },
+      "outputs": ["{options.outputPath}"]
+    },
+    "dev": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "www-metascore-wtf:build",
+        "dev": true
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "www-metascore-wtf:build:production"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/www-metascore-wtf/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve": {
+      "configurations": {
+        "production": {
+          "buildTarget": "www-metascore-wtf:build:production",
+          "dev": false
+        }
+      },
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "www-metascore-wtf:build",
+        "dev": true
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/www-metascore-wtf/jest.config.js"
+      },
+      "outputs": ["coverage/apps/www-metascore-wtf"]
+    }
+  }
+}
