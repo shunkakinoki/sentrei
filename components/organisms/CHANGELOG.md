@@ -1,3 +1,9 @@
+# @sentrei/organisms [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.1...@sentrei/organisms@1.8.0) (2021-09-24)
+
+### Features
+
+- ini metagame pages ([0f23cbb](https://github.com/sentrei/sentrei/commit/0f23cbbab436c030fa36008abd0e6af6a0373c3f))
+
 ## @sentrei/organisms [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.0...@sentrei/organisms@1.7.1) (2021-09-23)
 
 ### Performance Improvements
