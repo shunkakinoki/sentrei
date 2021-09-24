@@ -10,11 +10,11 @@ const AppRoot: FC<AppProps> = ({ Component, pageProps }) => {
     <>
       <AnalyticsRoot />
       <SeoRoot
-        title="Daoboard"
-        subTitle="DAO Leaderboard Platform"
-        description="Like degenscore for DAOs"
-        url="https://daoboard.com"
-        twitter="@daoboard"
+        title="Metafam"
+        subTitle="Metafam"
+        description="Metafam"
+        url="https://metafam.wtf"
+        twitter="@metafam"
       />
       <RecoilRoot>
         <ThemeProvider attribute="class" defaultTheme="system">

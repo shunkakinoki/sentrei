@@ -1,4 +1,4 @@
-import { LandingDaoboardScreen } from "@sentrei/screens";
+import { MetafamLandingScreen } from "@sentrei/screens";
 
-export { LandingDaoboardScreen };
-export default LandingDaoboardScreen;
+export { MetafamLandingScreen };
+export default MetafamLandingScreen;
