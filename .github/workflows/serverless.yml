@@ -18,6 +18,9 @@ jobs:
             wiki-sentrei-com,
             www-daoboard-com,
             www-mosh-lol,
+            www-metafam-wtf,
+            www-metascore-wtf,
+            www-metashop-wtf,
             www-thisweekindaos-com,
           ]
     steps:
