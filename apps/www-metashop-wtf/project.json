@@ -1,0 +1,57 @@
+{
+  "projectType": "application",
+  "root": "apps/www-metashop-wtf",
+  "sourceRoot": "apps/www-metashop-wtf",
+  "targets": {
+    "build": {
+      "configurations": {
+        "production": {}
+      },
+      "executor": "@nrwl/next:build",
+      "options": {
+        "outputPath": "dist/apps/www-metashop-wtf",
+        "root": "apps/www-metashop-wtf"
+      },
+      "outputs": ["{options.outputPath}"]
+    },
+    "dev": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "www-metashop-wtf:build",
+        "dev": true
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "www-metashop-wtf:build:production"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/www-metashop-wtf/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve": {
+      "configurations": {
+        "production": {
+          "buildTarget": "www-metashop-wtf:build:production",
+          "dev": false
+        }
+      },
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "www-metashop-wtf:build",
+        "dev": true
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/www-metashop-wtf/jest.config.js"
+      },
+      "outputs": ["coverage/apps/www-metashop-wtf"]
+    }
+  }
+}

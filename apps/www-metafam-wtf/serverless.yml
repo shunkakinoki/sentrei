@@ -1,0 +1,22 @@
+"@sentrei/www-metafam-wtf":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/www-metafam-wtf/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "www-metafam-wtf"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/131c4b1b-d7e5-4241-8b9a-68e18741c60f"
+    cloudfront:
+      distributionId: E2M7A3B2NTP031
+    domain: ["daoboard.com"]
+    name:
+      defaultLambda: "www-metafam-wtf-lambda"
+      apiLambda: "www-metafam-wtf-api-lambda"
+      imageLambda: "www-metafam-wtf-image-lambda"
+    runtime: "nodejs14.x"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
+    timeout: 30
+    useServerlessTraceTarget: true

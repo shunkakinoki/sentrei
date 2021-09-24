@@ -170,6 +170,30 @@
       "implicitDependencies": ["www-daoboard-com"],
       "tags": ["scope:e2e"]
     },
+    "www-metafam-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metafam-wtf-e2e": {
+      "implicitDependencies": ["www-metafam-wtf"],
+      "tags": ["scope:e2e"]
+    },
+    "www-metascore-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metascore-wtf-e2e": {
+      "implicitDependencies": ["www-metascore-wtf"],
+      "tags": ["scope:e2e"]
+    },
+    "www-metashop-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metashop-wtf-e2e": {
+      "implicitDependencies": ["www-metashop-wtf"],
+      "tags": ["scope:e2e"]
+    },
     "www-mosh-lol": {
       "implicitDependencies": ["next", "tailwindcss", "typescript"],
       "tags": ["scope:app"]

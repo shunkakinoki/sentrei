@@ -1,4 +1,4 @@
-import { ButtonLink } from "@sentrei/atoms";
+import { Button, ButtonLink } from "@sentrei/atoms";
 import type { FC } from "react";
 
 export const ButtonCTA: FC = () => {
@@ -11,12 +11,9 @@ export const ButtonCTA: FC = () => {
         >
           Enter App
         </ButtonLink>
-        <ButtonLink
-          href="/about"
-          className="ml-3 text-pink-400 bg-pink-100 hover:bg-pink-200"
-        >
+        <Button className="ml-3 text-pink-400 bg-pink-100 hover:bg-pink-200">
           Learn More
-        </ButtonLink>
+        </Button>
       </div>
     </div>
   );
