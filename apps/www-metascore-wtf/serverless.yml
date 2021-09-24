@@ -9,8 +9,6 @@
     bucketRegion: "us-east-1"
     bucketName: "www-metascore-wtf"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/bc946b57-2371-4e5c-ab4e-71df86fdac33"
-    cloudfront:
-      distributionId: E2M7A3B2NTP031
     domain: ["daoboard.com"]
     name:
       defaultLambda: "www-metascore-wtf-lambda"

@@ -9,8 +9,6 @@
     bucketRegion: "us-east-1"
     bucketName: "www-metashop-wtf"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/249913c2-1d8a-4835-b686-323a9c9847f4"
-    cloudfront:
-      distributionId: E2M7A3B2NTP031
     domain: ["daoboard.com"]
     name:
       defaultLambda: "www-metashop-wtf-lambda"
