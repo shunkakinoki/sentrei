@@ -1,3 +1,9 @@
+# [1.53.0](https://github.com/sentrei/sentrei/compare/v1.52.0...v1.53.0) (2021-09-24)
+
+### Features
+
+- ini metagame pages ([0f23cbb](https://github.com/sentrei/sentrei/commit/0f23cbbab436c030fa36008abd0e6af6a0373c3f))
+
 # [1.52.0](https://github.com/sentrei/sentrei/compare/v1.51.5...v1.52.0) (2021-09-24)
 
 ### Features
