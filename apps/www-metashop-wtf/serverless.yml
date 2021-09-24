@@ -9,7 +9,7 @@
     bucketRegion: "us-east-1"
     bucketName: "www-metashop-wtf"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/249913c2-1d8a-4835-b686-323a9c9847f4"
-    domain: ["daoboard.com"]
+    domain: ["metashop.wtf"]
     name:
       defaultLambda: "www-metashop-wtf-lambda"
       apiLambda: "www-metashop-wtf-api-lambda"

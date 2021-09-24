@@ -9,7 +9,7 @@
     bucketRegion: "us-east-1"
     bucketName: "www-metascore-wtf"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/bc946b57-2371-4e5c-ab4e-71df86fdac33"
-    domain: ["daoboard.com"]
+    domain: ["metascore.wtf"]
     name:
       defaultLambda: "www-metascore-wtf-lambda"
       apiLambda: "www-metascore-wtf-api-lambda"

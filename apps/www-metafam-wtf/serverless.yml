@@ -9,7 +9,7 @@
     bucketRegion: "us-east-1"
     bucketName: "www-metafam-wtf"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/131c4b1b-d7e5-4241-8b9a-68e18741c60f"
-    domain: ["daoboard.com"]
+    domain: ["metafam.wtf"]
     name:
       defaultLambda: "www-metafam-wtf-lambda"
       apiLambda: "www-metafam-wtf-api-lambda"
