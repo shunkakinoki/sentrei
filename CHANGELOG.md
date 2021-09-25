@@ -1,3 +1,9 @@
+## [1.53.5](https://github.com/sentrei/sentrei/compare/v1.53.4...v1.53.5) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
 ## [1.53.4](https://github.com/sentrei/sentrei/compare/v1.53.3...v1.53.4) (2021-09-25)
 
 ### Performance Improvements
