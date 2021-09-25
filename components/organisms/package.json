@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/moment": "^2.13.0",
-    "@types/three": "^0.132.0"
+    "@types/three": "^0.132.1"
   },
   "publishConfig": {
     "access": "public",

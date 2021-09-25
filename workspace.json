@@ -31,6 +31,7 @@
     "design": ".storybook",
     "dev": "configurations/dev",
     "eslint": "configurations/eslint",
+    "hooks": "libs/hooks",
     "husky": "configurations/husky",
     "jest": "configurations/jest",
     "lint-staged": "configurations/lint-staged",

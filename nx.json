@@ -71,6 +71,9 @@
     "eslint": {
       "tags": ["scope:configuration"]
     },
+    "hooks": {
+      "tags": ["scope:lib"]
+    },
     "husky": {
       "tags": ["scope:configuration"]
     },

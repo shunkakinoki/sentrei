@@ -29,6 +29,7 @@
       "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
       "@sentrei/atoms": ["components/atoms/src/index.ts"],
       "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
+      "@sentrei/hooks": ["libs/hooks/src/index.ts"],
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],
