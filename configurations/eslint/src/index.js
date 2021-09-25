@@ -18,6 +18,9 @@ module.exports = {
     "plugin:tailwindcss/recommended",
     "prettier",
   ],
+  globals: {
+    React: true,
+  },
   ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
     {
@@ -48,6 +51,7 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   root: true,
   rules: {
+    "@typescript-eslint/consistent-type-imports": "error",
     "arrow-body-style": ["error", "always"],
     "import/newline-after-import": "error",
     "import/no-anonymous-default-export": "error",

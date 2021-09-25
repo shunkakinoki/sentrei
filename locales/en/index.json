@@ -84,8 +84,8 @@
       "title": "An all-in-one backend solution"
     },
     "testimonial": {
-      "position": "Founder, Sentrei",
       "name": "Shun Kakinoki",
+      "position": "Founder, Sentrei",
       "text": "I'm personally a big fan of next.js and Vercel, and what they've pioneered with the frontend space. However, as the frontend and backend space gets closer together, I thought that developers deserved a more scalable solution, tailored for edge computing in the serverless era in 2020."
     }
   },
@@ -120,13 +120,13 @@
         "description": "Develop entire backend code directly runs on the edge, without build times or latency.",
         "title": "Develop on the edge"
       },
-      "preview": {
-        "description": "Database migrations and edge GraphQL endpoints are generated upon every commit.",
-        "title": "Preview backend environment"
-      },
       "managed": {
         "description": "Analytics, authentication, and other essential utilities are automatically included.",
         "title": "Fully managed backend"
+      },
+      "preview": {
+        "description": "Database migrations and edge GraphQL endpoints are generated upon every commit.",
+        "title": "Preview backend environment"
       }
     },
     "section": {

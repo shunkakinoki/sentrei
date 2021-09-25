@@ -3,32 +3,44 @@
     "defaultBase": "origin/main"
   },
   "implicitDependencies": {
+    "nx.json": "*",
     "package.json": {
       "dependencies": "*",
       "devDependencies": "*"
     },
-    "nx.json": "*",
     "tsconfig.base.json": "*"
   },
   "npmScope": "sentrei",
   "projects": {
+    "app-mosh-lol": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "app-mosh-lol-e2e": {
+      "implicitDependencies": ["app-mosh-lol"],
+      "tags": ["scope:e2e"]
+    },
+    "app-sentrei-com": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "app-sentrei-com-e2e": {
+      "implicitDependencies": ["app-sentrei-com"],
+      "tags": ["scope:e2e"]
+    },
     "atoms": {
-      "tags": ["scope:component"]
-    },
-    "molecules": {
-      "tags": ["scope:component"]
-    },
-    "organisms": {
-      "tags": ["scope:component"]
-    },
-    "roots": {
-      "tags": ["scope:component"]
-    },
-    "screens": {
       "tags": ["scope:component"]
     },
     "babel": {
       "tags": ["scope:configuration"]
+    },
+    "blog-sentrei-com": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "blog-sentrei-com-e2e": {
+      "implicitDependencies": ["blog-sentrei-com"],
+      "tags": ["scope:e2e"]
     },
     "commitlint": {
       "tags": ["scope:configuration"]
@@ -36,11 +48,31 @@
     "cypress": {
       "tags": ["scope:configuration"]
     },
+    "demo-video": {
+      "implicitDependencies": ["remotion"],
+      "tags": ["scope:video"]
+    },
+    "design": {
+      "implicitDependencies": [
+        "atoms",
+        "molecules",
+        "organisms",
+        "roots",
+        "screens",
+        "storybook",
+        "typescript",
+        "webpack"
+      ],
+      "tags": ["scope:app"]
+    },
     "dev": {
       "tags": ["scope:configuration"]
     },
     "eslint": {
       "tags": ["scope:configuration"]
+    },
+    "hooks": {
+      "tags": ["scope:lib"]
     },
     "husky": {
       "tags": ["scope:configuration"]
@@ -51,9 +83,12 @@
     "lint-staged": {
       "tags": ["scope:configuration"]
     },
+    "molecules": {
+      "tags": ["scope:component"]
+    },
     "next": {
-      "tags": ["scope:configuration"],
-      "implicitDependencies": ["react"]
+      "implicitDependencies": ["react"],
+      "tags": ["scope:configuration"]
     },
     "npm-check-updates": {
       "tags": ["scope:configuration"]
@@ -63,6 +98,17 @@
     },
     "nrwl": {
       "tags": ["scope:configuration"]
+    },
+    "og-sentrei-com": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "og-sentrei-com-e2e": {
+      "implicitDependencies": ["og-sentrei-com"],
+      "tags": ["scope:e2e"]
+    },
+    "organisms": {
+      "tags": ["scope:component"]
     },
     "postcss": {
       "tags": ["scope:configuration"]
@@ -74,11 +120,17 @@
       "tags": ["scope:configuration"]
     },
     "remotion": {
-      "tags": ["scope:configuration"],
-      "implicitDependencies": ["react"]
+      "implicitDependencies": ["react"],
+      "tags": ["scope:configuration"]
     },
     "renovate": {
       "tags": ["scope:configuration"]
+    },
+    "roots": {
+      "tags": ["scope:component"]
+    },
+    "screens": {
+      "tags": ["scope:component"]
     },
     "semantic-release": {
       "tags": ["scope:configuration"]
@@ -93,8 +145,8 @@
       "tags": ["scope:configuration"]
     },
     "tailwindcss": {
-      "tags": ["scope:configuration"],
-      "implicitDependencies": ["postcss"]
+      "implicitDependencies": ["postcss"],
+      "tags": ["scope:configuration"]
     },
     "typescript": {
       "tags": ["scope:configuration"]
@@ -105,105 +157,88 @@
     "webpack": {
       "tags": ["scope:configuration"]
     },
-    "app-sentrei-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
-    },
-    "app-sentrei-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["app-sentrei-com"]
-    },
-    "blog-sentrei-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
-    },
-    "blog-sentrei-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["blog-sentrei-com"]
-    },
-    "og-sentrei-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
-    },
-    "og-sentrei-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["og-sentrei-com"]
-    },
     "wiki-sentrei-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
     },
     "wiki-sentrei-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["wiki-sentrei-com"]
+      "implicitDependencies": ["wiki-sentrei-com"],
+      "tags": ["scope:e2e"]
     },
     "www-daoboard-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
     },
     "www-daoboard-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["www-daoboard-com"]
+      "implicitDependencies": ["www-daoboard-com"],
+      "tags": ["scope:e2e"]
+    },
+    "www-metafam-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metafam-wtf-e2e": {
+      "implicitDependencies": ["www-metafam-wtf"],
+      "tags": ["scope:e2e"]
+    },
+    "www-metascore-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metascore-wtf-e2e": {
+      "implicitDependencies": ["www-metascore-wtf"],
+      "tags": ["scope:e2e"]
+    },
+    "www-metashop-wtf": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "www-metashop-wtf-e2e": {
+      "implicitDependencies": ["www-metashop-wtf"],
+      "tags": ["scope:e2e"]
     },
     "www-mosh-lol": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
     },
     "www-mosh-lol-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["www-mosh-lol"]
+      "implicitDependencies": ["www-mosh-lol"],
+      "tags": ["scope:e2e"]
     },
     "www-sentrei-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
     },
     "www-sentrei-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["www-sentrei-com"]
+      "implicitDependencies": ["www-sentrei-com"],
+      "tags": ["scope:e2e"]
     },
     "www-thisweekindaos-com": {
-      "tags": ["scope:app"],
-      "implicitDependencies": ["next", "tailwindcss", "typescript"]
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
     },
     "www-thisweekindaos-com-e2e": {
-      "tags": ["scope:e2e"],
-      "implicitDependencies": ["www-thisweekindaos-com"]
-    },
-    "design": {
-      "tags": ["scope:app"],
-      "implicitDependencies": [
-        "atoms",
-        "molecules",
-        "organisms",
-        "roots",
-        "screens",
-        "storybook",
-        "typescript",
-        "webpack"
-      ]
-    },
-    "demo-video": {
-      "tags": ["scope:video"],
-      "implicitDependencies": ["remotion"]
+      "implicitDependencies": ["www-thisweekindaos-com"],
+      "tags": ["scope:e2e"]
     }
   },
   "targetDependencies": {
     "build": [
       {
-        "target": "build",
-        "projects": "dependencies"
+        "projects": "dependencies",
+        "target": "build"
       }
     ]
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "NmMzOTQzOWUtNTM1MS00N2Y2LWIzMmMtNzRlZjZjOTFhMDQxfHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "canTrackAnalytics": true,
         "showUsageWarnings": true
-      }
+      },
+      "runner": "@nrwl/nx-cloud"
     }
   },
   "workspaceLayout": {

@@ -13,9 +13,9 @@
       distributionId: E1Y9EGVQG4Y6H4
     domain: ["app", "sentrei.com"]
     name:
-      defaultLambda: "app-sentrei-lambda"
-      apiLambda: "app-sentrei-api-lambda"
-      imageLambda: "app-sentrei-image-lambda"
+      defaultLambda: "app-sentrei-com-lambda"
+      apiLambda: "app-sentrei-com-api-lambda"
+      imageLambda: "app-sentrei-com-image-lambda"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

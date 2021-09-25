@@ -1,3 +1,15 @@
+## @sentrei/prettier [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.5.0...@sentrei/prettier@1.5.1) (2021-09-25)
+
+### Performance Improvements
+
+- ini ncu upgrade ([0e095f3](https://github.com/sentrei/sentrei/commit/0e095f3d4bf216f7cf9955629fbb469a4f1ee43d))
+
+# @sentrei/prettier [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.3...@sentrei/prettier@1.5.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 ## @sentrei/prettier [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.4.2...@sentrei/prettier@1.4.3) (2021-09-16)
 
 ### Bug Fixes

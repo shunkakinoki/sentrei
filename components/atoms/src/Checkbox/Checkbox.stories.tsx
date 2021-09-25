@@ -1,5 +1,6 @@
 import type { Story, Meta } from "@storybook/react";
-import { useState, ChangeEvent } from "react";
+import type { ChangeEvent } from "react";
+import { useState } from "react";
 
 import type { CheckboxProps } from "./Checkbox";
 import { Checkbox, CheckboxSize } from "./Checkbox";

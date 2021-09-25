@@ -1,0 +1,25 @@
+{
+  "name": "@sentrei/www-metascore-wtf",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix",
+    "start": "next start"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

@@ -5,3 +5,5 @@ jest.mock("next/image", () => {
     return <img src={src} alt={alt} />;
   };
 });
+
+global.ResizeObserver = require("resize-observer-polyfill");
