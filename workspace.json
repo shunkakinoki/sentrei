@@ -35,7 +35,6 @@
     "husky": "configurations/husky",
     "jest": "configurations/jest",
     "lint-staged": "configurations/lint-staged",
-    "models": "libs/models",
     "molecules": "components/molecules",
     "next": "configurations/next",
     "npm-check-updates": "configurations/npm-check-updates",
