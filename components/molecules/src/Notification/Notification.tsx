@@ -3,7 +3,7 @@ import { useToastNotification } from "@sentrei/hooks";
 import clsx from "clsx";
 
 import type { FC } from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import styles from "./Notification.module.scss";
 
