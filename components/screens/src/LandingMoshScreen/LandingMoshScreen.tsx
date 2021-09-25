@@ -16,11 +16,6 @@ const Canvas = dynamic(async () => {
   return m.Canvas;
 });
 
-const Parallax = dynamic(async () => {
-  const m = await import("@sentrei/molecules");
-  return m.Parallax;
-});
-
 const Grid = dynamic(async () => {
   const m = await import("@sentrei/organisms");
   return m.VaporGrid;
@@ -119,16 +114,11 @@ export const LandingMoshScreen = () => {
               </svg>
             </button>
           </div>
-          <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
-            <Parallax clampInitial offset={100}>
-              <GlowLogo src={LogoImage} />
-            </Parallax>
-            <Parallax>
-              <GlowLogo src={LogoImage} />
-            </Parallax>
-            <Parallax>
-              <GlowLogo src={LogoImage} />
-            </Parallax>
+          <div className="flex overflow-visible flex-col">
+            <GlowLogo src={LogoImage} />
+            <h1 className="font-mono text-6xl font-extrabold tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600 animate-fade-in-up ">
+              A cross-chain NFT experiment.
+            </h1>
           </div>
         </div>
       </ModalScreen>

@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import "@sentrei/www-mosh-lol/styles/index.css";
 import { SeoRoot, AnalyticsRoot } from "@sentrei/roots";
 import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
