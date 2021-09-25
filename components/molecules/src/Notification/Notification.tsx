@@ -1,8 +1,9 @@
 import { Toast, Button } from "@sentrei/atoms";
+import { useToastNotification } from "@sentrei/hooks";
 import clsx from "clsx";
 
 import type { FC } from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import styles from "./Notification.module.scss";
 
@@ -34,18 +35,18 @@ export const Notification: FC<NotificationProps> = props => {
     title = "Notification",
     description = "Notify your status...",
   } = props;
-  const [isToastShowing, setIsToastShowing] = useState<boolean>(false);
+  const [isToastOpen, setToastOpen] = useToastNotification();
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (isAutoDelete) {
-        setIsToastShowing(false);
+        setToastOpen(false);
       }
     }, autoDeleteTime * 1000);
     return () => {
       clearInterval(interval);
     };
-  }, [autoDeleteTime, isAutoDelete]);
+  }, [autoDeleteTime, isAutoDelete, setToastOpen]);
   console.log(styles[position]); //not loaded.
 
   return (
@@ -53,12 +54,12 @@ export const Notification: FC<NotificationProps> = props => {
       <div className={clsx("relative w-screen h-screen")}>
         <Button
           onClick={(): void => {
-            setIsToastShowing(true);
+            setToastOpen(true);
           }}
         >
           Info
         </Button>
-        {isToastShowing && (
+        {isToastOpen && (
           <div className={clsx("w-full h-full")}>
             <Toast
               title={title}
@@ -68,7 +69,7 @@ export const Notification: FC<NotificationProps> = props => {
               textColor={toastTextColor}
               className={clsx("absolute", styles[position])}
               onClick={(): void => {
-                setIsToastShowing(false);
+                setToastOpen(false);
               }}
             />
           </div>

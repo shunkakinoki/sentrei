@@ -1,7 +1,14 @@
 import { Button, ButtonLink } from "@sentrei/atoms";
+import { useModalScreen } from "@sentrei/hooks";
 import type { FC } from "react";
 
 export const ButtonCTA: FC = () => {
+  const [, setModalOpen] = useModalScreen();
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
   return (
     <div className="flex justify-center pt-6">
       <div className="inline-flex">
@@ -11,7 +18,10 @@ export const ButtonCTA: FC = () => {
         >
           Enter App
         </ButtonLink>
-        <Button className="ml-3 text-pink-400 bg-pink-100 hover:bg-pink-200">
+        <Button
+          className="ml-3 text-pink-400 bg-pink-100 hover:bg-pink-200"
+          onClick={openModal}
+        >
           Learn More
         </Button>
       </div>
