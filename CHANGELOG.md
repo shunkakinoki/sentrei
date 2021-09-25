@@ -1,3 +1,9 @@
+# [1.57.0](https://github.com/sentrei/sentrei/compare/v1.56.0...v1.57.0) (2021-09-25)
+
+### Features
+
+- ini faq sections ([6a8cd1a](https://github.com/sentrei/sentrei/commit/6a8cd1adbf33badc87b0c8c8fcf98ef3e0aa8ff0))
+
 # [1.56.0](https://github.com/sentrei/sentrei/compare/v1.55.0...v1.56.0) (2021-09-25)
 
 ### Features
