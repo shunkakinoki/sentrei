@@ -1,3 +1,9 @@
+# @sentrei/screens [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.6.0...@sentrei/screens@1.7.0) (2021-09-25)
+
+### Features
+
+- ini parallax ([63e51f8](https://github.com/sentrei/sentrei/commit/63e51f81ef57b40350ec3763975867ae09d15ee2))
+
 # @sentrei/screens [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.5.2...@sentrei/screens@1.6.0) (2021-09-25)
 
 ### Features
