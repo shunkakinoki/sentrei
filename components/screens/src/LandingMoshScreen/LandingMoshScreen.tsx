@@ -114,10 +114,11 @@ export const LandingMoshScreen = () => {
               </svg>
             </button>
           </div>
-          <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
+          <div className="flex overflow-visible flex-col">
             <GlowLogo src={LogoImage} />
-            <GlowLogo src={LogoImage} />
-            <GlowLogo src={LogoImage} />
+            <h1 className="font-mono text-5xl font-extrabold tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-200 to-indigo-300 animate-fade-in-up ">
+              A cross-chain NFT experiment.
+            </h1>
           </div>
         </div>
       </ModalScreen>
