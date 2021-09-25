@@ -1,3 +1,9 @@
+## [1.53.1](https://github.com/sentrei/sentrei/compare/v1.53.0...v1.53.1) (2021-09-25)
+
+### Bug Fixes
+
+- **deps:** update dependency @nrwl/nx-cloud to ^12.3.13 ([4f0d108](https://github.com/sentrei/sentrei/commit/4f0d108cebddb46f1ad4f1c86ad6d4ceb02a4d05))
+
 # [1.53.0](https://github.com/sentrei/sentrei/compare/v1.52.0...v1.53.0) (2021-09-24)
 
 ### Features
