@@ -1,3 +1,9 @@
+# @sentrei/screens [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.7.0...@sentrei/screens@1.8.0) (2021-09-25)
+
+### Features
+
+- ini faq sections ([6a8cd1a](https://github.com/sentrei/sentrei/commit/6a8cd1adbf33badc87b0c8c8fcf98ef3e0aa8ff0))
+
 # @sentrei/screens [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.6.0...@sentrei/screens@1.7.0) (2021-09-25)
 
 ### Features
