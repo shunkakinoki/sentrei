@@ -11,6 +11,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "paths": {
+      "@public/*": ["public/*"],
       "@public/app-mosh-lol/*": ["apps/app-mosh-lol/public/*"],
       "@public/app-sentrei-com/*": ["apps/app-sentrei-com/public/*"],
       "@public/blog-sentrei-com/*": ["apps/blog-sentrei-com/public/*"],
