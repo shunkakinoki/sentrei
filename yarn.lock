@@ -13616,10 +13616,10 @@ handlebars@4.7.7, handlebars@^4.7.6:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handy-redis@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.2.2.tgz#12d1edae6e762076b10f173fab82d895ad252607"
-  integrity sha512-m+7d89zM/rUVvtvVV0/wQGY2SQOh2fgIgg2Fts9q/wQFom0h5sZTCYPHgzPtnJxDOilIMvxRbPHi7b+IKin7UA==
+handy-redis@2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.3.1.tgz#13469450730b74b14eab3e4a8aafcd65bb288392"
+  integrity sha512-ilZYZ4l9+BSxavnjzSbI0yNpM8wfuEP8wAjsPAoL5ThfcCEswN7EpuSCJ4PfRpuGvxRRrivjSImbqpM9NkDB7w==
   dependencies:
     "@types/redis" "^2.8.30"
 
@@ -21309,10 +21309,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^27.18.1:
-  version "27.18.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.18.1.tgz#d0bc6bc1253f04a58a6aa5c6a8b993536583b2b4"
-  integrity sha512-g6wyaBk0E8PENlvGQ7HbGJSNqVacwNtUGyECN30b4S7z2nPte4ZCmuCeyJOOD9frPaVHWsbrJl9LxpJVqD9INg==
+renovate@^27.19.1:
+  version "27.19.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.19.1.tgz#036c5b310f1c7823d9f92558e68408242805a4ff"
+  integrity sha512-GjY4HoNpTNwQFPq4/a6oafJY8W8nJQBgief+7uh2c8JyyH/4iMYpNDHJltkyfS2PnwmUkgj0ITbiaRMK4otG6A==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -21348,7 +21348,7 @@ renovate@^27.18.1:
     global-agent "2.2.0"
     got "11.8.2"
     handlebars "4.7.7"
-    handy-redis "2.2.2"
+    handy-redis "2.3.1"
     hasha "5.2.2"
     ignore "5.1.8"
     ini "2.0.0"
