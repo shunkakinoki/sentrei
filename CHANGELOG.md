@@ -1,3 +1,9 @@
+## [1.53.7](https://github.com/sentrei/sentrei/compare/v1.53.6...v1.53.7) (2021-09-25)
+
+### Performance Improvements
+
+- ini tailwindcss config ([4cd1c5d](https://github.com/sentrei/sentrei/commit/4cd1c5dd5045620d99a24c64f37b27465c4a4b99))
+
 ## [1.53.6](https://github.com/sentrei/sentrei/compare/v1.53.5...v1.53.6) (2021-09-25)
 
 ### Bug Fixes
