@@ -117,7 +117,7 @@
     "postcss-safe-parser": "^6.0.0",
     "puppeteer": "^10.4.0",
     "stylelint": "^13.13.1",
-    "webpack": "^5.53.0"
+    "webpack": "^5.54.0"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
