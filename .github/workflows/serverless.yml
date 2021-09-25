@@ -1,5 +1,6 @@
 name: Serverless
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -58,5 +59,9 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - run: |
+      - if: github.event_name == 'pull_request'
+        run: |
+          yarn run build:${{ matrix.app }}
+      - if: github.event_name == 'push'
+        run: |
           bash script.sh ${{ matrix.app }}
