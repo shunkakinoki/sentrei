@@ -1,3 +1,9 @@
+# @sentrei/atoms [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.10.1...@sentrei/atoms@1.11.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+
 ## @sentrei/atoms [1.10.1](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.10.0...@sentrei/atoms@1.10.1) (2021-09-23)
 
 ### Performance Improvements
