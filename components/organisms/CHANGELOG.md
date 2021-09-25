@@ -1,3 +1,9 @@
+## @sentrei/organisms [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.8.1...@sentrei/organisms@1.8.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
 ## @sentrei/organisms [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.8.0...@sentrei/organisms@1.8.1) (2021-09-25)
 
 ### Performance Improvements
