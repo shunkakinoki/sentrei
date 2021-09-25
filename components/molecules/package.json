@@ -19,7 +19,9 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "framer-motion": "^4.1.17"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

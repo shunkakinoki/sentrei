@@ -16,6 +16,11 @@ const Canvas = dynamic(async () => {
   return m.Canvas;
 });
 
+const Parallax = dynamic(async () => {
+  const m = await import("@sentrei/molecules");
+  return m.Parallax;
+});
+
 const Grid = dynamic(async () => {
   const m = await import("@sentrei/organisms");
   return m.VaporGrid;
@@ -115,9 +120,15 @@ export const LandingMoshScreen = () => {
             </button>
           </div>
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
-            <GlowLogo src={LogoImage} />
-            <GlowLogo src={LogoImage} />
-            <GlowLogo src={LogoImage} />
+            <Parallax clampInitial offset={100}>
+              <GlowLogo src={LogoImage} />
+            </Parallax>
+            <Parallax>
+              <GlowLogo src={LogoImage} />
+            </Parallax>
+            <Parallax>
+              <GlowLogo src={LogoImage} />
+            </Parallax>
           </div>
         </div>
       </ModalScreen>
