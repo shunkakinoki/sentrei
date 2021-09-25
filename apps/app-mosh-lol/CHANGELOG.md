@@ -1,3 +1,9 @@
+## @sentrei/app-mosh-lol [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/app-mosh-lol@1.0.1...@sentrei/app-mosh-lol@1.0.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
 ## @sentrei/app-mosh-lol [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/app-mosh-lol@1.0.0...@sentrei/app-mosh-lol@1.0.1) (2021-09-23)
 
 ### Performance Improvements
