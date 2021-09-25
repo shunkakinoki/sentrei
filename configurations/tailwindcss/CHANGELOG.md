@@ -1,3 +1,9 @@
+## @sentrei/tailwindcss [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.1...@sentrei/tailwindcss@1.3.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini tailwindcss config ([4cd1c5d](https://github.com/sentrei/sentrei/commit/4cd1c5dd5045620d99a24c64f37b27465c4a4b99))
+
 ## @sentrei/tailwindcss [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.0...@sentrei/tailwindcss@1.3.1) (2021-09-25)
 
 ### Performance Improvements
