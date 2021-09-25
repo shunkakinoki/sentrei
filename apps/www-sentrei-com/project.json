@@ -4,15 +4,15 @@
   "sourceRoot": "apps/www-sentrei-com",
   "targets": {
     "build": {
-      "executor": "@nrwl/next:build",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "root": "apps/www-sentrei-com",
-        "outputPath": "dist/apps/www-sentrei-com"
-      },
       "configurations": {
         "production": {}
-      }
+      },
+      "executor": "@nrwl/next:build",
+      "options": {
+        "outputPath": "dist/apps/www-sentrei-com",
+        "root": "apps/www-sentrei-com"
+      },
+      "outputs": ["{options.outputPath}"]
     },
     "dev": {
       "executor": "@nrwl/next:server",
@@ -21,30 +21,10 @@
         "dev": true
       }
     },
-    "serve": {
-      "executor": "@nrwl/next:server",
-      "options": {
-        "buildTarget": "www-sentrei-com:build",
-        "dev": true
-      },
-      "configurations": {
-        "production": {
-          "buildTarget": "www-sentrei-com:build:production",
-          "dev": false
-        }
-      }
-    },
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
         "buildTarget": "www-sentrei-com:build:production"
-      }
-    },
-    "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/www-sentrei-com"],
-      "options": {
-        "jestConfig": "apps/www-sentrei-com/jest.config.js"
       }
     },
     "lint": {
@@ -52,6 +32,26 @@
       "options": {
         "lintFilePatterns": ["apps/www-sentrei-com/**/*.{ts,tsx,js,jsx}"]
       }
+    },
+    "serve": {
+      "configurations": {
+        "production": {
+          "buildTarget": "www-sentrei-com:build:production",
+          "dev": false
+        }
+      },
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "www-sentrei-com:build",
+        "dev": true
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/www-sentrei-com/jest.config.js"
+      },
+      "outputs": ["coverage/apps/www-sentrei-com"]
     }
   }
 }

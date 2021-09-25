@@ -1,3 +1,9 @@
+# @sentrei/styles [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.7.0...@sentrei/styles@1.8.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 # @sentrei/styles [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/styles@1.6.0...@sentrei/styles@1.7.0) (2021-08-03)
 
 ### Features

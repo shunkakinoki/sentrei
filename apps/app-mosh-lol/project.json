@@ -1,0 +1,57 @@
+{
+  "projectType": "application",
+  "root": "apps/app-mosh-lol",
+  "sourceRoot": "apps/app-mosh-lol",
+  "targets": {
+    "build": {
+      "configurations": {
+        "production": {}
+      },
+      "executor": "@nrwl/next:build",
+      "options": {
+        "outputPath": "dist/apps/app-mosh-lol",
+        "root": "apps/app-mosh-lol"
+      },
+      "outputs": ["{options.outputPath}"]
+    },
+    "dev": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "app-mosh-lol:build",
+        "dev": true
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "app-mosh-lol:build:production"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/app-mosh-lol/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "serve": {
+      "configurations": {
+        "production": {
+          "buildTarget": "app-mosh-lol:build:production",
+          "dev": false
+        }
+      },
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "app-mosh-lol:build",
+        "dev": true
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/app-mosh-lol/jest.config.js"
+      },
+      "outputs": ["coverage/apps/app-mosh-lol"]
+    }
+  }
+}

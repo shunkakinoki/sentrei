@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
+    "importHelpers": false,
+    "module": "commonjs",
     "outDir": "../dist/tools",
     "rootDir": ".",
-    "module": "commonjs",
     "target": "es5",
-    "types": ["node"],
-    "importHelpers": false
+    "types": ["node"]
   },
   "extends": "../tsconfig.base.json",
   "include": ["**/*.ts"]

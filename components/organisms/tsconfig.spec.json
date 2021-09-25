@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "../../../dist/out-tsc",
     "module": "commonjs",
+    "outDir": "../../dist/components/out",
     "types": ["node", "jest", "segment-analytics"]
   },
   "extends": "./tsconfig.json",
@@ -10,6 +10,7 @@
     "**/*.spec.tsx",
     "**/*.spec.js",
     "**/*.spec.jsx",
-    "**/*.d.ts"
+    "**/*.d.ts",
+    "src/ModalScreen/ModalScreen.tsx"
   ]
 }

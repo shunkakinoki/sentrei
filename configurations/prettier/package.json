@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/prettier",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "prettier": "^2.4.1",
-    "prettier-plugin-packagejson": "^2.2.12",
+    "prettier-plugin-packagejson": "^2.2.13",
     "prettier-plugin-sort-json": "^0.0.2"
   },
   "publishConfig": {

@@ -1,3 +1,9 @@
+# @sentrei/vite [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/vite@1.1.5...@sentrei/vite@1.2.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 ## @sentrei/vite [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/vite@1.1.4...@sentrei/vite@1.1.5) (2021-09-15)
 
 ### Bug Fixes

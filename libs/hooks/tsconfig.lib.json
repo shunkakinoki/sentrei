@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "../../dist/libs/hooks/lib",
+    "types": ["node"]
+  },
+  "exclude": ["**/*.spec.ts", "**/*.spec.tsx"],
+  "extends": "./tsconfig.json"
+}

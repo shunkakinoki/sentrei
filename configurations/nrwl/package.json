@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/nrwl",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,14 +20,14 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@angular-devkit/schematics": "^12.2.6",
+    "@angular-devkit/schematics": "^12.2.7",
     "@nrwl/cli": "^12.9.0",
     "@nrwl/cypress": "^12.9.0",
     "@nrwl/eslint-plugin-nx": "^12.9.0",
     "@nrwl/jest": "^12.9.0",
     "@nrwl/linter": "^12.9.0",
     "@nrwl/next": "^12.9.0",
-    "@nrwl/nx-cloud": "^12.3.12",
+    "@nrwl/nx-cloud": "^12.3.13",
     "@nrwl/react": "^12.9.0",
     "@nrwl/storybook": "^12.9.0",
     "@nrwl/tao": "^12.9.0",

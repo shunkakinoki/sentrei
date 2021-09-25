@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "../../dist/out-tsc",
+    "jsx": "react-jsx",
     "module": "commonjs",
-    "types": ["node", "jest", "segment-analytics"],
-    "jsx": "react-jsx"
+    "outDir": "../../dist/apps/www-mosh-lol/out",
+    "types": ["node", "jest", "segment-analytics"]
   },
   "extends": "./tsconfig.json",
   "include": [

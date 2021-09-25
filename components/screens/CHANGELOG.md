@@ -1,3 +1,15 @@
+## @sentrei/screens [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.5.0...@sentrei/screens@1.5.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
+# @sentrei/screens [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.4.0...@sentrei/screens@1.5.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 # @sentrei/screens [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.3.1...@sentrei/screens@1.4.0) (2021-09-21)
 
 ### Features

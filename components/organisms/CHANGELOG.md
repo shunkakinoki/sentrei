@@ -1,3 +1,21 @@
+# @sentrei/organisms [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.1...@sentrei/organisms@1.8.0) (2021-09-24)
+
+### Features
+
+- ini metagame pages ([0f23cbb](https://github.com/sentrei/sentrei/commit/0f23cbbab436c030fa36008abd0e6af6a0373c3f))
+
+## @sentrei/organisms [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.0...@sentrei/organisms@1.7.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
+# @sentrei/organisms [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.6.0...@sentrei/organisms@1.7.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 # @sentrei/organisms [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.5.2...@sentrei/organisms@1.6.0) (2021-09-21)
 
 ### Features

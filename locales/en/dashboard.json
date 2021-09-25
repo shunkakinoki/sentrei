@@ -2,8 +2,8 @@
   "sidebar": {
     "accountSwitcher": {
       "account": "Add an account",
-      "signOut": "Sign Out",
-      "settings": "Workspace settings"
+      "settings": "Workspace settings",
+      "signOut": "Sign Out"
     }
   }
 }

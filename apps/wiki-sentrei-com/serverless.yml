@@ -13,9 +13,10 @@
       distributionId: E1T8EYYLLJ2PSX
     domain: ["wiki", "sentrei.com"]
     name:
-      defaultLambda: "wiki-sentrei-lambda"
-      apiLambda: "wiki-sentrei-api-lambda"
-      imageLambda: "wiki-sentrei-image-lambda"
+      defaultLambda: "wiki-sentrei-com-lambda"
+      apiLambda: "wiki-sentrei-com-api-lambda"
+      imageLambda: "wiki-sentrei-com-image-lambda"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     runtime: "nodejs14.x"
     timeout: 30
     useServerlessTraceTarget: true

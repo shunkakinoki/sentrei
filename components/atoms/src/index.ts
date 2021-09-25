@@ -1,6 +1,8 @@
 import "./index.scss";
 
 export { Button } from "./Button";
+export type { ButtonProps } from "./Button";
+export { ButtonLink } from "./ButtonLink";
 export { Input } from "./Input";
 export { Select } from "./Select";
 export { Toast } from "./Toast";

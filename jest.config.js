@@ -1,5 +1,6 @@
 module.exports = {
   projects: [
+    "<rootDir>/apps/app-mosh-lol",
     "<rootDir>/apps/app-sentrei-com",
     "<rootDir>/apps/blog-sentrei-com",
     "<rootDir>/apps/og-sentrei-com",

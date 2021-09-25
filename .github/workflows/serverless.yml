@@ -1,5 +1,6 @@
 name: Serverless
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -12,11 +13,15 @@ jobs:
       matrix:
         app:
           [
+            app-mosh-lol,
             app-sentrei-com,
             og-sentrei-com,
             wiki-sentrei-com,
             www-daoboard-com,
             www-mosh-lol,
+            www-metafam-wtf,
+            www-metascore-wtf,
+            www-metashop-wtf,
             www-thisweekindaos-com,
           ]
     steps:
@@ -55,7 +60,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - run: |
-          yarn run build:${{ matrix.app }}
-      - working-directory: apps/${{ matrix.app }}
-        run: |
-          yarn run serverless
+          bash script.sh ${{ matrix.app }}

@@ -1,0 +1,22 @@
+"@sentrei/www-metascore-wtf":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/www-metascore-wtf/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "www-metascore-wtf"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/bc946b57-2371-4e5c-ab4e-71df86fdac33"
+    cloudfront:
+      distributionId: EYR4V1C56H6RV
+    domain: ["metascore.wtf"]
+    name:
+      defaultLambda: "www-metascore-wtf-lambda"
+      apiLambda: "www-metascore-wtf-api-lambda"
+      imageLambda: "www-metascore-wtf-image-lambda"
+    runtime: "nodejs14.x"
+    roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
+    timeout: 30
+    useServerlessTraceTarget: true

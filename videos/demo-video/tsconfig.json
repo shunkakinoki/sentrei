@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "commonjs",
-    "jsx": "react-jsx",
-    "outDir": "./dist",
-    "strict": true,
-    "noEmit": true,
-    "lib": ["es2015", "DOM"],
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": ["es2015", "DOM"],
+    "module": "commonjs",
+    "noEmit": true,
+    "outDir": "./dist",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "strict": true,
+    "target": "ES2018"
   }
 }
