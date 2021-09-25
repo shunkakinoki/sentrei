@@ -1,3 +1,10 @@
+## [1.53.4](https://github.com/sentrei/sentrei/compare/v1.53.3...v1.53.4) (2021-09-25)
+
+### Performance Improvements
+
+- ini hooks lib ([94571fd](https://github.com/sentrei/sentrei/commit/94571fd47f22f9779dc6c35186d308099f802e06))
+- ini ncu upgrade ([0e095f3](https://github.com/sentrei/sentrei/commit/0e095f3d4bf216f7cf9955629fbb469a4f1ee43d))
+
 ## [1.53.3](https://github.com/sentrei/sentrei/compare/v1.53.2...v1.53.3) (2021-09-25)
 
 ### Bug Fixes
