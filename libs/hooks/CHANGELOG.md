@@ -1,3 +1,9 @@
+## @sentrei/hooks [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/hooks@1.3.0...@sentrei/hooks@1.3.1) (2021-09-25)
+
+### Performance Improvements
+
+- ini hooks lib ([94571fd](https://github.com/sentrei/sentrei/commit/94571fd47f22f9779dc6c35186d308099f802e06))
+
 # @sentrei/hooks [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/hooks@1.2.0...@sentrei/hooks@1.3.0) (2021-09-23)
 
 ### Features
