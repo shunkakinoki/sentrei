@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/tailwindcss",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -25,7 +25,9 @@
     "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "@types/tailwindcss": "^2.2.1",
-    "tailwindcss": "^2.2.15"
+    "tailwind-config-viewer": "^1.6.2",
+    "tailwindcss": "^2.2.15",
+    "tailwindcss-border-gradients": "^2.0.3"
   },
   "publishConfig": {
     "access": "public",

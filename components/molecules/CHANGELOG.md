@@ -1,3 +1,34 @@
+# @sentrei/molecules [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.9.0...@sentrei/molecules@1.10.0) (2021-09-25)
+
+### Features
+
+- ini parallax ([63e51f8](https://github.com/sentrei/sentrei/commit/63e51f81ef57b40350ec3763975867ae09d15ee2))
+
+# @sentrei/molecules [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.2...@sentrei/molecules@1.9.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+- wip game dialog molecule ([4ca9697](https://github.com/sentrei/sentrei/commit/4ca96975c0b42d330469b77f26e1fe9cc3539ebc))
+
+## @sentrei/molecules [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.1...@sentrei/molecules@1.8.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
+## @sentrei/molecules [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.0...@sentrei/molecules@1.8.1) (2021-09-23)
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
+# @sentrei/molecules [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.7.0...@sentrei/molecules@1.8.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 # @sentrei/molecules [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.6.0...@sentrei/molecules@1.7.0) (2021-09-21)
 
 ### Features

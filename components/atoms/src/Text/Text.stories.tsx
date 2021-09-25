@@ -24,7 +24,7 @@ _Text.args = {
   children: "Text",
   size: FontSize.XXXXLARGE,
   weight: FontWeight.THIN,
-  family: FontFamily.SERIF,
+  family: FontFamily.ATARI,
   transform: TextTransform.NORMAL_CASE,
   decoration: TextDecoration.NO_UNDERLINE,
   align: TextAlign.CENTER,

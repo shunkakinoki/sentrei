@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/molecules",
-  "version": "1.7.0",
+  "version": "1.10.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -19,7 +19,9 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "framer-motion": "^4.1.17"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

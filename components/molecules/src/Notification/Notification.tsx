@@ -1,4 +1,5 @@
 import { Toast, Button } from "@sentrei/atoms";
+import { useToastNotification } from "@sentrei/hooks";
 import clsx from "clsx";
 
 import type { FC } from "react";

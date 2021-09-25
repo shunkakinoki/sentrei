@@ -1,3 +1,99 @@
+# [1.56.0](https://github.com/sentrei/sentrei/compare/v1.55.0...v1.56.0) (2021-09-25)
+
+### Features
+
+- ini parallax ([63e51f8](https://github.com/sentrei/sentrei/commit/63e51f81ef57b40350ec3763975867ae09d15ee2))
+
+# [1.55.0](https://github.com/sentrei/sentrei/compare/v1.54.0...v1.55.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+- wip game dialog molecule ([4ca9697](https://github.com/sentrei/sentrei/commit/4ca96975c0b42d330469b77f26e1fe9cc3539ebc))
+
+# [1.54.0](https://github.com/sentrei/sentrei/compare/v1.53.7...v1.54.0) (2021-09-25)
+
+### Features
+
+- ini landing daoboard ([28640f4](https://github.com/sentrei/sentrei/commit/28640f401ed225086893202902b791acb06b9f80))
+
+## [1.53.7](https://github.com/sentrei/sentrei/compare/v1.53.6...v1.53.7) (2021-09-25)
+
+### Performance Improvements
+
+- ini tailwindcss config ([4cd1c5d](https://github.com/sentrei/sentrei/commit/4cd1c5dd5045620d99a24c64f37b27465c4a4b99))
+
+## [1.53.6](https://github.com/sentrei/sentrei/compare/v1.53.5...v1.53.6) (2021-09-25)
+
+### Bug Fixes
+
+- **deps:** update dependency jest to ^27.2.2 ([df91585](https://github.com/sentrei/sentrei/commit/df9158511bfe4f5fe891e69f1d9971894e7a15b8))
+
+## [1.53.5](https://github.com/sentrei/sentrei/compare/v1.53.4...v1.53.5) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
+## [1.53.4](https://github.com/sentrei/sentrei/compare/v1.53.3...v1.53.4) (2021-09-25)
+
+### Performance Improvements
+
+- ini hooks lib ([94571fd](https://github.com/sentrei/sentrei/commit/94571fd47f22f9779dc6c35186d308099f802e06))
+- ini ncu upgrade ([0e095f3](https://github.com/sentrei/sentrei/commit/0e095f3d4bf216f7cf9955629fbb469a4f1ee43d))
+
+## [1.53.3](https://github.com/sentrei/sentrei/compare/v1.53.2...v1.53.3) (2021-09-25)
+
+### Bug Fixes
+
+- **deps:** update dependency serverless to ^2.60.0 ([851a99e](https://github.com/sentrei/sentrei/commit/851a99ea8b778cbb9c523d26dd2998df0e1ec3ae))
+
+## [1.53.2](https://github.com/sentrei/sentrei/compare/v1.53.1...v1.53.2) (2021-09-25)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.19.1 ([75e46b5](https://github.com/sentrei/sentrei/commit/75e46b591029d135c32337cd1d0ac679c665d088))
+
+## [1.53.1](https://github.com/sentrei/sentrei/compare/v1.53.0...v1.53.1) (2021-09-25)
+
+### Bug Fixes
+
+- **deps:** update dependency @nrwl/nx-cloud to ^12.3.13 ([4f0d108](https://github.com/sentrei/sentrei/commit/4f0d108cebddb46f1ad4f1c86ad6d4ceb02a4d05))
+
+# [1.53.0](https://github.com/sentrei/sentrei/compare/v1.52.0...v1.53.0) (2021-09-24)
+
+### Features
+
+- ini metagame pages ([0f23cbb](https://github.com/sentrei/sentrei/commit/0f23cbbab436c030fa36008abd0e6af6a0373c3f))
+
+# [1.52.0](https://github.com/sentrei/sentrei/compare/v1.51.5...v1.52.0) (2021-09-24)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
+### Performance Improvements
+
+- ini tsc e2d ([299f23e](https://github.com/sentrei/sentrei/commit/299f23e4bc09c199ec375ac894f3e8d6709a94be))
+
+## [1.51.5](https://github.com/sentrei/sentrei/compare/v1.51.4...v1.51.5) (2021-09-22)
+
+### Performance Improvements
+
+- ini about me ([5a25d54](https://github.com/sentrei/sentrei/commit/5a25d545b379724bd3301ce3efc7dc22923695b2))
+
+## [1.51.4](https://github.com/sentrei/sentrei/compare/v1.51.3...v1.51.4) (2021-09-22)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.15.0 ([1ace154](https://github.com/sentrei/sentrei/commit/1ace15400ab454c27cee018f9fbc96298a430af4))
+
+## [1.51.3](https://github.com/sentrei/sentrei/compare/v1.51.2...v1.51.3) (2021-09-22)
+
+### Bug Fixes
+
+- **deps:** update dependency autoprefixer to ^10.3.5 ([f557962](https://github.com/sentrei/sentrei/commit/f55796210956a37aa7685ec07809909062077ec2))
+
 ## [1.51.2](https://github.com/sentrei/sentrei/compare/v1.51.1...v1.51.2) (2021-09-22)
 
 ### Bug Fixes

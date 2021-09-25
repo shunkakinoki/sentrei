@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "../../../dist/out-tsc",
+    "outDir": "../../dist/components/organisms/lib",
     "types": ["node"]
   },
   "exclude": ["**/*.spec.ts", "**/*.spec.tsx"],

@@ -29,6 +29,7 @@ export const FontFamily = {
   SANS: "font-sans",
   SERIF: "font-serif",
   MONO: "font-mono",
+  ATARI: "font-Atari",
 };
 
 export const TextTransform = {
@@ -77,7 +78,7 @@ export const Text: FC<TextProps> = props => {
   return (
     <p
       className={clsx(
-        "leading-6 text-black",
+        "leading-6",
         className,
         size,
         weight,

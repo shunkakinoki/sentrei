@@ -23,18 +23,37 @@ if [[ $APP ]]; then
     npm install -D @nrwl/workspace@$NX_VERSION typescript@$TS_VERSION --prefer-offline
   fi
 
-  CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  if [ $VERCEL ]; then
+    CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+  fi
+
+  if [ $GITHUB_ACTIONS ]; then
+    if [ $GITHUB_BASE_REF ]; then
+      CHANGED=$(npx nx affected:apps --plain --base origin/$GITHUB_BASE_REF --head HEAD)
+    else
+      CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
+    fi
+  fi
+
   echo $CHANGED | grep $APP -q
 
   if [ $? -eq 1 ]; then
     echo "🛑 - Build cancelled at $APP - $CHANGED"
     exit 0
   elif [[ "$VERCEL_ENV" == "production" ]]; then
-      echo "✅ - Build can proceed in production at $APP - $CHANGED"
+      echo "✅ - Build can proceed in vercel production at $APP - $CHANGED"
       exit 1
   elif [[ "$VERCEL_ENV" == "preview" && ( "$APP" == "design" || "$APP" == "sentrei" ) ]]; then
-      echo "❎ - Build can proceed in preview at $APP - $CHANGED"
+      echo "❎ - Build can proceed in vercel preview at $APP - $CHANGED"
       exit 1
+  elif [ $GITHUB_ACTIONS ]; then
+      echo "✅ - Build can proceed in github actions at $APP - $CHANGED"
+      yarn run build:$APP
+      if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+        cd apps/$APP
+        yarn run serverless
+      fi
+      exit 0
   else
     echo "🌼 - Build not proceeding at $APP - $CHANGED"
     exit 0

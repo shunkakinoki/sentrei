@@ -1,11 +1,24 @@
 import clsx from "clsx";
-import { ImgHTMLAttributes, FC, ElementType, ReactElement } from "react";
+import type { ImgHTMLAttributes, FC, ElementType, ReactElement } from "react";
 
-//TODO:
-// eslint-disable-next-line no-restricted-imports
-import { omit } from "../../../utils/object";
+export type Dict<T = any> = Record<string, T>;
 
-import { UseImage, UseImageProps } from "./useImage";
+export const omit = <T extends Dict, K extends keyof T>(
+  object: T,
+  keys: K[],
+) => {
+  const result: Dict = {};
+
+  Object.keys(object).forEach(key => {
+    if (keys.includes(key as K)) return;
+    result[key] = object[key];
+  });
+
+  return result as Omit<T, K>;
+};
+
+import type { UseImageProps } from "./useImage";
+import { UseImage } from "./useImage";
 
 export interface NativeImageProps extends ImgHTMLAttributes<HTMLImageElement> {
   width?: string | number;

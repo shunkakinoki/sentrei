@@ -1,6 +1,5 @@
-import chrome from "chrome-aws-lambda";
-import type { Page } from "puppeteer-core";
-import * as core from "puppeteer-core";
+import * as playwright from "playwright-aws-lambda";
+import type { Page, LaunchOptions } from "playwright-core";
 
 import { OG_HEIGHT, OG_WIDTH } from "@sentrei/og-sentrei-com/const/og";
 import type { FileType } from "@sentrei/og-sentrei-com/types";
@@ -14,14 +13,8 @@ const exePath =
     ? "/usr/bin/google-chrome"
     : "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
-interface Options {
-  args: string[];
-  executablePath: string;
-  headless: boolean;
-}
-
-export const getOptions = async (isDev: boolean): Promise<Options> => {
-  let options: Options;
+export const getOptions = (isDev: boolean): LaunchOptions => {
+  let options: LaunchOptions;
   if (isDev) {
     options = {
       args: [],
@@ -30,33 +23,30 @@ export const getOptions = async (isDev: boolean): Promise<Options> => {
     };
   } else {
     options = {
-      args: chrome.args,
-      executablePath: await chrome.executablePath,
-      headless: chrome.headless,
+      args: playwright.getChromiumArgs(true),
+      headless: true,
     };
   }
 
   return options;
 };
 
-const getPage = async (isDev: boolean): Promise<Page> => {
+const getPage = async (isDev: boolean) => {
   if (_page) {
     return _page;
   }
-  const options = await getOptions(isDev);
 
-  await chrome.font(
-    "https://raw.githack.com/minoryorg/Noto-Sans-CJK-JP/master/fonts/NotoSansCJKjp-Medium.ttf",
+  const options = getOptions(isDev);
+  await playwright.loadFont(
+    "https://raw.githack.com/minoryorg/Noto-Sans-CJK-JP/master/fonts/NotoSansCJKjp-Regular.ttf",
   );
-  await chrome.font(
-    "https://raw.githack.com/googlefonts/noto-cjk/main/Sans/Variable/TTF/NotoSansCJKsc-VF.ttf",
-  );
-  await chrome.font(
+  await playwright.loadFont(
     "https://raw.githack.com/googlei18n/noto-emoji/master/fonts/NotoColorEmoji.ttf",
   );
+  const browser = await playwright.launchChromium(options);
+  const context = await browser.newContext();
 
-  const browser = await core.launch(options);
-  _page = await browser.newPage();
+  _page = await context.newPage();
   return _page;
 };
 
@@ -66,7 +56,7 @@ export const getScreenshot = async (
   isDev: boolean,
 ): Promise<string | void | Buffer> => {
   const page = await getPage(isDev);
-  await page.setViewport({ width: OG_WIDTH, height: OG_HEIGHT });
+  await page.setViewportSize({ width: OG_WIDTH, height: OG_HEIGHT });
   await page.setContent(html);
   const file = await page.screenshot({ type });
   return file;

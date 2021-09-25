@@ -1,3 +1,27 @@
+# @sentrei/tailwindcss [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.2...@sentrei/tailwindcss@1.4.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+
+## @sentrei/tailwindcss [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.1...@sentrei/tailwindcss@1.3.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini tailwindcss config ([4cd1c5d](https://github.com/sentrei/sentrei/commit/4cd1c5dd5045620d99a24c64f37b27465c4a4b99))
+
+## @sentrei/tailwindcss [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.0...@sentrei/tailwindcss@1.3.1) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
+# @sentrei/tailwindcss [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.2.0...@sentrei/tailwindcss@1.3.0) (2021-09-23)
+
+### Features
+
+- ini app mosh lol with json sort ([3bd1255](https://github.com/sentrei/sentrei/commit/3bd12550f6f1a2be250c0497c665e79e9d1ecd88))
+
 # @sentrei/tailwindcss [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.1.3...@sentrei/tailwindcss@1.2.0) (2021-09-21)
 
 ### Features

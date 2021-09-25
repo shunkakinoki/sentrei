@@ -13,8 +13,8 @@
 
   to {
     filter:
-      drop-shadow(0 0 20px #fff) drop-shadow(0 0 16px #e60073)
-      drop-shadow(0 0 16px #e60073);
+      drop-shadow(0 0 10px #fff) drop-shadow(0 0 12px #e60073)
+      drop-shadow(0 0 12px #e60073);
   }
 }
 /* stylelint-enable */

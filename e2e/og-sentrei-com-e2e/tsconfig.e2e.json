@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "sourceMap": false,
-    "outDir": "../../dist/out-tsc",
     "allowJs": true,
+    "outDir": "../../dist/e2e/og-sentrei-com-e2e/out",
+    "sourceMap": false,
     "types": ["cypress", "node"]
   },
   "extends": "./tsconfig.json",
