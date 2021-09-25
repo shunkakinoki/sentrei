@@ -1,3 +1,9 @@
+# @sentrei/tailwindcss [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.2...@sentrei/tailwindcss@1.4.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+
 ## @sentrei/tailwindcss [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.1...@sentrei/tailwindcss@1.3.2) (2021-09-25)
 
 ### Performance Improvements
