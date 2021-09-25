@@ -11,6 +11,7 @@ module.exports = {
     require("@tailwindcss/line-clamp"),
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
+    require("tailwindcss-border-gradients")(),
   ],
   purge: [
     join(__dirname, "src/**/*.{js,ts,jsx,tsx}"),
@@ -115,6 +116,14 @@ module.exports = {
           },
         },
       },
+      linearBorderGradients: theme => {
+        return {
+          colors: theme("colors"),
+        };
+      },
     },
+  },
+  variants: {
+    linearBorderGradients: ["responsive", "hover", "dark"],
   },
 };
