@@ -108,6 +108,7 @@
     "start:www-thisweekindaos-com": "cross-env NODE_ENV=production nx serve www-thisweekindaos-com --prod",
     "stylelint:fix": "stylelint './**/*.css' --fix",
     "stylelint:lint": "stylelint './**/*.css'",
+    "tailwindcss:config": "tailwind-config-viewer -o",
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {

@@ -25,6 +25,7 @@
     "@tailwindcss/line-clamp": "^0.2.1",
     "@tailwindcss/typography": "^0.4.1",
     "@types/tailwindcss": "^2.2.1",
+    "tailwind-config-viewer": "^1.6.2",
     "tailwindcss": "^2.2.15"
   },
   "publishConfig": {

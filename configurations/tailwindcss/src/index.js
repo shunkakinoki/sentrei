@@ -66,7 +66,7 @@ module.exports = {
         lime: colors.lime,
         orange: colors.orange,
         rose: colors.rose,
-        secondary: colors.purple,
+        purple: colors.purple,
         sky: colors.sky,
         teal: colors.teal,
         trueGray: colors.trueGray,
