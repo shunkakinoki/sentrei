@@ -49,8 +49,10 @@ if [[ $APP ]]; then
   elif [ $GITHUB_ACTIONS ]; then
       echo "✅ - Build can proceed in github actions at $APP - $CHANGED"
       yarn run build:$APP
-      cd apps/$APP
-      yarn run serverless
+      if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+        cd apps/$APP
+        yarn run serverless
+      fi
       exit 0
   else
     echo "🌼 - Build not proceeding at $APP - $CHANGED"
