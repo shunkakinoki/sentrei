@@ -1,3 +1,10 @@
+# @sentrei/molecules [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.2...@sentrei/molecules@1.9.0) (2021-09-25)
+
+### Features
+
+- add GameTextDialog molecules ([a32017a](https://github.com/sentrei/sentrei/commit/a32017a0b14c887d19f1617f1d3b08633a581400))
+- wip game dialog molecule ([4ca9697](https://github.com/sentrei/sentrei/commit/4ca96975c0b42d330469b77f26e1fe9cc3539ebc))
+
 ## @sentrei/molecules [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.1...@sentrei/molecules@1.8.2) (2021-09-25)
 
 ### Performance Improvements
