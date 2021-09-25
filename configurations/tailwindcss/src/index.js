@@ -122,6 +122,9 @@ module.exports = {
         };
       },
     },
+    fontFamily: {
+      Atari: ["AtariClassic"],
+    },
   },
   variants: {
     linearBorderGradients: ["responsive", "hover", "dark"],
