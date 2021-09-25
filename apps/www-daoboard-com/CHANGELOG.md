@@ -1,3 +1,9 @@
+## @sentrei/www-daoboard-com [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.1...@sentrei/www-daoboard-com@1.2.2) (2021-09-25)
+
+### Performance Improvements
+
+- ini modal screen ([c739e1e](https://github.com/sentrei/sentrei/commit/c739e1e5a0f16588b574e0b7590d6e2062f90166))
+
 ## @sentrei/www-daoboard-com [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.0...@sentrei/www-daoboard-com@1.2.1) (2021-09-23)
 
 ### Performance Improvements
