@@ -71,6 +71,9 @@
     "eslint": {
       "tags": ["scope:configuration"]
     },
+    "hooks": {
+      "tags": ["scope:lib"]
+    },
     "husky": {
       "tags": ["scope:configuration"]
     },
@@ -79,6 +82,9 @@
     },
     "lint-staged": {
       "tags": ["scope:configuration"]
+    },
+    "models": {
+      "tags": ["scope:lib"]
     },
     "molecules": {
       "tags": ["scope:component"]
