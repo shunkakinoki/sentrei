@@ -1,3 +1,9 @@
+# [1.54.0](https://github.com/sentrei/sentrei/compare/v1.53.7...v1.54.0) (2021-09-25)
+
+### Features
+
+- ini landing daoboard ([28640f4](https://github.com/sentrei/sentrei/commit/28640f401ed225086893202902b791acb06b9f80))
+
 ## [1.53.7](https://github.com/sentrei/sentrei/compare/v1.53.6...v1.53.7) (2021-09-25)
 
 ### Performance Improvements
