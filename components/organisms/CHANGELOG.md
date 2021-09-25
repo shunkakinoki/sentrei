@@ -1,3 +1,9 @@
+## @sentrei/organisms [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.8.0...@sentrei/organisms@1.8.1) (2021-09-25)
+
+### Performance Improvements
+
+- ini ncu upgrade ([0e095f3](https://github.com/sentrei/sentrei/commit/0e095f3d4bf216f7cf9955629fbb469a4f1ee43d))
+
 # @sentrei/organisms [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.7.1...@sentrei/organisms@1.8.0) (2021-09-24)
 
 ### Features
