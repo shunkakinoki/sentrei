@@ -1,3 +1,9 @@
+# @sentrei/molecules [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.9.0...@sentrei/molecules@1.10.0) (2021-09-25)
+
+### Features
+
+- ini parallax ([63e51f8](https://github.com/sentrei/sentrei/commit/63e51f81ef57b40350ec3763975867ae09d15ee2))
+
 # @sentrei/molecules [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.8.2...@sentrei/molecules@1.9.0) (2021-09-25)
 
 ### Features
