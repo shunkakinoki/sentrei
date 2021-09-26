@@ -1,6 +1,10 @@
 import LogoImage from "@public/Daoboard.png";
 import { GlowLogo } from "@sentrei/molecules";
-import { FooterLogo, CountdownClock } from "@sentrei/organisms";
+import {
+  FooterLogo,
+  CountdownClock,
+  DaoboardButtonCTA,
+} from "@sentrei/organisms";
 import moment from "moment";
 import dynamic from "next/dynamic";
 
@@ -25,6 +29,7 @@ export const LandingDaoboardScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
+            <DaoboardButtonCTA />
             <FooterLogo twitter="https://twitter.com/daoboard" />
           </div>
         </div>

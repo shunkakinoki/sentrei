@@ -1,12 +1,12 @@
 import { Button, ButtonLink } from "@sentrei/atoms";
 
-import { useModalScreen } from "@sentrei/hooks";
+import { useModalWindow } from "@sentrei/hooks";
 import type { FC } from "react";
 
 import { ButtonCTA } from "@sentrei/organisms";
 
 export const MoshButtonCTA: FC = () => {
-  const [, setModalOpen] = useModalScreen();
+  const [, setModalOpen] = useModalWindow();
 
   const openModal = () => {
     setModalOpen(true);
