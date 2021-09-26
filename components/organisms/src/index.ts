@@ -1,6 +1,7 @@
-export { ButtonCTA } from "./ButtonCTA";
-export { ButtonSection } from "./ButtonSection";
-export { FaqSection } from "./FaqSection";
-export { FooterLogo } from "./FooterLogo";
-export { CountdownClock } from "./CountdownClock";
-export { VaporGrid } from "./VaporGrid";
+export * from "./ButtonCTA";
+export * from "./ButtonSection";
+export * from "./FaqSection";
+export * from "./FooterLogo";
+export * from "./ModalWindow";
+export * from "./CountdownClock";
+export * from "./VaporGrid";

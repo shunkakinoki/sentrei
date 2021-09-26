@@ -1,7 +1,9 @@
-import Link, { LinkProps } from "next/link";
-import { FC } from "react";
+import type { LinkProps } from "next/link";
+import Link from "next/link";
+import type { FC } from "react";
 
-import { Button, ButtonProps } from "@sentrei/atoms";
+import type { ButtonProps } from "@sentrei/atoms";
+import { Button } from "@sentrei/atoms";
 
 export type ButtonLinkProps = LinkProps & ButtonProps;
 

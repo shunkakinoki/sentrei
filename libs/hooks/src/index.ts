@@ -1,3 +1,3 @@
 export * from "./useMobileMenu";
-export * from "./useModalScreen";
+export * from "./useModalWindow";
 export * from "./useToastNotification";
