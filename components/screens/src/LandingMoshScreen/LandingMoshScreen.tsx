@@ -6,7 +6,7 @@ import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
 import { useModalScreen } from "@sentrei/hooks";
 import { GlowLogo, ModalScreen } from "@sentrei/molecules";
 import {
-  ButtonCTA,
+  MoshButtonCTA,
   FooterLogo,
   CountdownClock,
   FaqSection,
@@ -272,7 +272,7 @@ export const LandingMoshScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
-            <ButtonCTA />
+            <MoshButtonCTA />
             <FooterLogo
               discord="https://discord.gg/SsF2QejwvZ"
               github="https://github.com/sentrei/sentrei"
