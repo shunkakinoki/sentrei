@@ -1,6 +1,7 @@
 import LogoImage from "@public/Daoboard.png";
 import { GlowLogo } from "@sentrei/molecules";
 import {
+  DaoboardModalWindow,
   FooterLogo,
   CountdownClock,
   DaoboardButtonCTA,
@@ -21,6 +22,7 @@ const Grid = dynamic(async () => {
 export const LandingDaoboardScreen = () => {
   return (
     <div className="w-full min-h-screen bg-gradient-to-tr from-blue-600 via-purple-600 to-orange-500">
+      <DaoboardModalWindow />
       <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
