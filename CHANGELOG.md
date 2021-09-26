@@ -1,3 +1,9 @@
+## [1.57.1](https://github.com/sentrei/sentrei/compare/v1.57.0...v1.57.1) (2021-09-26)
+
+### Performance Improvements
+
+- upgrade yarn lock ([440ddb2](https://github.com/sentrei/sentrei/commit/440ddb21b42f32b8a0738c9429c88bc179b3490d))
+
 # [1.57.0](https://github.com/sentrei/sentrei/compare/v1.56.0...v1.57.0) (2021-09-25)
 
 ### Features
