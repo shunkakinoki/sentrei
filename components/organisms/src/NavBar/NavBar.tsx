@@ -1,9 +1,10 @@
 import { Link, Image } from "@sentrei/atoms";
 import { useModalScreen } from "@sentrei/hooks";
+import { ModalScreen } from "@sentrei/molecules";
 
 import clsx from "clsx";
-
 import type { FC, ReactNode } from "react";
+import { createPortal } from "react-dom";
 
 interface navItem {
   url?: string;
@@ -16,28 +17,47 @@ export interface NavBarProps {
   className?: string;
   logoSrc: string;
   items: navItem[];
+  bgColor?: string;
 }
 
 export const NavBar: FC<NavBarProps> = props => {
-  const { className, logoSrc, items } = props;
+  const { className, logoSrc, items, bgColor = "bg-black" } = props;
   const [, setModalOpen] = useModalScreen();
 
   const openModal = () => {
     setModalOpen(true);
   };
+
+  const Modal: FC<{ children: ReactNode }> = ({ children }) => {
+    return createPortal(
+      <ModalScreen>
+        <div
+          className={clsx(
+            "inline-block overflow-y-scroll p-6 my-8 w-full md:w-[80%] h-[90vh] md:h-[80vh] text-left align-middle bg-radial rounded-2xl shadow-2xl opacity-95 drop-shadow-2xl transition-all transform",
+            bgColor,
+          )}
+        >
+          {children}
+        </div>
+      </ModalScreen>,
+      document.getElementById("root"),
+    );
+  };
+
   const renderItems = () => {
     return items.map(item => {
       if (item.showModal) {
         return (
           <>
-            {/* <div
+            {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
+            <div
               className="text-white visited:text-white hover:text-white no-underline hover:underline cursor-pointer"
+              onKeyDown={openModal}
               onClick={openModal}
             >
               {item.title}
-            </div> */}
-            {/* <ModalScreen>{item.modalContent}</ModalScreen> //TODO: show
-            modal */}
+            </div>
+            <Modal>{item.modalContent}</Modal>
           </>
         );
       } else {
@@ -56,7 +76,7 @@ export const NavBar: FC<NavBarProps> = props => {
 
   return (
     <>
-      <header className={clsx("bg-indigo-600", className)}>
+      <header className={clsx(bgColor, className)}>
         <nav
           className="px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl"
           aria-label="Top"
