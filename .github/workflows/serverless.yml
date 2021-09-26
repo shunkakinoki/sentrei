@@ -15,6 +15,7 @@ jobs:
           [
             app-mosh-lol,
             app-sentrei-com,
+            play-mosh-lol,
             og-sentrei-com,
             wiki-sentrei-com,
             www-daoboard-com,

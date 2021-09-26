@@ -1,0 +1,19 @@
+"@sentrei/play-mosh-lol":
+  component: "../../node_modules/@sls-next/serverless-component"
+  inputs:
+    build:
+      cmd: "cp"
+      args: ["-r", "../../dist/apps/play-mosh-lol/.", "."]
+      cwd: ./
+      env: {}
+    bucketRegion: "us-east-1"
+    bucketName: "play-mosh-lol"
+    certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/8f01e5c5-03f2-4762-a32a-0dc93a12030d"
+    domain: ["app", "mosh.lol"]
+    name:
+      defaultLambda: "play-mosh-lol-lambda"
+      apiLambda: "play-mosh-lol-api-lambda"
+      imageLambda: "play-mosh-lol-image-lambda"
+    runtime: "nodejs14.x"
+    timeout: 30
+    useServerlessTraceTarget: true
