@@ -43,6 +43,7 @@
     "og-sentrei-com": "apps/og-sentrei-com",
     "og-sentrei-com-e2e": "e2e/og-sentrei-com-e2e",
     "organisms": "components/organisms",
+    "playwright": "configurations/playwright",
     "postcss": "configurations/postcss",
     "prettier": "configurations/prettier",
     "react": "configurations/react",

@@ -78,6 +78,7 @@
       "tags": ["scope:configuration"]
     },
     "jest": {
+      "implicitDependencies": ["playwright"],
       "tags": ["scope:configuration"]
     },
     "lint-staged": {
@@ -109,6 +110,9 @@
     },
     "organisms": {
       "tags": ["scope:component"]
+    },
+    "playwright": {
+      "tags": ["scope:configuration"]
     },
     "postcss": {
       "tags": ["scope:configuration"]
