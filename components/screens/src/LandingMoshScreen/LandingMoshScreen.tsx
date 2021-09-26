@@ -95,7 +95,7 @@ export const LandingMoshScreen = () => {
       />
       <ModalScreen>
         <div className="inline-block overflow-y-scroll p-6 my-8 w-full md:w-[80%] h-[90vh] md:h-[80vh] text-left align-middle bg-radial from-purple-900 to-indigo-500 rounded-2xl shadow-2xl opacity-95 drop-shadow-2xl transition-all transform">
-          <div className="block absolute top-0 right-0 pt-4 pr-4">
+          <div className="absolute top-0 right-0 pt-4 pr-4">
             <button
               type="button"
               className="text-gray-200 hover:text-gray-100 rounded-md focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none"
@@ -103,7 +103,7 @@ export const LandingMoshScreen = () => {
             >
               <span className="sr-only">Close</span>
               <svg
-                className="w-6 h-6"
+                className="w-8 sm:w-10 h-8 sm:h-10"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
