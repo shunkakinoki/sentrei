@@ -61,3 +61,7 @@ jobs:
           aws-region: us-east-1
       - run: |
           bash script.sh ${{ matrix.app }}
+      - if: always()
+        uses: codecov/codecov-action@v2
+        with:
+          directory: coverage
