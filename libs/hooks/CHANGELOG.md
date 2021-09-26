@@ -1,3 +1,9 @@
+# @sentrei/hooks [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/hooks@1.3.2...@sentrei/hooks@1.4.0) (2021-09-26)
+
+### Features
+
+- ini play mosh ([a1b670f](https://github.com/sentrei/sentrei/commit/a1b670f59edd63b06eb6fb4fb6d3d17aa6fbb6d6))
+
 ## @sentrei/hooks [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/hooks@1.3.1...@sentrei/hooks@1.3.2) (2021-09-25)
 
 ### Performance Improvements
