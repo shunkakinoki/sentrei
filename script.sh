@@ -49,7 +49,9 @@ if [[ $APP ]]; then
   elif [ $GITHUB_ACTIONS ]; then
       echo "✅ - Build can proceed in github actions at $APP - $CHANGED"
       yarn run build:$APP
-      if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+      if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+        yarn run e2e:$APP
+      elif [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
         cd apps/$APP
         yarn run serverless
       fi
