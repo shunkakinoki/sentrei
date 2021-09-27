@@ -13,6 +13,7 @@ jobs:
       matrix:
         app:
           [
+            app-daoboard-com,
             app-mosh-lol,
             app-sentrei-com,
             play-mosh-lol,
