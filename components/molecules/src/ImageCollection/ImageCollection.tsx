@@ -1,6 +1,6 @@
 import { Image } from "@sentrei/atoms";
+import type { ImageProps } from "@sentrei/atoms";
 import clsx from "clsx";
-import type { ImageProps } from "components/atoms/src/Image/Image";
 import type { FC } from "react";
 
 export interface ImageCollectionProps {
