@@ -1,4 +1,4 @@
-export { AppRoot } from "./AppRoot";
-export { AnalyticsRoot } from "./AnalyticsRoot";
-export { DocumentRoot } from "./DocumentRoot";
-export { SeoRoot } from "./SeoRoot";
+export * from "./AppRoot";
+export * from "./AnalyticsRoot";
+export * from "./DocumentRoot";
+export * from "./SeoRoot";

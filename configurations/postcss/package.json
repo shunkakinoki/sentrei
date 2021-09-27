@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/postcss",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.3",
-    "postcss": "^8.3.7",
+    "postcss": "^8.3.8",
     "postcss-loader": "^6.1.1",
     "postcss-nested": "^5.0.6"
   },

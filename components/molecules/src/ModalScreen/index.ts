@@ -1,1 +1,0 @@
-export { ModalScreen } from "./ModalScreen";
