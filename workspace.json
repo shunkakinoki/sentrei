@@ -18,7 +18,7 @@
   },
   "projects": {
     "app-daoboard-com": "apps/app-daoboard-com",
-    "app-daoboard-com-e2e": "e2e/app-daobaord-com-e2e",
+    "app-daoboard-com-e2e": "e2e/app-daoboard-com-e2e",
     "app-mosh-lol": "apps/app-mosh-lol",
     "app-mosh-lol-e2e": "e2e/app-mosh-lol-e2e",
     "app-sentrei-com": "apps/app-sentrei-com",

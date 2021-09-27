@@ -1,8 +1,5 @@
 {
   "css.validate": false,
-  "dotfiles.installCommand": "~/dotfiles/install.sh",
-  "dotfiles.repository": "shunkakinoki/dotfiles",
-  "dotfiles.targetPath": "~/dotfiles",
   "i18n-ally.enabledFrameworks": ["i18next", "react"],
   "i18n-ally.enabledParsers": ["js", "json", "ts"],
   "i18n-ally.keystyle": "nested",
