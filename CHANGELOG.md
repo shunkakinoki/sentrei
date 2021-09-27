@@ -1,3 +1,9 @@
+# [1.59.0](https://github.com/sentrei/sentrei/compare/v1.58.0...v1.59.0) (2021-09-27)
+
+### Features
+
+- ini app daoboard com ([ef21ace](https://github.com/sentrei/sentrei/commit/ef21acece86e574ae2310fce2d96b6d5a9657fee))
+
 # [1.58.0](https://github.com/sentrei/sentrei/compare/v1.57.1...v1.58.0) (2021-09-26)
 
 ### Features
