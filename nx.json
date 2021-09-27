@@ -78,6 +78,7 @@
       "tags": ["scope:configuration"]
     },
     "jest": {
+      "implicitDependencies": ["playwright"],
       "tags": ["scope:configuration"]
     },
     "lint-staged": {
@@ -109,6 +110,17 @@
     },
     "organisms": {
       "tags": ["scope:component"]
+    },
+    "play-mosh-lol": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "play-mosh-lol-e2e": {
+      "implicitDependencies": ["play-mosh-lol"],
+      "tags": ["scope:e2e"]
+    },
+    "playwright": {
+      "tags": ["scope:configuration"]
     },
     "postcss": {
       "tags": ["scope:configuration"]

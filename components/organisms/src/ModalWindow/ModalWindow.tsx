@@ -1,15 +1,15 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { useModalScreen } from "@sentrei/hooks";
+import { useModalWindow } from "@sentrei/hooks";
 import type { FC, ReactNode } from "react";
 import { Fragment } from "react";
 
-export interface ModalScreenProps {
+export interface ModalWindowProps {
   className?: string;
   children?: ReactNode;
 }
 
-export const ModalScreen: FC<ModalScreenProps> = ({ children }) => {
-  const [isModalOpen, setModalOpen] = useModalScreen();
+export const ModalWindow: FC<ModalWindowProps> = ({ children }) => {
+  const [isModalOpen, setModalOpen] = useModalWindow();
 
   const closeModal = () => {
     setModalOpen(false);

@@ -3,9 +3,14 @@ import LogoImage from "@public/www-mosh-lol/Logo.png";
 import PurpleHandImage from "@public/www-mosh-lol/PurpleHand.png";
 import RedWaveImage from "@public/www-mosh-lol/RedWave.png";
 import SunshineImage from "@public/www-mosh-lol/Sunshine.png";
-import { useModalScreen } from "@sentrei/hooks";
-import { GlowLogo, ModalScreen } from "@sentrei/molecules";
-import { ButtonCTA, FooterLogo, CountdownClock } from "@sentrei/organisms";
+import { useModalWindow } from "@sentrei/hooks";
+import { GlowLogo } from "@sentrei/molecules";
+import {
+  MoshButtonCTA,
+  FooterLogo,
+  CountdownClock,
+  MoshModalWindow,
+} from "@sentrei/organisms";
 import clsx from "clsx";
 import moment from "moment";
 import dynamic from "next/dynamic";
@@ -22,11 +27,7 @@ const Grid = dynamic(async () => {
 });
 
 export const LandingMoshScreen = () => {
-  const [isModalOpen, setModalOpen] = useModalScreen();
-
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+  const [isModalOpen] = useModalWindow();
 
   return (
     <div
@@ -88,40 +89,7 @@ export const LandingMoshScreen = () => {
         objectFit="cover"
         objectPosition="center"
       />
-      <ModalScreen>
-        <div className="inline-block overflow-y-scroll p-6 my-8 w-full md:w-[80%] h-[90vh] md:h-[80vh] text-left align-middle bg-radial from-purple-900 to-indigo-500 rounded-2xl shadow-2xl opacity-95 drop-shadow-2xl transition-all transform">
-          <div className="block absolute top-0 right-0 pt-4 pr-4">
-            <button
-              type="button"
-              className="text-gray-200 hover:text-gray-100 rounded-md focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none"
-              onClick={closeModal}
-            >
-              <span className="sr-only">Close</span>
-              <svg
-                className="w-6 h-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-          </div>
-          <div className="flex overflow-visible flex-col">
-            <GlowLogo src={LogoImage} />
-            <h1 className="font-mono text-5xl font-extrabold tracking-tighter text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-200 to-indigo-300 animate-fade-in-up ">
-              A cross-chain NFT experiment.
-            </h1>
-          </div>
-        </div>
-      </ModalScreen>
+      <MoshModalWindow />
       <body>
         <div className="flex overflow-visible absolute inset-x-0 top-0 justify-center items-center h-2/3 sm:h-3/5">
           <div className="flex-col mt-12 sm:mt-16 md:mt-24 xl:mt-36">
@@ -130,7 +98,7 @@ export const LandingMoshScreen = () => {
               date={moment(process.env.NEXT_PUBLIC_LAUNCH)}
               onComplete={() => {}}
             />
-            <ButtonCTA />
+            <MoshButtonCTA />
             <FooterLogo
               discord="https://discord.gg/SsF2QejwvZ"
               github="https://github.com/sentrei/sentrei"

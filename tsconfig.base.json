@@ -34,6 +34,7 @@
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],
+      "@sentrei/play-mosh-lol/*": ["apps/play-mosh-lol/src/*"],
       "@sentrei/roots": ["components/roots/src/index.ts"],
       "@sentrei/screens": ["components/screens/src/index.ts"],
       "@sentrei/segment": ["packages/segment/src/index.ts"],

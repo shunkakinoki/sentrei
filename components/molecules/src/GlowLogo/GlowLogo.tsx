@@ -8,7 +8,7 @@ type LogoGlowProps = Pick<ImageProps, "src">;
 
 export const GlowLogo: FC<LogoGlowProps> = ({ src }) => {
   return (
-    <div className="relative w-full animate-fade-in-down">
+    <div className="overflow-x-hidden relative mt-6 w-full animate-fade-in-down">
       <Image
         priority
         alt="logo"

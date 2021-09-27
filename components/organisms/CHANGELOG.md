@@ -1,3 +1,19 @@
+# @sentrei/organisms [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.9.0...@sentrei/organisms@1.10.0) (2021-09-26)
+
+### Features
+
+- ini play mosh ([a1b670f](https://github.com/sentrei/sentrei/commit/a1b670f59edd63b06eb6fb4fb6d3d17aa6fbb6d6))
+
+### Performance Improvements
+
+- refactor copmonents packages ([6f43fb4](https://github.com/sentrei/sentrei/commit/6f43fb493c15eb2b37d1c8f8729d3a974e201562))
+
+# @sentrei/organisms [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.8.2...@sentrei/organisms@1.9.0) (2021-09-25)
+
+### Features
+
+- ini faq sections ([6a8cd1a](https://github.com/sentrei/sentrei/commit/6a8cd1adbf33badc87b0c8c8fcf98ef3e0aa8ff0))
+
 ## @sentrei/organisms [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.8.1...@sentrei/organisms@1.8.2) (2021-09-25)
 
 ### Performance Improvements

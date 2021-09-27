@@ -1,3 +1,9 @@
+## @sentrei/roots [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.4.1...@sentrei/roots@1.4.2) (2021-09-26)
+
+### Performance Improvements
+
+- refactor copmonents packages ([6f43fb4](https://github.com/sentrei/sentrei/commit/6f43fb493c15eb2b37d1c8f8729d3a974e201562))
+
 ## @sentrei/roots [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/roots@1.4.0...@sentrei/roots@1.4.1) (2021-09-23)
 
 ### Performance Improvements

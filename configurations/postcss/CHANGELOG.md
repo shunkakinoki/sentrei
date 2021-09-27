@@ -1,3 +1,9 @@
+## @sentrei/postcss [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.2...@sentrei/postcss@1.4.3) (2021-09-26)
+
+### Performance Improvements
+
+- upgrade yarn lock ([440ddb2](https://github.com/sentrei/sentrei/commit/440ddb21b42f32b8a0738c9429c88bc179b3490d))
+
 ## @sentrei/postcss [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.1...@sentrei/postcss@1.4.2) (2021-09-22)
 
 ### Bug Fixes
