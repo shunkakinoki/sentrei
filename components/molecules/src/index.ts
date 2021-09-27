@@ -3,3 +3,4 @@ export { CircleIndicator } from "./CircleIndicator";
 export { GlowLogo } from "./GlowLogo";
 export { Parallax } from "./Parallax";
 export { ModalScreen } from "./ModalScreen";
+export { Notification } from "./Notification";
