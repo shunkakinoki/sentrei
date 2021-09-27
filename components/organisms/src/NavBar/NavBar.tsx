@@ -1,10 +1,11 @@
 import { Link, Image } from "@sentrei/atoms";
-import { useModalScreen } from "@sentrei/hooks";
-import { ModalScreen } from "@sentrei/molecules";
+import { useModalWindow } from "@sentrei/hooks";
 
 import clsx from "clsx";
 import type { FC, ReactNode } from "react";
 import { createPortal } from "react-dom";
+
+import { ModalWindow } from "@sentrei/organisms";
 
 interface navItem {
   url?: string;
@@ -22,7 +23,7 @@ export interface NavBarProps {
 
 export const NavBar: FC<NavBarProps> = props => {
   const { className, logoSrc, items, bgColor = "bg-black" } = props;
-  const [, setModalOpen] = useModalScreen();
+  const [, setModalOpen] = useModalWindow();
 
   const openModal = () => {
     setModalOpen(true);
@@ -30,7 +31,7 @@ export const NavBar: FC<NavBarProps> = props => {
 
   const Modal: FC<{ children: ReactNode }> = ({ children }) => {
     return createPortal(
-      <ModalScreen>
+      <ModalWindow>
         <div
           className={clsx(
             "inline-block overflow-y-scroll p-6 my-8 w-full md:w-[80%] h-[90vh] md:h-[80vh] text-left align-middle bg-radial rounded-2xl shadow-2xl opacity-95 drop-shadow-2xl transition-all transform",
@@ -39,7 +40,7 @@ export const NavBar: FC<NavBarProps> = props => {
         >
           {children}
         </div>
-      </ModalScreen>,
+      </ModalWindow>,
       document.getElementById("root"),
     );
   };
