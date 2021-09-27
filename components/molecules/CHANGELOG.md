@@ -1,3 +1,9 @@
+# @sentrei/molecules [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.11.0...@sentrei/molecules@1.12.0) (2021-09-27)
+
+### Features
+
+- ini newsletter component ([607040a](https://github.com/sentrei/sentrei/commit/607040aaba64d9788c6bcde52fa83d72209c2d31))
+
 # @sentrei/molecules [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.10.0...@sentrei/molecules@1.11.0) (2021-09-26)
 
 ### Features
