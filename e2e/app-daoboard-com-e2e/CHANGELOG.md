@@ -1,3 +1,9 @@
+# @sentrei/app-daoboard-com-e2e 1.0.0 (2021-09-27)
+
+### Features
+
+- ini app daoboard com ([ef21ace](https://github.com/sentrei/sentrei/commit/ef21acece86e574ae2310fce2d96b6d5a9657fee))
+
 ## @sentrei/app-daoboard-com-e2e [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/app-daoboard-com-e2e@1.1.0...@sentrei/app-daoboard-com-e2e@1.1.1) (2021-09-23)
 
 ### Performance Improvements
