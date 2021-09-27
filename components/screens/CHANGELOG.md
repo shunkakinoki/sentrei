@@ -1,3 +1,9 @@
+# @sentrei/screens [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.9.0...@sentrei/screens@1.10.0) (2021-09-27)
+
+### Features
+
+- ini newsletter component ([607040a](https://github.com/sentrei/sentrei/commit/607040aaba64d9788c6bcde52fa83d72209c2d31))
+
 # @sentrei/screens [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.8.0...@sentrei/screens@1.9.0) (2021-09-26)
 
 ### Features
