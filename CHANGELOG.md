@@ -1,3 +1,9 @@
+# [1.60.0](https://github.com/sentrei/sentrei/compare/v1.59.0...v1.60.0) (2021-09-27)
+
+### Features
+
+- ini newsletter component ([607040a](https://github.com/sentrei/sentrei/commit/607040aaba64d9788c6bcde52fa83d72209c2d31))
+
 # [1.59.0](https://github.com/sentrei/sentrei/compare/v1.58.0...v1.59.0) (2021-09-27)
 
 ### Features
