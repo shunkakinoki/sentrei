@@ -1,3 +1,9 @@
+## @sentrei/remotion [1.1.6](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.5...@sentrei/remotion@1.1.6) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/bundler to ^2.4.0 ([210acb6](https://github.com/sentrei/sentrei/commit/210acb69af3dbd3451b0f4c0671a5e2169699df4))
+
 ## @sentrei/remotion [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.4...@sentrei/remotion@1.1.5) (2021-09-28)
 
 ### Bug Fixes
