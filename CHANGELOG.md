@@ -1,3 +1,9 @@
+## [1.60.12](https://github.com/sentrei/sentrei/compare/v1.60.11...v1.60.12) (2021-09-28)
+
+### Performance Improvements
+
+- ini app daoboard ([c33dcb5](https://github.com/sentrei/sentrei/commit/c33dcb5b4024fb8e0b85ae5c094a5d12f0783d65))
+
 ## [1.60.11](https://github.com/sentrei/sentrei/compare/v1.60.10...v1.60.11) (2021-09-28)
 
 ### Bug Fixes
