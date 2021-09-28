@@ -1,3 +1,9 @@
+## [1.60.13](https://github.com/sentrei/sentrei/compare/v1.60.12...v1.60.13) (2021-09-28)
+
+### Performance Improvements
+
+- upgrade tailwindcss packages ([9fe92ec](https://github.com/sentrei/sentrei/commit/9fe92ec1c6f3945e8a40bd9788b765850914be13))
+
 ## [1.60.12](https://github.com/sentrei/sentrei/compare/v1.60.11...v1.60.12) (2021-09-28)
 
 ### Performance Improvements
