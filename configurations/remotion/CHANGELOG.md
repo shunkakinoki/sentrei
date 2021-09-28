@@ -1,3 +1,9 @@
+## @sentrei/remotion [1.1.4](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.3...@sentrei/remotion@1.1.4) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/renderer to ^2.4.0 ([13da981](https://github.com/sentrei/sentrei/commit/13da9810aaa9379f38a8f0ed1ddb2a8fae224ee6))
+
 ## @sentrei/remotion [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/remotion@1.1.2...@sentrei/remotion@1.1.3) (2021-09-28)
 
 ### Bug Fixes
