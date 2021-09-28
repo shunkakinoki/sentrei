@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@testing-library/react": "^12.1.0",
+    "@testing-library/react": "^12.1.1",
     "@types/jest": "^27.0.2",
     "jest": "^27.2.2",
     "jest-css-modules": "^2.1.0",
