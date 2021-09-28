@@ -1,3 +1,9 @@
+## [1.60.6](https://github.com/sentrei/sentrei/compare/v1.60.5...v1.60.6) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/renderer to ^2.4.0 ([13da981](https://github.com/sentrei/sentrei/commit/13da9810aaa9379f38a8f0ed1ddb2a8fae224ee6))
+
 ## [1.60.5](https://github.com/sentrei/sentrei/compare/v1.60.4...v1.60.5) (2021-09-28)
 
 ### Bug Fixes
