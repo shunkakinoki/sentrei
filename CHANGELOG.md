@@ -1,3 +1,9 @@
+## [1.60.14](https://github.com/sentrei/sentrei/compare/v1.60.13...v1.60.14) (2021-09-28)
+
+### Performance Improvements
+
+- ini play mosh ([499e1e6](https://github.com/sentrei/sentrei/commit/499e1e61f3d38f529f3c90cbef8c374803bcf8b9))
+
 ## [1.60.13](https://github.com/sentrei/sentrei/compare/v1.60.12...v1.60.13) (2021-09-28)
 
 ### Performance Improvements
