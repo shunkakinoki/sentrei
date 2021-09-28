@@ -28,9 +28,9 @@ if [[ $APP ]]; then
   fi
 
   if [ $GITHUB_ACTIONS ]; then
-    if [ $GITHUB_BASE_REF ]; then
+    if [[ "$GITHUB_EVENT_NAME" == "pull_request" && $GITHUB_BASE_REF ]]; then
       CHANGED=$(npx nx affected:apps --plain --base origin/$GITHUB_BASE_REF --head HEAD)
-    else
+    elif [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
       CHANGED=$(npx nx affected:apps --plain --base HEAD~1 --head HEAD)
     fi
   fi

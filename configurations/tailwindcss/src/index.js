@@ -74,9 +74,6 @@ module.exports = {
         violet: colors.violet,
         warmGray: colors.warmGray,
       },
-      fontFamily: {
-        anime: ["Press Start 2P", "cursive"],
-      },
       keyframes: {
         "fade-in-down": {
           "0%": {
