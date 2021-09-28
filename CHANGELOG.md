@@ -1,3 +1,10 @@
+## [1.60.9](https://github.com/sentrei/sentrei/compare/v1.60.8...v1.60.9) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-builder-vite to ^0.1.0 ([514cce7](https://github.com/sentrei/sentrei/commit/514cce7ce1f039d4212674bb340bb856ef6e08a1))
+- **deps:** update typescript-eslint monorepo to ^4.32.0 ([89f722b](https://github.com/sentrei/sentrei/commit/89f722b7906ad120075a4a566ded8d259be25b71))
+
 ## [1.60.8](https://github.com/sentrei/sentrei/compare/v1.60.7...v1.60.8) (2021-09-28)
 
 ### Bug Fixes
