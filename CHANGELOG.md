@@ -1,3 +1,9 @@
+## [1.60.4](https://github.com/sentrei/sentrei/compare/v1.60.3...v1.60.4) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.19.2 ([26e1e99](https://github.com/sentrei/sentrei/commit/26e1e99e4049ce88c559d8bd35914a03f1561c75))
+
 ## [1.60.3](https://github.com/sentrei/sentrei/compare/v1.60.2...v1.60.3) (2021-09-28)
 
 ### Bug Fixes
