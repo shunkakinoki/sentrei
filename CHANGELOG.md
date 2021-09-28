@@ -1,3 +1,9 @@
+## [1.60.1](https://github.com/sentrei/sentrei/compare/v1.60.0...v1.60.1) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @testing-library/react to ^12.1.1 ([c01e57f](https://github.com/sentrei/sentrei/commit/c01e57ff83d7083d11352ae672c8fc58ed1b8ebb))
+
 # [1.60.0](https://github.com/sentrei/sentrei/compare/v1.59.0...v1.60.0) (2021-09-27)
 
 ### Features
