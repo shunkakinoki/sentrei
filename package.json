@@ -117,7 +117,7 @@
   },
   "resolutions": {
     "autoprefixer": "^10.3.3",
-    "cypress": "^8.4.1",
+    "cypress": "^8.5.0",
     "postcss": "^8.3.7",
     "postcss-safe-parser": "^6.0.0",
     "puppeteer": "^10.4.0",
