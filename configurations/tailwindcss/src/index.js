@@ -123,7 +123,4 @@ module.exports = {
       },
     },
   },
-  variants: {
-    linearBorderGradients: ["responsive", "hover", "dark"],
-  },
 };
