@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "concurrently": "^6.2.1",
+    "concurrently": "^6.2.2",
     "cross-env": "^7.0.3",
     "multi-semantic-release": "^2.9.0"
   },
