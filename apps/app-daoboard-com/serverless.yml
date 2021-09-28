@@ -9,6 +9,8 @@
     bucketRegion: "us-east-1"
     bucketName: "app-daoboard-com"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/37a561d2-a5d1-4cec-b22b-fdc01288fb17"
+    cloudfront:
+      distributionId: E3OHZAM3Y27PNC
     domain: ["app", "daoboard.com"]
     name:
       defaultLambda: "app-daoboard-com-lambda"
