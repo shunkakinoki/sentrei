@@ -1,3 +1,9 @@
+## [1.60.7](https://github.com/sentrei/sentrei/compare/v1.60.6...v1.60.7) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency remotion to ^2.4.0 ([189f1db](https://github.com/sentrei/sentrei/commit/189f1dbaa8d39cd7abc9daaa63e5b2fd89f40ee8))
+
 ## [1.60.6](https://github.com/sentrei/sentrei/compare/v1.60.5...v1.60.6) (2021-09-28)
 
 ### Bug Fixes
