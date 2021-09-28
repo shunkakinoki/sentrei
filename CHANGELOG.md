@@ -1,3 +1,9 @@
+## [1.60.8](https://github.com/sentrei/sentrei/compare/v1.60.7...v1.60.8) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/bundler to ^2.4.0 ([210acb6](https://github.com/sentrei/sentrei/commit/210acb69af3dbd3451b0f4c0671a5e2169699df4))
+
 ## [1.60.7](https://github.com/sentrei/sentrei/compare/v1.60.6...v1.60.7) (2021-09-28)
 
 ### Bug Fixes
