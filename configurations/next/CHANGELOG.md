@@ -1,3 +1,9 @@
+## @sentrei/next [1.12.4](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.3...@sentrei/next@1.12.4) (2021-09-30)
+
+### Performance Improvements
+
+- ini nx json ([bb73447](https://github.com/sentrei/sentrei/commit/bb7344707a71299d9b38c8903cfad09447757cf7))
+
 ## @sentrei/next [1.12.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.2...@sentrei/next@1.12.3) (2021-09-20)
 
 ### Performance Improvements
