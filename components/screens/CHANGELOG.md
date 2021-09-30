@@ -1,3 +1,9 @@
+## @sentrei/screens [1.11.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.11.0...@sentrei/screens@1.11.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini apis layouts ([c17e628](https://github.com/sentrei/sentrei/commit/c17e628f9e1a327e8c25cb19707a0ddd5cf38032))
+
 # @sentrei/screens [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.10.0...@sentrei/screens@1.11.0) (2021-09-30)
 
 ### Features
