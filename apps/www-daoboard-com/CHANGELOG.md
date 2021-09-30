@@ -1,3 +1,9 @@
+## @sentrei/www-daoboard-com [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.2...@sentrei/www-daoboard-com@1.2.3) (2021-09-30)
+
+### Performance Improvements
+
+- ini doppler token ([dc0cbf7](https://github.com/sentrei/sentrei/commit/dc0cbf7a75489ac3cfa3d712be835cb98e99e892))
+
 ## @sentrei/www-daoboard-com [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.1...@sentrei/www-daoboard-com@1.2.2) (2021-09-25)
 
 ### Performance Improvements
