@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/amplify",
-  "version": "1.1.0",
+  "name": "@sentrei/swc",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -19,7 +19,9 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@swc/core": "^1.2.92"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
