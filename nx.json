@@ -13,6 +13,9 @@
   },
   "npmScope": "sentrei",
   "projects": {
+    "apis": {
+      "tags": ["scope:lib"]
+    },
     "app-daoboard-com": {
       "implicitDependencies": ["next", "tailwindcss", "typescript"],
       "tags": ["scope:app"]
@@ -89,6 +92,9 @@
     "jest": {
       "implicitDependencies": ["playwright"],
       "tags": ["scope:configuration"]
+    },
+    "layouts": {
+      "tags": ["scope:component"]
     },
     "lint-staged": {
       "tags": ["scope:configuration"]

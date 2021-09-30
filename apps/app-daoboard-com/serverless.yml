@@ -9,6 +9,7 @@
     bucketRegion: "us-east-1"
     bucketName: "app-daoboard-com"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/37a561d2-a5d1-4cec-b22b-fdc01288fb17"
+    cleanupDotNext: false
     cloudfront:
       distributionId: E3OHZAM3Y27PNC
     domain: ["app", "daoboard.com"]
@@ -20,3 +21,4 @@
     roleArn: "arn:aws:iam::404521130193:role/serverless/serverless-prd"
     timeout: 30
     useServerlessTraceTarget: true
+    useV2Handler: true

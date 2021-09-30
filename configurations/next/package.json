@@ -22,7 +22,7 @@
   "dependencies": {
     "@next/bundle-analyzer": "^11.1.2",
     "@sentry/nextjs": "^6.13.2",
-    "@sls-next/serverless-component": "^3.3.0",
+    "@sls-next/serverless-component": "^3.4.0-alpha.12",
     "clsx": "^1.1.1",
     "critters": "^0.0.10",
     "next": "^11.1.2",
