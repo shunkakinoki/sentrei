@@ -1,0 +1,15 @@
+{
+  "frontend": "javascript",
+  "javascript": {
+    "config": {
+      "BuildCommand": "npm run-script build",
+      "DistributionDir": "dist",
+      "SourceDir": "src",
+      "StartCommand": "npm run-script start"
+    },
+    "framework": "none"
+  },
+  "projectName": "appdaoboardcom",
+  "providers": ["awscloudformation"],
+  "version": "3.1"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@sentrei/babel",
+  "name": "@sentrei/amplify",
   "version": "1.1.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "babel-plugin-react-generate-property": "^1.0.5"
+    "@aws-amplify/cli": "^6.1.0"
   },
   "publishConfig": {
     "access": "public",
