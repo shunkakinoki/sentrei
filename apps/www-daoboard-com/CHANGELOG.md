@@ -1,3 +1,9 @@
+## @sentrei/www-daoboard-com [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.3...@sentrei/www-daoboard-com@1.2.4) (2021-09-30)
+
+### Performance Improvements
+
+- ini sentrei apis ([42292cf](https://github.com/sentrei/sentrei/commit/42292cff4e5928a35db3a1d36a036ebd68e7c5af))
+
 ## @sentrei/www-daoboard-com [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/www-daoboard-com@1.2.2...@sentrei/www-daoboard-com@1.2.3) (2021-09-30)
 
 ### Performance Improvements
