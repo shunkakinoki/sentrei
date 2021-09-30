@@ -1,3 +1,9 @@
+## [1.61.3](https://github.com/sentrei/sentrei/compare/v1.61.2...v1.61.3) (2021-09-30)
+
+### Performance Improvements
+
+- ini sentrei apis ([42292cf](https://github.com/sentrei/sentrei/commit/42292cff4e5928a35db3a1d36a036ebd68e7c5af))
+
 ## [1.61.2](https://github.com/sentrei/sentrei/compare/v1.61.1...v1.61.2) (2021-09-30)
 
 ### Performance Improvements
