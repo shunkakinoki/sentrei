@@ -54,6 +54,7 @@ jobs:
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
+      - uses: dopplerhq/cli-action@v1
       - run: |
           yarn install --frozen-lockfile
       - uses: aws-actions/configure-aws-credentials@v1
@@ -63,7 +64,6 @@ jobs:
           aws-region: us-east-1
       - working-directory: apps/${{ matrix.app }}
         run: |
-          (curl -Ls --tlsv1.2 --proto "=https" --retry 3 https://cli.doppler.com/install.sh || wget -t 3 -qO- https://cli.doppler.com/install.sh) | sh
           doppler setup --no-prompt
           yarn run env:pull || true
         env:
