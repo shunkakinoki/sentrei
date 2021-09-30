@@ -1,3 +1,13 @@
+# [1.61.0](https://github.com/sentrei/sentrei/compare/v1.60.14...v1.61.0) (2021-09-30)
+
+### Features
+
+- ini metascore wtf ([77c4a49](https://github.com/sentrei/sentrei/commit/77c4a49cfd49e4456e4ba171cf10cd9457d12f31))
+
+### Performance Improvements
+
+- ini doppler token ([dc0cbf7](https://github.com/sentrei/sentrei/commit/dc0cbf7a75489ac3cfa3d712be835cb98e99e892))
+
 ## [1.60.14](https://github.com/sentrei/sentrei/compare/v1.60.13...v1.60.14) (2021-09-28)
 
 ### Performance Improvements
