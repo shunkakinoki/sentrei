@@ -1,3 +1,9 @@
+## @sentrei/app-daoboard-com [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/app-daoboard-com@1.0.0...@sentrei/app-daoboard-com@1.0.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini nx json ([bb73447](https://github.com/sentrei/sentrei/commit/bb7344707a71299d9b38c8903cfad09447757cf7))
+
 # @sentrei/app-daoboard-com 1.0.0 (2021-09-27)
 
 ### Features
