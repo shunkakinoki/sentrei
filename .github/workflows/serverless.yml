@@ -64,8 +64,7 @@ jobs:
           aws-region: us-east-1
       - working-directory: apps/${{ matrix.app }}
         run: |
-          doppler setup --no-prompt
-          yarn run env:pull || true
+          doppler setup --no-prompt && yarn run env:pull || true
         env:
           DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
       - run: |
