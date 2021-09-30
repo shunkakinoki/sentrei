@@ -8,7 +8,8 @@
       "dependencies": "*",
       "devDependencies": "*"
     },
-    "tsconfig.base.json": "*"
+    "tsconfig.base.json": "*",
+    "yarn.lock": "*"
   },
   "npmScope": "sentrei",
   "projects": {
