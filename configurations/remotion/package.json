@@ -20,10 +20,10 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@remotion/bundler": "^2.4.0",
-    "@remotion/cli": "^2.4.0",
-    "@remotion/renderer": "^2.4.0",
-    "remotion": "^2.4.0"
+    "@remotion/bundler": "^2.4.1",
+    "@remotion/cli": "^2.4.1",
+    "@remotion/renderer": "^2.4.1",
+    "remotion": "^2.4.1"
   },
   "publishConfig": {
     "access": "public",
