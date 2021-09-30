@@ -1,3 +1,9 @@
+## [1.61.1](https://github.com/sentrei/sentrei/compare/v1.61.0...v1.61.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini apis layouts ([c17e628](https://github.com/sentrei/sentrei/commit/c17e628f9e1a327e8c25cb19707a0ddd5cf38032))
+
 # [1.61.0](https://github.com/sentrei/sentrei/compare/v1.60.14...v1.61.0) (2021-09-30)
 
 ### Features
