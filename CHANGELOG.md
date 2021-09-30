@@ -1,3 +1,10 @@
+## [1.61.2](https://github.com/sentrei/sentrei/compare/v1.61.1...v1.61.2) (2021-09-30)
+
+### Performance Improvements
+
+- ini layouts apis ([b6836e7](https://github.com/sentrei/sentrei/commit/b6836e713b9939e00501a73090cbc6a4d6388261))
+- ini nx json ([bb73447](https://github.com/sentrei/sentrei/commit/bb7344707a71299d9b38c8903cfad09447757cf7))
+
 ## [1.61.1](https://github.com/sentrei/sentrei/compare/v1.61.0...v1.61.1) (2021-09-30)
 
 ### Performance Improvements
