@@ -1,3 +1,15 @@
+# @sentrei/molecules [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.12.0...@sentrei/molecules@1.13.0) (2021-10-01)
+
+### Bug Fixes
+
+- add index.ts ([c140327](https://github.com/sentrei/sentrei/commit/c1403272cf3fa92790638fe272c8be6048bd382b))
+
+### Features
+
+- add bidhistoryitem molecule ([c1260c7](https://github.com/sentrei/sentrei/commit/c1260c78cf095bf6954a4359eb01fd2bef58ba5f))
+- add imageCollection molecules ([abba9f1](https://github.com/sentrei/sentrei/commit/abba9f1eae1fe9b6faa31e92f253656852b86a91))
+- add proposallink molecule ([19e1f6d](https://github.com/sentrei/sentrei/commit/19e1f6d2da6c9957623899b556c6e6409ed53c9a))
+
 # @sentrei/molecules [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/molecules@1.11.0...@sentrei/molecules@1.12.0) (2021-09-27)
 
 ### Features
