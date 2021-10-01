@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/babel",
+  "sourceRoot": "configurations/babel",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/babel/**/*.js"]
+      }
+    }
+  }
+}

@@ -17,6 +17,9 @@
     }
   },
   "projects": {
+    "apis": "libs/apis",
+    "app-daoboard-com": "apps/app-daoboard-com",
+    "app-daoboard-com-e2e": "e2e/app-daoboard-com-e2e",
     "app-mosh-lol": "apps/app-mosh-lol",
     "app-mosh-lol-e2e": "e2e/app-mosh-lol-e2e",
     "app-sentrei-com": "apps/app-sentrei-com",
@@ -34,6 +37,7 @@
     "hooks": "libs/hooks",
     "husky": "configurations/husky",
     "jest": "configurations/jest",
+    "layouts": "components/layouts",
     "lint-staged": "configurations/lint-staged",
     "molecules": "components/molecules",
     "next": "configurations/next",

@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/www-daoboard-com",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -13,6 +13,7 @@
   "license": "MIT",
   "author": "Sentrei, Inc.",
   "scripts": {
+    "env:pull": "doppler secrets download --no-file --format env > .env.local",
     "fix": "cd ../.. && yarn run fix",
     "start": "next start"
   },

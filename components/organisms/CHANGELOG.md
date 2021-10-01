@@ -1,3 +1,9 @@
+# @sentrei/organisms [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.10.0...@sentrei/organisms@1.11.0) (2021-09-30)
+
+### Features
+
+- ini metascore wtf ([77c4a49](https://github.com/sentrei/sentrei/commit/77c4a49cfd49e4456e4ba171cf10cd9457d12f31))
+
 # @sentrei/organisms [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.9.0...@sentrei/organisms@1.10.0) (2021-09-26)
 
 ### Features

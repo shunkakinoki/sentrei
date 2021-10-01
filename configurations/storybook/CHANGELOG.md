@@ -1,3 +1,9 @@
+## @sentrei/storybook [1.7.3](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.7.2...@sentrei/storybook@1.7.3) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-builder-vite to ^0.1.0 ([514cce7](https://github.com/sentrei/sentrei/commit/514cce7ce1f039d4212674bb340bb856ef6e08a1))
+
 ## @sentrei/storybook [1.7.2](https://github.com/sentrei/sentrei/compare/@sentrei/storybook@1.7.1...@sentrei/storybook@1.7.2) (2021-09-16)
 
 ### Performance Improvements

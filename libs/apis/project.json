@@ -1,0 +1,20 @@
+{
+  "projectType": "library",
+  "root": "libs/apis",
+  "sourceRoot": "libs/apis/src",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/apis/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/apis/jest.config.js"
+      },
+      "outputs": ["coverage/libs/apis"]
+    }
+  }
+}

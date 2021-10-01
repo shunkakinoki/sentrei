@@ -1,3 +1,9 @@
+## @sentrei/play-mosh-lol [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/play-mosh-lol@1.0.0...@sentrei/play-mosh-lol@1.0.1) (2021-09-28)
+
+### Performance Improvements
+
+- ini play mosh ([499e1e6](https://github.com/sentrei/sentrei/commit/499e1e61f3d38f529f3c90cbef8c374803bcf8b9))
+
 # @sentrei/play-mosh-lol 1.0.0 (2021-09-26)
 
 ### Performance Improvements

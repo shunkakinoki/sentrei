@@ -13,6 +13,7 @@ jobs:
       matrix:
         app:
           [
+            app-daoboard-com,
             app-mosh-lol,
             app-sentrei-com,
             play-mosh-lol,
@@ -53,6 +54,7 @@ jobs:
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
+      - uses: dopplerhq/cli-action@v1
       - run: |
           yarn install --frozen-lockfile
       - uses: aws-actions/configure-aws-credentials@v1
@@ -60,6 +62,11 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - working-directory: apps/${{ matrix.app }}
+        run: |
+          doppler setup --no-prompt && yarn run env:pull || true
+        env:
+          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
       - run: |
           bash script.sh ${{ matrix.app }}
       - if: always()
