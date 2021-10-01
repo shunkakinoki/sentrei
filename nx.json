@@ -16,20 +16,93 @@
     "atoms": {
       "tags": ["scope:component"]
     },
+    "babel": {
+      "tags": ["scope:configuration"]
+    },
+    "commitlint": {
+      "tags": ["scope:configuration"]
+    },
+    "cypress": {
+      "tags": ["scope:configuration"]
+    },
+    "dev": {
+      "tags": ["scope:configuration"]
+    },
+    "eslint": {
+      "tags": ["scope:configuration"]
+    },
+    "husky": {
+      "tags": ["scope:configuration"]
+    },
+    "jest": {
+      "implicitDependencies": ["playwright"],
+      "tags": ["scope:configuration"]
+    },
     "layouts": {
       "tags": ["scope:component"]
+    },
+    "lint-staged": {
+      "tags": ["scope:configuration"]
     },
     "molecules": {
       "tags": ["scope:component"]
     },
-    "organisms": {
-      "tags": ["scope:component"]
+    "next": {
+      "implicitDependencies": ["react"],
+      "tags": ["scope:configuration"]
     },
-    "roots": {
-      "tags": ["scope:component"]
+    "npm-check-updates": {
+      "tags": ["scope:configuration"]
     },
-    "screens": {
-      "tags": ["scope:component"]
+    "npm-package-json-lint": {
+      "tags": ["scope:configuration"]
+    },
+    "nrwl": {
+      "tags": ["scope:configuration"]
+    },
+    "playwright": {
+      "tags": ["scope:configuration"]
+    },
+    "postcss": {
+      "tags": ["scope:configuration"]
+    },
+    "prettier": {
+      "tags": ["scope:configuration"]
+    },
+    "react": {
+      "tags": ["scope:configuration"]
+    },
+    "remotion": {
+      "implicitDependencies": ["react"],
+      "tags": ["scope:configuration"]
+    },
+    "renovate": {
+      "tags": ["scope:configuration"]
+    },
+    "semantic-release": {
+      "tags": ["scope:configuration"]
+    },
+    "sentry": {
+      "tags": ["scope:configuration"]
+    },
+    "storybook": {
+      "tags": ["scope:configuration"]
+    },
+    "stylelint": {
+      "tags": ["scope:configuration"]
+    },
+    "tailwindcss": {
+      "implicitDependencies": ["postcss"],
+      "tags": ["scope:configuration"]
+    },
+    "typescript": {
+      "tags": ["scope:configuration"]
+    },
+    "vite": {
+      "tags": ["scope:configuration"]
+    },
+    "webpack": {
+      "tags": ["scope:configuration"]
     }
   },
   "targetDependencies": {

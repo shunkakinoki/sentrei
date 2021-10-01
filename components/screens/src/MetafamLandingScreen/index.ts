@@ -1,1 +1,0 @@
-export { MetafamLandingScreen } from "./MetafamLandingScreen";

@@ -1,1 +1,0 @@
-export { GlowLogo } from "./GlowLogo";
