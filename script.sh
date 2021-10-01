@@ -43,7 +43,7 @@ if [[ $APP ]]; then
   elif [[ "$VERCEL_ENV" == "production" ]]; then
       echo "✅ - Build can proceed in vercel production at $APP - $CHANGED"
       exit 1
-  elif [[ "$VERCEL_ENV" == "preview" && ( "$APP" == "design" || "$APP" == "sentrei" ) ]]; then
+  elif [[ "$VERCEL_ENV" == "preview" ]]; then
       echo "❎ - Build can proceed in vercel preview at $APP - $CHANGED"
       exit 1
   elif [ $GITHUB_ACTIONS ]; then

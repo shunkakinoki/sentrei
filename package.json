@@ -125,12 +125,12 @@
   "resolutions": {
     "autoprefixer": "^10.3.3",
     "cypress": "^8.5.0",
-    "next": "^11.1.2",
+    "next": "^11.1.3-canary.38",
     "postcss": "^8.3.7",
     "postcss-safe-parser": "^6.0.0",
     "puppeteer": "^10.4.0",
     "stylelint": "^13.13.1",
-    "webpack": "^5.55.0"
+    "webpack": "^5.55.1"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"

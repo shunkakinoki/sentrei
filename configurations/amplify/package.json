@@ -19,9 +19,7 @@
   "scripts": {
     "fix": "cd ../.. && yarn run fix"
   },
-  "dependencies": {
-    "@aws-amplify/cli": "^6.1.0"
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

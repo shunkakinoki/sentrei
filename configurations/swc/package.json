@@ -1,6 +1,6 @@
 {
-  "name": "@sentrei/postcss",
-  "version": "1.4.3",
+  "name": "@sentrei/swc",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -20,10 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "autoprefixer": "^10.3.6",
-    "postcss": "^8.3.8",
-    "postcss-loader": "^6.1.1",
-    "postcss-nested": "^5.0.6"
+    "@swc/core": "^1.2.92"
   },
   "publishConfig": {
     "access": "public",
