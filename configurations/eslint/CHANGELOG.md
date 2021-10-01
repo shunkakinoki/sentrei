@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.5](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.4...@sentrei/eslint-config@1.5.5) (2021-10-01)
+
+### Performance Improvements
+
+- ini swc package ([4c5141c](https://github.com/sentrei/sentrei/commit/4c5141c898ae11b1e3793ea09ad07793da1683e7))
+
 ## @sentrei/eslint-config [1.5.4](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.3...@sentrei/eslint-config@1.5.4) (2021-09-28)
 
 ### Bug Fixes
