@@ -1,3 +1,9 @@
+# @sentrei/organisms [1.12.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.11.0...@sentrei/organisms@1.12.0) (2021-10-01)
+
+### Features
+
+- add BidHistory organisms ([c9848ff](https://github.com/sentrei/sentrei/commit/c9848ff8076fac70fa02b80f40d7ea4c1e8db3cf))
+
 # @sentrei/organisms [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/organisms@1.10.0...@sentrei/organisms@1.11.0) (2021-09-30)
 
 ### Features
