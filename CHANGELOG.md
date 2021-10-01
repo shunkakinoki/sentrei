@@ -1,3 +1,141 @@
+## [1.61.5](https://github.com/sentrei/sentrei/compare/v1.61.4...v1.61.5) (2021-10-01)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.39 ([93625eb](https://github.com/sentrei/sentrei/commit/93625eba489e5aadcf943c5bbfb5e4b4898891ad))
+
+## [1.61.4](https://github.com/sentrei/sentrei/compare/v1.61.3...v1.61.4) (2021-10-01)
+
+### Performance Improvements
+
+- ini swc package ([4c5141c](https://github.com/sentrei/sentrei/commit/4c5141c898ae11b1e3793ea09ad07793da1683e7))
+
+## [1.61.3](https://github.com/sentrei/sentrei/compare/v1.61.2...v1.61.3) (2021-09-30)
+
+### Performance Improvements
+
+- ini sentrei apis ([42292cf](https://github.com/sentrei/sentrei/commit/42292cff4e5928a35db3a1d36a036ebd68e7c5af))
+
+## [1.61.2](https://github.com/sentrei/sentrei/compare/v1.61.1...v1.61.2) (2021-09-30)
+
+### Performance Improvements
+
+- ini layouts apis ([b6836e7](https://github.com/sentrei/sentrei/commit/b6836e713b9939e00501a73090cbc6a4d6388261))
+- ini nx json ([bb73447](https://github.com/sentrei/sentrei/commit/bb7344707a71299d9b38c8903cfad09447757cf7))
+
+## [1.61.1](https://github.com/sentrei/sentrei/compare/v1.61.0...v1.61.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini apis layouts ([c17e628](https://github.com/sentrei/sentrei/commit/c17e628f9e1a327e8c25cb19707a0ddd5cf38032))
+
+# [1.61.0](https://github.com/sentrei/sentrei/compare/v1.60.14...v1.61.0) (2021-09-30)
+
+### Features
+
+- ini metascore wtf ([77c4a49](https://github.com/sentrei/sentrei/commit/77c4a49cfd49e4456e4ba171cf10cd9457d12f31))
+
+### Performance Improvements
+
+- ini doppler token ([dc0cbf7](https://github.com/sentrei/sentrei/commit/dc0cbf7a75489ac3cfa3d712be835cb98e99e892))
+
+## [1.60.14](https://github.com/sentrei/sentrei/compare/v1.60.13...v1.60.14) (2021-09-28)
+
+### Performance Improvements
+
+- ini play mosh ([499e1e6](https://github.com/sentrei/sentrei/commit/499e1e61f3d38f529f3c90cbef8c374803bcf8b9))
+
+## [1.60.13](https://github.com/sentrei/sentrei/compare/v1.60.12...v1.60.13) (2021-09-28)
+
+### Performance Improvements
+
+- upgrade tailwindcss packages ([9fe92ec](https://github.com/sentrei/sentrei/commit/9fe92ec1c6f3945e8a40bd9788b765850914be13))
+
+## [1.60.12](https://github.com/sentrei/sentrei/compare/v1.60.11...v1.60.12) (2021-09-28)
+
+### Performance Improvements
+
+- ini app daoboard ([c33dcb5](https://github.com/sentrei/sentrei/commit/c33dcb5b4024fb8e0b85ae5c094a5d12f0783d65))
+
+## [1.60.11](https://github.com/sentrei/sentrei/compare/v1.60.10...v1.60.11) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency jest to ^27.2.3 ([2c9cbfc](https://github.com/sentrei/sentrei/commit/2c9cbfc45a9d7f2a0896324ac833e8211d184e40))
+
+## [1.60.10](https://github.com/sentrei/sentrei/compare/v1.60.9...v1.60.10) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.19.3 ([8405a64](https://github.com/sentrei/sentrei/commit/8405a6476b47b449e43daa2551f70a4a7a04fb42))
+
+## [1.60.9](https://github.com/sentrei/sentrei/compare/v1.60.8...v1.60.9) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency storybook-builder-vite to ^0.1.0 ([514cce7](https://github.com/sentrei/sentrei/commit/514cce7ce1f039d4212674bb340bb856ef6e08a1))
+- **deps:** update typescript-eslint monorepo to ^4.32.0 ([89f722b](https://github.com/sentrei/sentrei/commit/89f722b7906ad120075a4a566ded8d259be25b71))
+
+## [1.60.8](https://github.com/sentrei/sentrei/compare/v1.60.7...v1.60.8) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/bundler to ^2.4.0 ([210acb6](https://github.com/sentrei/sentrei/commit/210acb69af3dbd3451b0f4c0671a5e2169699df4))
+
+## [1.60.7](https://github.com/sentrei/sentrei/compare/v1.60.6...v1.60.7) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency remotion to ^2.4.0 ([189f1db](https://github.com/sentrei/sentrei/commit/189f1dbaa8d39cd7abc9daaa63e5b2fd89f40ee8))
+
+## [1.60.6](https://github.com/sentrei/sentrei/compare/v1.60.5...v1.60.6) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/renderer to ^2.4.0 ([13da981](https://github.com/sentrei/sentrei/commit/13da9810aaa9379f38a8f0ed1ddb2a8fae224ee6))
+
+## [1.60.5](https://github.com/sentrei/sentrei/compare/v1.60.4...v1.60.5) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo to ^13.2.0 ([7c7c953](https://github.com/sentrei/sentrei/commit/7c7c9534f82b4a5a1b78926c24ceac69c8918b25))
+
+## [1.60.4](https://github.com/sentrei/sentrei/compare/v1.60.3...v1.60.4) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.19.2 ([26e1e99](https://github.com/sentrei/sentrei/commit/26e1e99e4049ce88c559d8bd35914a03f1561c75))
+
+## [1.60.3](https://github.com/sentrei/sentrei/compare/v1.60.2...v1.60.3) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency concurrently to ^6.2.2 ([5b9e941](https://github.com/sentrei/sentrei/commit/5b9e9412e8d28b54eb66da80c005e12dc3770235))
+
+## [1.60.2](https://github.com/sentrei/sentrei/compare/v1.60.1...v1.60.2) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @remotion/cli to ^2.4.0 ([7752dc2](https://github.com/sentrei/sentrei/commit/7752dc22ff7fa7780a0f4b91ffc0214e996ed50c))
+
+## [1.60.1](https://github.com/sentrei/sentrei/compare/v1.60.0...v1.60.1) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @testing-library/react to ^12.1.1 ([c01e57f](https://github.com/sentrei/sentrei/commit/c01e57ff83d7083d11352ae672c8fc58ed1b8ebb))
+
+# [1.60.0](https://github.com/sentrei/sentrei/compare/v1.59.0...v1.60.0) (2021-09-27)
+
+### Features
+
+- ini newsletter component ([607040a](https://github.com/sentrei/sentrei/commit/607040aaba64d9788c6bcde52fa83d72209c2d31))
+
+# [1.59.0](https://github.com/sentrei/sentrei/compare/v1.58.0...v1.59.0) (2021-09-27)
+
+### Features
+
+- ini app daoboard com ([ef21ace](https://github.com/sentrei/sentrei/commit/ef21acece86e574ae2310fce2d96b6d5a9657fee))
+
 # [1.58.0](https://github.com/sentrei/sentrei/compare/v1.57.1...v1.58.0) (2021-09-26)
 
 ### Features

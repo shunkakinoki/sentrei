@@ -12,6 +12,7 @@
     "moduleResolution": "node",
     "paths": {
       "@public/*": ["public/*"],
+      "@public/app-daoboard-com/*": ["apps/app-daoboard-com/public/*"],
       "@public/app-mosh-lol/*": ["apps/app-mosh-lol/public/*"],
       "@public/app-sentrei-com/*": ["apps/app-sentrei-com/public/*"],
       "@public/blog-sentrei-com/*": ["apps/blog-sentrei-com/public/*"],
@@ -26,11 +27,14 @@
       "@public/www-thisweekindaos-com/*": [
         "apps/www-thisweekindaos-com/public/*"
       ],
+      "@sentrei/apis": ["libs/apis/src/index.ts"],
+      "@sentrei/app-daoboard-com/*": ["apps/app-daoboard-com/src/*"],
       "@sentrei/app-mosh-lol/*": ["apps/app-mosh-lol/src/*"],
       "@sentrei/app-sentrei-com/*": ["apps/app-sentrei-com/src/*"],
       "@sentrei/atoms": ["components/atoms/src/index.ts"],
       "@sentrei/blog-sentrei-com/*": ["apps/blog-sentrei-com/src/*"],
       "@sentrei/hooks": ["libs/hooks/src/index.ts"],
+      "@sentrei/layouts": ["components/layouts/src/index.ts"],
       "@sentrei/molecules": ["components/molecules/src/index.ts"],
       "@sentrei/og-sentrei-com/*": ["apps/og-sentrei-com/src/*"],
       "@sentrei/organisms": ["components/organisms/src/index.ts"],

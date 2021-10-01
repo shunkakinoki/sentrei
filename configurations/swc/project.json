@@ -1,0 +1,13 @@
+{
+  "projectType": "configuration",
+  "root": "configurations/swc",
+  "sourceRoot": "configurations/swc",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["configurations/swc/**/*.js"]
+      }
+    }
+  }
+}

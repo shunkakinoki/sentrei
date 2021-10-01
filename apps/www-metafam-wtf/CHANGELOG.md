@@ -1,3 +1,15 @@
+## @sentrei/www-metafam-wtf [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/www-metafam-wtf@1.0.1...@sentrei/www-metafam-wtf@1.0.2) (2021-10-01)
+
+### Performance Improvements
+
+- ini swc package ([4c5141c](https://github.com/sentrei/sentrei/commit/4c5141c898ae11b1e3793ea09ad07793da1683e7))
+
+## @sentrei/www-metafam-wtf [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-metafam-wtf@1.0.0...@sentrei/www-metafam-wtf@1.0.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini sentrei apis ([42292cf](https://github.com/sentrei/sentrei/commit/42292cff4e5928a35db3a1d36a036ebd68e7c5af))
+
 # @sentrei/www-metafam-wtf 1.0.0 (2021-09-24)
 
 ### Features

@@ -1,4 +1,4 @@
-import { Button, ButtonLink } from "@sentrei/atoms";
+import { Button } from "@sentrei/atoms";
 
 import { useModalWindow } from "@sentrei/hooks";
 import type { FC } from "react";

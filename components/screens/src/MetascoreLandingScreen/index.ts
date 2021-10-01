@@ -1,0 +1,1 @@
+export { MetascoreLandingScreen } from "./MetascoreLandingScreen";

@@ -1,3 +1,15 @@
+## @sentrei/jest [1.1.5](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.1.4...@sentrei/jest@1.1.5) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency jest to ^27.2.3 ([2c9cbfc](https://github.com/sentrei/sentrei/commit/2c9cbfc45a9d7f2a0896324ac833e8211d184e40))
+
+## @sentrei/jest [1.1.4](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.1.3...@sentrei/jest@1.1.4) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @testing-library/react to ^12.1.1 ([c01e57f](https://github.com/sentrei/sentrei/commit/c01e57ff83d7083d11352ae672c8fc58ed1b8ebb))
+
 ## @sentrei/jest [1.1.3](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.1.2...@sentrei/jest@1.1.3) (2021-09-25)
 
 ### Bug Fixes

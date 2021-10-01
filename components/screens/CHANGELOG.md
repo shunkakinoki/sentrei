@@ -1,3 +1,21 @@
+## @sentrei/screens [1.11.1](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.11.0...@sentrei/screens@1.11.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini apis layouts ([c17e628](https://github.com/sentrei/sentrei/commit/c17e628f9e1a327e8c25cb19707a0ddd5cf38032))
+
+# @sentrei/screens [1.11.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.10.0...@sentrei/screens@1.11.0) (2021-09-30)
+
+### Features
+
+- ini metascore wtf ([77c4a49](https://github.com/sentrei/sentrei/commit/77c4a49cfd49e4456e4ba171cf10cd9457d12f31))
+
+# @sentrei/screens [1.10.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.9.0...@sentrei/screens@1.10.0) (2021-09-27)
+
+### Features
+
+- ini newsletter component ([607040a](https://github.com/sentrei/sentrei/commit/607040aaba64d9788c6bcde52fa83d72209c2d31))
+
 # @sentrei/screens [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/screens@1.8.0...@sentrei/screens@1.9.0) (2021-09-26)
 
 ### Features

@@ -1,3 +1,15 @@
+## @sentrei/tailwindcss [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.1...@sentrei/tailwindcss@1.4.2) (2021-09-28)
+
+### Performance Improvements
+
+- ini play mosh ([499e1e6](https://github.com/sentrei/sentrei/commit/499e1e61f3d38f529f3c90cbef8c374803bcf8b9))
+
+## @sentrei/tailwindcss [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.0...@sentrei/tailwindcss@1.4.1) (2021-09-28)
+
+### Performance Improvements
+
+- upgrade tailwindcss packages ([9fe92ec](https://github.com/sentrei/sentrei/commit/9fe92ec1c6f3945e8a40bd9788b765850914be13))
+
 # @sentrei/tailwindcss [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.3.2...@sentrei/tailwindcss@1.4.0) (2021-09-25)
 
 ### Features

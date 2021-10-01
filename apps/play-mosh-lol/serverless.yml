@@ -9,7 +9,9 @@
     bucketRegion: "us-east-1"
     bucketName: "play-mosh-lol"
     certificateArn: "arn:aws:acm:us-east-1:404521130193:certificate/8f01e5c5-03f2-4762-a32a-0dc93a12030d"
-    domain: ["app", "mosh.lol"]
+    cloudfront:
+      distributionId: E14BVI6J7IG9O0
+    domain: ["play", "mosh.lol"]
     name:
       defaultLambda: "play-mosh-lol-lambda"
       apiLambda: "play-mosh-lol-api-lambda"

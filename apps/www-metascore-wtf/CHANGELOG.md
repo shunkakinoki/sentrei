@@ -1,3 +1,15 @@
+## @sentrei/www-metascore-wtf [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/www-metascore-wtf@1.1.0...@sentrei/www-metascore-wtf@1.1.1) (2021-09-30)
+
+### Performance Improvements
+
+- ini sentrei apis ([42292cf](https://github.com/sentrei/sentrei/commit/42292cff4e5928a35db3a1d36a036ebd68e7c5af))
+
+# @sentrei/www-metascore-wtf [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/www-metascore-wtf@1.0.0...@sentrei/www-metascore-wtf@1.1.0) (2021-09-30)
+
+### Features
+
+- ini metascore wtf ([77c4a49](https://github.com/sentrei/sentrei/commit/77c4a49cfd49e4456e4ba171cf10cd9457d12f31))
+
 # @sentrei/www-metascore-wtf 1.0.0 (2021-09-24)
 
 ### Features

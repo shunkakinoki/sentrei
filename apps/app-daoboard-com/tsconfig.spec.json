@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "outDir": "../../dist/apps/app-daoboard-com/out",
+    "types": ["node", "jest", "segment-analytics"]
+  },
+  "extends": "./tsconfig.json",
+  "include": [
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.js",
+    "**/*.spec.jsx",
+    "**/*.d.ts"
+  ]
+}

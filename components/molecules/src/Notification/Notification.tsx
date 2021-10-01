@@ -47,7 +47,6 @@ export const Notification: FC<NotificationProps> = props => {
       clearInterval(interval);
     };
   }, [autoDeleteTime, isAutoDelete, setToastOpen]);
-  console.log(styles[position]); //not loaded.
 
   return (
     <>

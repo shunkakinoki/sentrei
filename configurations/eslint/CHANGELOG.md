@@ -1,3 +1,21 @@
+## @sentrei/eslint-config [1.5.6](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.5...@sentrei/eslint-config@1.5.6) (2021-10-01)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.39 ([93625eb](https://github.com/sentrei/sentrei/commit/93625eba489e5aadcf943c5bbfb5e4b4898891ad))
+
+## @sentrei/eslint-config [1.5.5](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.4...@sentrei/eslint-config@1.5.5) (2021-10-01)
+
+### Performance Improvements
+
+- ini swc package ([4c5141c](https://github.com/sentrei/sentrei/commit/4c5141c898ae11b1e3793ea09ad07793da1683e7))
+
+## @sentrei/eslint-config [1.5.4](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.3...@sentrei/eslint-config@1.5.4) (2021-09-28)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to ^4.32.0 ([89f722b](https://github.com/sentrei/sentrei/commit/89f722b7906ad120075a4a566ded8d259be25b71))
+
 ## @sentrei/eslint-config [1.5.3](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.2...@sentrei/eslint-config@1.5.3) (2021-09-21)
 
 ### Bug Fixes

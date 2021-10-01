@@ -8,10 +8,22 @@
       "dependencies": "*",
       "devDependencies": "*"
     },
-    "tsconfig.base.json": "*"
+    "tsconfig.base.json": "*",
+    "yarn.lock": "*"
   },
   "npmScope": "sentrei",
   "projects": {
+    "apis": {
+      "tags": ["scope:lib"]
+    },
+    "app-daoboard-com": {
+      "implicitDependencies": ["next", "tailwindcss", "typescript"],
+      "tags": ["scope:app"]
+    },
+    "app-daoboard-com-e2e": {
+      "implicitDependencies": ["app-daoboard-com"],
+      "tags": ["scope:e2e"]
+    },
     "app-mosh-lol": {
       "implicitDependencies": ["next", "tailwindcss", "typescript"],
       "tags": ["scope:app"]
@@ -80,6 +92,9 @@
     "jest": {
       "implicitDependencies": ["playwright"],
       "tags": ["scope:configuration"]
+    },
+    "layouts": {
+      "tags": ["scope:component"]
     },
     "lint-staged": {
       "tags": ["scope:configuration"]
