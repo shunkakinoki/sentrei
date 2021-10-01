@@ -1,3 +1,19 @@
+# [1.62.0](https://github.com/sentrei/sentrei/compare/v1.61.5...v1.62.0) (2021-10-01)
+
+### Bug Fixes
+
+- add index.ts ([c140327](https://github.com/sentrei/sentrei/commit/c1403272cf3fa92790638fe272c8be6048bd382b))
+- export all type in text atom ([77d2a8a](https://github.com/sentrei/sentrei/commit/77d2a8a47cd0689e3e16bfdd3bc39eff82d7943f))
+
+### Features
+
+- add BidHistory organisms ([c9848ff](https://github.com/sentrei/sentrei/commit/c9848ff8076fac70fa02b80f40d7ea4c1e8db3cf))
+- add bidhistoryitem molecule ([c1260c7](https://github.com/sentrei/sentrei/commit/c1260c78cf095bf6954a4359eb01fd2bef58ba5f))
+- add imageCollection molecules ([abba9f1](https://github.com/sentrei/sentrei/commit/abba9f1eae1fe9b6faa31e92f253656852b86a91))
+- add navigation bar ([73afe19](https://github.com/sentrei/sentrei/commit/73afe19178686df4daaf869a1c43a1bb1e0082b7))
+- add proposallink molecule ([19e1f6d](https://github.com/sentrei/sentrei/commit/19e1f6d2da6c9957623899b556c6e6409ed53c9a))
+- update modal for item ([baa5486](https://github.com/sentrei/sentrei/commit/baa5486726345a06587cfba5a5a0d92732a5f2c2))
+
 ## [1.61.5](https://github.com/sentrei/sentrei/compare/v1.61.4...v1.61.5) (2021-10-01)
 
 ### Bug Fixes
