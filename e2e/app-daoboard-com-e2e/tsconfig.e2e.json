@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "../../dist/app-daoboard-com-e2e/out",
+    "sourceMap": false,
+    "types": ["cypress", "node"]
+  },
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/*.js"]
+}

@@ -1,4 +1,4 @@
-import { MetafamLandingScreen } from "@sentrei/screens";
+import { MetascoreLandingScreen } from "@sentrei/screens";
 
-export { MetafamLandingScreen };
-export default MetafamLandingScreen;
+export { MetascoreLandingScreen };
+export default MetascoreLandingScreen;

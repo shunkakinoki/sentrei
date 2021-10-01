@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/sentrei",
-  "version": "1.58.0",
+  "version": "1.61.5",
   "private": true,
   "description": "The Edge Serverless Backend",
   "homepage": "https://github.com/sentrei/sentrei",
@@ -29,6 +29,8 @@
     "affected:e2e": "nx affected --target=e2e",
     "affected:lint": "nx affected --target=lint--parallel",
     "affected:test": "nx affected --target=test --parallel",
+    "build": "next build",
+    "build:app-daoboard-com": "cross-env NODE_ENV=production nx build app-daoboard-com --prod",
     "build:app-mosh-lol": "cross-env NODE_ENV=production nx build app-mosh-lol --prod",
     "build:app-sentrei-com": "cross-env NODE_ENV=production nx build app-sentrei-com --prod",
     "build:blog-sentrei-com": "cross-env NODE_ENV=production nx build blog --prod",
@@ -48,6 +50,8 @@
     "cloud:start": "nx-cloud start-agent",
     "cloud:stop": "nx-cloud stop-all-agents",
     "dep-graph": "nx dep-graph",
+    "dev": "next dev",
+    "dev:app-daoboard-com": "nx dev app-daoboard-com",
     "dev:app-mosh-lol": "nx dev app-mosh-lol",
     "dev:app-sentrei-com": "nx dev app-sentrei-com",
     "dev:blog-sentrei-com": "nx dev blog-sentrei-com",
@@ -63,6 +67,7 @@
     "dev:www-sentrei-com": "nx dev www-sentrei-com",
     "dev:www-thisweekindaos-com": "nx dev www-thisweekindaos-com",
     "e2e": "nx run-many --target=e2e --all",
+    "e2e:app-daoboard-com": "nx e2e app-daoboard-com-e2e",
     "e2e:app-mosh-lol": "nx e2e app-mosh-lol-e2e",
     "e2e:app-sentrei-com": "nx e2e app-sentrei-com-e2e",
     "e2e:blog-sentrei-com": "nx e2e blog-e2e",
@@ -97,6 +102,8 @@
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
     "semantic-release:check": "semantic-release --dry-run",
+    "start": "next start",
+    "start:app-daoboard-com": "cross-env NODE_ENV=production nx serve app-daoboard-com --prod",
     "start:app-mosh-lol": "cross-env NODE_ENV=production nx serve app-mosh-lol --prod",
     "start:app-sentrei-com": "cross-env NODE_ENV=production nx serve app-sentrei-com --prod",
     "start:design": "nx serve design",
@@ -116,13 +123,14 @@
     "test": "nx run-many --target=test --all"
   },
   "resolutions": {
-    "autoprefixer": "^10.3.3",
-    "cypress": "^8.4.1",
+    "autoprefixer": "^10.3.6",
+    "cypress": "^8.5.0",
+    "next": "^11.1.3-canary.39",
     "postcss": "^8.3.7",
     "postcss-safe-parser": "^6.0.0",
     "puppeteer": "^10.4.0",
     "stylelint": "^13.13.1",
-    "webpack": "^5.54.0"
+    "webpack": "^5.55.1"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"

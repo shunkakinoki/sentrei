@@ -1,3 +1,21 @@
+## @sentrei/next [1.12.6](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.5...@sentrei/next@1.12.6) (2021-10-01)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.39 ([93625eb](https://github.com/sentrei/sentrei/commit/93625eba489e5aadcf943c5bbfb5e4b4898891ad))
+
+## @sentrei/next [1.12.5](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.4...@sentrei/next@1.12.5) (2021-10-01)
+
+### Performance Improvements
+
+- ini swc package ([4c5141c](https://github.com/sentrei/sentrei/commit/4c5141c898ae11b1e3793ea09ad07793da1683e7))
+
+## @sentrei/next [1.12.4](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.3...@sentrei/next@1.12.4) (2021-09-30)
+
+### Performance Improvements
+
+- ini nx json ([bb73447](https://github.com/sentrei/sentrei/commit/bb7344707a71299d9b38c8903cfad09447757cf7))
+
 ## @sentrei/next [1.12.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.2...@sentrei/next@1.12.3) (2021-09-20)
 
 ### Performance Improvements
