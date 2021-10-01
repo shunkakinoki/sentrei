@@ -13,9 +13,6 @@
   },
   "npmScope": "sentrei",
   "projects": {
-    "atoms": {
-      "tags": ["scope:component"]
-    },
     "babel": {
       "tags": ["scope:configuration"]
     },
