@@ -1,3 +1,9 @@
+# @sentrei/atoms [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.12.1...@sentrei/atoms@1.13.0) (2021-10-01)
+
+### Features
+
+- add bidhistoryitem molecule ([c1260c7](https://github.com/sentrei/sentrei/commit/c1260c78cf095bf6954a4359eb01fd2bef58ba5f))
+
 ## @sentrei/atoms [1.12.1](https://github.com/sentrei/sentrei/compare/@sentrei/atoms@1.12.0...@sentrei/atoms@1.12.1) (2021-09-26)
 
 ### Performance Improvements
