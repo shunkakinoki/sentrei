@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "jsx": "react-jsx",
     "module": "commonjs",
     "outDir": "../../dist/apps/www-daoboard-com/out",

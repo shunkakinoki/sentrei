@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "incremental": true,
     "module": "commonjs",
     "outDir": "../../dist/components/molecules/out",
     "types": ["node", "jest", "segment-analytics"]
