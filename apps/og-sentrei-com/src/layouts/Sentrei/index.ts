@@ -1,1 +1,0 @@
-export { Sentrei } from "./Sentrei";

@@ -12,14 +12,7 @@
   "author": "Sentrei, Inc.",
   "workspaces": {
     "packages": [
-      "@sentrei/design",
-      "apps/*",
-      "components/*",
-      "configurations/*",
-      "e2e/*",
-      "libs/*",
-      "packages/*",
-      "videos/*"
+      "configurations/*"
     ]
   },
   "scripts": {

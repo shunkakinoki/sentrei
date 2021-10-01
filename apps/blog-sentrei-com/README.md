@@ -1,1 +1,0 @@
-# `@sentrei/blog`

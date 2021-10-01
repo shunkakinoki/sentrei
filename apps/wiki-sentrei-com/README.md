@@ -1,1 +1,0 @@
-# `@sentrei/wiki-sentrei-com`
