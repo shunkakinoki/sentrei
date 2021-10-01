@@ -35,14 +35,8 @@
       "implicitDependencies": ["playwright"],
       "tags": ["scope:configuration"]
     },
-    "layouts": {
-      "tags": ["scope:component"]
-    },
     "lint-staged": {
       "tags": ["scope:configuration"]
-    },
-    "molecules": {
-      "tags": ["scope:component"]
     },
     "next": {
       "implicitDependencies": ["react"],
@@ -122,6 +116,6 @@
     }
   },
   "workspaceLayout": {
-    "libsDir": "components"
+    "libsDir": "configurations"
   }
 }
