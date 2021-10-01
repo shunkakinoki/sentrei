@@ -132,9 +132,6 @@
     "stylelint": "^13.13.1",
     "webpack": "^5.55.1"
   },
-  "devDependencies": {
-    "webpack": "^5.55.1"
-  },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
   }

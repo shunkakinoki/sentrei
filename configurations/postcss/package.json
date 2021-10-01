@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.6",
     "postcss": "^8.3.8",
     "postcss-loader": "^6.1.1",
     "postcss-nested": "^5.0.6"
