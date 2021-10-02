@@ -1,3 +1,9 @@
+## @sentrei/next [1.12.7](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.6...@sentrei/next@1.12.7) (2021-10-02)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.41 ([ede1c80](https://github.com/sentrei/sentrei/commit/ede1c80e8bab21bf62e9311ca0391c3b82265d2c))
+
 ## @sentrei/next [1.12.6](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.5...@sentrei/next@1.12.6) (2021-10-01)
 
 ### Bug Fixes
