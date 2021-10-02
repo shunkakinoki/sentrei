@@ -50,8 +50,6 @@ jobs:
       - run: |
           yarn install --frozen-lockfile
       - run: |
-          yarn run cloud:ci
-      - run: |
           yarn run lint
       - if: failure()
         run: |
