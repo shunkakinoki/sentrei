@@ -1,3 +1,9 @@
+## [1.62.7](https://github.com/sentrei/sentrei/compare/v1.62.6...v1.62.7) (2021-10-02)
+
+### Performance Improvements
+
+- ini scripty config ([ed86dca](https://github.com/sentrei/sentrei/commit/ed86dcacefca7ce1aaa54b7a0f2eb88fcd33ca87))
+
 ## [1.62.6](https://github.com/sentrei/sentrei/compare/v1.62.5...v1.62.6) (2021-10-02)
 
 ### Bug Fixes
