@@ -1,3 +1,9 @@
+## @sentrei/tailwindcss [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.2...@sentrei/tailwindcss@1.4.3) (2021-10-02)
+
+### Bug Fixes
+
+- **deps:** update dependency @tailwindcss/line-clamp to ^0.2.2 ([e80091c](https://github.com/sentrei/sentrei/commit/e80091c1e258b631bcc8ba265d9a22f3c4626335))
+
 ## @sentrei/tailwindcss [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.1...@sentrei/tailwindcss@1.4.2) (2021-09-28)
 
 ### Performance Improvements
