@@ -1,3 +1,10 @@
+## [1.62.9](https://github.com/sentrei/sentrei/compare/v1.62.8...v1.62.9) (2021-10-02)
+
+### Performance Improvements
+
+- ini eslint global ([932d4fe](https://github.com/sentrei/sentrei/commit/932d4fe22f28230c254671c4aa38bb7ced53efa8))
+- ini package config ([caefd65](https://github.com/sentrei/sentrei/commit/caefd65ec6005804e76890b32ffa09e4cc9b35a7))
+
 ## [1.62.8](https://github.com/sentrei/sentrei/compare/v1.62.7...v1.62.8) (2021-10-02)
 
 ### Performance Improvements
