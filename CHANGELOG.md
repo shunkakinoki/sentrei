@@ -1,3 +1,9 @@
+## [1.62.4](https://github.com/sentrei/sentrei/compare/v1.62.3...v1.62.4) (2021-10-02)
+
+### Bug Fixes
+
+- **deps:** update dependency @tailwindcss/line-clamp to ^0.2.2 ([e80091c](https://github.com/sentrei/sentrei/commit/e80091c1e258b631bcc8ba265d9a22f3c4626335))
+
 ## [1.62.3](https://github.com/sentrei/sentrei/compare/v1.62.2...v1.62.3) (2021-10-02)
 
 ### Bug Fixes
