@@ -1,3 +1,9 @@
+## @sentrei/scripty [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/scripty@1.0.0...@sentrei/scripty@1.0.1) (2021-10-02)
+
+### Performance Improvements
+
+- ini package config ([caefd65](https://github.com/sentrei/sentrei/commit/caefd65ec6005804e76890b32ffa09e4cc9b35a7))
+
 # @sentrei/scripty 1.0.0 (2021-10-02)
 
 ### Performance Improvements
