@@ -1,3 +1,9 @@
+## @sentrei/dev [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.2...@sentrei/dev@1.3.3) (2021-10-02)
+
+### Performance Improvements
+
+- ini scripty config ([ed86dca](https://github.com/sentrei/sentrei/commit/ed86dcacefca7ce1aaa54b7a0f2eb88fcd33ca87))
+
 ## @sentrei/dev [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.1...@sentrei/dev@1.3.2) (2021-09-28)
 
 ### Bug Fixes
