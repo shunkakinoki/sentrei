@@ -1,3 +1,9 @@
+## [1.62.8](https://github.com/sentrei/sentrei/compare/v1.62.7...v1.62.8) (2021-10-02)
+
+### Performance Improvements
+
+- ini scripty package ([3b53f00](https://github.com/sentrei/sentrei/commit/3b53f00048566f78da536107c5b0d1b72409d2c4))
+
 ## [1.62.7](https://github.com/sentrei/sentrei/compare/v1.62.6...v1.62.7) (2021-10-02)
 
 ### Performance Improvements

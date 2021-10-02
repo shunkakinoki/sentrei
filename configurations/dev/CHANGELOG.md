@@ -1,3 +1,9 @@
+## @sentrei/dev [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.3...@sentrei/dev@1.3.4) (2021-10-02)
+
+### Performance Improvements
+
+- ini scripty package ([3b53f00](https://github.com/sentrei/sentrei/commit/3b53f00048566f78da536107c5b0d1b72409d2c4))
+
 ## @sentrei/dev [1.3.3](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.2...@sentrei/dev@1.3.3) (2021-10-02)
 
 ### Performance Improvements

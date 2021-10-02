@@ -1,3 +1,9 @@
+# @sentrei/scripty 1.0.0 (2021-10-02)
+
+### Performance Improvements
+
+- ini scripty package ([3b53f00](https://github.com/sentrei/sentrei/commit/3b53f00048566f78da536107c5b0d1b72409d2c4))
+
 # @sentrei/stylelint [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/stylelint@1.1.0...@sentrei/stylelint@1.2.0) (2021-07-23)
 
 ### Features
