@@ -1,3 +1,9 @@
+## [1.62.5](https://github.com/sentrei/sentrei/compare/v1.62.4...v1.62.5) (2021-10-02)
+
+### Bug Fixes
+
+- **deps:** update dependency serverless to ^2.60.3 ([ebeaa19](https://github.com/sentrei/sentrei/commit/ebeaa198e04f86ff007248642cb8c566ae37f5b6))
+
 ## [1.62.4](https://github.com/sentrei/sentrei/compare/v1.62.3...v1.62.4) (2021-10-02)
 
 ### Bug Fixes
