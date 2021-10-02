@@ -1,3 +1,9 @@
+## [1.62.6](https://github.com/sentrei/sentrei/compare/v1.62.5...v1.62.6) (2021-10-02)
+
+### Bug Fixes
+
+- **deps:** update storybook monorepo to ^6.3.9 ([ee81c03](https://github.com/sentrei/sentrei/commit/ee81c03874c0089615679b2a22f8540d46479d40))
+
 ## [1.62.5](https://github.com/sentrei/sentrei/compare/v1.62.4...v1.62.5) (2021-10-02)
 
 ### Bug Fixes
