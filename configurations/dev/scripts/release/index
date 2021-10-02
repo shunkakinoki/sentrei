@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+yarn run release:multi-semantic-release && yarn run release:semantic-release

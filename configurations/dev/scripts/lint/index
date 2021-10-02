@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+yarn run lint:eslint && yarn run lint:prettier && yarn run lint:npm-package-json

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+eslint --fix . --config .eslintrc.js --ext .js,.ts,.tsx --cache --cache-location ./node_modules/.cache/eslint --resolve-plugins-relative-to ./node_modules/@shunkakinoki/eslint-config

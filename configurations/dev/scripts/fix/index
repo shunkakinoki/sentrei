@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+yarn run fix:eslint && yarn run fix:prettier && yarn run fix:sort-package-json
