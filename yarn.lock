@@ -21487,7 +21487,7 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^27.23.0:
+renovate@^27.25.0:
   version "27.25.0"
   resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.25.0.tgz#76b9fed8d7b9718714a447e61424b1f538740999"
   integrity sha512-W6F+lgM8IWJxjENLIpbRtrCgoXwdCOIbI8+Nz2CPzDBdwfSNvPQnHOYXQZiSkcaXv8FfYBxhq5yVvl1n+0ynMA==
