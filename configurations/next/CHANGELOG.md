@@ -1,3 +1,9 @@
+## @sentrei/next [1.13.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.13.0...@sentrei/next@1.13.1) (2021-10-03)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/react to ^17.0.27 ([df5ce05](https://github.com/sentrei/sentrei/commit/df5ce0523628241c1b14039e0f1b786101fe4ab8))
+
 # @sentrei/next [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.7...@sentrei/next@1.13.0) (2021-10-03)
 
 ### Features
