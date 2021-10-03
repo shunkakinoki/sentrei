@@ -1,3 +1,9 @@
+# [1.65.0](https://github.com/sentrei/sentrei/compare/v1.64.0...v1.65.0) (2021-10-03)
+
+### Features
+
+- refactor sentrei tailwindcss ([e1fc952](https://github.com/sentrei/sentrei/commit/e1fc952667f07b2eddd2230f4745efc75a3cfb40))
+
 # [1.64.0](https://github.com/sentrei/sentrei/compare/v1.63.0...v1.64.0) (2021-10-03)
 
 ### Features
