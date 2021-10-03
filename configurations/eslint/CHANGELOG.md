@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.9](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.8...@sentrei/eslint-config@1.5.9) (2021-10-03)
+
+### Performance Improvements
+
+- ini eslint config ([37fff45](https://github.com/sentrei/sentrei/commit/37fff45cf4dc2caa52d7a8c1fe4912398271965d))
+
 ## @sentrei/eslint-config [1.5.8](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.7...@sentrei/eslint-config@1.5.8) (2021-10-02)
 
 ### Performance Improvements
