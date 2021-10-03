@@ -1,5 +1,3 @@
-const { join } = require("path");
-
 const colors = require("tailwindcss/colors");
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig } */
@@ -13,11 +11,7 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("tailwindcss-border-gradients")(),
   ],
-  purge: [
-    join(__dirname, "src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../apps/**/src/**/*.{js,ts,jsx,tsx}"),
-    join(__dirname, "../../../components/**/src/**/*.{js,ts,jsx,tsx}"),
-  ],
+  purge: ["src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       animation: {
