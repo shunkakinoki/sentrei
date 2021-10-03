@@ -1,3 +1,13 @@
+# [1.64.0](https://github.com/sentrei/sentrei/compare/v1.63.0...v1.64.0) (2021-10-03)
+
+### Features
+
+- ini sentrei tooling ([9b7261b](https://github.com/sentrei/sentrei/commit/9b7261ba458d0b0e9629266c0a9be2f339bd0c29))
+
+### Performance Improvements
+
+- ini sentrei kit ([28e7492](https://github.com/sentrei/sentrei/commit/28e749287aebda759ba2e2f7fa75e9b358b7ae88))
+
 # [1.63.0](https://github.com/sentrei/sentrei/compare/v1.62.9...v1.63.0) (2021-10-03)
 
 ### Features
