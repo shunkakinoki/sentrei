@@ -11,7 +11,7 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("tailwindcss-border-gradients")(),
   ],
-  purge: ["src/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       animation: {
