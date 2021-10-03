@@ -1,3 +1,9 @@
+# @sentrei/tailwindcss [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.3...@sentrei/tailwindcss@1.5.0) (2021-10-03)
+
+### Features
+
+- refactor sentrei tailwindcss ([e1fc952](https://github.com/sentrei/sentrei/commit/e1fc952667f07b2eddd2230f4745efc75a3cfb40))
+
 ## @sentrei/tailwindcss [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.2...@sentrei/tailwindcss@1.4.3) (2021-10-02)
 
 ### Bug Fixes
