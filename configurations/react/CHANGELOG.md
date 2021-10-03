@@ -1,3 +1,9 @@
+## @sentrei/react [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.1.1...@sentrei/react@1.1.2) (2021-10-03)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/react to ^17.0.27 ([df5ce05](https://github.com/sentrei/sentrei/commit/df5ce0523628241c1b14039e0f1b786101fe4ab8))
+
 ## @sentrei/react [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.1.0...@sentrei/react@1.1.1) (2021-09-16)
 
 ### Performance Improvements
