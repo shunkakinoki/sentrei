@@ -1,3 +1,13 @@
+# @sentrei/kit 1.0.0 (2021-10-03)
+
+### Features
+
+- ini sentrei tooling ([9b7261b](https://github.com/sentrei/sentrei/commit/9b7261ba458d0b0e9629266c0a9be2f339bd0c29))
+
+### Performance Improvements
+
+- ini sentrei kit ([28e7492](https://github.com/sentrei/sentrei/commit/28e749287aebda759ba2e2f7fa75e9b358b7ae88))
+
 ## @sentrei/dev [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.3...@sentrei/dev@1.3.4) (2021-10-02)
 
 ### Performance Improvements
