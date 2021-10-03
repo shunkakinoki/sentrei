@@ -21,14 +21,16 @@
   },
   "dependencies": {
     "@sentrei/commitlint": "^1.2.2",
+    "@sentrei/depcheck": "^1.5.0",
+    "@sentrei/dev": "^1.3.4",
     "@sentrei/eslint-config": "^1.5.8",
     "@sentrei/husky": "^1.3.0",
     "@sentrei/lint-staged": "^1.2.2",
     "@sentrei/npm-check-updates": "^1.5.1",
     "@sentrei/npm-package-json-lint-config": "^1.1.0",
     "@sentrei/prettier": "^1.5.1",
-    "@sentrei/semantic-release": "^1.5.1",
-    "@sentrei/typescript": "^1.1.1"
+    "@sentrei/semantic-release": "^1.5.3",
+    "@sentrei/tsconfig": "^1.6.0"
   },
   "publishConfig": {
     "access": "public",
