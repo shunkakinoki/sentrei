@@ -1,0 +1,37 @@
+{
+  "name": "@sentrei/kit",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "MIT",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "fix": "cd ../.. && yarn run fix"
+  },
+  "dependencies": {
+    "@sentrei/commitlint": "^1.2.2",
+    "@sentrei/eslint-config": "^1.5.8",
+    "@sentrei/husky": "^1.3.0",
+    "@sentrei/lint-staged": "^1.2.2",
+    "@sentrei/npm-check-updates": "^1.5.1",
+    "@sentrei/npm-package-json-lint-config": "^1.1.0",
+    "@sentrei/prettier": "^1.5.1",
+    "@sentrei/semantic-release": "^1.5.1",
+    "@sentrei/typescript": "^1.1.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
