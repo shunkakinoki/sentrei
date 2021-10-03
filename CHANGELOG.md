@@ -1,3 +1,9 @@
+## [1.65.2](https://github.com/sentrei/sentrei/compare/v1.65.1...v1.65.2) (2021-10-03)
+
+### Performance Improvements
+
+- ini eslint config ([37fff45](https://github.com/sentrei/sentrei/commit/37fff45cf4dc2caa52d7a8c1fe4912398271965d))
+
 ## [1.65.1](https://github.com/sentrei/sentrei/compare/v1.65.0...v1.65.1) (2021-10-03)
 
 ### Bug Fixes
