@@ -30,7 +30,7 @@
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.3.9",
     "@storybook/theming": "^6.3.9",
-    "storybook-addon-designs": "^6.1.0",
+    "storybook-addon-designs": "^6.2.0",
     "storybook-addon-next-router": "^3.0.8",
     "storybook-builder-vite": "^0.1.0",
     "storybook-dark-mode": "^1.0.8"
