@@ -1,3 +1,9 @@
+# @sentrei/next [1.13.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.7...@sentrei/next@1.13.0) (2021-10-03)
+
+### Features
+
+- ini sentrei next ([21acdd5](https://github.com/sentrei/sentrei/commit/21acdd5d628070380bad31441d0ad7e5103b3464))
+
 ## @sentrei/next [1.12.7](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.12.6...@sentrei/next@1.12.7) (2021-10-02)
 
 ### Bug Fixes
