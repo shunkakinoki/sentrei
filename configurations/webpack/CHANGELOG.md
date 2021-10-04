@@ -1,3 +1,9 @@
+## @sentrei/webpack [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.2.0...@sentrei/webpack@1.2.1) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack to ^5.56.1 ([8dcb839](https://github.com/sentrei/sentrei/commit/8dcb839f0d52b1d5bd939f27f0c247af3bc280d7))
+
 # @sentrei/webpack [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.1.0...@sentrei/webpack@1.2.0) (2021-09-23)
 
 ### Features
