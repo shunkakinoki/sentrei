@@ -1,3 +1,9 @@
+## [1.65.12](https://github.com/sentrei/sentrei/compare/v1.65.11...v1.65.12) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency postcss to ^8.3.9 ([509d049](https://github.com/sentrei/sentrei/commit/509d049f9d64e85aeec747dbbf72754af8c00e32))
+
 ## [1.65.11](https://github.com/sentrei/sentrei/compare/v1.65.10...v1.65.11) (2021-10-04)
 
 ### Bug Fixes
