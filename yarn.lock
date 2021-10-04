@@ -7200,6 +7200,11 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
+auth-header@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/auth-header/-/auth-header-1.0.0.tgz#ea24fdc5588e1eb8b750df8655a396aa48fc9076"
+  integrity sha512-CPPazq09YVDUNNVWo4oSPTQmtwIzHusZhQmahCKvIsk0/xH6U3QsMAv3sM+7+Q0B1K2KJ/Q38OND317uXs4NHA==
+
 autoprefixer@^10.2.5, autoprefixer@^10.3.6:
   version "10.3.6"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.3.6.tgz#537c8a046e32ec46bfe528bcc9e2a5f2d87cd4c4"
@@ -21095,10 +21100,10 @@ renderkid@^2.0.4, renderkid@^2.0.6:
     lodash "^4.17.21"
     strip-ansi "^3.0.1"
 
-renovate@^27.25.0:
-  version "27.25.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.25.0.tgz#76b9fed8d7b9718714a447e61424b1f538740999"
-  integrity sha512-W6F+lgM8IWJxjENLIpbRtrCgoXwdCOIbI8+Nz2CPzDBdwfSNvPQnHOYXQZiSkcaXv8FfYBxhq5yVvl1n+0ynMA==
+renovate@^27.26.0:
+  version "27.26.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-27.26.0.tgz#1fad665fcd319470bd5ed83dffdf4191c9025eae"
+  integrity sha512-4cdQkXEMEhnepXij9jwakeUIGn5iDDkzhRvrB8yo+C1UJ7+NBfm4EPd0uBWX70m9ErLC2+CCIplmA1JXaB876Q==
   dependencies:
     "@aws-sdk/client-ecr" "3.25.0"
     "@breejs/later" "4.0.2"
@@ -21108,6 +21113,7 @@ renovate@^27.25.0:
     "@sindresorhus/is" "4.2.0"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.4.0"
+    auth-header "1.0.0"
     azure-devops-node-api "11.0.1"
     bunyan "1.8.15"
     cacache "15.3.0"
@@ -21170,7 +21176,6 @@ renovate@^27.25.0:
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "3.0.0"
-    www-authenticate "0.6.2"
     xmldoc "1.1.2"
   optionalDependencies:
     re2 "1.16.0"
@@ -25607,11 +25612,6 @@ ws@^8.1.0:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.2.tgz#ca684330c6dd6076a737250ed81ac1606cb0a63e"
   integrity sha512-Q6B6H2oc8QY3llc3cB8kVmQ6pnJWVQbP7Q5algTcIxx7YEpc0oU4NBVHlztA7Ekzfhw2r0rPducMUiCGWKQRzw==
-
-www-authenticate@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/www-authenticate/-/www-authenticate-0.6.2.tgz#b7a7d487bdc5a8b423a4d8fd5f9c661adde50ebf"
-  integrity sha1-t6fUh73FqLQjpNj9X5xmGt3lDr8=
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
