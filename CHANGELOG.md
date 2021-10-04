@@ -1,3 +1,9 @@
+## [1.65.10](https://github.com/sentrei/sentrei/compare/v1.65.9...v1.65.10) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack-dev-server to ^4.3.1 ([485a002](https://github.com/sentrei/sentrei/commit/485a002e1e7925f52578299d3dbbf7f47c262cd8))
+
 ## [1.65.9](https://github.com/sentrei/sentrei/compare/v1.65.8...v1.65.9) (2021-10-04)
 
 ### Bug Fixes
