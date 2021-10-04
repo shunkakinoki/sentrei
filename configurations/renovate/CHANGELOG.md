@@ -1,3 +1,9 @@
+## @sentrei/renovate-config [1.1.27](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.26...@sentrei/renovate-config@1.1.27) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency renovate to ^27.26.0 ([0cb2244](https://github.com/sentrei/sentrei/commit/0cb224405711a53fd4d156d6169024d16f59adec))
+
 ## @sentrei/renovate-config [1.1.26](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.25...@sentrei/renovate-config@1.1.26) (2021-10-02)
 
 ### Bug Fixes
