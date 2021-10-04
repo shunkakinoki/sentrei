@@ -1,3 +1,9 @@
+## [1.65.6](https://github.com/sentrei/sentrei/compare/v1.65.5...v1.65.6) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack to ^5.56.1 ([8dcb839](https://github.com/sentrei/sentrei/commit/8dcb839f0d52b1d5bd939f27f0c247af3bc280d7))
+
 ## [1.65.5](https://github.com/sentrei/sentrei/compare/v1.65.4...v1.65.5) (2021-10-04)
 
 ### Bug Fixes
