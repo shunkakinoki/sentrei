@@ -1,3 +1,9 @@
+## @sentrei/serverless [1.0.5](https://github.com/sentrei/sentrei/compare/@sentrei/serverless@1.0.4...@sentrei/serverless@1.0.5) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency serverless to ^2.61.0 ([b2add28](https://github.com/sentrei/sentrei/commit/b2add282407f20d2255abe6af246ed8474452ee8))
+
 ## @sentrei/serverless [1.0.4](https://github.com/sentrei/sentrei/compare/@sentrei/serverless@1.0.3...@sentrei/serverless@1.0.4) (2021-10-02)
 
 ### Bug Fixes
