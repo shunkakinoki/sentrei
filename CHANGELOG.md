@@ -1,3 +1,9 @@
+## [1.65.3](https://github.com/sentrei/sentrei/compare/v1.65.2...v1.65.3) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency @swc/core to ^1.2.93 ([9af5994](https://github.com/sentrei/sentrei/commit/9af599493ed977733e4a4f6cdca3d82962efe6ff))
+
 ## [1.65.2](https://github.com/sentrei/sentrei/compare/v1.65.1...v1.65.2) (2021-10-03)
 
 ### Performance Improvements
