@@ -1,3 +1,9 @@
+## @sentrei/postcss [1.4.5](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.4...@sentrei/postcss@1.4.5) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency postcss to ^8.3.9 ([509d049](https://github.com/sentrei/sentrei/commit/509d049f9d64e85aeec747dbbf72754af8c00e32))
+
 ## @sentrei/postcss [1.4.4](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.3...@sentrei/postcss@1.4.4) (2021-10-04)
 
 ### Bug Fixes
