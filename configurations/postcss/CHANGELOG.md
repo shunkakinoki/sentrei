@@ -1,3 +1,9 @@
+## @sentrei/postcss [1.4.4](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.3...@sentrei/postcss@1.4.4) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency autoprefixer to ^10.3.7 ([60c4a19](https://github.com/sentrei/sentrei/commit/60c4a19f14fb27cde7bd8957bd9417f776754146))
+
 ## @sentrei/postcss [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/postcss@1.4.2...@sentrei/postcss@1.4.3) (2021-09-26)
 
 ### Performance Improvements
