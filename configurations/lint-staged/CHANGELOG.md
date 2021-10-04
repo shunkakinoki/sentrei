@@ -1,3 +1,9 @@
+## @sentrei/lint-staged [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.2.2...@sentrei/lint-staged@1.2.3) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency lint-staged to ^11.2.0 ([91fdaae](https://github.com/sentrei/sentrei/commit/91fdaaed058b49fc54e11d188d1b8831cfffe829))
+
 ## @sentrei/lint-staged [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.2.1...@sentrei/lint-staged@1.2.2) (2021-08-07)
 
 ### Bug Fixes
