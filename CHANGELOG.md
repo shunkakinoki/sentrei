@@ -1,3 +1,9 @@
+## [1.65.9](https://github.com/sentrei/sentrei/compare/v1.65.8...v1.65.9) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to ^4.33.0 ([94e6894](https://github.com/sentrei/sentrei/commit/94e6894bd018d3fc54f20839690c7f9b2585e161))
+
 ## [1.65.8](https://github.com/sentrei/sentrei/compare/v1.65.7...v1.65.8) (2021-10-04)
 
 ### Bug Fixes
