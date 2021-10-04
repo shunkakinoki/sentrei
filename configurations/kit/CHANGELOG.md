@@ -1,3 +1,9 @@
+## @sentrei/kit [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/kit@1.0.2...@sentrei/kit@1.0.3) (2021-10-04)
+
+### Dependencies
+
+- **@sentrei/eslint-config:** upgraded to 1.5.10
+
 ## @sentrei/kit [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/kit@1.0.1...@sentrei/kit@1.0.2) (2021-10-04)
 
 ### Dependencies
