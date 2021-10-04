@@ -1,3 +1,9 @@
+## @sentrei/webpack [1.2.2](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.2.1...@sentrei/webpack@1.2.2) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack-dev-server to ^4.3.1 ([485a002](https://github.com/sentrei/sentrei/commit/485a002e1e7925f52578299d3dbbf7f47c262cd8))
+
 ## @sentrei/webpack [1.2.1](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.2.0...@sentrei/webpack@1.2.1) (2021-10-04)
 
 ### Bug Fixes
