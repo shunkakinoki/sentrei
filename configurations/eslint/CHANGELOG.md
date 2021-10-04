@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.10](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.9...@sentrei/eslint-config@1.5.10) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to ^4.33.0 ([94e6894](https://github.com/sentrei/sentrei/commit/94e6894bd018d3fc54f20839690c7f9b2585e161))
+
 ## @sentrei/eslint-config [1.5.9](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.8...@sentrei/eslint-config@1.5.9) (2021-10-03)
 
 ### Performance Improvements
