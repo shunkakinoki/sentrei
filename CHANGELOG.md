@@ -1,3 +1,9 @@
+## [1.65.7](https://github.com/sentrei/sentrei/compare/v1.65.6...v1.65.7) (2021-10-04)
+
+### Bug Fixes
+
+- **deps:** update dependency lint-staged to ^11.2.0 ([91fdaae](https://github.com/sentrei/sentrei/commit/91fdaaed058b49fc54e11d188d1b8831cfffe829))
+
 ## [1.65.6](https://github.com/sentrei/sentrei/compare/v1.65.5...v1.65.6) (2021-10-04)
 
 ### Bug Fixes
