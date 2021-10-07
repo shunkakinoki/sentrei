@@ -1,3 +1,9 @@
+# [1.66.0](https://github.com/sentrei/sentrei/compare/v1.65.30...v1.66.0) (2021-10-07)
+
+### Features
+
+- ini sentrei packages ([d0db138](https://github.com/sentrei/sentrei/commit/d0db138f6e01d363f290ee2f554af25a3156fd65))
+
 ## [1.65.30](https://github.com/sentrei/sentrei/compare/v1.65.29...v1.65.30) (2021-10-07)
 
 ### Bug Fixes
