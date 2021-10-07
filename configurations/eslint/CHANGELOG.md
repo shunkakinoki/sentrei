@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.11](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.10...@sentrei/eslint-config@1.5.11) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.48 ([b83598f](https://github.com/sentrei/sentrei/commit/b83598ff43f9a2902c210b92bd1c534c49aca2b5))
+
 ## @sentrei/eslint-config [1.5.10](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.9...@sentrei/eslint-config@1.5.10) (2021-10-04)
 
 ### Bug Fixes
