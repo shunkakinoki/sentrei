@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@angular-devkit/schematics": "^12.2.8",
+    "@angular-devkit/schematics": "^12.2.9",
     "@nrwl/cli": "^12.9.0",
     "@nrwl/cypress": "^12.9.0",
     "@nrwl/eslint-plugin-nx": "^12.9.0",
