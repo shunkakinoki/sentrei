@@ -1,3 +1,9 @@
+## @sentrei/nrwl [1.2.5](https://github.com/sentrei/sentrei/compare/@sentrei/nrwl@1.2.4...@sentrei/nrwl@1.2.5) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @angular-devkit/schematics to ^12.2.9 ([47a6cd3](https://github.com/sentrei/sentrei/commit/47a6cd3ef8e42f02cf2e9b4d549f901c77291c14))
+
 ## @sentrei/nrwl [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/nrwl@1.2.3...@sentrei/nrwl@1.2.4) (2021-10-02)
 
 ### Bug Fixes
