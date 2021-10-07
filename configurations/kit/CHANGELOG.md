@@ -1,3 +1,9 @@
+# @sentrei/kit [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/kit@1.0.7...@sentrei/kit@1.1.0) (2021-10-07)
+
+### Features
+
+- ini revamped kit ([7448197](https://github.com/sentrei/sentrei/commit/7448197cd01972cbafa7147e3ec3735dd01b4e12))
+
 ## @sentrei/kit [1.0.7](https://github.com/sentrei/sentrei/compare/@sentrei/kit@1.0.6...@sentrei/kit@1.0.7) (2021-10-07)
 
 ### Dependencies
