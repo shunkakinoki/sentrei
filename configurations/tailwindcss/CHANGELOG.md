@@ -1,3 +1,9 @@
+## @sentrei/tailwindcss [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.5.0...@sentrei/tailwindcss@1.5.1) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @tailwindcss/aspect-ratio to ^0.3.0 ([7f469e7](https://github.com/sentrei/sentrei/commit/7f469e7366020187870495ab434f9fd8ecb76fbb))
+
 # @sentrei/tailwindcss [1.5.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.4.3...@sentrei/tailwindcss@1.5.0) (2021-10-03)
 
 ### Features
