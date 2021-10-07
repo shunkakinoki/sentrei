@@ -1,3 +1,9 @@
+## [1.65.19](https://github.com/sentrei/sentrei/compare/v1.65.18...v1.65.19) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-tailwindcss to ^1.17.0 ([33a6c5f](https://github.com/sentrei/sentrei/commit/33a6c5f27b1ae4fc908f239be5522958606b637e))
+
 ## [1.65.18](https://github.com/sentrei/sentrei/compare/v1.65.17...v1.65.18) (2021-10-07)
 
 ### Bug Fixes
