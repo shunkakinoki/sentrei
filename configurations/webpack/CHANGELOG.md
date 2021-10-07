@@ -1,3 +1,9 @@
+## @sentrei/webpack [1.2.4](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.2.3...@sentrei/webpack@1.2.4) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack to ^5.58.0 ([957a68c](https://github.com/sentrei/sentrei/commit/957a68c30dddff8ce97fd1b43566c13126d519e2))
+
 ## @sentrei/webpack [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/webpack@1.2.2...@sentrei/webpack@1.2.3) (2021-10-07)
 
 ### Bug Fixes
