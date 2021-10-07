@@ -1,3 +1,9 @@
+## @sentrei/sentry [1.0.3](https://github.com/sentrei/sentrei/compare/@sentrei/sentry@1.0.2...@sentrei/sentry@1.0.3) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update sentry-javascript monorepo to ^6.13.3 ([d775a6c](https://github.com/sentrei/sentrei/commit/d775a6ce124facd91dd7cf58d7336b26249efa58))
+
 ## @sentrei/sentry [1.0.2](https://github.com/sentrei/sentrei/compare/@sentrei/sentry@1.0.1...@sentrei/sentry@1.0.2) (2021-09-20)
 
 ### Performance Improvements
