@@ -1,6 +1,6 @@
 {
   "name": "@sentrei/kit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "homepage": "https://github.com/sentrei/sentrei",
   "bugs": {
@@ -23,7 +23,7 @@
     "@sentrei/commitlint": "1.2.2",
     "@sentrei/depcheck": "^1.5.0",
     "@sentrei/dev": "1.3.4",
-    "@sentrei/eslint-config": "1.5.11",
+    "@sentrei/eslint-config": "1.5.12",
     "@sentrei/husky": "1.3.0",
     "@sentrei/lint-staged": "1.2.3",
     "@sentrei/npm-check-updates": "1.5.1",
