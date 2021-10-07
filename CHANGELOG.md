@@ -1,3 +1,9 @@
+## [1.65.16](https://github.com/sentrei/sentrei/compare/v1.65.15...v1.65.16) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency next-sitemap to ^1.6.179 ([e7c8333](https://github.com/sentrei/sentrei/commit/e7c8333e723e56e91c45369642d51e8a5cac5998))
+
 ## [1.65.15](https://github.com/sentrei/sentrei/compare/v1.65.14...v1.65.15) (2021-10-07)
 
 ### Bug Fixes
