@@ -1,3 +1,10 @@
+## [1.65.30](https://github.com/sentrei/sentrei/compare/v1.65.29...v1.65.30) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency webpack to ^5.58.0 ([957a68c](https://github.com/sentrei/sentrei/commit/957a68c30dddff8ce97fd1b43566c13126d519e2))
+- **deps:** update nextjs monorepo to ^11.1.3-canary.50 ([325227c](https://github.com/sentrei/sentrei/commit/325227c1ef0dff086b3d571c2903ff00850066ab))
+
 ## [1.65.29](https://github.com/sentrei/sentrei/compare/v1.65.28...v1.65.29) (2021-10-07)
 
 ### Bug Fixes
