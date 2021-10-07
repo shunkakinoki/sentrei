@@ -30,10 +30,11 @@
     "default": {
       "automerge": true,
       "automergeType": "pr",
+      "enabled": false,
       "rangeStrategy": "bump",
       "prConcurrentLimit": 0,
       "prHourlyLimit": 0,
-      "schedule": "every 3 days",
+      "schedule": "every 300 days",
       "extends": [
         "config:base",
         "group:monorepos"

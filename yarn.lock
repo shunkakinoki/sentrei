@@ -24584,10 +24584,15 @@ typescript-template-language-service-decorator@^2.2.0:
   resolved "https://registry.yarnpkg.com/typescript-template-language-service-decorator/-/typescript-template-language-service-decorator-2.2.0.tgz#4ee6d580f307fb9239978e69626f2775b8a59b2a"
   integrity sha512-xiolqt1i7e22rpqMaprPgSFVgU64u3b9n6EJlAaUYE61jumipKAdI1+O5khPlWslpTUj80YzjUKjJ2jxT0D74w==
 
-typescript@^4.3.5, typescript@^4.4.3:
+typescript@^4.3.5:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
   integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
+
+typescript@^4.5.0-beta:
+  version "4.5.0-dev.20211007"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.0-dev.20211007.tgz#da90b5547ff84e3e334e94414f674e3d6a1c5394"
+  integrity sha512-NUEjWBg7fo+w9DC6ffCeaJ+Oc8a99l7vmWDT2wWWPzh4TwZX7ELFmaOKY95ErEEbjDFdgUTEd5QDZwxSjKiq0Q==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
