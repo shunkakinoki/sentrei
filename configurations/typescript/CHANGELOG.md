@@ -1,3 +1,9 @@
+# @sentrei/typescript [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.1.1...@sentrei/typescript@1.2.0) (2021-10-07)
+
+### Features
+
+- ini sentrei packages ([d0db138](https://github.com/sentrei/sentrei/commit/d0db138f6e01d363f290ee2f554af25a3156fd65))
+
 ## @sentrei/typescript [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.1.0...@sentrei/typescript@1.1.1) (2021-09-15)
 
 ### Bug Fixes
