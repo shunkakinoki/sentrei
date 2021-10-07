@@ -1,3 +1,9 @@
+## @sentrei/next [1.13.3](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.13.2...@sentrei/next@1.13.3) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency next-sitemap to ^1.6.179 ([e7c8333](https://github.com/sentrei/sentrei/commit/e7c8333e723e56e91c45369642d51e8a5cac5998))
+
 ## @sentrei/next [1.13.2](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.13.1...@sentrei/next@1.13.2) (2021-10-07)
 
 ### Bug Fixes
