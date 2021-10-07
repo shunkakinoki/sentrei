@@ -1,3 +1,9 @@
+# @sentrei/renovate-config [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.33...@sentrei/renovate-config@1.2.0) (2021-10-07)
+
+### Features
+
+- ini sentrei packages ([d0db138](https://github.com/sentrei/sentrei/commit/d0db138f6e01d363f290ee2f554af25a3156fd65))
+
 ## @sentrei/renovate-config [1.1.33](https://github.com/sentrei/sentrei/compare/@sentrei/renovate-config@1.1.32...@sentrei/renovate-config@1.1.33) (2021-10-07)
 
 ### Bug Fixes
