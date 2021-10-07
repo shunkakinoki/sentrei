@@ -30,7 +30,7 @@
     "@sentrei/npm-package-json-lint-config": "1.1.0",
     "@sentrei/prettier": "1.5.1",
     "@sentrei/semantic-release": "1.5.3",
-    "@sentrei/tsconfig": "^1.6.0"
+    "@sentrei/typescript": "^1.2.0"
   },
   "publishConfig": {
     "access": "public",

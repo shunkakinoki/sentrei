@@ -3696,12 +3696,13 @@
   dependencies:
     depcheck "^1.4.2"
 
-"@sentrei/tsconfig@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@sentrei/tsconfig/-/tsconfig-1.6.0.tgz#990ef607366675079e4883985e915b456204bd97"
-  integrity sha512-cepZWAUqjGf/xE26FoOfGqx7x1LiH5iO7/L1AeYqDgFMrhUBTs1Fi2dgPailPjTaXM2aa/pVwzAhF72B1+QRSQ==
+"@sentrei/typescript@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@sentrei/typescript/-/typescript-1.2.0.tgz#5825e4a7fcbcea235e157699ee7916a2978a7ffe"
+  integrity sha512-DUB2omzq8D3h0ohKV1WpBfotHdRR89ryewwjEmdcANu6oVwB5y1JTc1i16y1KuFwzo+Dzh3sOQhiXE94iIPs5A==
   dependencies:
-    typescript "^4.3.5"
+    typescript "^4.5.0-beta"
+    typescript-styled-plugin "^0.18.1"
 
 "@sentry/browser@6.13.3":
   version "6.13.3"
@@ -24583,11 +24584,6 @@ typescript-template-language-service-decorator@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/typescript-template-language-service-decorator/-/typescript-template-language-service-decorator-2.2.0.tgz#4ee6d580f307fb9239978e69626f2775b8a59b2a"
   integrity sha512-xiolqt1i7e22rpqMaprPgSFVgU64u3b9n6EJlAaUYE61jumipKAdI1+O5khPlWslpTUj80YzjUKjJ2jxT0D74w==
-
-typescript@^4.3.5:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
-  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
 
 typescript@^4.5.0-beta:
   version "4.5.0-dev.20211007"
