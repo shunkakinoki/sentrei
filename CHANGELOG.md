@@ -1,3 +1,9 @@
+## [1.65.20](https://github.com/sentrei/sentrei/compare/v1.65.19...v1.65.20) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @tailwindcss/aspect-ratio to ^0.3.0 ([7f469e7](https://github.com/sentrei/sentrei/commit/7f469e7366020187870495ab434f9fd8ecb76fbb))
+
 ## [1.65.19](https://github.com/sentrei/sentrei/compare/v1.65.18...v1.65.19) (2021-10-07)
 
 ### Bug Fixes
