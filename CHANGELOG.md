@@ -1,3 +1,9 @@
+## [1.65.13](https://github.com/sentrei/sentrei/compare/v1.65.12...v1.65.13) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency @angular-devkit/schematics to ^12.2.9 ([47a6cd3](https://github.com/sentrei/sentrei/commit/47a6cd3ef8e42f02cf2e9b4d549f901c77291c14))
+
 ## [1.65.12](https://github.com/sentrei/sentrei/compare/v1.65.11...v1.65.12) (2021-10-04)
 
 ### Bug Fixes
