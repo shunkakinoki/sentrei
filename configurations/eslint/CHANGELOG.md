@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.5.12](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.11...@sentrei/eslint-config@1.5.12) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-tailwindcss to ^1.17.0 ([33a6c5f](https://github.com/sentrei/sentrei/commit/33a6c5f27b1ae4fc908f239be5522958606b637e))
+
 ## @sentrei/eslint-config [1.5.11](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.5.10...@sentrei/eslint-config@1.5.11) (2021-10-07)
 
 ### Bug Fixes
