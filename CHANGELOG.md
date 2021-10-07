@@ -1,3 +1,9 @@
+# [1.67.0](https://github.com/sentrei/sentrei/compare/v1.66.0...v1.67.0) (2021-10-07)
+
+### Features
+
+- ini revamped kit ([7448197](https://github.com/sentrei/sentrei/commit/7448197cd01972cbafa7147e3ec3735dd01b4e12))
+
 # [1.66.0](https://github.com/sentrei/sentrei/compare/v1.65.30...v1.66.0) (2021-10-07)
 
 ### Features
