@@ -1,3 +1,9 @@
+## [1.65.28](https://github.com/sentrei/sentrei/compare/v1.65.27...v1.65.28) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update nextjs monorepo to ^11.1.3-canary.49 ([aeaf111](https://github.com/sentrei/sentrei/commit/aeaf1114d237ac9cf51594c4c2d056e5457a8e74))
+
 ## [1.65.27](https://github.com/sentrei/sentrei/compare/v1.65.26...v1.65.27) (2021-10-07)
 
 ### Bug Fixes
