@@ -1,3 +1,9 @@
+## [1.65.15](https://github.com/sentrei/sentrei/compare/v1.65.14...v1.65.15) (2021-10-07)
+
+### Bug Fixes
+
+- **deps:** update dependency vite to ^2.6.3 ([6beb78f](https://github.com/sentrei/sentrei/commit/6beb78f0316029459dcdfc3feed5b92e0a89be07))
+
 ## [1.65.14](https://github.com/sentrei/sentrei/compare/v1.65.13...v1.65.14) (2021-10-07)
 
 ### Bug Fixes
