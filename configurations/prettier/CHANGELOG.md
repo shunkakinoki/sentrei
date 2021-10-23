@@ -1,3 +1,9 @@
+# @sentrei/prettier [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.5.1...@sentrei/prettier@1.6.0) (2021-10-23)
+
+### Features
+
+- ini eslint prettier for solidity ([400d668](https://github.com/sentrei/sentrei/commit/400d668fd0a31dc4ffc8b1bd539c6f4ec06de21b))
+
 ## @sentrei/prettier [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.5.0...@sentrei/prettier@1.5.1) (2021-09-25)
 
 ### Performance Improvements
