@@ -30,7 +30,6 @@ module.exports = {
     jsdom: true,
     JSX: true,
   },
-  ignorePatterns: ["**/.next/**", "**/eslint/**", "**/node_modules/**"],
   overrides: [
     {
       files: ["*.js", "*.jsx"],
@@ -41,6 +40,10 @@ module.exports = {
       rules: {
         "import/no-anonymous-default-export": "off",
       },
+    },
+    {
+      files: ["*.sol"],
+      rules: {},
     },
     {
       files: ["*.spec.js", "*.spec.ts"],
