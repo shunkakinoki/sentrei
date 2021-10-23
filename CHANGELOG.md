@@ -1,3 +1,9 @@
+# [1.68.0](https://github.com/sentrei/sentrei/compare/v1.67.0...v1.68.0) (2021-10-23)
+
+### Features
+
+- ini eslint prettier for solidity ([400d668](https://github.com/sentrei/sentrei/commit/400d668fd0a31dc4ffc8b1bd539c6f4ec06de21b))
+
 # [1.67.0](https://github.com/sentrei/sentrei/compare/v1.66.0...v1.67.0) (2021-10-07)
 
 ### Features
