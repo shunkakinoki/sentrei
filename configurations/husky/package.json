@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "commitizen": "^4.2.4",
-    "git-cz": "^4.7.6",
-    "husky": "^7.0.2",
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4",
     "is-ci": "^3.0.0",
     "pinst": "^2.1.6"
   },

@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "vite": "^2.6.4",
+    "vite": "^2.6.10",
     "vite-react-jsx": "^1.1.2"
   },
   "publishConfig": {
