@@ -1,0 +1,13 @@
+{
+  "name": "@sentrei/sentrei",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": "https://github.com/sentrei/sentrei",
+  "license": "MIT",
+  "author": "Sentrei, Inc."
+}

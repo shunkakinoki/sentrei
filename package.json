@@ -12,7 +12,9 @@
   "author": "Sentrei, Inc.",
   "workspaces": {
     "packages": [
-      "configurations/*"
+      "apps/*",
+      "configurations/*",
+      "packages/*"
     ]
   },
   "scripts": {
