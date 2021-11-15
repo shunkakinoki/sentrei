@@ -1,5 +1,4 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer");
-const withNx = require("@nrwl/next/plugins/with-nx");
 const { withSentryConfig } = require("@sentry/nextjs");
 const withPlugins = require("next-compose-plugins");
 const withTranslate = require("next-translate");
@@ -55,16 +54,7 @@ const plugins = [
   nextConfig => {
     return withSentryConfig(nextConfig, SentryWebpackPluginOptions);
   },
-  withNx,
   withTranslate,
 ];
 
-const miniPlugins = [
-  withBundleAnalyzer({
-    enabled: process.env.ANALYZE === "true",
-  }),
-  withNx,
-  withTranslate,
-];
-
-module.exports = { defaultConfig, plugins, miniPlugins, withPlugins };
+module.exports = { defaultConfig, plugins, withPlugins };

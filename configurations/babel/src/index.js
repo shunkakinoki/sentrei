@@ -7,5 +7,5 @@ module.exports = {
       },
     ],
   ],
-  presets: ["@babel/preset-react", "@nrwl/next/babel"],
+  presets: ["@babel/preset-react"],
 };
