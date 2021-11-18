@@ -1,10 +1,13 @@
 {
   "references": [
     {
+      "path": "apps/app"
+    },
+    {
       "path": "apps/docs"
     },
     {
-      "path": "apps/sentrei"
+      "path": "apps/home"
     }
   ]
 }
