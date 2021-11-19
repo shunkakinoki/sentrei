@@ -1,3 +1,10 @@
+# @sentrei/husky [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.3.0...@sentrei/husky@1.4.0) (2021-11-19)
+
+### Features
+
+- ini ncu upgrade ([dbe9bc7](https://github.com/sentrei/sentrei/commit/dbe9bc7fa39b0bffd0c46d45514824bf98baaf02))
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 # @sentrei/husky [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/husky@1.2.0...@sentrei/husky@1.3.0) (2021-08-28)
 
 ### Features
