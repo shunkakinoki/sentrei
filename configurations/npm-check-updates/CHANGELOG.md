@@ -1,3 +1,9 @@
+# @sentrei/npm-check-updates [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.5.1...@sentrei/npm-check-updates@1.6.0) (2021-11-15)
+
+### Features
+
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/npm-check-updates [1.5.1](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.5.0...@sentrei/npm-check-updates@1.5.1) (2021-09-04)
 
 ### Bug Fixes
