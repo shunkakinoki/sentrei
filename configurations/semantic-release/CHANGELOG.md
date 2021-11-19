@@ -1,3 +1,9 @@
+# @sentrei/semantic-release [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.5.3...@sentrei/semantic-release@1.6.0) (2021-11-19)
+
+### Features
+
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/semantic-release [1.5.3](https://github.com/sentrei/sentrei/compare/@sentrei/semantic-release@1.5.2...@sentrei/semantic-release@1.5.3) (2021-09-22)
 
 ### Bug Fixes
