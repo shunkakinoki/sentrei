@@ -1,13 +1,1 @@
-{
-  "references": [
-    {
-      "path": "apps/app"
-    },
-    {
-      "path": "apps/docs"
-    },
-    {
-      "path": "apps/home"
-    }
-  ]
-}
+{}

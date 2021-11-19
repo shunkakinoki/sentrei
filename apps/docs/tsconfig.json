@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "noEmit": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "strict": false
   },
+  "exclude": ["node_modules"],
   "extends": "../../tsconfig.base.json",
-  "references": [
-    {
-      "path": "../../packages/contracts/tsconfig.build.json"
-    }
-  ]
+  "include": ["src"]
 }
