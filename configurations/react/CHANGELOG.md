@@ -1,3 +1,10 @@
+# @sentrei/react [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.1.2...@sentrei/react@1.2.0) (2021-11-19)
+
+### Features
+
+- ini ncu upgrade ([dbe9bc7](https://github.com/sentrei/sentrei/commit/dbe9bc7fa39b0bffd0c46d45514824bf98baaf02))
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/react [1.1.2](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.1.1...@sentrei/react@1.1.2) (2021-10-03)
 
 ### Bug Fixes
