@@ -1,3 +1,9 @@
+# @sentrei/scripty [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/scripty@1.0.1...@sentrei/scripty@1.1.0) (2021-11-19)
+
+### Features
+
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/scripty [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/scripty@1.0.0...@sentrei/scripty@1.0.1) (2021-10-02)
 
 ### Performance Improvements
