@@ -1,15 +1,20 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "composite": false,
+    "declaration": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "esnext",
     "noEmit": true,
-    "outDir": "dist",
+    "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "rootDir": "src",
-    "strict": false
+    "strict": false,
+    "target": "es5"
   },
   "exclude": ["node_modules"],
   "extends": "../../tsconfig.base.json",

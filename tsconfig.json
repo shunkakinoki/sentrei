@@ -1,10 +1,1 @@
-{
-  "references": [
-    {
-      "path": "apps/docs"
-    },
-    {
-      "path": "apps/sentrei"
-    }
-  ]
-}
+{}
