@@ -1,3 +1,14 @@
+# [1.69.0](https://github.com/sentrei/sentrei/compare/v1.68.0...v1.69.0) (2021-11-19)
+
+### Features
+
+- ini ncu upgrade ([dbe9bc7](https://github.com/sentrei/sentrei/commit/dbe9bc7fa39b0bffd0c46d45514824bf98baaf02))
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
+### Performance Improvements
+
+- ini next apps ([d98f818](https://github.com/sentrei/sentrei/commit/d98f81880286b382919f31e31faad64164a10fde))
+
 # [1.68.0](https://github.com/sentrei/sentrei/compare/v1.67.0...v1.68.0) (2021-10-23)
 
 ### Features
