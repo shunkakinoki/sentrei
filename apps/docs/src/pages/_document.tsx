@@ -6,7 +6,9 @@ export class CustomDocument extends Document {
   render(): ReactElement {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.svg" />
+        </Head>
         <body className="text-white dark:text-black bg-white dark:bg-black">
           <Main />
           <NextScript />
