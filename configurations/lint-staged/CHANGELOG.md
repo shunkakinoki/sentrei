@@ -1,3 +1,10 @@
+# @sentrei/lint-staged [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.2.3...@sentrei/lint-staged@1.3.0) (2021-11-19)
+
+### Features
+
+- ini ncu upgrade ([dbe9bc7](https://github.com/sentrei/sentrei/commit/dbe9bc7fa39b0bffd0c46d45514824bf98baaf02))
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/lint-staged [1.2.3](https://github.com/sentrei/sentrei/compare/@sentrei/lint-staged@1.2.2...@sentrei/lint-staged@1.2.3) (2021-10-04)
 
 ### Bug Fixes
