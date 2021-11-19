@@ -1,3 +1,9 @@
+# @sentrei/prettier [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.6.0...@sentrei/prettier@1.7.0) (2021-11-19)
+
+### Features
+
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 # @sentrei/prettier [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.5.1...@sentrei/prettier@1.6.0) (2021-10-23)
 
 ### Features
