@@ -1,3 +1,9 @@
+# @sentrei/typescript [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.2.0...@sentrei/typescript@1.3.0) (2021-11-19)
+
+### Features
+
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 # @sentrei/typescript [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/typescript@1.1.1...@sentrei/typescript@1.2.0) (2021-10-07)
 
 ### Features
