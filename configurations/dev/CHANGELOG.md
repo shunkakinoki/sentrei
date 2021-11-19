@@ -1,3 +1,10 @@
+# @sentrei/dev [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.4...@sentrei/dev@1.4.0) (2021-11-19)
+
+### Features
+
+- ini ncu upgrade ([dbe9bc7](https://github.com/sentrei/sentrei/commit/dbe9bc7fa39b0bffd0c46d45514824bf98baaf02))
+- refactor yarn workspace ([5ba27cb](https://github.com/sentrei/sentrei/commit/5ba27cb09888cd99d6e5669db7cce7e75753065b))
+
 ## @sentrei/dev [1.3.4](https://github.com/sentrei/sentrei/compare/@sentrei/dev@1.3.3...@sentrei/dev@1.3.4) (2021-10-02)
 
 ### Performance Improvements
