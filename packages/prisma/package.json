@@ -9,5 +9,11 @@
   },
   "repository": "https://github.com/sentrei/sentrei",
   "license": "MIT",
-  "author": "Sentrei, Inc."
+  "author": "Sentrei, Inc.",
+  "dependencies": {
+    "prisma": "^3.5.0"
+  },
+  "devDependencies": {
+    "zod-prisma": "^0.2.1"
+  }
 }
