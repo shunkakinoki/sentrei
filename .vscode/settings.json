@@ -13,5 +13,6 @@
   },
   "terminal.integrated.env.osx": {
     "ZSH_INIT_COMMAND": "mux start sentrei"
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
