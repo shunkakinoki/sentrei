@@ -13,15 +13,22 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "env:cmd": "doppler secrets download --no-file --format env",
+    "env:local": "yarn run env:cmd > .env.local",
+    "env:prisma": "yarn run env:cmd > prisma/.env",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "^3.5.0",
     "next": "^12.0.4",
     "next-themes": "^0.0.15",
     "next-translate": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "recoil": "^0.5.2"
+    "recoil": "^0.5.2",
+    "zod": "^3.11.6"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
@@ -31,7 +38,9 @@
     "@types/react": "^17.0.35",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
+    "prisma": "^3.5.0",
     "tailwindcss": "^2.2.19",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "zod-prisma": "^0.2.3"
   }
 }
