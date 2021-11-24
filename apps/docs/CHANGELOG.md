@@ -1,0 +1,9 @@
+# @sentrei/docs [1.3.0](https://github.com/sentrei/sentrei/compare/@sentrei/docs@1.2.3...@sentrei/docs@1.3.0) (2021-11-24)
+
+### Features
+
+- ini wiki sentrei com ([519828c](https://github.com/sentrei/sentrei/commit/519828c2fa11a501df329b8f4d90ee8e27f7fb45))
+
+### Performance Improvements
+
+- ini next apps ([d98f818](https://github.com/sentrei/sentrei/commit/d98f81880286b382919f31e31faad64164a10fde))
