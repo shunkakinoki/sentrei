@@ -1,3 +1,9 @@
+## [1.70.1](https://github.com/sentrei/sentrei/compare/v1.70.0...v1.70.1) (2021-11-24)
+
+### Performance Improvements
+
+- ini ncu upgrade ([0869362](https://github.com/sentrei/sentrei/commit/0869362066c5b865c91ab102178ca53f17f87d44))
+
 # [1.70.0](https://github.com/sentrei/sentrei/compare/v1.69.1...v1.70.0) (2021-11-24)
 
 ### Features
