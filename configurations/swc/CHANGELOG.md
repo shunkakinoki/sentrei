@@ -1,3 +1,9 @@
+## @sentrei/swc [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/swc@1.1.0...@sentrei/swc@1.1.1) (2021-11-24)
+
+### Performance Improvements
+
+- ini ncu upgrade ([0869362](https://github.com/sentrei/sentrei/commit/0869362066c5b865c91ab102178ca53f17f87d44))
+
 # @sentrei/swc [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/swc@1.0.1...@sentrei/swc@1.1.0) (2021-11-19)
 
 ### Features
