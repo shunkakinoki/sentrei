@@ -16,6 +16,7 @@
     "env:cmd": "doppler secrets download --no-file --format env",
     "env:local": "yarn run env:cmd > .env.local",
     "env:prisma": "yarn run env:cmd > prisma/.env",
+    "fix": "cd ../.. && yarn run fix",
     "prisma:generate": "prisma generate",
     "prisma:studio": "prisma studio",
     "start": "next start"
