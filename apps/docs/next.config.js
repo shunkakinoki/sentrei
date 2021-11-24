@@ -19,17 +19,6 @@ const config = {
         ],
         destination: "/",
       },
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "docs.sentrei.com",
-            basePath: false,
-          },
-        ],
-        destination: "/:path*",
-      },
     ];
   },
 };
