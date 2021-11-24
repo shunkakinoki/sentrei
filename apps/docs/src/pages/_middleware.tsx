@@ -4,13 +4,7 @@ import { NextResponse } from "next/server";
 export const middleware = (req: NextRequest) => {
   const { pathname } = req.nextUrl;
 
-  const hostname = req.headers.get("host");
-
-  if (
-    !pathname.includes(".") &&
-    !pathname.startsWith("/api") &&
-    hostname !== process.env.ROOT_URL
-  ) {
+  if (pathname === "/") {
     return NextResponse.rewrite("/docs");
   }
 };
