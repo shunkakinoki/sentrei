@@ -35,7 +35,7 @@
     "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/line-clamp": "^0.2.2",
     "@tailwindcss/typography": "^0.4.1",
-    "@types/react": "^17.0.35",
+    "@types/react": "^17.0.36",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "prisma": "^3.5.0",
