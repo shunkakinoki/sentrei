@@ -1,3 +1,9 @@
+# @sentrei/app [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.6.0...@sentrei/app@1.7.0) (2021-11-24)
+
+### Features
+
+- ini middleware rewrite ([9e7b195](https://github.com/sentrei/sentrei/commit/9e7b195eee0feb21ffab60093e8c62b69af4bd0a))
+
 # @sentrei/app [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.5.3...@sentrei/app@1.6.0) (2021-11-24)
 
 ### Features
