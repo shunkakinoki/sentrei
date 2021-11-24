@@ -10,14 +10,9 @@ const config = {
     return {
       fallback: [
         {
-          source: "/:path*",
-          has: [
-            {
-              type: "host",
-              value: "sentrei.com",
-            },
-          ],
+          source: "/",
           destination: "/docs",
+          basePath: false,
         },
       ],
     };
