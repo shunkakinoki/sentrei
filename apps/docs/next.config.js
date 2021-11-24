@@ -7,18 +7,20 @@ const config = {
   ...defaultConfig,
   basePath: "/docs",
   async rewrites() {
-    return [
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "host",
-            value: "docs.sentrei.com",
-          },
-        ],
-        destination: "/docs",
-      },
-    ];
+    return {
+      fallback: [
+        {
+          source: "/:path*",
+          has: [
+            {
+              type: "host",
+              value: "sentrei.com",
+            },
+          ],
+          destination: "/docs",
+        },
+      ],
+    };
   },
 };
 
