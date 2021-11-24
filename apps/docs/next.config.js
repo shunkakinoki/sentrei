@@ -11,7 +11,14 @@ const config = {
       fallback: [
         {
           source: "/:path*",
+          has: [
+            {
+              type: "host",
+              value: "docs.sentrei.com",
+            },
+          ],
           destination: `https://app.sentrei.com/docs/:path*`,
+          basePath: false,
         },
       ],
     };
