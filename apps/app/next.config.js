@@ -9,12 +9,24 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/docs/:slug",
-        destination: "https://docs.sentrei.com/:slug",
+        source: "/:path*",
+        destination: `/:path*`,
       },
       {
-        source: "/home/:slug",
-        destination: "https://home.sentrei.com/:slug",
+        source: "/docs",
+        destination: "https://docs.sentrei.com/docs",
+      },
+      {
+        source: "/docs/:path*",
+        destination: "$https://docs.sentrei.com/docs/:path*",
+      },
+      {
+        source: "/home",
+        destination: "https://home.sentrei.com/home",
+      },
+      {
+        source: "/home/:path*",
+        destination: "https://home.sentrei.com/home/:path*",
       },
     ];
   },
