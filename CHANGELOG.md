@@ -1,3 +1,10 @@
+## [1.69.1](https://github.com/sentrei/sentrei/compare/v1.69.0...v1.69.1) (2021-11-24)
+
+### Performance Improvements
+
+- ini zod app ([c67871b](https://github.com/sentrei/sentrei/commit/c67871beb6e41836eefdd442af9291fc517b3bb4))
+- ini zod prisma ([fba769d](https://github.com/sentrei/sentrei/commit/fba769d1dc6fe3c6aa5ac4f0dd86bcb702a0742a))
+
 # [1.69.0](https://github.com/sentrei/sentrei/compare/v1.68.0...v1.69.0) (2021-11-19)
 
 ### Features
