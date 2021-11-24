@@ -10,9 +10,8 @@ const config = {
     return {
       fallback: [
         {
-          source: "/",
-          destination: "/docs",
-          basePath: false,
+          source: "/:path*",
+          destination: `https://app.sentrei.com/docs/:path*`,
         },
       ],
     };
