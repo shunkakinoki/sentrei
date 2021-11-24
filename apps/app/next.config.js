@@ -18,7 +18,7 @@ const config = {
       },
       {
         source: "/docs/:path*",
-        destination: "$https://docs.sentrei.com/docs/:path*",
+        destination: "https://docs.sentrei.com/docs/:path*",
       },
       {
         source: "/home",
