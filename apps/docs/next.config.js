@@ -9,12 +9,11 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/",
+        source: "/:path*",
         has: [
           {
             type: "host",
             value: "docs.sentrei.com",
-            basePath: false,
           },
         ],
         destination: "/docs",
