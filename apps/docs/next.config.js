@@ -9,7 +9,7 @@ const config = {
   async rewrites() {
     return [
       {
-        source: "/docs",
+        source: "/",
         has: [
           {
             type: "host",
@@ -17,7 +17,7 @@ const config = {
             basePath: false,
           },
         ],
-        destination: "/",
+        destination: "/docs",
       },
     ];
   },
