@@ -25,12 +25,10 @@ jobs:
       - if: github.event_name == 'push'
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
       - if: github.event_name == 'pull_request'
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
           ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.BOT_TOKEN }}
       - uses: actions/setup-node@v2
