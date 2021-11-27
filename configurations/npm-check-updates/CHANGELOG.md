@@ -1,3 +1,9 @@
+# @sentrei/npm-check-updates [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.6.0...@sentrei/npm-check-updates@1.7.0) (2021-11-27)
+
+### Features
+
+- revamp license gpl v3 ([44f2b6b](https://github.com/sentrei/sentrei/commit/44f2b6b82a9a32a04e3ea300fed8bf1274bb5421))
+
 # @sentrei/npm-check-updates [1.6.0](https://github.com/sentrei/sentrei/compare/@sentrei/npm-check-updates@1.5.1...@sentrei/npm-check-updates@1.6.0) (2021-11-15)
 
 ### Features
