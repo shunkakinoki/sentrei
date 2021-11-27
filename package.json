@@ -8,7 +8,7 @@
     "url": "https://github.com/sentrei/sentrei/issues"
   },
   "repository": "https://github.com/sentrei/sentrei",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "author": "Sentrei, Inc.",
   "workspaces": {
     "packages": [
