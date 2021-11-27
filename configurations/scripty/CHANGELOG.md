@@ -1,3 +1,9 @@
+# @sentrei/scripty [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/scripty@1.1.0...@sentrei/scripty@1.2.0) (2021-11-27)
+
+### Features
+
+- revamp license gpl v3 ([44f2b6b](https://github.com/sentrei/sentrei/commit/44f2b6b82a9a32a04e3ea300fed8bf1274bb5421))
+
 # @sentrei/scripty [1.1.0](https://github.com/sentrei/sentrei/compare/@sentrei/scripty@1.0.1...@sentrei/scripty@1.1.0) (2021-11-19)
 
 ### Features
