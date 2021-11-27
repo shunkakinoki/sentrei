@@ -1,3 +1,9 @@
+# @sentrei/swc [1.2.0](https://github.com/sentrei/sentrei/compare/@sentrei/swc@1.1.1...@sentrei/swc@1.2.0) (2021-11-27)
+
+### Features
+
+- revamp license gpl v3 ([44f2b6b](https://github.com/sentrei/sentrei/commit/44f2b6b82a9a32a04e3ea300fed8bf1274bb5421))
+
 ## @sentrei/swc [1.1.1](https://github.com/sentrei/sentrei/compare/@sentrei/swc@1.1.0...@sentrei/swc@1.1.1) (2021-11-24)
 
 ### Performance Improvements
