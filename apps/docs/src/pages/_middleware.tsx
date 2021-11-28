@@ -7,21 +7,22 @@ export const middleware = (req: NextRequest) => {
 
   console.log(`hostname: ${hostname}`);
   console.log(`path: ${path}`);
+  console.log(hostname.endsWith("vercel.app"));
 
-  if (["favicon.svg"].includes(path)) {
+  if (path === "favicon.svg") {
     return NextResponse.redirect("/docs/favicon.svg");
   }
 
   if (["api", "docs"].includes(path)) {
     return;
-  }
-
-  if (
-    hostname.includes("vercel.app") ||
-    hostname === "docs.sentrei.com" ||
-    (process.env.NODE_ENV !== "production" && hostname === "localhost:3000")
-  ) {
-    return NextResponse.redirect("/docs");
+  } else {
+    if (
+      hostname.endsWith("vercel.app") ||
+      hostname === "docs.sentrei.com" ||
+      (process.env.NODE_ENV !== "production" && hostname === "localhost:3000")
+    ) {
+      return NextResponse.redirect("/docs");
+    }
   }
 };
 
