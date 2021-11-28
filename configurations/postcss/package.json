@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.1",
-    "postcss-loader": "^6.2.0",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
     "postcss-nested": "^5.0.6"
   },
   "publishConfig": {

@@ -17,7 +17,6 @@
     "env:local": "yarn run env:cmd > .env.local",
     "env:prisma": "yarn run env:cmd > prisma/.env",
     "fix": "cd ../.. && yarn run fix",
-    "postinstall": "yarn run prisma:generate",
     "prisma:generate": "prisma generate",
     "start": "next start"
   },
@@ -38,7 +37,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@types/react": "^17.0.37",
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.1",
+    "postcss": "^8.4.4",
     "prisma": "^3.5.0",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.5.2",

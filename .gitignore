@@ -180,3 +180,5 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+
+apps/app/prisma/zod/**

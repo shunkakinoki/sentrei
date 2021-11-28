@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "prettier-plugin-packagejson": "^2.2.15",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
     "prettier-plugin-sort-json": "^0.0.2"
