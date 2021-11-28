@@ -1,3 +1,9 @@
+## @sentrei/docs [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/docs@1.4.0...@sentrei/docs@1.4.1) (2021-11-28)
+
+### Performance Improvements
+
+- ini next react berta ([f8728f0](https://github.com/sentrei/sentrei/commit/f8728f019a31250ed868d624ddf44faa347f082d))
+
 # @sentrei/docs [1.4.0](https://github.com/sentrei/sentrei/compare/@sentrei/docs@1.3.1...@sentrei/docs@1.4.0) (2021-11-27)
 
 ### Features
