@@ -5,7 +5,6 @@ const { defaultConfig } = require("@sentrei/next");
  */
 const config = {
   ...defaultConfig,
-  basePath: "/home",
 };
 
 module.exports = config;
