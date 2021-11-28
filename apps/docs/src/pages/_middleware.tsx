@@ -3,8 +3,10 @@ import { NextResponse } from "next/server";
 
 export const middleware = (req: NextRequest) => {
   const hostname = req.headers.get("host");
-
   const path = req.nextUrl.href.split("/")[1];
+
+  console.log(`hostname: ${hostname}`);
+  console.log(`path: ${path}`);
 
   if (["favicon.svg"].includes(path)) {
     return NextResponse.redirect("/docs/favicon.svg");
