@@ -1,3 +1,10 @@
+## @sentrei/og [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.1...@sentrei/og@1.4.2) (2021-11-28)
+
+### Performance Improvements
+
+- ini og app ([09ec86f](https://github.com/sentrei/sentrei/commit/09ec86fc76f728cf048ba8c1a44ba4700c48a428))
+- ini og sentrei com ([fe4ae7f](https://github.com/sentrei/sentrei/commit/fe4ae7f7cb4607645b7bea13f04b9fcbf88ddcd6))
+
 # @sentrei/home [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.6.1...@sentrei/home@1.7.0) (2021-11-27)
 
 ### Features
