@@ -6,12 +6,16 @@ export const middleware = (req: NextRequest) => {
 
   const path = req.nextUrl.href.split("/")[1];
 
+  if (["favicon.svg"].includes(path)) {
+    return NextResponse.redirect("/docs/favicon.svg");
+  }
+
   if (["api", "docs"].includes(path)) {
     return;
   }
 
   if (
-    hostname.endsWith("vercel.app") ||
+    hostname.includes("vercel.app") ||
     hostname === "docs.sentrei.com" ||
     (process.env.NODE_ENV !== "production" && hostname === "localhost:3000")
   ) {
