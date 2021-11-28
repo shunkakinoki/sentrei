@@ -2,17 +2,13 @@ import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
 export const middleware = (req: NextRequest) => {
-  const { pathname } = req.nextUrl;
+  const { href } = req.nextUrl;
 
-  if (pathname.startsWith(`/docs`)) {
-    return;
-  }
-
-  if (pathname === "/") {
+  if (href === "/") {
     return NextResponse.rewrite("/docs");
   }
 
-  if (pathname === "/favicon.svg") {
+  if (href === "/favicon.svg") {
     return NextResponse.rewrite("/docs/favicon.svg");
   }
 };
