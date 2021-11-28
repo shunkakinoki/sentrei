@@ -1,0 +1,32 @@
+{
+  "name": "@sentrei/prisma",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://github.com/sentrei/sentrei",
+  "bugs": {
+    "url": "https://github.com/sentrei/sentrei/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrei/sentrei.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Sentrei, Inc.",
+  "main": "src/index.js",
+  "files": [
+    "./schema.prisma"
+  ],
+  "scripts": {
+    "env:cmd": "doppler secrets download --no-file --format env",
+    "env:prisma": "yarn run env:cmd > .env",
+    "fix": "cd ../.. && yarn run fix",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "prisma": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
