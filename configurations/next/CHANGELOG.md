@@ -1,3 +1,9 @@
+## @sentrei/next [1.15.1](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.15.0...@sentrei/next@1.15.1) (2021-11-28)
+
+### Performance Improvements
+
+- ini next react berta ([f8728f0](https://github.com/sentrei/sentrei/commit/f8728f019a31250ed868d624ddf44faa347f082d))
+
 # @sentrei/next [1.15.0](https://github.com/sentrei/sentrei/compare/@sentrei/next@1.14.1...@sentrei/next@1.15.0) (2021-11-27)
 
 ### Features
