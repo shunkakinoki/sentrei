@@ -6,24 +6,6 @@ const { defaultConfig, plugins, withPlugins } = require("@sentrei/next");
  */
 const config = {
   ...defaultConfig,
-  async rewrites() {
-    return {
-      fallback: [
-        {
-          source: "/:path*",
-          destination: `/:path*`,
-        },
-        {
-          source: "/home",
-          destination: "https://home.sentrei.com/home",
-        },
-        {
-          source: "/home/:path*",
-          destination: "https://home.sentrei.com/home/:path*",
-        },
-      ],
-    };
-  },
 };
 
 module.exports = config;

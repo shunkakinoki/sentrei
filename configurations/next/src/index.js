@@ -8,6 +8,7 @@ const withTranslate = require("next-translate");
  */
 const defaultConfig = {
   compress: true,
+  concurrentFeatures: true,
   experimental: {
     optimizeCss: true,
     optimizeFonts: true,
@@ -36,6 +37,7 @@ const defaultConfig = {
   poweredByHeader: true,
   productionBrowserSourceMaps: true,
   reactStrictMode: true,
+  serverComponents: true,
   trailingSlash: false,
   typescript: {
     ignoreBuildErrors: false,
