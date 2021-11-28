@@ -1,3 +1,9 @@
+## @sentrei/app [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.1...@sentrei/app@1.8.2) (2021-11-28)
+
+### Performance Improvements
+
+- ini next react berta ([f8728f0](https://github.com/sentrei/sentrei/commit/f8728f019a31250ed868d624ddf44faa347f082d))
+
 ## @sentrei/app [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.0...@sentrei/app@1.8.1) (2021-11-28)
 
 ### Performance Improvements
