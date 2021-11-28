@@ -8,6 +8,10 @@ export const middleware = (req: NextRequest) => {
     return;
   }
 
+  if (pathname === "/") {
+    return NextResponse.rewrite("/docs");
+  }
+
   if (pathname === "/favicon.svg") {
     return NextResponse.rewrite("/docs/favicon.svg");
   }
