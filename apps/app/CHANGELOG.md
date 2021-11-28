@@ -1,3 +1,9 @@
+## @sentrei/app [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.0...@sentrei/app@1.8.1) (2021-11-28)
+
+### Performance Improvements
+
+- ini prisma package ([88e8771](https://github.com/sentrei/sentrei/commit/88e8771bfea590f0564a9308dc81b6ee22e9a699))
+
 # @sentrei/app [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.7.1...@sentrei/app@1.8.0) (2021-11-27)
 
 ### Features
