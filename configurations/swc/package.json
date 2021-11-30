@@ -20,7 +20,7 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@swc/core": "^1.2.113"
+    "@swc/core": "^1.2.114"
   },
   "publishConfig": {
     "access": "public",
