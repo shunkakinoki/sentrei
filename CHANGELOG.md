@@ -1,3 +1,9 @@
+## [1.71.4](https://github.com/sentrei/sentrei/compare/v1.71.3...v1.71.4) (2021-12-01)
+
+### Performance Improvements
+
+- ini app home ([dadbe49](https://github.com/sentrei/sentrei/commit/dadbe49cf2d5766f83b2d3942eea3bb2005d4b30))
+
 ## [1.71.3](https://github.com/sentrei/sentrei/compare/v1.71.2...v1.71.3) (2021-11-30)
 
 ### Performance Improvements

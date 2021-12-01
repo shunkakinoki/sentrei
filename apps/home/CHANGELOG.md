@@ -1,3 +1,11 @@
+## @sentrei/home [1.7.1](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.7.0...@sentrei/home@1.7.1) (2021-12-01)
+
+### Performance Improvements
+
+- ini app home ([dadbe49](https://github.com/sentrei/sentrei/commit/dadbe49cf2d5766f83b2d3942eea3bb2005d4b30))
+- ini next react berta ([f8728f0](https://github.com/sentrei/sentrei/commit/f8728f019a31250ed868d624ddf44faa347f082d))
+- ini og app ([09ec86f](https://github.com/sentrei/sentrei/commit/09ec86fc76f728cf048ba8c1a44ba4700c48a428))
+
 ## @sentrei/docs [1.4.1](https://github.com/sentrei/sentrei/compare/@sentrei/docs@1.4.0...@sentrei/docs@1.4.1) (2021-11-28)
 
 ### Performance Improvements
