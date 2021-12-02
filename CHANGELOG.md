@@ -1,3 +1,9 @@
+## [1.72.1](https://github.com/sentrei/sentrei/compare/v1.72.0...v1.72.1) (2021-12-02)
+
+### Performance Improvements
+
+- ini random bounce ([16f3f51](https://github.com/sentrei/sentrei/commit/16f3f51a225a87484f81fe4e217a06b7f0fbb4e0))
+
 # [1.72.0](https://github.com/sentrei/sentrei/compare/v1.71.4...v1.72.0) (2021-12-02)
 
 ### Features
