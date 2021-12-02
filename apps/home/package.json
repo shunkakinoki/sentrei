@@ -21,7 +21,8 @@
     "next-seo": "^4.28.1",
     "next-themes": "^0.0.15",
     "react": "^18.0.0-beta-0cc724c77-20211125",
-    "react-dom": "^18.0.0-beta-0cc724c77-20211125"
+    "react-dom": "^18.0.0-beta-0cc724c77-20211125",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.3.0",
