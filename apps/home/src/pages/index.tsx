@@ -21,7 +21,7 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
 
 export const Index: FC = () => {
   return (
-    <div className="flex overflow-hidden flex-col justify-center items-center max-w-full min-h-screen bg-black">
+    <div className="flex overflow-hidden flex-col justify-center items-center min-w-full max-w-full min-h-screen bg-black">
       <div className="overflow-hidden absolute top-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <div className="overflow-hidden absolute top-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-teal-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-2000" />
       <div className="overflow-hidden absolute top-0 -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-yellow-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-3000" />
