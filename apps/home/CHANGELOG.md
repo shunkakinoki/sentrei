@@ -1,3 +1,9 @@
+## @sentrei/home [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.0...@sentrei/home@1.8.1) (2021-12-02)
+
+### Performance Improvements
+
+- ini random bounce ([16f3f51](https://github.com/sentrei/sentrei/commit/16f3f51a225a87484f81fe4e217a06b7f0fbb4e0))
+
 # @sentrei/home [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.7.1...@sentrei/home@1.8.0) (2021-12-02)
 
 ### Features
