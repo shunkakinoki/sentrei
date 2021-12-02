@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": ".",
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -9,6 +10,9 @@
     "lib": ["es2017", "dom"],
     "module": "esnext",
     "moduleResolution": "node",
+    "paths": {
+      "@sentrei/home/*": ["./apps/home/src/*"]
+    },
     "rootDir": ".",
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,

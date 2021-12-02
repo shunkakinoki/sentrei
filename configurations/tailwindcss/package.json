@@ -26,8 +26,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@types/tailwindcss": "^2.2.4",
     "tailwind-config-viewer": "^1.6.2",
-    "tailwindcss": "^2.2.19",
-    "tailwindcss-border-gradients": "^2.0.3"
+    "tailwindcss": "^2.2.19"
   },
   "publishConfig": {
     "access": "public",
