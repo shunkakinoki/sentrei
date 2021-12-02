@@ -64,7 +64,7 @@ export const Index: FC = () => {
         We&apos;re building a social feed of Web3 that enables everyone to earn
         through social interactions online.
       </p>
-      <div className="flex z-30 flex-col sm:flex-row sm:justify-center mx-auto mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
+      <div className="flex z-30 flex-col sm:flex-row sm:justify-center px-3 mx-auto mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
         <div className="rounded-md">
           <a
             target="_blank"
