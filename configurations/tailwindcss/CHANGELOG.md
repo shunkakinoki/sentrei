@@ -1,3 +1,9 @@
+# @sentrei/tailwindcss [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.7.0...@sentrei/tailwindcss@1.8.0) (2021-12-02)
+
+### Features
+
+- ini sentrei home ([f86a2e9](https://github.com/sentrei/sentrei/commit/f86a2e9d2f67fd8fee2535f9ed724941d1eb39a8))
+
 # @sentrei/tailwindcss [1.7.0](https://github.com/sentrei/sentrei/compare/@sentrei/tailwindcss@1.6.0...@sentrei/tailwindcss@1.7.0) (2021-11-27)
 
 ### Features
