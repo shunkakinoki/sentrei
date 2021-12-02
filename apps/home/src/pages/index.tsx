@@ -29,8 +29,8 @@ export const Index: FC = () => {
       <div className="absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <div className="absolute bottom-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-pink-300 rounded-full opacity-70 filter blur-xl animate-blob " />
       <div className="absolute bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
-      <div className="absolute bottom-0 left-0 z-30 w-16 h-16 text-3xl">
-        <div className="flex ml-3 space-x-6">
+      <div className="absolute bottom-0 sm:left-0 z-30 w-16 h-16 text-3xl">
+        <div className="flex justify-center sm:justify-start sm:ml-3 space-x-6">
           <FooterIconLink href="https://discord.gg/Sm7Fsasdqx">
             <span className="sr-only">Discord</span>
             <FaDiscord className="w-8 h-8" />
@@ -47,7 +47,7 @@ export const Index: FC = () => {
       </div>
       {/* eslint-disable-next-line tailwindcss/classnames-order */}
       <div className="absolute -right-4 bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-red-300 rounded-full opacity-70 filter blur-xl animate-blob" />
-      <h1 className="relative z-30 py-14 text-[23vw] sm:text-9xl font-extrabold tracking-tightest leading-none text-center select-none">
+      <h1 className="relative z-30 py-8 text-[23vw] sm:text-9xl font-extrabold tracking-tightest leading-none text-center select-none">
         <span
           data-content="Connect."
           // eslint-disable-next-line tailwindcss/no-custom-classname
@@ -76,7 +76,11 @@ export const Index: FC = () => {
           </span>
         </span>
       </h1>
-      <div className="flex z-30 flex-col sm:flex-row sm:justify-center mx-auto space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
+      <p className="relative max-w-md md:max-w-xl text-base sm:text-lg md:text-xl text-center text-gray-200">
+        We&apos;re building a social feed of Web3 that enables everyone to earn
+        through social interactions online.
+      </p>
+      <div className="flex z-30 flex-col sm:flex-row sm:justify-center mx-auto mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
         <div className="rounded-md">
           <a
             target="_blank"
