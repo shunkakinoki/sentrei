@@ -21,7 +21,7 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
 
 export const Index: FC = () => {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-black">
+    <div className="flex overflow-hidden flex-col justify-center items-center min-h-screen bg-black">
       <div className="absolute top-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <div className="absolute top-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-teal-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-2000" />
       <div className="absolute top-0 -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-yellow-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-3000" />
@@ -29,22 +29,6 @@ export const Index: FC = () => {
       <div className="absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-5000" />
       <div className="absolute bottom-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-pink-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-6000" />
       <div className="absolute bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-8000" />
-      <div className="absolute bottom-0 sm:left-0 z-30 w-16 h-16 text-3xl">
-        <div className="flex justify-center sm:justify-start sm:ml-3 space-x-6">
-          <FooterIconLink href="https://discord.gg/Sm7Fsasdqx">
-            <span className="sr-only">Discord</span>
-            <FaDiscord className="w-8 h-8" />
-          </FooterIconLink>
-          <FooterIconLink href="https://github.com/sentrei/metabio.wtf">
-            <span className="sr-only">Github</span>
-            <FaGithub className="w-8 h-8" />
-          </FooterIconLink>
-          <FooterIconLink href="https://twitter.com/metabio_">
-            <span className="sr-only">Twitter</span>
-            <FaTwitter className="w-8 h-8" />
-          </FooterIconLink>
-        </div>
-      </div>
       {/* eslint-disable-next-line tailwindcss/classnames-order */}
       <div className="absolute -right-4 bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-red-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <h1 className="relative z-30 py-8 text-[23vw] sm:text-9xl font-extrabold tracking-tightest leading-none text-center select-none">
@@ -100,6 +84,22 @@ export const Index: FC = () => {
           >
             Whitepaper
           </a>
+        </div>
+      </div>
+      <div className="md:absolute bottom-0 md:left-0 z-30 mt-8 md:mt-0 w-16 h-16 text-3xl">
+        <div className="flex justify-center md:justify-start sm:ml-3 space-x-6">
+          <FooterIconLink href="https://discord.gg/Sm7Fsasdqx">
+            <span className="sr-only">Discord</span>
+            <FaDiscord className="w-8 h-8" />
+          </FooterIconLink>
+          <FooterIconLink href="https://github.com/sentrei/metabio.wtf">
+            <span className="sr-only">Github</span>
+            <FaGithub className="w-8 h-8" />
+          </FooterIconLink>
+          <FooterIconLink href="https://twitter.com/metabio_">
+            <span className="sr-only">Twitter</span>
+            <FaTwitter className="w-8 h-8" />
+          </FooterIconLink>
         </div>
       </div>
     </div>
