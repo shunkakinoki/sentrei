@@ -1,3 +1,13 @@
+# [1.72.0](https://github.com/sentrei/sentrei/compare/v1.71.4...v1.72.0) (2021-12-02)
+
+### Features
+
+- ini sentrei home ([f86a2e9](https://github.com/sentrei/sentrei/commit/f86a2e9d2f67fd8fee2535f9ed724941d1eb39a8))
+
+### Performance Improvements
+
+- ini footer icons ([a12a61a](https://github.com/sentrei/sentrei/commit/a12a61ad681676e7bda3bad95231e1c16ab40a76))
+
 ## [1.71.4](https://github.com/sentrei/sentrei/compare/v1.71.3...v1.71.4) (2021-12-01)
 
 ### Performance Improvements
