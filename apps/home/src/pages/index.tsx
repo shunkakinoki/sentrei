@@ -21,16 +21,16 @@ export const FooterIconLink: FC<FooterIconLinkProps> = ({ children, href }) => {
 
 export const Index: FC = () => {
   return (
-    <div className="flex overflow-hidden flex-col justify-center items-center min-h-screen bg-black">
-      <div className="absolute top-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
-      <div className="absolute top-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-teal-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-2000" />
-      <div className="absolute top-0 -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-yellow-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-3000" />
-      <div className="absolute -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-cyan-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-4000" />
-      <div className="absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-5000" />
-      <div className="absolute bottom-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-pink-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-6000" />
-      <div className="absolute bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-8000" />
+    <div className="flex flex-col justify-center items-center min-h-screen bg-black">
+      <div className="overflow-hidden absolute top-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
+      <div className="overflow-hidden absolute top-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-teal-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-2000" />
+      <div className="overflow-hidden absolute top-0 -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-yellow-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-3000" />
+      <div className="overflow-hidden absolute -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-cyan-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-4000" />
+      <div className="overflow-hidden absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-5000" />
+      <div className="overflow-hidden absolute bottom-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-pink-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-6000" />
+      <div className="overflow-hidden absolute bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-8000" />
       {/* eslint-disable-next-line tailwindcss/classnames-order */}
-      <div className="absolute -right-4 bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-red-300 rounded-full opacity-70 filter blur-xl animate-blob" />
+      <div className="overflow-hidden absolute -right-4 bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-red-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <h1 className="relative z-30 py-8 text-[23vw] sm:text-9xl font-extrabold tracking-tightest leading-none text-center select-none">
         <span
           data-content="Connect."
