@@ -64,7 +64,7 @@ export const Index: FC = () => {
         We&apos;re building a social feed of Web3 that enables everyone to earn
         through social interactions online.
       </p>
-      <div className="flex z-30 flex-col sm:flex-row sm:justify-center px-3 mx-auto mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
+      <div className="flex relative z-30 flex-col sm:flex-row sm:justify-center px-3 mx-auto mt-6 sm:mt-8 space-y-4 sm:space-y-0 sm:space-x-3 w-full max-w-md">
         <div className="rounded-md">
           <a
             target="_blank"
@@ -86,7 +86,7 @@ export const Index: FC = () => {
           </a>
         </div>
       </div>
-      <div className="md:absolute bottom-0 md:left-0 z-30 mt-8 md:mt-0 w-16 h-16 text-3xl">
+      <div className="relative md:absolute bottom-0 md:left-0 z-30 mt-8 md:mt-0 w-16 h-16 text-3xl">
         <div className="flex justify-center md:justify-start sm:ml-3 space-x-6">
           <FooterIconLink href="https://discord.gg/Sm7Fsasdqx">
             <span className="sr-only">Discord</span>
