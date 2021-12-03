@@ -1,3 +1,9 @@
+## @sentrei/jest [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.3.1...@sentrei/jest@1.3.2) (2021-12-03)
+
+### Performance Improvements
+
+- ini ncu upgrade ([c73ab80](https://github.com/sentrei/sentrei/commit/c73ab80f3d6d1345d98608d085606e94bb978cbc))
+
 ## @sentrei/jest [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/jest@1.3.0...@sentrei/jest@1.3.1) (2021-11-30)
 
 ### Performance Improvements
