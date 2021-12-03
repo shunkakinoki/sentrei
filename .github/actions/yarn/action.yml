@@ -1,6 +1,8 @@
 name: Yarn
+description: "Yarn workflow composite"
 inputs:
   token:
+    description: "Github token secret"
     required: true
 runs:
   using: "composite"
@@ -16,12 +18,14 @@ runs:
         token: ${{ inputs.token }}
     - id: nvm
       run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+      shell: bash
     - uses: actions/setup-node@v2
       with:
         node-version: ${{ steps.nvm.outputs.NVMRC }}
     - id: yarn-cache-dir
       run: |
         echo "::set-output name=dir::$(yarn cache dir)"
+      shell: bash
     - uses: actions/cache@v2
       with:
         path: |
@@ -32,11 +36,14 @@ runs:
           yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
     - run: |
         yarn install --frozen-lockfile
+      shell: bash
     - run: |
         yarn run lint
+      shell: bash
     - if: failure()
       run: |
         yarn run fix
+      shell: bash
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
         GIT_AUTHOR_NAME: "sentrei-bot"
