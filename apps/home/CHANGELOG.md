@@ -1,3 +1,9 @@
+## @sentrei/home [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.1...@sentrei/home@1.8.2) (2021-12-03)
+
+### Performance Improvements
+
+- ini sm hidden ([2e15da2](https://github.com/sentrei/sentrei/commit/2e15da25470eac80fc72baced52c0c8d7e497ffe))
+
 ## @sentrei/home [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.0...@sentrei/home@1.8.1) (2021-12-02)
 
 ### Performance Improvements

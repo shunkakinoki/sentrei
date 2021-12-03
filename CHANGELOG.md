@@ -1,3 +1,9 @@
+## [1.72.2](https://github.com/sentrei/sentrei/compare/v1.72.1...v1.72.2) (2021-12-03)
+
+### Performance Improvements
+
+- ini sm hidden ([2e15da2](https://github.com/sentrei/sentrei/commit/2e15da25470eac80fc72baced52c0c8d7e497ffe))
+
 ## [1.72.1](https://github.com/sentrei/sentrei/compare/v1.72.0...v1.72.1) (2021-12-02)
 
 ### Performance Improvements
