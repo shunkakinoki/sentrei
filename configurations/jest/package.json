@@ -22,7 +22,7 @@
   "dependencies": {
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.0",
+    "jest": "^27.4.3",
     "jest-css-modules": "^2.1.0",
     "jest-playwright-preset": "^1.7.0",
     "ts-jest": "^27.0.7"

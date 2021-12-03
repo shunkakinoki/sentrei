@@ -22,12 +22,15 @@
   },
   "dependencies": {
     "@prisma/client": "^3.5.0",
+    "jose": "^4.3.7",
+    "nanoid": "^3.1.30",
     "next": "^12.0.4",
     "next-themes": "^0.0.15",
     "next-translate": "^1.2.0",
     "react": "^18.0.0-beta-0cc724c77-20211125",
     "react-dom": "^18.0.0-beta-0cc724c77-20211125",
     "recoil": "^0.5.2",
+    "swr": "^1.1.0",
     "zod": "^3.11.6"
   },
   "devDependencies": {
@@ -42,6 +45,6 @@
     "prisma": "^3.5.0",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.5.2",
-    "zod-prisma": "^0.2.3"
+    "zod-prisma": "^0.2.4"
   }
 }
