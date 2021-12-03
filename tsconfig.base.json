@@ -11,6 +11,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "paths": {
+      "@sentrei/app/*": ["./apps/app/src/*"],
       "@sentrei/home/*": ["./apps/home/src/*"]
     },
     "rootDir": ".",
