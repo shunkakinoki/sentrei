@@ -8512,7 +8512,7 @@ jest-worker@^27.4.2:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.4.0:
+jest@^27.4.3:
   version "27.4.3"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.4.3.tgz#cf7d1876a84c70efece2e01e4f9dfc2e464d9cbb"
   integrity sha512-jwsfVABBzuN3Atm+6h6vIEpTs9+VApODLt4dk2qv1WMOpb1weI1IIZfuwpMiWZ62qvWj78MvdvMHIYdUfqrFaA==
@@ -11835,10 +11835,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@^29.28.2:
-  version "29.29.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.29.2.tgz#6d05ada1128e637c81a65c9b0c1d0e1be4481632"
-  integrity sha512-dpnejMc8JhkOiH1w48iBobpmJRLUxJgXh6W35RuXDXAnixbgdqsY+QanJZ8qVaHrUK8QxfxUY8sJ7i5ZP+9kNA==
+renovate@^29.32.1:
+  version "29.32.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-29.32.1.tgz#c66f918a75e374e6b9bec65bb72feacfc2a4f3c6"
+  integrity sha512-YmU0EGD7B0EgrdkucEAa27prf8Syk+8levF4Z20mQZfCRLdMqy32ySCUolYaPjzI1xWdeaJuBMl4W/ppc7s1/g==
   dependencies:
     "@aws-sdk/client-ec2" "3.35.0"
     "@aws-sdk/client-ecr" "3.38.0"
@@ -14270,7 +14270,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod-prisma@^0.2.3:
+zod-prisma@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/zod-prisma/-/zod-prisma-0.2.4.tgz#477698a251dfa51b48c7ec9fad3e778eb063b016"
   integrity sha512-xiW5d9oy6aWrksNs5E1viRuUJJ8/MDA8q4Ha2OxnoK7QwSV0p1DF5DV1uBfpVnw8Nc6XmcPoIoZaBCAWvt8TKA==
