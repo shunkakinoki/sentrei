@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: sentrei/sentrei/.github/workflows/yarn.yml@main
-        secrets:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/yarn
+        with:
           token: ${{ secrets.BOT_TOKEN }}
       - run: |
           yarn run lint
