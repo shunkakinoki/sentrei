@@ -36,7 +36,7 @@ export const upstashRest = (args: any[], options?: { pipeline: boolean }) => {
 
   return upstash({
     token,
-    url: `https://${domain}${options?.pipeline ? "/pipeline" : ""}`,
+    url: `${domain}${options?.pipeline ? "/pipeline" : ""}`,
     method: "POST",
     body: JSON.stringify(args),
   });
