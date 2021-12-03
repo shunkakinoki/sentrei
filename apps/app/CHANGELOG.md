@@ -1,3 +1,17 @@
+# @sentrei/app [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.2...@sentrei/app@1.9.0) (2021-12-03)
+
+### Bug Fixes
+
+- upstash domain url ([02c5f8f](https://github.com/sentrei/sentrei/commit/02c5f8fc2f8e152cebe2fbd0b834bb5af0b3b5a8))
+
+### Features
+
+- ini edge token api limit ([0df4918](https://github.com/sentrei/sentrei/commit/0df49182c0127532e5f2cf97471ca7a7854650b8))
+
+### Performance Improvements
+
+- ini ncu upgrade ([c73ab80](https://github.com/sentrei/sentrei/commit/c73ab80f3d6d1345d98608d085606e94bb978cbc))
+
 ## @sentrei/app [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.1...@sentrei/app@1.8.2) (2021-11-28)
 
 ### Performance Improvements
