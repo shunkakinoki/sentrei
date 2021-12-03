@@ -25,8 +25,8 @@ export const Index: FC = () => {
       <div className="absolute top-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob" />
       <div className="absolute top-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-teal-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-2000" />
       <div className="absolute top-0 -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-yellow-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-3000" />
-      <div className="absolute -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-cyan-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-4000" />
-      <div className="absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-5000" />
+      <div className="hidden sm:block absolute -right-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-cyan-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-4000" />
+      <div className="hidden sm:block absolute -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-blue-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-5000" />
       <div className="absolute bottom-0 -left-4 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-pink-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-6000" />
       <div className="absolute bottom-0 w-48 sm:w-72 md:w-80 h-48 sm:h-72 md:h-80 bg-purple-300 rounded-full opacity-70 filter blur-xl animate-blob animation-delay-8000" />
       {/* eslint-disable-next-line tailwindcss/classnames-order */}
@@ -86,7 +86,7 @@ export const Index: FC = () => {
           </a>
         </div>
       </div>
-      <div className="relative md:absolute bottom-0 md:left-0 z-30 mt-8 md:mt-0 w-16 h-16 text-3xl">
+      <div className="relative md:absolute bottom-0 md:left-0 z-30 mt-24 md:mt-0 w-16 h-16 text-3xl">
         <div className="flex justify-center md:justify-start sm:ml-3 space-x-6">
           <FooterIconLink href="https://discord.gg/Sm7Fsasdqx">
             <span className="sr-only">Discord</span>
