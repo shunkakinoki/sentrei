@@ -7,46 +7,13 @@ on:
       - main
   pull_request:
 jobs:
-  nvm:
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-    outputs:
-      NVMRC: ${{ steps.nvm.outputs.NVMRC }}
-    steps:
-      - uses: actions/checkout@v2
-      - id: nvm
-        run: |
-          echo ::set-output name=NVMRC::$(cat .nvmrc)
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    needs: nvm
     steps:
-      - if: github.event_name == 'push'
-        uses: actions/checkout@v2
-        with:
+      - uses: sentrei/sentrei/.github/workflows/yarn.yml@main
+        secrets:
           token: ${{ secrets.BOT_TOKEN }}
-      - if: github.event_name == 'pull_request'
-        uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          token: ${{ secrets.BOT_TOKEN }}
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ needs.nvm.outputs.NVMRC }}
-      - id: yarn-cache-dir
-        run: |
-          echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ${{ steps.yarn-cache-dir.outputs.dir }}
-          key: |
-            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
-      - run: |
-          yarn install --frozen-lockfile
       - run: |
           yarn run lint
       - if: failure()

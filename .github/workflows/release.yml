@@ -10,33 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v2
-        with:
+      - uses: sentrei/sentrei/.github/workflows/yarn.yml@main
+        secrets:
           token: ${{ secrets.BOT_TOKEN }}
-      - id: nvm
-        run: |
-          echo ::set-output name=NVMRC::$(cat .nvmrc)
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-          always-auth: false
-          registry-url: https://registry.npmjs.org/
-          scope: "@sentrei"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - id: yarn-cache-dir
-        run: |
-          echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ${{ steps.yarn-cache-dir.outputs.dir }}
-          key: |
-            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            yarn-${{ steps.nvm.outputs.NVMRC }}-${{ runner.os }}-
-      - run: |
-          yarn install --frozen-lockfile
       - run: |
           yarn run release
         env:
