@@ -104,7 +104,9 @@ const rateLimit = async (context: RateLimitContext) => {
     const res = await onRateLimit(context);
 
     headers.concat("x-upstash-latency").forEach(key => {
-      if (key) res.headers.set(key, h.get(key)!);
+      if (key) {
+        res.headers.set(key, h.get(key)!);
+      }
     });
 
     return res;
@@ -116,7 +118,9 @@ export const initRateLimit = (fn: RateLimitHandler) => {
   return async function isRateLimited(request: NextRequest) {
     const ctx = await fn(request);
 
-    if (ctx instanceof Response) return ctx;
+    if (ctx instanceof Response) {
+      return ctx;
+    }
 
     return rateLimit({
       ...ctx,
