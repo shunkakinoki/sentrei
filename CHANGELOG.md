@@ -1,3 +1,9 @@
+## [1.75.1](https://github.com/sentrei/sentrei/compare/v1.75.0...v1.75.1) (2021-12-04)
+
+### Performance Improvements
+
+- ini api middleware ([d9b3294](https://github.com/sentrei/sentrei/commit/d9b3294facce48e56ca491b2afd3675e121c0faf))
+
 # [1.75.0](https://github.com/sentrei/sentrei/compare/v1.74.0...v1.75.0) (2021-12-04)
 
 ### Features
