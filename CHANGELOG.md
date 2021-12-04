@@ -1,3 +1,16 @@
+# [1.75.0](https://github.com/sentrei/sentrei/compare/v1.74.0...v1.75.0) (2021-12-04)
+
+### Features
+
+- ini redis package ([b23cbd2](https://github.com/sentrei/sentrei/commit/b23cbd23d79cdfe9e2b51975fcaa139827429430))
+
+### Performance Improvements
+
+- ini key testing ([395f2aa](https://github.com/sentrei/sentrei/commit/395f2aa58992316883d36ecc6ba903be18fd4ad8))
+- ini middleware substitute ([05765c6](https://github.com/sentrei/sentrei/commit/05765c6db5af08bb46fd82352f1ed4442e6815d9))
+- ini ncu upgrade ([449f28f](https://github.com/sentrei/sentrei/commit/449f28f547a35fdc662558026f29d41a716481f1))
+- ini ratelimit eq ([5169fe9](https://github.com/sentrei/sentrei/commit/5169fe9f753bfe8bde851a04eaf1e6f9ff5d4977))
+
 # [1.74.0](https://github.com/sentrei/sentrei/compare/v1.73.1...v1.74.0) (2021-12-04)
 
 ### Features
