@@ -1,3 +1,9 @@
+## @sentrei/og [1.4.5](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.4...@sentrei/og@1.4.5) (2021-12-04)
+
+### Performance Improvements
+
+- ini ncu upgrade ([449f28f](https://github.com/sentrei/sentrei/commit/449f28f547a35fdc662558026f29d41a716481f1))
+
 ## @sentrei/og [1.4.4](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.3...@sentrei/og@1.4.4) (2021-12-04)
 
 ### Performance Improvements
