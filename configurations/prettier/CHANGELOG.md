@@ -1,3 +1,9 @@
+## @sentrei/prettier [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.8.0...@sentrei/prettier@1.8.1) (2021-12-04)
+
+### Performance Improvements
+
+- ini ncu upgrade ([449f28f](https://github.com/sentrei/sentrei/commit/449f28f547a35fdc662558026f29d41a716481f1))
+
 # @sentrei/prettier [1.8.0](https://github.com/sentrei/sentrei/compare/@sentrei/prettier@1.7.0...@sentrei/prettier@1.8.0) (2021-11-27)
 
 ### Features
