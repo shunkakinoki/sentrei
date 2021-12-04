@@ -1,0 +1,26 @@
+name: E2E
+on:
+  push:
+    branches:
+      - alpha
+      - beta
+      - main
+  pull_request:
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        app: ["app"]
+    if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success' && github.event.deployment_status.environment == 'Preview - ${{ matrix.app }}'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/yarn
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+      - run: |
+          yarn run lint
+      - uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
