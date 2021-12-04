@@ -14,8 +14,6 @@ jobs:
       - id: app
         run: |
           echo ::set-output name=APP::$(echo ${{ github.event.deployment_status.environment }} | awk '{print $3}' )
-      - run: |
-          echo ${{ steps.app.outputs.APP }}
       - uses: cypress-io/github-action@v2
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
@@ -28,7 +26,7 @@ jobs:
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header 'content-type: application/json' \
           --data '{
-            "context": "e2e",
+            "context": "e2e - ${{ steps.app.outputs.APP }}",
             "state": "success",
             "description": "Cypress tests passed"
           }'
@@ -39,7 +37,7 @@ jobs:
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header 'content-type: application/json' \
           --data '{
-            "context": "e2e",
+            "context": "e2e - ${{ steps.app.outputs.APP }}",
             "state": "failure",
             "description": "Cypress tests failed"
           }'
