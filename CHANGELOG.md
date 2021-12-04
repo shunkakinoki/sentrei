@@ -1,3 +1,11 @@
+## [1.73.1](https://github.com/sentrei/sentrei/compare/v1.73.0...v1.73.1) (2021-12-04)
+
+### Performance Improvements
+
+- ini cypress app ([0cad20e](https://github.com/sentrei/sentrei/commit/0cad20e425aa9ea1aaf505deeff67fabc370b19e))
+- ini cypress env ([5e02c79](https://github.com/sentrei/sentrei/commit/5e02c796c5e7d4dd1f1819c8ddc4a25ed2b1d3e3))
+- upgrade react beta ([0fcea20](https://github.com/sentrei/sentrei/commit/0fcea20cab75d993b9d507f49a7f5d98023bec15))
+
 # [1.73.0](https://github.com/sentrei/sentrei/compare/v1.72.2...v1.73.0) (2021-12-03)
 
 ### Bug Fixes
