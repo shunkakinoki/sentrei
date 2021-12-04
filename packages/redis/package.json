@@ -12,7 +12,10 @@
   },
   "license": "GPL-3.0-or-later",
   "author": "Sentrei, Inc.",
-  "scripts": {},
+  "scripts": {
+    "env:cmd": "doppler secrets download --no-file --format env",
+    "env:pull": "yarn run env:cmd > .env"
+  },
   "dependencies": {},
   "publishConfig": {
     "access": "public",
