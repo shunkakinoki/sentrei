@@ -16,7 +16,7 @@ export const fetchAPI = async (
     return data;
   } catch (e: any) {
     if (e.message === "cancelled") {
-      console.log("Request Cancelled by the Browser", e);
+      console.warn("Request Cancelled by the Browser", e);
     } else {
       console.error(e);
     }
