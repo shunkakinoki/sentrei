@@ -12,6 +12,7 @@
   "author": "Sentrei, Inc.",
   "scripts": {
     "build": "next build",
+    "cypress:run": "cypress run",
     "dev": "next dev",
     "env:cmd": "doppler secrets download --no-file --format env",
     "env:local": "yarn run env:cmd > .env.local",
@@ -27,24 +28,29 @@
     "next": "^12.0.4",
     "next-themes": "^0.0.15",
     "next-translate": "^1.2.0",
-    "react": "^18.0.0-beta-0cc724c77-20211125",
-    "react-dom": "^18.0.0-beta-0cc724c77-20211125",
+    "react": "^18.0.0-beta-4729ff6d1-20211202",
+    "react-dom": "^18.0.0-beta-4729ff6d1-20211202",
     "recoil": "^0.5.2",
     "swr": "^1.1.0",
     "zod": "^3.11.6"
   },
   "devDependencies": {
+    "@cypress/react": "^5.10.3",
+    "@cypress/webpack-dev-server": "^1.7.0",
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/line-clamp": "^0.2.2",
     "@tailwindcss/typography": "^0.4.1",
+    "@testing-library/cypress": "^8.0.2",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.4.0",
+    "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.4",
     "prisma": "^3.5.0",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.5.2",
+    "webpack-dev-server": "^4.6.0",
     "zod-prisma": "^0.2.4"
   }
 }
