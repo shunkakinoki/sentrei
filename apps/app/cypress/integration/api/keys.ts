@@ -1,13 +1,11 @@
 export {};
 
-describe("Index", () => {
+describe("Keys", () => {
   it("GET", () => {
     cy.request({
       method: "GET",
       url: "/api/keys",
     }).should(response => {
-      console.log(response);
-      console.log(response.headers);
       expect(response.status).to.eq(200);
       expect(response.body).to.have.property("apiKeys");
       expect(response.body.apiKeys.length).to.eq(0);
@@ -18,7 +16,6 @@ describe("Index", () => {
       method: "PUT",
       url: "/api/keys",
     }).should(response => {
-      console.log(response);
       expect(response.status).to.eq(200);
       expect(response.body).to.have.property("done");
     });
@@ -28,7 +25,6 @@ describe("Index", () => {
       method: "GET",
       url: "/api/keys",
     }).then(response => {
-      console.log(response);
       const key = response.body.apiKeys[0][0];
       cy.request({
         method: "DELETE",
@@ -37,7 +33,6 @@ describe("Index", () => {
           key: key,
         },
       }).should(response => {
-        console.log(response);
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property("done");
       });
@@ -46,7 +41,6 @@ describe("Index", () => {
       method: "GET",
       url: "/api/keys",
     }).should(response => {
-      console.log(response);
       expect(response.status).to.eq(200);
       expect(response.body.apiKeys.length).to.eq(0);
     });
