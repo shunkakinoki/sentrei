@@ -1,3 +1,13 @@
+# [1.74.0](https://github.com/sentrei/sentrei/compare/v1.73.1...v1.74.0) (2021-12-04)
+
+### Features
+
+- ini cypress multi ([8dbd2ac](https://github.com/sentrei/sentrei/commit/8dbd2acf8d0e13351d0bf2d7961b71633540f2dc))
+
+### Performance Improvements
+
+- ini cypress home and og ([596b6eb](https://github.com/sentrei/sentrei/commit/596b6eb9bc241d15753cda339820aef88fb13b70))
+
 ## [1.73.1](https://github.com/sentrei/sentrei/compare/v1.73.0...v1.73.1) (2021-12-04)
 
 ### Performance Improvements
