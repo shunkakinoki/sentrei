@@ -1,3 +1,4 @@
+// eslint-disable-next-line @next/next/no-server-import-in-page
 import type { NextRequest } from "next/server";
 
 import { tokenRateLimit } from "@sentrei/app/lib/api/keys";
