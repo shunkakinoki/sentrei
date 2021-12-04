@@ -31,6 +31,9 @@ describe("API", () => {
       cy.request({
         method: "GET",
         url: "/api",
+        headers: {
+          Authorization: `Bearer: ${key}`,
+        },
       }).should(response => {
         expect(response.status).to.eq(200);
         expect(response.headers).to.have.property("x-middleware-refresh");
