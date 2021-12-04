@@ -1,3 +1,11 @@
+## @sentrei/app [1.9.3](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.9.2...@sentrei/app@1.9.3) (2021-12-04)
+
+### Performance Improvements
+
+- ini key testing ([395f2aa](https://github.com/sentrei/sentrei/commit/395f2aa58992316883d36ecc6ba903be18fd4ad8))
+- ini middleware substitute ([05765c6](https://github.com/sentrei/sentrei/commit/05765c6db5af08bb46fd82352f1ed4442e6815d9))
+- ini ratelimit eq ([5169fe9](https://github.com/sentrei/sentrei/commit/5169fe9f753bfe8bde851a04eaf1e6f9ff5d4977))
+
 ## @sentrei/app [1.9.2](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.9.1...@sentrei/app@1.9.2) (2021-12-04)
 
 ### Performance Improvements
