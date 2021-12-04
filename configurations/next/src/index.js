@@ -7,40 +7,10 @@ const withTranslate = require("next-translate");
  * @type {import('next').NextConfig}
  */
 const defaultConfig = {
-  compress: true,
-  concurrentFeatures: true,
   experimental: {
+    concurrentFeatures: true,
     optimizeCss: true,
-    optimizeFonts: true,
-    optimizeImages: true,
-    pageEnv: true,
-    plugins: true,
-    profiling: true,
-    scriptLoader: true,
-    scrollRestoration: true,
-    sprFlushToDisk: true,
-    stats: true,
-    workerThreads: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  future: {
-    excludeDefaultMomentLocales: true,
-    strictPostcssConfiguration: true,
-  },
-  generateEtags: true,
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "ja", "zh"],
-  },
-  poweredByHeader: true,
-  productionBrowserSourceMaps: true,
-  reactStrictMode: true,
-  serverComponents: true,
-  trailingSlash: false,
-  typescript: {
-    ignoreBuildErrors: false,
+    serverComponents: true,
   },
 };
 
