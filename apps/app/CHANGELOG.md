@@ -1,3 +1,9 @@
+## @sentrei/app [1.9.5](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.9.4...@sentrei/app@1.9.5) (2021-12-04)
+
+### Performance Improvements
+
+- ini api middleware ([d9b3294](https://github.com/sentrei/sentrei/commit/d9b3294facce48e56ca491b2afd3675e121c0faf))
+
 ## @sentrei/app [1.9.4](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.9.3...@sentrei/app@1.9.4) (2021-12-04)
 
 ### Performance Improvements
