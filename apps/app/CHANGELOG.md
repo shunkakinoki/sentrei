@@ -1,3 +1,10 @@
+## @sentrei/app [1.9.1](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.9.0...@sentrei/app@1.9.1) (2021-12-04)
+
+### Performance Improvements
+
+- ini cypress app ([0cad20e](https://github.com/sentrei/sentrei/commit/0cad20e425aa9ea1aaf505deeff67fabc370b19e))
+- upgrade react beta ([0fcea20](https://github.com/sentrei/sentrei/commit/0fcea20cab75d993b9d507f49a7f5d98023bec15))
+
 # @sentrei/app [1.9.0](https://github.com/sentrei/sentrei/compare/@sentrei/app@1.8.2...@sentrei/app@1.9.0) (2021-12-03)
 
 ### Bug Fixes
