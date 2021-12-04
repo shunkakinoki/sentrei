@@ -106,6 +106,7 @@ module.exports = {
       },
     ],
     "jsx-a11y/href-no-hash": "off",
+    "no-console": ["error", { allow: ["warn", "error"] }],
     "no-restricted-imports": [
       "error",
       {
