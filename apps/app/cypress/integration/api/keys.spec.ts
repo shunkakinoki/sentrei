@@ -8,7 +8,6 @@ describe("Keys", () => {
     }).should(response => {
       expect(response.status).to.eq(200);
       expect(response.body).to.have.property("apiKeys");
-      expect(response.body.apiKeys.length).to.eq(0);
     });
   });
   it("PUT", () => {
@@ -36,13 +35,6 @@ describe("Keys", () => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property("done");
       });
-    });
-    cy.request({
-      method: "GET",
-      url: "/api/keys",
-    }).should(response => {
-      expect(response.status).to.eq(200);
-      expect(response.body.apiKeys.length).to.eq(0);
     });
   });
 });

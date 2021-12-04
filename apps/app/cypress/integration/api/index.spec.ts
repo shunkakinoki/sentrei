@@ -54,16 +54,6 @@ describe("API", () => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property("done");
       });
-      cy.request({
-        method: "DELETE",
-        url: "/api/keys",
-        qs: {
-          key: key,
-        },
-      }).should(response => {
-        expect(response.status).to.eq(200);
-        expect(response.body).to.have.property("done");
-      });
     });
   });
 });
