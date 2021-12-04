@@ -14,7 +14,8 @@
   "author": "Sentrei, Inc.",
   "scripts": {
     "env:cmd": "doppler secrets download --no-file --format env",
-    "env:pull": "yarn run env:cmd > .env"
+    "env:pull": "yarn run env:cmd > .env",
+    "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {},
   "publishConfig": {

@@ -23,7 +23,7 @@
     "prisma:studio": "prisma studio"
   },
   "dependencies": {
-    "prisma": "^3.5.0"
+    "prisma": "^3.6.0"
   },
   "publishConfig": {
     "access": "public",
