@@ -1,3 +1,9 @@
+## @sentrei/og [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.2...@sentrei/og@1.4.3) (2021-12-04)
+
+### Performance Improvements
+
+- upgrade react beta ([0fcea20](https://github.com/sentrei/sentrei/commit/0fcea20cab75d993b9d507f49a7f5d98023bec15))
+
 ## @sentrei/og [1.4.2](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.1...@sentrei/og@1.4.2) (2021-11-28)
 
 ### Performance Improvements
