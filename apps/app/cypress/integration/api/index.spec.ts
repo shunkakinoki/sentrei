@@ -12,6 +12,7 @@ describe("API", () => {
       expect(response.headers).to.have.property("x-ratelimit-remaining");
       expect(response.headers).to.have.property("x-ratelimit-reset");
       expect(response.headers).to.have.property("x-upstash-latency");
+      expect(response.headers["x-ratelimit-limit"]).to.eq("5");
     });
   });
   it("Authorization", () => {
@@ -41,6 +42,7 @@ describe("API", () => {
         expect(response.headers).to.have.property("x-ratelimit-remaining");
         expect(response.headers).to.have.property("x-ratelimit-reset");
         expect(response.headers).to.have.property("x-upstash-latency");
+        expect(response.headers["x-ratelimit-limit"]).to.eq("500");
       });
       cy.request({
         method: "DELETE",
