@@ -1,3 +1,9 @@
+## @sentrei/eslint-config [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.8.1...@sentrei/eslint-config@1.8.2) (2021-12-04)
+
+### Performance Improvements
+
+- ini cypress app ([0cad20e](https://github.com/sentrei/sentrei/commit/0cad20e425aa9ea1aaf505deeff67fabc370b19e))
+
 ## @sentrei/eslint-config [1.8.1](https://github.com/sentrei/sentrei/compare/@sentrei/eslint-config@1.8.0...@sentrei/eslint-config@1.8.1) (2021-11-30)
 
 ### Performance Improvements
