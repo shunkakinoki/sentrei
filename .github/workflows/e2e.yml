@@ -11,11 +11,14 @@ jobs:
       - uses: ./.github/actions/yarn
         with:
           token: ${{ secrets.BOT_TOKEN }}
+      - id: app
+        run: |
+          echo ::set-output name=APP::$(echo ${{ github.event.deployment_status.environment }} | awk '{print $3}' )
       - uses: cypress-io/github-action@v2
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
         with:
-          working-directory: apps/app
+          working-directory: apps/${{ steps.app.outputs.APP }}
       - if: ${{ success() }}
         run: |
           curl --request POST \
@@ -23,7 +26,7 @@ jobs:
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header 'content-type: application/json' \
           --data '{
-            "context": "e2e",
+            "context": "e2e - ${{ steps.app.outputs.APP }}",
             "state": "success",
             "description": "Cypress tests passed"
           }'
@@ -34,7 +37,7 @@ jobs:
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header 'content-type: application/json' \
           --data '{
-            "context": "e2e",
+            "context": "e2e - ${{ steps.app.outputs.APP }}",
             "state": "failure",
             "description": "Cypress tests failed"
           }'

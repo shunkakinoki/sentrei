@@ -182,3 +182,6 @@ amplifytools.xcconfig
 #amplify-do-not-edit-end
 
 apps/app/prisma/zod/**
+
+cypress/videos
+cypress/screenshots

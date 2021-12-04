@@ -18,6 +18,7 @@
     ]
   },
   "scripts": {
+    "cypress:install": "CYPRESS_INSTALL_BINARY=~/Downloads/cypress.zip yarn add -D -W cypress",
     "eslint:cmd": "eslint --config .eslintrc.js --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint",
     "eslint:fix": "yarn run eslint:cmd . --fix",
     "eslint:lint": "yarn run eslint:cmd .",
