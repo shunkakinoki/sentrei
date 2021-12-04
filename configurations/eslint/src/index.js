@@ -7,6 +7,7 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:cypress/recommended",
     "plugin:import/errors",
     "plugin:import/typescript",
     "plugin:import/warnings",

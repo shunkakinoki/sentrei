@@ -16,8 +16,8 @@ jobs:
       - uses: ./.github/actions/yarn
         with:
           token: ${{ secrets.BOT_TOKEN }}
-      - run: |
-          yarn run lint
       - uses: cypress-io/github-action@v2
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
+        with:
+          working-directory: apps/app

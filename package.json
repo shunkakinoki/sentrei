@@ -18,7 +18,6 @@
     ]
   },
   "scripts": {
-    "dev": "next dev",
     "eslint:cmd": "eslint --config .eslintrc.js --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint",
     "eslint:fix": "yarn run eslint:cmd . --fix",
     "eslint:lint": "yarn run eslint:cmd .",
@@ -38,10 +37,12 @@
     "release": "yarn run multi-semantic-release && yarn run semantic-release",
     "release:check": "yarn run multi-semantic-release:check && yarn run semantic-release:check",
     "semantic-release": "semantic-release",
-    "semantic-release:check": "semantic-release --dry-run",
-    "start": "next start"
+    "semantic-release:check": "semantic-release --dry-run"
   },
   "npmpackagejsonlint": {
     "extends": "@sentrei/npm-package-json-lint-config"
+  },
+  "dependencies": {
+    "eslint-plugin-cypress": "^2.12.1"
   }
 }
