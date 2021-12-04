@@ -1,3 +1,9 @@
+## @sentrei/prisma [1.0.1](https://github.com/sentrei/sentrei/compare/@sentrei/prisma@1.0.0...@sentrei/prisma@1.0.1) (2021-12-04)
+
+### Performance Improvements
+
+- ini ncu upgrade ([449f28f](https://github.com/sentrei/sentrei/commit/449f28f547a35fdc662558026f29d41a716481f1))
+
 # @sentrei/prisma 1.0.0 (2021-11-28)
 
 ### Performance Improvements
