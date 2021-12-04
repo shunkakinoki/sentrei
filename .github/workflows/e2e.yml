@@ -11,11 +11,16 @@ jobs:
       - uses: ./.github/actions/yarn
         with:
           token: ${{ secrets.BOT_TOKEN }}
+      - id: app
+        run: |
+          echo ::set-output name=APP::$(echo ${{ github.event.deployment_status.environment }} | awk '{print $3}' )
+      - run: |
+          echo ${{ steps.app.outputs.APP }}
       - uses: cypress-io/github-action@v2
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
         with:
-          working-directory: apps/app
+          working-directory: apps/${{ steps.app.outputs.APP }}
       - if: ${{ success() }}
         run: |
           curl --request POST \
