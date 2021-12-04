@@ -1,3 +1,10 @@
+## @sentrei/home [1.8.3](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.2...@sentrei/home@1.8.3) (2021-12-04)
+
+### Performance Improvements
+
+- ini cypress env ([5e02c79](https://github.com/sentrei/sentrei/commit/5e02c796c5e7d4dd1f1819c8ddc4a25ed2b1d3e3))
+- upgrade react beta ([0fcea20](https://github.com/sentrei/sentrei/commit/0fcea20cab75d993b9d507f49a7f5d98023bec15))
+
 ## @sentrei/home [1.8.2](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.1...@sentrei/home@1.8.2) (2021-12-03)
 
 ### Performance Improvements
