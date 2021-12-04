@@ -1,3 +1,9 @@
+## @sentrei/og [1.4.4](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.3...@sentrei/og@1.4.4) (2021-12-04)
+
+### Performance Improvements
+
+- ini cypress home and og ([596b6eb](https://github.com/sentrei/sentrei/commit/596b6eb9bc241d15753cda339820aef88fb13b70))
+
 ## @sentrei/og [1.4.3](https://github.com/sentrei/sentrei/compare/@sentrei/og@1.4.2...@sentrei/og@1.4.3) (2021-12-04)
 
 ### Performance Improvements
