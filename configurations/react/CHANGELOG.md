@@ -1,3 +1,9 @@
+## @sentrei/react [1.3.2](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.3.1...@sentrei/react@1.3.2) (2021-12-04)
+
+### Performance Improvements
+
+- upgrade react beta ([0fcea20](https://github.com/sentrei/sentrei/commit/0fcea20cab75d993b9d507f49a7f5d98023bec15))
+
 ## @sentrei/react [1.3.1](https://github.com/sentrei/sentrei/compare/@sentrei/react@1.3.0...@sentrei/react@1.3.1) (2021-11-28)
 
 ### Performance Improvements
