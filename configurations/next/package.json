@@ -20,10 +20,10 @@
     "fix": "cd ../.. && yarn run fix"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^12.0.4",
+    "@next/bundle-analyzer": "^12.0.6",
     "@sentry/nextjs": "^6.15.0",
     "critters": "^0.0.15",
-    "next": "^12.0.4",
+    "next": "^12.0.6",
     "next-compose-plugins": "^2.2.1",
     "next-translate": "^1.2.0"
   },
