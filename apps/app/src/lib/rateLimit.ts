@@ -85,7 +85,6 @@ const rateLimit = async (context: RateLimitContext) => {
   const remaining = countOrRes instanceof Response ? 0 : limit - countOrRes;
   const reset = (time + 1) * timeframe;
 
-  // Temporal logging
   const latency = Date.now() - start;
   h.set("x-upstash-latency", `${latency}`);
 
