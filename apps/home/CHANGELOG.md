@@ -1,3 +1,9 @@
+## @sentrei/home [1.8.6](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.5...@sentrei/home@1.8.6) (2021-12-05)
+
+### Performance Improvements
+
+- refactor next config ([49e1c10](https://github.com/sentrei/sentrei/commit/49e1c10634e78cb8864ef6e694ac30443078726d))
+
 ## @sentrei/home [1.8.5](https://github.com/sentrei/sentrei/compare/@sentrei/home@1.8.4...@sentrei/home@1.8.5) (2021-12-04)
 
 ### Performance Improvements
