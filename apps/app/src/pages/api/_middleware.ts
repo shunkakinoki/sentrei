@@ -4,8 +4,6 @@ import type { NextRequest } from "next/server";
 import { tokenRateLimit } from "@sentrei/app/lib/api/keys";
 
 export const middleware = async (req: NextRequest) => {
-  // eslint-disable-next-line no-console
-  console.log(req);
   if (req.nextUrl.pathname === "/api") {
     const res = await tokenRateLimit(req);
     if (res.status !== 200) {
