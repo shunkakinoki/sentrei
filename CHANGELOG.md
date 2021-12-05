@@ -1,3 +1,10 @@
+## [1.75.2](https://github.com/sentrei/sentrei/compare/v1.75.1...v1.75.2) (2021-12-05)
+
+### Performance Improvements
+
+- refactor next config ([49e1c10](https://github.com/sentrei/sentrei/commit/49e1c10634e78cb8864ef6e694ac30443078726d))
+- refactor next config ([fc0858f](https://github.com/sentrei/sentrei/commit/fc0858f06fe961c4556181f9cb7b216817341bf6))
+
 ## [1.75.1](https://github.com/sentrei/sentrei/compare/v1.75.0...v1.75.1) (2021-12-04)
 
 ### Performance Improvements
