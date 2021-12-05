@@ -1,10 +1,8 @@
-const { defaultConfig } = require("@sentrei/next");
-
 /**
  * @type {import('next').NextConfig}
  */
-const config = {
-  ...defaultConfig,
+module.exports = {
+  experimental: {
+    optimizeCss: true,
+  },
 };
-
-module.exports = config;
