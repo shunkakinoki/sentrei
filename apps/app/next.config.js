@@ -4,6 +4,6 @@
 module.exports = {
   experimental: {
     concurrentFeatures: true,
-    serverComponents: true,
+    serverComponents: false,
   },
 };
